@@ -4,7 +4,7 @@
   "current_track": "Summit Point - Jefferson Circuit",
   "current_car": "Ray FF1600",
   "focus": "Sector 1 Consistency (Entry Phase)",
-  "goal": "S1 Average under 29.0s and consistency under 1.5s σ",
+  "goal": "S1 σ under 0.40s and average under 28.0s",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -40,6 +40,17 @@
       "incidents": 39,
       "focus_area": "Sector 1 (Entry Phase) - 0.61s loss per lap, σ = 0.66s",
       "notes": "Second session of the day (3 hours after first). Paradox session: Objectively faster (0.3s improvement) and WAY more consistent (6x improvement in σ), but Master Lonn felt 'all over the place' and 'no feel'. Classic overdriving symptom. S2 is locked in (0.28s loss, σ = 0.19s). Key insight: Can't brute-force feel. Need to dial back to 95% and build rhythm first. The disconnect between objective improvement and subjective feeling is strong."
+    },
+    {
+      "date": "2025-12-12",
+      "time": "09:41 UTC",
+      "track": "Summit Point - Jefferson Circuit",
+      "best_lap": 50.985,
+      "consistency_sigma": 1.813,
+      "clean_laps": 34,
+      "incidents": 18,
+      "focus_area": "Sector 1 (Entry Phase) - 0.58s loss per lap, σ = 0.50s",
+      "notes": "BREAKTHROUGH SESSION: Master Lonn consciously chose NOT to overdrive and it WORKED. S1 consistency improved (0.66s → 0.50s σ), incidents cut in HALF (39 → 18), and most importantly - IT FELT BETTER. Overall σ went up (0.86s → 1.81s) because S2 fell apart (0.19s → 1.19s σ), but this is the cost of focused learning. Can't hold everything perfect while rewiring one corner. Key insight: Master Lonn recognized 'not overdriving' in real-time - internal calibration is developing. The paradox reversed: Less consistent overall but FELT better because the improvement was intentional. PB of 50.985s (sub-51!) achieved through control, not chaos."
     }
   ],
   "insights": [
@@ -49,21 +60,27 @@
     "Eager to learn and improve pace",
     "Adapts well to challenging conditions",
     "Asks the right questions about improvement",
-    "Sector 2 is LOCKED IN - found the rhythm there (σ = 0.19s)",
-    "Biggest opportunities are in S1 (entry) and S3 (exit)",
     "CRITICAL INSIGHT: Master Lonn experiences 'feel disconnect' when overdriving - lap times improve but confidence tanks",
     "Pushing harder doesn't always equal better results for ADHD drivers - need rhythm and reference points",
-    "When S1 is messy, S3 suffers (cascade effect)",
-    "Master Lonn's brain needs the mental model to match physical execution or it feels chaotic"
+    "Master Lonn's brain needs the mental model to match physical execution or it feels chaotic",
+    "BREAKTHROUGH: Master Lonn can now RECOGNIZE when he's overdriving in real-time - internal calibration developing!",
+    "Focused practice works: When told to focus on S1, he improved S1 (24% better σ) even if other sectors got messy",
+    "For ADHD brain: Better to improve ONE thing intentionally than try to hold everything perfect",
+    "Master Lonn values FEEL over pure lap time - sustainable for long-term improvement",
+    "Discipline is improving: Incidents cut in half when not overdriving",
+    "S1 consistency trend: 1.07s → 0.66s → 0.50s (steady improvement across 3 sessions)",
+    "Trade-off is real: S2 went from locked-in (0.19s σ) to messy (1.19s σ) while fixing S1 - this is expected",
+    "Master Lonn doesn't get discouraged by temporary messiness in unfocused areas - good mental approach"
   ],
   "next_steps": [
-    "STOP chasing lap time, START chasing rhythm",
-    "Dial back to 95% effort in S1 to find the FEEL",
-    "Pick ONE braking point, ONE turn-in, ONE throttle point - repeat 5 laps identically",
-    "Target: S1 average under 28.5s with σ under 0.5s",
+    "Continue S1 focus - you're at 0.50s σ, push to 0.40s (locking it in)",
+    "Target: S1 average under 28.0s (currently 28.3s)",
+    "Maintain the 'not overdriving' feel - that's the secret sauce",
     "Goal: 5 consecutive laps where S1 is within 0.2s of each other",
-    "Use S2 feeling (which is locked in) as reference for how S1 should feel",
-    "After rhythm is established at 95%, THEN push for lap time"
+    "Don't stress about S2 messiness - it'll come back once S1 is bulletproof",
+    "Once S1 is locked (σ < 0.40s), THEN bring S2 back from vacation",
+    "Keep using the internal calibration you're developing ('Am I overdriving right now?')",
+    "Remember: Speed through control, not chaos"
   ]
 }
 
