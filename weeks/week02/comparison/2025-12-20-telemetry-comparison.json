@@ -1,0 +1,169 @@
+{
+  "comparison_date": "2025-12-20",
+  "current_lap": {
+    "time": "1:29.691",
+    "file": "data/2025-12-20-15-22-rudskogen-practice-ray-ff1600-01-29-691.csv"
+  },
+  "reference_lap": {
+    "time": "1:28.969",
+    "date": "2024-07-12 11:55 UTC",
+    "context": "2024 PB - same series, 5 months ago",
+    "event": "https://garage61.net/app/event/01K01P8HX54V00C6D8ETQ3Z5TQ",
+    "file": "data/compare/Garage 61 - Lonn Ponn - Ray FF1600 - Rudskogen Motorsenter - 01.28.969 - 01K01QJWQBTYCMY2FNF6KN1AAH.csv"
+  },
+  "gap": "0.722s",
+  "summary": {
+    "avg_speed_delta": "-0.85 km/h (current slower)",
+    "max_speed_delta": "+0.87 km/h (current faster)",
+    "min_speed_delta": "+4.96 km/h (current faster - carrying more minimum speed!)",
+    "avg_throttle_delta": "+0.7% (current more)",
+    "max_brake_pressure_current": "89.8%",
+    "max_brake_pressure_reference": "79.1%"
+  },
+  "speed_delta_by_section": [
+    {
+      "lap_pct": 0,
+      "description": "Start/Finish straight",
+      "delta_kmh": -2.45,
+      "current_speed": 166.3,
+      "reference_speed": 168.7,
+      "analysis": "Losing time on straight - likely exit from previous corner"
+    },
+    {
+      "lap_pct": 10,
+      "description": "T1/T2 area (BREAKTHROUGH ZONE)",
+      "delta_kmh": 2.49,
+      "current_speed": 146.5,
+      "reference_speed": 144.0,
+      "current_brake": 0.86,
+      "reference_brake": 0.78,
+      "analysis": "FASTER! T2 50-sign brake breakthrough is WORKING! Braking harder and carrying more speed"
+    },
+    {
+      "lap_pct": 20,
+      "description": "After T2 acceleration",
+      "delta_kmh": -1.30,
+      "current_speed": 132.9,
+      "reference_speed": 134.2,
+      "analysis": "Slight loss on acceleration out"
+    },
+    {
+      "lap_pct": 30,
+      "description": "Fast section",
+      "delta_kmh": 0.01,
+      "current_speed": 183.3,
+      "reference_speed": 183.3,
+      "analysis": "Equal - both at full throttle"
+    },
+    {
+      "lap_pct": 40,
+      "description": "Mid-lap slow section (MAJOR LOSS)",
+      "delta_kmh": -7.04,
+      "current_speed": 129.4,
+      "reference_speed": 136.5,
+      "analysis": "BIGGEST LOSS! 7 km/h slower - this is the smoking gun. Likely mid-corner or approach to slow corner"
+    },
+    {
+      "lap_pct": 50,
+      "description": "Corner exit (MAJOR GAIN)",
+      "delta_kmh": 5.39,
+      "current_speed": 124.7,
+      "reference_speed": 119.3,
+      "current_throttle": 100.0,
+      "reference_throttle": 72.3,
+      "analysis": "FASTER! Full throttle vs 72% - getting on power earlier OR carrying more speed"
+    },
+    {
+      "lap_pct": 60,
+      "description": "Mid-section",
+      "delta_kmh": -0.58,
+      "current_speed": 119.9,
+      "reference_speed": 120.5,
+      "analysis": "Marginal loss"
+    },
+    {
+      "lap_pct": 70,
+      "description": "Technical section",
+      "delta_kmh": -0.20,
+      "current_speed": 78.6,
+      "reference_speed": 78.8,
+      "current_throttle": 50.0,
+      "reference_throttle": 4.3,
+      "analysis": "Marginal - more aggressive on throttle (50% vs 4%)"
+    },
+    {
+      "lap_pct": 80,
+      "description": "Mid-section",
+      "delta_kmh": 0.50,
+      "current_speed": 100.8,
+      "reference_speed": 100.3,
+      "analysis": "Slight gain"
+    },
+    {
+      "lap_pct": 90,
+      "description": "Final section",
+      "delta_kmh": -1.60,
+      "current_speed": 95.3,
+      "reference_speed": 96.9,
+      "current_throttle": 57.2,
+      "reference_throttle": 1.4,
+      "analysis": "Loss despite more throttle - likely losing time earlier in the section"
+    }
+  ],
+  "key_findings": {
+    "biggest_gains": [
+      {
+        "location": "50% lap",
+        "gain": "+5.39 km/h",
+        "reason": "Better power application - full throttle vs 72%"
+      },
+      {
+        "location": "10% lap (T2)",
+        "gain": "+2.49 km/h",
+        "reason": "T2 50-sign brake breakthrough working!"
+      }
+    ],
+    "biggest_losses": [
+      {
+        "location": "40% lap",
+        "loss": "-7.04 km/h",
+        "reason": "SMOKING GUN - mid-lap slow section, likely mid-corner speed or approach"
+      },
+      {
+        "location": "0% lap (Start/Finish)",
+        "loss": "-2.45 km/h",
+        "reason": "Exit from previous corner affecting straight-line speed"
+      }
+    ]
+  },
+  "coaching_insights": {
+    "celebrate": [
+      "T2 breakthrough is VALIDATED by data - you're 2.5 km/h faster there now!",
+      "Carrying 5 km/h MORE minimum speed than PB lap (better corner speed overall)",
+      "Better power application at 50% lap (+5.4 km/h gain)"
+    ],
+    "focus_areas": [
+      {
+        "priority": 1,
+        "location": "40% lap distance",
+        "issue": "7 km/h speed loss - MAJOR opportunity",
+        "potential": "~0.4-0.5s available here",
+        "action": "Identify which corner this is and work on mid-corner speed or entry"
+      },
+      {
+        "priority": 2,
+        "location": "Final corner exit (affects 0% lap speed)",
+        "issue": "2.45 km/h slower on straight",
+        "potential": "~0.2s available",
+        "action": "Final corner exit needs work - affects entire main straight"
+      }
+    ],
+    "technical_notes": [
+      "Braking more aggressively now (89.8% vs 79.1% max pressure)",
+      "Average throttle slightly higher (+0.7%) = more aggressive overall",
+      "Minimum corner speed UP by 5 km/h = fundamental improvement in cornering",
+      "Gap of 0.722s is achievable - two main areas identified"
+    ]
+  }
+}
+

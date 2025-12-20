@@ -145,7 +145,7 @@ The rest of Rudskogen? You remembered it like you never left. But T2? That's the
 
 | Session    | Best Lap     | Consistency | S2 Avg | S2 σ  | Notes                          |
 | :--------- | :----------- | :---------- | :----- | :---- | :----------------------------- |
-| **2023**   | **1:28.762** | ?           | ?      | ?     | **Old PB (1 year ago)**        |
+| **2024**   | **1:28.762** | ?           | ?      | ?     | **Old PB (1 year ago)**        |
 | 2025-12-18 | 1:30.290     | 1.43s       | 31.81s | 0.75s | Week 02 Day 1 - T2 is the rust |
 
 **Gap to close**: 1.528s total (0.96s is T2, 0.57s is everywhere else)
