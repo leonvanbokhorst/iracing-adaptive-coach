@@ -1,22 +1,33 @@
 {
   "season": "01 2026",
-  "current_week": "1 (COMPLETE - VICTORY 🏆)",
-  "current_track": "Summit Point - Jefferson Circuit",
+  "current_week": "2 (IN PROGRESS)",
+  "current_track": "Rudskogen Motorsenter",
   "current_car": "Ray FF1600",
-  "focus": "Flow state mastery - accessing 'Metronome city' on demand",
-  "goal": "Replicate flow state on new tracks (Week 02: Rudskogen)",
+  "focus": "Sector 2 (T2) turn-in and braking consistency - removing the rust",
+  "goal": "S2 average under 31.0s, S2 σ under 0.5s (currently 31.81s avg, 0.75s σ)",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
       "Varied greetings",
       "Visual formatting",
-      "Emotional engagement"
+      "Emotional engagement",
+      "Emotional range coaching (supportive, frustrated, demanding, 'I told you so', matter-of-fact)"
     ],
     "preferences": [
       "Prefers numbers over charts",
       "Responds well to having feelings validated by data",
-      "Enjoys humor and sass"
-    ]
+      "Enjoys humor and sass",
+      "Responds well to proper racing coach emotional range (not just cheerleading)"
+    ],
+    "coaching_moods": {
+      "supportive": "When progress is made, advice followed, PBs achieved",
+      "matter_of_fact": "Neutral sessions, first time at tracks, normal practice",
+      "skeptical": "When excuses appear, times don't match story",
+      "frustrated": "3+ sessions without improvement, same mistake repeated",
+      "confrontational": "When advice is ignored completely, wasting potential",
+      "i_told_you_so": "When Master Lonn finally listens and it works (victory moments)",
+      "bad_hair_day": "10% random grumpy/less patient for unpredictability"
+    }
   },
   "session_history": [
     {
@@ -156,7 +167,20 @@
       "incidents": 3,
       "result": "P1 - VICTORY 🏆",
       "focus_area": "FLOW STATE UNDER REAL RACE PRESSURE",
-      "notes": "THE VICTORY. First REAL multiplayer race. Quali: 50.991s (sub-51s!) but spun on lap 2, locked P3. Race: 'Came off racing line pretty quick. Stayed calm. Watched others go off track laps 4-5. Felt amazing to coast in first place and nobody could even get close. METRONOME CITY 😅' NEW ALL-TIME PB: 50.913s (0.145s faster than AI flow state!). σ = 0.70s in multiplayer = ELITE consistency under REAL pressure (most rookies 2-3s). FIVE consecutive sub-51.2s laps (3-7): 50.92, 50.92, 50.91, 50.92, 51.12 = sustained flow, not lucky. 99.4% of theoretical optimal (50.913s vs 50.611s). S1 & S2 locked (σ = 0.20s, 0.14s). Mental resilience: Spun in quali, stayed calm, won race. Tactical awareness: 'Got off racing line quickly' = racecraft developing. Calm under pressure: Others crashed, he flowed. 'Nobody could even get close' = DOMINATED, not just won. PARADIGM SHIFT: Flow state TRANSFERS to real racing. Proved 'easy flying' works against humans, not just AI. 'Metronome city' = same flow state language. Week 01 complete: 51.438s → 50.913s (0.525s improvement), scared → CHAMPION. This is what mastery under pressure looks like."
+      "notes": "THE VICTORY. First REAL multiplayer race. Quali: 50.991s (sub-51s!) but spun on lap 2, locked P3. Race: 'Came off racing line pretty quick. Stayed calm. Watched others go off track laps 4-5. Felt amazing to coast in first place and nobody could even get close. METRONOME CITY 😅' NEW ALL-TIME PB: 50.913s (0.145s faster than AI flow state!). σ = 0.70s in multiplayer = ELITE consistency under REAL pressure (most rookies 2-3s). FIVE consecutive sub-51.2s laps (3-7): 50.92, 50.92, 0.91, 50.92, 51.12 = sustained flow, not lucky. 99.4% of theoretical optimal (50.913s vs 50.611s). S1 & S2 locked (σ = 0.20s, 0.14s). Mental resilience: Spun in quali, stayed calm, won race. Tactical awareness: 'Got off racing line quickly' = racecraft developing. Calm under pressure: Others crashed, he flowed. 'Nobody could even get close' = DOMINATED, not just won. PARADIGM SHIFT: Flow state TRANSFERS to real racing. Proved 'easy flying' works against humans, not just AI. 'Metronome city' = same flow state language. Week 01 complete: 51.438s → 50.913s (0.525s improvement), scared → CHAMPION. This is what mastery under pressure looks like."
+    },
+    {
+      "date": "2025-12-18",
+      "time": "11:19 UTC",
+      "session_type": "Practice (Offline Testing)",
+      "track": "Rudskogen Motorsenter",
+      "best_lap": 90.290,
+      "consistency_sigma": 1.43,
+      "clean_laps": 18,
+      "total_laps": 29,
+      "incidents": 11,
+      "focus_area": "Sector 2 (T2) turn-in and braking - removing rust from year-long break",
+      "notes": "WEEK 02 - RUDSKOGEN REUNION. First session at Rudskogen after 1+ year break (old PB: 88.762s from 2023). Master Lonn: 'Felt familiar, but still looking for the correct turn-in and braking in T2. Still struggling a bit... rusty... but we'll get there.' Gap to old PB: 1.528s (expected after year off). CRITICAL FINDING: Only 1.5s off old PB = excellent retention. But the rust is CONCENTRATED in ONE place: Sector 2 (T2). S2 loss = 0.96s/lap (63% of total gap!), S2 σ = 0.75s (unpredictable 30.8s → 32.4s swings). Every other sector? JEFFERSON-LEVEL consistency already! S1 σ = 0.40s, S3 σ = 0.27s, S4 σ = 0.22s = core driving skill INTACT. Theoretical optimal: 89.993s (sub-90s pace exists NOW). Master Lonn's instinct was SPOT ON: Knew T2 was the problem before seeing data. Mental state: 'Rusty but we'll get there' = acceptance without frustration (perfect mindset). PARADIGM: Not rusty everywhere, rusty in ONE corner. Familiar track advantage: First session σ = 1.43s vs Jefferson Day 1 σ = 5.71s (4x better). Brain knows Rudskogen, just needs to remember T2 muscle memory. Next focus: T2 turn-in and brake markers - pick ONE, drill it, make it automatic again. Once T2 is automatic, brain can stop THINKING and start FLOWING."
     }
   ],
   "insights": [
@@ -256,27 +280,42 @@
     "Next phase: Document flow TRIGGERS (sleep, warmup, mental prep, time of day, pressure)",
     "Flow isn't automatic - must understand variables that create the state",
     "Can recognize non-flow EARLY ('lost focus') = opportunity to reset before session continues",
-    "Trying to replicate flow by forcing it = guaranteed to fail (must let it come)"
+    "Trying to replicate flow by forcing it = guaranteed to fail (must let it come)",
+    "RUDSKOGEN WEEK 02 - FIRST SESSION INSIGHTS:",
+    "Familiar track after 1+ year = 4x better starting consistency than new track (1.43s vs 5.71s)",
+    "Gap to old PB (1.528s) is 63% concentrated in ONE sector (S2 = 0.96s loss)",
+    "Rust is LOCALIZED, not systemic: S1/S3/S4 instantly at Jefferson flow-level consistency",
+    "Master Lonn's instinct remains ELITE: Knew T2 was the issue before seeing any data",
+    "'Felt familiar but looking for turn-in/braking' = exactly what data showed (S2 variance)",
+    "Mental state: 'Rusty but we'll get there' = no frustration, just patience and determination",
+    "Sub-90s pace exists NOW (theoretical 89.993s) = not chasing speed, chasing S2 consistency",
+    "Familiar track advantage: Brain retained track knowledge, just lost ONE corner's muscle memory",
+    "S2 variance (0.75s, 30.8s → 32.4s swings) = SEARCHING for line, not EXECUTING line",
+    "T2 keeping Master Lonn in his HEAD (thinking about brake/turn-in) = blocks flow state access",
+    "Once T2 becomes automatic → brain stops thinking → flow can return (same as Jefferson S1 learning)",
+    "First session back = baseline established, focus identified, path forward clear"
   ],
   "next_steps": [
-    "WEEK 01 STATUS: ✅ COMPLETE (50.768s PB, flow discovered, contrast learned)",
-    "PRIMARY FOCUS: UNDERSTAND FLOW TRIGGERS - What creates conditions for 'easy flying'?",
-    "DOCUMENT THE VARIABLES: Compare Dec 14 (flow) vs Dec 15 (non-flow)",
-    "Flow session (Dec 14 16:24): What did you eat? Sleep? Warmup? Time of day? Mental state before?",
-    "Non-flow session (Dec 15 18:02): What was DIFFERENT? Tried to replicate 50.7s? (Expectation kills flow)",
-    "Critical insight: Trying to FORCE flow = guaranteed failure (must let it come)",
-    "Learn to recognize non-flow EARLY: 'Lost focus' = reset signal, not push-through signal",
-    "The 0.487s lesson: Flow (50.768s) vs Non-flow (51.255s) = quantified price of mental state",
-    "Week 01 contrast complete: Now knows BOTH flow and non-flow (this IS mastery development)",
-    "WEEK 02 (Rudskogen): Real test - can you find flow on NEW track?",
-    "Rudskogen strategy: Don't chase Jefferson times, chase the FEELING ('easy flying')",
-    "New track = fresh start = no expectations = potentially EASIER to access flow",
-    "Document flow WHEN it happens: Immediately write down what you did before/during",
-    "Accept non-flow sessions: They teach you what flow ISN'T (equally valuable)",
-    "Standards raised permanently: 51.2s feels slow after tasting 50.7s (this is growth)",
-    "Jefferson baseline: 50.7s-51.0s in flow, 51.2-51.5s when not",
-    "Flow is universal: Found it on Jefferson = can find it ANYWHERE",
-    "Long-term: Access flow on demand = championship mental skill"
+    "WEEK 01 STATUS: ✅ COMPLETE (50.913s victory, flow state transferred to multiplayer)",
+    "WEEK 02 STATUS: 🏁 IN PROGRESS (Day 1 complete, baseline established)",
+    "PRIMARY FOCUS: Sector 2 (T2) turn-in and braking consistency",
+    "CURRENT GOAL: S2 average under 31.0s (from 31.81s), S2 σ under 0.5s (from 0.75s)",
+    "Next session strategy (3-phase approach):",
+    "  Phase 1 (Laps 1-5): EXPLORE different T2 turn-in points and brake markers - which FEELS right?",
+    "  Phase 2 (Laps 6-15): COMMIT to one turn-in/brake combo - DRILL it for repeatability",
+    "  Phase 3 (Laps 16+): TRUST it - stop thinking, start executing, let automation happen",
+    "Don't chase lap time in next session - chase T2 REPEATABILITY (hit same markers 10x in a row)",
+    "Success metric: S2 variance dropping (0.75s → 0.5s or better) = line becoming automatic",
+    "Once T2 is automatic: Brain stops thinking about it → can access flow state again",
+    "DOCUMENT FLOW TRIGGERS: Continue tracking sleep, warmup, mental state before sessions",
+    "Rudskogen old PB: 1:28.762 (88.762s) - currently 90.290s (1.528s gap)",
+    "Gap breakdown: 0.96s is S2 (63%), 0.57s is other sectors (37%) = clear target",
+    "Sub-90s pace exists NOW (theoretical 89.993s) = consistency unlock will reveal it",
+    "Flow state strategy: Don't force it, create conditions (T2 automatic = one condition)",
+    "Remember Jefferson learning: S1 became automatic → flow appeared → times dropped",
+    "Parallel track: Continue documenting what flow FEELS like vs non-flow (building awareness)",
+    "Week 02 goal: Match Jefferson consistency levels (σ = 0.36-0.70s depending on pressure)",
+    "Long-term: Access flow on demand by understanding triggers and removing thinking blockers"
   ]
 }
 

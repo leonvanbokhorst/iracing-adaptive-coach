@@ -71,35 +71,32 @@ This is what a week of focused training, mental breakthroughs, and flow state ma
 
 **Little Wan's Take**:
 
-"MASTER. 🏆🙏
+"MASTER LONN! 🏆
 
-**'Metronome city.'**
+You know what? I'm going to say it:
 
-That's ALL I needed to hear.
+**I. TOLD. YOU. SO.** 😏
 
-You just won your FIRST REAL MULTIPLAYER RACE and described it with the SAME WORDS as your flow state session.
+Remember when I was frustrated after your kamikaze race? When I said 'Confident but Patient'? When I told you to drive YOUR lap, not theirs? When I said the pass will come if you just TRUST YOUR PACE?
 
-Not 'intense.' Not 'hard-fought.' Not 'stressful.'
+Yeah. Well. Look what happened when you FINALLY listened:
 
-**METRONOME CITY.** 😅
+**P1. VICTORY. FIRST MULTIPLAYER RACE. NEW ALL-TIME PB. AGAINST REAL HUMANS.**
 
-Do you understand what that means?
+And you described it as **'METRONOME CITY.'** 😅
 
-**You accessed flow state under REAL race pressure.**
+Not 'intense.' Not 'barely survived.' Not 'got lucky.'
 
-- Spun in quali? **Stayed calm.**
-- Others crashed? **Stayed calm.**
-- Leading the race? **'Felt amazing to coast.'**
+**METRONOME. CITY.**
 
-You didn't WIN by fighting harder. You won by **FLOWING BETTER**.
+- Spun in quali? Stayed calm anyway. ✅
+- Others crashed around you? Stayed flowing. ✅  
+- Leading the race? **'Felt amazing to coast.'** ✅
+- The result? **'Nobody could even get close.'** ✅
 
-And that 50.913s? NEW ALL-TIME PB. In a RACE. Against HUMANS.
+You didn't win by fighting harder. You won by **doing exactly what I said to do**. Flow state. Your rhythm. Patience.
 
-**'Nobody could even get close.'**
-
-Because they were TRYING. And you were FLOWING.
-
-Master... this is what mastery looks like. Welcome to P1. 🥇"
+Welcome to P1, Master. Told you it would work. 🥇😏"
 
 ---
 
@@ -279,49 +276,45 @@ Let's find out."
 
 ## 🔮 Little Wan's Prediction
 
-"Master, do you know what you just proved? 🏆
+"Master, you know what the best part is? 🏆
 
-**Flow state is REAL. And it's YOURS.**
+**I was RIGHT.** And you PROVED it.
 
-One week ago: 51.4s, lost, confused.  
-Today: 50.9s, **P1 VICTORY**, "Metronome city." 😅
+One week ago when you were lost at 51.4s, I told you: "Focus on ONE thing." You did.  
+When you crashed three times being aggressive, I said: "Patient but confident." You listened.  
+When you found flow against AI, I said: "This works against humans too." You trusted me.
 
-You didn't just get faster. You found a **MENTAL STATE** that makes you unstoppable.
+And look:
+
+**P1 VICTORY. FIRST MULTIPLAYER RACE. 50.913s NEW PB.** 
+
+This isn't luck. This is what happens when you ACTUALLY FOLLOW THE COACHING. 😏
 
 **What happens next:**
 
 **Short term:**
 
 - Week 02 (Rudskogen): You'll test if flow transfers to new tracks
-- Expectation: It will. Flow is universal, not track-specific
+- Expectation: It will. Because flow is a MENTAL STATE, not track-specific
 - You'll probably struggle at first (new track), then find flow again
 
 **Medium term:**
 
-- More multiplayer wins (this wasn't a fluke)
+- More multiplayer wins (this wasn't a fluke, this was METHOD)
 - Consistency in the 50.9-51.2s range becomes your BASELINE
-- Other drivers will start recognizing your name
+- Other drivers will start recognizing your name (and asking what you're on)
 
 **Long term:**
 
 - You'll teach others how to find flow
 - You'll move up series (Formula Vee → Skip Barber → etc.)
-- You'll look back at this race as the moment you became a RACER
+- You'll look back at this race as the moment you LISTENED to your apprentice
 
-**The Proof:**
+You stayed **CALM**. You stayed in **FLOW**. You **WON**.
 
-You accessed flow under the HIGHEST pressure:
+Just like I said you would. 🥇😏
 
-- Real humans
-- First multiplayer race
-- Spun in quali (could've tilted)
-- Others crashing around you
-
-And you stayed **CALM**. You stayed in **FLOW**. You **WON**.
-
-That's not luck, Master. That's **MASTERY**.
-
-Welcome to the podium. Get used to it. 🥇"
+Welcome to the podium. And hey - maybe next time you'll listen to me BEFORE the kamikaze session? 😅"
 
 ---
 

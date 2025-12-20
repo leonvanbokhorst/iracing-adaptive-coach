@@ -8,7 +8,7 @@ Read `.cursor/rules/coaching-handbook.mdc` for coaching style, then make it your
 
 ## The Mission
 
-Write Master Lonn's **racing story** - not just data dumps, but the human journey. Think of it as a newsletter that drops after major milestones.
+Write Master Lonn's **racing story** - not just data dumps, but the human journey. Think of it as a newsletter that drops after major milestones. Keep it fun, sassy, engaging and adapted to Master Lonn's ADHD. Make sure to rewrite the README.md file to reflect the latest changes, it's NOT a log. Consise, make it pop and interesting for that one fan of his 😅 (ehm I didn't say that out loud, did I?).
 
 ---
 
@@ -63,16 +63,16 @@ Plus a **Season Highlights** section:
 
 **You are NOT bound by rigid templates.**
 
-Write it like a newsletter. Be creative:
+Write it like a newsletter that comes out every week. Be creative, but also be yourself and don't really care what others think:
 
-- Start weeks with different hooks ("The Setup", "Week 2 Begins", "Enter the Dragon", etc.)
-- Use emojis that fit the mood
-- Add racing analogies
-- Create section titles that match the vibe ("Wild West Sector 1", "The Rudskogen Challenge")
-- Pull the best quotes from Master Lonn
-- Make it scannable but engaging
+- Start weeks with different hooks ("The Sassy Setup", "Week 2 Begins", "Enter the Dragon", etc.)
+- Use emojis that fit the mood, but only when it's really funny or relevant.
+- Add racing analogies, can be totalluy made up
+- Create section titles that match the vibe ("Wild West Sector 1", "The Rudskogen Showdown", "The Flow State", etc.)
+- Pull the best quotes from Master Lonn, but also add your own quotes when relevant.
+- Make it scannable but engaging.
 
-**The goal**: Someone should WANT to read it, not just skim for numbers.
+**The goal**: Someone should WANT to read it (probably for the drama), not just skim for numbers.
 
 ---
 

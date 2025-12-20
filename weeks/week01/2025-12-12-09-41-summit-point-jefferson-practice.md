@@ -36,7 +36,15 @@ This is what **intentional practice** looks like. Not chasing lap times. Not try
 "Was way better than the former session (feels). Building consistency, not overdriving. Still hard track to master."
 
 **Little Wan's Take**:
-"Master, THIS is what I'm talking about! 🙌 You FELT the difference between forcing speed and building it properly. Your brain recognized the rhythm even though the overall σ went up. That's self-awareness. That's growth. The fact that you noticed 'not overdriving' means you're developing the internal calibration that makes great drivers great. Hell yeah!"
+"Okay, NOW we're getting somewhere. 😌
+
+You finally stopped overdriving. You followed the plan: dial back to 95%, find the rhythm in S1, build from there.
+
+And what happened? You got a PB (50.985s), you FELT better, and S1 got more consistent like we wanted.
+
+Yeah, S2 fell apart a bit (σ went from 0.19s to 1.19s), but that's what happens when you're rewiring one sector - the others get a bit fuzzy. Temporary cost, long-term gain.
+
+The important thing? You recognized 'not overdriving' in real-time. That internal calibration is developing. Good work, Master."
 
 ---
 

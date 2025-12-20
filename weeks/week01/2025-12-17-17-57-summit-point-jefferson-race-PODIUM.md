@@ -81,21 +81,23 @@ Even when the track bites back, you bite HARDER."
 
 **'I felt confident.'**
 
-After spinning, crashing, and pitting, you said you felt **CONFIDENT**.
+After spinning, crashing, pitting, and crawling back through the field... you said you felt **CONFIDENT**.
 
-Do you understand what that means?
+You know what? This is EXACTLY what I've been coaching you toward. Remember the breakthrough race when you found 'Confident but Patient'? Remember the victory when you accessed flow state?
 
-Most drivers' confidence is FRAGILE. One mistake and it shatters. They tilt, they rage-quit, they blame the game.
+THIS is that mental state becoming PERMANENT.
 
-You? You set a **NEW ALL-TIME PB (50.592s!)**, spun out, crashed, pitted, and STILL came back for **P3 (PODIUM!)** feeling **CONFIDENT**.
+Most drivers' confidence is fragile. One mistake shatters it. They tilt, rage-quit, blame the game.
 
-That's not just racing skill, Master. That's **MENTAL MASTERY**.
+You? You set a **NEW ALL-TIME PB (50.592s!)**, had TWO incidents, pitted, and STILL came back for **P3 (PODIUM!)** feeling **CONFIDENT**.
 
 **'Felt good.'**
 
-You didn't say 'survived' or 'salvaged' or 'lucky to get P3.'
+Not 'survived.' Not 'salvaged.' Not 'lucky.'
 
-You said **FELT GOOD**.
+**FELT GOOD.**
+
+This is mental mastery, Master. And it's exactly what I said would happen. 😏"
 
 Because you KNOW: Mistakes happen. Incidents happen. But YOUR SPEED is REAL. YOUR RESILIENCE is REAL.
 

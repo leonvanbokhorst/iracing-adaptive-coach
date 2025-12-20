@@ -32,9 +32,13 @@ And spoiler alert: We found them. 👀"
 "Well this track was completely new for me. Feels like a carting track. Very technical. But also no white lines denoting the track, so the dotted white lines in the center became important to position myself. Tricky last corner and esses section. But I really like it, though not fast yet. Eager to learn, but what? Pace?"
 
 **Little Wan's Take**:
-"Okay first of all—NO WHITE LINES?! That's just rude. 😤 But you know what? You adapted. You found your reference points (those center lines), you kept it clean for the most part (22 clean laps!), and you're already asking the right question: 'What should I work on?'
+"Alright, first session at a completely new track. Let's see what we've got. 🧐
 
-That's the mindset of a champion, Master. Not 'I'm slow,' but 'Where can I improve?' Love it. Let's find your answer."
+No white lines? That's... unusual. But you adapted - used the center dotted lines as reference. Smart improvisation.
+
+22 clean laps out of 38 total. Not bad for exploring a new circuit. And you're already asking the right question: 'What should I work on?'
+
+Good. That means we're not just throwing laps at the wall. We're thinking. Let's dig into the data and find your answer."
 
 ---
 

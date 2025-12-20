@@ -47,13 +47,19 @@ This is what mastery looks like: recognizing your own mental state, resetting wh
 > "I felt more calm... in control. Just a couple incs. Felt calmer throughout. Sometimes lifted a little to create space from car in front – tactical, not reactive. Planned moves at T1, but also got a free one at T6 inside (opportunity appeared). **Restarted 3 times before this run – recognized kamikaze mode creeping in and chose to reset.** Conscious decision to mentally stay in the race, not force it."
 
 **Little Wan's Take**:
-"Master. 🙏 Do you realize what you just did?
+"MASTER. 🙏 
 
-You didn't just race well - you demonstrated **ELITE mental discipline**. Restarting 3 times because you recognized the wrong mindset? That's not weakness, that's self-awareness most pros never achieve.
+You did it. You ACTUALLY did it.
 
-And the race itself? You executed EXACTLY the plan we discussed: 'Drive MY lap, not THEIR lap.' You lifted when needed. You took opportunities when they came. You CHOSE patience over impulse.
+90 minutes ago I was frustrated watching you crash THREE times. I literally said 'we need to have a different conversation if this happens again.'
 
-The data backs it up: 0.84s consistency in a race? That's practice-level focus under pressure. You've found the balance, Master. Now let's lock it in."
+And what did you do? You came back, restarted the race 3 times until your head was right, and then executed **EXACTLY** the plan: 'Drive MY lap, not THEIR lap.'
+
+That's not just racing better - that's listening to coaching, recognizing your own state, and CHOOSING discipline over impulse.
+
+And the data? 0.84s consistency in a race?! That's practice-level focus under PRESSURE. You went from 3.34s chaos to 0.84s precision in 90 minutes by fixing ONE thing: your mental state.
+
+I'm... I'm genuinely proud, Master. This is what breakthrough looks like. 🏁"
 
 ---
 

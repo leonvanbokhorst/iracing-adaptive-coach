@@ -30,7 +30,7 @@ The pendulum swung from one extreme to the other. Last race was "scared rabbit,"
 
 The pace? **Still there.** Best lap of 51.403s (only 0.4s off practice PB) proves he's got speed. S3 exit phase? **Still locked in** (0.32s σ - bulletproof).
 
-The problem? The moment Master Lonn sees a slower car, his brain screams **"PASS NOW!"** even when unsafe. He stopped driving his own lap and started driving *their* lap. Impatience broke his rhythm, led to 3 incidents (crashes), and turned S1 into a variance nightmare (2.59s σ).
+The problem? The moment Master Lonn sees a slower car, his brain screams **"PASS NOW!"** even when unsafe. He stopped driving his own lap and started driving _their_ lap. Impatience broke his rhythm, led to 3 incidents (crashes), and turned S1 into a variance nightmare (2.59s σ).
 
 The lesson is clear: This isn't a pace problem. **It's an impulse control problem.**
 
@@ -39,14 +39,21 @@ The lesson is clear: This isn't a pace problem. **It's an impulse control proble
 ## 🏎️ The Vibe Check
 
 **Master Lonn's Take**:
+
 > "Crashes indeed. Felt erratic throughout. Strong urge to pass slower cars immediately, even unsafely. Realized I was driving THEIR lap, not MY lap. Impatience breaking my rhythm."
 
 **Little Wan's Take**:
-"Master... you just articulated the ENTIRE problem in four sentences. 🎯 That self-awareness? That's GOLD. You're not just feeling it—you're SEEING it.
+"Okay, Master. I'm going to be real with you. 😤
 
-The urge to pass is real. The ADHD impulse control is SCREAMING at you. But here's the thing: you're fast enough that you don't NEED to force it. The pass will come. You just have to stay in YOUR rhythm long enough to let it happen naturally.
+THREE crashes. THREE! In ONE race. And you KNEW you were being aggressive. You literally said you were 'driving their lap, not yours.'
 
-You overcorrected from 'too scared' to 'too aggressive.' The sweet spot is somewhere in between: **Confident but patient.**"
+Look, I GET it - yesterday you were too cautious, today you overcorrected. The ADHD brain is hunting for the sweet spot. But here's the thing that's frustrating me: **You have the SPEED.** 51.403s proves that. You're FAST when you're clean.
+
+But you're throwing it away. Over and over. Because you can't wait 2 corners for a safe pass.
+
+The urge to pass? I know it's SCREAMING at you. But racing isn't about removing obstacles the SECOND you see them. It's about maintaining YOUR rhythm until the safe moment appears.
+
+You need to find somewhere between 'scared rabbit' and 'honey badger with a death wish.' **Confident but patient.** And I need you to ACTUALLY try it, not just nod and crash again."
 
 ---
 
@@ -79,6 +86,7 @@ You overcorrected from 'too scared' to 'too aggressive.' The sweet spot is somew
 ### The Pattern of Chaos
 
 Your lap times tell a story:
+
 - **Laps 2-3**: Clean 52s, 51.7s (finding rhythm)
 - **Lap 4**: 59.7s (CRASH - forced pass gone wrong?)
 - **Laps 5-8**: Clean 51.4s-51.6s (rhythm restored, BEST LAP in here!)
@@ -92,12 +100,14 @@ Your lap times tell a story:
 ### The Data Proof
 
 **Sector 1 (Entry Phase)**:
+
 - **σ = 2.59s** (vs 0.50s in last practice - 5x WORSE)
 - Your entry phase is getting DESTROYED by the mental chaos of "must pass now"
 - When you're clean: S1 is 28.0-28.5s (GOOD!)
 - When you're impatient: S1 is 30-36s (disaster)
 
 **Sector 3 (Exit Phase)**:
+
 - **σ = 0.32s** (STILL LOCKED IN!)
 - This proves your driving skill is intact
 - The exit speed hasn't been affected by race pressure
@@ -118,6 +128,7 @@ Last race you were too scared. This race you were too aggressive. The sweet spot
 **"Confident but Patient"**
 
 You need to learn to:
+
 1. **Recognize the urge** to pass (you already can!)
 2. **Question it**: "Is this safe? Or am I forcing it?"
 3. **Stay in YOUR rhythm**: "Drive my lap, not their lap"
@@ -165,25 +176,29 @@ You need to learn to:
 
 ## 💬 Final Thoughts
 
-Master Lonn, here's the truth:
+Alright Master, let me say this clearly:
 
-You're NOT slow. You're NOT bad at racing. You're fast when you're driving YOUR lap.
+You're NOT slow. The 51.403s proves that. You're fast when you're clean.
 
-The problem is that the ADHD brain sees a slower car and goes: **"OBSTACLE! REMOVE IT! NOW!"**
+But right now? You're **wasting your talent** on impulse decisions.
 
-But racing isn't about removing obstacles. It's about **maintaining YOUR rhythm** until the safe pass appears.
+The ADHD brain sees a slower car and screams **"OBSTACLE! REMOVE IT! NOW!"** I get it. But racing isn't about removing obstacles immediately. It's about **maintaining YOUR rhythm** until the safe moment appears.
 
-You overcorrected from scared to aggressive. That's okay. That's how the ADHD brain learns - it swings between extremes until it finds center.
+Here's what's going to happen next race:
 
-Next race: **"Confident but Patient."**
+You're going to try **"Confident but Patient."**
+
 - Confidence = "I'm fast enough to pass"
 - Patient = "I'll pass when it's SAFE, not when the urge hits"
 
+And if you come back with ANOTHER three-crash session because you couldn't wait two corners? We're going to have a very different conversation.
+
+I've given you the data. I've given you the strategy. Now I need you to EXECUTE it.
+
 The pass will come. Trust your pace. Drive YOUR lap.
 
-You got this, Master. 🥋
+Got it? 🥋
 
 ---
 
 _"In racing, as in life, the fastest path is often the patient one."_ 🏎️💨
-
