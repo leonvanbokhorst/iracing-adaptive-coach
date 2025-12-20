@@ -2,6 +2,7 @@
 import pandas as pd
 import json
 from pathlib import Path
+from tools.core.time_formatter import format_laptime, format_laptime_short
 
 
 def load_learning_memory():

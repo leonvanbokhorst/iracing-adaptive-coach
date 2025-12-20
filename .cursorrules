@@ -38,9 +38,14 @@ patterns = memory.get('learning_patterns', {})
 
 ```python
 from tools.core.data_loader import load_session_data, analyze_session_basic, analyze_sectors
+from tools.core.data_summary import print_cleaning_summary
+from tools.core.analysis_formatter import print_session_analysis, print_coaching_summary
 
 # Load the CSV
 df = load_session_data('path/to/session.csv')
+
+# Show data cleaning summary
+print_cleaning_summary(df)
 
 # Get basic metrics
 analysis = analyze_session_basic(df)
@@ -49,6 +54,10 @@ analysis = analyze_session_basic(df)
 # Get sector breakdown (if available)
 sectors = analyze_sectors(df)
 # Returns: best, avg, sigma, loss_per_lap, total_loss for each sector
+
+# Print formatted analysis (lap times as 1:30.290 format)
+print_session_analysis(analysis, sectors)
+print_coaching_summary(analysis, sectors)
 ```
 
 ### 3. Talk First, Visualize Second
