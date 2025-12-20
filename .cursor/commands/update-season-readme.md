@@ -39,7 +39,7 @@ Update the progress table with latest data:
 
 ### 2. The Season Narrative
 
-Place master Lonn photo direct after the sub title: <img src="assets/lonn-yoda.png" alt="Master Lonn and Little Padawan" width="320" height="320" align="right" padding="24px">
+Place master Lonn photo direct after the sub title: <img src="assets/lonn-yoda.png" alt="Master Lonn and Little Padawan" width="320" height="320" align="right" style="margin-left: 24px; margin-bottom: 24px;">
 
 Write weekly chapters as they unfold. Each week should tell:
 
