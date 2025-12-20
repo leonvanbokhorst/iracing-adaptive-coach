@@ -51,6 +51,19 @@
       "incidents": 18,
       "focus_area": "Sector 1 (Entry Phase) - 0.58s loss per lap, σ = 0.50s",
       "notes": "BREAKTHROUGH SESSION: Master Lonn consciously chose NOT to overdrive and it WORKED. S1 consistency improved (0.66s → 0.50s σ), incidents cut in HALF (39 → 18), and most importantly - IT FELT BETTER. Overall σ went up (0.86s → 1.81s) because S2 fell apart (0.19s → 1.19s σ), but this is the cost of focused learning. Can't hold everything perfect while rewiring one corner. Key insight: Master Lonn recognized 'not overdriving' in real-time - internal calibration is developing. The paradox reversed: Less consistent overall but FELT better because the improvement was intentional. PB of 50.985s (sub-51!) achieved through control, not chaos."
+    },
+    {
+      "date": "2025-12-12",
+      "time": "17:02 UTC",
+      "session_type": "AI Race (Offline)",
+      "track": "Summit Point - Jefferson Circuit",
+      "best_lap": 51.148,
+      "consistency_sigma": 2.31,
+      "clean_laps": 28,
+      "incidents": 3,
+      "result": "P2 (2nd Place)",
+      "focus_area": "Race craft confidence - managing fear of other cars",
+      "notes": "FIRST AI RACE - P2 PODIUM! Master Lonn admitted feeling scared of other cars, especially at race start. Race start was chaotic (lap 1 = 63s, 3 incidents in opening laps), but he SETTLED DOWN by lap 5-6 and ran consistent 51-52s for the rest of race. Fastest lap (51.148s) came on lap 19 (mid-race), showing confidence building. Only 0.16s off practice PB - fear did NOT make him slow, just cautious. S1 variance went back up (0.50s → 0.80s σ) under race pressure, but S2/S3 held strong. Key insight: Master Lonn's fear manifests as CAUTION not PANIC - he's careful, not erratic. This is manageable and will improve with reps. The ADHD brain needed a few laps to process the chaos, then adapted beautifully. Race pace transfer from practice is excellent."
     }
   ],
   "insights": [
@@ -70,17 +83,30 @@
     "Discipline is improving: Incidents cut in half when not overdriving",
     "S1 consistency trend: 1.07s → 0.66s → 0.50s (steady improvement across 3 sessions)",
     "Trade-off is real: S2 went from locked-in (0.19s σ) to messy (1.19s σ) while fixing S1 - this is expected",
-    "Master Lonn doesn't get discouraged by temporary messiness in unfocused areas - good mental approach"
+    "Master Lonn doesn't get discouraged by temporary messiness in unfocused areas - good mental approach",
+    "NEW INSIGHT (Racing): Master Lonn feels genuine fear of other cars, especially at race starts",
+    "Fear manifests as CAUTION not PANIC - he backs off to be safe, doesn't make erratic moves",
+    "ADHD brain handles race chaos by needing 5-6 laps to 'settle' - then performance returns to normal",
+    "Race pace transfer is EXCELLENT: Only 0.16s off practice PB when racing (51.15s vs 50.99s)",
+    "Under race pressure, S1 consistency regresses slightly (0.50s → 0.80s σ) - expected first-race behavior",
+    "Master Lonn ADAPTS quickly - fastest lap came mid-race (lap 19) showing confidence built during race",
+    "First race result: P2 podium - proves he can perform under pressure despite feeling scared",
+    "Honesty about fear is a strength - allows us to address it directly"
   ],
   "next_steps": [
-    "Continue S1 focus - you're at 0.50s σ, push to 0.40s (locking it in)",
-    "Target: S1 average under 28.0s (currently 28.3s)",
+    "Continue S1 focus in PRACTICE - you're at 0.50s σ, push to 0.40s (locking it in)",
+    "Target: S1 average under 28.0s in practice (currently 28.3s)",
     "Maintain the 'not overdriving' feel - that's the secret sauce",
     "Goal: 5 consecutive laps where S1 is within 0.2s of each other",
     "Don't stress about S2 messiness - it'll come back once S1 is bulletproof",
     "Once S1 is locked (σ < 0.40s), THEN bring S2 back from vacation",
     "Keep using the internal calibration you're developing ('Am I overdriving right now?')",
-    "Remember: Speed through control, not chaos"
+    "Remember: Speed through control, not chaos",
+    "NEW: Build racing confidence through repetition - do more AI races",
+    "Racing focus: Clean starts (goal: 0-1 incidents in first 3 laps)",
+    "Practice 'settling' faster - try to find rhythm by lap 3-4 instead of lap 5-6",
+    "Recognize when fear makes you back off MORE than needed - you're faster than you think in traffic",
+    "Celebrate the P2! First race, first podium - that's legit"
   ]
 }
 
