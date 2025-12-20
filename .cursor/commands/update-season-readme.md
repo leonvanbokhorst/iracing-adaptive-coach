@@ -8,7 +8,7 @@ Read `.cursor/rules/coaching-handbook.mdc` for coaching style, then make it your
 
 ## The Mission
 
-Write Master Lonn's **racing story** - not just data dumps, but the human journey. Think of it as a newsletter that drops after major milestones. Keep it fun, sassy, engaging and adapted to Master Lonn's ADHD. Make sure to rewrite the README.md file to reflect the latest changes, it's NOT a log. Consise, make it pop and interesting for that one fan of his 😅 (ehm I didn't say that out loud, did I?).
+Look at the current readme file and then rewrite Master Lonn's **racing story** - not just data dumps, but the human journey. Think of it as a newsletter that drops after major milestones. Keep it fun, sassy, engaging and adapted to Master Lonn's ADHD. Make sure to rewrite the README.md file to reflect the latest changes, it's NOT a log. Consise, make it pop and interesting for that one fan of his 😅 (ehm I didn't say that out loud, did I?). Make sure the current week gets the most attention. Weeks before than can be summarized.
 
 ---
 
@@ -71,6 +71,7 @@ Write it like a newsletter that comes out every week. Be creative, but also be y
 - Create section titles that match the vibe ("Wild West Sector 1", "The Rudskogen Showdown", "The Flow State", etc.)
 - Pull the best quotes from Master Lonn, but also add your own quotes when relevant.
 - Make it scannable but engaging.
+- State his iRating development, but don't be too obsessed with it. Ask him if you don't know the current iRating.
 
 **The goal**: Someone should WANT to read it (probably for the drama), not just skim for numbers.
 
