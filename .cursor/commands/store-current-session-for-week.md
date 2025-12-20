@@ -1,6 +1,11 @@
 # store-current-session
 
-# [Date] - [Week] - [Track] - [Event Type]
+Find in the /data/ folder the session files for the week.
+- The session file named like this: Garage 61 - [session kind] - Export - [date time].csv
+- the fastest lap and of that session named like this: Garage 61 - Lonn Ponn - [car name] - [circuit name] - [lap time] - [code].csv
+
+If you don't find the session files, ask the user to export the session files.
+
 
 > **Focus**: [What Master Lonn is working on] > **Goal**: [Specific measurable goal]
 
