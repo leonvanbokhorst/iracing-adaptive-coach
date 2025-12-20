@@ -3,8 +3,8 @@
   "current_week": 1,
   "current_track": "Summit Point - Jefferson Circuit",
   "current_car": "Ray FF1600",
-  "focus": "Sector 1 Consistency (Entry Phase)",
-  "goal": "S1 σ under 0.40s and average under 28.0s",
+  "focus": "Racecraft Impulse Control (Maintaining own rhythm in traffic)",
+  "goal": "0-1 incidents per race while maintaining 51-52s pace",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -64,6 +64,19 @@
       "result": "P2 (2nd Place)",
       "focus_area": "Race craft confidence - managing fear of other cars",
       "notes": "FIRST AI RACE - P2 PODIUM! Master Lonn admitted feeling scared of other cars, especially at race start. Race start was chaotic (lap 1 = 63s, 3 incidents in opening laps), but he SETTLED DOWN by lap 5-6 and ran consistent 51-52s for the rest of race. Fastest lap (51.148s) came on lap 19 (mid-race), showing confidence building. Only 0.16s off practice PB - fear did NOT make him slow, just cautious. S1 variance went back up (0.50s → 0.80s σ) under race pressure, but S2/S3 held strong. Key insight: Master Lonn's fear manifests as CAUTION not PANIC - he's careful, not erratic. This is manageable and will improve with reps. The ADHD brain needed a few laps to process the chaos, then adapted beautifully. Race pace transfer from practice is excellent."
+    },
+    {
+      "date": "2025-12-13",
+      "time": "15:23 UTC",
+      "session_type": "AI Race (Offline)",
+      "track": "Summit Point - Jefferson Circuit",
+      "best_lap": 51.403,
+      "consistency_sigma": 3.34,
+      "clean_laps": 13,
+      "incidents": 3,
+      "result": "Unknown (crashed multiple times)",
+      "focus_area": "Racecraft impulse control - maintaining own rhythm in traffic",
+      "notes": "THE OVERCORRECTION. One day after P2 where he felt too cautious, Master Lonn overcorrected to too aggressive. Strong urge to pass slower cars IMMEDIATELY, even unsafely. 3 incidents (crashes) from forced passes. Pattern: runs clean 51-52s laps, sees slower car, forces pass, crashes (59-60s lap), recovers rhythm, repeat. CRITICAL INSIGHT: Master Lonn articulated it perfectly - 'I was driving THEIR lap, not MY lap. Impatience breaking my rhythm.' HUGE self-awareness! Pace is still there (51.403s = only 0.4s off practice PB). S3 STILL locked in (0.32s σ). But S1 variance exploded (0.50s → 2.59s σ) due to mental chaos of 'must pass now' impulse. ADHD brain swinging between extremes: scared (Dec 12) ↔ aggressive (Dec 13). The sweet spot: 'Confident but Patient.' Key lesson: This is NOT a pace problem, it's an IMPULSE CONTROL problem. When driving his own lap, he's fast. When fighting traffic, impulse control breaks rhythm."
     }
   ],
   "insights": [
@@ -91,22 +104,30 @@
     "Under race pressure, S1 consistency regresses slightly (0.50s → 0.80s σ) - expected first-race behavior",
     "Master Lonn ADAPTS quickly - fastest lap came mid-race (lap 19) showing confidence built during race",
     "First race result: P2 podium - proves he can perform under pressure despite feeling scared",
-    "Honesty about fear is a strength - allows us to address it directly"
+    "Honesty about fear is a strength - allows us to address it directly",
+    "NEW CRITICAL INSIGHT: ADHD brain swings between extremes when learning - too cautious → too aggressive",
+    "Master Lonn can ARTICULATE problems perfectly ('driving their lap, not mine') - exceptional self-awareness",
+    "The 'urge to pass NOW' is an impulse control issue, not a pace issue - he's fast when clean",
+    "S3 resilience under chaos: Even with 3 crashes, S3 σ stayed at 0.32s - core driving skill intact",
+    "Pattern: Clean laps (51-52s) → sees slower car → impulse → forced pass → crash (59-60s) → rebuild rhythm → repeat",
+    "Master Lonn can RECOGNIZE the impulse in real-time ('felt the urge') - this awareness is the first step to control",
+    "The sweet spot for racing: 'Confident but Patient' - not scared, not aggressive, but controlled",
+    "Impatience breaks rhythm faster than crashes break lap times - mental disruption > physical disruption"
   ],
   "next_steps": [
-    "Continue S1 focus in PRACTICE - you're at 0.50s σ, push to 0.40s (locking it in)",
-    "Target: S1 average under 28.0s in practice (currently 28.3s)",
-    "Maintain the 'not overdriving' feel - that's the secret sauce",
-    "Goal: 5 consecutive laps where S1 is within 0.2s of each other",
-    "Don't stress about S2 messiness - it'll come back once S1 is bulletproof",
-    "Once S1 is locked (σ < 0.40s), THEN bring S2 back from vacation",
-    "Keep using the internal calibration you're developing ('Am I overdriving right now?')",
-    "Remember: Speed through control, not chaos",
-    "NEW: Build racing confidence through repetition - do more AI races",
-    "Racing focus: Clean starts (goal: 0-1 incidents in first 3 laps)",
-    "Practice 'settling' faster - try to find rhythm by lap 3-4 instead of lap 5-6",
-    "Recognize when fear makes you back off MORE than needed - you're faster than you think in traffic",
-    "Celebrate the P2! First race, first podium - that's legit"
+    "PRIMARY FOCUS (Racing): Racecraft impulse control - 'Drive MY lap, not THEIR lap'",
+    "Racing Goal: 0-1 incidents per race (currently 3)",
+    "Before next race: Practice the mantra 'Confident but Patient'",
+    "When urge to pass hits, ask: 'Is this safe, or am I forcing it?'",
+    "Practice following for 1-2 corners before making the move - patience as a SKILL",
+    "Use the self-awareness you have ('I can feel the urge') to PAUSE before acting",
+    "Celebrate clean races over aggressive races - consistency > chaos",
+    "SECONDARY FOCUS (Practice): Continue S1 refinement when NOT racing",
+    "In practice: S1 average under 28.0s, σ under 0.40s",
+    "Remember: Your pace is THERE (51.403s = only 0.4s off PB) - patience will unlock it in traffic",
+    "S3 is a strength (0.32s σ even in chaos) - trust your core skills",
+    "The ADHD brain is finding the balance between scared ↔ aggressive - it's a process",
+    "Next race will test: Can you maintain YOUR rhythm while passing SAFELY?"
   ]
 }
 
