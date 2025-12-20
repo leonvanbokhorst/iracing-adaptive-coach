@@ -13,20 +13,26 @@
     {
       "skill": "Summit Point Consistency",
       "date": "2025-12-20",
-      "details": "Achieved 0.06s Sigma in Sector 2"
+      "details": "Achieved 0.06s Sigma in Sector 2 at Summit Point"
     }
   ],
   "learning_patterns": {
     "responds_well_to": [
       "data_driven_goals",
-      "humor"
+      "humor",
+      "numbers_over_charts",
+      "validation_of_feelings"
     ],
-    "struggles_with": []
+    "struggles_with": [
+      "inconsistent_sectors",
+      "unpredictable_handling"
+    ]
   },
   "tool_usage_history": {
     "analyze_telemetry": {
       "last_used": "2025-12-20",
-      "purpose": "Analyzed Week 1 PB vs Week 2 Baseline"
+      "purpose": "Analyzed Week 1 PB vs Week 2 Baseline",
+      "helpful": true
     }
   },
   "session_history": [
@@ -39,7 +45,7 @@
     },
     {
       "date": "2025-12-18",
-      "track": "Rudskogen",
+      "track": "Rudskogen Motorsenter",
       "best_lap": 90.290,
       "sigma": 1.43,
       "notes": "Initial baseline. S2 is the clear weakness (0.96s loss)."
@@ -132,3 +138,4 @@
     }
   ]
 }
+

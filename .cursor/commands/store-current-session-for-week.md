@@ -1,6 +1,6 @@
 # store-current-session
 
-# [Date] - [Track] - [Event Type]
+# [Date] - [Week] - [Track] - [Event Type]
 
 > **Focus**: [What Master Lonn is working on] > **Goal**: [Specific measurable goal]
 
