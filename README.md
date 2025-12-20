@@ -8,11 +8,11 @@ This project is a **Coach-in-a-Box**: a set of tools and a specific AI persona d
 
 ## Current Status (Season 01 2026)
 
-| Week   | Track                        | Status         | Best Lap | Focus                | Key Finding                            |
-| :----- | :--------------------------- | :------------- | :------- | :------------------- | :------------------------------------- |
-| **01** | Summit Point (Jefferson)     | ✅ Complete    | 50.985s  | S1 Entry + Racing    | Sub-51! + P2 in first race 🏆          |
-| **02** | **Rudskogen Motorsenter**    | 👈 **Current** |          |                      |                                        |
-| **03** | Winton Motor Raceway         | 📅 Upcoming    |          |                      |                                        |
+| Week   | Track                     | Status         | Best Lap | Focus             | Key Finding                   |
+| :----- | :------------------------ | :------------- | :------- | :---------------- | :---------------------------- |
+| **01** | Summit Point (Jefferson)  | ✅ Complete    | 50.985s  | S1 Entry + Racing | Sub-51! + P2 in first race 🏆 |
+| **02** | **Rudskogen Motorsenter** | 👈 **Current** |          |                   |                               |
+| **03** | Winton Motor Raceway      | 📅 Upcoming    |          |                   |                               |
 
 ---
 
@@ -47,11 +47,13 @@ That's the mindset, right there.
 #### Day 1: The Baseline (51.438s)
 
 **Session 1 Data**:
+
 - **Best Lap**: 51.438s
 - **Clean Laps**: 22 of 38
 - **Theoretical Best**: 51.341s (within 0.1s!)
 
 Master Lonn's Take:
+
 > "Well this track was completely new for me. Feels like a carting track. Very technical. But also no white lines denoting the track, so the dotted white lines in the center became important to position myself. Tricky last corner and esses section. But I really like it, though not fast yet. Eager to learn, but what? Pace?"
 
 The data showed something interesting: **Sector 2 was already dialed** (σ = 0.51s). Master Lonn found the rhythm in the middle of the lap first. But S1 and S3? Wild West territory with 3.27s of combined loss.
@@ -78,6 +80,7 @@ Master Lonn made a choice: **Stop overdriving.**
 And it WORKED.
 
 **The Results**:
+
 - **Best Lap**: 50.985s (finally broke 51!)
 - **S1 Consistency**: 0.66s → 0.50s σ (24% improvement!)
 - **Incidents**: Cut in HALF (39 → 18)
@@ -94,6 +97,7 @@ The breakthrough? Master Lonn recognized "not overdriving" **in real-time**. His
 Same day, Master Lonn decided to throw himself into his first AI race at Jefferson.
 
 He admitted something real:
+
 > "Yeah that chaos is something I need to get used to. I'm a bit scared sometimes of other cars."
 
 The race start was CHAOS. Lap 1: 63 seconds. Three incidents in the opening laps. Cars everywhere, dive-bombs, unpredictability. His ADHD brain was on sensory overload.
@@ -103,6 +107,7 @@ But then? **He settled down.**
 By lap 5-6, muscle memory kicked in. He found his rhythm. And from there? Consistent 51-52s laps for the rest of the race.
 
 **The Results**:
+
 - **Result**: P2 (2nd Place!)
 - **Best Lap**: 51.148s (lap 19 - mid-race!)
 - **Gap to Practice PB**: 0.16s
@@ -165,13 +170,13 @@ All while learning that sometimes **backing off** is how you go faster.
 
 **📈 The Numbers**:
 
-| Metric              | Day 1     | Day 2     | Change   |
-| :------------------ | :-------- | :-------- | :------- |
-| Best Lap            | 51.438s   | 50.985s   | -0.45s ✅ |
-| S1 Consistency (σ)  | 3.11s     | 0.50s     | -84% ✅   |
-| S1 Average          | 29.85s    | 28.30s    | -1.55s ✅ |
-| Incidents (session) | 16        | 18        | Stable   |
-| Race Result         | -         | P2 🏆     | PODIUM!  |
+| Metric              | Day 1   | Day 2   | Change    |
+| :------------------ | :------ | :------ | :-------- |
+| Best Lap            | 51.438s | 50.985s | -0.45s ✅ |
+| S1 Consistency (σ)  | 3.11s   | 0.50s   | -84% ✅   |
+| S1 Average          | 29.85s  | 28.30s  | -1.55s ✅ |
+| Incidents (session) | 16      | 18      | Stable    |
+| Race Result         | -       | P2 🏆   | PODIUM!   |
 
 ---
 

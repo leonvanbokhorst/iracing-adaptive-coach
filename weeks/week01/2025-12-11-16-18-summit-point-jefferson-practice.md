@@ -123,11 +123,11 @@ Once you nail the rhythm at 95%, the lap time will come automatically—and it'l
 
 ## 📈 The Journey
 
-| Session           | Best Lap | Consistency | S1 Avg     | S1 σ      | Notes                              |
-| :---------------- | :------- | :---------- | :--------- | :-------- | :--------------------------------- |
+| Session            | Best Lap | Consistency | S1 Avg     | S1 σ      | Notes                              |
+| :----------------- | :------- | :---------- | :--------- | :-------- | :--------------------------------- |
 | 2025-12-11 (13:18) | 51.438   | 5.71s       | N/A        | N/A       | Baseline. Track completely new.    |
 | 2025-12-11 (16:18) | 51.101   | 0.86s       | 28.48s     | 0.66s     | Faster but no feel. Overdriving.   |
-| **Target** | **<51s** | **<0.5s**   | **<28.5s** | **<0.5s** | **Find rhythm at 95%, then push.** |
+| **Target**         | **<51s** | **<0.5s**   | **<28.5s** | **<0.5s** | **Find rhythm at 95%, then push.** |
 
 ---
 
