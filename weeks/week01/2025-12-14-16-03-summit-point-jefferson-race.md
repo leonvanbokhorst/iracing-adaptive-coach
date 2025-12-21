@@ -253,7 +253,7 @@ And the answer is emerging:
 **Long term (Season 01):**
 
 - You're building CHAMPIONSHIP PACE against tougher AI
-- When you go to REAL multiplayer races, you'll be OVER-prepared
+- When you go to real races, you'll be OVER-prepared
 - This is how champions train: **Make practice harder than the race**
 
 The consistency window IS narrowing. You're not imagining it. You're BECOMING it.

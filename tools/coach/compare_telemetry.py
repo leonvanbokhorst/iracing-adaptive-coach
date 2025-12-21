@@ -33,9 +33,38 @@ def interpolate_telemetry(df, target_length=1000):
     """
     Interpolate telemetry data to a common length for comparison.
     Uses distance-based interpolation if available, otherwise time-based.
+    
+    IMPORTANT: Garage 61 exports use m/s² for acceleration data:
+    - LatAccel is in m/s² (need to divide by 9.81 to get G)
+    - LongAccel is in m/s² (need to divide by 9.81 to get G)
+    This function normalizes both to G for consistency.
     """
     if df is None or len(df) == 0:
         return None
+    
+    # Make a copy to avoid modifying the original
+    df = df.copy()
+    
+    # FIX: Remove wrap-around points (where LapDistPct goes backwards)
+    # Garage 61 sometimes includes the first point again at the end
+    if 'LapDistPct' in df.columns and len(df) > 1:
+        # Check if last point wraps back to start
+        if df['LapDistPct'].iloc[-1] < df['LapDistPct'].iloc[-2]:
+            df = df.iloc[:-1]  # Remove last row
+        # Also ensure it's sorted (just in case)
+        df = df.sort_values('LapDistPct').reset_index(drop=True)
+    
+    # FIX: Convert LatAccel from m/s² to G if it exists
+    if 'LatAccel' in df.columns:
+        # Check if values are suspiciously high (likely in m/s² not G)
+        if df['LatAccel'].abs().max() > 5.0:  # FF1600 can't exceed ~2.5g lateral
+            df['LatAccel'] = df['LatAccel'] / 9.81  # Convert m/s² to G
+    
+    # FIX: Convert LongAccel from m/s² to G if it exists
+    if 'LongAccel' in df.columns:
+        # Check if values are suspiciously high (likely in m/s² not G)
+        if df['LongAccel'].abs().max() > 5.0:  # FF1600 can't exceed ~2g braking or 1g accel
+            df['LongAccel'] = df['LongAccel'] / 9.81  # Convert m/s² to G
     
     # Check what columns we have
     has_distance = 'LapDistPct' in df.columns
@@ -145,16 +174,61 @@ def compare_metrics(current_df, reference_df):
             "avg_throttle_diff": float(current_interp['Throttle'].mean() - reference_interp['Throttle'].mean())
         }
     
-    # --- Cornering (G-forces) ---
+    # --- Cornering (G-forces) - ENHANCED ---
     if 'LongAccel' in current_interp.columns and 'LongAccel' in reference_interp.columns:
         comparison["cornering"]["current_max_braking_g"] = float(current_interp['LongAccel'].min())
         comparison["cornering"]["reference_max_braking_g"] = float(reference_interp['LongAccel'].min())
         comparison["cornering"]["braking_g_diff"] = float(current_interp['LongAccel'].min() - reference_interp['LongAccel'].min())
+        
+        comparison["cornering"]["current_max_accel_g"] = float(current_interp['LongAccel'].max())
+        comparison["cornering"]["reference_max_accel_g"] = float(reference_interp['LongAccel'].max())
+        comparison["cornering"]["accel_g_diff"] = float(current_interp['LongAccel'].max() - reference_interp['LongAccel'].max())
+        
+        # Longitudinal G smoothness (lower = smoother)
+        comparison["cornering"]["current_long_g_smoothness"] = float(current_interp['LongAccel'].std())
+        comparison["cornering"]["reference_long_g_smoothness"] = float(reference_interp['LongAccel'].std())
     
     if 'LatAccel' in current_interp.columns and 'LatAccel' in reference_interp.columns:
-        comparison["cornering"]["current_max_lat_g"] = float(current_interp['LatAccel'].abs().max())
-        comparison["cornering"]["reference_max_lat_g"] = float(reference_interp['LatAccel'].abs().max())
-        comparison["cornering"]["lat_g_diff"] = float(current_interp['LatAccel'].abs().max() - reference_interp['LatAccel'].abs().max())
+        current_lat_abs = current_interp['LatAccel'].abs()
+        reference_lat_abs = reference_interp['LatAccel'].abs()
+        
+        comparison["cornering"]["current_max_lat_g"] = float(current_lat_abs.max())
+        comparison["cornering"]["reference_max_lat_g"] = float(reference_lat_abs.max())
+        comparison["cornering"]["lat_g_diff"] = float(current_lat_abs.max() - reference_lat_abs.max())
+        
+        # Average lateral G (shows overall cornering load)
+        comparison["cornering"]["current_avg_lat_g"] = float(current_lat_abs.mean())
+        comparison["cornering"]["reference_avg_lat_g"] = float(reference_lat_abs.mean())
+        comparison["cornering"]["avg_lat_g_diff"] = float(current_lat_abs.mean() - reference_lat_abs.mean())
+        
+        # Lateral G smoothness (lower = smoother, higher = spiky/overdriving)
+        comparison["cornering"]["current_lat_g_smoothness"] = float(current_lat_abs.std())
+        comparison["cornering"]["reference_lat_g_smoothness"] = float(reference_lat_abs.std())
+        comparison["cornering"]["lat_g_smoothness_diff"] = float(current_lat_abs.std() - reference_lat_abs.std())
+        
+        # Find where max lateral G occurs
+        lat_g_diff = current_lat_abs.values - reference_lat_abs.values
+        comparison["cornering"]["max_lat_g_gain"] = float(lat_g_diff.max())
+        comparison["cornering"]["max_lat_g_loss"] = float(lat_g_diff.min())
+        comparison["cornering"]["max_lat_g_gain_distance_pct"] = float(current_interp.loc[lat_g_diff.argmax(), 'distance_pct'])
+        comparison["cornering"]["max_lat_g_loss_distance_pct"] = float(current_interp.loc[lat_g_diff.argmin(), 'distance_pct'])
+    
+    # Combined G-force (total load on car)
+    if ('LongAccel' in current_interp.columns and 'LatAccel' in current_interp.columns and
+        'LongAccel' in reference_interp.columns and 'LatAccel' in reference_interp.columns):
+        current_total_g = np.sqrt(current_interp['LongAccel']**2 + current_interp['LatAccel']**2)
+        reference_total_g = np.sqrt(reference_interp['LongAccel']**2 + reference_interp['LatAccel']**2)
+        
+        comparison["cornering"]["current_max_total_g"] = float(current_total_g.max())
+        comparison["cornering"]["reference_max_total_g"] = float(reference_total_g.max())
+        comparison["cornering"]["max_total_g_diff"] = float(current_total_g.max() - reference_total_g.max())
+        comparison["cornering"]["current_avg_total_g"] = float(current_total_g.mean())
+        comparison["cornering"]["reference_avg_total_g"] = float(reference_total_g.mean())
+    
+    # --- Overdriving Detection (Steering vs Lateral G) ---
+    if ('SteeringWheelAngle' in current_interp.columns and 'LatAccel' in current_interp.columns and 'Speed' in current_interp.columns and
+        'SteeringWheelAngle' in reference_interp.columns and 'LatAccel' in reference_interp.columns):
+        comparison["overdriving_indicators"] = analyze_overdriving(current_interp, reference_interp)
     
     # --- Distance-based Comparison (sample every 10% of lap) ---
     if 'Speed' in current_interp.columns and 'Speed' in reference_interp.columns:
@@ -176,9 +250,78 @@ def compare_metrics(current_df, reference_df):
                 point["current_throttle"] = float(current_interp.iloc[idx]['Throttle'])
                 point["reference_throttle"] = float(reference_interp.iloc[idx]['Throttle'])
             
+            # Add G-force data at each point
+            if 'LatAccel' in current_interp.columns:
+                point["current_lat_g"] = float(abs(current_interp.iloc[idx]['LatAccel']))
+                point["reference_lat_g"] = float(abs(reference_interp.iloc[idx]['LatAccel']))
+                point["lat_g_diff"] = float(abs(current_interp.iloc[idx]['LatAccel']) - abs(reference_interp.iloc[idx]['LatAccel']))
+            
+            if 'LongAccel' in current_interp.columns:
+                point["current_long_g"] = float(current_interp.iloc[idx]['LongAccel'])
+                point["reference_long_g"] = float(reference_interp.iloc[idx]['LongAccel'])
+                point["long_g_diff"] = float(current_interp.iloc[idx]['LongAccel'] - reference_interp.iloc[idx]['LongAccel'])
+            
+            if 'SteeringWheelAngle' in current_interp.columns:
+                point["current_steering"] = float(abs(current_interp.iloc[idx]['SteeringWheelAngle']))
+                point["reference_steering"] = float(abs(reference_interp.iloc[idx]['SteeringWheelAngle']))
+            
             comparison["distance_comparison"].append(point)
     
     return comparison
+
+
+def analyze_overdriving(current_df, reference_df):
+    """
+    Detect overdriving indicators by comparing steering angle vs lateral G.
+    
+    High steering angle but low lateral G = sliding/overdriving
+    High steering angle AND high lateral G = good load transfer
+    """
+    indicators = {}
+    
+    # Check if required columns exist in BOTH dataframes
+    if ('SteeringWheelAngle' not in current_df.columns or 'LatAccel' not in current_df.columns or
+        'SteeringWheelAngle' not in reference_df.columns or 'LatAccel' not in reference_df.columns):
+        return indicators
+    
+    # Calculate absolute values for comparison
+    current_steering_abs = current_df['SteeringWheelAngle'].abs()
+    reference_steering_abs = reference_df['SteeringWheelAngle'].abs()
+    current_lat_g_abs = current_df['LatAccel'].abs()
+    reference_lat_g_abs = reference_df['LatAccel'].abs()
+    
+    # Average steering input
+    indicators["current_avg_steering_angle"] = float(current_steering_abs.mean())
+    indicators["reference_avg_steering_angle"] = float(reference_steering_abs.mean())
+    indicators["avg_steering_diff"] = float(current_steering_abs.mean() - reference_steering_abs.mean())
+    
+    # Max steering input
+    indicators["current_max_steering_angle"] = float(current_steering_abs.max())
+    indicators["reference_max_steering_angle"] = float(reference_steering_abs.max())
+    
+    # Steering smoothness (std dev - lower is smoother)
+    indicators["current_steering_smoothness"] = float(current_steering_abs.std())
+    indicators["reference_steering_smoothness"] = float(reference_steering_abs.std())
+    indicators["steering_smoothness_diff"] = float(current_steering_abs.std() - reference_steering_abs.std())
+    
+    # Calculate "efficiency" ratio: Lateral G per degree of steering
+    # Higher = more efficient (getting more grip per steering input)
+    current_efficiency = current_lat_g_abs / (current_steering_abs + 0.001)  # avoid divide by zero
+    reference_efficiency = reference_lat_g_abs / (reference_steering_abs + 0.001)
+    
+    indicators["current_avg_steering_efficiency"] = float(current_efficiency.mean())
+    indicators["reference_avg_steering_efficiency"] = float(reference_efficiency.mean())
+    indicators["steering_efficiency_diff"] = float(current_efficiency.mean() - reference_efficiency.mean())
+    
+    # Find zones where you're using MORE steering but getting LESS lateral G (overdriving)
+    overdriving_score = (current_steering_abs > reference_steering_abs) & (current_lat_g_abs < reference_lat_g_abs)
+    indicators["overdriving_pct_of_lap"] = float((overdriving_score.sum() / len(current_df)) * 100)
+    
+    # Find zones where you're using LESS steering but getting MORE lateral G (better technique)
+    better_technique = (current_steering_abs < reference_steering_abs) & (current_lat_g_abs > reference_lat_g_abs)
+    indicators["better_technique_pct_of_lap"] = float((better_technique.sum() / len(current_df)) * 100)
+    
+    return indicators
 
 
 def find_zones(df, column, threshold=0.1):

@@ -1,8 +1,8 @@
-# 2025-12-17 (17:57 UTC) - Summit Point Jefferson - MULTIPLAYER RACE - Ray FF1600 - 00:50.592 🥉
+# 2025-12-17 (17:57 UTC) - Summit Point Jefferson - Race - Ray FF1600 - 00:50.592 🥉
 
 - **Track**: [Summit Point - Jefferson Circuit](../../tracks/track-summit-point-jefferson-circuit.md)
 - **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)
-- **Session kind**: **MULTIPLAYER RACE - Formula 1600 Rookie Series** 🏁
+- **Session kind**: **Race - Formula 1600 Rookie Series** 🏁
 - **Qualifying**: **P1 (POLE POSITION!)** 👑 - **50.853s**
 - **Race fastest lap**: 00:50.592 🔥 **NEW ALL-TIME PB!** (0.321s faster than previous!)
 - **Consistency (σ)**: 3.63s (High due to incidents, but recovered!)
@@ -260,8 +260,8 @@ But here's the thing: You're not AFRAID of it. You went right back to pushing af
 | Dec 14 16:03     | AI Race         | 51.088s     | 3.05s\*      | P7        | Leveling up               |
 | Dec 14 16:24     | AI Race         | 50.768s     | **0.36s** ⭐ | ?         | **FLOW STATE**            |
 | Dec 15 18:02     | AI Race         | 51.255s     | 0.48s        | ?         | Not flow (learned)        |
-| Dec 16 06:53     | **MULTIPLAYER** | 50.913s     | 0.70s ⭐     | **P1 🏆** | **METRONOME CITY**        |
-| **Dec 17 17:57** | **MULTIPLAYER** | **50.592s** | 3.63s\*\*    | **P3 🥉** | **CONFIDENT (RESILIENT)** |
+| Dec 16 06:53     | **Race** | 50.913s     | 0.70s ⭐     | **P1 🏆** | **METRONOME CITY**        |
+| **Dec 17 17:57** | **Race** | **50.592s** | 3.63s\*\*    | **P3 🥉** | **CONFIDENT (RESILIENT)** |
 
 \*High σ from incidents, but clean laps tight  
 \*\*High σ from spin/crash/pit, but recovered with 6 sub-51.5s laps

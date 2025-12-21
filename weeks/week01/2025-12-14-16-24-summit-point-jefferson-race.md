@@ -228,7 +228,7 @@ You're not searching for speed anymore, Master. You've FOUND it. Now it's about:
 
 1. **Consistency**: Can you access this flow state on demand?
 2. **Translation**: Can you bring this to new tracks?
-3. **Competition**: Can you maintain it in real multiplayer races?
+3. **Competition**: Can you maintain it in real races?
 
 But for Jefferson? For Week 01? **YOU'VE MASTERED IT.**"
 
@@ -291,7 +291,7 @@ You're leaving it running **50.7s** and feeling like you're **flying**.
 **What's next?**
 
 1. **Week 02 (Rudskogen)**: The ultimate test - can you access flow state on a NEW track?
-2. **Multiplayer racing**: Real humans, real pressure - can "easy flying" survive?
+2. **Real racing**: Real humans, real pressure - can "easy flying" survive?
 3. **Other tracks/cars**: Can you TRANSFER this mastery?
 
 My prediction:

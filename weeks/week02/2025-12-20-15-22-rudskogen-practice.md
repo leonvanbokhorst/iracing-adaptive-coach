@@ -7,7 +7,8 @@
 **Consistency (σ)**: **0.699s** (Excellent!)  
 **Clean Laps**: 12 of 20  
 **Incidents**: 8  
-**2024 PB (Same Series)**: 1:28.969s (gap: 0.722s) - July 12, 2024  
+**Setup**: Brake Bias **55%** (changed from 56% default per track guide)  
+**2025 PB (Same Series)**: 1:28.969s (gap: 0.722s) - July 12, 2025 (56% brake bias)  
 **Garage 61 Event**: [https://garage61.net/app/event/01KCY75EXS52793PX287H73W9P](https://garage61.net/app/event/01KCY75EXS52793PX287H73W9P)
 
 ---
@@ -23,7 +24,7 @@
 
 "IT CLICKED! 🎯
 
-Two days after the first rusty Rudskogen session (after a year+ break from this track), Master Lonn came back with a MISSION: figure out that downhill T2 braking zone. And boy, did he figure it out.
+Two days after the first rusty Rudskogen session (after 6 months away from this track), Master Lonn came back with a MISSION: figure out that downhill T2 braking zone. And boy, did he figure it out.
 
 'I can brake way later downhill just before the 50 sign,' he said, 'then trail brake all the way through, get into 3rd on the apex, and into 2nd just before the hill to the second apex.'
 
@@ -61,14 +62,14 @@ This is the breakthrough we needed. Now we BUILD from here. Sub-1:29? It's RIGHT
 **Best Lap**: **1:29.691** (vs Dec 18: 1:30.290 = **0.599s faster!**)  
 **Consistency (σ)**: **0.699s** (vs Dec 18: 1:43s = **2x better!**)  
 **Theoretical Optimal**: **1:29.463** (gap: 0.228s = **99.7% perfection!**)  
-**Gap to 2024 Same-Series PB**: **0.722s** (target: 1:28.969)
+**Gap to 2025 Same-Series PB**: **0.722s** (target: 1:28.969)
 
 **The Good Stuff** (✅):
 
 - **SECTOR 2 BREAKTHROUGH**: 31.151s avg (goal was 31.0s!), σ = **0.324s** (CRUSHED 0.5s goal!)
 - **S2 improvement**: 31.81s → 31.15s avg (**0.659s faster!**), 0.75s → 0.32s σ (**2.3x more consistent!**)
 - **Sub-1:30 achieved**: 1:29.691s (first sub-1:30 of Week 02!)
-- **Gap to 2024 Same-Series PB**: **0.722s** (from 1:28.969 - July 2024)
+- **Gap to 2025 Same-Series PB**: **0.722s** (from 1:28.969 - July 2025)
 - **Consistency across ALL sectors**: Every sector σ under 0.35s (elite!)
 - **12 clean laps**: All within 89.69s - 92.16s (2.47s range - tight!)
 
@@ -84,7 +85,7 @@ This is the breakthrough we needed. Now we BUILD from here. Sub-1:29? It's RIGHT
 
 "Master Lonn, let me tell you what just happened here, because it's BEAUTIFUL.
 
-Two days ago (Dec 18), you came back to Rudskogen after a year and said 'I'm rusty in T2.' The data showed **63% of your time loss** was in Sector 2.
+Two days ago (Dec 18), you came back to Rudskogen after 6 months and said 'I'm rusty in T2.' The data showed **73% of your time loss** was in Sector 2.
 
 Today? You just cut that S2 loss by **55%** (0.96s/lap → 0.43s/lap).
 
@@ -128,7 +129,7 @@ And when one corner becomes repeatable? The whole lap flows.
 **The Data Proof**:
 
 - **Fact**: Best lap (89.69s) is only **0.228s** from theoretical optimal (89.46s)
-- **Meaning**: You're driving at **99.7% perfection**. In your SECOND session back. After a YEAR off.
+- **Meaning**: You're driving at **99.7% perfection**. In your SECOND session back. After 6 months off.
 
 Master... that's not rust. That's MASTERY returning. 🏆
 
@@ -139,10 +140,10 @@ Master... that's not rust. That's MASTERY returning. 🏆
 **Previous Mission**: Sector 2 consistency (S2 avg under 31.0s, σ under 0.5s)  
 **Status**: ✅ **σ GOAL CRUSHED!** (0.324s), Average goal 0.15s away (31.15s vs 31.0s)
 
-**NEW MISSION**: **Attack the 2024 Same-Series PB (1:28.969)**
+**NEW MISSION**: **Attack the 2025 Same-Series PB (1:28.969)**
 
 **Why?**
-"Because you're only **0.722s away** from your 2024 same-series PB (July 12, 2024), and the telemetry comparison shows EXACTLY where that time is:
+"Because you're only **0.722s away** from your 2025 same-series PB (July 12, 2025), and the telemetry comparison shows EXACTLY where that time is:
 
 - **S2**: 0.427s still on table (31.15s avg → 30.72s best = your potential)
 - **S4**: 0.228s available (16.85s avg → 16.63s best)
@@ -157,7 +158,7 @@ String together 90% of your best sectors (not even 100%)? Sub-1:29s is YOURS."
 - [ ] **Sub-1:29s** (currently 1:29.691s → target: 1:28.xxx)
 - [ ] **S2 average under 31.0s** (currently 31.15s = only 0.15s to go!)
 - [ ] **Hit 1:29.4x or better** (theoretical optimal is 1:29.463s)
-- [ ] **Match or beat 2024 Same-Series PB** (1:28.969s = 0.722s to go)
+- [ ] **Match or beat 2025 Same-Series PB** (1:28.969s = 0.722s to go)
 - [ ] **Fix 40% lap speed loss** (identified from telemetry comparison)
 - [ ] **Improve final corner exit** (feeding main straight)
 
@@ -168,11 +169,11 @@ String together 90% of your best sectors (not even 100%)? Sub-1:29s is YOURS."
 
 ## 📈 The Journey
 
-| Session        | Best Lap     | Consistency | S2 Avg     | S2 σ       | Gap to 2024 PB | Notes                                      |
+| Session        | Best Lap     | Consistency | S2 Avg     | S2 σ       | Gap to 2025 PB | Notes                                      |
 | :------------- | :----------- | :---------- | :--------- | :--------- | :------------- | :----------------------------------------- |
 | 2025-12-18     | 1:30.290     | 1.43s       | 31.81s     | 0.75s      | 1.247s         | Baseline. Rusty T2. Goal: S2 consistency   |
 | 2025-12-20     | **1:29.691** | **0.699s**  | **31.15s** | **0.324s** | **0.722s**     | **BREAKTHROUGH! 50-sign brake, T2 locked** |
-| 2024 PB (Same) | 1:28.969     | —           | —          | —          | **TARGET**     | Same-series PB (July 12, 2024)             |
+| 2025 PB (Same) | 1:28.969     | —           | —          | —          | **TARGET**     | Same-series PB (July 12, 2025)             |
 
 **Progress in 2 days**:
 
@@ -180,7 +181,7 @@ String together 90% of your best sectors (not even 100%)? Sub-1:29s is YOURS."
 - Consistency: **2x better** 🎯
 - S2 average: **0.659s faster** 🔥
 - S2 variance: **2.3x tighter** 💪
-- Gap to 2024 Same-Series PB: **0.722s** (from 1:28.969) 🎯
+- Gap to 2025 Same-Series PB: **0.722s** (from 1:28.969) 🎯
 
 ---
 
@@ -232,16 +233,16 @@ Why? Because you just did what you did at Jefferson:
 
 At Jefferson: S1 breakthrough → flow state → 50.768s (destroyed PB by 0.217s)
 
-At Rudskogen: S2 breakthrough (today) → ??? → sub-1:29s (destroy gap to 2023 PB)
+At Rudskogen: S2 breakthrough (today) → ??? → sub-1:29s (destroy gap to 2025 PB)
 
 The pattern is IDENTICAL. You're on the same trajectory.
 
-**Bold Prediction**: Within 2 more sessions, you'll match or beat your 2024 same-series PB (1:28.969s).
+**Bold Prediction**: Within 2 more sessions, you'll match or beat your 2025 same-series PB (1:28.969s).
 
 **Reasoning**:
 
 - You just found 0.6s in ONE session
-- You have **0.72s** to go to match 2024 same-series PB
+- You have **0.72s** to go to match 2025 same-series PB
 - Your theoretical optimal is ALREADY 1:29.463s (only 0.5s from target!)
 - **Telemetry shows the gap is in TWO specific spots** (40% lap + final corner)
 - S2 has 0.15s more to goal (31.15s → 31.0s)
@@ -254,10 +255,10 @@ I'm not being optimistic. I'm reading the data. This is HAPPENING. 🎯"
 
 ---
 
-## 🔬 Telemetry Comparison vs 2024 Same-Series PB
+## 🔬 Telemetry Comparison vs 2025 Same-Series PB
 
 **Gap**: **0.722s**  
-**Reference**: 1:28.969 (July 12, 2024 - same series, 6 months ago)  
+**Reference**: 1:28.969 (July 12, 2025 - same series, 6 months ago)  
 **Reference Event**: [Garage 61 Event](https://garage61.net/app/event/01K01P8HX54V00C6D8ETQ3Z5TQ)  
 **Comparison Files**:
 
@@ -429,6 +430,35 @@ Two corners. 0.7s. **Totally doable.** 💪
 _"May the Trail Braking Be With You."_ 🏎️💨💪
 
 **Week 02 Status**: 🔥 ON FIRE (Day 1: Rusty → Day 3: SUB-1:30!)  
-**Next Target**: Sub-1:29s and hunting down that 2024 Same-Series PB (1:28.969s)  
+**Next Target**: Sub-1:29s and hunting down that 2025 Same-Series PB (1:28.969s)  
 **Gap**: 0.722s (TWO corners identified via telemetry!)  
 **Confidence Level**: MAXIMUM DOWNFORCE 🚀
+
+---
+
+## 🔬 Deep Telemetry Analysis vs July PB
+
+**NEW**: Full G-force and speed comparison against July PB (1:28.969) has been completed!
+
+📊 **[Read Full Analysis: Telemetry vs July PB](2025-12-20-telemetry-vs-july-pb-analysis.md)**
+
+**Key Findings:**
+- ✅ **S2 Exit is NOW FASTER than July PB** (+1.5 m/s!) - Your breakthrough is REAL
+- ⚠️ **S2 Entry is 0.4-0.5s slower** - Arriving 7 km/h slower with 0.4g less tire load
+- ⚠️ **Early lap commitment** - Using 0.29g less grip than available
+- 📈 **Steering efficiency IMPROVED** - Getting more grip per steering input than July
+
+**Next Session Focus:**
+1. **S2 Entry speed** - Brake 5-10m later, carry more speed in (biggest opportunity!)
+2. **Early lap commitment** - Use the available grip, hit true apex
+
+The 0.722s gap is not talent - it's specific corners where you're leaving grip unused. Fix those two zones and you'll CRUSH the July PB by 0.3-0.5s.
+
+**Analysis includes:**
+- Complete lap distance breakdown (every 10%)
+- G-force comparison (braking, lateral, total load)
+- Overdriving indicators
+- Specific, actionable fixes (not just "go faster")
+- Practice drills for each problem zone
+
+This is the roadmap to sub-1:29, Master. 🎯

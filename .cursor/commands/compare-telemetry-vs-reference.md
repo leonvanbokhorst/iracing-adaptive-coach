@@ -113,16 +113,65 @@ Context: 2024 PB - same series, 6 months ago
 - Average throttle application
 - Where you're getting on/off power differently
 
-### Cornering G-Forces
+### Cornering G-Forces (ENHANCED)
 
-- Max braking G comparison
-- Max lateral G comparison
-- Cornering load differences
+**Lateral G (Cornering Load):**
+
+- Max lateral G comparison (peak cornering force)
+- Average lateral G (overall tire loading)
+- Lateral G smoothness (lower = smoother, higher = spiky/overdriving)
+- Where max lateral G gain/loss occurs (% of lap)
+
+**Longitudinal G (Braking/Acceleration):**
+
+- Max braking G (how hard you're braking)
+- Max acceleration G (how hard you're accelerating)
+- Longitudinal G smoothness (harsh vs smooth inputs)
+
+**Combined Load:**
+
+- Max total G-force (lat + long combined)
+- Average total G-force (overall grip usage)
+
+**Overdriving Detection:**
+
+- Steering efficiency (lateral G per degree of steering)
+- Steering smoothness (sawing vs smooth)
+- Overdriving % (using MORE steering, getting LESS grip = sliding)
+- Better technique % (using LESS steering, getting MORE grip = flow)
 
 ### Distance Breakdown
 
 - Speed/brake/throttle at every 10% of lap
+- **Lateral G at every 10% of lap** (cornering load by location)
+- **Longitudinal G at every 10% of lap** (braking/accel by location)
+- **Steering angle at every 10% of lap** (input by location)
 - Pinpoint which corners are different
+
+### How to Read G-Force Data (The Tire Story)
+
+**What High Lateral G Means:**
+
+- ✅ Good: High lateral G + smooth = loading tires correctly
+- ❌ Problem: Low lateral G + high speed corner = leaving grip on table
+- ❌ Problem: Spiky lateral G = sliding/overdriving
+
+**What Steering Efficiency Means:**
+
+- **Higher efficiency** = More grip per steering input (good!)
+- **Lower efficiency** = Sliding/overdriving (using more steering, getting less grip)
+
+**Overdriving Indicators:**
+
+- High steering angle + low lateral G = **sliding**
+- High steering smoothness (std dev) = **sawing the wheel**
+- Overdriving % > 20% = **fighting the car**
+
+**Flow State Indicators:**
+
+- High lateral G + smooth steering = **perfect grip usage**
+- Better technique % > 30% = **you've improved!**
+- Higher steering efficiency = **more grip per input**
 
 ---
 
@@ -206,17 +255,28 @@ Context: 2024 PB - same series, 6 months ago
 
 ## Important Notes
 
+### Data Unit Conversions (Automatic) ✅
+
+The tool automatically handles Garage 61 export quirks:
+
+- **LatAccel** and **LongAccel** are exported in **m/s²** (not G)
+- Tool auto-converts to G (divides by 9.81) when values exceed 5.0
+- Removes wrap-around data points (where lap distance goes backwards)
+- You don't need to pre-process the data!
+
 ### Fair Comparisons Only ⚠️
 
 - Compare laps from **same series/setup** only
 - Different setups = different car behavior = unfair comparison
 - Open setup vs fixed setup = apples vs oranges
+- **Different steering ratios** (e.g., 900° vs 1040°) will affect steering angle comparisons
 
 ### Context Matters 📝
 
 - Track conditions (wet vs dry)
 - Time of year (tire compound changes)
 - Setup version (if setup was updated)
+- Steering ratio (affects steering angle data)
 - Always note the context in "Reference lap context"
 
 ### What Little Padawan Will Do
@@ -226,11 +286,17 @@ Context: 2024 PB - same series, 6 months ago
 - Speed at 40% lap: Current 95 km/h, Reference 92 km/h
 - Brake pressure at T2: Current 0.85, Reference 0.90
 - Full throttle %: Current 45%, Reference 50%
+- **Lateral G at 40%: Current 1.8g, Reference 2.1g**
+- **Steering efficiency: Current 85 g/deg, Reference 95 g/deg**
+- **Overdriving %: 15% of lap**
 
 **Meaning** (Little Padawan's coaching):
 
 - "You're carrying 3 km/h MORE through T2! The 50-sign brake breakthrough is WORKING! 🔥"
 - "But you're getting on throttle 5% less of the lap - exit speed opportunity!"
+- "**At 40% lap (S2 exit?), you're loading tires 0.3g LESS than reference - you're leaving grip on the table!**"
+- "**Your steering efficiency is 10% lower - you're working the wheel more but getting less grip. Time to smooth it out.**"
+- "**15% of the lap you're overdriving (more steering, less grip) - focus on being gentler with inputs.**"
 - "Focus on T5 exit next session - that's where 0.5s is hiding."
 
 ---
