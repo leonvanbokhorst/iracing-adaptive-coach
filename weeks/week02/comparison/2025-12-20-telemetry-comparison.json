@@ -1,169 +1,279 @@
 {
-  "comparison_date": "2025-12-20",
-  "current_lap": {
-    "time": "1:29.691",
-    "file": "data/2025-12-20-15-22-rudskogen-practice-ray-ff1600-01-29-691.csv"
+  "lap_summary": {
+    "current_samples": 5381,
+    "reference_samples": 5338,
+    "interpolated_points": 1000
   },
-  "reference_lap": {
-    "time": "1:28.969",
-    "date": "2025-07-12 11:55 UTC",
-    "context": "2025 PB - same series, 5 months ago",
-    "event": "https://garage61.net/app/event/01K01P8HX54V00C6D8ETQ3Z5TQ",
-    "file": "data/compare/Garage 61 - Lonn Ponn - Ray FF1600 - Rudskogen Motorsenter - 01.28.969 - 01K01QJWQBTYCMY2FNF6KN1AAH.csv"
+  "speed": {
+    "current_top": 54.949660557031514,
+    "reference_top": 54.72438364590466,
+    "top_diff": 0.22527691112685488,
+    "current_avg": 37.27237025569518,
+    "reference_avg": 37.48901876856213,
+    "avg_diff": -0.21664851286695352,
+    "max_gain": 2.298419352412335,
+    "max_loss": -2.2144916526168856,
+    "gain_distance_pct": 0.5185185185185185,
+    "loss_distance_pct": 0.48648648648648646
   },
-  "gap": "0.722s",
-  "summary": {
-    "avg_speed_delta": "-0.85 km/h (current slower)",
-    "max_speed_delta": "+0.87 km/h (current faster)",
-    "min_speed_delta": "+4.96 km/h (current faster - carrying more minimum speed!)",
-    "avg_throttle_delta": "+0.7% (current more)",
-    "max_brake_pressure_current": "89.8%",
-    "max_brake_pressure_reference": "79.1%"
+  "braking": {
+    "current_max_pressure": 0.8887722552008932,
+    "reference_max_pressure": 0.788631132710646,
+    "current_braking_pct": 18.4,
+    "reference_braking_pct": 23.1,
+    "braking_time_diff_pct": -4.7,
+    "current_brake_zones": 8,
+    "reference_brake_zones": 6
   },
-  "speed_delta_by_section": [
+  "throttle": {
+    "current_full_throttle_pct": 61.199999999999996,
+    "reference_full_throttle_pct": 62.7,
+    "full_throttle_diff_pct": -1.5,
+    "current_avg_throttle": 0.6969218232209156,
+    "reference_avg_throttle": 0.6856178939661451,
+    "avg_throttle_diff": 0.011303929254770417
+  },
+  "cornering": {
+    "current_max_braking_g": -1.4716167785166459,
+    "reference_max_braking_g": -1.5686181190442843,
+    "braking_g_diff": 0.09700134052763842,
+    "current_max_accel_g": 0.6969049284353955,
+    "reference_max_accel_g": 0.7400300242275567,
+    "accel_g_diff": -0.04312509579216117,
+    "current_long_g_smoothness": 0.3847402103688756,
+    "reference_long_g_smoothness": 0.382285879829459,
+    "current_max_lat_g": 2.206361986929192,
+    "reference_max_lat_g": 2.270614954126241,
+    "lat_g_diff": -0.06425296719704887,
+    "current_avg_lat_g": 0.7582722768439594,
+    "reference_avg_lat_g": 0.7725093809394961,
+    "avg_lat_g_diff": -0.01423710409553669,
+    "current_lat_g_smoothness": 0.5926410713865601,
+    "reference_lat_g_smoothness": 0.602247127101296,
+    "lat_g_smoothness_diff": -0.00960605571473594,
+    "max_lat_g_gain": 0.9226443511024546,
+    "max_lat_g_loss": -0.5435289632582017,
+    "max_lat_g_gain_distance_pct": 0.13613613613613612,
+    "max_lat_g_loss_distance_pct": 0.9089089089089089,
+    "current_max_total_g": 2.21249269775441,
+    "reference_max_total_g": 2.2719028505490857,
+    "max_total_g_diff": -0.059410152794675763,
+    "current_avg_total_g": 0.8789892314991828,
+    "reference_avg_total_g": 0.8921646387998757
+  },
+  "distance_comparison": [
     {
-      "lap_pct": 0,
-      "description": "Start/Finish straight",
-      "delta_kmh": -2.45,
-      "current_speed": 166.3,
-      "reference_speed": 168.7,
-      "analysis": "Losing time on straight - likely exit from previous corner"
+      "distance_pct": 0.0,
+      "current_speed": 46.218563,
+      "reference_speed": 46.614353,
+      "speed_diff": -0.3957899999999981,
+      "current_brake": 0.0,
+      "reference_brake": 0.0,
+      "current_throttle": 1.0,
+      "reference_throttle": 1.0,
+      "current_lat_g": 0.006288286952089704,
+      "reference_lat_g": 0.04753623853211009,
+      "lat_g_diff": -0.041247951580020384,
+      "current_long_g": 0.17221182466870538,
+      "reference_long_g": 0.16874852191641182,
+      "long_g_diff": 0.003463302752293562,
+      "current_steering": 0.003777278,
+      "reference_steering": 0.012492431
     },
     {
-      "lap_pct": 10,
-      "description": "T1/T2 area (BREAKTHROUGH ZONE)",
-      "delta_kmh": 2.49,
-      "current_speed": 146.5,
-      "reference_speed": 144.0,
-      "current_brake": 0.86,
-      "reference_brake": 0.78,
-      "analysis": "FASTER! T2 50-sign brake breakthrough is WORKING! Braking harder and carrying more speed"
+      "distance_pct": 0.1,
+      "current_speed": 41.621300730989724,
+      "reference_speed": 40.77108540184806,
+      "speed_diff": 0.8502153291416619,
+      "current_brake": 0.8851850735563228,
+      "reference_brake": 0.761907565513697,
+      "current_throttle": 0.0,
+      "reference_throttle": 0.023195718992801116,
+      "current_lat_g": 0.20752981199190762,
+      "reference_lat_g": 0.17007903090408338,
+      "lat_g_diff": 0.037450781087824236,
+      "current_long_g": -1.4431117609956157,
+      "reference_long_g": -1.164090827600842,
+      "long_g_diff": -0.27902093339477374,
+      "current_steering": 0.04775609096233259,
+      "reference_steering": 0.02764907446105341
     },
     {
-      "lap_pct": 20,
-      "description": "After T2 acceleration",
-      "delta_kmh": -1.30,
-      "current_speed": 132.9,
-      "reference_speed": 134.2,
-      "analysis": "Slight loss on acceleration out"
+      "distance_pct": 0.2,
+      "current_speed": 36.75441291004749,
+      "reference_speed": 37.14296974404044,
+      "speed_diff": -0.3885568339929506,
+      "current_brake": 0.0,
+      "reference_brake": 0.0,
+      "current_throttle": 1.0,
+      "reference_throttle": 1.0,
+      "current_lat_g": 0.44100934998594005,
+      "reference_lat_g": 0.7285413056630805,
+      "lat_g_diff": -0.28753195567714046,
+      "current_long_g": 0.28073897823050215,
+      "reference_long_g": 0.27284092023545387,
+      "long_g_diff": 0.00789805799504828,
+      "current_steering": 0.07595856411957488,
+      "reference_steering": 0.1479861538997014
     },
     {
-      "lap_pct": 30,
-      "description": "Fast section",
-      "delta_kmh": 0.01,
-      "current_speed": 183.3,
-      "reference_speed": 183.3,
-      "analysis": "Equal - both at full throttle"
+      "distance_pct": 0.3,
+      "current_speed": 50.85321103636628,
+      "reference_speed": 50.82299333033612,
+      "speed_diff": 0.030217706030164493,
+      "current_brake": 0.0,
+      "reference_brake": 0.0,
+      "current_throttle": 1.0,
+      "reference_throttle": 1.0,
+      "current_lat_g": 0.0276396489267497,
+      "reference_lat_g": 0.05024157345772383,
+      "lat_g_diff": -0.022601924530974128,
+      "current_long_g": 0.041274342929105035,
+      "reference_long_g": -0.015449781859725403,
+      "long_g_diff": 0.05672412478883044,
+      "current_steering": 0.0029569359901073845,
+      "reference_steering": 0.01992027221443563
     },
     {
-      "lap_pct": 40,
-      "description": "Mid-lap slow section (MAJOR LOSS)",
-      "delta_kmh": -7.04,
-      "current_speed": 129.4,
-      "reference_speed": 136.5,
-      "analysis": "BIGGEST LOSS! 7 km/h slower - this is the smoking gun. Likely mid-corner or approach to slow corner"
+      "distance_pct": 0.4,
+      "current_speed": 36.06611663946506,
+      "reference_speed": 37.993829072950476,
+      "speed_diff": -1.9277124334854179,
+      "current_brake": 0.040033363,
+      "reference_brake": 0.0231145,
+      "current_throttle": 0.0,
+      "reference_throttle": 0.0,
+      "current_lat_g": 0.8244025370099075,
+      "reference_lat_g": 1.2181270761209286,
+      "lat_g_diff": -0.3937245391110211,
+      "current_long_g": -0.20004618747142594,
+      "reference_long_g": -0.16399361524873865,
+      "long_g_diff": -0.03605257222268729,
+      "current_steering": 0.1484292122583568,
+      "reference_steering": 0.13665574376798223
     },
     {
-      "lap_pct": 50,
-      "description": "Corner exit (MAJOR GAIN)",
-      "delta_kmh": 5.39,
-      "current_speed": 124.7,
-      "reference_speed": 119.3,
-      "current_throttle": 100.0,
-      "reference_throttle": 72.3,
-      "analysis": "FASTER! Full throttle vs 72% - getting on power earlier OR carrying more speed"
+      "distance_pct": 0.5,
+      "current_speed": 34.513104987443455,
+      "reference_speed": 33.04071952476089,
+      "speed_diff": 1.472385462682567,
+      "current_brake": 0.0,
+      "reference_brake": 0.0,
+      "current_throttle": 1.0,
+      "reference_throttle": 0.7712856017045066,
+      "current_lat_g": 0.7248522220591791,
+      "reference_lat_g": 1.0076983846487388,
+      "lat_g_diff": -0.28284616258955975,
+      "current_long_g": 0.3387384422816295,
+      "reference_long_g": 0.3500819891401646,
+      "long_g_diff": -0.011343546858535059,
+      "current_steering": 0.056996496802645395,
+      "reference_steering": 0.02716211374941373
     },
     {
-      "lap_pct": 60,
-      "description": "Mid-section",
-      "delta_kmh": -0.58,
-      "current_speed": 119.9,
-      "reference_speed": 120.5,
-      "analysis": "Marginal loss"
+      "distance_pct": 0.6,
+      "current_speed": 33.21767545089961,
+      "reference_speed": 33.34854434669787,
+      "speed_diff": -0.13086889579825822,
+      "current_brake": 0.0,
+      "reference_brake": 0.0,
+      "current_throttle": 1.0,
+      "reference_throttle": 1.0,
+      "current_lat_g": 0.7506749666028198,
+      "reference_lat_g": 0.57105874900232,
+      "lat_g_diff": 0.17961621760049984,
+      "current_long_g": 0.35660064713239487,
+      "reference_long_g": 0.3393439515170297,
+      "long_g_diff": 0.017256695615365192,
+      "current_steering": 0.010032287533526184,
+      "reference_steering": 0.008873080334443664
     },
     {
-      "lap_pct": 70,
-      "description": "Technical section",
-      "delta_kmh": -0.20,
-      "current_speed": 78.6,
-      "reference_speed": 78.8,
-      "current_throttle": 50.0,
-      "reference_throttle": 4.3,
-      "analysis": "Marginal - more aggressive on throttle (50% vs 4%)"
+      "distance_pct": 0.7,
+      "current_speed": 21.769194707188536,
+      "reference_speed": 22.01461136576787,
+      "speed_diff": -0.2454166585793338,
+      "current_brake": 0.0,
+      "reference_brake": 0.03202760689893916,
+      "current_throttle": 0.4997302158789784,
+      "reference_throttle": 0.04309561,
+      "current_lat_g": 1.4981879565724423,
+      "reference_lat_g": 1.798087544841103,
+      "lat_g_diff": -0.2998995882686606,
+      "current_long_g": 0.2252823969502392,
+      "reference_long_g": -0.22613051042626325,
+      "long_g_diff": 0.4514129073765024,
+      "current_steering": 0.8947359847340214,
+      "reference_steering": 1.1185733162677374
     },
     {
-      "lap_pct": 80,
-      "description": "Mid-section",
-      "delta_kmh": 0.50,
-      "current_speed": 100.8,
-      "reference_speed": 100.3,
-      "analysis": "Slight gain"
+      "distance_pct": 0.8,
+      "current_speed": 27.942663329912826,
+      "reference_speed": 27.79284289128641,
+      "speed_diff": 0.14982043862641703,
+      "current_brake": 0.0,
+      "reference_brake": 0.0,
+      "current_throttle": 1.0,
+      "reference_throttle": 1.0,
+      "current_lat_g": 0.9253242712004256,
+      "reference_lat_g": 1.2413079423405518,
+      "lat_g_diff": -0.31598367114012615,
+      "current_long_g": 0.3721498301701411,
+      "reference_long_g": 0.3586409787473677,
+      "long_g_diff": 0.01350885142277336,
+      "current_steering": 0.3007819781603769,
+      "reference_steering": 0.5300980517931541
     },
     {
-      "lap_pct": 90,
-      "description": "Final section",
-      "delta_kmh": -1.60,
-      "current_speed": 95.3,
-      "reference_speed": 96.9,
-      "current_throttle": 57.2,
-      "reference_throttle": 1.4,
-      "analysis": "Loss despite more throttle - likely losing time earlier in the section"
+      "distance_pct": 0.9,
+      "current_speed": 26.46670175885937,
+      "reference_speed": 26.97970657074982,
+      "speed_diff": -0.5130048118904504,
+      "current_brake": 0.0,
+      "reference_brake": 0.0,
+      "current_throttle": 0.5636744064459426,
+      "reference_throttle": 0.013717845,
+      "current_lat_g": 1.747626207582344,
+      "reference_lat_g": 1.7885003580963157,
+      "lat_g_diff": -0.040874150513971585,
+      "current_long_g": 0.21160197278559506,
+      "reference_long_g": -0.15816597390967774,
+      "long_g_diff": 0.3697679466952728,
+      "current_steering": 0.8176480923316722,
+      "reference_steering": 0.8918211855409053
+    },
+    {
+      "distance_pct": 1.0,
+      "current_speed": 46.152866,
+      "reference_speed": 46.832844,
+      "speed_diff": -0.6799779999999984,
+      "current_brake": 0.0,
+      "reference_brake": 0.0,
+      "current_throttle": 1.0,
+      "reference_throttle": 1.0,
+      "current_lat_g": 0.2372778593272171,
+      "reference_lat_g": 0.022217925586136594,
+      "lat_g_diff": 0.2150599337410805,
+      "current_long_g": 0.16797499490316004,
+      "reference_long_g": 0.17419174311926605,
+      "long_g_diff": -0.006216748216106016,
+      "current_steering": 0.026147706,
+      "reference_steering": 0.014816997
     }
   ],
-  "key_findings": {
-    "biggest_gains": [
-      {
-        "location": "50% lap",
-        "gain": "+5.39 km/h",
-        "reason": "Better power application - full throttle vs 72%"
-      },
-      {
-        "location": "10% lap (T2)",
-        "gain": "+2.49 km/h",
-        "reason": "T2 50-sign brake breakthrough working!"
-      }
-    ],
-    "biggest_losses": [
-      {
-        "location": "40% lap",
-        "loss": "-7.04 km/h",
-        "reason": "SMOKING GUN - mid-lap slow section, likely mid-corner speed or approach"
-      },
-      {
-        "location": "0% lap (Start/Finish)",
-        "loss": "-2.45 km/h",
-        "reason": "Exit from previous corner affecting straight-line speed"
-      }
-    ]
-  },
-  "coaching_insights": {
-    "celebrate": [
-      "T2 breakthrough is VALIDATED by data - you're 2.5 km/h faster there now!",
-      "Carrying 5 km/h MORE minimum speed than PB lap (better corner speed overall)",
-      "Better power application at 50% lap (+5.4 km/h gain)"
-    ],
-    "focus_areas": [
-      {
-        "priority": 1,
-        "location": "40% lap distance",
-        "issue": "7 km/h speed loss - MAJOR opportunity",
-        "potential": "~0.4-0.5s available here",
-        "action": "Identify which corner this is and work on mid-corner speed or entry"
-      },
-      {
-        "priority": 2,
-        "location": "Final corner exit (affects 0% lap speed)",
-        "issue": "2.45 km/h slower on straight",
-        "potential": "~0.2s available",
-        "action": "Final corner exit needs work - affects entire main straight"
-      }
-    ],
-    "technical_notes": [
-      "Braking more aggressively now (89.8% vs 79.1% max pressure)",
-      "Average throttle slightly higher (+0.7%) = more aggressive overall",
-      "Minimum corner speed UP by 5 km/h = fundamental improvement in cornering",
-      "Gap of 0.722s is achievable - two main areas identified"
-    ]
+  "overdriving_indicators": {
+    "current_avg_steering_angle": 0.23164917058903622,
+    "reference_avg_steering_angle": 0.2626382205371715,
+    "avg_steering_diff": -0.030989049948135283,
+    "current_max_steering_angle": 1.3937277001941777,
+    "reference_max_steering_angle": 1.356326061593665,
+    "current_steering_smoothness": 0.24609400060873535,
+    "reference_steering_smoothness": 0.28391548500017405,
+    "steering_smoothness_diff": -0.0378214843914387,
+    "current_avg_steering_efficiency": 7.071094571351063,
+    "reference_avg_steering_efficiency": 6.5246429918576325,
+    "steering_efficiency_diff": 0.5464515794934304,
+    "overdriving_pct_of_lap": 17.299999999999997,
+    "better_technique_pct_of_lap": 21.3
   }
 }
-

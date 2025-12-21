@@ -7,7 +7,8 @@
 **Consistency (σ)**: **0.699s** (Excellent!)  
 **Clean Laps**: 12 of 20  
 **Incidents**: 8  
-**2025 PB (Same Series)**: 1:28.969s (gap: 0.722s) - July 12, 2025  
+**Setup**: Brake Bias **55%** (changed from 56% default per track guide)  
+**2025 PB (Same Series)**: 1:28.969s (gap: 0.722s) - July 12, 2025 (56% brake bias)  
 **Garage 61 Event**: [https://garage61.net/app/event/01KCY75EXS52793PX287H73W9P](https://garage61.net/app/event/01KCY75EXS52793PX287H73W9P)
 
 ---
@@ -432,3 +433,32 @@ _"May the Trail Braking Be With You."_ 🏎️💨💪
 **Next Target**: Sub-1:29s and hunting down that 2025 Same-Series PB (1:28.969s)  
 **Gap**: 0.722s (TWO corners identified via telemetry!)  
 **Confidence Level**: MAXIMUM DOWNFORCE 🚀
+
+---
+
+## 🔬 Deep Telemetry Analysis vs July PB
+
+**NEW**: Full G-force and speed comparison against July PB (1:28.969) has been completed!
+
+📊 **[Read Full Analysis: Telemetry vs July PB](2025-12-20-telemetry-vs-july-pb-analysis.md)**
+
+**Key Findings:**
+- ✅ **S2 Exit is NOW FASTER than July PB** (+1.5 m/s!) - Your breakthrough is REAL
+- ⚠️ **S2 Entry is 0.4-0.5s slower** - Arriving 7 km/h slower with 0.4g less tire load
+- ⚠️ **Early lap commitment** - Using 0.29g less grip than available
+- 📈 **Steering efficiency IMPROVED** - Getting more grip per steering input than July
+
+**Next Session Focus:**
+1. **S2 Entry speed** - Brake 5-10m later, carry more speed in (biggest opportunity!)
+2. **Early lap commitment** - Use the available grip, hit true apex
+
+The 0.722s gap is not talent - it's specific corners where you're leaving grip unused. Fix those two zones and you'll CRUSH the July PB by 0.3-0.5s.
+
+**Analysis includes:**
+- Complete lap distance breakdown (every 10%)
+- G-force comparison (braking, lateral, total load)
+- Overdriving indicators
+- Specific, actionable fixes (not just "go faster")
+- Practice drills for each problem zone
+
+This is the roadmap to sub-1:29, Master. 🎯

@@ -71,6 +71,68 @@ Once Winton clicks in the FF1600, it stops feeling like an endless chore around 
 
 ---
 
+## Setup & Benchmarks
+
+### Brake Bias Guidance
+
+**Recommended Range:** 52-56%
+
+- **54%**: Sweet spot for most drivers (good balance)
+- **55-56%**: More stable on bumpy braking zones (T3, T10)
+- **52-53%**: More rotation, better for experienced drivers
+
+Start at 54% and adjust 0.5% at a time. If rear feels loose at hairpins (T2, T7), move forward. If car won't rotate, move rearward 0.2-0.3%.
+
+**Mid-stint tip:** As tires warm up, move bias 0.5-1.0% rearward to aid rotation. If fronts overheat or track gets greasy, move forward 0.3-0.5%.
+
+### Lap Time Benchmarks
+
+| Level                         | Time         | Notes               |
+| ----------------------------- | ------------ | ------------------- |
+| **Alien (Top 0.1%)**          | 1:24.009     | World-class         |
+| **Fast Driver (Top 5%)**      | ~1:25.253    | Competitive veteran |
+| **Competitive (Rookie Goal)** | Sub-1:27.083 | Strong intermediate |
+
+---
+
+## Corner-by-Corner Reference (Ray FF1600)
+
+### Sector 1 (Opening Sequence → T5)
+
+| Corner | Type             | Gear    | Target Min Speed           | Key Points                                                                   |
+| ------ | ---------------- | ------- | -------------------------- | ---------------------------------------------------------------------------- |
+| **T1** | Right Sweeper    | 3rd     | 65-71 mph (105-114 km/h)   | Light brake 50-70m before apex, late apex, sets up T2 approach               |
+| **T2** | **Left Hairpin** | **2nd** | **34-37 mph (55-60 km/h)** | **CRITICAL - Brake from 100-75m board, long trail brake, late/diamond apex** |
+| **T3** | Right Kink/Exit  | 3rd     | 56-59 mph (90-95 km/h)     | No brake, small lift, settle car for T4                                      |
+| **T4** | Left Switchback  | 3rd     | 47-53 mph (76-85 km/h)     | Short brake/lift, light trail brake, avoid inner curb                        |
+| **T5** | Tight Right      | 2nd     | 37-40 mph (60-64 km/h)     | Brake 75-50m before apex, long trail brake, smooth throttle                  |
+
+### Sector 2 (Back Straight Setup)
+
+| Corner | Type              | Gear    | Target Min Speed           | Key Points                                                                         |
+| ------ | ----------------- | ------- | -------------------------- | ---------------------------------------------------------------------------------- |
+| **T6** | Left Kink         | 3rd     | 68-75 mph (109-121 km/h)   | No brake, constant throttle, minimal steering                                      |
+| **T7** | **Right Hairpin** | **2nd** | **34-37 mph (55-60 km/h)** | **MOST CRITICAL EXIT - Brake from 125-100m, long trail brake, earliest throttle!** |
+
+### Sector 3 (Esses → Sweeper)
+
+| Corner  | Type               | Gear | Target Min Speed         | Key Points                                                  |
+| ------- | ------------------ | ---- | ------------------------ | ----------------------------------------------------------- |
+| **T8**  | Left of Esses      | 3rd  | 65-71 mph (105-114 km/h) | Light lift/brush, short trail brake, early partial throttle |
+| **T9**  | Right of Esses     | 3rd  | 68-75 mph (109-121 km/h) | No brake, late apex, early throttle, skim inside curb       |
+| **T10** | Long Right Sweeper | 3rd  | 59-65 mph (95-105 km/h)  | Light brake/lift, long gentle trail brake, carry speed      |
+
+### Sector 4 (Final Approach)
+
+| Corner  | Type                     | Gear    | Target Min Speed           | Key Points                                                                       |
+| ------- | ------------------------ | ------- | -------------------------- | -------------------------------------------------------------------------------- |
+| **T11** | Left Prep                | 3rd     | 53-59 mph (85-95 km/h)     | Small brake/lift, set car for T12, maintenance throttle                          |
+| **T12** | **Final Right onto S/F** | **2nd** | **43-50 mph (69-80 km/h)** | **CRITICAL EXIT - Brake 75-50m before apex, late apex, exit speed = everything** |
+
+> **Three Critical Corners:** T7 (most important - longest acceleration zone), T12 (second - sets S/F speed), T1 (third - sets up T2 hairpin). Master these three for lap time.
+
+---
+
 ## References
 
 - [Winton Motor Raceway — Wikipedia](https://en.wikipedia.org/wiki/Winton_Motor_Raceway)

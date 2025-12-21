@@ -39,7 +39,29 @@ _Lap on Rudskogen by Joakim Ottersen (OttersenRacing)_
 | **S3** | ~17s (19%)  | T7-T11 → Middle bowl            | Flow through linked corners                  |
 | **S4** | ~17s (19%)  | T12-T14 → Final sector          | Last corner exit onto main straight          |
 
-> **Note:** S2 is the longest sector and contains the critical T2 downhill braking zone. Master Lonn's breakthrough came from finding the "50 sign" brake marker and mastering trail braking all the way through. If your S2 variance (σ) is high, focus on that specific corner—it's 73% of the lap time opportunity.
+> **Note:** S2 is the longest sector and contains the critical T2 downhill braking zone (tight hairpin right). Master Lonn's breakthrough came from finding the "50 sign" brake marker and mastering trail braking all the way through. If your S2 variance (σ) is high, focus on that specific corner—it's 73% of the lap time opportunity.
+
+### Ray FF1600 Setup Guidance
+
+**Brake Bias:** 52-56% recommended range
+
+- **55%**: Sweet spot for Rudskogen (good rotation + stable braking)
+- **56%**: Default (more stable, less rotation)
+- **52-54%**: More rotation, higher risk of rear instability
+
+Start at 55% and adjust in 0.5% increments. Move rearward until you feel first sign of rear instability on entry, then forward 0.2-0.3% to find your optimal balance.
+
+### Lap Time Benchmarks
+
+| Level                         | Time         | Gap to Master Lonn's Current PB |
+| ----------------------------- | ------------ | ------------------------------- |
+| **Alien (Top 0.1%)**          | 1:26.799     | -2.892s                         |
+| **Fast Driver (Top 5%)**      | ~1:28.066    | -1.197s                         |
+| **Competitive (Rookie Goal)** | Sub-1:29.000 | +0.031s ✅                      |
+| **Master Lonn July 2025 PB**  | 1:28.969     | Baseline                        |
+| **Master Lonn Current Best**  | 1:29.691     | +0.722s                         |
+
+> Master Lonn is currently in the **upper-intermediate/competitive** bracket, just 0.722s from his PB and already faster than "competitive rookie" goal. Gap to top-tier (1.2s) is technique + experience, not talent.
 
 ---
 
@@ -73,6 +95,49 @@ In the Ray FF1600, Rudskogen becomes a **momentum and bravery calibration tool**
 
 - **Brake bias & crests**  
   Early in the week, a front-leaning bias (a couple of clicks towards safety) keeps the rear composed over the T6 and final braking crests. As tyre temps and your courage rise, nudging the bias back towards neutral lets the Ray rotate more willingly into the quicker direction changes—but every extra step rearward means you have to be even smoother when the road falls away.
+
+---
+
+## Corner-by-Corner Reference (Ray FF1600)
+
+Quick reference for gear, target speed, and key technique notes per corner.
+
+### Sector 1 (Start → Uphill)
+
+| Corner | Type           | Gear | Target Min Speed         | Key Points                                                       |
+| ------ | -------------- | ---- | ------------------------ | ---------------------------------------------------------------- |
+| **T1** | Right          | 3rd  | 60-65 mph (97-105 km/h)  | Brake at 100m board, late apex for exit onto short straight      |
+| **T2** | Left Kink      | 4th  | 85-95 mph (137-153 km/h) | Small lift only, brush apex curb, minimal steering               |
+| **T3** | Right Downhill | 3rd  | 70-75 mph (113-121 km/h) | Light brake to settle car, late/shallow apex, avoid sausage curb |
+
+### Sector 2 (Downhill Braking → Back Straight) **[CRITICAL]**
+
+| Corner    | Type                    | Gear    | Target Min Speed           | Key Points                                                                        |
+| --------- | ----------------------- | ------- | -------------------------- | --------------------------------------------------------------------------------- |
+| **T4/T5** | **Tight Hairpin Right** | **2nd** | **35-40 mph (56-64 km/h)** | **Brake at 100m/"50 sign", long trail brake to late apex, CRITICAL for lap time** |
+| **T6**    | Fast Right Kink         | 4th     | 95-105 mph (153-169 km/h)  | Flat-out in Ray FF1600, avoid sausage curb                                        |
+
+> **Master Lonn's T2/T5 Breakthrough:** "Brake way later downhill just before 50 sign, trail brake all the way through, 3rd on apex, 2nd just before hill to second apex." This transformed S2 from 0.75s σ to 0.32s σ - 2.3x more consistent!
+
+### Sector 3 (Middle Bowl Flow)
+
+| Corner  | Type              | Gear | Target Min Speed         | Key Points                                                 |
+| ------- | ----------------- | ---- | ------------------------ | ---------------------------------------------------------- |
+| **T7**  | Left Medium       | 3rd  | 60-65 mph (97-105 km/h)  | Small brake, late apex, don't attack inside curb           |
+| **T8**  | Right Tight       | 2nd  | 45-50 mph (72-80 km/h)   | Brake at 80-90m, focus on rotation + clean exit            |
+| **T9**  | Fast Right Uphill | 3rd  | 70-75 mph (113-121 km/h) | Lift/light brake over crest, blind apex - commit gradually |
+| **T10** | Left Flick        | 4th  | 80-90 mph (129-145 km/h) | No brake or tiny lift, keep hands calm                     |
+
+### Sector 4 (Carousel → Finish) **[CRITICAL EXIT]**
+
+| Corner  | Type                       | Gear        | Target Min Speed             | Key Points                                                            |
+| ------- | -------------------------- | ----------- | ---------------------------- | --------------------------------------------------------------------- |
+| **T11** | Carousel Right Entry       | 3rd         | 55-60 mph (89-97 km/h)       | Brake at 80-90m, long trail brake, critical for tire management       |
+| **T12** | Carousel Mid               | 3rd         | 60-62 mph (97-100 km/h)      | Maintenance throttle + feather brake for balance, patience key        |
+| **T13** | **Right Exit to Straight** | **3rd/4th** | **65-70 mph (105-113 km/h)** | **Tiny brake/lift, very late apex, CRITICAL - exit speed = lap time** |
+| **T14** | S/F Kink                   | 4th         | Vmax                         | Flat out, stay predictable in traffic                                 |
+
+> **Technique Reminder:** _"The magic is in the release. Aim for smooth 0.3-0.7s taper from max pressure to turn-in."_ Progressive brake release (trail braking) keeps weight over fronts and helps rotation.
 
 ---
 

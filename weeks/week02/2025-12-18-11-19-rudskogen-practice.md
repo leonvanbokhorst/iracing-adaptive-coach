@@ -9,6 +9,7 @@
 - **Consistency (σ)**: 1.43s
 - **Clean laps**: 18 / 29 total
 - **Incidents**: 11
+- **Setup**: Brake Bias **56%** (default)
 - **Garage 61 event page**: https://garage61.net/app/event/01KCRK32Y4NS51XV5GCTZM0FGH
 
 ## Current Focus and Goal

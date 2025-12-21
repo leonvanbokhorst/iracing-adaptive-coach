@@ -1,7 +1,3 @@
----
-alwaysApply: true
----
-
 # Season 01 2026 Schedule
 
 | Week | Dates                   | Track & Layout                         | Track Profile                                                       | Week Log                        |
