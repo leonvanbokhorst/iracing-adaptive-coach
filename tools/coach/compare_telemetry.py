@@ -214,7 +214,8 @@ def compare_metrics(current_df, reference_df):
         comparison["cornering"]["max_lat_g_loss_distance_pct"] = float(current_interp.loc[lat_g_diff.argmin(), 'distance_pct'])
     
     # Combined G-force (total load on car)
-    if 'LongAccel' in current_interp.columns and 'LatAccel' in current_interp.columns:
+    if ('LongAccel' in current_interp.columns and 'LatAccel' in current_interp.columns and
+        'LongAccel' in reference_interp.columns and 'LatAccel' in reference_interp.columns):
         current_total_g = np.sqrt(current_interp['LongAccel']**2 + current_interp['LatAccel']**2)
         reference_total_g = np.sqrt(reference_interp['LongAccel']**2 + reference_interp['LatAccel']**2)
         
@@ -225,7 +226,8 @@ def compare_metrics(current_df, reference_df):
         comparison["cornering"]["reference_avg_total_g"] = float(reference_total_g.mean())
     
     # --- Overdriving Detection (Steering vs Lateral G) ---
-    if 'SteeringWheelAngle' in current_interp.columns and 'LatAccel' in current_interp.columns and 'Speed' in current_interp.columns:
+    if ('SteeringWheelAngle' in current_interp.columns and 'LatAccel' in current_interp.columns and 'Speed' in current_interp.columns and
+        'SteeringWheelAngle' in reference_interp.columns and 'LatAccel' in reference_interp.columns):
         comparison["overdriving_indicators"] = analyze_overdriving(current_interp, reference_interp)
     
     # --- Distance-based Comparison (sample every 10% of lap) ---
@@ -277,7 +279,9 @@ def analyze_overdriving(current_df, reference_df):
     """
     indicators = {}
     
-    if 'SteeringWheelAngle' not in current_df.columns or 'LatAccel' not in current_df.columns:
+    # Check if required columns exist in BOTH dataframes
+    if ('SteeringWheelAngle' not in current_df.columns or 'LatAccel' not in current_df.columns or
+        'SteeringWheelAngle' not in reference_df.columns or 'LatAccel' not in reference_df.columns):
         return indicators
     
     # Calculate absolute values for comparison
