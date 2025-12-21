@@ -23,7 +23,7 @@
 
 "IT CLICKED! 🎯
 
-Two days after the first rusty Rudskogen session (after a year+ break from this track), Master Lonn came back with a MISSION: figure out that downhill T2 braking zone. And boy, did he figure it out.
+Two days after the first rusty Rudskogen session (after 6 months away from this track), Master Lonn came back with a MISSION: figure out that downhill T2 braking zone. And boy, did he figure it out.
 
 'I can brake way later downhill just before the 50 sign,' he said, 'then trail brake all the way through, get into 3rd on the apex, and into 2nd just before the hill to the second apex.'
 
@@ -84,7 +84,7 @@ This is the breakthrough we needed. Now we BUILD from here. Sub-1:29? It's RIGHT
 
 "Master Lonn, let me tell you what just happened here, because it's BEAUTIFUL.
 
-Two days ago (Dec 18), you came back to Rudskogen after a year and said 'I'm rusty in T2.' The data showed **63% of your time loss** was in Sector 2.
+Two days ago (Dec 18), you came back to Rudskogen after 6 months and said 'I'm rusty in T2.' The data showed **73% of your time loss** was in Sector 2.
 
 Today? You just cut that S2 loss by **55%** (0.96s/lap → 0.43s/lap).
 
@@ -128,7 +128,7 @@ And when one corner becomes repeatable? The whole lap flows.
 **The Data Proof**:
 
 - **Fact**: Best lap (89.69s) is only **0.228s** from theoretical optimal (89.46s)
-- **Meaning**: You're driving at **99.7% perfection**. In your SECOND session back. After a YEAR off.
+- **Meaning**: You're driving at **99.7% perfection**. In your SECOND session back. After 6 months off.
 
 Master... that's not rust. That's MASTERY returning. 🏆
 

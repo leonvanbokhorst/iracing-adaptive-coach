@@ -10,8 +10,8 @@ This is a **Coach-in-a-Box**: AI-powered racing analysis designed to help Master
 
 | Week   | Track                     | Status         | Best Lap          | Focus                         | Key Finding                        |
 | :----- | :------------------------ | :------------- | :---------------- | :---------------------------- | :--------------------------------- |
-| **01** | Summit Point (Jefferson)  | ✅ Complete    | 51.438s → 50.592s | Flow State Mastery            | Victory + Podium! "Metronome city" |
-| **02** | **Rudskogen Motorsenter** | 👈 **Current** | 1:30.290          | Sector 2 (T2) Turn-in/Braking | Rusty in ONE corner after 1 year   |
+| **[01](weeks/week01/README.md)** | Summit Point (Jefferson)  | ✅ Complete    | 51.438s → 50.592s | Flow State Mastery            | Victory + Podium! "Metronome city" |
+| **[02](weeks/week02/README.md)** | **Rudskogen Motorsenter** | 👈 **Current** | 1:30.290          | Sector 2 (T2) Turn-in/Braking | Rusty in ONE corner after 6 months |
 | **03** | Winton Motor Raceway      | 📅 Upcoming    | TBD               | TBD                           | TBD                                |
 
 ---
@@ -28,11 +28,11 @@ _One driver's journey through Season 01 2026 - told one lap at a time._
 
 **Rudskogen Motorsenter | December 18 - Present**
 
-So here's the thing about coming back to a track after a year: your body remembers almost everything. Almost.
+So here's the thing about coming back to a track after 6 months: your body remembers almost everything. Almost.
 
-Master Lonn rolled onto [Rudskogen](tracks/track-rudskogen-motorsenter.md)—a track he last raced in 2025 with a PB of **1:28.762**—and immediately felt... familiar. Sectors 1, 3, and 4? Like riding a bike. Muscle memory kicked in, consistency was Jefferson-level right away (σ = 0.22-0.40s).
+Master Lonn rolled onto [Rudskogen](tracks/track-rudskogen-motorsenter.md)—a track he last raced in July 2025 with a same-series PB of **1:28.969**—and immediately felt... familiar. Sectors 1, 3, and 4? Like riding a bike. Muscle memory kicked in, consistency was Jefferson-level right away (σ = 0.22-0.40s).
 
-But Turn 2? **That's where the year-long break was hiding.**
+But Turn 2? **That's where the 6-month break was hiding.**
 
 His words after the first session:
 
@@ -218,7 +218,7 @@ Not frustrated. Not angry. **CONFIDENT.** After spinning, crashing, and pitting,
 - **Confidence from recovery**: Mistakes don't break you—they reveal your resilience
 - ADHD brain needs 5-6 laps to "settle" in chaos, then performance returns
 - Focused practice works: Fix ONE thing, accept temporary messiness elsewhere
-- Familiar tracks = 4x better starting consistency even after a year away
+- Familiar tracks = 4x better starting consistency even after 6 months away
 
 ### 🎯 Master Lonn's Evolution
 

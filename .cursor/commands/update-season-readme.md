@@ -28,8 +28,8 @@ Update the progress table with latest data:
 
 | Week   | Track         | Status         | Best Lap          | Focus    | Key Finding         |
 | :----- | :------------ | :------------- | :---------------- | :------- | :------------------ |
-| **01** | Summit Point  | ✅ Complete    | 51.438s → 50.112s | S1 Entry | Brake marker = key! |
-| **02** | **Rudskogen** | 👈 **Current** | TBD               | TBD      | TBD                 |
+| **[01](../../weeks/week01/README.md)** | Summit Point  | ✅ Complete    | 51.438s → 50.112s | S1 Entry | Brake marker = key! |
+| **[02](../../weeks/week02/README.md)** | **Rudskogen** | 👈 **Current** | TBD               | TBD      | TBD                 |
 
 **Status Icons**:
 

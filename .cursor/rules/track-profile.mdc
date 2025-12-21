@@ -1,0 +1,241 @@
+---
+name: track-profile
+description: Create or update comprehensive track profile/dossier
+---
+
+# Track Profile Generator
+
+When the user asks to "update track profile", "create track dossier", or "build track file":
+
+## 1. Gather Track Information
+
+### Required Metadata (YAML frontmatter)
+```yaml
+---
+track: "[Official track name]"
+layout: "[Specific layout/configuration]"
+location: "[City, State/Region, Country]"
+length_km: X.XX
+length_mi: X.XX
+opened: YYYY
+type: "road course" | "street circuit" | "oval" | "roval"
+---
+```
+
+### Sources to Check
+- iRacing.com track page
+- Wikipedia
+- Official track website
+- YouTube onboards
+- User's personal notes from sessions
+
+## 2. Profile Structure
+
+Create `tracks/track-[name]-[layout].md` with this structure:
+
+### Title: Track Name – Character Descriptor
+
+Give the track a **character tag** (1-3 words that capture its essence):
+- Examples: "Confidence Gym", "Nordic Roller Coaster", "Brake Point Laboratory"
+- Should capture what it teaches or how it feels
+
+### Background (2-3 paragraphs)
+- Brief history
+- What makes it unique
+- Why it exists / what it's known for
+- Keep conversational, not Wikipedia-dry
+
+### Track Map
+```markdown
+## Track Map
+
+<a href="images/[track]-map.png"><img src="images/[track]-map.png" alt="[Track] Map" width="70%"></a>
+```
+
+### Sector Definitions (iRacing)
+
+| Sector | Approx Time | Corners | Key Challenge |
+|--------|-------------|---------|---------------|
+| **S1** | ~XXs (XX%) | [Corners] | [Challenge] |
+| **S2** | ~XXs (XX%) | [Corners] | [Challenge] |
+| **S3** | ~XXs (XX%) | [Corners] | [Challenge] |
+| **S4** | ~XXs (XX%) | [Corners] | [Challenge] |
+
+> **Note:** [Specific coaching tip about highest-variance sector]
+
+### Character Notes (4-6 bullet points)
+
+What makes this track ITSELF? Not setup or driving tips—just pure personality:
+- What type of circuit is it? (Handling course, power track, momentum circuit)
+- Key physical features (elevation, surface, camber)
+- What it exposes in drivers
+- What makes it memorable/unique
+- Use evocative language ("hands busy, eyes far")
+
+### [Car Name] at [Track] (if applicable)
+
+Car-specific guidance for the current car Master Lonn is driving:
+- Corner-by-corner notes (major sections)
+- Setup considerations specific to this track
+- What the car teaches you here
+- Common mistakes in this car
+
+### Practice Cues for the Week
+
+3-4 specific practice strategies:
+- Micro-stints focused on [specific skill]
+- No-[something] laps (e.g., "no-brake laps")
+- Racecraft rehearsals (where to pass)
+- Focus on fundamentals relevant to this track
+
+### Personal Notes
+
+```markdown
+## Personal Notes
+
+> _First impressions and learnings. Worth revisiting next time I'm here._
+
+### [Week XX – Month Year] (Season Context)
+
+**First Discovery:** [What surprised you]
+
+**The Feel:** [How it drives]
+
+**[Specific Challenge]:** [What you learned]
+
+**The Breakthrough:** [What made you faster]
+
+### Overtaking (if applicable)
+
+- **[Turn X] inside:** [Why it works]
+- **[Turn Y] inside:** [Conditions needed]
+- **Setup required:** [What enables passes]
+- **Patience is mandatory:** [Lessons learned]
+
+> _"[Memorable quote from Master Lonn]"_
+```
+
+### References
+- Wikipedia link
+- iRacing.com link
+- Official track website
+- YouTube onboards
+
+## 3. Tone & Style Guidelines
+
+**Voice**: Little Padawan's perspective (observant, slightly technical, practical)
+
+**Avoid**:
+- Dry Wikipedia facts without context
+- Generic "brake here, turn there" advice
+- Excessive technical jargon
+- Walls of text
+
+**Embrace**:
+- Evocative descriptions ("live-fire practice range")
+- What the track TEACHES
+- Character/personality of the circuit
+- Practical wisdom from experience
+- Conversational tone
+
+**Emphasis**:
+- **Bold** for key terms, corner names, important concepts
+- _Italics_ for subtle emphasis, internal thoughts
+- Use formatting strategically (see handbook guidelines)
+
+## 4. Research Strategy
+
+If creating from scratch:
+
+1. **iRacing.com** → Get official stats (length, location, year)
+2. **Wikipedia** → Historical context, significance
+3. **YouTube** → Watch 2-3 onboards to understand flow
+4. **Official website** → Track layout, sector info
+5. **Master Lonn's sessions** → Personal insights (most important!)
+
+If updating existing file:
+
+1. Check what's already there
+2. Add Personal Notes section if missing
+3. Update with recent session learnings
+4. Enhance Character Notes with new insights
+5. Add car-specific section if racing new car
+
+## 5. Image Handling
+
+Track maps should be saved to `tracks/images/[track-name]-map.png`
+
+If no map exists:
+- Mention it's needed
+- Provide placeholder in markdown
+- Link to iRacing or official track site for reference
+
+## 6. Personal Notes Updates
+
+When adding session learnings to existing track file:
+
+```markdown
+### [Week XX – Month Year] (Season Context)
+
+**[Key Discovery Title]:** [What you learned]
+
+**[Another Discovery]:** [Insight]
+
+**The Breakthrough:** [What clicked]
+
+**Stats:** [Relevant performance data]
+```
+
+Each visit gets its own dated subsection. Track evolution of understanding over time.
+
+## Example Usage
+
+**User**: "Update track profile for Rudskogen"
+
+**Little Padawan**:
+1. Checks if `tracks/track-rudskogen-motorsenter.md` exists
+2. If exists: Adds Personal Notes from recent Week 02 sessions
+3. If new: Researches track, creates full profile
+4. Applies Jefferson Circuit style/structure
+5. Focuses on what Rudskogen TEACHES (in contrast to Jefferson)
+
+**User**: "Create track dossier for Lime Rock"
+
+**Little Padawan**:
+1. Researches Lime Rock Park - Grand Prix
+2. Creates comprehensive profile with character
+3. Includes Ray FF1600-specific notes
+4. Adds practice cues based on track type
+5. Leaves Personal Notes ready for first session
+
+## 7. Character Descriptor Examples
+
+Match the descriptor to what the track is known for:
+
+- **Jefferson**: "Confidence Gym" (teaches fundamentals)
+- **Rudskogen**: "Nordic Roller Coaster" (elevation + rhythm)
+- **Lime Rock**: "The Uphill Chase" (elevation + short lap)
+- **Oran Park**: "The Forgotten Classic" (historic + challenging)
+- **Spa**: "The Green Hell's Little Brother" (intimidating + rewarding)
+
+Descriptor should be **memorable** and capture **essence**, not just a fact.
+
+---
+
+## Output
+
+After creating/updating track profile:
+1. Confirm file created/updated
+2. Summary of what was added
+3. Suggest Master Lonn reviews and adds personal touches
+4. Note if track map image is needed
+
+---
+
+## Notes
+
+- Track profiles are **living documents** - update after each visit
+- Personal Notes section is the most valuable over time
+- Character over statistics (anyone can look up lap length)
+- Make it something Master Lonn wants to READ, not just reference
+- Each track has personality - find it and capture it

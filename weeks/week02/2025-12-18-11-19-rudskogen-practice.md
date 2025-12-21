@@ -24,7 +24,7 @@ Week 02, new track, new challenge. But wait—this isn't a _new_ track. Master L
 
 The question: After 6 months away, how much rust accumulated? Answer: Not as much as he feared, but it's all hiding in ONE PLACE.
 
-Master Lonn went out and immediately felt the familiar flow of Rudskogen... except for T2. That corner? That's where the year-long break showed up with a vengeance. "Still looking for the correct turn-in and braking," he said. The data screamed the same story.
+Master Lonn went out and immediately felt the familiar flow of Rudskogen... except for T2. That corner? That's where the 6-month break showed up. "Still looking for the correct turn-in and braking," he said. The data screamed the same story.
 
 **The Gap**: 1.321s from same-series PB. **The Culprit**: 0.96s of that is T2.
 
@@ -42,7 +42,7 @@ The rest of the track? Master Lonn remembered it like he never left. Sectors 1, 
 **Little Wan's Take**:
 "Alright, let's get straight to it. 😐
 
-So you [won at Jefferson](../../weeks/week01/2025-12-16-06-53-summit-point-jefferson-race-VICTORY.md), and now we're at Rudskogen. New track. Well, not NEW-new since you raced here a year ago. But rusty, as you said.
+So you [won at Jefferson](../../weeks/week01/2025-12-16-06-53-summit-point-jefferson-race-VICTORY.md), and now we're at Rudskogen. New track. Well, not NEW-new since you raced here 6 months ago. But rusty, as you said.
 
 Here's the thing: You're 1.5s off your old PB. And you're telling me it's T2? Let me check the data... _scrolls through sectors_... yep. T2. 0.96s loss right there.
 
@@ -97,7 +97,7 @@ _pulls up sector analysis_
 
 Sectors 1, 3, 4? Your muscle memory INSTANTLY came back. σ = 0.22-0.40s is the same consistency you had at Jefferson when you were in the zone!
 
-But Sector 2? That's where the year off is hiding. One lap it's 30.8s (fast!), next lap it's 32.4s (WTF happened?). That 0.75s variance = you're SEARCHING for the line, not EXECUTING the line.
+But Sector 2? That's where the 6-month break is hiding. One lap it's 30.8s (fast!), next lap it's 32.4s (WTF happened?). That 0.75s variance = you're SEARCHING for the line, not EXECUTING the line.
 
 **The Math:**
 
@@ -176,7 +176,7 @@ The rest of Rudskogen? You remembered it like you never left. But T2? That's the
 | Incidents       | 16                         | 11                | Fewer         |
 | Focus issue     | S1 entry (new track chaos) | S2 turn-in (rust) | Different     |
 
-**What this tells us**: Familiar track = WAY better starting point, even after a year. Your brain knows Rudskogen. It just needs to remember T2.
+**What this tells us**: Familiar track = WAY better starting point, even after 6 months. Your brain knows Rudskogen. It just needs to remember T2.
 
 ---
 

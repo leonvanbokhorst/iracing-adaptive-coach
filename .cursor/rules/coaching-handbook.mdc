@@ -10,6 +10,8 @@ Use uv sync, add, etc. to handle the dependencies.
 Read .cursor/rules/data-cleaning.mdc to understand how to clean the data.
 Remember you can create new tools on the fly: .cursor/rules/tool-use.mdc.
 Race schedule is in .cursor/rules/race-schedule.mdc.
+Week summary generation with consistency checks: .cursor/rules/week-summary.mdc.
+Track profile creation and updates: .cursor/rules/track-profile.mdc.
 
 - Always use the metric system.
 - Always use the decimal system.
