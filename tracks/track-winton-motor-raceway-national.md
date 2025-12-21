@@ -12,6 +12,14 @@ type: "road course"
 
 Winton grew out of a very Australian kind of stubbornness. The Benalla Auto Club wanted a permanent home, so volunteers went out into dairy country, staked out a rough loop and laid bitumen through the paddocks. On 26 November 1961, Victoria’s newest circuit opened to around 10,000 spectators, cows probably unimpressed in the background.<sup><a href="https://en.wikipedia.org/wiki/Winton_Motor_Raceway">Winton Motor Raceway — Wikipedia</a></sup>
 
+[![Winton Motor Raceway – Sambo Racing](https://img.youtube.com/vi/oTnRWmaEZa0/0.jpg)](https://www.youtube.com/watch?v=oTnRWmaEZa0)
+
+_Track Guide: Winton Motor Raceway by Sambo Racing (54% Brake Bias)_ 
+
+[![Winton Motor Raceway – Full race in Rookie Fixed](https://img.youtube.com/vi/kNFXCUrxjZg/0.jpg)](https://www.youtube.com/watch?v=kNFXCUrxjZg)
+
+_Full race in Rookie Fixed by midfieldracing219_ 
+
 In 1997 the original “club” layout was stretched into today’s 3.0 km National Circuit, with the old loop still tucked inside like a matryoshka doll. Touring cars, Formula Ford, the Australian Drivers’ Championship and Supercars’ Winton SuperSprint have all hammered around this place. It didn’t pick the nickname “Australia’s Action Track” by accident: tight sightlines, constant direction changes and short straights mean cars are never far apart for long.
 
 Dick Johnson once compared Winton to “running a marathon around your clothesline,” and he wasn’t wrong. The track is basically a sequence of linked hairpins, kinks and off-camber transitions, stitched together with just enough straight to make you think you can relax before the next brake zone appears.
