@@ -41,6 +41,8 @@ Let me break it down into **what you can actually do about it**.
 
 ### G-Force Analysis (Tire Loading)
 
+[G-Force Analysis Guide](../../docs/g-force-analysis-guide.md)
+
 | Metric | Current (Dec) | July PB | Difference | What It Means |
 |--------|---------------|---------|------------|---------------|
 | **Max Braking G** | -1.47g | -1.57g | **-0.10g less** | Less peak braking (partly setup: 55% vs 56% bias) |
@@ -61,6 +63,8 @@ Let me break it down into **what you can actually do about it**.
 ---
 
 ## 🗺️ The Lap Breakdown: Where Time Is Lost/Gained
+
+![Track Speed Delta Map](comparison/2025-12-20-track-speed-delta-map.png)
 
 ### 🔴 **PROBLEM ZONE #1: ~40% Lap Distance** (Estimated: S2 Entry/Braking)
 

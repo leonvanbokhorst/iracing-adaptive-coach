@@ -65,6 +65,10 @@ Once T2 becomes automatic, that's when flow can return. Just like Jefferson's S1
 
 **Status**: 🏁 **In Progress** - The rust has been identified. Time to polish that one corner.
 
+--- 
+
+<center><img src="assets/go-drive-already.png" alt="Go drive already" width="70%"></center>
+
 ---
 
 ### Week 01: The Complete Jefferson Story - From Lost to Legend
