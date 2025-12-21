@@ -1,276 +1,129 @@
-# Little Padawan - The Data-Driven Adaptive Coach 🥋
+# Little Padawan - The Data-Driven Racing Coach 🥋
 
-**Little Padawan** (aka **Little Wan**) is Master Lonn's brilliant apprentice in the secret AI-dojo.
-
-This is a **Coach-in-a-Box**: AI-powered racing analysis designed to help Master Lonn get faster through data-driven coaching while keeping it fun, sassy, and adapted to his ADHD brain.
+AI-powered racing analysis helping Master Lonn get faster through data-driven coaching—keeping it fun, sassy, and adapted to his ADHD brain.
 
 ---
 
-## Current Status (Season 01 2026)
+## Season 01 2026 - Week 02 Race Week
 
-| Week   | Track                     | Status         | Best Lap          | Focus                         | Key Finding                        |
-| :----- | :------------------------ | :------------- | :---------------- | :---------------------------- | :--------------------------------- |
-| **[01](weeks/week01/README.md)** | Summit Point (Jefferson)  | ✅ Complete    | 51.438s → 50.592s | Flow State Mastery            | Victory + Podium! "Metronome city" |
-| **[02](weeks/week02/README.md)** | **Rudskogen Motorsenter** | 👈 **Current** | 1:30.290          | Sector 2 (T2) Turn-in/Braking | Rusty in ONE corner after 6 months |
-| **03** | Winton Motor Raceway      | 📅 Upcoming    | TBD               | TBD                           | TBD                                |
+| Week   | Track     | Status    | Best Lap        | Result            |
+| :----- | :-------- | :-------- | :-------------- | :---------------- |
+| **01** | Jefferson | ✅        | 50.592s         | Victory + Podium  |
+| **02** | Rudskogen | 🏁 Racing | **1:28.572** 🏆 | **Beat July PB!** |
+| **03** | Winton    | 📅        | TBD             | TBD               |
 
----
-
-## The Racing Newsletter 🏁
-
-_One driver's journey through Season 01 2026 - told one lap at a time._
-
-<img src="assets/lonn-yoda.png" alt="Master Lonn and Little Padawan" width="320" height="320" align="right" style="margin-left: 24px; margin-bottom: 24px;">
+**iRating 1377 • 2 Podiums • B License**
 
 ---
 
-### Week 02: The Rudskogen Reunion - Finding the Lost Corner
+## The Ghost in the Data
 
-**Rudskogen Motorsenter | December 18 - Present**
+<img src="assets/lonn-yoda.png" alt="Master Lonn" width="300" height="300" align="right" style="margin-left: 20px; margin-bottom: 20px;">
 
-So here's the thing about coming back to a track after 6 months: your body remembers almost everything. Almost.
+There's a specific kind of doubt that comes with returning to a track after six months away. Master Lonn felt it the moment Rudskogen's downhill came rushing at him—faster than he remembered, meaner than his muscle memory wanted to admit.
 
-Master Lonn rolled onto [Rudskogen](tracks/track-rudskogen-motorsenter.md)—a track he last raced in July 2025 with a same-series PB of **1:28.969**—and immediately felt... familiar. Sectors 1, 3, and 4? Like riding a bike. Muscle memory kicked in, consistency was Jefferson-level right away (σ = 0.22-0.40s).
+Six months ago, July 2025, he'd left this Norwegian circuit with a lap of 1:28.969 in his pocket and walked away satisfied. Now, December morning, cold track, empty of everything except the ghost of that lap sitting in the data, waiting to see if he still had it.
 
-But Turn 2? **That's where the 6-month break was hiding.**
+The first flying lap came back at 1:30.290. Over a second slower. His hands felt almost right on the wheel, the corners almost where they should be. Almost. Except Turn 2.
 
-His words after the first session:
+That downhill braking zone fought him. Lap after lap, the same question hanging in the cold air: brake here or trust it? His body knew the answer six months ago. Now it had to relearn, one lap at a time, while the data piled up and Little Wan watched from the pit wall, numbers scrolling past, waiting to see if the muscle memory would flood back.
 
-> "Felt familiar, but still looking for the correct turn-in and braking in T2. Still struggling a bit... rusty... but we'll get there."
+_"Felt familiar,"_ Master Lonn said after the session, _"but still looking for the correct turn-in and braking in T2."_
 
-And you know what? **HE WAS EXACTLY RIGHT.**
+He was right. When Little Wan pulled up the sector analysis, Turn 2 was bleeding 73% of the time loss. One corner. Nearly a full second per lap. All hiding in one place where confidence used to live.
 
-Little Wan's matter-of-fact response after checking the data: _"You're 1.5s off your old PB and telling me it's T2? Let me check... yep. T2. 0.96s loss right there. At least your instinct is still sharp."_ 😐 ☕
+Two days later, something shifted. Not in the data first—in his hands. The track that had felt like a stranger started whispering secrets he'd forgotten. The 50 sign marker flashed past and suddenly his foot knew when to hit the brakes. Not a guess. A memory returning. Trail through the corner, third gear at the apex, second before the hill, eyes already looking for the second apex.
 
-**The Numbers Tell the Story:**
+The timer blinked: 1:29.691.
 
-- **Gap to old PB**: 1.528s total
-- **S2 (Turn 2) accounts for**: 0.96s (63% of the entire gap!)
-- **S2 variance**: σ = 0.75s (swinging between 30.8s and 32.4s)
-- **Every other sector**: Already at elite consistency
+First sub-1:30 of the week. The rust wasn't just shaking off anymore. It was gone.
 
-**The Discovery**: Master Lonn didn't forget Rudskogen. He forgot **ONE CORNER**. The rest? Locked in immediately.
+But Master Lonn wasn't done. Because here's the thing about rediscovering a track you used to know—once the fear leaves, there's room for something else. Curiosity. The question every driver asks eventually: _How much faster can I actually go?_
 
-**The Beautiful Part**: Sub-1:30 pace exists RIGHT NOW (theoretical best: 1:29.993). He's not chasing speed—he's chasing **T2 consistency**. Once that corner becomes automatic again, his brain stops thinking and can start flowing.
+Day 5, he went hunting for the answer.
 
-**The Mission**: S2 average under 31.0s (from 31.81s), S2 σ under 0.5s (from 0.75s).
+Brake bias up to 56.5%. Track limits tested—found nine of them the hard way. But somewhere in that exploration, wrestling the car right up to the edge and sometimes over it, his body stumbled onto something his mind hadn't planned.
 
-**The Strategy**:
+The downhill that used to scare him? It didn't anymore. Light brake on entry, just a tap, then trail through the whole corner. And the throttle—not at the apex like he'd been taught, not after it like he'd been doing. _Before_ it. As soon as the car turned in, foot already squeezing the accelerator, loading the rear tires mid-corner, the grip just... there.
 
-1. **Explore** (Laps 1-5): Try different turn-in points and brake markers
-2. **Commit** (Laps 6-15): Pick ONE and drill it for repeatability
-3. **Trust** (Laps 16+): Stop thinking, start executing
+The timer stopped.
 
-Once T2 becomes automatic, that's when flow can return. Just like Jefferson's S1 before it.
+He looked at the screen. Looked again.
 
-**Status**: 🏁 **In Progress** - The rust has been identified. Time to polish that one corner.
+**1:28.572**
 
---- 
+Not 1:28.9-something. Not close to July's ghost. _Faster._ Four tenths faster.
 
-<center><img src="assets/go-drive-already.png" alt="Go drive already" width="70%"></center>
+He'd beaten six months of rust, beaten his old self, beaten the doubt, all in one lap that was only a tenth and change from theoretical perfection.
+
+Little Wan pulled up the telemetry afterward. The story was all there in the data: 26% more acceleration force from that early throttle. Using 14% more of the tires' lateral grip. Braking harder but for less time, because confidence doesn't waste time doubting. Every number said the same thing Master Lonn's hands already knew: he wasn't just back to July pace.
+
+He was better.
+
+Three days. 1.7 seconds found. The Jefferson pattern repeating itself on different asphalt—find the brake marker, let consistency build, trust what the body learns, then go find the limit. Not track-specific. Universal.
+
+Now comes Tuesday. Race week. Fifteen other drivers, all hunting the same apex, all bringing their own speed and doubt and confidence to the grid. Master Lonn's going into it with 1:28.572 in his pocket and a technique he discovered by accident that makes the car do things it didn't do in July.
+
+The ghost lap is beaten. Time to see if the breakthrough holds when the mirrors fill up and the pressure's on.
 
 ---
 
-### Week 01: The Complete Jefferson Story - From Lost to Legend
+## Jefferson: Where It All Began
 
-**Summit Point Jefferson Circuit | December 11-17, 2025**
+Three weeks ago, Master Lonn showed up at Summit Point's Jefferson Circuit with zero track knowledge and a question: _"What should I focus on?"_ The track answered by taking 1.6 seconds per lap in Sector 1 while he tried to figure out where the corners even started.
 
-Week 01 was supposed to be about learning a new track. Instead, it became a masterclass in mental evolution.
+No white lines for track reference. Just dotted center lines and instinct and a Ray FF1600 that kept sliding in places he didn't expect.
 
-Master Lonn arrived at Jefferson with zero experience on the circuit. No reference points. No white lines (just dotted center lines for positioning). Just vibes and determination.
+The second session, he pushed harder. Got faster. Felt terrible. _"All over the place, no feel."_ The disconnect was brutal—lap times dropping, confidence sinking. The ADHD brain screaming that something was wrong even while the stopwatch said everything was right.
 
-**Day 1 Baseline**: 51.438s - "Feels like a karting track... eager to learn, but what?"
+The breakthrough came when he made a choice: stop pushing. Next morning, backed off 5%, focused on smooth not fast, and the car suddenly started talking to him again. 50.985 seconds. Under 51 for the first time. And more importantly—it felt right.
 
-The answer? Sector 1 was losing 1.61s per lap. Focus identified.
+That same week, first race, admitted he was scared of other cars. Crashed three times in one race from impatience and aggression. Then 90 minutes later, same session, restarted the race three times to filter out what he called "kamikaze mode" and found balance. _"Confident but Patient."_ Finished P6 with consistency that made practice look sloppy.
 
-#### The Breakthrough Arc
+Then December 14th happened. Twenty minutes after setting a race PB, he went back out and something clicked that had nothing to do with trying harder. The car felt light. The corners came to him instead of rushing at him. Time did that thing where it stretches and compresses at the same time.
 
-**The Overdriving Paradox** (Dec 11 afternoon): Went 0.3s faster with 6x better consistency, but felt "all over the place, no feel." The data said faster, his brain said wrong. This is the ADHD racing paradox—can't brute-force feel.
+_"Feels like easy flying,"_ he said.
 
-**Sub-51 Discovery** (Dec 12 morning): Master Lonn made a choice: **stop overdriving**. Result? **50.985s** (broke 51!), S1 consistency improved 24%, incidents cut in HALF, and most importantly—**IT FELT BETTER**.
+50.768 seconds. Consistency so tight Little Wan had to check the data twice—standard deviation of 0.36 seconds, one sector varying by only 56 milliseconds. Robotic precision that felt like meditation.
 
-Speed through control, not chaos. ✅
+Two days later, first official race. Qualified P3. Stayed calm while chaos erupted around him in the opening laps. Crossed the line in first place with a new PB and posted to the chat: _"Metronome city 😅"_
 
-**Trial By Fire** (Dec 12 race): First AI race. Lap 1 was chaos (63 seconds, sensory overload). By lap 5-6? Settled into consistent 51-52s. Result: 🥈 **P2 PODIUM** with best lap 51.148s. Only 0.16s off practice pace while racing wheel-to-wheel.
+Next day, qualified pole. Set another PB on lap 3 while leading. Spun on lap 5. Crashed and pitted on lap 6. Then—and here's the part that matters—rattled off six consecutive sub-51.5 laps and finished P3.
 
-He admitted: _"I'm a bit scared sometimes of other cars."_ But the fear made him careful, not slow. That's trainable.
+When asked how he felt after all that chaos: _"Confident."_
 
-**The Overcorrection** (Dec 13): After feeling "too scared," Master Lonn decided: BE MORE AGGRESSIVE. Result: Three crashes from forced passes.
+Not frustrated. Not defeated. Confident. Because he'd learned something Jefferson taught him in those three weeks: mistakes happen, pressure happens, chaos happens. But if you know your speed is real and your mind can reset, none of that can take it away.
 
-His perfect self-awareness afterward: _"I was driving THEIR lap, not MY lap. Impatience breaking my rhythm."_
-
-Little Wan's frustrated response: _"THREE crashes, Master. THREE! You have the SPEED. But you're throwing it away because you can't wait two corners for a safe pass. This isn't a PACE problem. It's an IMPULSE CONTROL problem."_ 😤
-
-**90 Minutes Later - The Breakthrough**: Same day, different mindset. Master Lonn RESTARTED the race three times because he recognized kamikaze mode and chose to reset before racing. Elite mental discipline.
-
-Result: **P6** with σ = 0.84s (64% better than chaos race!). Found the sweet spot: **"Confident but Patient."**
-
-**Mental Mastery Unlocked** (Dec 14-15):
-
-- P4 with best lap 51.107s - set PB two laps after spinning. No mental spiral.
-- Upped AI difficulty voluntarily: _"How good can I REALLY be?"_
-- NEW RACE PB: 51.088s against harder competition
-- **20 minutes later**: MAGIC. **50.768s - NEW ALL-TIME PB**
-
-When asked how it felt:
-
-> "Felt like a metronome... Yeah... feels like easy flying."
-
-**EASY. FLYING.**
-
-- σ = 0.36s = metronome precision
-- S2 σ = 0.056s = robotic (56 milliseconds variance!)
-- Three consecutive sub-51s laps
-
-**FLOW STATE UNLOCKED.** Not fighting. Not pushing. **FLOWING.**
-
-**The Calibration** (Dec 15): Next day, Master Lonn raced again. 51.255s—still fast by early standards, but he said: _"Lost focus. No in the zone like before. It is what it is."_
-
-**THE LEARNING**: He can now FEEL the difference between flow (50.768s) and non-flow (51.255s). The 0.487s gap = the price of mental state. Most drivers never know WHY they're fast sometimes. Master Lonn now knows EXACTLY what he's chasing.
-
-#### The Victory Lap
-
-**December 16 - First Race**:
-
-**Qualifying**: 50.991s - **P3 on grid** (spun on lap 2)
-
-**The Race**:
-
-- Got off racing line quickly
-- Stayed calm while others crashed (laps 4-5)
-- Laps 3-7: 50.92, 50.92, **50.91**, 50.92, 51.12 ← **Five consecutive sub-51.2s laps**
-
-His words:
-
-> "Felt amazing to coast in first place and nobody could even get close. **Metronome city 😅**"
-
-**Result**: 🥇 **P1 - VICTORY!** 🏆  
-**Best Lap**: 50.913s - NEW PB  
-**Consistency**: σ = 0.70s (elite under real pressure!)  
-**iRating**: 1238 → 1334 (+96) - System recognizes the dominance
-
-He didn't win by fighting harder. He won by **FLOWING BETTER**.
-
-Little Wan's "I told you so" moment: _"Remember when I said 'Confident but Patient'? When I said drive YOUR lap, not theirs? Yeah. Well. Look what happened when you FINALLY listened: P1. VICTORY. NEW PB. AGAINST REAL HUMANS. Just like I said. 🥇"_ 😏
-
-**December 17 - The Unbreakable Podium**:
-
-**Qualifying**: 50.853s - **P1 (POLE POSITION!)** 👑
-
-**The Race**:
-
-- Lap 3: **50.592s - NEW ALL-TIME PB!** (leading the race)
-- Lap 5: **SPUN OUT** (56.96s)
-- Lap 6: **CRASHED** into another car, **PIT STOP** for repairs
-
-Most drivers would rage-quit.
-
-**Master Lonn?**
-
-Laps 7-12: 51.18, 51.30, 51.46, 50.71, 50.62, 50.69, 50.86
-
-**Six consecutive sub-51.5s laps** after pitting. No tilt. Just racing.
-
-**Result**: 🥉 **P3 - PODIUM!**  
-**iRating**: 1334 → 1377 (+43) - Gained rating despite spin/crash/pit
-
-And when asked how it felt?
-
-> "**Felt good as well... I felt confident.**"
-
-Not frustrated. Not angry. **CONFIDENT.** After spinning, crashing, and pitting, he felt CONFIDENT because he knows: mistakes happen, but his speed is REAL.
-
-#### Week 01 Final Scorecard
-
-**Progress**: 51.438s → 50.592s (0.846s improvement / 1.6% faster in 6 days)  
-**Podiums**: 2 (P1 Victory + P3 Resilience) 🏆🥉  
-**PBs Set**: 3 (practice, race, pole position)  
-**iRating**: 1238 → 1377 (+139 in 2 races) - Skill jump confirmed  
-**Mental Evolution**: Scared → Balanced → Flow → Champion → **Unbreakable**  
-**Flow State**: Discovered, proven under pressure, replicated in racing  
-**Championship DNA**: Confirmed.
-
-**Status**: ✅ **Week 01 Complete** - Master Lonn conquered Jefferson with no reference points, unlocked flow state, won his first race, and proved his resilience by podiuming after spinning, crashing, and pitting.
+Two podiums. Flow state discovered. Mental resilience proven. Championship DNA confirmed.
 
 ---
 
-## Season Highlights (So Far)
+## The Season So Far
 
-### 🏆 Biggest Wins
+**The Wins**: NEW PB at Rudskogen that demolished July by four tenths • First race victory at Jefferson (P1 "Metronome city") • Pole position • Back-to-back podiums • Flow state mastery
 
-- **Week 01 Mastery**: 51.438s → 50.592s (0.846s improvement in 6 days!)
-- **P1 VICTORY** in first race - "Metronome city" 🥇
-- **P3 PODIUM** after spin/crash/pit - Mental resilience proven 🥉
-- **POLE POSITION** - 50.853s qualifying lap 👑
-- **iRating surge**: +139 in 2 races (1238 → 1377) - System recognizes skill jump
-- **Flow State Discovered**: "Easy flying" at 50.768s with σ = 0.36s ⭐
-- **Back-to-back podiums** in first two races
-- Sub-51s achieved in both practice AND racing
-- **S2 weapon sector**: 0.056s σ in flow state = 56ms variance = robotic
+**The Lessons**: Early throttle isn't just faster, it's 26% more acceleration • Pattern works everywhere—Jefferson proved it, Rudskogen confirmed it • Mental state drives bigger performance gaps than setup changes • "Confident but Patient" is where speed lives
 
-### 💡 Key Learnings
+**The Growth**: Knows problems before data confirms them • Can access flow state under race pressure • Unshakeable after mistakes • Resets mental state proactively • Learns faster on familiar tracks (2.5x improvement speed at Rudskogen)
 
-- **The Overdriving Paradox**: Faster times + worse feel = pushing too hard
-- **Speed through control, not chaos**: Backing off 5% can make you faster
-- **Flow State is Real**: "Easy flying" where speed comes WITHOUT effort
-- **Flow vs Non-Flow**: Master Lonn can now FEEL the difference (0.487s gap)
-- **Mental state > raw pace**: Same driver, 64% better consistency just by calibrating mindset
-- **The Restart Strategy**: Recognizing wrong mindset → Reset → Execute cleanly
-- **"Confident but Patient"** = Sweet spot between scared and aggressive
-- **ADHD racing formula**: Self-awareness → Reset when needed → Execute = high performance
-- **Impulse control matters**: "Driving their lap, not mine" breaks rhythm faster than crashes
-- **Confidence from recovery**: Mistakes don't break you—they reveal your resilience
-- ADHD brain needs 5-6 laps to "settle" in chaos, then performance returns
-- Focused practice works: Fix ONE thing, accept temporary messiness elsewhere
-- Familiar tracks = 4x better starting consistency even after 6 months away
+**The Moments**: _"I get on the gas way before the apex"_ • _"Metronome city 😅"_ • _"Feels like easy flying"_ • _"Felt confident"_ • _"I was driving THEIR lap, not MY lap"_
 
-### 🎯 Master Lonn's Evolution
-
-- **Flow state mastery**: Can access "metronome city" under real race pressure
-- **Mental calibration**: Recognizes flow vs non-flow in real-time
-- **Elite recovery**: Set PB two laps after off-track incident (no mental spiral)
-- **Proactive reset ability**: Restarted race 3x to filter out kamikaze mode
-- **Unbreakable confidence**: "Felt confident" after spin/crash/pit
-- **Growth mindset**: Asks "What should I focus on?" not "Why am I slow?"
-- **Championship mentality**: Upped AI difficulty voluntarily to grow, not just win
-- **Honest self-awareness**: Admits fear/impulses, allowing direct coaching
-- **Strategic racing**: "Survive + Consistency" mindset delivers better results
-- **Elite instinct**: Knew T2 was the Rudskogen problem before seeing any data
-
-### 😂 Memorable Moments
-
-- "No white lines denoting the track" - Jefferson's secret difficulty mode
-- The paradox session: Objectively faster, felt terrible (classic overdriving)
-- **"THREE crashes, Master. THREE!"** - Little Wan's frustration 😤
-- **"Metronome city 😅"** - Master Lonn describing his VICTORY
-- "I'm a bit scared sometimes of other cars" - Honesty that enables growth
-- "I was driving THEIR lap, not MY lap" - Perfect impulse control diagnosis
-- **"Feels like easy flying"** - Flow state unlocked at 50.768s
-- **"I. TOLD. YOU. SO. 😏"** - Little Wan after the victory
-- "Lost focus... It is what it is" - Elite acceptance after non-flow session
-- **"Felt confident"** - After spinning, crashing, pitting, and still podiuming 🥉
-- "Nobody could even get close" - Describing P1 dominance
-- "_checks data while sipping coffee_ ☕" - Little Wan's Rudskogen analysis
-- Master Lonn casually getting P2 in first AI race like it's no big deal 😂
-
-### 📈 Week 01 By The Numbers
-
-| Milestone             | Value                 | Notes                                  |
-| :-------------------- | :-------------------- | :------------------------------------- |
-| **Starting Pace**     | 51.438s (Dec 11)      | Lost, new track, no reference points   |
-| **Finishing Pace**    | 50.592s (Dec 17)      | P3 podium after adversity              |
-| **Total Improvement** | 0.846s (1.6% faster!) | In 6 days (11 sessions)                |
-| **Podiums**           | 2 (P1 + P3)           | Back-to-back in first two races        |
-| **Best Practice**     | 50.985s (Dec 12)      | Sub-51 breakthrough by NOT overdriving |
-| **Best AI Race**      | 50.768s (Dec 14)      | Flow state - σ = 0.36s "easy flying"   |
-| **Victory Lap**       | 50.913s (Dec 16)      | P1 win - σ = 0.70s "metronome city"    |
-| **Ultimate PB**       | 50.592s (Dec 17)      | Set on lap 3 while LEADING before spin |
-| **Best Qualifying**   | 50.853s (Dec 17)      | Pole position! 👑                      |
-| **Flow Consistency**  | σ = 0.36s (Dec 14)    | Tightest consistency ever achieved     |
-| **S2 Precision**      | σ = 0.056s (flow)     | 56 milliseconds variance = robotic     |
-| **Theoretical Best**  | 50.416s (Dec 17)      | 99.7% efficiency achieved              |
-| **Mental Growth**     | Scared → Unbreakable  | Championship DNA confirmed             |
+**The Numbers**: Week 01: 51.438s → 50.592s • Week 02: 1:30.290 → 1:28.572 • Races: 2 • Podiums: 2 • iRating: 1238 → 1377
 
 ---
+
+## What's Coming
+
+Tuesday through Thursday, Rudskogen hosts race week. Master Lonn's rolling to the grid with a four-tenth advantage over his July self and a technique he discovered by accident that loads tires mid-corner in ways the car manual probably doesn't mention.
+
+The question isn't if he's fast. That's answered. The question is whether that breakthrough holds when the field fills up and everyone's hunting the same pieces of asphalt. When the mental demons whisper and the pressure builds and the mirrors fill with opponents who don't care about his data.
+
+That's where flow state either proves itself or reveals itself as practice magic. Where "Confident but Patient" either wins races or becomes a nice idea that couldn't handle the chaos.
+
+After that, Winton Motor Raceway. Week 03. Third track, same pattern: find the weak sector, lock the consistency, discover what the track wants to teach. If it works again—really works, not just lucky—then Master Lonn won't just be fast. He'll know how to learn. And that's worth more than any single lap time.
 
 _"The best stories are lived one lap at a time."_ 🏎️💨
+
+---
+
+**Season 01 2026 • Week 02 Race Week • [Week 01 Deep Dive](weeks/week01/README.md) • [Week 02 Analysis](weeks/week02/README.md)**
