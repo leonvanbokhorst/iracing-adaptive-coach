@@ -1,0 +1,614 @@
+{
+  "current_lap": {
+    "file": "data/2025-12-21-14-18-rudskogen-practice-ray-ff1600-01-28-913.csv",
+    "total_brake_zones": 8,
+    "brake_zones": [
+      {
+        "zone_number": 1,
+        "analysis": {
+          "lap_distance_start_pct": 8.3,
+          "lap_distance_end_pct": 11.1,
+          "duration_seconds": 2.1,
+          "max_pressure": 0.842,
+          "avg_pressure": 0.556,
+          "initial_pressure": 0.113,
+          "release_smoothness": 0.0193,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.148,
+          "max_steering_angle_rad": 0.352,
+          "avg_steering_angle_rad": 0.097,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 2,
+        "analysis": {
+          "lap_distance_start_pct": 34.6,
+          "lap_distance_end_pct": 36.8,
+          "duration_seconds": 1.42,
+          "max_pressure": 0.608,
+          "avg_pressure": 0.328,
+          "initial_pressure": 0.116,
+          "release_smoothness": 0.0188,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.18,
+          "max_steering_angle_rad": 0.319,
+          "avg_steering_angle_rad": 0.113,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 3,
+        "analysis": {
+          "lap_distance_start_pct": 39.0,
+          "lap_distance_end_pct": 39.5,
+          "duration_seconds": 0.37,
+          "max_pressure": 0.124,
+          "avg_pressure": 0.117,
+          "initial_pressure": 0.103,
+          "release_smoothness": 0.0029,
+          "profile_type": "normal",
+          "pressure_drop_rate": -0.016,
+          "max_steering_angle_rad": 0.457,
+          "avg_steering_angle_rad": 0.368,
+          "trail_braking_detected": false,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 4,
+        "analysis": {
+          "lap_distance_start_pct": 40.0,
+          "lap_distance_end_pct": 40.5,
+          "duration_seconds": 0.42,
+          "max_pressure": 0.116,
+          "avg_pressure": 0.107,
+          "initial_pressure": 0.1,
+          "release_smoothness": 0.0018,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.014,
+          "max_steering_angle_rad": 0.433,
+          "avg_steering_angle_rad": 0.402,
+          "trail_braking_detected": false,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 5,
+        "analysis": {
+          "lap_distance_start_pct": 52.5,
+          "lap_distance_end_pct": 53.7,
+          "duration_seconds": 1.32,
+          "max_pressure": 0.779,
+          "avg_pressure": 0.534,
+          "initial_pressure": 0.135,
+          "release_smoothness": 0.0198,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.086,
+          "max_steering_angle_rad": 0.675,
+          "avg_steering_angle_rad": 0.271,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 6,
+        "analysis": {
+          "lap_distance_start_pct": 66.5,
+          "lap_distance_end_pct": 69.2,
+          "duration_seconds": 2.5,
+          "max_pressure": 0.834,
+          "avg_pressure": 0.585,
+          "initial_pressure": 0.104,
+          "release_smoothness": 0.0176,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.105,
+          "max_steering_angle_rad": 0.543,
+          "avg_steering_angle_rad": 0.174,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 7,
+        "analysis": {
+          "lap_distance_start_pct": 76.7,
+          "lap_distance_end_pct": 78.1,
+          "duration_seconds": 1.32,
+          "max_pressure": 0.656,
+          "avg_pressure": 0.441,
+          "initial_pressure": 0.131,
+          "release_smoothness": 0.0214,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.113,
+          "max_steering_angle_rad": 0.464,
+          "avg_steering_angle_rad": 0.177,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 8,
+        "analysis": {
+          "lap_distance_start_pct": 85.4,
+          "lap_distance_end_pct": 86.7,
+          "duration_seconds": 1.27,
+          "max_pressure": 0.497,
+          "avg_pressure": 0.398,
+          "initial_pressure": 0.108,
+          "release_smoothness": 0.015,
+          "profile_type": "normal",
+          "pressure_drop_rate": -0.007,
+          "max_steering_angle_rad": 0.511,
+          "avg_steering_angle_rad": 0.248,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      }
+    ]
+  },
+  "reference_lap": {
+    "file": "data/compare/Garage 61 - Lonn Ponn - Ray FF1600 - Rudskogen Motorsenter - 01.28.572 - 01KD063TZJZT164QRJ0Y2WD8G1.csv",
+    "total_brake_zones": 7,
+    "brake_zones": [
+      {
+        "zone_number": 1,
+        "analysis": {
+          "lap_distance_start_pct": 8.6,
+          "lap_distance_end_pct": 10.9,
+          "duration_seconds": 1.72,
+          "max_pressure": 0.951,
+          "avg_pressure": 0.576,
+          "initial_pressure": 0.124,
+          "release_smoothness": 0.0273,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.248,
+          "max_steering_angle_rad": 0.285,
+          "avg_steering_angle_rad": 0.095,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 2,
+        "analysis": {
+          "lap_distance_start_pct": 34.2,
+          "lap_distance_end_pct": 35.4,
+          "duration_seconds": 0.7,
+          "max_pressure": 0.203,
+          "avg_pressure": 0.173,
+          "initial_pressure": 0.108,
+          "release_smoothness": 0.0086,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.022,
+          "max_steering_angle_rad": 0.178,
+          "avg_steering_angle_rad": 0.071,
+          "trail_braking_detected": false,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 3,
+        "analysis": {
+          "lap_distance_start_pct": 35.6,
+          "lap_distance_end_pct": 37.2,
+          "duration_seconds": 1.02,
+          "max_pressure": 0.163,
+          "avg_pressure": 0.129,
+          "initial_pressure": 0.104,
+          "release_smoothness": 0.0037,
+          "profile_type": "normal",
+          "pressure_drop_rate": -0.037,
+          "max_steering_angle_rad": 0.223,
+          "avg_steering_angle_rad": 0.127,
+          "trail_braking_detected": false,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 4,
+        "analysis": {
+          "lap_distance_start_pct": 53.0,
+          "lap_distance_end_pct": 54.0,
+          "duration_seconds": 1.08,
+          "max_pressure": 0.561,
+          "avg_pressure": 0.427,
+          "initial_pressure": 0.127,
+          "release_smoothness": 0.0205,
+          "profile_type": "normal",
+          "pressure_drop_rate": -0.034,
+          "max_steering_angle_rad": 0.504,
+          "avg_steering_angle_rad": 0.241,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 5,
+        "analysis": {
+          "lap_distance_start_pct": 66.6,
+          "lap_distance_end_pct": 69.1,
+          "duration_seconds": 2.18,
+          "max_pressure": 0.796,
+          "avg_pressure": 0.553,
+          "initial_pressure": 0.127,
+          "release_smoothness": 0.015,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.092,
+          "max_steering_angle_rad": 0.396,
+          "avg_steering_angle_rad": 0.133,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 6,
+        "analysis": {
+          "lap_distance_start_pct": 76.6,
+          "lap_distance_end_pct": 78.1,
+          "duration_seconds": 1.4,
+          "max_pressure": 0.384,
+          "avg_pressure": 0.229,
+          "initial_pressure": 0.123,
+          "release_smoothness": 0.011,
+          "profile_type": "smooth_ramp",
+          "pressure_drop_rate": 0.104,
+          "max_steering_angle_rad": 0.444,
+          "avg_steering_angle_rad": 0.169,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      },
+      {
+        "zone_number": 7,
+        "analysis": {
+          "lap_distance_start_pct": 85.8,
+          "lap_distance_end_pct": 86.6,
+          "duration_seconds": 0.7,
+          "max_pressure": 0.134,
+          "avg_pressure": 0.124,
+          "initial_pressure": 0.104,
+          "release_smoothness": 0.0023,
+          "profile_type": "normal",
+          "pressure_drop_rate": -0.01,
+          "max_steering_angle_rad": 0.347,
+          "avg_steering_angle_rad": 0.245,
+          "trail_braking_detected": true,
+          "brake_steering_overload_pct": 0.0
+        }
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "zone_number": 1,
+      "lap_distance_pct": 8.3,
+      "current": {
+        "lap_distance_start_pct": 8.3,
+        "lap_distance_end_pct": 11.1,
+        "duration_seconds": 2.1,
+        "max_pressure": 0.842,
+        "avg_pressure": 0.556,
+        "initial_pressure": 0.113,
+        "release_smoothness": 0.0193,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.148,
+        "max_steering_angle_rad": 0.352,
+        "avg_steering_angle_rad": 0.097,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "reference": {
+        "lap_distance_start_pct": 8.6,
+        "lap_distance_end_pct": 10.9,
+        "duration_seconds": 1.72,
+        "max_pressure": 0.951,
+        "avg_pressure": 0.576,
+        "initial_pressure": 0.124,
+        "release_smoothness": 0.0273,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.248,
+        "max_steering_angle_rad": 0.285,
+        "avg_steering_angle_rad": 0.095,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "differences": {
+        "max_pressure_diff": -0.109,
+        "duration_diff": 0.38,
+        "smoothness_diff": -0.008,
+        "max_steering_diff_rad": 0.067,
+        "overload_diff_pct": 0.0
+      }
+    },
+    {
+      "zone_number": 2,
+      "lap_distance_pct": 34.6,
+      "current": {
+        "lap_distance_start_pct": 34.6,
+        "lap_distance_end_pct": 36.8,
+        "duration_seconds": 1.42,
+        "max_pressure": 0.608,
+        "avg_pressure": 0.328,
+        "initial_pressure": 0.116,
+        "release_smoothness": 0.0188,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.18,
+        "max_steering_angle_rad": 0.319,
+        "avg_steering_angle_rad": 0.113,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "reference": {
+        "lap_distance_start_pct": 34.2,
+        "lap_distance_end_pct": 35.4,
+        "duration_seconds": 0.7,
+        "max_pressure": 0.203,
+        "avg_pressure": 0.173,
+        "initial_pressure": 0.108,
+        "release_smoothness": 0.0086,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.022,
+        "max_steering_angle_rad": 0.178,
+        "avg_steering_angle_rad": 0.071,
+        "trail_braking_detected": false,
+        "brake_steering_overload_pct": 0.0
+      },
+      "differences": {
+        "max_pressure_diff": 0.405,
+        "duration_diff": 0.72,
+        "smoothness_diff": 0.0102,
+        "max_steering_diff_rad": 0.141,
+        "overload_diff_pct": 0.0
+      }
+    },
+    {
+      "zone_number": 3,
+      "lap_distance_pct": 39.0,
+      "current": {
+        "lap_distance_start_pct": 39.0,
+        "lap_distance_end_pct": 39.5,
+        "duration_seconds": 0.37,
+        "max_pressure": 0.124,
+        "avg_pressure": 0.117,
+        "initial_pressure": 0.103,
+        "release_smoothness": 0.0029,
+        "profile_type": "normal",
+        "pressure_drop_rate": -0.016,
+        "max_steering_angle_rad": 0.457,
+        "avg_steering_angle_rad": 0.368,
+        "trail_braking_detected": false,
+        "brake_steering_overload_pct": 0.0
+      },
+      "reference": {
+        "lap_distance_start_pct": 35.6,
+        "lap_distance_end_pct": 37.2,
+        "duration_seconds": 1.02,
+        "max_pressure": 0.163,
+        "avg_pressure": 0.129,
+        "initial_pressure": 0.104,
+        "release_smoothness": 0.0037,
+        "profile_type": "normal",
+        "pressure_drop_rate": -0.037,
+        "max_steering_angle_rad": 0.223,
+        "avg_steering_angle_rad": 0.127,
+        "trail_braking_detected": false,
+        "brake_steering_overload_pct": 0.0
+      },
+      "differences": {
+        "max_pressure_diff": -0.039,
+        "duration_diff": -0.65,
+        "smoothness_diff": -0.0008,
+        "max_steering_diff_rad": 0.234,
+        "overload_diff_pct": 0.0
+      }
+    },
+    {
+      "zone_number": 4,
+      "lap_distance_pct": 40.0,
+      "current": {
+        "lap_distance_start_pct": 40.0,
+        "lap_distance_end_pct": 40.5,
+        "duration_seconds": 0.42,
+        "max_pressure": 0.116,
+        "avg_pressure": 0.107,
+        "initial_pressure": 0.1,
+        "release_smoothness": 0.0018,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.014,
+        "max_steering_angle_rad": 0.433,
+        "avg_steering_angle_rad": 0.402,
+        "trail_braking_detected": false,
+        "brake_steering_overload_pct": 0.0
+      },
+      "reference": {
+        "lap_distance_start_pct": 35.6,
+        "lap_distance_end_pct": 37.2,
+        "duration_seconds": 1.02,
+        "max_pressure": 0.163,
+        "avg_pressure": 0.129,
+        "initial_pressure": 0.104,
+        "release_smoothness": 0.0037,
+        "profile_type": "normal",
+        "pressure_drop_rate": -0.037,
+        "max_steering_angle_rad": 0.223,
+        "avg_steering_angle_rad": 0.127,
+        "trail_braking_detected": false,
+        "brake_steering_overload_pct": 0.0
+      },
+      "differences": {
+        "max_pressure_diff": -0.047,
+        "duration_diff": -0.6,
+        "smoothness_diff": -0.0019,
+        "max_steering_diff_rad": 0.21,
+        "overload_diff_pct": 0.0
+      }
+    },
+    {
+      "zone_number": 5,
+      "lap_distance_pct": 52.5,
+      "current": {
+        "lap_distance_start_pct": 52.5,
+        "lap_distance_end_pct": 53.7,
+        "duration_seconds": 1.32,
+        "max_pressure": 0.779,
+        "avg_pressure": 0.534,
+        "initial_pressure": 0.135,
+        "release_smoothness": 0.0198,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.086,
+        "max_steering_angle_rad": 0.675,
+        "avg_steering_angle_rad": 0.271,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "reference": {
+        "lap_distance_start_pct": 53.0,
+        "lap_distance_end_pct": 54.0,
+        "duration_seconds": 1.08,
+        "max_pressure": 0.561,
+        "avg_pressure": 0.427,
+        "initial_pressure": 0.127,
+        "release_smoothness": 0.0205,
+        "profile_type": "normal",
+        "pressure_drop_rate": -0.034,
+        "max_steering_angle_rad": 0.504,
+        "avg_steering_angle_rad": 0.241,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "differences": {
+        "max_pressure_diff": 0.218,
+        "duration_diff": 0.24,
+        "smoothness_diff": -0.0007,
+        "max_steering_diff_rad": 0.171,
+        "overload_diff_pct": 0.0
+      }
+    },
+    {
+      "zone_number": 6,
+      "lap_distance_pct": 66.5,
+      "current": {
+        "lap_distance_start_pct": 66.5,
+        "lap_distance_end_pct": 69.2,
+        "duration_seconds": 2.5,
+        "max_pressure": 0.834,
+        "avg_pressure": 0.585,
+        "initial_pressure": 0.104,
+        "release_smoothness": 0.0176,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.105,
+        "max_steering_angle_rad": 0.543,
+        "avg_steering_angle_rad": 0.174,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "reference": {
+        "lap_distance_start_pct": 66.6,
+        "lap_distance_end_pct": 69.1,
+        "duration_seconds": 2.18,
+        "max_pressure": 0.796,
+        "avg_pressure": 0.553,
+        "initial_pressure": 0.127,
+        "release_smoothness": 0.015,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.092,
+        "max_steering_angle_rad": 0.396,
+        "avg_steering_angle_rad": 0.133,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "differences": {
+        "max_pressure_diff": 0.038,
+        "duration_diff": 0.32,
+        "smoothness_diff": 0.0026,
+        "max_steering_diff_rad": 0.147,
+        "overload_diff_pct": 0.0
+      }
+    },
+    {
+      "zone_number": 7,
+      "lap_distance_pct": 76.7,
+      "current": {
+        "lap_distance_start_pct": 76.7,
+        "lap_distance_end_pct": 78.1,
+        "duration_seconds": 1.32,
+        "max_pressure": 0.656,
+        "avg_pressure": 0.441,
+        "initial_pressure": 0.131,
+        "release_smoothness": 0.0214,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.113,
+        "max_steering_angle_rad": 0.464,
+        "avg_steering_angle_rad": 0.177,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "reference": {
+        "lap_distance_start_pct": 76.6,
+        "lap_distance_end_pct": 78.1,
+        "duration_seconds": 1.4,
+        "max_pressure": 0.384,
+        "avg_pressure": 0.229,
+        "initial_pressure": 0.123,
+        "release_smoothness": 0.011,
+        "profile_type": "smooth_ramp",
+        "pressure_drop_rate": 0.104,
+        "max_steering_angle_rad": 0.444,
+        "avg_steering_angle_rad": 0.169,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "differences": {
+        "max_pressure_diff": 0.272,
+        "duration_diff": -0.08,
+        "smoothness_diff": 0.0104,
+        "max_steering_diff_rad": 0.02,
+        "overload_diff_pct": 0.0
+      }
+    },
+    {
+      "zone_number": 8,
+      "lap_distance_pct": 85.4,
+      "current": {
+        "lap_distance_start_pct": 85.4,
+        "lap_distance_end_pct": 86.7,
+        "duration_seconds": 1.27,
+        "max_pressure": 0.497,
+        "avg_pressure": 0.398,
+        "initial_pressure": 0.108,
+        "release_smoothness": 0.015,
+        "profile_type": "normal",
+        "pressure_drop_rate": -0.007,
+        "max_steering_angle_rad": 0.511,
+        "avg_steering_angle_rad": 0.248,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "reference": {
+        "lap_distance_start_pct": 85.8,
+        "lap_distance_end_pct": 86.6,
+        "duration_seconds": 0.7,
+        "max_pressure": 0.134,
+        "avg_pressure": 0.124,
+        "initial_pressure": 0.104,
+        "release_smoothness": 0.0023,
+        "profile_type": "normal",
+        "pressure_drop_rate": -0.01,
+        "max_steering_angle_rad": 0.347,
+        "avg_steering_angle_rad": 0.245,
+        "trail_braking_detected": true,
+        "brake_steering_overload_pct": 0.0
+      },
+      "differences": {
+        "max_pressure_diff": 0.363,
+        "duration_diff": 0.57,
+        "smoothness_diff": 0.0127,
+        "max_steering_diff_rad": 0.164,
+        "overload_diff_pct": 0.0
+      }
+    }
+  ]
+}
