@@ -39,7 +39,7 @@ _Lap on Rudskogen by Joakim Ottersen (OttersenRacing)_
 | **S3** | ~17s (19%)  | T7-T11 → Middle bowl            | Flow through linked corners                  |
 | **S4** | ~17s (19%)  | T12-T14 → Final sector          | Last corner exit onto main straight          |
 
-> **Note:** S2 is the longest sector and contains the critical T2 downhill braking zone (tight hairpin right). Master Lonn's breakthrough came from finding the "50 sign" brake marker and mastering trail braking all the way through. If your S2 variance (σ) is high, focus on that specific corner—it's 73% of the lap time opportunity.
+> **Note:** S2 is the longest sector and contains the critical T2 downhill braking zone (tight hairpin right). Master Lonn's breakthrough came from finding the "50 sign" brake marker, mastering trail braking all the way through, and discovering early throttle application ("as soon as I'm turned in"). This transformed S2 from 0.75s σ to 0.32s σ and contributed to the NEW PB of 1:28.572 (beating July 2025 PB by 0.397s!).
 
 ### Ray FF1600 Setup Guidance
 
@@ -55,13 +55,13 @@ Start at 55% and adjust in 0.5% increments. Move rearward until you feel first s
 
 | Level                         | Time         | Gap to Master Lonn's Current PB |
 | ----------------------------- | ------------ | ------------------------------- |
-| **Alien (Top 0.1%)**          | 1:26.799     | -2.892s                         |
-| **Fast Driver (Top 5%)**      | ~1:28.066    | -1.197s                         |
-| **Competitive (Rookie Goal)** | Sub-1:29.000 | +0.031s ✅                      |
-| **Master Lonn July 2025 PB**  | 1:28.969     | Baseline                        |
-| **Master Lonn Current Best**  | 1:29.691     | +0.722s                         |
+| **Alien (Top 0.1%)**          | 1:26.799     | -1.773s                         |
+| **Fast Driver (Top 5%)**      | ~1:28.066    | -0.494s                         |
+| **Competitive (Rookie Goal)** | Sub-1:29.000 | +0.428s ✅                      |
+| **Master Lonn July 2025 PB**  | 1:28.969     | +0.397s (BEATEN!) ✅            |
+| **Master Lonn Current Best**  | **1:28.572** | **NEW PB!** 🏆                  |
 
-> Master Lonn is currently in the **upper-intermediate/competitive** bracket, just 0.722s from his PB and already faster than "competitive rookie" goal. Gap to top-tier (1.2s) is technique + experience, not talent.
+> Master Lonn is currently in the **competitive/fast driver** bracket. **BEAT his July 2025 PB by 0.397s!** Only 0.494s from "fast driver" benchmark. Gap to top-tier is shrinking rapidly with technique breakthroughs.
 
 ---
 
@@ -179,24 +179,45 @@ Master Lonn's description: _"I can brake way later downhill just before the 50 s
 
 **S2 Transformation:** Average 31.81s → **31.15s** (0.659s faster), σ 0.75s → **0.32s** (2.3x tighter, CRUSHED the 0.5s goal). From searching for the line to LOCKED IN. When one corner becomes automatic, the whole lap flows—every other sector improved too.
 
-**Telemetry Insights:** Compared current lap (1:29.691) to July 2025 same-series PB (1:28.969). Gap of **0.722s** is concentrated in TWO specific zones:
-
-- **40% lap distance:** -7 km/h loss (~0.4-0.5s available, likely late S2 or mid-lap section)
-- **Final corner exit:** -2.5 km/h on main straight (~0.2s loss affecting straight)
-
-**Validated strengths:**
-
-- T2 breakthrough confirmed: **+2.49 km/h faster** than PB lap at 10% distance
-- Better power application: **+5.39 km/h** at 50% lap (full throttle vs 72%)
-- Improved minimum speed: **+4.96 km/h** overall (better cornering fundamentals)
-
 **The Pattern Recognition:** Same progression as Jefferson. Identified weak sector → found specific brake marker → locked consistency → performance unlocked. Jefferson taught the method. Rudskogen proved it transfers.
 
-**Mental State:** "Rusty but we'll get there" (Day 1) → "Now build from here" (Day 3). No frustration, just focused problem-solving. Familiar track advantage: 4x better starting consistency than new track (Jefferson Day 1: σ = 5.71s vs Rudskogen Day 1: σ = 1.43s).
+**Mental State:** "Rusty but we'll get there" (Day 1) → "Now build from here" (Day 3) → "I feel confident I can get rhythm and flow" (Day 5). No frustration, just focused problem-solving and breakthrough after breakthrough.
 
-**Current Status:** Driving at **99.7% of theoretical optimal** (89.691s vs 89.463s). Only **0.722s** from same-series PB. Gap is LOCALIZED, not systemic. Two corners to fix, then the PB falls.
+**The Limit Hunt (Dec 21 AM) – NEW PERSONAL BEST!** 🏆
 
-> _"I can brake way later downhill just before the 50 sign and then trail brake all the way through."_ — Master Lonn, finding T2
+Master Lonn went hunting for the edge. Brake bias up to **56.5%**. Track limits tested. Nine off-tracks accumulated. But in that exploration, something clicked:
+
+_"The downhill feels less dangerous now. I get on the gas way before the apex—as soon as I'm turned in."_
+
+Result: **1:28.572 – NEW PB!** Beat July 2025 same-series PB (1:28.969) by **0.397 seconds!**
+
+**The Early Throttle Revolution:** That single insight—early throttle application—delivered extraordinary gains:
+
+- **+0.193g more acceleration** (26% increase from applying throttle at turn-in!)
+- **+0.323g more lateral grip** (14% more tire usage)
+- **Better steering efficiency** (7.50 vs 6.52 = smoother inputs)
+- **5.4% less time braking** but FASTER (late braking + hard braking + confidence)
+
+**Telemetry Proof:** Speed gains identified at +6.3 km/h (10% lap), +4.7 km/h (50% lap), +4.3 km/h (90% lap). **Gap to theoretical optimal: 0.123s** (TWO corners away from perfection!).
+
+**The Lesson (Dec 21 PM) – Throttle Overlap Discovery:** ⚠️
+
+Attempted to "back off 5%" for consistency. Backfired spectacularly (1:28.913, σ = 2.94s). Felt "snap oversteer" and "disconnected." Braking technique analysis + Garage 61 overlay revealed **SMOKING GUN**: **Throttle was 10-20% open during braking** in afternoon session (zero throttle during braking in morning PB).
+
+**Root cause:** Recent pedal changes (longer travel, softer spring) → unconscious foot resting on throttle. **THREE conflicting inputs** (brake + throttle + steering) = weight transfer chaos = snap oversteer. This is a **pedal setup/foot position issue**, not just technique.
+
+**The Rebuild (Dec 21 Eve) – Fix Verified:** ✅
+
+Came back with "FOOT UP" drill (actively lift off throttle before braking). Result: _"Felt better. Still a bit shaky, but I think the brake throttle overlap is gone."_ Braking analysis confirmed: clean inputs restored, brake pressure back to 0.98 max, no overload, consistency improved 2.3x (1.30s vs 2.94s σ).
+
+**Current Status (Post-Week 02):**
+
+- **Best lap:** 1:28.572 (NEW PB, beat July by 0.397s!)
+- **Driving at 99.8% of theoretical optimal** (0.123s gap = TWO corners)
+- **Complete breakthrough arc:** Limit found → Chaos diagnosed → Fix verified → Foundation rebuilt
+- **Next focus:** Nail hairpin (biggest loss at ~70% lap), rebuild uphill esses confidence with clean inputs
+
+> _"I get on the gas way before the apex—as soon as I'm turned in."_ — Master Lonn, discovering early throttle revolution
 
 ---
 
