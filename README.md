@@ -6,13 +6,15 @@ AI-powered racing analysis helping Master Lonn get faster through data-driven co
 
 ## Season 01 2026 - Week 02 Race Week
 
-| Week   | Track     | Status    | Best Lap        | Result                        |
-| :----- | :-------- | :-------- | :-------------- | :---------------------------- |
-| **01** | Jefferson | ✅        | 50.592s (race)  | Victory + Podium              |
-| **02** | Rudskogen | 🏁 Racing | **1:28.508** 🏆 | **Race PB + Top 500 Global!** |
+| Week   | Track     | Status    | Best Lap        | Result                        | Standings |
+| :----- | :-------- | :-------- | :-------------- | :---------------------------- | :-------- |
+| **01** | Jefferson | ✅        | 50.592s (race)  | Victory + Podium              | [Standings week 01](weeks/week01/standings-report.md) |
+| **02** | Rudskogen | 🏁 Racing | **1:28.508** 🏆 | **Race PB + Top 500 Global!** | [Standings week 02](weeks/week02/standings-report.md) |
 | **03** | Winton    | 📅        | TBD             | TBD                           |
 
 **iRating 1377 • 3 Podiums • B License • Global Rank: 505 / 2,179 (Top 23%)**
+
+Read the [Season Progression Report](weeks/progression/progression-report.md) to see the full story.
 
 ---
 

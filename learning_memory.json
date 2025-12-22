@@ -3,6 +3,18 @@
   "current_week": "2 (IN PROGRESS)",
   "current_track": "Rudskogen Motorsenter",
   "current_car": "Ray FF1600",
+  "driver_info": {
+    "custid": 981717,
+    "name": "Leon Remondo van Bokhorst",
+    "country": "NL",
+    "irating_start": 1238,
+    "irating_current": 1377,
+    "irating_change": 139,
+    "division_current": 8,
+    "series": "Formula 1600 Rookie Series",
+    "position_current": 704,
+    "total_drivers": 8510
+  },
   "focus": "Consistency at NEW PB pace (1:28.572) - maintain early throttle technique while adding rhythm and flow",
   "goal": "Consistent sub-1:29s pace (σ < 0.60s), race-ready at 0.4s faster than July PB, improve S3 consistency (currently 0.700s σ)",
   "learning_style": {
@@ -717,7 +729,30 @@
     "BB 57.5% continued working perfectly: S2 consistency maintained, S1/S2/S4 all under 0.25s σ = setup is DIALED",
     "Tomorrow needs: Complete race protocol + Position Secured recognition + Incident Survival Lap + pre-quali calm routine",
     "The speed is THERE (1:28.620). Setup is THERE (57.5% BB). Racecraft is THERE (switcheroo). Mental game is the ONLY frontier.",
-    "Same lesson as Jefferson breakthrough (Dec 13 16:56): 'Confident but Patient.' Rudskogen version: 'Secure but Smart.'"
+    "Same lesson as Jefferson breakthrough (Dec 13 16:56): 'Confident but Patient.' Rudskogen version: 'Secure but Smart.'",
+    "STANDINGS ANALYSIS TOOL CREATED (Dec 22): Comprehensive statistical analysis of season leaderboard position, iRating, divisions, incidents, country rankings",
+    "Master Lonn's season standing: Position 704 / 8,510 drivers (top 8.3%) with only 2 races completed",
+    "Percentile rankings CRUSHING IT: 92nd %ile points, 93rd %ile wins, 93rd %ile poles, 94th %ile avg start position, 90th %ile avg finish",
+    "iRating (1377, 66th %ile) is LOWER than results (92nd %ile points) = outperforming rating, skill exceeds current ranking",
+    "Incident rate elite: 3.5/race vs series average 7.44/race = 53% CLEANER than average, better than 72% of field",
+    "Dutch drivers analysis: 144 Dutch in series, avg iRating 1370 vs global 1321 = Dutch drivers statistically better, Master Lonn ranks #704 overall but beats 139 other Dutch drivers",
+    "Division 8 performance: Above division average in ALL metrics (iRating 1377 vs 1271 avg, incidents 3.5 vs 6.74 avg, points 80 vs 44.1 avg)",
+    "Elite-level racecraft CONFIRMED by data: 3.5 inc/race = Division 1 elite standards (Div 1 avg: 3.49/race) while in Division 8",
+    "Statistical significance findings: iRating→Points correlation strong (r=0.542, p<0.001), incidents→performance weak negative (r=-0.166) = racecraft matters MORE than raw iRating",
+    "Incidents barely affect avg finish (r=0.087, negligible) = 'smart aggression' beats 'passive clean', Master Lonn's 3.5 inc/race with wins proves this",
+    "Data conclusion: Elite racecraft in mid-tier rating bracket = can dominate current splits while iRating catches up to actual skill level",
+    "Standings tool tracks: percentiles, division comparisons, iRating distribution, incident analysis, country rankings, statistical correlations, progress over time",
+    "Weekly standings uploads planned: Track position changes, iRating movement, division changes, points progression, Dutch ranking updates over season",
+    "Science-based goals: Target 1500 iRating (69 points to 75th %ile), climb to Division 6-7, top 500 overall realistic with 4-6 more races",
+    "WEEK 01 IRATING PROGRESSION: Started 1238 → Ended 1377 (+139 points in one week!) from 1 victory (1238→1334, +96) + 1 podium (1334→1377, +43)",
+    "Weekly standings workflow created: Download CSV → Move to week folder → Generate report → Auto-saved to weeks/weekXX/standings-report.md",
+    "Standings report tool (generate_weekly_standings_report.py): Comprehensive markdown report with position, percentiles, division analysis, Dutch rankings, goals, statistical insights",
+    "Week comparison tool (compare_weekly_standings.py): Calculates exact changes between two weeks - position shifts, iRating gains/race, percentile movements, trends",
+    "Progression visualization tool (visualize_standings_progression.py): Learning-focused charts showing iRating trajectory, position climb, percentile rankings with trend analysis",
+    "Rival tracking tool (track_rivals.py): Compare against specific competitors (custid-based), shows gaps in position/iRating/wins/incidents, useful for competitive context",
+    "Complete standings toolkit: 4 tools (weekly report, comparison, visualization, rival tracking) for comprehensive season progression analysis",
+    "Weekly upload schedule: After each week ends (Sunday/Monday), download standings CSV and run report generator for week-over-week tracking",
+    "Documentation created: data/standings/README.md (workflow), docs/standings-workflow.md (complete guide with examples and use cases)"
   ]
 }
 
