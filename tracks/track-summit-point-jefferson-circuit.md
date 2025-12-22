@@ -18,6 +18,7 @@ On paper it looks like a glorified kart track. In the car, it’s a **“no hidi
 
 - [Summit Point Jefferson Circuit – YouTube](https://youtu.be/gMIiUYakCFA?si=QzczDdshiz--UbIe)
 - [MidfieldRacing219 Full Race in Rookie Fixed](https://www.youtube.com/watch?v=iMaqbIWLRxw)
+- [Garage 61 Track Page](https://garage61.net/app/tracks/89)
 
 ## Track Map
 
@@ -87,6 +88,7 @@ Jefferson isn’t about glory laps; it’s about quietly sharpening the fundamen
 ### Brake Bias Guidance
 
 **Recommended Range:** 54-58%
+
 - **56%**: Sweet spot for most drivers (stable + rotation)
 - **57-58%**: More stable, better for bumpy conditions
 - **54-55%**: More rotation, higher risk on bumpy patches
@@ -95,13 +97,13 @@ Start at 56% and adjust 0.5% at a time. If rear feels loose/snappy at T3 hairpin
 
 ### Lap Time Benchmarks
 
-| Level | Time | Notes |
-|-------|------|-------|
-| **Alien (Top 0.1%)** | 0:49.300 | World-class |
-| **Fast Driver (Top 5%)** | ~0:50.345 | Competitive veteran |
-| **Competitive (Rookie Goal)** | Sub-0:51.000 | Strong intermediate |
-| **Master Lonn Week 01 Final** | 0:51.186 | 1st Place Victory! 🏆 |
-| **Master Lonn Week 01 Start** | ~0:56.000 | First session baseline |
+| Level                         | Time         | Notes                  |
+| ----------------------------- | ------------ | ---------------------- |
+| **Alien (Top 0.1%)**          | 0:49.300     | World-class            |
+| **Fast Driver (Top 5%)**      | ~0:50.345    | Competitive veteran    |
+| **Competitive (Rookie Goal)** | Sub-0:51.000 | Strong intermediate    |
+| **Master Lonn Week 01 Final** | 0:51.186     | 1st Place Victory! 🏆  |
+| **Master Lonn Week 01 Start** | ~0:56.000    | First session baseline |
 
 > Master Lonn went from ~0:56 (first session) to **0:51.186** (race victory) in Week 01 - a **4.8s improvement**. From "what is this track?" to podium finish in 7 days. The learning method works.
 
@@ -111,27 +113,27 @@ Start at 56% and adjust 0.5% at a time. If rear feels loose/snappy at T3 hairpin
 
 ### Sector 1 (Opening Complex → Esses) [55% of lap]
 
-| Corner | Type | Gear | Target Min Speed | Key Points |
-|--------|------|------|------------------|------------|
-| **T1** | Right 90° | 2nd | 37-40 mph (60-64 km/h) | Brake ~70m after 100m board, light trail brake to late apex (2/3 into corner), protect exit |
-| **T2** | Left Kink | 4th | 70-78 mph (113-126 km/h) | No brake, small lift if needed, keep mid-right line for T3 setup |
-| **T3** | **Tight Right Hairpin** | **2nd** | **28-31 mph (45-50 km/h)** | **CRITICAL - Brake from 100m board, long trail brake to very late apex, smooth throttle!** |
-| **T4** | Left on Back Straight | 4th | 87+ mph (140+ km/h) | Flat out, brief acceleration zone |
-| **T5** | Right of Esses | 3rd | 59-65 mph (95-105 km/h) | Brush brake or lift, early-mid apex, minimal curb |
-| **T6** | Left of Esses | 3rd | 53-59 mph (85-95 km/h) | Roll brake from T5, light trail brake, **exit sets up T7!** |
+| Corner | Type                    | Gear    | Target Min Speed           | Key Points                                                                                  |
+| ------ | ----------------------- | ------- | -------------------------- | ------------------------------------------------------------------------------------------- |
+| **T1** | Right 90°               | 2nd     | 37-40 mph (60-64 km/h)     | Brake ~70m after 100m board, light trail brake to late apex (2/3 into corner), protect exit |
+| **T2** | Left Kink               | 4th     | 70-78 mph (113-126 km/h)   | No brake, small lift if needed, keep mid-right line for T3 setup                            |
+| **T3** | **Tight Right Hairpin** | **2nd** | **28-31 mph (45-50 km/h)** | **CRITICAL - Brake from 100m board, long trail brake to very late apex, smooth throttle!**  |
+| **T4** | Left on Back Straight   | 4th     | 87+ mph (140+ km/h)        | Flat out, brief acceleration zone                                                           |
+| **T5** | Right of Esses          | 3rd     | 59-65 mph (95-105 km/h)    | Brush brake or lift, early-mid apex, minimal curb                                           |
+| **T6** | Left of Esses           | 3rd     | 53-59 mph (85-95 km/h)     | Roll brake from T5, light trail brake, **exit sets up T7!**                                 |
 
 ### Sector 2 (Carousel Entry) [22% of lap]
 
-| Corner | Type | Gear | Target Min Speed | Key Points |
-|--------|------|------|------------------|------------|
+| Corner | Type                    | Gear    | Target Min Speed           | Key Points                                                               |
+| ------ | ----------------------- | ------- | -------------------------- | ------------------------------------------------------------------------ |
 | **T7** | **Long Right Carousel** | **3rd** | **47-53 mph (76-85 km/h)** | **CRITICAL - Early brake, long trail brake to late apex, patience key!** |
 
 ### Sector 3 (Final Corners → Finish) [22% of lap]
 
-| Corner | Type | Gear | Target Min Speed | Key Points |
-|--------|------|------|------------------|------------|
-| **T8** | Short Left | 3rd | 50-56 mph (80-90 km/h) | Light brake/lift, late apex, early but gentle throttle |
-| **T9** | Left Setup for T10 | 3rd | 43-50 mph (69-80 km/h) | Small brake, light trail brake, late apex, keep mid-track |
+| Corner  | Type                          | Gear    | Target Min Speed           | Key Points                                                                               |
+| ------- | ----------------------------- | ------- | -------------------------- | ---------------------------------------------------------------------------------------- |
+| **T8**  | Short Left                    | 3rd     | 50-56 mph (80-90 km/h)     | Light brake/lift, late apex, early but gentle throttle                                   |
+| **T9**  | Left Setup for T10            | 3rd     | 43-50 mph (69-80 km/h)     | Small brake, light trail brake, late apex, keep mid-track                                |
 | **T10** | **Final Right onto Straight** | **2nd** | **37-40 mph (60-64 km/h)** | **MOST CRITICAL EXIT - Brake 50-70m before apex, late/diamond apex, earliest throttle!** |
 
 > **Three Critical Corners:** T10 (most important exit), T3 (second most important), T5-T6 esses (sets up carousel). Master these three and you have the lap.

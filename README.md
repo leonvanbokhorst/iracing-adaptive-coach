@@ -6,11 +6,11 @@ AI-powered racing analysis helping Master Lonn get faster through data-driven co
 
 ## Season 01 2026 - Week 02 Race Week
 
-| Week   | Track     | Status | Best Lap        | Result                        |
-| :----- | :-------- | :----- | :-------------- | :---------------------------- |
-| **01** | Jefferson | ✅     | 50.592s (race)  | Victory + Podium              |
+| Week   | Track     | Status    | Best Lap        | Result                        |
+| :----- | :-------- | :-------- | :-------------- | :---------------------------- |
+| **01** | Jefferson | ✅        | 50.592s (race)  | Victory + Podium              |
 | **02** | Rudskogen | 🏁 Racing | **1:28.508** 🏆 | **Race PB + Top 500 Global!** |
-| **03** | Winton    | 📅     | TBD             | TBD                           |
+| **03** | Winton    | 📅        | TBD             | TBD                           |
 
 **iRating 1377 • 3 Podiums • B License • Global Rank: 505 / 2,179 (Top 23%)**
 
@@ -152,10 +152,11 @@ Two podiums. Flow state discovered. Mental resilience proven. Championship DNA c
 
 **The Moments**: _"I get on the gas way before the apex"_ • _"I think I rest my foot on the throttle, unaware"_ • _"Felt way more stable"_ • _"Pff. I screwed up Wan. I'm sorry."_ [while looking at top 500 ranking] • _"Metronome city 😅"_ • _"Feels like easy flying"_
 
-**The Numbers**: 
+**The Numbers**:
+
 - Week 01: 51.438s → 50.592s (victory)
 - Week 02: 1:30.290 → **1:28.508** (race PB + top 500)
-- Races: 3 • Podiums: 3 
+- Races: 3 • Podiums: 3
 - iRating: 1238 → 1377 (+139)
 - Global: Rank 505 / 2,179 (top 23.2%)
 
@@ -163,7 +164,7 @@ Two podiums. Flow state discovered. Mental resilience proven. Championship DNA c
 
 ## What's Next
 
-More races this week at Rudskogen. The first one proved the speed is real—1:28.508 under pressure, top 500 globally. But one race doesn't make a week. 
+More races this week at Rudskogen. The first one proved the speed is real—1:28.508 under pressure, top 500 globally. But one race doesn't make a week.
 
 The question now: can he finish a race clean? Can he implement the "Incident = Survival Lap" protocol when chaos strikes? Can the 57.5% brake bias setup keep delivering?
 

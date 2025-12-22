@@ -18,6 +18,8 @@ The GRS-1600, launched in 2012, is a modern echo of the classic Formula Ford rec
 
 This is not a power car. It's a momentum apprenticeship on four wheels.
 
+- [Garage 61 Car Page](https://garage61.net/app/cars/147)
+
 ---
 
 ## Technical Specifications (iRacing)
