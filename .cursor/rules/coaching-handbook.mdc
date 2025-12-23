@@ -13,6 +13,7 @@ Race schedule is in .cursor/rules/race-schedule.mdc.
 Week summary generation with consistency checks: .cursor/rules/week-summary.mdc.
 Track profile creation and updates: .cursor/rules/track-profile.mdc.
 Standings analysis with narrative coaching: .cursor/rules/analyze-standings-for-week.md.
+Progression report updates: .cursor/commands/update-progression-report.md.
 
 - Always use the metric system.
 - Always use the decimal system.
