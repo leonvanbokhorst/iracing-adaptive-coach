@@ -159,6 +159,82 @@ Because you have the PACE (1:28.620 in traffic!), you have the SETUP (BB 57.5% p
 
 ---
 
+## 🔬 Weight Transfer Analysis: What the Traction Circle Reveals
+
+Comparing the afternoon race (1:28.620, red) with the morning race (1:28.509, green):
+
+![Traction Circle Comparison](assets/traction-circle-race-comparison.png)
+
+_Bold lines show sustained forces, light dots show momentary spikes from kerbs and sharp inputs._
+
+### The Numbers Don't Lie:
+
+**🔴 Afternoon Lap (1:28.620) - P3 Comeback:**
+- Sustained max: **2.205G**
+- Raw spikes: 2.977G  
+- Sustained lateral: **2.202G**
+- Peak braking: -1.419G
+- Smoothness: 0.0232
+
+**🟢 Morning Lap (1:28.508) - Clean Hot Lap:**
+- Sustained max: **2.111G** ✅  
+- Raw spikes: 2.552G ✅
+- Sustained lateral: **2.103G** ✅
+- Peak braking: -1.318G
+- Smoothness: 0.0225 ✅ **3% smoother!**
+
+### What This Tells Us:
+
+**The 0.112s time difference comes from THREE things:**
+
+1. **Higher sustained peaks** (2.205G vs 2.111G = +0.093G)  
+   → Fighting the car harder, not gripping better
+
+2. **More dramatic spikes** (2.977G vs 2.552G = +0.425G)  
+   → Sharp corrections, abrupt inputs, tires sliding momentarily
+
+3. **Less smooth transitions** (0.0232 vs 0.0225 = +3% rougher)  
+   → Weight transfer happening more abruptly
+
+### The Visual Story:
+
+Look at the traction circle:
+
+- **Green (morning):** Tighter loops, stays closer to the sustained limit (1.4G green circle)
+- **Red (afternoon):** Wider excursions, more time outside the circle, bigger loops
+
+This is NOT about trying harder. Both laps average 0.99G. This is about **how** the weight is being transferred.
+
+The afternoon lap shows more **fighting** - bigger steering corrections, sharper brake inputs, more aggressive throttle changes. Each one creates a spike in the data, a momentary slide, a tiny loss of time.
+
+The morning lap shows more **flow** - smoother inputs, predictable weight transfer, tires staying in their grip window.
+
+### The Coaching Insight:
+
+**Master, this PROVES the "too eager to follow" feeling from lap 8.**
+
+When you're chasing someone (afternoon race, fighting back from P10), your inputs get more aggressive:
+- Sharper turn-ins (lateral spikes)
+- Harder braking (longitudinal spikes)  
+- More corrections (erratic path)
+
+When you're in clean air (morning race, hot lap pace), your inputs are smoother:
+- Progressive weight transfer
+- Controlled at the limit
+- Flow instead of fight
+
+**The lap time difference (0.112s) is the physical cost of "trying harder"** instead of "flowing faster."
+
+This is why "Position Secured = Survival Mode" matters. When you had P3, you didn't need to keep fighting. The data shows you were already pushing harder than the morning (2.205G vs 2.111G sustained). Backing off 5% would have meant:
+- Lower sustained G (less overdriving)
+- Fewer spikes (less fighting)
+- Better smoothness (more predictable)
+- **Keeping P3 instead of spinning**
+
+The traction circle doesn't lie. Fast is smooth, smooth is fast. 🎯
+
+---
+
 ## 📝 Coach's Notebook
 
 **What Works (Keep Doing This!)**:
