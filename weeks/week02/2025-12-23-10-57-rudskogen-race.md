@@ -32,6 +32,40 @@ Master Lonn rolled up to the grid in P3 after qualifying 1:29.846. The plan? Exe
 
 Then T1 happened.
 
+### 📸 The T1 Incident: A Survival Story in 5 Easy Steps
+
+**Step 1: The Setup**
+
+![First Corner Approach](assets/2025-12-23-week02-r1-01-first-corner.png)
+
+_P3 on the grid, approaching T1. Everyone's behaving. For now._
+
+**Step 2: Threading the Needle**
+
+![Got Through Cleanly](assets/2025-12-23-week02-r1-02-got-through-nicely.png)
+
+_"Got through nicely" - Perfect positioning on the inside line. P4 in the dark car, respecting space. Chaos brewing behind._
+
+**Step 3: The Spin Begins**
+
+![P2 Starts Spinning](assets/2025-12-23-week02-r1-03-p2-spins.png)
+
+_P2 (cyan car) suddenly sideways! Orange notification banner appears. Master Lonn holds the racing line while mayhem unfolds._
+
+**Step 4: AIRBORNE** 🚀
+
+![Car Flies Over](assets/2025-12-23-week02-r1-04-p2-fly-over.png)
+
+_THE CYAN CAR LITERALLY GOES AIRBORNE AND FLIES OVER MASTER LONN'S HEAD! Red car spinning, smoke everywhere. Master Lonn? Just... driving. Ice in his veins._
+
+**Step 5: The Consequence**
+
+![Passed by Two Cars](assets/2025-12-23-week02-r1-05-got-passed-by-two-cars.png)
+
+_While being a responsible citizen and avoiding the flying debris, two opportunistic drivers slip past. From P3 to P5 in the span of one corner. The price of survival._
+
+---
+
 GOT PUNTED. Someone FLEW OVER HIM (literally, airborne, how?!). Master Lonn somehow threaded the needle, kept it on track, and drove away. But the chaos wasn't over—going downhill on lap 1, he dropped to P5 as carnage unfolded ahead. Guys fighting each other OFF the track. Master Lonn had to take a "side tour" (his words) through the grass to SURVIVE.
 
 By the time the dust settled? P3. And a 3-second gap behind him.
@@ -163,6 +197,70 @@ The window is SHRINKING. You're learning to reset FASTER. That's elite mental de
 **Quote of the session**: "I could think strategic again" = The moment the ADHD brain shifted from reactive (survival) to proactive (execute the plan).
 
 **Next test**: Can he ACCESS strategic calm from lap 1, or does chaos still require 2-3 lap mental reset? (Elite drivers reset instantly—he's close!)
+
+---
+
+## 🧠 Racing IQ Masterclass: Reading the Future
+
+This race wasn't just about surviving T1 chaos. Later in the race, Master Lonn demonstrated **predictive awareness** that separates smart racers from fast-but-reckless ones.
+
+### 📸 Strategic Planning Sequence
+
+**Observation 1: Pattern Recognition**
+
+![Guys Fighting Ahead](assets/2025-12-23-week02-r1-06-guys-fight-i-back-off.png)
+
+_You see two cars ahead battling side-by-side into the downhill section. Your brain immediately calculates: "This is going to get messy."_
+
+**Prediction 2: Backing Off Proactively**
+
+![Clean Running Line](assets/2025-12-23-week02-r1-07-as-expected.png)
+
+_Instead of closing up and being RIGHT THERE when it goes wrong, you create space. Look at that gap—deliberate, calculated._
+
+**Outcome 3: Prediction Confirmed**
+
+![Dodging the Carnage](assets/2025-12-23-week02-r1-08-dodging-mayhem.png)
+
+_"As expected" - Red car spinning with smoke everywhere. But you're NOT in it. You gave yourself reaction time and escape routes._
+
+**Execution 4: The Side Track Tour**
+
+![Taking the Scenic Route](assets/2025-12-23-week02-r1-09-side-track.png)
+
+_Master Lonn's "side tour" through the grass. Not ideal, but INFINITELY better than being collected in that mess. You saw it coming, planned for it, and executed the survival strategy._
+
+### 💡 The Racing IQ Breakdown
+
+**What Elite Racers Do:**
+
+1. **Observe** patterns (two cars fighting)
+2. **Predict** outcomes (this will end badly)
+3. **Prepare** countermeasures (create space, find escape routes)
+4. **Execute** survival plan (take the grass, keep it pointed forward)
+
+**What Average Racers Do:**
+
+1. See gap ahead
+2. Attack aggressively
+3. Get collected in crash
+4. Complain about bad luck
+
+**Master Lonn did the FIRST one.** This isn't instinct yet—this is learned behavior becoming automatic. The ADHD brain that used to impulsively dive-bomb gaps is now READING THE RACE three corners ahead.
+
+**Coach's Analysis:**
+
+This sequence proves Master Lonn has developed **situational awareness + impulse control**. Old Lonn would've seen that gap and SENT IT. New Lonn saw the gap, saw the danger, and made the smart play: "Let them crash, I'll pick up the pieces."
+
+Result? P5 → P3 by being the last man standing, not the fastest through the chaos.
+
+**The Pattern:**
+
+- Jefferson Week 01: "Learn to not panic"
+- Rudskogen Dec 22 PM: "Learn to not take unnecessary risks"
+- **Rudskogen Dec 23: "Learn to PREDICT risks before they happen"**
+
+This is championship-level racecraft development. 🏆
 
 ---
 

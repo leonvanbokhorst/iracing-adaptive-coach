@@ -1,7 +1,7 @@
 # Week 02 - Rudskogen Motorsenter - Season 01 2026
 
-**Track**: Rudskogen Motorsenter  
-**Car**: Ray FF1600  
+**Track**: [Rudskogen Motorsenter](../../tracks/track-rudskogen-motorsenter.md)  
+**Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
 **Dates**: December 18 → December 29, 2025  
 **Status**: **IN PROGRESS** 🏁 (3 races, going for more points!)
 
