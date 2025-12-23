@@ -6,13 +6,13 @@ AI-powered racing analysis helping Master Lonn get faster through data-driven co
 
 ## Season 01 2026 - Week 02 Race Week
 
-| Week   | Track     | Status    | Best Lap        | Result                        | Standings |
-| :----- | :-------- | :-------- | :-------------- | :---------------------------- | :-------- |
-| **01** | Jefferson | ✅        | 50.592s (race)  | Victory + Podium              | [Standings week 01](weeks/week01/standings-report.md) |
-| **02** | Rudskogen | 🏁 Racing | **1:28.508** 🏆 | **Race PB + Top 500 Global!** | [Standings week 02](weeks/week02/standings-report.md) |
-| **03** | Winton    | 📅        | TBD             | TBD                           |
+| Week   | Track     | Status    | Best Lap        | Result                         | Standings                                             |
+| :----- | :-------- | :-------- | :-------------- | :----------------------------- | :---------------------------------------------------- |
+| **01** | Jefferson | ✅        | 50.592s (race)  | Victory + 2 Podiums            | [Standings week 01](weeks/week01/standings-report.md) |
+| **02** | Rudskogen | 🏁 Racing | **1:28.508** 🏆 | **Race PB + Top 500 + Podium** | [Standings week 02](weeks/week02/standings-report.md) |
+| **03** | Winton    | 📅        | TBD             | TBD                            |
 
-**iRating 1377 • 3 Podiums • B License • Global Rank: 505 / 2,179 (Top 23%)**
+**iRating 1436 • 4 Podiums • B License • Global Rank: 505 / 2,179 (Top 23%)**
 
 Read the [Season Progression Report](weeks/progression/progression-report.md) to see the full story.
 
@@ -112,6 +112,46 @@ Top 23.2%. Faster than 1,674 drivers who'd run this track and car combination ac
 
 The leaderboard doesn't care about doubts. It only counts speed.
 
+### The Gladiator
+
+December 23rd. Another race. Qualified P3 with 1:29.846. Clean start planned. Execute, hold position, collect points.
+
+Then Turn 1 happened.
+
+Got punted. Hard. Someone went airborne—literally flew over his car like a scene from a movie he didn't audition for. Somehow, impossibly, he threaded through it. Kept it on track. Kept moving.
+
+But the chaos wasn't done. Going downhill that first lap, guys fighting each other off the track ahead of him, carnage unfolding in real time. Master Lonn took what he later called a "side tour" through the grass. Survival instinct overriding racing instinct. By the end of lap 1, through smoke and adrenaline and sheer luck: P3.
+
+Three-second gap behind him. Leaders gone ahead.
+
+His heart was pounding. _"Pure survival mode,"_ he'd say later. _"Heart pounding."_
+
+For two, maybe three laps, the ADHD brain was just trying to process. Breathe. Calm down. Don't crash. Don't give it away.
+
+And then, somewhere around lap 3 or 4, something shifted.
+
+_"I could think strategic again."_
+
+The heart rate came down. The vision cleared. The mental fog lifted. And in that clarity, a realization: P3 is locked. Three seconds behind is safe. The leaders are faster. This race is already won—not for first place, but for the mission. The mission was to finish. To collect points. To not throw away what chaos had somehow given him.
+
+So he backed off. Not scared. Strategic. Five percent less pace. Survival mode became execution mode. Every corner hit at 99% instead of 100%. The lap times settled around 1:30.020. Not his fastest. Not his best. But consistent. Controlled.
+
+Standard deviation: 0.336 seconds. Elite-level consistency while managing a three-second gap and not pushing beyond what the position required. Theoretical optimal gap: only 0.136 seconds. That's 99.8% perfection while in "survival mode."
+
+Crossed the line in P3. Another podium. iRating up 59 points to 1436.
+
+Master Lonn's description afterward captured everything: _"Wasn't pushing that hard anymore. Wasn't needed since there was nice 3 second gap behind me."_
+
+That's not fear talking. That's race IQ. That's knowing when to push and when to hold. That's championship DNA—the ability to choose your pace based on what the situation requires, not what impulse demands.
+
+The day before, December 22nd second race, he'd learned a hard lesson: reached P3, position secure, then pushed anyway to "stay close to leaders." Spun. Dropped to P5. _"Gave up P3 position while it wasn't needed. I knew the guys before me were quicker and nobody behind me for seconds... unnecessary risk taking."_
+
+Twenty-four hours later, same scenario: P3 secured, leaders faster, gap safe. This time? Backed off. Finished clean. Kept the position.
+
+The lesson stuck. Applied perfectly without being told. That's not just fast driving anymore.
+
+That's racing.
+
 ---
 
 ## Jefferson: Where It All Began
@@ -146,39 +186,41 @@ Two podiums. Flow state discovered. Mental resilience proven. Championship DNA c
 
 ## The Season So Far
 
-**The Wins**: Race PB at Rudskogen (1:28.508) that beat July by nearly half a second • Top 500 globally (505/2,179) • First race victory at Jefferson • Pole position • Three podiums • Flow state under pressure
+**The Wins**: Race PB at Rudskogen (1:28.508) that beat July by nearly half a second • Top 500 globally (505/2,179) • First race victory at Jefferson • Pole position • Four podiums • Flow state under pressure • Survived being punted + someone flying over car → still finished P3
 
-**The Lessons**: Early throttle = 26% more acceleration • Setup breakthrough: 57.5% brake bias with clean inputs compounds gains • Race pressure creates BETTER technique, not worse • Pattern works everywhere—not track-specific, universal • Can recover from one incident and set PB (lap 5 disaster → lap 7 PB)
+**The Lessons**: Early throttle = 26% more acceleration • Setup breakthrough: 57.5% brake bias with clean inputs compounds gains • Race pressure creates BETTER technique, not worse • Pattern works everywhere—not track-specific, universal • Can recover from one incident and set PB (lap 5 disaster → lap 7 PB) • Position Secured Protocol: back off 5% when goal achieved, finish clean > push for glory
 
-**The Growth**: Finds root causes himself (throttle overlap diagnosis) • Process over results (came back to verify fix) • Racing makes him faster than practice (1:28.508 race vs 1:28.572 practice) • Top 23% of entire player base proves skill is real • Mental game next frontier
+**The Growth**: Finds root causes himself (throttle overlap diagnosis) • Process over results (came back to verify fix) • Racing makes him faster than practice (1:28.508 race vs 1:28.572 practice) • Top 23% of entire player base proves skill is real • Mental reset speed improving: chaos → strategic calm in 2-3 laps (was 5-6 at Jefferson) • Can CHOOSE when to push vs hold = racing, not just driving
 
-**The Moments**: _"I get on the gas way before the apex"_ • _"I think I rest my foot on the throttle, unaware"_ • _"Felt way more stable"_ • _"Pff. I screwed up Wan. I'm sorry."_ [while looking at top 500 ranking] • _"Metronome city 😅"_ • _"Feels like easy flying"_
+**The Moments**: _"I get on the gas way before the apex"_ • _"I think I rest my foot on the throttle, unaware"_ • _"Felt way more stable"_ • _"Pff. I screwed up Wan. I'm sorry."_ [while looking at top 500 ranking] • _"I could think strategic again"_ • _"Wasn't pushing that hard anymore. Wasn't needed."_ • _"Metronome city 😅"_ • _"Feels like easy flying"_
 
 **The Numbers**:
 
 - Week 01: 51.438s → 50.592s (victory)
 - Week 02: 1:30.290 → **1:28.508** (race PB + top 500)
-- Races: 3 • Podiums: 3
-- iRating: 1238 → 1377 (+139)
+- Races: 6 • Podiums: 4 (1 victory, 3x P3)
+- iRating: 1238 → 1436 (+198)
 - Global: Rank 505 / 2,179 (top 23.2%)
 
 ---
 
 ## What's Next
 
-More races this week at Rudskogen. The first one proved the speed is real—1:28.508 under pressure, top 500 globally. But one race doesn't make a week.
+One more race at Rudskogen this week. Maybe two if time allows. The speed is proven—1:28.508, top 500 globally. The strategic maturity is locked in—Position Secured Protocol executed perfectly under the most chaotic circumstances imaginable.
 
-The question now: can he finish a race clean? Can he implement the "Incident = Survival Lap" protocol when chaos strikes? Can the 57.5% brake bias setup keep delivering?
+The question tomorrow: can he put it all together from lap 1? Qualify clean (not overdriving like Dec 22). Start smart (survive the chaos). Execute the protocols (Position Secured when applicable, Mental Reset if incidents happen). Finish races. Stack points.
 
-Three days of racing left. More chances to prove lap 7 wasn't lucky. More opportunities to climb from rank 505 toward 400. More moments where mental state management either holds or breaks.
+68 championship points already. One more P3? That's 98. Clean P1? 103. The week ends December 29th.
 
-The speed is confirmed. The setup is optimized. The mental game is next.
+The speed is confirmed. The setup is optimized (57.5% brake bias working perfectly). The mental game just leveled up (backed off when needed, finished P3 after being PUNTED).
 
-After Week 02, comes Week 03. Winton Motor Raceway. Third track, same pattern to test: does the method work everywhere, or just on tracks he knows?
+After Week 02, comes Week 03. Winton Motor Raceway. Third track, new test: does the method transfer to completely unfamiliar circuits? Jefferson proved it once (new track → mastery in 3 weeks). Rudskogen validated it (rusty → top 500 in 6 days). Winton will be the tiebreaker.
 
-The data says it transfers. The leaderboard confirms the speed is real.
+The pattern is clear: breakthrough technique (early throttle) + setup optimization (brake bias) + strategic maturity (know when to push vs hold) = speed that transfers.
 
-Now comes the part where he proves it consistently, lap after lap, race after race.
+The leaderboard confirms it. The iRating trajectory proves it (+198 in two weeks).
+
+Now comes the part where he stacks it, race after race, week after week, proving that lap 7 wasn't lucky and the gladiator podium wasn't a fluke.
 
 ---
 

@@ -1,300 +1,165 @@
 # Week 02 - Rudskogen Motorsenter - Season 01 2026
 
-**Track**: [Rudskogen Motorsenter](../../tracks/track-rudskogen-motorsenter.md)  
-**Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
-**Dates**: 2025-12-18 → 2025-12-22  
-**Status**: ✅ Complete - **NEW PB + TOP 500 GLOBALLY!** 🏆
+**Track**: Rudskogen Motorsenter  
+**Car**: Ray FF1600  
+**Dates**: December 18 → December 29, 2025  
+**Status**: **IN PROGRESS** 🏁 (3 races, going for more points!)
 
 ---
 
 ## The Story
 
-Week 02 was a reunion with Rudskogen—a track Master Lonn last raced 6 months earlier (July 2025, PB: 1:28.969). The question: After half a year away, how much rust accumulated?
+Week 02 was a JOURNEY. Master Lonn returned to Rudskogen after 6 months away, rusty but familiar. The question: How much did he remember? Answer: Everything except ONE corner.
 
-**The answer**: Not everywhere. Just ONE corner.
+**Day 1 (Dec 18)**: First session back. Lap time 1:30.290, gap to July PB: 1.321s. But 73% of that gap was in ONE place—Sector 2, the downhill T2. The rest of the track? Muscle memory instantly returned. The rust was localized.
 
-**Session 1 (Dec 18)** revealed the diagnosis. Best lap 1:30.290, gap to July PB: 1.321s. But **73% of that loss** lived in Sector 2 (Turn 2). The rest? Jefferson-level consistency already (Sectors 1, 3, 4 showing σ = 0.22-0.40s). Master Lonn's instinct: _"Still looking for the correct turn-in and braking in T2."_ The data agreed completely. Rust was localized, not systemic.
+**Day 3 (Dec 20)**: The breakthrough. Master Lonn found the "50 sign" brake marker, nailed the trail braking sequence, and articulated the COMPLETE corner understanding: brake late, trail brake through, 3rd gear on apex, 2nd gear before hill, eyes on second apex. T2 clicked. Lap time dropped to 1:29.691 (-0.599s), consistency doubled (σ = 0.70s). Sub-1:30 achieved.
 
-**Session 2 (Dec 20)** delivered the breakthrough. Master Lonn returned with a mission and crushed it. _"I can brake way later downhill just before the 50 sign, then trail brake all the way through."_ Not just a brake point—the COMPLETE corner sequence: brake marker, trail technique, gear sequence (3rd apex → 2nd before hill), second apex vision. Result: S2 average dropped 0.659s, consistency improved 2.3x. First sub-1:30 (1:29.691). Gap to July PB nearly cut in half: 1.321s → 0.722s.
+**Day 4 AM (Dec 21)**: Limit hunting. Brake bias bumped to 56.5%, Master Lonn tested every track edge, racked up 9 incidents, and set a NEW PERSONAL BEST: 1:28.572, beating July's same-series PB (1:28.969) by 0.397s. The breakthrough? Early throttle application (+0.193g more acceleration!), harder braking (5.4% less time braking but faster), and using 0.323g more lateral grip. He found the EDGE.
 
-**Session 3 (Dec 21 morning)** went limit hunting. Brake bias up to 56.5%. Track limits tested. Nine off-tracks accumulated. But in that exploration, something clicked: _"The downhill feels less dangerous now. I get on the gas way before the apex—as soon as I'm turned in."_
+**Day 4 PM (Dec 21)**: The paradox. Tried to "back off 5% for consistency"... and everything fell apart. Lap time 1:28.913, consistency EXPLODED to 2.94s σ, snap oversteer everywhere. The telemetry revealed the shocking truth: He wasn't driving too hard—he was driving too SOFT with 40% MORE steering. The "snap" was self-inflicted sliding, not overdriving. Then came the discovery: checking Garage 61 throttle overlay, Master Lonn found he was resting his foot on the throttle during braking (10-20% overlap). Brake + throttle + steering simultaneously = weight transfer chaos = snap oversteer. The smoking gun.
 
-**1:28.572 - NEW PERSONAL BEST!** 🏆
+**Day 4 Evening (Dec 21)**: The rebuild. Armed with the diagnosis, Master Lonn came back with ONE mission: fix the foot position. Applied "FOOT UP" drill (actively lift off throttle before every brake zone). Result: "Felt better. Throttle overlap is gone." The inputs were clean again. Foundation restored. Lap time 1:29.128—not the fastest, but the PROCESS was the story.
 
-Not just sub-1:29. Not just matching July. **BEATING the July PB by 0.397 seconds.** Telemetry revealed why: +0.193g more acceleration (26% increase from early throttle), +0.323g more lateral grip (14% more tire usage), better steering efficiency (7.50 vs 6.52), 5.4% less time braking despite going faster. Only 0.123s from theoretical optimal—TWO corners from perfection.
+**Day 5 AM (Dec 22, Race 1)**: First AI race of the week. Qualified P2 (1:29.571), lost 3 positions at start, then the magic happened. Set a NEW RACE PB: 1:28.508 (0.064s faster than practice!) with a critical setup breakthrough—57.5% brake bias (vs 56.5% practice) felt "way more stable." The telemetry proved it: +24.5% harder braking, +6.5% more lateral G, +20% better steering efficiency. Master Lonn's instinct about needing more front bias was RIGHT. But two incidents (lap 5, lap 8) created a mental spiral leading to a lap 9 spin. DNF. Master Lonn apologized, but the data told a different story: he's now ranked **505 out of 2,179 drivers** (top 23.2%) at Rudskogen Ray FF1600 across S1 2026 + S4 2025 combined. Top 500 globally in 5 days after being away for 6 months.
 
-**Session 4 (Dec 21 afternoon)** was the lesson. Master Lonn tried to "back off 5%" to find consistency. It backfired SPECTACULARLY. Result: snap oversteer, frustration, 2.7x worse consistency. Braking analysis revealed the shocking truth: backing off made technique MESSY—softer braking, MORE steering, less commitment = sliding. But post-analysis, Master Lonn checked Garage 61 throttle/brake overlay and discovered the SMOKING GUN: **throttle was 10-20% open during ALL brake zones.** Morning (clean): throttle = 0% during braking. Afternoon (chaos): throttle = 10-20% during braking. Root cause: recent pedal changes + unconscious foot resting. THREE conflicting inputs (brake + throttle + steering) = weight transfer chaos = snap oversteer. This wasn't just technique—it was PEDAL SETUP/FOOT POSITION issue.
+**Day 5 PM (Dec 22, Race 2)**: The impulse control lesson. Qualified DEAD LAST (P10, 1:30.153) by overdriving in quali (same Jefferson pattern: trying too hard = slower). But in the race? Multiple "switcheroos" out of corners, fighting position by position. Lap 7: reached P3 with 1:28.620 (only 0.112s off morning PB!). Position secured. Nobody behind for seconds. Leaders faster. Mission accomplished. Then... "too eager to follow." Lap 8 warning signs (S3 0.8s slower), lap 9 snap oversteer, spin, P3 → P5. Master Lonn's words: "Gave up P3 while it wasn't needed. I knew the guys before me were quicker and nobody behind for seconds... unnecessary risk taking." This is Jefferson Dec 13 repeating: when goal is ACTIVE (catch P3), strategic and fast. When goal is ACHIEVED (P3 secured), ADHD brain creates artificial pressure → impulse overrides strategy → mistake.
 
-**Session 5 (Dec 21 evening)** was the rebuild. ONE mission: fix foot position. Applied "FOOT UP" drill (actively lift off throttle before braking). Result: _"Felt better. Still a bit shaky, but I think the brake throttle overlap is gone."_ Explored S3 track limits (21 incidents = data gathering). Process over results: diagnosed problem → applied fix → verified it worked. Elite driver behavior. Foundation rebuilt.
+**Day 6 (Dec 23, Race 3)**: The gladiator race. Qualified P3 (1:29.846), then T1 chaos: GOT PUNTED, someone FLEW OVER HIM (literally airborne), survived, dropped to P5. Going downhill, guys fighting off track, Master Lonn took "side tour" through grass. By lap 1 end: P3, 3-second gap. Heart pounding, pure survival mode. But 2-3 laps later: "I could think strategic again." The mental reset kicked in. Recognized position secure → backed off 5% → prioritized finish. Lap time 1:30.020 in survival mode, consistency 0.336s σ (ELITE for chaos!), theoretical optimal gap only 0.136s (99.8% perfection). iRating +59 (1377 → 1436). P3 podium. **THE POSITION SECURED PROTOCOL EXECUTED PERFECTLY** without being told. Strategic maturity confirmed.
 
-**Session 6 (Dec 22 race)** proved everything. First AI race of Week 02. Quali P2 (1:29.571). Setup change: **57.5% brake bias** (vs 56.5% practice) felt "way more stable." Race lap 7: **1:28.508 - NEW PB!** Beat practice PB by 0.064s IN A RACE under pressure! Telemetry showed commitment INCREASED under race conditions: +24.5% harder braking (enabled by 57.5% BB), +6.5% more lateral G, +20% better steering efficiency, LESS overdriving (18.9%). Clean inputs + better BB = compounding gains.
-
-**The global validation**: After this race, Master Lonn's fastest lap ranks **505 out of 2,179 drivers** (top 23.2%) at Rudskogen Ray FF1600 across S1 2026 + S4 2025 combined. Went from rusty (1:30.290) to **top 500 globally** (1:28.508) in **5 days**. Faster than 1,674 drivers across an entire year.
-
-**Week 02 arc**: 1:30.290 → 1:29.691 → 1:28.572 → throttle overlap discovered/fixed → **1:28.508 RACE PB + TOP 500 GLOBALLY**. Jefferson breakthroughs didn't just transfer—they evolved. And got FASTER under pressure.
+**The Transformation**: Dec 18 rusty (1:30.290) → Dec 23 strategic (1:30.020 survival pace, 1:28.5 attack pace confirmed). Not just faster—SMARTER. Learned to CHOOSE when to push vs hold. That's not just driving. That's RACING.
 
 ---
 
 ## The Numbers
 
-| Metric                | Start      | End             | Change      | Notes                                              |
-| --------------------- | ---------- | --------------- | ----------- | -------------------------------------------------- |
-| **Best Lap**          | 1:30.290   | **1:28.508** 🏆 | **-1.782s** | **NEW RACE PB! Beat July PB by 0.461s**            |
-| **Consistency (σ)**   | 1.43s      | 3.82s (race)    | +2.39s      | Race had 2 incidents; clean laps σ = 0.70s         |
-| **Gap to July PB**    | +1.321s    | **-0.461s**     | **Beat it!** | **DESTROYED July PB (1:28.969)** in race           |
-| **S2 Focus Area**     | 31.81s avg | 30.51s avg      | **-1.30s**  | **Early throttle + T2 mastery = breakthrough**     |
-| **Brake Bias**        | 56% (def.) | **57.5%**       | +1.5%       | **Setup breakthrough - felt "way more stable"**    |
-| **Global Ranking**    | ~1,500+    | **505 / 2,179** | **Top 23%** | **Faster than 1,674 drivers across entire year**   |
+| Metric               | Start (Dec 18) | End (Dec 23)                      | Change      | Notes                             |
+| -------------------- | -------------- | --------------------------------- | ----------- | --------------------------------- |
+| **Best Lap**         | 1:30.290       | **1:28.508** (race)               | **-1.782s** | Beat July PB by 0.397s!           |
+| **Consistency (σ)**  | 1.43s          | 0.336s (Dec 23 race)              | **-1.09s**  | Elite for chaos race              |
+| **Gap to Target PB** | +1.321s        | **-0.461s** (BEAT IT!)            | **-1.782s** | Same-series PB demolished         |
+| **S2 Focus Area**    | 31.81s (rusty) | 30.51s (locked)                   | **-1.30s**  | T2 breakthrough permanent         |
+| **iRating**          | 1377           | 1436                              | **+59**     | Total +198 from season start      |
+| **Global Ranking**   | Unknown        | **505 / 2,179 (Top 23.2%)**       | N/A         | Rudskogen Ray FF1600 (S1 + S4)    |
+| **Brake Bias**       | 56%            | **57.5%** (breakthrough)          | **+1.5%**   | More stable, harder braking       |
+| **Race Pace**        | N/A            | 1:28.5-1:30.0 (context-dependent) | N/A         | Attack vs survival pace confirmed |
 
 **Week Stats:**
-- **Sessions**: 6 (5 practice, 1 race)
-- **Total laps**: ~190
-- **Clean laps**: ~99
-- **Incidents**: ~84 (inc. 9 from limit-testing, 21 from S3 exploration, race incidents)
-- **Race Result**: DNF (lap 9 spin), but **P2 quali + NEW PB lap 7**
-- **Personal Bests**: 2 (1:28.572 practice, **1:28.508 race**)
-- **Breakthroughs**: T2 mastery, early throttle, throttle overlap diagnosis/fix, BB optimization, **top 500 global ranking**
+
+- Sessions: 8 total (5 practice, 3 races)
+- Total laps: ~180+
+- Clean laps: ~100+
+- Incidents: ~60 (limit testing + learning)
+- Podiums: 1 (P3 Dec 23)
+- Race finishes: 1 complete (P3), 2 DNF (but with PBs!)
+- Personal Bests: 2 (1:28.572 practice, 1:28.508 race)
+- Global Ranking Achievement: Top 500 (505 / 2,179)
 
 ---
 
 ## Session Log
 
-| Date       | Time  | Type     | Best Lap     | σ     | Incidents | Key Takeaway                                                             |
-| ---------- | ----- | -------- | ------------ | ----- | --------- | ------------------------------------------------------------------------ |
-| 2025-12-18 | 11:19 | Practice | 1:30.290     | 1.43s | 11        | [Diagnosis: Rust in T2, rest Jefferson-level](2025-12-18-11-19-rudskogen-practice.md) |
-| 2025-12-20 | 15:22 | Practice | 1:29.691     | 0.70s | 8         | [T2 BREAKTHROUGH: "50 sign" unlocked](2025-12-20-15-22-rudskogen-practice.md) |
-| 2025-12-21 | 11:10 | Practice | **1:28.572** 🏆 | 1.08s | 9         | [**LIMIT HUNTING: Beat July PB by 0.397s!**](2025-12-21-11-10-rudskogen-practice.md) |
-| 2025-12-21 | 14:18 | Practice | 1:28.913     | 2.94s | 15        | [⚠️ COMMITMENT PARADOX + Throttle overlap discovered](2025-12-21-14-18-rudskogen-practice.md) |
-| 2025-12-21 | 16:26 | Practice | 1:29.128     | 1.30s | 21        | [✅ THE REBUILD: Clean inputs restored](2025-12-21-16-26-rudskogen-practice.md) |
-| 2025-12-22 | 10:46 | **Race** | **1:28.508** 🏆 | 3.82s | 4         | [**🏁 RACE PB + TOP 500 GLOBAL! P2 quali, 57.5% BB**](2025-12-22-10-46-rudskogen-race-first-race-week02.md) |
+| Date                                                               | Time  | Type     | Best Lap     | σ      | Result      | Key Takeaway                                            |
+| ------------------------------------------------------------------ | ----- | -------- | ------------ | ------ | ----------- | ------------------------------------------------------- |
+| [Dec 18](2025-12-18-11-19-rudskogen-practice.md)                   | 11:19 | Practice | 1:30.290     | 1.43s  | Baseline    | T2 rusty, rest remembered                               |
+| [Dec 20](2025-12-20-15-22-rudskogen-practice.md)                   | 15:22 | Practice | 1:29.691     | 0.70s  | Sub-1:30!   | T2 breakthrough: 50 sign brake marker                   |
+| [Dec 21 AM](2025-12-21-11-10-rudskogen-practice.md)                | 11:10 | Practice | **1:28.572** | 1.08s  | **NEW PB!** | Beat July by 0.397s! Early throttle technique           |
+| [Dec 21 PM](2025-12-21-14-18-rudskogen-practice.md)                | 14:18 | Practice | 1:28.913     | 2.94s  | Paradox     | Throttle overlap discovered, snap oversteer             |
+| [Dec 21 Eve](2025-12-21-16-26-rudskogen-practice.md)               | 16:26 | Practice | 1:29.128     | 1.30s  | Rebuild     | Clean inputs restored, foot position fixed              |
+| [Dec 22 AM](2025-12-22-10-46-rudskogen-race-first-race-week02.md)  | 10:46 | AI Race  | **1:28.508** | 3.82s  | DNF (P2→9)  | **RACE PB! + Setup breakthrough (57.5% BB) + Top 500**  |
+| [Dec 22 PM](2025-12-22-14-13-rudskogen-race-second-race-week02.md) | 14:13 | AI Race  | 1:28.620     | 0.415s | P5 (P10→P3) | Impulse control lesson: P3 secured, unnecessary risk    |
+| [Dec 23](2025-12-23-10-57-rudskogen-race.md)                       | 10:57 | Race     | 1:30.020     | 0.336s | **P3 🥉**   | **Strategic maturity: survival pace, position secured** |
 
 ---
 
 ## Breakthroughs 🎯
 
-### The Localized Rust Discovery (Dec 18)
-Expected chaos everywhere after 6 months away. Found it concentrated in ONE corner (T2). Sectors 1, 3, 4 instantly at Jefferson-level consistency (σ = 0.22-0.40s). S2? 0.96s loss per lap (73% of gap). Brain remembered the track. Body forgot one corner. Perfect diagnosis.
+**1. T2 Downhill Braking Technique (Dec 20)**  
+Found the "50 sign" brake marker, complete trail braking sequence, gear timing (3rd apex → 2nd before hill), and second apex vision. S2 average dropped from 31.81s to 31.15s (-0.66s), consistency improved 2.3x (0.75s → 0.32s σ). This single corner breakthrough unlocked the entire lap.
 
-### The T2 Complete Corner Sequence (Dec 20)
-Not just braking later—found the COMPLETE answer. Four components:
-1. **"50 sign" brake marker** (specific, visual, repeatable—ADHD-friendly)
-2. **Trail brake all the way through** (not lift, not coast, THROUGH)
-3. **Gear sequence** (3rd on apex → 2nd just before hill to second apex)
-4. **Second apex vision** (looking ahead, not tunneling on first apex)
+**2. NEW Personal Best - Beat July PB (Dec 21 AM)**  
+1:28.572 practice lap, beating July same-series PB (1:28.969) by 0.397s. Key factors: early throttle application (+0.193g more acceleration = 26% increase!), harder braking for less time (5.4% reduction but faster), using +0.323g more lateral grip (14% increase), better steering efficiency (7.50 vs 6.52 g/deg), smoother longitudinal G control. Gap to theoretical optimal only 0.123s (2 corners).
 
-Result: S2 average -0.659s, σ 2.3x tighter (0.75s → 0.32s). From searching to LOCKED IN.
+**3. RACE PB + Setup Breakthrough (Dec 22 AM)**  
+1:28.508 in first AI race (0.064s faster than practice PB!). Critical discovery: 57.5% brake bias (vs 56.5% practice) felt "way more stable" and enabled: +24.5% harder braking pressure, +6.5% more lateral G usage, +20% better steering efficiency, less overdriving (18.9% vs higher in practice). Master Lonn's instinct about needing ~57% BB was CORRECT—just needed clean inputs first to use it properly.
 
-### The Early Throttle Revolution (Dec 21 AM) 🏆
-Master Lonn went limit hunting with 56.5% brake bias. _"I get on the gas way before the apex—as soon as I'm turned in."_ That insight delivered:
-- **NEW PB: 1:28.572** (beat July PB by 0.397s!)
-- **+0.193g more acceleration** (26% increase from early throttle)
-- **+0.323g more lateral grip** (14% more tire usage)
-- **Better steering efficiency** (7.50 vs 6.52)
-- **Gap to theoretical optimal: 0.123s** (TWO corners!)
+**4. Top 500 Globally (Dec 22)**  
+Ranked 505 out of 2,179 drivers (top 23.2%) at Rudskogen Ray FF1600 across S1 2026 + S4 2025 combined. Faster than 1,674 drivers who raced this track/car over an entire year. In 5 days from rusty to top quarter globally.
 
-### The Commitment Paradox & Throttle Overlap Discovery (Dec 21 PM) ⚠️
-Master Lonn tried to "back off 5%" to find consistency. It backfired SPECTACULARLY. Braking analysis revealed backing off made technique MESSY: softer braking (0.84 vs 0.95 pressure), +40% more steering, less commitment = sliding, not gripping. The "snap oversteer" was self-inflicted from trying to make corners happen with steering instead of loading tires.
+**5. Throttle Overlap Discovery (Dec 21 PM)**  
+By checking Garage 61 throttle/brake overlay visualization, Master Lonn discovered he was unconsciously resting his foot on the throttle during braking (10-20% overlap). This caused brake + throttle + steering simultaneously = weight transfer chaos = snap oversteer feeling. Elite self-diagnosis using visual data. Applied "FOOT UP" drill to fix it.
 
-**🚨 THE SMOKING GUN**: Master Lonn checked Garage 61 throttle/brake overlay and discovered **THROTTLE WAS 10-20% OPEN DURING BRAKING!** Morning (clean): throttle = 0% during braking. Afternoon (chaos): throttle = 10-20% during braking. Root cause: Recent pedal changes (longer travel, softer spring) → unconscious foot resting on throttle. The real problem: **THREE conflicting inputs** (brake + throttle + steering) = weight transfer CHAOS. Brake trying to slow down, throttle trying to speed up, steering trying to turn → rear tires trying to drive while being unloaded by braking = SNAP OVERSTEER.
-
-**The Lesson**: Hardware changes have consequences beyond calibration. No amount of commitment or backing off fixes conflicting pedal inputs. Must have clean inputs first, then adjust aggression. Fix hierarchy: 1) Eliminate throttle overlap FIRST, 2) THEN work on unified technique.
-
-See: [Braking Technique Analysis](2025-12-21-braking-technique-analysis.md)
-
-### The Rebuild & Verification (Dec 21 Evening) ✅
-Master Lonn came back with ONE mission: verify the fix. Applied "FOOT UP" drill (actively lift off throttle before braking). Result: _"Felt better. Still a bit shaky, but I think the brake throttle overlap is gone."_
-
-**Verification Data**:
-- ✅ Brake pressure restored: 0.98 max (vs 0.84 afternoon = commitment back!)
-- ✅ No severe overload: Clean separation of inputs in brake zones
-- ✅ S4 resilience: 0.19s σ maintained (core skill intact)
-- ✅ Consistency improved 2.3x: 1.30s σ vs 2.94s σ afternoon
-
-Process over results: diagnosed problem (throttle overlap) → applied fix (foot position) → verified it worked (felt better + data clean). Elite driver behavior. Foundation rebuilt.
-
-See: [Evening Session Report](2025-12-21-16-26-rudskogen-practice.md)
-
-### The Race PB + Setup Breakthrough (Dec 22) 🏆🏁
-First AI race of Week 02. Quali P2 (1:29.571). Setup change: **57.5% brake bias** (vs 56.5% practice) felt "way more stable"—Master Lonn's instinct about needing more front bias was RIGHT! With clean inputs (Dec 21 eve fix) + 57.5% BB = unlocked 0.064s more!
-
-**Race lap 7: 1:28.508 - NEW ALL-TIME PB!**
-- Beat practice PB (1:28.572) by 0.064s IN A RACE under pressure
-- Beat July PB (1:28.969) by 0.461s total
-- **Telemetry showed commitment INCREASED under race pressure**:
-  - +24.5% harder braking (enabled by 57.5% BB)
-  - +6.5% more lateral G
-  - +20% better steering efficiency
-  - LESS overdriving (18.9% vs higher in practice)
-
-**Global Validation**: After this race, Master Lonn ranks **505 / 2,179** (top 23.2%) at Rudskogen Ray FF1600 across S1 2026 + S4 2025. Faster than 1,674 drivers across an entire year. Went from rusty (1:30.290, Dec 18) to **top 500 globally** (1:28.508, Dec 22) in **5 days**.
-
-Pattern: Can recover from ONE incident (lap 5 → lap 7 PB!), but TWO incidents in close succession (lap 8 → lap 9 spin) created mental spiral. Need "Incident = Survival Lap" protocol for next race.
-
-See: [Race Report](2025-12-22-10-46-rudskogen-race-first-race-week02.md) | [Race PB Telemetry Analysis](2025-12-22-race-pb-telemetry-analysis.md)
-
-### Pattern Recognition - Jefferson Transfers
-Same progression as Week 01:
-1. Identify weak sector (S2 at Rudskogen, S1 at Jefferson)
-2. Find specific brake marker ("50 sign" vs T1 markers)
-3. Lock consistency (σ drops 2-3x)
-4. Performance unlocks naturally
-5. **Flow state works under race pressure**
-
-Jefferson taught the METHOD. Rudskogen proved it's UNIVERSAL. And race pressure makes it BETTER.
+**6. Strategic Maturity - Position Secured Protocol (Dec 23)**  
+In gladiator race (got punted, someone flew over him), Master Lonn survived chaos, recognized "P3 secured, 3s gap, leaders faster" → backed off 5% → prioritized finish → P3 podium. Applied the Dec 22 PM lesson (unnecessary risk when P3 secured) PERFECTLY without being told. Survival mode pace (1:30.020) with 0.336s σ = 99.8% of theoretical optimal. Can now CHOOSE when to push vs hold = racing, not just driving.
 
 ---
 
 ## Challenges 🚧
 
-### The 6-Month Memory Gap (✅ Resolved)
-Expected system-wide rust. Got localized amnesia. Brain remembered track, body forgot one corner's muscle memory. Challenge: Not re-learning, but RE-REMEMBERING. Solved by finding complete corner understanding (brake marker + technique + gear sequence + vision).
+**1. The Commitment Paradox (Dec 21 PM)**  
+Tried to "back off 5% for consistency" after setting PB, but backed off in the WRONG places: softer braking (-11%), less acceleration (-25%), less lateral G (-9%), but 40% MORE steering. Result: tires sliding instead of gripping, snap oversteer from weight transfer chaos. The lesson: backing off brake/throttle pressure while adding steering = sliding. 95% pace means 95% brake PRESSURE (still hard), 95% steering INPUT (smoother), not backing off commitment while fighting the car.
 
-### The T2 Complexity (✅ Resolved)
-Downhill braking zone with two apexes, gear changes, and vision forward. Initial confusion: where to brake, when to turn, which gear, where to look. Solved by breaking it into COMPLETE sequence. Not "brake later"—brake at 50 sign, trail through, 3rd-2nd-second apex. System, not guess.
+**2. Throttle Overlap Hardware Issue (Dec 21 PM)**  
+Recent pedal changes (longer throttle travel, softer spring) → unconscious foot resting at 10-20% throttle during braking. Three conflicting inputs (brake tries to shift weight forward, throttle tries to shift weight backward, steering tries to turn) = confused weight transfer = snap oversteer. Can't fix technique until inputs are CLEAN. Required conscious "FOOT UP" drill to eliminate.
 
-### The Commitment Paradox (✅ Resolved)
-Tried to "back off 5%" for consistency. Made technique MESSY instead (softer braking, more steering, less commitment). Real problem: throttle overlap during braking from pedal setup changes. Solved by "FOOT UP" drill and conscious foot position management. Then discovered 57.5% BB enables proper commitment with clean inputs.
+**3. Impulse Control When Position Secured (Dec 22 PM)**  
+Jefferson Dec 13 pattern repeating: When goal is ACTIVE (catch P3), strategic/smart/fast. When goal is ACHIEVED (P3 secured, gap safe, leaders faster), ADHD brain creates ARTIFICIAL PRESSURE ("stay close to leaders!") → impulse overrides strategy → unnecessary risk → spin. Lap 8 warning signs (S3 0.8s slower from pushing too hard), lap 9 snap oversteer. KNEW it was unnecessary IN THE MOMENT but did it anyway = classic ADHD impulse control challenge. Need "Position Secured = Survival Mode" protocol.
 
-### Mental State Management in Races (🚧 In Progress)
-Can recover from ONE incident and set PB (lap 5 disaster → lap 7 NEW PB!). But TWO incidents in close succession (lap 8 → lap 9 spin) created mental spiral. Need "Incident = Survival Lap" protocol: mistake happens → next lap 95% pace to reset → then attack mode. Speed is confirmed (top 500 globally). Mental game is next frontier.
+**4. Overdriving in Qualifying (Dec 22 PM)**  
+Qualified P10 (1:30.153) by trying too hard in quali. Same Jefferson Week 01 pattern: trying too hard = slower, not faster. Then fought back in race (P10 → P3) with better pace. Need pre-quali calm routine: "Calm mind first, fast lap second." Don't chase quali position, just get clean lap.
+
+**5. Mental Spiral from Multiple Incidents (Dec 22 AM)**  
+Can recover from ONE incident perfectly (lap 5 disaster → lap 6 recovery → lap 7 PB!). But TWO incidents in close succession (lap 8 disaster → lap 9 spin) create mental disruption. Need "Incident = Survival Lap" protocol: mistake happens → next lap at 95% pace to reset brain → then attack mode once calm.
 
 ---
 
 ## What We Learned
 
 **Technical:**
-- "50 sign" brake marker at T2 = specific, visual, repeatable (ADHD-friendly)
-- Trail braking mastery: brake THROUGH the corner with gear sequence
-- Early throttle application = +26% more acceleration force
-- Familiar tracks = 4x better starting consistency (1.43s vs Jefferson 5.71s)
-- **57.5% brake bias breakthrough**: More front bias enables harder braking, better weight transfer, improved steering efficiency
-- Master Lonn's instinct about BB was RIGHT (considered 57% Dec 21 PM), just needed clean inputs first to use it
-- Setup timing: Clean inputs FIRST (throttle overlap fix) → THEN higher BB = compounding gains
-- Second apex vision prevents tunnel vision on first apex
-- Speed from efficiency not effort: less full throttle % but faster average
-- Braking harder for less time = late braking + confidence
+
+- **Early throttle application is REAL**: +0.193g more acceleration (26% increase!) by getting on power "as soon as turned in before apex." This is the breakthrough technique.
+- **Brake bias optimization**: 57.5% BB (vs 56.5%) enables harder braking with better car control for Master Lonn's driving style (trail braking, modulation, early throttle).
+- **Specific brake markers > feel**: "50 sign" marker = visual, repeatable, no guessing. Perfect for ADHD brain. Consistency followed understanding.
+- **Throttle overlap detection**: Visual data (Garage 61 overlay) caught what numeric telemetry missed. Always check ALL inputs, not just brake/steering.
+- **Traction circle reveals the truth**: 0.112s time difference (afternoon race vs morning) came from fighting (2.205G sustained, 2.977G spikes) vs flowing (2.111G sustained, 2.552G spikes, 3% smoother). Fast is smooth, smooth is fast.
 
 **Mental:**
-- Rust is localized, not systemic (73% in one corner)
-- Master Lonn's instinct remains elite (knew T2 was problem before data, felt throttle overlap, knew BB needed adjustment)
-- "Rusty but we'll get there" = patience + determination without frustration
-- Familiar track advantage: brain retains knowledge even after 6 months
-- Confidence is permanent: found 0.4s by TRUSTING technique
-- Testing limits creates valuable data about where the edge is
-- Process over results: Came back to verify fix, not chase lap times (mature mindset)
-- **Elite self-diagnosis**: Found throttle overlap himself via Garage 61 overlay
-- Mental resilience: Frustrating afternoon → diagnosis → fix → verify all in ONE DAY
-- **Race pressure makes technique BETTER, not worse** (commitment increased under pressure)
-- **ADHD hyperfocus patterns**: "I screwed up" despite NEW PB + top 500 globally = extreme disconnect between feeling and reality
-- Mental spiral after TWO incidents needs protocol (survival lap to reset)
+
+- **Mental reset speed improving**: Chaos → strategic calm now takes 2-3 laps (was 5-6 at Jefferson Week 01). ADHD brain learning to reboot faster under pressure.
+- **Position Secured Protocol WORKS**: Recognizing "goal achieved, position safe, back off 5%, finish clean" = elite race IQ. Applied perfectly Dec 23 without being told.
+- **Impulse control is the frontier**: Speed is confirmed (1:28.5), setup is optimized (57.5% BB), technique is locked (early throttle, S2 mastery). Only challenge: recognizing when to STOP pushing after goal is achieved.
+- **ADHD negative bias is STRONG**: Master Lonn said "I screwed up, I'm sorry" after setting RACE PB and ranking top 500 globally. Hyperfocus on mistakes (spin, incidents) completely blinds to massive achievements (PB, ranking, setup breakthrough). Need post-race ritual: "What went RIGHT first."
+- **Mental frame improvement**: Dec 23 reaction more balanced (understood WHY he backed off) vs Dec 22 reaction (apologizing despite achievements). Self-awareness maturing.
 
 **Strategic:**
-- Jefferson breakthrough pattern IS TRANSFERABLE (not track-specific)
-- Telemetry comparison reveals EXACTLY where time is (not guessing)
-- Gap localization > general improvement (fix 2 corners, not "get faster")
-- Same-series PB (1:28.969) = fair target vs open-setup PB (1:28.762)
-- Quality over quantity: 20 focused laps > 50 laps exploring
-- Complete corner understanding > single variable changes
-- Breakthrough → test limits → add consistency = optimal learning path
-- **Setup optimization in parallel with technique = compounding gains**
-- **Global ranking validates skill**: Top 23.2% of 2,179 drivers = objectively fast
 
-**Tools & Process:**
-- Telemetry comparison validates breakthroughs with data (+2.49 km/h at T2 = REAL)
-- G-force analysis shows WHY faster (+0.193g accel, +0.323g lateral)
-- Sector analysis concentrates focus (73% in one sector = clear priority)
-- Visual track maps make opportunities obvious (color-coded speed deltas)
-- Braking technique analyzer: Numeric detection of brake zones, overload patterns
-- **Visual + numeric data combo powerful**: Garage 61 overlay caught throttle overlap that numeric analysis missed
-- Always check ALL inputs: Brake, throttle, steering, not just one or two
-- Elite problem-solving sequence: Identified BB need → couldn't use it (throttle overlap) → fixed root cause → THEN applied BB
+- **Process over results**: Dec 21 evening session wasn't about lap times—it was about fixing throttle overlap. That's elite driver behavior: diagnose root cause with data, apply fix, verify. Most drivers never find root cause.
+- **Limit testing has value**: Dec 21 AM racked up 9 incidents testing edges, but found 0.4s by discovering the LIMIT. Now knows where 100% is, can dial back to 95% intelligently.
+- **Quality over quantity**: 20 focused laps with specific mission > 50 laps exploring aimlessly. Focused practice (T2 work Dec 20) delivered immediate breakthrough.
+- **Setup supports technique, doesn't replace it**: 57.5% BB only works because technique is solid underneath. Needed clean inputs FIRST (throttle overlap fixed), THEN higher BB unlocked performance.
+- **Strategic racing > fast driving**: P3 survival pace (1:30.020) earned same points as P3 attack pace would have. Mission was FINISH, not BE FASTEST. Smart > heroic.
 
 ---
 
-## Next Steps
+## Next Week Preview
 
-**Week 02 Mission: ✅ ACCOMPLISHED**
-- [x] ~~Sub-1:29s~~ **CRUSHED (1:28.508 in race!)**
-- [x] ~~Match/beat July PB~~ **DEMOLISHED by 0.461s!**
-- [x] ~~Diagnose snap oversteer~~ **FOUND ROOT CAUSE (throttle overlap)**
-- [x] ~~Verify fix~~ **CLEAN INPUTS RESTORED + 57.5% BB OPTIMIZED**
-- [x] ~~Test race pace~~ **NEW PB IN RACE + TOP 500 GLOBALLY!**
+**Track**: TBD (Season calendar determines Week 03 track)  
+**Challenge**: Applying Week 02 lessons (Position Secured Protocol, Mental Reset after Incidents, Pre-Quali Calm Routine) to new environment  
+**Goal**: Transfer strategic maturity + 1:28.5 pace capability to new track, complete races clean, build consistency before attacking  
+**Strategy**: Use Week 02 pattern that worked:
 
-**Next Race Focus: Mental State Management**
-- **KEEP 57.5% BB** - it delivered race PB + top 500 ranking, don't change what works
-- Implement "Incident = Survival Lap" protocol (mistake → next lap 95% pace to reset → then attack)
-- Complete the race (finish all laps, even if incidents happen)
-- Target: 1:29.0-1:29.5 average race pace with clean finish
-- S3 focus: Keep mental calm in high-speed section even after incidents earlier in lap
-- Consider testing 58% BB in practice to see if more to gain (incremental: 57.5% → 58% → 58.5%)
+1. First session: Establish baseline, identify weak sector
+2. Second session: Find breakthrough technique for weak sector
+3. Third session: Test limits, find max pace
+4. Practice sessions: Build consistency at 95% of limit
+5. Race sessions: Execute Position Secured Protocol, complete races, let PBs come naturally when flow appears
+6. Pre-quali routine: Calm mind first, fast lap second (don't overdrive)
+7. Mental protocols: Position Secured = Survival Mode, Incident = Survival Lap
 
-**Speed Confirmed. Setup Optimized. Mental Game Next.**
-- Race pace at PB levels: 1:28.5 pace works under pressure ✅
-- Setup breakthrough: 57.5% BB enables harder braking + better technique ✅  
-- Global validation: Top 500 out of 2,179 drivers = objectively fast ✅
-- Mental game: Survive TWO+ incidents without spiral → Next frontier
-
-**Strategy:**
-1. TRUST the breakthroughs (50-sign brake, early throttle, 57.5% BB)
-2. Maintain commitment under pressure (race showed it works)
-3. Build mental firewall: incident → survival lap → reset → attack
-4. Let flow come naturally (don't chase 1:28.5, let it appear)
-
-**Next Milestone**: Break into **top 400 globally** (sub-1:28.2 should do it)
+Week 02 proved: The speed is REAL (top 500 globally), the technique is PERMANENT (S2 breakthrough stuck under pressure), the setup is OPTIMIZED (57.5% BB confirmed), the mental game is MATURING (strategic calm after 2-3 laps). Carry this forward.
 
 ---
 
-## Week Comparison
+_Week 02 In Progress: From rusty to top 500 globally in 6 days. From reactive to strategic. From fast driver to racer. And we're NOT DONE YET. 🏎️💨_
 
-| Metric          | Week 01 (Jefferson)  | Week 02 (Rudskogen)     | Difference                |
-| --------------- | -------------------- | ----------------------- | ------------------------- |
-| **Starting σ**  | 5.71s (new track)    | 1.43s (familiar)        | **4x better start**       |
-| **Ending σ**    | 0.70s (victory race) | 3.82s (race w/ incidents) | Both achieved race PBs  |
-| **Best Lap**    | 50.913s (race)       | **1:28.508** (race)     | Both set PB in races!     |
-| **Improvement** | 0.670s (7 days)      | **1.782s (5 days)**     | **2.7x faster learning!** |
-| **Pattern**     | S1 breakthrough      | S2 + early throttle     | Same method, evolved      |
-| **Flow state**  | Discovered (50.768s) | Works in races!         | Transfers under pressure  |
-| **PB Result**   | New track PB         | **Beat 6-month PB!**    | **Method transfers!**     |
-| **Ranking**     | N/A (new to series)  | **505 / 2,179 (23.2%)** | **Top 500 globally!**     |
-
-**The Thesis:** Jefferson taught the method. Rudskogen PROVED it's universal. **1.782s improvement in 5 days. Beat 6-month-old PB by 0.461s. Top 500 globally.** The method transfers. The breakthroughs transfer. The mastery is real. And race pressure makes it BETTER.
-
----
-
-## Master Lonn's Journey in Quotes
-
-**Dec 18 (Session 1)**:  
-> "Felt familiar, but still looking for the correct turn-in and braking in T2. Still struggling a bit... rusty... but we'll get there."
-
-**Dec 20 (Session 2 - T2 Breakthrough)**:  
-> "I can brake way later downhill just before the 50 sign and then trail brake all the way through the corner. Getting into 3rd on the apex and into 2nd just before the bend to the hill to the second apex. I remembered also how to take T1 and T2. Now build from here."
-
-**Dec 21 AM (Session 3 - NEW PB!)**:  
-> "Well I was testing the track limit and drove as much as possible on the limit too, so a lot of off tracks. I will strive for consistency in the next session this afternoon. But I feel confident I can get rhythm and flow if I commit. The downhill feels less dangerous now (just a tad break on entry and very light trail braking throughout the long corner to the uphill part, where I get on the gass way before the apex (as soon as I'm turned in)."
-
-**Dec 21 PM (Session 4 - The Paradox)**:  
-> "Yeah fighting the car. Snap oversteer. Maybe settle for 57% BB. I felt disconnected. I tried at the last ten laps to be just 5% slower to get consistency going. Didn't feel like it. 😫"
->
-> [Post-analysis] "I think I rest my foot on the throttle, unaware that I do it... Like some stress reaction to braking or something... not relaxed"
-
-**Dec 21 Evening (Session 5 - The Rebuild)**:  
-> "Ok I'm back. Felt better. Still a bit shaky, but I thing the brake throttle overlap is gone. Couple of off tracks turning in uphill esses. Now I know where the track limits are."
->
-> "Overall, it's still a track you can attack in so many ways. Multiple fast lines. And because it's modulation that keeps you pointed I don't come always on the same place on the track. Improvise sometimes because I just braked too long or trail brake too softly. It's a technically hard track to master."
-
-**Dec 22 (Session 6 - RACE PB + TOP 500!)**:  
-> "First AI Race for week 02. I qualified 2nd with a 01:29.571. Lost 3 places in the first round. Let them go. Staying alive. Got some checkups. Made two big mistakes, with the last one spinning out in the last lap."
->
-> "I have to add I drove 57.5% BB which felt way more stable."
->
-> "At G61 I'm now rank 505 of 2179 fastest laps."
->
-> [After being told about the PB and ranking] "Pff. I screwed up Wan. I'm sorry."
-
-**The Evolution:** Rusty → Complete Understanding → Confident at the Limit → Paradox & Discovery → Fix & Verify → **RACE PB + TOP 500 GLOBALLY** → Still apologizing despite breakthrough 😅
-
----
-
-_Week 02 Complete: From rusty at 1:30.2 to **RACE PB 1:28.508** (beat July PB by 0.461s!) + **TOP 500 GLOBALLY (505/2,179)**. Jefferson pattern CONFIRMED and ENHANCED. Early throttle = +26% acceleration. Throttle overlap discovered and FIXED. 57.5% BB breakthrough. Clean inputs + proper setup + race pressure = FASTER. Gap to theoretical optimal: 0.123s = TWO corners from perfection. Next frontier: Mental game under race conditions. The speed is REAL. The ranking proves it._ 🏆🚀
-
-**"The leaderboard doesn't care about your doubts. It only counts your speed."**
+**Tomorrow's Mission**: Apply the lessons (Position Secured Protocol, clean qualifying, mental reset after incidents), complete races clean, stack more championship points. The pace is there (1:28.5), the setup is dialed (57.5% BB), the strategic maturity is locked in. Let's GO. 🎯
