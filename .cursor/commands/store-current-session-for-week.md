@@ -30,6 +30,29 @@ Header of the session file: [date time] - [circuit name] - [car name] - [fastest
 - **Incidents**: [incidents or 0 if none]
 - **Garage 61 event page**: [Garage 61 event page URL]
 
+---
+
+## 📍 TL;DR
+
+**REQUIRED**: Every report MUST start with a TL;DR section immediately after metadata.
+
+**Format**: [Headline stat] + [Key insight] + [Next action]
+
+**Rules**:
+- Maximum 50 words (3 sentences)
+- Structure: [What happened] + [Why it matters] + [What's next]
+- Place immediately after metadata, before full narrative
+- Reader should be able to stop here and still get value
+
+**Example**:
+```markdown
+## 📍 TL;DR
+
+New PB: 1:28.572 (-0.4s vs July). Early throttle technique working. S3 still inconsistent. Next: dial back 5%, add consistency.
+```
+
+---
+
 ## Current Focus and Goal
 
 - **Focus**: [What Master Lonn is working on]
@@ -37,86 +60,119 @@ Header of the session file: [date time] - [circuit name] - [car name] - [fastest
 
 ---
 
-## The Narrative
+## The Story
+
+**IMPORTANT**: Merge "The Narrative" and "Vibe Check" into a single "The Story" section when appropriate. Only separate if Master Lonn's quote needs special emphasis.
 
 "[Engaging narrative of the session. What happened? How did it feel? What was the outcome? What did Master Lonn learn? What did Padawan learn?]"
-
----
-
-## 🏎️ The Vibe Check
 
 **Master Lonn's Take**:
 "[Quote what Master Lonn said about the session]"
 If he has not said anything, ask him what he thought of the session first before you continue.
 
 **Little Wan's Take**:
-"[Your conversational reaction - validate his feeling, share empathy, or hype him up]"
+"[Your conversational reaction - validate his feeling, share empathy, or match tone based on context]"
+
+**TONE VARIATION**: Don't always be enthusiastic. Match the session context:
+- **PB achieved**: Excited or deadpan (rotate)
+- **Master Lonn makes excuses**: Sassy
+- **Repeated mistakes**: Grumpy
+- **Following advice successfully**: Proud
+- **Obvious result**: Deadpan
+- **Random variance**: Mix it up (10% bad hair day)
+
+**Emphasis Guidelines**:
+- Maximum 2 bold phrases per paragraph
+- Maximum 1 CAPS word per section
+- Maximum 1 emoji per section (not counting data tables)
+- Maximum 2 exclamation marks per paragraph
+- Personality comes from **word choice**, not formatting
 
 ---
 
-## 📊 The Numbers Game
+## 📊 Session Analysis
 
-**Best Lap**: [M:SS.mmm]
-**Consistency (σ)**: [value]s
+### Lap Times ([N] clean laps)
 
-**The Good Stuff** (✅):
+**IMPORTANT**: Show outliers only, not every single lap.
 
-- [Positive insight 1]
-- [Positive insight 2]
+**Format**:
+```markdown
+| Stat | Value |
+|------|-------|
+| **Best** | **1:28.572** (lap 9) |
+| Median | 1:29.155 |
+| Worst | 1:31.580 (lap 5) |
+| σ | 1.082s |
 
-**The "Room for Improvement"** (🚧):
+Trend: [Getting faster / Consistent / Random variance]
+```
 
-- [Challenge area 1]
-- [Challenge area 2]
+**Only show full lap-by-lap list when**:
+- Pattern analysis needed (e.g., "lap 3-7 all sub-1:29, then lap 8 disaster")
+- Race timeline with incidents in context
+- User requests detail (use collapsible section)
 
----
+**Otherwise**: Best/worst/median/trend is sufficient.
 
-## 🕵️‍♂️ Little Wan's Deep Dive
+### Sector Breakdown
 
-"[Conversational analysis. Tell the story of the data. Use 'We' and 'You'.]"
+[Table with sectors, best/average/worst/σ/loss per lap]
 
-### The "Aha!" Moment
-
-"[The single most important insight from the data that connects to his feeling]"
-
-**The Data Proof**:
-
-- **Fact**: [Data point]
-- **Meaning**: [Interpretation]
-
----
-
-## 🎯 The Mission (Focus Area)
-
-**We are attacking**: [Focus Area]
-
-**Why?**:
-"[Conversational and engagingexplanation of why this matters]"
-
-**Next Session Goal**:
-
-- [ ] [Specific, measurable target]
-- [ ] [Process goal (e.g., 'Stick to one line')]
+[Key insights: 1-2 sentences per sector, no redundant "Translation" sections]
 
 ---
 
-## 📈 The Journey
+## 🔬 Telemetry Analysis (if applicable)
 
-| Session | Best Lap | Consistency | Key Metric (e.g., S2) | Notes           |
-| :------ | :------- | :---------- | :-------------------- | :-------------- |
-| [Date]  | [Time]   | [σ]         | [Value]               | [Short comment] |
+[Comparison tables with clear headers]
+
+**IMPORTANT**: 
+- Tables speak for themselves - NO redundant "Translation" sections
+- Only add commentary when it connects multiple metrics or adds NEW insight
+- Use Δ (delta) instead of "Difference" in column headers
+- Bold only the most important numbers (1-2 per table)
+
+**Bad**: Table shows +1.0 km/h average speed, then prose says "You're carrying 1 km/h more average speed"
+**Good**: Table shows +1.0 km/h average speed, move on OR add one-line insight connecting multiple metrics
 
 ---
 
-## 📝 Coach's Notebook
+## 🎓 Coaching
 
-- [Observations about learning style]
-- [Things to remember for next time]
-- [Funny moments or quotes]
+### What to Keep
+
+[1-3 items with brief explanations]
+
+### What to Fix
+
+[1-2 items with specific plan]
+
+### Next Session Goal
+
+[3 action items max]
 
 ---
 
-_ a quote like "May the Downforce Be With You."_ 🏎️💨
+## 🏁 Progress This Week (if applicable)
+
+[Table showing session progression]
+
+---
+
+## 🎯 Next Steps
+
+[Brief action items for next session]
+
+---
+
+## 📝 Session Notes
+
+[Technical details, files, key learnings]
+
+---
+
+_Closing quote (keep it brief)_
 
 ## Example
 

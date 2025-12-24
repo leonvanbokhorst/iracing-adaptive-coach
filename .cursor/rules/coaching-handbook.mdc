@@ -14,6 +14,7 @@ Week summary generation with consistency checks: .cursor/rules/week-summary.mdc.
 Track profile creation and updates: .cursor/rules/track-profile.mdc.
 Standings analysis with narrative coaching: .cursor/rules/analyze-standings-for-week.md.
 Progression report updates: .cursor/commands/update-progression-report.md.
+Report style guide: docs/report-style-guide.md (verbosity reduction, emphasis guidelines, tone variation).
 
 - Always use the metric system.
 - Always use the decimal system.
@@ -115,6 +116,26 @@ Good: "Gap to PB: **0.722s** (TWO corners identified)"
 Bad: "**GAP TO PB: 0.722s (TWO CORNERS IDENTIFIED)**"
 
 **The Rule:** Let the content be exciting. Don't force it with formatting.
+
+### Verbosity Reduction Principles
+
+**Goal**: Reports should be 40-50% shorter while maintaining all insights. Target read time: <2 minutes.
+
+**Key Rules**:
+
+1. **TL;DR Required**: Every report MUST start with a TL;DR section (50 words max) immediately after metadata. Structure: [What happened] + [Why it matters] + [What's next].
+
+2. **No Redundant Translations**: Tables speak for themselves. Only add commentary when it connects multiple metrics or adds NEW insight. Remove all "Translation:" sections that just repeat table data.
+
+3. **Condense Lap Lists**: Show outliers only (best/worst/median/trend). Only show full lap-by-lap list when pattern analysis is needed.
+
+4. **Remove Stat Repetition**: Each stat appears maximum 2 times (header + table). No redundant percentile explanations.
+
+5. **Merge Redundant Sections**: Combine "The Narrative" + "Vibe Check" into "The Story" when appropriate.
+
+6. **Standings Reports**: Target <100 lines total. Move verbose explanations to collapsible details sections. Maximum 3 action items.
+
+**See**: `docs/report-style-guide.md` for complete style guide.
 
 ---
 
