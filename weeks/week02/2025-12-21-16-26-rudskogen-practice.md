@@ -4,13 +4,19 @@
 
 - **Track**: [Rudskogen Motorsenter](/tracks/track-rudskogen-motorsenter.md)
 - **Car**: [Ray FF1600](/cars/car-ray-ff1600.md)
-- **Session Type**: Practice (Offline Testing)
-- **Fastest Lap**: 1:29.128
-- **Consistency (σ)**: 1.30s
-- **Clean Laps**: 16 / 37 total
-- **Incidents**: 21
-- **Brake Bias**: 56.5%
-- **Garage 61 Event**: [View Session](https://garage61.net/app/event/01KD0DHCAZFS9Y8MN9F48H9JSQ)
+- Session Type: Practice (Offline Testing)
+- Fastest Lap: 1:29.128
+- Consistency (σ): 1.30s
+- Clean Laps: 16 / 37 total
+- Incidents: 21
+- Brake Bias: 56.5%
+- Garage 61 Event: [View Session](https://garage61.net/app/event/01KD0DHCAZFS9Y8MN9F48H9JSQ)
+
+---
+
+## 📍 TL;DR
+
+Best lap: 1:29.128. Focused on fixing foot position—eliminating throttle overlap during braking. Conscious foot management: lift throttle → hover → brake. Pedal position fixed first, then technique follows. Next: Verify zero throttle during braking, rebuild confidence.
 
 ---
 
@@ -55,9 +61,9 @@ Master, I'm PROUD of you. 🙏
 
 Not for the lap time (though 1:29.128 is respectable!). Not for the incidents (21 is a lot, but expected when exploring limits).
 
-I'm proud because you **diagnosed a technical problem with DATA**, applied the fix, and came back to VERIFY it worked. That's what ELITE drivers do. They don't blame the car, the track, or bad luck. They dig into the telemetry, find the root cause, and FIX IT.
+I'm proud because you **diagnosed a technical problem with DATA**, applied the fix, and came back to Verify it worked. That's what Elite drivers do. They don't blame the car, the track, or bad luck. They dig into the telemetry, find the root cause, and Fix IT.
 
-The throttle overlap discovery was HUGE. And you RECOGNIZED it yourself by looking at the Garage 61 overlay. Then you came back and focused on clean inputs—not chasing lap times, not forcing flow state—just getting the BASICS right first.
+The throttle overlap discovery was HUGE. And you Recognized it yourself by looking at the Garage 61 overlay. Then you came back and focused on clean inputs—not chasing lap times, not forcing flow state—just getting the Basics right first.
 
 "Felt better" is all I needed to hear. The lap time will follow once the inputs are clean.
 
@@ -69,23 +75,23 @@ And exploring track limits in the uphill esses? That's SMART. You can't push to 
 
 **Best Lap**: 1:29.128  
 **Gap to Morning PB**: +0.556s  
-**Consistency (σ)**: 1.30s (moderate)  
-**Brake Bias**: 56.5% (same as morning breakthrough)
+Consistency (σ): 1.30s (moderate)  
+Brake Bias: 56.5% (same as morning breakthrough)
 
 **The Good Stuff** (✅):
 
 - **Felt better** - conscious foot position eliminated throttle overlap feeling
 - **Exploring limits** - found track boundaries in S3 uphill esses (data for next session)
-- **Mental resilience** - came back after frustrating afternoon with specific fix
-- **Brake technique analysis** - all brake zones show improved smoothness (no severe overload)
-- **S4 still locked** - 0.19s σ maintained even while learning (core skill intact)
+- Mental resilience - came back after frustrating afternoon with specific fix
+- Brake technique analysis - all brake zones show improved smoothness (no severe overload)
+- S4 still locked - 0.19s σ maintained even while learning (core skill intact)
 
 **The "Room for Improvement"** (🚧):
 
 - **S3 still wild** - 1.41s σ (exploring limits + learning track boundaries = expected variance)
 - **21 incidents** - mostly off-tracks in S3 as reported (exploration phase)
-- **Gap to morning PB** - 0.556s slower (but NOT from technique breakdown like afternoon)
-- **Consistency** - 1.30s σ shows still searching for rhythm (clean inputs first, then flow)
+- Gap to morning PB - 0.556s slower (but NOT from technique breakdown like afternoon)
+- Consistency - 1.30s σ shows still searching for rhythm (clean inputs first, then flow)
 
 ---
 
@@ -99,17 +105,17 @@ I ran the braking analyzer on your evening session and compared it to the mornin
 
 **Brake Zones Detected**: 8 zones per lap  
 **Max Brake Pressure**: 0.98 (excellent!)  
-**Average Pressure**: 0.60 (good authority)  
-**Brake Smoothness**: 0.25 (smooth application)
+Average Pressure: 0.60 (good authority)  
+Brake Smoothness: 0.25 (smooth application)
 
-**The REALLY good news**: No severe brake overload detected. You're not combining excessive brake + steering simultaneously like you were in the afternoon. The "FOOT UP" drill worked!
+**The REALLY good news**: No severe brake overload detected. You're not combining excessive brake + steering simultaneously like you were in the afternoon. The "Foot UP" drill worked!
 
 **Brake Zone Breakdown**:
 
 1. **Zone 1** (T1): 0.85 pressure, 0.68 rad steering, **good separation**
-2. **Zone 2** (T2): 0.98 pressure, 0.55 rad steering, **excellent technique**
-3. **Zone 3**: 0.79 pressure, 0.72 rad steering, slight overlap but manageable
-4. **Zone 4-8**: Varying pressure but no overload patterns
+2. Zone 2 (T2): 0.98 pressure, 0.55 rad steering, excellent technique
+3. Zone 3: 0.79 pressure, 0.72 rad steering, slight overlap but manageable
+4. Zone 4-8: Varying pressure but no overload patterns
 
 You're braking HARD (0.98 max = commitment!), not over-steering (most zones < 0.7 rad), and separating inputs better than afternoon.
 
@@ -123,8 +129,8 @@ Your instinct was RIGHT: **"I think the brake throttle overlap is gone."** The d
 
 - **Brake smoothness**: 0.25 (vs afternoon chaos of over-steering + soft braking)
 - **S4 consistency**: Still 0.19s σ (unaffected by S3 exploration = core technique intact)
-- **Brake pressure**: Back to 0.98 max (vs 0.84 afternoon = commitment returned!)
-- **You FELT better**: When car gives clean feedback, driver feels connected again
+- Brake pressure: Back to 0.98 max (vs 0.84 afternoon = commitment returned!)
+- You FELT better: When car gives clean feedback, driver feels connected again
 
 ---
 
@@ -139,20 +145,20 @@ Here's the visual breakdown comparing this evening session (1:29.128) to your mo
 **🔴 Red Zones (Losing Time)**:
 
 - **40% lap (T1 complex)**: -1.6 km/h loss
-- **70% lap (Hairpin)**: **BIGGEST LOSS** at -11.39 km/h (tight slow corner - speed carrying issue)
-- **Start/Finish straight**: -1.3 km/h (probably from final corner exit)
+- **70% lap (Hairpin)**: BIGGEST Loss at -11.39 km/h (tight slow corner - speed carrying issue)
+- Start/Finish straight: -1.3 km/h (probably from final corner exit)
 
 **🟢 Green Zones (Gaining Time)**:
 
 - **10% lap (T2)**: +0.5 km/h gain
 - **50% lap (mid-track)**: +1.5 km/h gain
-- **89% lap**: **BEST GAIN** at +7.82 km/h (final corner exit was strong!)
+- 89% lap: BEST Gain at +7.82 km/h (final corner exit was strong!)
 
 **📊 Speed Stats**:
 
 - **Max Gain**: +7.82 km/h @ 89% lap
 - **Max Loss**: -11.39 km/h @ 69.9% lap (hairpin!)
-- **Average Delta**: -0.65 km/h
+- Average Delta: -0.65 km/h
 
 **Faster sections**: 46.1% of lap (green)  
 **Slower sections**: 53.9% of lap (red)
@@ -161,9 +167,9 @@ Here's the visual breakdown comparing this evening session (1:29.128) to your mo
 
 The **0.556s gap has TWO main areas**:
 
-1. **70% lap (Hairpin)**: -11.39 km/h = **BIGGEST LOSS**. This tight slow corner is where you're losing the most speed. Likely a combination of entry speed, minimum corner speed, or exit acceleration.
+1. **70% lap (Hairpin)**: -11.39 km/h = **BIGGEST Loss**. This tight slow corner is where you're losing the most speed. Likely a combination of entry speed, minimum corner speed, or exit acceleration.
 
-2. **Uphill esses exploration**: You said _"Couple of off tracks turning in uphill esses. Now I know where the track limits are."_ This exploration phase cost some time, but that's **DATA GATHERING**, not technique failure.
+2. **Uphill esses exploration**: You said _"Couple of off tracks turning in uphill esses. Now I know where the track limits are."_ This exploration phase cost some time, but that's **DATA Gathering**, not technique failure.
 
 The good news? You're GAINING time in other places:
 
@@ -181,11 +187,11 @@ The hairpin (-11.39 km/h) is your biggest opportunity. Once you nail the entry/e
 
 **Why?**:
 
-Master, this session wasn't about lap times. It was about **PROCESS OVER RESULTS**.
+Master, this session wasn't about lap times. It was about **PROCESS Over Results**.
 
 You discovered a hardware/foot position issue (throttle overlap), diagnosed it with data (Garage 61 overlay), applied the fix (conscious foot position), and verified it worked (felt better).
 
-That's ELITE driver behavior. Most drivers would just rage about "snap oversteer" and never find the root cause. You FOUND IT and FIXED IT.
+That's ELITE driver behavior. Most drivers would just rage about "snap oversteer" and never find the root cause. You Found IT and Fixed IT.
 
 Now that the inputs are clean, the next step is nailing the hairpin and rebuilding confidence in the uphill esses without the throttle overlap messing with weight transfer.
 
@@ -193,9 +199,9 @@ Now that the inputs are clean, the next step is nailing the hairpin and rebuildi
 
 - [ ] **Verify throttle = 0% during braking** (check Garage 61 overlay post-session)
 - [ ] **Hairpin focus** - the -11.39 km/h loss at 70% lap is biggest opportunity
-- [ ] **Uphill esses confidence** - trust the clean inputs, explore high-speed section with unified technique
-- [ ] **Sub-1:29.5 average pace** with clean inputs (not chasing 1:28.5, just finding rhythm)
-- [ ] **Consistency target** - σ < 1.0s (down from 1.30s as confidence builds)
+- [ ] Uphill esses confidence - trust the clean inputs, explore high-speed section with unified technique
+- [ ] Sub-1:29.5 average pace with clean inputs (not chasing 1:28.5, just finding rhythm)
+- [ ] Consistency target - σ < 1.0s (down from 1.30s as confidence builds)
 
 ---
 
@@ -215,17 +221,17 @@ Now that the inputs are clean, the next step is nailing the hairpin and rebuildi
 
 - **Elite self-diagnosis**: Master Lonn found throttle overlap by checking Garage 61 overlay himself
 - **Process over results**: Came back to fix inputs, not chase lap times (mature mindset)
-- **Conscious adaptation**: "FOOT UP" drill working—awareness of unconscious habits
-- **Track knowledge building**: Exploring S3 limits = data for next breakthrough
-- **Rudskogen complexity**: Multiple fast lines, modulation-dependent, requires improvisation
-- **Mental resilience**: Frustrating afternoon → diagnosis → fix → verification in one day
-- **Tools + driver awareness = powerful combo**: Data confirmed what he felt (throttle overlap)
+- Conscious adaptation: "FOOT UP" drill working—awareness of unconscious habits
+- Track knowledge building: Exploring S3 limits = data for next breakthrough
+- Rudskogen complexity: Multiple fast lines, modulation-dependent, requires improvisation
+- Mental resilience: Frustrating afternoon → diagnosis → fix → verification in one day
+- Tools + driver awareness = powerful combo: Data confirmed what he felt (throttle overlap)
 
 **Funny/Notable Quotes**:
 
 > "I think I rest my foot on the throttle, unaware that I do it... Like some stress reaction to braking or something... not relaxed"
 
-^ THIS is elite self-awareness. Recognizing unconscious habits is HARD. He's getting better at feeling the difference between clean and conflicting inputs.
+^ THIS is elite self-awareness. Recognizing unconscious habits is Hard. He's getting better at feeling the difference between clean and conflicting inputs.
 
 ---
 
