@@ -327,6 +327,16 @@ Record the result in `learning_memory.json`.
 - Did we change focus?
 - Did a specific piece of advice click?
 
+**Memory Update Format (CONCISE):**
+- **session_history[].notes**: Maximum 2-3 sentences. Focus on key insight, not full narrative.
+  - ✅ Good: "PB 1:28.572 (beat July by 0.397s). Early throttle technique breakthrough (+0.193g accel). S2 locked (σ = 0.34s)."
+  - ❌ Bad: Long paragraph repeating all session details already in the report.
+- **insights[]**: One concise sentence per insight. No redundant entries.
+  - ✅ Good: "Early throttle application: +0.193g accel (26% increase) by getting on power before apex."
+  - ❌ Bad: Verbose explanation repeating what's already documented.
+- **focus/goal**: Update only if changed. Keep concise (1 sentence each).
+- **Rule**: If it's already in the session report, don't repeat verbatim in memory. Memory = key takeaways only.
+
 ### Step 7: Clean Up (Move Files)
 
 After analysis is complete and reports are generated:

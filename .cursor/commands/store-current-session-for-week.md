@@ -12,6 +12,15 @@ Find in the /data/ folder the session files for the week.
 6. Name the session file like this: [date time] - [circuit name] - [session kind].md
 7. Take the learning memory.json file into account to get the current focus and goal.
 8. After writing the session file, update the learning memory.json file with the new findings.
+   **Memory Update Format (CONCISE):**
+   - **session_history[].notes**: Maximum 2-3 sentences. Focus on key insight, not full narrative.
+     - ✅ Good: "PB 1:28.572 (beat July by 0.397s). Early throttle technique breakthrough (+0.193g accel). S2 locked (σ = 0.34s)."
+     - ❌ Bad: Long paragraph repeating all session details already in the report.
+   - **insights[]**: One concise sentence per insight. No redundant entries.
+     - ✅ Good: "Early throttle application: +0.193g accel (26% increase) by getting on power before apex."
+     - ❌ Bad: "Master Lonn discovered that applying throttle early, specifically getting on power as soon as turned in before the apex, resulted in a significant increase in acceleration of 0.193g which represents a 26% improvement over previous technique."
+   - **focus/goal**: Update only if changed. Keep concise (1 sentence each).
+   - **Rule**: If it's already in the session report, don't repeat verbatim in memory. Memory = key takeaways only.
 9. After analyzing the session move the session and telemetry files to the /data/processed/ folder.
 
 Important: If you don't find the session data files, ask the user to export the session files. 😌

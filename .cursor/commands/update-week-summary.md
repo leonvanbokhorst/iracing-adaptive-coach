@@ -194,6 +194,12 @@ After generating the README:
 2. Ask if user wants to fix anomalies before finalizing
 3. Confirm README has been created
 4. Suggest updating `learning_memory.json` with week summary
+   **Memory Update Format (CONCISE):**
+   - **insights[]**: Maximum 3-5 key insights per week. One concise sentence each.
+     - ✅ Good: "Week 02: Top 500 globally (505/2,179). PB 1:28.508. Stress response management identified as final frontier."
+     - ❌ Bad: Long paragraphs repeating all week details already in the README.
+   - **focus/goal**: Update if changed. Keep concise (1 sentence each).
+   - **Rule**: Memory = key takeaways only. Full narrative is in the week README.
 
 ---
 
