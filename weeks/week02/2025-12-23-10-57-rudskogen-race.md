@@ -12,7 +12,7 @@
 - **SOF (Strength of Field)**: 1412
 - **iRating change**: +59 (1377 → 1436)
 - **Safety Rating change**: -0.05
-- **Championship points**: 68
+- **Championship points**: 68 earned this race (148 total after race)
 - **Garage 61 event page**: https://garage61.net/app/event/01KD5D2ANHKMBPF9HJANWFWTJB
 
 ---
