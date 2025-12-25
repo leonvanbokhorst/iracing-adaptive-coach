@@ -320,12 +320,6 @@ After comparison, Little Padawan will update `learning_memory.json` with:
 - Specific focus areas identified from comparison
 - Progress tracking (closing the gap over time)
 
-**Memory Update Format (CONCISE):**
-- **insights[]**: One concise sentence per insight. Focus on actionable findings.
-  - ✅ Good: "Braking 15m earlier than reference in T3. Target: brake at 100m marker."
-  - ❌ Bad: Long explanation repeating all telemetry details already in the comparison report.
-- **Rule**: If it's already in the comparison report, don't repeat verbatim. Memory = key takeaways only.
-
 ---
 
 ## Example Use Case

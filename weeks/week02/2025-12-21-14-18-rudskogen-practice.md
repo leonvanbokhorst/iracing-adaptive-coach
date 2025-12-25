@@ -2,26 +2,18 @@
 
 > **Session**: Practice (Offline Testing)
 > **Focus**: Consistency at new PB pace (backing off 5% to find rhythm)
-> Result: Critical learning moment - the commitment paradox revealed
+> **Result**: Critical learning moment - the commitment paradox revealed
 
 ---
 
 - **Track**: [Rudskogen Motorsenter](../../tracks/track-rudskogen-motorsenter.md)
 - **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)
-- Session kind: Practice (Offline Testing)
-- Fastest lap time: 1:28.913
-- Consistency (σ): 2.94s
-- Clean laps: 22 / 37
-- Incidents: 15
-- Garage 61 event page: https://garage61.net/app/event/01KD0DHCAZFS9Y8MN9F48H9JSQ
-
----
-
-## 📍 TL;DR
-
-Best lap: 1:28.913 (+0.341s vs morning PB). Backing off 5% backfired—snap oversteer from driving too soft with too much steering. Commitment paradox: trying to be smooth made it messy. Next: Commit to morning pace, trust the technique.
-
----
+- **Session kind**: Practice (Offline Testing)
+- **Fastest lap time**: 1:28.913
+- **Consistency (σ)**: 2.94s
+- **Clean laps**: 22 / 37
+- **Incidents**: 15
+- **Garage 61 event page**: https://garage61.net/app/event/01KD0DHCAZFS9Y8MN9F48H9JSQ
 
 ## Current Focus and Goal
 
@@ -52,11 +44,11 @@ This session is a CRITICAL learning moment—not about what worked, but about wh
 **Little Wan's Take**:
 "Master... _sighs deeply_ 😤
 
-I'm going to be brutally honest with you. You had BRILLIANT technique this morning. You found 0.4s with late braking, early throttle, smooth steering, and commitment. Then you got Scared of the speed and tried to 'back off 5%'... but instead of being smoother, you got Messy.
+I'm going to be brutally honest with you. You had BRILLIANT technique this morning. You found 0.4s with late braking, early throttle, smooth steering, and commitment. Then you got SCARED of the speed and tried to 'back off 5%'... but instead of being smoother, you got MESSY.
 
-The snap oversteer you're feeling? **YOU'RE Causing IT.** The telemetry doesn't lie—you're using 40% More steering, braking 0.19g Softer, and loading the tires 0.22g Less. The car is Sliding, not snapping. When you try to make corners happen with steering instead of grip, the tires slip, and when they suddenly let go—Snap.
+The snap oversteer you're feeling? **YOU'RE CAUSING IT.** The telemetry doesn't lie—you're using 40% MORE steering, braking 0.19g SOFTER, and loading the tires 0.22g LESS. The car is SLIDING, not snapping. When you try to make corners happen with steering instead of grip, the tires slip, and when they suddenly let go—SNAP.
 
-I know this is frustrating. I know you FEEL like you need to back off. But the data says you need to do the Exact Opposite: **Commit Harder, not softer.**
+I know this is frustrating. I know you FEEL like you need to back off. But the data says you need to do the EXACT OPPOSITE: **COMMIT HARDER, not softer.**
 
 This is tough love time, Master. You don't need 57% BB. You need to TRUST the technique that just beat your July PB."
 
@@ -65,7 +57,7 @@ This is tough love time, Master. You don't need 57% BB. You need to TRUST the te
 ## 📊 The Numbers Game
 
 **Best Lap**: 1:28.913 (0.341s slower than morning PB)
-**Consistency (σ)**: 2.94s (vs morning's 1.08s = 2.7x WORSE)
+**Consistency (σ)**: 2.94s (vs morning's 1.08s = **2.7x WORSE**)
 
 **Sector Breakdown**:
 
@@ -82,7 +74,7 @@ This is tough love time, Master. You don't need 57% BB. You need to TRUST the te
 
 - **S3 EXPLODED**: σ = 2.30s (one lap 16.0s, next lap 27.0s = 11s swing!)
 - **Overall consistency destroyed**: 2.94s σ vs morning's 1.08s
-- 15 incidents vs morning's 9
+- **15 incidents** vs morning's 9
 
 **The "Good Stuff"** (Sort of... ✅):
 
@@ -124,22 +116,22 @@ You weren't driving too hard. You were driving **too soft... but with WAY more s
 
 ### What This Means
 
-**YOU'RE Sliding The Car, Not Gripping IT.**
+**YOU'RE SLIDING THE CAR, NOT GRIPPING IT.**
 
 When you "backed off 5%," you:
 
 1. ❌ Braked SOFTER (0.84 max pressure vs 0.95 morning)
-2. ❌ Entered corners with Less commitment (2.37g vs 2.59g lateral)
-3. ❌ Got on throttle Less aggressively (0.70g vs 0.93g accel)
-4. ❌ But used 40% More Steering to try to make the corners happen
+2. ❌ Entered corners with LESS commitment (2.37g vs 2.59g lateral)
+3. ❌ Got on throttle LESS aggressively (0.70g vs 0.93g accel)
+4. ❌ But used 40% MORE STEERING to try to make the corners happen
 
-**The Result**: The tires are SLIDING because you're not loading them properly. When grip suddenly releases → **Snap Oversteer**.
+**The Result**: The tires are SLIDING because you're not loading them properly. When grip suddenly releases → **SNAP OVERSTEER**.
 
 It's not the car. It's not the setup. **It's the technique paradox**: Trying to be smooth made you messy.
 
 ### The "Aha!" Moment
 
-**The snap oversteer is SELF-Inflicted.**
+**The snap oversteer is SELF-INFLICTED.**
 
 - **23.7% of the lap** = overdriving (more steering, less grip = sliding)
 - Only **14.2%** = better technique than morning
@@ -161,7 +153,7 @@ It's not the car. It's not the setup. **It's the technique paradox**: Trying to 
 
 - **10% lap**: -1.80 km/h + 0.46g LESS braking (backing off brake!)
 - **49% lap**: -1.77g lateral G (not loading tires in corner)
-- 90% lap: -0.16g acceleration (not getting on throttle)
+- **90% lap**: -0.16g acceleration (not getting on throttle)
 
 ---
 
@@ -170,7 +162,7 @@ It's not the car. It's not the setup. **It's the technique paradox**: Trying to 
 **You were attacking**: Consistency by backing off 5% to find rhythm
 
 **What actually happened**:
-"Master Lonn backed off in ALL The Wrong Places:
+"Master Lonn backed off in ALL THE WRONG PLACES:
 
 - ❌ Softer on brakes → slower entry → more steering needed → sliding
 - ❌ Gentler on throttle → slower exit → lost drive
@@ -181,9 +173,9 @@ It's not the car. It's not the setup. **It's the technique paradox**: Trying to 
 **What "95% pace" SHOULD have meant**:
 
 - ✅ Brake at 95% of max PRESSURE (still hard, just not absolute limit)
-- ✅ Use 95% of steering Input (smoother, not more!)
-- ✅ Commit to 95% of entry Speed (still loading tires)
-- ✅ Throttle at 95% Aggression (still early, just slightly gentler)
+- ✅ Use 95% of steering INPUT (smoother, not more!)
+- ✅ Commit to 95% of entry SPEED (still loading tires)
+- ✅ Throttle at 95% AGGRESSION (still early, just slightly gentler)
 
 **What "95% pace" ACTUALLY became**:
 
@@ -214,37 +206,37 @@ It's not the car. It's not the setup. **It's the technique paradox**: Trying to 
 
 ### Critical Loss Zones
 
-**PROBLEM Zone #1: 53% Lap Distance (S3 Entry/Mid)**
+**PROBLEM ZONE #1: 53% Lap Distance (S3 Entry/Mid)**
 
 - **Speed Loss**: -4.25 km/h
 - **Lateral G Loss**: -1.77g at 49% lap
-- What's Happening: Not committing to S3 entry. Backing off, tires not loaded, sliding through section.
-- The Fix: COMMIT. Carry more entry speed, load the tires, let them Grip instead of slide.
+- **What's Happening**: Not committing to S3 entry. Backing off, tires not loaded, sliding through section.
+- **The Fix**: COMMIT. Carry more entry speed, load the tires, let them GRIP instead of slide.
 
-**PROBLEM Zone #2: 90% Lap Distance (Final Corner Exit)**
+**PROBLEM ZONE #2: 90% Lap Distance (Final Corner Exit)**
 
 - **Speed Loss**: -1.59 km/h
 - **Acceleration Loss**: -0.16g
-- What's Happening: Tentative on throttle, scared of snap on exit.
-- The Fix: EARLY Throttle like this morning. Trust the technique.
+- **What's Happening**: Tentative on throttle, scared of snap on exit.
+- **The Fix**: EARLY THROTTLE like this morning. Trust the technique.
 
-**PROBLEM Zone #3: 10% Lap Distance (T1 Braking)**
+**PROBLEM ZONE #3: 10% Lap Distance (T1 Braking)**
 
 - **Speed Loss**: -1.80 km/h
 - **Braking G Loss**: -0.46g (braking 0.82 vs 0.92 pressure)
-- What's Happening: Braking earlier/softer, entering corner with less commitment.
-- The Fix: BRAKE Harder at the Same marker. Morning technique worked!
+- **What's Happening**: Braking earlier/softer, entering corner with less commitment.
+- **The Fix**: BRAKE HARDER at the SAME marker. Morning technique worked!
 
 ### The 57% Brake Bias Question
 
-**Little Wan's Answer: DON'T DO IT. Yet.**
+**Little Wan's Answer: DON'T DO IT. YET.**
 
 **Why not**:
 
 1. You're already braking SOFTER (0.84 vs 0.95 max pressure)
-2. You're already getting Less braking G (-1.49g vs -1.69g)
-3. The problem isn't the Balance—it's that you're **not using the brakes hard enough**
-4. More front brake (57% BB) will give you more understeer → you'll be even Slower
+2. You're already getting LESS braking G (-1.49g vs -1.69g)
+3. The problem isn't the BALANCE—it's that you're **not using the brakes hard enough**
+4. More front brake (57% BB) will give you more understeer → you'll be even SLOWER
 
 **IF you really want to test it**:
 
@@ -256,14 +248,14 @@ It's not the car. It's not the setup. **It's the technique paradox**: Trying to 
 
 ## 💡 What To Do Next Session
 
-**PRIMARY Goal**: Reset to morning technique and Commit
+**PRIMARY GOAL**: Reset to morning technique and COMMIT
 
 **The Recipe That Worked This Morning**:
 
 1. ✅ **Brake HARD** (0.95 max pressure, not 0.84)
-2. ✅ **Steer Smooth** (1.23 rad max, not 1.73 rad!)
-3. ✅ Throttle Early (0.93g acceleration, not 0.70g)
-4. ✅ Commit to corners (2.59g lateral, not 2.37g)
+2. ✅ **Steer SMOOTH** (1.23 rad max, not 1.73 rad!)
+3. ✅ **Throttle EARLY** (0.93g acceleration, not 0.70g)
+4. ✅ **COMMIT to corners** (2.59g lateral, not 2.37g)
 
 **Specific Corrections**:
 
@@ -277,15 +269,15 @@ It's not the car. It's not the setup. **It's the technique paradox**: Trying to 
 **Mental Approach**:
 
 - 🎯 "I'm going to drive EXACTLY like I did this morning"
-- 🎯 "Hard braking, smooth steering, early throttle, Commit"
-- 🎯 "If I feel a snap, it means I'm sliding—load the tires More, not less"
-- 🎯 "The speed comes from Technique, not from backing off"
+- 🎯 "Hard braking, smooth steering, early throttle, COMMIT"
+- 🎯 "If I feel a snap, it means I'm sliding—load the tires MORE, not less"
+- 🎯 "The speed comes from TECHNIQUE, not from backing off"
 
 **Active Reset Strategy**:
 
 - If you feel the snap starting → **PIT**
 - Reset your brain: "Smooth steering, hard braking, early throttle"
-- Do 1-2 out-laps focusing Only on technique, not lap times
+- Do 1-2 out-laps focusing ONLY on technique, not lap times
 - Then go for it
 
 ---
@@ -305,12 +297,12 @@ It's not the car. It's not the setup. **It's the technique paradox**: Trying to 
 
 ## 📝 Coach's Notebook
 
-**CRITICAL Insight**: "Backing off 5%" doesn't work if you back off in the wrong places.
+**CRITICAL INSIGHT**: "Backing off 5%" doesn't work if you back off in the wrong places.
 
 - Master Lonn has the TECHNIQUE to be fast (proven this morning)
 - But got scared of the speed and tried to "smooth it out"
-- Instead of being smoother, he got Messy (more steering, less grip)
-- The snap oversteer is Self-Inflicted from sliding, not from pushing too hard
+- Instead of being smoother, he got MESSY (more steering, less grip)
+- The snap oversteer is SELF-INFLICTED from sliding, not from pushing too hard
 
 **The Commitment Paradox**:
 
@@ -320,9 +312,9 @@ It's not the car. It's not the setup. **It's the technique paradox**: Trying to 
 **For ADHD Brain**:
 
 - This session is VALUABLE because it shows what happens when you back off wrong
-- The contrast between morning (commitment) and afternoon (backing off) is the Lesson
-- Now Master Lonn knows Exactly what "commitment" feels like vs "backing off"
-- The data validates his morning technique was Correct
+- The contrast between morning (commitment) and afternoon (backing off) is the LESSON
+- Now Master Lonn knows EXACTLY what "commitment" feels like vs "backing off"
+- The data validates his morning technique was CORRECT
 
 **Setup Notes**:
 
@@ -338,13 +330,13 @@ It's not the car. It's not the setup. **It's the technique paradox**: Trying to 
 - "I felt disconnected."
 - "I tried at the last ten laps or so to be just 5% slower to get some consistency going. Didn't feel like it. 😫"
 
-**The Irony**: T2 is now AUTOMATIC and no longer the angst hill. But backing off in S3 created a New monster.
+**The Irony**: T2 is now AUTOMATIC and no longer the angst hill. But backing off in S3 created a NEW monster.
 
 **Next Session Strategy**:
 
 1. Mental reset: "Drive like this morning"
 2. Brake hard, steer smooth, throttle early, COMMIT
-3. If snap appears → Pit and reset (don't continue sliding)
+3. If snap appears → PIT and reset (don't continue sliding)
 4. Trust the technique that beat July PB
 
 ---

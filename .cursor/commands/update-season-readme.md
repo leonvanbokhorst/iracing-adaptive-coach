@@ -107,21 +107,6 @@ Make it a CHARACTER:
 
 ## Structure (Flexible, Flows Like a Story)
 
-### TL;DR Section (REQUIRED)
-
-**Every README MUST start with TL;DR immediately after metadata:**
-
-```markdown
-## 📍 TL;DR
-
-Season 01 2026: From 51.438s lost to 1:28.508 race PB (top 500 globally). Found flow state, early throttle technique, strategic maturity. 4 podiums, +198 iRating. Next: Week 03 at Winton.
-```
-
-**Rules:**
-- Maximum 50 words (3 sentences)
-- Structure: [What happened] + [Why it matters] + [What's next]
-- Place immediately after metadata, before narrative
-
 ### Opening Hook (~2-3 lines)
 
 Start with a feeling, a moment, a question.
@@ -236,17 +221,10 @@ The timer stopped. 1:28.572. He'd beaten July's ghost.
 
 ## Length Targets
 
-- **Total**: 200-250 lines (story, not report) - Target ~40% reduction from verbose versions
-- **TL;DR**: 50 words max (required at top)
-- **Current Week**: 80-100 lines (ONE flowing narrative, condensed)
-- **Past Weeks**: 30-50 lines each (compressed stories)
-- **Highlights**: 40 lines (flavor, not lists)
-
-**Verbosity Reduction:**
-- Remove repetitive details
-- Condense verbose sections
-- Focus on key moments, not every detail
-- See `docs/report-style-guide.md` for emphasis guidelines
+- **Total**: 250-350 lines (story, not report)
+- **Current Week**: 120-150 lines (ONE flowing narrative)
+- **Past Weeks**: 50-80 lines each (compressed stories)
+- **Highlights**: 60 lines (flavor, not lists)
 
 ---
 

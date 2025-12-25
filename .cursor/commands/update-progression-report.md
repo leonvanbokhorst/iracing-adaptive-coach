@@ -96,29 +96,11 @@ Read the generated charts and standings data, then:
 
 ---
 
-## 📍 TL;DR
-
-**REQUIRED**: Every progression report MUST start with a TL;DR section immediately after metadata.
-
-**Format**: [Overall trajectory] + [Key achievement] + [What's next]
-
-**Rules**:
-- Maximum 50 words (3 sentences)
-- Structure: [What happened] + [Why it matters] + [What's next]
-- Place immediately after metadata, before full narrative
-
-**Example**:
-```markdown
-## 📍 TL;DR
-
-iRating 1238 → 1436 (+198 in 2 weeks). Position 749 → 223 (+526 positions). Outperforming rating by 22 percentiles. Next: maintain momentum, target top 200.
-```
-
----
-
 ## 📈 Little Padawan's Progression Summary
 
-[Overall story: Are you climbing? How fast? What's the momentum? Keep concise - 2-3 paragraphs max]
+Master Lonn! *_bows with data scroll in hand_*
+
+[Overall story: Are you climbing? How fast? What's the momentum?]
 
 ### The Journey So Far
 
@@ -168,7 +150,7 @@ iRating 1238 → 1436 (+198 in 2 weeks). Position 749 → 223 (+526 positions). 
 - Poles: [X]% → [Y]% ([change])
 - iRating: [X]% → [Y]% ([change])
 
-[1-2 sentence interpretation - NO redundant percentile explanations]
+[Interpretation: What does this mean for performance vs skill rating?]
 
 ---
 

@@ -79,27 +79,6 @@ Create `weeks/weekXX/README.md` with this structure:
 
 ---
 
-## 📍 TL;DR
-
-**REQUIRED**: Every week README MUST start with a TL;DR section immediately after metadata.
-
-**Format**: [Headline achievement] + [Key breakthrough] + [Next week goal]
-
-**Rules**:
-- Maximum 50 words (3 sentences)
-- Structure: [What happened] + [Why it matters] + [What's next]
-- Place immediately after metadata, before full narrative
-- Reader should be able to stop here and still get value
-
-**Example**:
-```markdown
-## 📍 TL;DR
-
-From rusty (1:30.290) to top 500 globally (505/2,179) in 6 days. Beat July PB by 0.397s (1:28.572). Found early throttle technique, optimized brake bias (57.5%). Next: apply lessons to Week 03.
-```
-
----
-
 ## The Story
 
 [Engaging narrative summary - 2-3 paragraphs telling the STORY of the week]
@@ -107,7 +86,6 @@ From rusty (1:30.290) to top 500 globally (505/2,179) in 6 days. Beat July PB by
 [Use Little Padawan's voice but tone down excessive emphasis]
 [Focus on the JOURNEY, not just the numbers]
 [Include Master Lonn's quotes if memorable]
-[Keep it concise - key moments only, not every detail]
 
 ---
 
@@ -140,37 +118,37 @@ From rusty (1:30.290) to top 500 globally (505/2,179) in 6 days. Beat July PB by
 
 ## Breakthroughs 🎯
 
-[List major breakthroughs - keep brief, bullet points not paragraphs]
+[List major breakthroughs with brief context]
 
-- **[Breakthrough 1]**: [What happened, why it mattered - 1-2 sentences max]
-- **[Breakthrough 2]**: [What happened, why it mattered - 1-2 sentences max]
+- **[Breakthrough 1]**: [What happened, why it mattered]
+- **[Breakthrough 2]**: [What happened, why it mattered]
 
 ---
 
 ## Challenges 🚧
 
-[List ongoing challenges - focus on lessons learned, not just problems]
+[List ongoing challenges or setbacks]
 
-- **[Challenge 1]**: [What's blocking progress + lesson learned]
+- **[Challenge 1]**: [What's blocking progress]
 - **[Challenge 2]**: [Strategy to overcome]
 
 ---
 
 ## What We Learned
 
-[3-5 key insights from the week - keep concise]
+[3-5 key insights from the week]
 
 **Technical:**
 
-- [Driving/setup insight - 1 sentence]
+- [Driving/setup insight]
 
 **Mental:**
 
-- [Psychology/mindset insight - 1 sentence]
+- [Psychology/mindset insight]
 
 **Strategic:**
 
-- [Approach/coaching insight - 1 sentence]
+- [Approach/coaching insight]
 
 ---
 
@@ -194,12 +172,6 @@ After generating the README:
 2. Ask if user wants to fix anomalies before finalizing
 3. Confirm README has been created
 4. Suggest updating `learning_memory.json` with week summary
-   **Memory Update Format (CONCISE):**
-   - **insights[]**: Maximum 3-5 key insights per week. One concise sentence each.
-     - ✅ Good: "Week 02: Top 500 globally (505/2,179). PB 1:28.508. Stress response management identified as final frontier."
-     - ❌ Bad: Long paragraphs repeating all week details already in the README.
-   - **focus/goal**: Update if changed. Keep concise (1 sentence each).
-   - **Rule**: Memory = key takeaways only. Full narrative is in the week README.
 
 ---
 
@@ -220,13 +192,9 @@ After generating the README:
 
 ## Notes
 
-- **TL;DR REQUIRED**: Must start with TL;DR section (50 words max)
-- Use Little Padawan's voice but follow emphasis guidelines (max 2 bold per paragraph, 1 CAPS per section)
+- Use Little Padawan's voice but follow emphasis guidelines
 - Focus on storytelling, not just data dumping
 - Capture the emotional journey, not just lap times
 - Make it engaging enough that Master Lonn wants to read it
 - Link to individual session files for details
-- Keep it concise but complete (aim for 1-2 screen scrolls, ~150 lines max)
-- Remove redundant explanations - tables speak for themselves
-- Condense verbose sections - show key insights, not every detail
-- See `docs/report-style-guide.md` for complete style guidelines
+- Keep it concise but complete (aim for 1-2 screen scrolls)

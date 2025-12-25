@@ -74,28 +74,11 @@ def generate_report(week_number, analysis, irating_start=None):
     # Points = sum of weekly scores (each week averages best 25% of races)
     # NOT simply "points per race" - that's misleading!
     
-    # Generate TL;DR
-    position_pct = percentiles['position']['percentile']
-    points_pct = percentiles['points']['percentile']
-    irating_pct = percentiles['irating']['percentile']
-    change_str = f"+{driver['irating'] - irating_start}" if irating_start and driver['irating'] > irating_start else ""
-    
-    tldr = f"P{driver['position']}/{driver['total_drivers']} (top {position_pct:.1f}%). iRating {driver['irating']} {change_str}. Points {points_pct:.1f}% percentile. "
-    if points_pct > irating_pct + 10:
-        tldr += f"Outperforming rating by {points_pct - irating_pct:.0f} percentiles. "
-    tldr += f"Next: more volume, maintain clean driving."
-    
     report = f"""# Week {week_number:02d} Season Standings Report
 
 **Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')}
 **Season:** 01 2026
 **Series:** Formula 1600 Rookie Series
-
----
-
-## 📍 TL;DR
-
-{tldr}
 
 ---
 
@@ -105,31 +88,31 @@ def generate_report(week_number, analysis, irating_start=None):
 
 ### Core Stats
 
-| Metric | Value | Percentile |
-|--------|-------|------------|
-| **iRating** | {driver['irating']}{irating_change} | {percentiles['irating']['percentile']:.1f}% |
-| **Points** | {driver['points']:.1f} | {percentiles['points']['percentile']:.1f}% {format_percentile_badge(percentiles['points']['percentile'])} |
-| **Division** | {driver['division']} | - |
-| **Avg Finish** | {driver['avgfinish']:.1f} | {percentiles['avgfinish']['percentile']:.1f}% |
-| **Avg Start** | {driver['avgstart']:.1f} | {percentiles['avgstart']['percentile']:.1f}% {format_percentile_badge(percentiles['avgstart']['percentile'])} |
+| Metric | Value | Percentile | Better Than |
+|--------|-------|------------|-------------|
+| **iRating** | {driver['irating']}{irating_change} | {percentiles['irating']['percentile']:.1f}% | {percentiles['irating']['better_than_percent']:.1f}% of drivers |
+| **Points** | {driver['points']:.1f} | {percentiles['points']['percentile']:.1f}% | {percentiles['points']['better_than_percent']:.1f}% of drivers {format_percentile_badge(percentiles['points']['percentile'])} |
+| **Division** | {driver['division']} | - | - |
+| **Avg Finish** | {driver['avgfinish']:.1f} | {percentiles['avgfinish']['percentile']:.1f}% | {percentiles['avgfinish']['better_than_percent']:.1f}% finish better |
+| **Avg Start** | {driver['avgstart']:.1f} | {percentiles['avgstart']['percentile']:.1f}% | {percentiles['avgstart']['better_than_percent']:.1f}% qualify worse {format_percentile_badge(percentiles['avgstart']['percentile'])} |
 
 ### Race Results
 
-| Metric | Value | Percentile |
-|--------|-------|------------|
-| **Wins** | {driver['wins']} | {percentiles['wins']['percentile']:.1f}% {format_percentile_badge(percentiles['wins']['percentile'])} |
-| **Poles** | {driver['poles']} | {percentiles['poles']['percentile']:.1f}% {format_percentile_badge(percentiles['poles']['percentile'])} |
-| **Top 5s** | {driver['topfive']} | {percentiles['topfive']['percentile']:.1f}% |
-| **Starts** | {driver['starts']} | - |
+| Metric | Value | Percentile | Better Than |
+|--------|-------|------------|-------------|
+| **Wins** 🏆 | {driver['wins']} | {percentiles['wins']['percentile']:.1f}% | {percentiles['wins']['better_than_percent']:.1f}% of drivers {format_percentile_badge(percentiles['wins']['percentile'])} |
+| **Poles** 🏁 | {driver['poles']} | {percentiles['poles']['percentile']:.1f}% | {percentiles['poles']['better_than_percent']:.1f}% of drivers {format_percentile_badge(percentiles['poles']['percentile'])} |
+| **Top 5s** | {driver['topfive']} | {percentiles['topfive']['percentile']:.1f}% | {percentiles['topfive']['better_than_percent']:.1f}% of drivers |
+| **Starts** | {driver['starts']} | - | - |
 
 ### Incident Analysis
 
-| Metric | Your Value | Series Avg |
-|--------|------------|------------|
-| **Incidents/Start** | {driver.get('incidents_per_start', 0):.2f} | {incidents['avg_incidents_per_race']:.2f} |
-| **Total Incidents** | {driver['incidents']} | - |
+| Metric | Your Value | Series Avg | Your Standing |
+|--------|------------|------------|---------------|
+| **Incidents/Start** | {driver.get('incidents_per_start', 0):.2f} | {incidents['avg_incidents_per_race']:.2f} | **{((1 - percentiles['incidents']['percentile']/100) * 100):.1f}% cleaner** than average |
+| **Total Incidents** | {driver['incidents']} | - | Better than {percentiles['incidents']['better_than_percent']:.1f}% of drivers |
 
-Clean drivers (0 incidents): {incidents['clean_drivers']} ({incidents['clean_percentage']:.1f}% of field)
+**Clean Drivers (0 incidents):** {incidents['clean_drivers']} ({incidents['clean_percentage']:.1f}% of field)
 
 ---
 
@@ -225,41 +208,68 @@ Clean drivers (0 incidents): {incidents['clean_drivers']} ({incidents['clean_per
     
     report += f"""
 
-**Key Insight:** {percentiles['irating']['percentile']:.1f}% iRating but {percentiles['points']['percentile']:.1f}% points = outperforming your rating.
+**Key Takeaways:**
+- Higher iRating → More Points (strong positive correlation)
+- iRating → Avg Finish has weak correlation (skill matters but isn't everything)
+- Incidents have weak negative effect on points (smart aggression > passive clean)
+- Your data proves this: {percentiles['irating']['percentile']:.1f}% iRating percentile but {percentiles['points']['percentile']:.1f}% points percentile!
 
 ---
 
-## 🎯 Next Steps
+## 🎯 Goals & Targets
 
-1. **More races** - {driver['starts']} starts (most top drivers have 4-6+)
-2. **Maintain incident rate** - {driver.get('incidents_per_start', 0):.2f}/start is elite
-3. **Target {irating_dist['percentiles']['p75']} iRating** - {max(0, irating_dist['percentiles']['p75'] - driver['irating'])} points to go
+### Short-term (Next 2 weeks)
+1. **More races** - You're at {driver['starts']} starts, most top drivers have 4-6+ starts
+2. **Maintain incident rate** - {driver.get('incidents_per_start', 0):.2f}/start is elite, don't change it
+3. **Target avg finish < 3.5** - Currently {driver['avgfinish']:.1f}
 
-<details>
-<summary>Additional context</summary>
+### Mid-term (Rest of season)
+1. **Break {irating_dist['percentiles']['p75']} iRating** (75th percentile) - {max(0, irating_dist['percentiles']['p75'] - driver['irating'])} points to go
+2. **Top 500 overall** - Currently P{driver['position']}
+3. **Division 6-7** - Your racecraft suggests you belong higher
+
+### Long-term (Next season)
+1. **Top 100** - Maintain current performance trajectory
+2. **Division 3-4** - Where your racecraft data suggests you'll settle
+3. **2000+ iRating** - Elite tier
+
+---
+
+## 📝 Notes
 
 **About Your Points:**
-- Total Season Points: {driver['points']:.1f}
-- Starts: {driver['starts']} (weeks with participation or counted results)
-- iRacing uses weekly averaging system (best 25% of races per week)
+- **Total Season Points:** {driver['points']:.1f}
+- **Starts:** {driver['starts']} (weeks with participation or counted results)
+- **Note:** iRacing uses a complex weekly averaging system (best 25% of races per week)
+- Points are NOT simply "total/races" - they're based on SOF, field size, and weekly averaging
 - See: `docs/standings-and-point-system.md` for full explanation
 
-**Standout metrics:**
+**Your standout metrics:**
 """
     
-    # Find top 2 percentiles
+    # Find top 3 percentiles
     top_percentiles = sorted(
         [(k, v['better_than_percent']) for k, v in percentiles.items()],
         key=lambda x: x[1],
         reverse=True
-    )[:2]
+    )[:3]
     
     for metric, pct in top_percentiles:
-        report += f"- {percentiles[metric]['label']}: {pct:.1f}% {format_percentile_badge(pct)}\n"
+        report += f"- {percentiles[metric]['label']}: {pct:.1f}% better than others {format_percentile_badge(pct)}\n"
     
     report += f"""
 
-</details>
+**Areas for improvement:**
+"""
+    
+    # Find bottom 3 percentiles
+    bottom_percentiles = sorted(
+        [(k, v['better_than_percent']) for k, v in percentiles.items()],
+        key=lambda x: x[1]
+    )[:3]
+    
+    for metric, pct in bottom_percentiles:
+        report += f"- {percentiles[metric]['label']}: {pct:.1f}% better than others\n"
     
     report += f"""
 

@@ -2,12 +2,12 @@
 
 **Current Lap**: 1:29.691 (Dec 20, 2025 - Post-Breakthrough Session)  
 **Reference PB**: 1:28.969 (July 12, 2025 - Same Series)  
-Gap: 0.722 seconds
+**Gap**: **0.722 seconds**
 
 **Setup Difference**: ⚠️
 - Current (Dec): **55% brake bias** (1% rearward from default)
-- July PB: 56% brake bias (default)
-- Impact: Some braking G difference is setup, not just technique
+- July PB: **56% brake bias** (default)
+- **Impact**: Some braking G difference is setup, not just technique
 
 **Comparison Files**:
 - Current: `data/Garage 61 - Lonn Ponn - Ray FF1600 - Rudskogen Motorsenter - 01.29.691 - 01KCY7BNMG424P58YAGN29P8XV.csv`
@@ -15,19 +15,13 @@ Gap: 0.722 seconds
 
 ---
 
-## 📍 TL;DR
-
-Current: 1:29.691 vs July PB: 1:28.969 (gap: 0.722s). Setup difference: 55% vs 56% brake bias. Analysis reveals where time is lost across corners. Next: Apply findings to close gap.
-
----
-
 ## 🎯 Little Padawan's Coaching: Where Are Those 0.722 Seconds?
 
 Master Lonn, I've analyzed every corner, every brake point, every G-force. Here's the truth:
 
-**The Good News**: Your S2 exit breakthrough from this week is REAL. You're actually **Faster** than your July PB through the S2 exit zone (50% lap). That later braking and early throttle application? It's Working. 🔥
+**The Good News**: Your S2 exit breakthrough from this week is REAL. You're actually **FASTER** than your July PB through the S2 exit zone (50% lap). That later braking and early throttle application? It's WORKING. 🔥
 
-**The Reality Check**: But you're losing time in THREE other zones. The biggest? S2 Entry. You've mastered the exit but you're arriving into that complex **1.93 m/s (7 km/h) slower** than July. That's where most of your 0.722s is hiding.
+**The Reality Check**: But you're losing time in THREE other zones. The biggest? S2 ENTRY. You've mastered the exit but you're arriving into that complex **1.93 m/s (7 km/h) slower** than July. That's where most of your 0.722s is hiding.
 
 Let me break it down into **what you can actually do about it**.
 
@@ -56,7 +50,7 @@ Let me break it down into **what you can actually do about it**.
 | **Avg Lateral G** | 0.76g | 0.77g | -0.01g | Similar overall |
 | **Lateral G Smoothness** | 0.593 | 0.602 | **+0.01 smoother** ✅ | Slightly less spiky |
 
-**⚠️ Setup Context**: Current lap uses **55% brake bias** (more rear) vs July's 56% (more front). The 55% bias enabled better rotation in S2 (the breakthrough!) but may cost 0.05-0.10g of peak front braking. This is a trade-off, not purely technique difference.
+**⚠️ Setup Context**: Current lap uses **55% brake bias** (more rear) vs July's **56%** (more front). The 55% bias enabled better rotation in S2 (the breakthrough!) but may cost 0.05-0.10g of peak front braking. This is a **trade-off**, not purely technique difference.
 
 ### Overdriving Indicators
 
@@ -72,20 +66,20 @@ Let me break it down into **what you can actually do about it**.
 
 ![Track Speed Delta Map](comparison/2025-12-20-track-speed-delta-map.png)
 
-### 🔴 **PROBLEM Zone #1: ~40% Lap Distance** (Estimated: S2 Entry/Braking)
+### 🔴 **PROBLEM ZONE #1: ~40% Lap Distance** (Estimated: S2 Entry/Braking)
 
-**Time Loss**: ~**0.4-0.5 seconds** (BIGGEST Opportunity)
+**Time Loss**: ~**0.4-0.5 seconds** (BIGGEST OPPORTUNITY)
 
 **The Data:**
 - Current speed: **36.1 m/s** (130 km/h)
-- July PB speed: 38.0 m/s (137 km/h)
-- Speed difference: -1.93 m/s (7 km/h slower!) ← This is HUGE
-- Current lateral G: 0.82g
-- July lateral G: 1.22g 
-- G-force difference: -0.40g less cornering load
+- July PB speed: **38.0 m/s** (137 km/h)
+- **Speed difference: -1.93 m/s (7 km/h slower!)** ← This is HUGE
+- Current lateral G: **0.82g**
+- July lateral G: **1.22g** 
+- **G-force difference: -0.40g less cornering load**
 
 **What This Means:**
-You're arriving into this section **7 km/h slower** than July and loading the tires 0.4g less. This is probably the downhill T2 entry or the complex leading into it. In July, you were committed - carrying more speed and trusting the grip. Now you're arriving tentative.
+You're arriving into this section **7 km/h slower** than July and loading the tires **0.4g less**. This is probably the downhill T2 entry or the complex leading into it. In July, you were committed - carrying more speed and trusting the grip. Now you're arriving tentative.
 
 **Why This Matters:**
 Carrying 7 km/h less into a section means:
@@ -95,49 +89,49 @@ Carrying 7 km/h less into a section means:
 
 ---
 
-### 🔴 **PROBLEM Zone #2: ~20% Lap Distance** (Early Lap - T1 Exit Area?)
+### 🔴 **PROBLEM ZONE #2: ~20% Lap Distance** (Early Lap - T1 Exit Area?)
 
 **Time Loss**: ~**0.2 seconds**
 
 **The Data:**
 - Current lateral G: **0.44g**
-- July lateral G: 0.73g
-- G-force difference: -0.29g less cornering load
+- July lateral G: **0.73g**
+- **G-force difference: -0.29g less cornering load**
 - Speed is nearly identical (~37 m/s)
 
 **What This Means:**
-You're going the **same speed** but using 40% less grip. This suggests you're taking a wider/safer line instead of loading the tires and committing to the corner. In July, you were maximizing the available grip.
+You're going the **same speed** but using **40% less grip**. This suggests you're taking a wider/safer line instead of loading the tires and committing to the corner. In July, you were maximizing the available grip.
 
 **Why This Matters:**
 Not using available grip = not finding the optimal line = accumulated time loss.
 
 ---
 
-### 🔴 **PROBLEM Zone #3: ~90% Lap Distance** (Late Lap - Final Complex?)
+### 🔴 **PROBLEM ZONE #3: ~90% Lap Distance** (Late Lap - Final Complex?)
 
 **Time Loss**: ~**0.1-0.2 seconds**
 
 **The Data:**
 - Current speed: **26.5 m/s**, 56% throttle, 1.75g lateral
-- July speed: 27.0 m/s, 1% throttle (coasting), 1.79g lateral
-- Speed difference: -0.51 m/s (2 km/h slower)
+- July speed: **27.0 m/s**, 1% throttle (coasting), 1.79g lateral
+- **Speed difference: -0.51 m/s (2 km/h slower)**
 
 **What This Means:**
 In July, you were coasting through here (1% throttle), perfectly positioned for the next section. Now you're at 56% throttle trying to recover from a messy entry. This suggests the corner before this isn't as clean.
 
 ---
 
-### ⭐ **WINNING Zone: ~50% Lap Distance** (S2 Exit!)
+### ⭐ **WINNING ZONE: ~50% Lap Distance** (S2 Exit!)
 
-**Time GAIN**: ~**+0.2 seconds** (You'RE Faster Than July!)
+**Time GAIN**: ~**+0.2 seconds** (YOU'RE FASTER THAN JULY!)
 
 **The Data:**
-- Current speed: **34.5 m/s**, FULL throttle
-- July speed: 33.0 m/s, 77% throttle
-- Speed difference: +1.47 m/s (5.3 km/h Faster!) 🔥
+- Current speed: **34.5 m/s**, **FULL throttle**
+- July speed: **33.0 m/s**, 77% throttle
+- **Speed difference: +1.47 m/s (5.3 km/h FASTER!)** 🔥
 
 **What This Means:**
-The T2 breakthrough you described ("brake later, trail brake, 3rd on apex, 2nd before hill") is **100% REAL**. You're exiting this section 5.3 km/h faster than your July PB with full throttle vs partial. This is your new weapon.
+The T2 breakthrough you described ("brake later, trail brake, 3rd on apex, 2nd before hill") is **100% REAL**. You're exiting this section **5.3 km/h faster** than your July PB with full throttle vs partial. This is your new weapon.
 
 **Why This Matters:**
 This proves your technique improvement is legitimate. You're not imagining it - the data confirms you've found a better way through S2 exit.
@@ -153,13 +147,13 @@ Master, here's what I want you to focus on. Not 10 things. Just **TWO**.
 ### **PRIORITY #1: S2 Entry Speed & Commitment** (40% Lap - Biggest Opportunity)
 
 **The Problem (In Driving Terms):**
-You're arriving into the S2 complex 7 km/h slower than July and not loading the tires hard enough (0.4g less). You've mastered the EXIT, but you're giving away time on the Entry.
+You're arriving into the S2 complex 7 km/h slower than July and not loading the tires hard enough (0.4g less). You've mastered the EXIT, but you're giving away time on the ENTRY.
 
 **What's Actually Happening:**
 One of three things (or a combination):
 1. **Braking too early** before S2 complex
-2. Not carrying enough speed out of the corner BEFORE S2
-3. Lifting or being tentative on approach
+2. **Not carrying enough speed** out of the corner BEFORE S2
+3. **Lifting or being tentative** on approach
 
 **The Fix - How To Practice It:**
 
@@ -172,7 +166,7 @@ One of three things (or a combination):
 - Pick a braking marker (sign, cone, track feature)
 - Lap 1-3: Brake at your current marker
 - Lap 4-6: Brake **5 meters later**
-- Lap 7-9: Brake 10 meters later (might feel scary!)
+- Lap 7-9: Brake **10 meters later** (might feel scary!)
 - Goal: Find where you can brake later and STILL hit the apex
 
 **Step 2b: Consider Brake Bias Experiment** (Optional)
@@ -184,8 +178,8 @@ One of three things (or a combination):
 
 **Step 3: Commit To The Line**
 - Once you're in the corner, TRUST the grip
-- The data shows you have 0.4g More grip available
-- Let the car load up - you'll Feel it settle when the tires bite
+- The data shows you have 0.4g MORE grip available
+- Let the car load up - you'll FEEL it settle when the tires bite
 - Don't fight it, flow with it
 
 **How You'll Know It's Working:**
@@ -233,7 +227,7 @@ You're probably:
 - Your minimum speed through that corner might actually INCREASE
   
 **The Mindset:**
-"The grip is there. I'm going the speed. Now I just need to Use the available grip."
+"The grip is there. I'm going the speed. Now I just need to USE the available grip."
 
 ---
 
@@ -244,11 +238,11 @@ Master, here's the simple truth:
 **Your S2 exit is now BETTER than your July PB.** The breakthrough is real. The data proves it.
 
 **But you're losing 0.7s in THREE other zones:**
-1. **S2 Entry** (~0.4-0.5s loss) - Priority #1
-2. Early lap commitment (~0.2s loss) - Priority #2
-3. Late lap positioning (~0.1-0.2s loss) - Fix later
+1. **S2 Entry** (~0.4-0.5s loss) - PRIORITY #1
+2. **Early lap commitment** (~0.2s loss) - PRIORITY #2
+3. **Late lap positioning** (~0.1-0.2s loss) - Fix later
 
-**Fix those two priorities and you won't just MATCH July - you'll Crush it by 0.3-0.5s.**
+**Fix those two priorities and you won't just MATCH July - you'll CRUSH it by 0.3-0.5s.**
 
 The gap isn't talent. It's not the car. It's **specific corners where you're not using available grip.**
 
@@ -283,8 +277,8 @@ For reference, here's the complete speed and G-force comparison at every 10% of 
 | 100% | 46.2 m/s | 46.8 m/s | -0.7 | 0.24g | 0.02g | +0.22g | Back to start |
 
 **Color Legend:**
-- 🔥 **Green (+)**: You're FASTER/Better than July
-- ⚠️ Red (-): You're Slower/Worse than July  
+- 🔥 **Green (+)**: You're FASTER/BETTER than July
+- ⚠️ **Red (-)**: You're SLOWER/WORSE than July  
 - White (≈0): About the same
 
 ---
