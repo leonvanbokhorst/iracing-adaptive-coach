@@ -265,15 +265,15 @@ This table maps corner numbers to lap distance percentages, enabling precise tel
 | :----: | :--------: | :----: | :---------------------------------------------------------- |
 |   T1   |    8.2%    |   S1   | First corner after S/F                                      |
 |   T2   |   11.5%    |   S1   | Fast right-hander almost flat out of the first chicane      |
-|   T3   |   21.1%    |   S1   | Hairpin - most important corner, sets up longest accel zone |
+|   T3   |   21.1%    |   S1   | Right-hander with bumps |
 |   T4   |   27.3%    |   S2   | T-Fork - lift-rotation combo                                |
-|   T5   |   37.5%    |   S2   | Long double-apex left                                       |
+|   T5   |   37.5%    |   S2   | Left-hander - long double-apex left                                       |
 |   T6   |   44.8%    |   S2   | Fast S into heavy braking zone                              |
 |   T7   |   48.5%    |   S3   | First-gear hairpin                                          |
-|   T8   |   53.5%    |   S3   | Long right - stability + minimal distance                   |
+|   T8   |   53.5%    |   S3   | Right-hander - stability + minimal distance                   |
 |   T9   |   58.0%    |   S3   | Decreasing radius - second 1st-gear corner                  |
-|  T10   |   70.5%    |   S4   | Right - late brake forces correct late-apex exit            |
-|  T11   |   85.0%    |   S4   | Right - entry-speed corner; exit doesn't matter much        |
+|  T10   |   70.5%    |   S4   | Right-hander - late brake forces correct late-apex exit            |
+|  T11   |   85.0%    |   S4   | Right-hander - entry-speed corner; exit doesn't matter much        |
 |  T12   |   89.5%    |   S4   | Last corner right - coast + punch                           |
 
 **Usage:** When analyzing telemetry, use these lap distance percentages to pinpoint exact corner locations in the data.  
