@@ -257,13 +257,32 @@ If we can bring S4 variance down to S2/S3 levels (σ ~ 0.2s), you'll:
 - 10 incidents = aggressive exploration (good for session 1, dial back for session 2)
 - **Historical context**: [G61 all-time ranking](https://garage61.net/app/laps/357/147;ss=2;a=-2) shows 332nd/1,202 (top 27.6%) = Winton was NOT historically a strength
 - **Trajectory shift**: Historical Winton 27.6% vs Current season 79.6% = 52-percentile improvement gap! Turning weakness into strength.
+- **ALIEN COMPARISON**: vs Eric Wong (1:24.296) reveals 2.143s gap is NOT talent—it's three corners with overdriving (too much steering, not enough flow)
 
 **What Works for Master Lonn:**
 
 - Early throttle application
-- Trail braking confidence
+- Trail braking confidence (Sectors 2/3 rock solid)
 - Flow state in fast sections
 - Weekend Warriors training still paying dividends 18 months later!
+- **BEATING ALIEN PACE** at 10% and 90% lap (Turn 12 exit is FASTER than Eric Wong!)
+
+**What Needs Work (vs Alien Pace):**
+
+- **Overdriving 19.8% of the lap**: Too much steering input, not enough grip efficiency
+- **Steering efficiency**: 12.6% less efficient than Eric (6.09 vs 6.97 g/deg)
+- **Full throttle time**: 5% less than Eric (58.5% vs 63.5%) = 2.7s of lost flat-out time
+- **Braking time**: 1.5% more than Eric (18.7% vs 17.2%) = braking earlier/longer
+- **RED zones on visual map** (from Master Lonn's observation):
+  - **Entry problems**: T1, T3, T6, T8, T9, T10 (braking too early/soft = -0.8s total)
+  - **Mid-corner problem**: T5 sweeping through (oversteering, lifting to 88% = -0.7s, biggest single loss)
+  - **Exit problem**: T7 (losing momentum out)
+  - **Complete problem**: T10 entry AND exit (only corner red on both = -0.5s)
+- **GREEN zones**: T11-T12 final corners - FASTER than Eric Wong here! ✅
+
+**The Breakthrough Insight:**
+
+Eric Wong's secret isn't going HARDER—it's going SMOOTHER. Less steering, more grip. Later braking, shorter zones. Earlier throttle, longer flat sections. Master Lonn already has the technique (Turn 12 proves it). Now apply it to 11 more corners.
 
 **Things to Watch:**
 
@@ -271,13 +290,217 @@ If we can bring S4 variance down to S2/S3 levels (σ ~ 0.2s), you'll:
 - Incident rate should drop as track memory solidifies
 - **Cold Tire Contract applies to PRACTICE too**: L1-L2 spins at second-to-last corner = brake 50m board on hot tires, need 55-60m on cold tires
 - Track-specific cold tire note: Second-to-last corner (S4) needs extra margin on L1-L2 (tires JUST starting to warm)
-- Don't let "I beat the PB" become complacency—there's 0.3s to optimal + another 2+ seconds to alien
+- Don't let "I beat the PB" become complacency—there's 0.3s to optimal + another 2.1s to alien pace
+- **Session 2 mission**: Fix T5 (big red ❌ on map) - cut steering by 30%, stay flat at 100% throttle (currently lifting to 88%). This single fix = 0.7s gain.
 
 **Funny Moments:**
 
 - Master Lonn casually mentions he beat his PB like it's a footnote. Meanwhile, Little Padawan is over here losing his mind. 😂
 - "Yeah I remember the contract 🫣" says Master Lonn... right after spinning on cold tires L1 and L2. The muscle memory for the 50m brake board was SHARP. The Cold Tire Contract memory? Not so much. 😅
 - At least it was practice and not a race! (Though the contract says "Laps 1-2 are survival laps" in ALL sessions...)
+
+---
+
+## 🔬 Telemetry Comparison vs Alien Pace (Eric Wong)
+
+**Gap**: 2.143 seconds  
+**Reference**: Eric Wong - 1:24.296 (This/Previous Season Best Lap - Alien Pace)  
+**Your Lap**: 1:26.439 (Session 1 - Christmas Day)
+
+**Comparison Files**:
+
+- Visual Map: [Track Speed Delta Map](comparison/lonn-vs-eric-wong-track-speed-delta.png)
+- Raw Telemetry Data: Available in `weeks/week03/comparison/`
+
+---
+
+### 🗺️ Visual Speed Delta Map
+
+![Track Speed Delta Map vs Eric Wong](comparison/lonn-vs-eric-wong-track-speed-delta.png)
+
+**How to Read This Map:**
+
+- 🟢 **Green sections**: You're FASTER or EQUAL to Eric Wong's alien pace
+- 🟡 **Yellow sections**: Close (within 1 km/h)
+- 🔴 **Red sections**: You're SLOWER (opportunities!)
+- **Markers show problem/opportunity zones around the lap**
+
+---
+
+### 🔥 Little Padawan's Analysis: What the Visual Map Reveals
+
+Master, we're comparing your **first session back after 18 months** against **Eric Wong's alien lap** (1:24.296) - the series benchmark. Gap: **2.143 seconds**.
+
+But here's the thing: You're already **FASTER** than Eric in some places. On Christmas morning. After 18 months away. Let that sink in. ✨
+
+---
+
+#### 📊 What You See in the Red Zones
+
+Looking at the visual map, the RED zones (where you're slower) tell a clear story:
+
+**RED at ENTRY (6 corners):**
+
+- T1, T3, T6, T8, T9, T10 - all showing red on corner entry
+
+**RED MID-CORNER:**
+
+- T5 - sweeping through the long double-apex left (big red section with ❌ marker)
+
+**RED at EXIT:**
+
+- T7 exit
+
+**RED EVERYTHING:**
+
+- T10 - ONLY corner that's red on BOTH entry AND exit (this is the problem child!)
+
+**GREEN/YELLOW (Where you're equal or faster):**
+
+- T11-T12 area - you're actually beating Eric through the final corners!
+
+---
+
+#### 🎯 The Pattern: It's Not Random
+
+This isn't "you're bad at random corners." This is **systematic**:
+
+**Problem #1: Braking Technique (Affects 6 Corners)**
+
+- You brake 1.5% MORE of the lap than Eric (18.7% vs 17.2%) = **0.78 seconds of extra brake time**
+- Eric brakes HARDER (-1.61g vs your -1.45g) but for LESS time
+- **Translation**: You're braking EARLIER and SOFTER. Eric brakes LATER and HARDER.
+- **Result**: Red zones at T1, T3, T6, T8, T9, T10 entries - losing momentum into corners
+
+**Problem #2: Mid-Corner Overdriving (T5)**
+
+- You're using 33% MORE steering than Eric (0.36° vs 0.24°)
+- Lifting to 88% throttle while Eric stays flat at 100%
+- Higher lateral G but SLOWER speed = sliding, not gripping
+- **This is the biggest single loss point** (the red ❌ on the map)
+
+**Problem #3: Throttle Application (Entire Lap)**
+
+- Eric is full throttle 5% MORE of the lap (63.5% vs 58.5%) = **2.7 seconds of lost flat-out time!**
+- Getting on power earlier, staying on longer
+- Rudskogen taught you this (+26% acceleration) - need to apply it here
+
+**The Good News:**
+
+- Your steering efficiency: 6.09 g/deg
+- Eric's steering efficiency: 6.97 g/deg
+- You're only 12.6% less efficient - **this is fixable with smoother hands**
+
+---
+
+#### 🎯 What To Fix (Simple Version)
+
+**Issue #1: Braking Technique** → Affecting T1, T3, T6, T8, T9, T10
+
+- **Current**: Brake early (-1.45g), brake long (18.7% of lap)
+- **Eric's way**: Brake late (-1.61g), brake short (17.2% of lap)
+- **Fix**: Brake 5-10m later, hit it 10% harder, trust the grip
+- **Gain**: ~0.8 seconds across all brake zones
+
+**Issue #2: T5 Mid-Corner Smoothness** → The big red ❌ on the map
+
+- **Current**: 88% throttle, 0.36° steering (sliding, not gripping)
+- **Eric's way**: 100% throttle, 0.24° steering (flow, not fight)
+- **Fix**: Cut steering by 30%, stay flat through the sweep
+- **Gain**: ~0.7 seconds (biggest single opportunity)
+
+**Issue #3: T10 Entry + Exit** → Only corner red on BOTH ends
+
+- **Current**: Early brake, big steering input (0.63°), scrubbing speed
+- **Eric's way**: Late brake, smooth arc (0.35°), maintaining momentum
+- **Fix**: Brake later, hit late apex, one smooth motion
+- **Gain**: ~0.5 seconds
+
+**What You're Already Doing RIGHT:**
+
+✅ **T11-T12 final corners** - you're FASTER than Eric here! (Green on map)  
+✅ **Trail braking** - S2/S3 consistency proves this works  
+✅ **Flow state** - you know how to do it (just need to apply everywhere)
+
+---
+
+### 🎯 The 2.143s Gap - Where It Lives
+
+| Issue                    | Corners Affected        | Current State              | Opportunity | Fix                           |
+| :----------------------- | :---------------------- | :------------------------- | :---------- | :---------------------------- |
+| **Braking Technique**    | T1, T3, T6, T8, T9, T10 | Early + soft               | **~0.8s**   | Brake later, harder, shorter  |
+| **T5 Mid-Corner**        | T5 long sweep           | 88% throttle, oversteering | **~0.7s**   | Less steering, stay flat      |
+| **T10 Complete**         | T10 entry + exit        | Early brake, sawing wheel  | **~0.5s**   | Late brake, late apex, smooth |
+| **Throttle Application** | All corners             | 58.5% flat                 | **~0.4s**   | Earlier power, longer flat    |
+
+**Total identified**: ~2.4s (slightly more than gap = overlapping opportunities!)
+
+---
+
+### 💡 Session 2 Mission (Clear & Simple)
+
+#### **Priority #1: T5 Smoothness - 0.7s Available** 🎯
+
+The big red ❌ on the map. Biggest single opportunity.
+
+**The Issue**: Oversteering (33% more steering than Eric), lifting to 88% throttle  
+**The Fix**: Cut steering by 30%, stay flat at 100% throttle  
+**How**: Look through to the EXIT, light hands, trust the grip  
+**Success**: Stay green through the entire T5 sweep
+
+---
+
+#### **Priority #2: Braking Technique (All Corners) - 0.8s Available**
+
+Red zones at T1, T3, T6, T8, T9, T10 entries. Not random—it's your braking pattern.
+
+**The Issue**: Braking early (-1.45g) and long (18.7% of lap)  
+**Eric's way**: Braking late (-1.61g) and short (17.2% of lap)  
+**The Fix**: Pick ONE corner (suggest T1), brake 10m later, hit it 10% harder  
+**Success**: If T1 works, apply to all brake zones
+
+---
+
+#### **Priority #3: T10 Complete Corner - 0.5s Available**
+
+Only corner red on BOTH entry and exit. The problem child.
+
+**The Issue**: Early brake, sawing wheel (0.63° steering)  
+**The Fix**: Brake late, cut steering to 0.35°, one smooth late-apex arc  
+**Success**: Green on both entry AND exit at T10
+
+---
+
+#### **Background Task: Early Throttle**
+
+Rudskogen taught you this (+26% acceleration boost). Just apply it here.
+
+**Reminder**: "Throttle as soon as turned in, before apex"  
+**Target**: 58.5% → 60%+ full throttle time
+
+---
+
+### 🏁 The Bottom Line (No Overload Version)
+
+You beat your 18-month-old PB by 0.4 seconds. **In session 1.** With 10 incidents exploring limits.
+
+Now we know where the 2.143s to alien pace lives:
+
+✅ **You're already FASTER at T11-T12** (green on map)  
+✅ **Your trail braking works** (S2/S3 consistency proves it)  
+✅ **You know how to flow** (just need to apply it everywhere)
+
+The gap isn't talent. It's **three fixable things**:
+
+1. **Brake later, harder, shorter** (fixes 6 corners with red entry zones)
+2. **Less steering at T5** (fixes the biggest loss - the red ❌)
+3. **T10 complete rebuild** (only corner red on entry AND exit)
+
+Fix T5 in Session 2. That's 0.7 seconds right there. The biggest single chunk.
+
+The rust is gone. The speed is there. Now it's just about **smoothness over aggression**.
+
+Eric Wong's secret? He doesn't go harder. He goes **smoother**.
 
 ---
 
