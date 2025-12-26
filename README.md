@@ -108,7 +108,7 @@ But SHORT stack meant something. Close ratios. Strong engine braking. Forgiving 
 
 And suddenly it clicked. Not in his hands this time. In his head.
 
-"The rotation is more smooth than trail braking," he said, almost surprised by his own words. "Less abrupt weight transfer."
+"The rotation is smoother than trail braking," he said, almost surprised by his own words. "Less abrupt weight transfer."
 
 Trail braking—his weapon at Rudskogen—loaded the front hard and fast. Engine braking loaded the rear progressively. And in a light car like the FF1600, progressive beats aggressive every time.
 
