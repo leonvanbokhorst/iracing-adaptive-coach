@@ -1,22 +1,23 @@
 # Week 03 - Winton Motor Raceway (National) - Season 01 2026
 
-**Track**: [Winton Motor Raceway - National Circuit](../../tracks/track-winton-motor-raceway-national.md)  
-**Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
-**Dates**: December 25, 2025 → January 2, 2026  
-**Status**: 📅 STARTING  
-**Previous Visit**: July 13, 2024 - PB: **1:26.835**
+- **Track**: [Winton Motor Raceway - National Circuit](../../tracks/track-winton-motor-raceway-national.md)
+- **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)
+- **Dates**: December 25-26, 2025 (Practice Complete) → Race Week: Dec 27 - Jan 2
+- **Status**: 🏁 PRACTICE COMPLETE - Race Ready
+- **Previous Visit**: July 13, 2024 - PB: **1:26.835** (BEATEN by 0.745s!)
+- **Current PB**: **1:26.090** (Top 23.7% | 238/1003 on G61)
 
 ---
 
-## The Mission
+## The Mission → ACCOMPLISHED
 
-Third track of the season. Another return visit. Can the Rudskogen pattern repeat?
+**Jefferson** (Week 01): New track → mastery in 7 days. Victory. Flow state.
 
-**Jefferson** (Week 01): New track → mastery in 7 days. Victory. Flow state. Mental resilience proven.
+**Rudskogen** (Week 02): 6-month return → beat PB in 3 days. Pole position. Strategic maturity.
 
-**Rudskogen** (Week 02): Return after 6 months (1:28.969 PB) → beat it in 3 days (1:28.508). Pole position. Setup breakthrough. Strategic maturity confirmed.
+**Winton** (Week 03): **18-month return** → **beat PB in 2 DAYS**. Engine braking mastery. Engineering thinking unlocked.
 
-**Winton** (Week 03): Return after **18 months** (1:26.835 PB from July 2024). The test: does the rust shake off as fast as Rudskogen? Can the July ghost be beaten?
+**Pattern confirmed**: Skills compound. Each track faster than the last. Not just speed—understanding.
 
 ---
 
@@ -64,6 +65,7 @@ Week 03 races: execute the contract from race 1. Survive lap 1-2 clean. NO passi
 ## Week 03 Goals
 
 **Baseline Reference:**
+
 - **July 2024 PB**: 1:26.835 (18 months ago)
 - **Series Top Time** (S04 2025): **1:24.096** (alien pace reference)
 - **Gap to alien**: 2.739s (shows absolute ceiling for this track/car)
@@ -116,48 +118,93 @@ Week 03 races: execute the contract from race 1. Survive lap 1-2 clean. NO passi
 
 ---
 
-## The Story So Far
+## The Week in 3 Days
 
-**Session 1 - December 25, 13:32 - Christmas Day Exploration**
+**Dec 25 (P1)**: Came back after 18 months. Beat July PB by 0.4s. **1:26.439**. July's ghost gone.
 
-Eighteen months. That's how long it had been since Master Lonn last pointed the Ray at Winton's twelve corners. Long enough for muscle memory to fade. Long enough to wonder if the lines would still be there.
+**Dec 26 AM (P2)**: Compared to Eric Wong's 1:24.296 alien lap. Discovered: engine braking at T5 (no brake pedal!). Gained 0.022s. **1:26.417**.
 
-The first few laps felt... familiar but foreign. Like seeing an old friend you haven't spoken to in years—you remember the face, but the conversation takes time to flow again. Turn 1 came back first. Then T2, the hairpin. The hands started remembering what the brain had forgotten.
+**Dec 26 PM (P3)**: UNDERSTOOD why engine braking works ("more smooth than trail braking"). Technique became trust. Incidents halved (10→4). **1:26.090**. 🔥
 
-And then, lap 10 of 20, something clicked. Not dramatically. Just... right. The timer stopped. **1:26.439**.
+**Total improvement**: 0.349s in 2 days. **Top 23.7% on G61 leaderboard** (238/1003).
 
-Four tenths faster than July 2024. In the first session. With cold tires to sort out and Sector 4 still hiding time.
+### The Breakthrough
 
-July's ghost didn't stand a chance.
+> "The rotation is more smooth than trail braking. Less abrupt weight transfer. I now feel WHY the downshift to 3 and two-thirds of the track make sense. Engine braking for rotation."  
+> — Master Lonn, discovering alien-level technique
 
-**The Lesson:** Trail braking came back naturally. The early throttle from Rudskogen translated perfectly. The 57% brake bias worked. But Turn 11—that second-to-last corner with the 50m board—asked a question on cold tires that Master Lonn answered with two spins. Memory remembered the brake point. Experience forgot the cold tire discount.
+**What happened**: Shifted from executing techniques to understanding physics. From driver to engineer.
 
-**The Map:** And then Little Padawan built something special. A track map. Every corner numbered. Every position marked. Turn 11 now has a face, a location (85% lap distance), and a reputation: the cold tire danger zone.
+**The technique**: T5-T6-T7 as ONE flowing sequence. Engine braking (lift + downshift) instead of brake pedal. Wide arc (2/3 track width) maintains momentum. Flat through T6. This is how aliens drive.
 
-**Status:** Sub-1:26.5 goal? Done in session 1. Next target: find the 0.3s hiding in Sector 4 (T10, T11, T12) and close the gap to the theoretical optimal of 1:26.141.
+**The insight**: SHORT gear stack (Winton) vs TALL gear stack (Rudskogen) changes everything. Forgiveness window, engine braking strength, shift timing—all different. Master Lonn figured this out and documented it ([Gears & Shifting Guide](../../docs/gears-and-shifting-guide.md)).
+
+**Status**: Race-ready. Technique trusted. Knowledge documented. Bring on the AI races.
+
+---
+
+## The Numbers
+
+| Metric             | Start (Dec 25) | End (Dec 26)      | Change      | Notes              |
+| :----------------- | :------------- | :---------------- | :---------- | :----------------- |
+| **Best Lap**       | 1:26.439       | **1:26.090**      | **-0.349s** | 2 days, 3 sessions |
+| **Consistency**    | 2.36s          | **0.49s** (clean) | -1.87s      | Much tighter       |
+| **Gap to July PB** | -0.396s        | **-0.745s**       | -0.349s     | Crushed it         |
+| **Gap to Alien**   | 2.143s         | 1.794s            | -0.349s     | Closing!           |
+| **Incidents**      | 10             | **4**             | -60%        | Confidence ↑       |
 
 ---
 
 ## Session Log
 
-| Date | Time | Type | Best Lap | σ   | Result | Key Takeaway |
-| :--- | :--- | :--- | :------- | :-- | :----- | :----------- |
-| Dec 25 | 13:32 | Practice | **1:26.439** ✨ | 2.36s | **NEW PB!** (-0.396s) | Beat 18mo PB in session 1! T11 cold tire danger identified. [Report](2025-12-25-13-32-winton-practice.md) |
+| Date   | Time  | Type     | Best Lap     | σ     | Result      | Key Takeaway                                                       |
+| :----- | :---- | :------- | :----------- | :---- | :---------- | :----------------------------------------------------------------- |
+| Dec 25 | 13:32 | Practice | 1:26.439     | 2.36s | NEW PB!     | Beat 18mo PB session 1! [→](2025-12-25-13-32-winton-practice.md)   |
+| Dec 26 | 11:07 | Practice | 1:26.417     | 0.86s | NEW PB!     | Engine braking discovered [→](2025-12-26-11-07-winton-practice.md) |
+| Dec 26 | 14:06 | Practice | **1:26.090** | 0.49s | **NEW PB!** | UNDERSTANDING (physics) [→](2025-12-26-14-06-winton-practice.md)   |
 
 ---
 
-## What We Bring From Week 02
+## What We Learned
 
-**The Speed**: 1:28.508 race PB at Rudskogen, top 500 globally (505/2,179), +256 iRating
+**Technical**:
 
-**The Setup**: 57.5% brake bias optimized for trail braking + early throttle style
+- Engine braking > brake pedal (T5-T6-T7 sequence)
+- SHORT gear stack = forgiving, strong engine braking
+- Higher gears = more momentum ("much calmer" = alien technique)
+- Shift by sound (7k RPM pitch), not tach
 
-**The Technique**: Early throttle application = 26% more acceleration, specific brake markers work
+**Mental**:
 
-**The Mental Game**: Position Secured Protocol mastered, Mental Reset improving (2-3 laps), strategic maturity confirmed
+- Understanding > execution (physics unlocks consistency)
+- "Scary fast but stable" = finding the car's happy place
+- Trust takes ~3 sessions (discovered → executed → understood → trusted)
 
-**The Frontier**: Cold Tire Contract v2.0 needs execution from race 1
+**Strategic**:
+
+- Track personality = gear stack choice (iRacing's hidden wisdom)
+- Winton (SHORT) ≠ Rudskogen (TALL) = adapt or struggle
+- Brake bias protocol: 57% (L1-2) → 56.5% (L3-5) → 56% (L6+)
+
+**Knowledge**:
+
+- Created [Gears & Shifting Guide](../../docs/gears-and-shifting-guide.md) (600+ lines)
+- Documented SHORT vs TALL stacks, sound-based shifting, rotation management
+- From driver → racer → engineer → educator (in 3 days!)
 
 ---
 
-_Week 03: New track, same method. Jefferson proved it works. Rudskogen validated it transfers. Winton will confirm it's universal. Let's go. 🏎️💨_
+## Week Goals Update
+
+✅ Beat July 2024 PB (1:26.835) → **DONE** (Session 1!)  
+✅ Sub-1:26.5 target → **SMASHED** (1:26.090)  
+✅ Identify weak sector → **DONE** (T5-T6 was the key)  
+✅ Find breakthrough technique → **ENGINE BRAKING** 🔥  
+✅ Build consistency → **σ=0.49s** (TIGHT!)  
+⏳ Race week execution → **NEXT** (AI races, then official)  
+⏳ Top 250 standings → **NEXT** (currently race-ready)  
+⏳ Cold Tire Contract v2.0 → **READY TO TEST**
+
+---
+
+_Week 03 Practice: Complete. Knowledge: Documented. Confidence: Built. Race week starts now. 🏎️💨_

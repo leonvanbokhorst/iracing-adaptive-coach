@@ -165,6 +165,7 @@ Master Lonn's technical education library:
 
 - **[Weight Transfer Guide](docs/weight-transfer-guide.md)** - How forces move load around the car (LINEAR movements: longitudinal, lateral, vertical G)
 - **[Rotation & Balance Guide](docs/rotation-and-balance-guide.md)** - How the car rotates and responds (ROTATIONAL movements: roll, pitch, yaw) + How to see it in telemetry
+- **[Gears & Shifting Guide](docs/gears-and-shifting-guide.md)** - Gear stacks, engine braking, rotation management, and sound-based shifting (SHORT vs TALL stacks explained!)
 - **[Trail Braking Technique Guide](docs/trail-braking-technique-guide.md)** - The art of managing brake → turn transition
 
 ### Technical References

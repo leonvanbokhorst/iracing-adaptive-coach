@@ -137,36 +137,11 @@ def create_track_visualization(data, output_path, current_time, reference_time, 
     
     # Mark specific problem zones
     # 40% lap distance (biggest loss)
+    # Store indices for terminal output only (markers disabled for cleaner view)
     idx_40 = int(0.40 * len(x))
-    ax_map.scatter(x[idx_40], y[idx_40], s=500, c='red', marker='X', 
-                  edgecolors='black', linewidths=2, zorder=10, 
-                  label=f'40% Lap: {speed_delta_kmh[idx_40]:.1f} km/h loss')
-    
-    # 0% lap distance (start/finish - final corner exit issue)
     idx_0 = 0
-    ax_map.scatter(x[idx_0], y[idx_0], s=500, c='orange', marker='X', 
-                  edgecolors='black', linewidths=2, zorder=10,
-                  label=f'Start/Finish: {speed_delta_kmh[idx_0]:.1f} km/h loss')
-    
-    # Mark gains too
-    # 10% lap distance (T2 breakthrough)
     idx_10 = int(0.10 * len(x))
-    ax_map.scatter(x[idx_10], y[idx_10], s=500, c='lime', marker='*', 
-                  edgecolors='black', linewidths=2, zorder=10,
-                  label=f'10% Lap (T2): {speed_delta_kmh[idx_10]:.1f} km/h gain!')
-    
-    # 50% lap distance (power application)
     idx_50 = int(0.50 * len(x))
-    ax_map.scatter(x[idx_50], y[idx_50], s=500, c='lime', marker='*', 
-                  edgecolors='black', linewidths=2, zorder=10,
-                  label=f'50% Lap: {speed_delta_kmh[idx_50]:.1f} km/h gain!')
-    
-    # Add sector markers (approximate - every 25%)
-    for pct, label in [(0.25, 'S2'), (0.50, 'S3'), (0.75, 'S4')]:
-        idx = int(pct * len(x))
-        ax_map.plot(x[idx], y[idx], 'ko', markersize=10, zorder=5)
-        ax_map.text(x[idx], y[idx], f'  {label}', fontsize=12, 
-                   fontweight='bold', va='center')
     
     # Start/Finish line
     ax_map.plot(x[0], y[0], 'w^', markersize=15, zorder=5, 
@@ -189,7 +164,8 @@ def create_track_visualization(data, output_path, current_time, reference_time, 
                     f'Current: {current_time} vs Reference: {reference_time}',
                     fontsize=18, fontweight='bold', pad=20)
     ax_map.grid(True, alpha=0.2, linestyle='--')
-    ax_map.legend(loc='upper left', fontsize=12, framealpha=0.95)
+    # Legend disabled for cleaner view
+    # ax_map.legend(loc='upper left', fontsize=12, framealpha=0.95)
     
     # Color bar - larger and clearer
     sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
