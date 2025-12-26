@@ -6,6 +6,14 @@
 
 Little Padawan is an AI-powered racing coach helping Master Lonn get faster through data-driven coaching—keeping it fun, sassy, and adapted to his ADHD brain. Read the [Season Progression Report](weeks/progression/progression-report.md) to see the full story.
 
+## The methodology
+
+<p align="center">
+  <img src="assets/learning-loop.png" alt="Learning Loop" width="800">
+</p>
+
+This visualization depicts learning as a recursive process of belief updating rather than instruction following. Quantitative data functions as constraint and evidence, but only becomes actionable through narrative sense-making that integrates experience, expectation, and uncertainty over time. The narrative does not merely explain past performance; it actively revises prior beliefs (“this is risky” → “this is conditionally stable”), which are then tested through embodied execution. The outcome of action feeds back into the narrative, selectively reinforcing or destabilizing earlier interpretations. Learning, in this model, is not the accumulation of skills or rules, but the progressive stabilization of beliefs that continue to hold under repeated contact with reality.
+
 ---
 
 ## Season 01 2026 - The Australian Test
