@@ -70,15 +70,95 @@ The theoretical optimal sat at 1:26.141. Another 0.298 seconds available if Sect
 
 Sub-1:26.5? Done in session one. Sub-1:26.0? Within reach. Championship pace? Closer than it had any right to be after eighteen months away.
 
+**Day 2 Morning: The Alien's Secret**
+
+There's a difference between going fast and understanding why you're fast. Christmas Day proved Master Lonn had the speed back. Day 2 was about learning from someone faster.
+
+Eric Wong. 1:24.296. Two full seconds quicker. Not a different car or setup—just a different understanding of how to use them.
+
+Little Padawan laid the telemetry side by side. Two laps. Same track. Same car. Different philosophies.
+
+And there, in the data traces, was the answer hiding in plain sight: **Eric never touched the brakes at Turn 5**.
+
+The long double-apex left—Master Lonn had been treating it like a traditional corner. Brake, turn, throttle. The way you're supposed to. Except Eric wasn't braking at all. Just lifting. Downshifting to third. Letting the engine slow the car. And somehow staying flat through Turn 6 where Master Lonn had to lift.
+
+It felt wrong. Counter-intuitive. How do you enter a corner fast enough to need slowing but not use the brake pedal?
+
+But the data doesn't lie. Eric's technique was **0.4 seconds faster** through that sequence. Not slightly faster. Monumentally faster.
+
+Master Lonn went back out. Turn 5 approaching. Foot moved toward the brake. Stopped. Lifted throttle instead. Downshift to third. The engine screamed resistance. The car slowed—progressively, smoothly, rear-biased weight transfer loading the back tires.
+
+The car rotated. Not snapping loose. Not understeering. Just... turning. Like it wanted to.
+
+And then Turn 6. The moment of truth. Stayed flat. The car held. Speed carried through.
+
+**1:26.417**. Another 0.022 seconds faster.
+
+"Scary fast," he said later, "but the car stays more stable than expected."
+
+That's when you know you've found something real. When the thing that terrifies you turns out to be what the car wanted all along.
+
+**Day 2 Afternoon: The Understanding**
+
+Between sessions, Master Lonn did something he'd never done before. He read. Track guides. VRS notes. Setup sheets.
+
+Winton runs a SHORT gear stack. Rudskogen ran TALL. He'd never thought about what that meant. Gears were just... gears. You shift when the light comes on.
+
+But SHORT stack meant something. Close ratios. Strong engine braking. Forgiving shift windows. The car was TELLING him to use engine braking. The setup was DESIGNED for it.
+
+And suddenly it clicked. Not in his hands this time. In his head.
+
+"The rotation is more smooth than trail braking," he said, almost surprised by his own words. "Less abrupt weight transfer."
+
+Trail braking—his weapon at Rudskogen—loaded the front hard and fast. Engine braking loaded the rear progressively. And in a light car like the FF1600, progressive beats aggressive every time.
+
+He wasn't just executing a technique anymore. He was understanding the physics behind why it worked.
+
+Session 3 wasn't about finding speed. It was about trusting what he now knew.
+
+Turn 5 came up. No hesitation. Lift, downshift, wide arc through the double apex. The car rotated like it was choreographed. Turn 6 flowed. Turn 7 flowed.
+
+Ten laps in, Little Padawan called from the pit wall: "New PB. 1:26.090."
+
+**0.327 seconds**. In one afternoon session.
+
+Not from trying harder. From understanding better.
+
+The incidents told the story too. Session 2: ten incidents, exploring limits. Session 3: four incidents. Half. Because when you understand WHY something works, you stop fighting the car and start working with it.
+
+**The Engineering Mind**
+
+That evening, the questions started.
+
+"Wait, so gear stack affects engine braking strength?"  
+"If I shift by sound instead of sight, does that work on any gear stack?"  
+"SHORT stack is more forgiving because... the RPM drops are smaller?"
+
+Master Lonn wasn't asking for coaching anymore. He was asking to understand the engineering. Little Padawan answered each question, and each answer led to three more.
+
+By midnight, there was a new document in the knowledge base: _Gears & Shifting Guide_. Six hundred lines. SHORT vs TALL stacks. Engine braking as a rotation tool. Sound-based shifting. The physics of why 7000 RPM sounds the same regardless of which gear you're in.
+
+From driver to racer to engineer in seventy-two hours.
+
 **What It Means**
 
-The pattern is now confirmed across three tracks. Jefferson: master a new track in seven days, victory on day five, flow state discovered. Rudskogen: return after six months, beat the old PB in three days, top 500 globally by day five. Winton: return after eighteen months, beat the old PB in one session, identify focus area before lap 20.
+The numbers tell one story: 1:26.439 to 1:26.090 in two days. Three personal bests. Top 23.7% on the all-time Garage 61 leaderboard.
 
-This isn't luck. This isn't random. This is transferable skill development working exactly as it should.
+But the real story is what happened between the numbers.
 
-The week ahead: dial in Sector 4, push toward that theoretical optimal, then race execution. The Cold Tire Contract v2.0 now has a Winton addendum. Turn 11 at 60 meters, laps 1-2. No negotiation.
+Master Lonn didn't just get faster at Winton. He evolved how he thinks about driving. Jefferson taught him flow state. Rudskogen taught him strategic thinking. Winton taught him engineering.
 
-Master Lonn came to Winton asking if the speed would transfer. The track answered before he finished the question.
+The quote that will define this week—maybe this season: "The rotation is more smooth than trail braking. Less abrupt weight transfer."
+
+That's not driver analysis. That's engineer thinking. Comparing two techniques. Identifying the physics difference. Choosing the optimal solution for the specific car and track.
+
+The pattern across three tracks now includes a fourth dimension: skill **compounds**. Each breakthrough doesn't just make you faster at that track. It changes how you think about the next track.
+
+Race week starts tomorrow. AI races to make the technique bulletproof. Then official races with the Cold Tire Contract v2.0 fully loaded: Turn 11 at 60 meters, engine braking at Turn 5, progressive brake bias (57% → 56.5% → 56%).
+
+Master Lonn came to Winton with a question: can I beat eighteen months of rust?
+
+The answer: the rust was never the problem. The growth that happened in those eighteen months was the weapon.
 
 ---
 
@@ -124,20 +204,23 @@ But the real breakthrough was mental. Flow state appeared—that place where the
 
 **Week-by-Week Progression:**
 
-| Week   | Track             | Best Lap        | Achievement                     | Standings                                          |
-| :----- | :---------------- | :-------------- | :------------------------------ | :------------------------------------------------- |
-| **01** | Jefferson Circuit | 50.592s         | Victory + Flow State Discovered | [Week 01 Report](weeks/week01/standings-report.md) |
-| **02** | Rudskogen         | **1:28.508** 🏆 | Race PB + Top 500 Global + Pole | [Week 02 Report](weeks/week02/standings-report.md) |
-| **03** | Winton            | **1:26.439** ✨ | Beat 18mo PB in Session 1       | Race Week Ahead                                    |
+| Week   | Track             | Best Lap        | Achievement                             | Standings                                          |
+| :----- | :---------------- | :-------------- | :-------------------------------------- | :------------------------------------------------- |
+| **01** | Jefferson Circuit | 50.592s         | Victory + Flow State Discovered         | [Week 01 Report](weeks/week01/standings-report.md) |
+| **02** | Rudskogen         | **1:28.508** 🏆 | Race PB + Top 500 Global + Pole         | [Week 02 Report](weeks/week02/standings-report.md) |
+| **03** | Winton            | **1:26.090** 🔥 | Engineering Mind Unlocked (0.745s drop) | [Week 03 Summary](weeks/week03/README.md)          |
 
 **What's Been Unlocked:**
 
 - **Flow State Execution**: Jefferson proved it exists, Rudskogen confirmed it transfers
 - **Early Throttle Application**: +26% acceleration increase (0.193g more), now permanent technique
 - **57.5% Brake Bias**: Optimized for trail braking style, enables harder braking with better control
+- **Engine Braking Mastery**: Winton taught progressive rotation (lift + downshift) > aggressive braking
+- **Gear Stack Understanding**: SHORT vs TALL stacks decoded, shift by sound (7k RPM), forgiveness windows mapped
+- **Engineering Thinking**: From executing techniques to understanding physics ("more smooth than trail braking")
 - **Strategic Maturity**: Position Secured Protocol, Mental Reset post-incident, survival pace vs attack pace
 - **Data-Driven Focus**: Specific brake markers (50m board), sector analysis, visual reference points
-- **Skill Transfer Confirmed**: Jefferson→Rudskogen→Winton, each track breakthrough builds on the last
+- **Skill Compounding**: Jefferson→Rudskogen→Winton, each breakthrough changes how you think about the next track
 
 **The Only Frontier:**
 
@@ -147,13 +230,15 @@ Cold Tire Contract v2.0 execution. Speed is there (top 500 globally, pole positi
 
 ### What's Next
 
-**This Week**: Winton Motor Raceway races begin. Session 1 crushed the primary goal (beat 18mo PB, sub-1:26.5 achieved). Session 2+ mission: dial in Sector 4 (0.92s/lap available), push toward 1:26.141 theoretical optimal, execute Cold Tire Contract in races (Turn 11 = 60m braking on laps 1-2, no negotiation).
+**This Week**: Winton race week. Practice complete (1:26.090, top 23.7%). Three sessions. Three breakthroughs. Engine braking mastered, gear stacks decoded, engineering mind unlocked.
 
-**The Goal**: Top 250 overall standings (currently P294, need +44 positions), 1550+ iRating (+56 minimum), front-row quali consistency maintained, finish where you qualify (close the 7-percentile gap), 4-6 races minimum.
+**The Technique**: T5-T6-T7 sequence (engine braking, wide arc, flat through T6). Progressive brake bias (57% L1-2 → 56.5% L3-5 → 56% L6+). Sound-based shifting (7k RPM pitch). Cold Tire Contract at T11 (60m, not 50m).
 
-**The Mission**: Prove the pattern is universal. Jefferson showed mastery is possible. Rudskogen showed speed transfers. Winton will confirm the system works everywhere.
+**The Goal**: Top 250 overall standings (currently P294, need +44 positions), 1550+ iRating (+56 minimum), front-row quali consistency maintained, execute where you qualify, 4-6 clean races.
 
-The rust doesn't slow him down anymore. It never stood a chance.
+**The Mission**: Make it bulletproof. AI races first (technique under pressure). Then official races (Cold Tire Contract v2.0 execution from lap 1). The speed is there. The understanding is locked. Now prove it translates to race day.
+
+From driver to racer to engineer in three days. Race week will show if engineer becomes champion.
 
 ---
 
