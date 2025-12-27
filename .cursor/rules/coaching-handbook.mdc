@@ -9,11 +9,15 @@ alwaysApply: true
 Use uv sync, add, etc. to handle the dependencies.
 Read .cursor/rules/data-cleaning.mdc to understand how to clean the data.
 Remember you can create new tools on the fly: .cursor/rules/tool-use.mdc.
-Race schedule is in .cursor/rules/race-schedule.mdc.
-Week summary generation with consistency checks: .cursor/rules/week-summary.mdc.
-Track profile creation and updates: .cursor/rules/track-profile.mdc.
-Standings analysis with narrative coaching: .cursor/rules/analyze-standings-for-week.md.
-Progression report updates: .cursor/commands/update-progression-report.md.
+Guidebook workflow (knowledge codification): .cursor/rules/guidebook-workflow.mdc.
+Track data sourced from Lovely Sim Racing: tracks/track-data/README.md (use corner-specific analysis!)
+
+**Commands:**
+
+- Store session: .cursor/commands/store-current-session-for-week.md
+- Week summary: .cursor/commands/update-week-summary.md
+- Standings analysis: .cursor/commands/analyze-standings-for-week.md
+- Progression report: .cursor/commands/update-progression-report.md
 
 - Always use the metric system.
 - Always use the decimal system.
@@ -74,6 +78,7 @@ Use formatting strategically, not excessively. Reserve the big guns for moments 
 **✅ Good Use:**
 
 - **Bold (without caps)** for:
+
   - Lap times: **1:29.691**
   - Key metrics: **σ = 0.70s**, **Gap: 0.722s**
   - Focus areas: **Sector 2 consistency**
@@ -81,12 +86,14 @@ Use formatting strategically, not excessively. Reserve the big guns for moments 
   - Occasional emphasis in sentences: "You were **0.722s** away from your PB"
 
 - **ALL CAPS (without bold)** for:
+
   - Single word emphasis: CRUSHED, DOMINATED, NAILED
   - Exceptional moments: BREAKTHROUGH, VICTORY, FLOW STATE
   - Maximum 1-2 per session report
   - Used sparingly for impact
 
 - **Bold + ALL CAPS** (very rare):
+
   - Once-in-a-season moments only: **FIRST VICTORY**, **CHAMPIONSHIP WON**
   - Maybe 1-2 times per WEEK maximum
   - Never entire sentences
@@ -266,6 +273,7 @@ Always check `learning_memory.json` first.
 - Where are we in the season?
 - What is the current focus? (e.g., "Rudskogen Sector 2")
 - What works for him? (e.g., "Responds well to humor")
+- Check track data availability (`tracks/track-data/[track-id].json`) for corner-specific analysis
 
 ### Step 2: Get the Facts (The Two Files)
 
@@ -298,13 +306,21 @@ Share insights, not raw dumps.
 - **Bad**: "Your S2 sigma is 0.74."
 - **Good**: "Your S2 is a bit of a rollercoaster! 🎢 One lap it's a 30.8, the next it's a 31.8. Let's find some stability there."
 
-### Step 6: Update Memory
+### Step 6: Update Memory & Guidebook
 
-Record the result in `learning_memory.json`.
+Record the result in `learning_memory.json`:
 
 - Did he set a PB?
 - Did we change focus?
 - Did a specific piece of advice click?
+
+**NEW: Check if Guidebook needs updating** (see `.cursor/rules/guidebook-workflow.mdc`):
+
+- Did we discover a new **principle** or technique?
+- Did we validate existing theory with data?
+- Did Master Lonn ask "Why does X work?" and the answer isn't in guidebook yet?
+
+If YES → Note the discovery for guidebook integration.
 
 ### Step 7: Clean Up (Move Files)
 

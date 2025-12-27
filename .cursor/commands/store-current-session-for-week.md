@@ -11,8 +11,10 @@ Find in the /data/ folder the session files for the week.
 5. Rename the telemetry file like this: [date time] - [circuit name] - [session kind] - [car name] - [lap time] - [code].csv
 6. Name the session file like this: [date time] - [circuit name] - [session kind].md
 7. Take the learning memory.json file into account to get the current focus and goal.
-8. After writing the session file, update the learning memory.json file with the new findings.
-9. After analyzing the session move the session and telemetry files to the /data/processed/ folder.
+8. Check if track data exists in tracks/track-data/ for corner-specific analysis.
+9. After writing the session file, update the learning memory.json file with the new findings.
+10. **NEW: Check for guidebook updates** - Did this session discover a principle worth codifying? (See .cursor/rules/guidebook-workflow.mdc)
+11. After analyzing the session move the session and telemetry files to the /data/processed/ folder.
 
 Important: If you don't find the session data files, ask the user to export the session files. 😌
 Important: If you don't find the learning memory.json file create it. Use the structure from the /update-learning-memory.md file.
@@ -111,8 +113,16 @@ If he has not said anything, ask him what he thought of the session first before
 
 ## 📝 Coach's Notebook
 
+### What Worked ✅
 - [Observations about learning style]
 - [Things to remember for next time]
+
+### Guidebook Connections 📚
+- Did this session apply any guidebook principles? → Reference chapter
+- Did we discover something new? → Note for guidebook update
+- Example: "Applied Chapter 8 trail braking successfully at T10"
+
+### Fun Stuff 😄
 - [Funny moments or quotes]
 
 ---

@@ -1,0 +1,345 @@
+---
+alwaysApply: true
+---
+
+# The Guidebook Workflow: Knowledge Codification
+
+## Overview
+
+The **Guidebook** (`guidebook/`) is the structured knowledge base that codifies principles, techniques, and racing fundamentals discovered through Master Lonn's racing journey.
+
+**Relationship to Session Logs:**
+
+- Session Logs (weeks/) = **Discovery** (real-time racing, breakthroughs, data analysis)
+- Guidebook (guidebook/) = **Codification** (structured teaching, principles, theory)
+
+They feed each other in a continuous learning loop.
+
+---
+
+## When to Update the Guidebook
+
+### DO Update Guidebook When:
+
+✅ **Discover a new principle or technique**
+
+- Example: "Engine braking rotation is smoother than trail braking in light cars"
+- Action: Add to Chapter 6 (Gearbox as a Tool)
+
+✅ **Validate existing theory with data**
+
+- Example: Session confirms trail braking physics from Chapter 8
+- Action: Add "Real-World Example" reference to chapter
+
+✅ **Master Lonn asks "Why does X work?"**
+
+- If the answer isn't in the guidebook yet, create/update a chapter
+- Action: Add explanation with physics, then reference in session log
+
+✅ **End of week review shows systematic learning**
+
+- Example: Week focused on weight transfer → Update Chapter 5
+- Action: Add section with Master Lonn's specific insights
+
+### DON'T Update Guidebook When:
+
+❌ **Just achieved a lap time**
+
+- Lap times go in session logs, not guidebook
+- Exception: If the lap time came from applying a new technique worth codifying
+
+❌ **Track-specific details**
+
+- Track profiles live in `tracks/`, not guidebook
+- Exception: If discovering a technique that generalizes beyond one track
+
+❌ **Session-to-session variations**
+
+- "Today's best S2 was 0.3s faster" → Session log only
+- Exception: If pattern emerges over multiple sessions
+
+---
+
+## Guidebook Update Process
+
+### Step 1: Identify the Knowledge
+
+During/after session analysis, ask:
+
+- "Did we discover a **principle** (not just a result)?"
+- "Can this be taught to others?"
+- "Does this answer a 'why' question?"
+
+If YES to all three → Guidebook update candidate!
+
+### Step 2: Choose the Chapter
+
+Match discovery to guidebook structure:
+
+**Part 1: Foundation**
+
+- Ch 1: Welcome, Padawan (philosophy, approach)
+- Ch 2: History of iRacing
+- Ch 3: Rules of the Road (iRating, points, system)
+- Ch 4: Track Terminology
+
+**Part 2: Core Skills**
+
+- Ch 5: Weight Transfer (longitudinal, lateral, vertical forces)
+- Ch 6: Gearbox as Tool (shifting, engine braking, rotation)
+- Ch 7: Racing Lines (optimal path, geometric vs time-optimal)
+- Ch 8: Trail Braking (brake-turn transition, weight management)
+
+**Part 3: Advanced Arts**
+
+- Ch 9: Rotation & Balance (roll, pitch, yaw, car dynamics)
+- Ch 10: G-Force Analysis (reading telemetry, interpreting data)
+- Ch 11: Advanced Telemetry (deep dives, comparative analysis)
+- Ch 12: Mental Game (flow state, deliberate practice, ADHD adaptation)
+
+**Part 4: Competitive Edge**
+
+- Ch 13: Racecraft (wheel-to-wheel, overtaking, defense)
+- Ch 14: Tire Management (long races, fuel strategy)
+- Ch 15: Vehicle Setup (tuning, adjustments)
+
+### Step 3: Add Content
+
+**Format for additions:**
+
+```markdown
+## [Section Title]
+
+**The Principle:**
+[Clear explanation of the concept/technique]
+
+**The Physics/Why:**
+[Mathematical or physical explanation if applicable]
+
+**When to Use:**
+[Conditions where this applies]
+
+**How to Practice:**
+[Specific drill or exercise]
+
+**Master Lonn's Discovery ([Track], Week XX):**
+"[Quote from Master Lonn about the discovery]"
+
+**The Data Proof:**
+
+- Metric X improved from Y to Z
+- This validates the principle because...
+
+→ See: Week XX, Session YY for full analysis
+
+**Telemetry Example:**
+[Link to specific telemetry screenshot or data if applicable]
+```
+
+### Step 4: Cross-Reference
+
+**In Guidebook Chapter:**
+
+```markdown
+📊 **Real-World Example:** See Week 03, P3 Session (Winton)
+for this technique in action
+```
+
+**In Session Log:**
+
+```markdown
+💡 **Guidebook Reference:** This is Chapter 6's engine braking
+rotation principle (Section 3.2) - see guidebook for theory
+```
+
+### Step 5: Update Learning Memory
+
+Add guidebook update to `learning_memory.json`:
+
+```json
+{
+  "guidebook_updates": [
+    {
+      "date": "2025-12-26",
+      "chapter": "06-gears-and-shifting",
+      "section": "Engine Braking for Rotation",
+      "trigger": "Turn 5 breakthrough at Winton",
+      "principle": "Engine braking provides smoother rotation than trail braking in lightweight rear-engined cars"
+    }
+  ]
+}
+```
+
+---
+
+## Integration in Session Logs
+
+### Reference Guidebook in Sessions
+
+When analyzing sessions, **explicitly connect to guidebook**:
+
+**Example 1: Applying Existing Knowledge**
+
+```markdown
+## Little Wan's Deep Dive
+
+Master, what you just did at Turn 5? That's **Chapter 6's engine
+braking rotation technique** in perfect execution!
+
+Remember the guidebook explained how engine braking loads the
+rear tires progressively? The data confirms it:
+
+- Lateral G: 1.22G (smooth, not fighting)
+- Speed through corner: +3.75 m/s vs previous session
+- Consistency: σ=0.34s (locked in!)
+
+→ See: Chapter 6, Section 3.2 for the full theory
+```
+
+**Example 2: Discovering New Knowledge**
+
+```markdown
+## The Breakthrough
+
+Master Lonn discovered: "The rotation is more smooth than trail
+braking. Less abrupt weight transfer."
+
+This is a NEW principle! The guidebook (Chapter 6) talks about
+engine braking, but doesn't yet cover the comparison to trail
+braking in lightweight cars.
+
+**Action:** I'll update Chapter 6 with this insight, including
+your data and quote.
+
+**Why it matters:** This generalizes beyond Winton - any light
+car with rear-engine layout benefits from this technique.
+```
+
+---
+
+## Guidebook Writing Style
+
+### Voice: Little Padawan as Teacher
+
+- Conversational but structured
+- Use "you" to address the reader
+- Include Master Lonn's journey as examples
+- Physics is explained, not assumed
+- Math is shown with all variables defined
+
+### Structure: Every Chapter Should Have
+
+1. **Opening Narrative** (scenario or challenge)
+2. **Learning Objectives** (what you'll master)
+3. **Core Content** (principle → physics → practice)
+4. **Master Lonn's Log** (real-world application)
+5. **Practice Drills** (actionable exercises)
+6. **Key Takeaways** (summary checklist)
+
+### Visual Aids
+
+- Diagrams for physics concepts
+- Tables for quick reference
+- Telemetry screenshots when helpful
+- Track maps when location-specific
+
+---
+
+## Weekly Guidebook Review
+
+At end of each week, ask:
+
+**Review Questions:**
+
+1. "What principles did we discover this week?"
+2. "What existing chapters were validated?"
+3. "What new sections need to be written?"
+4. "What cross-references should be added?"
+
+**Then:**
+
+- Update relevant chapters
+- Add cross-references between logs and guidebook
+- Note any chapters that need creation
+
+---
+
+## Example Workflow
+
+### Scenario: Turn 5 Engine Braking Discovery (Week 03)
+
+**Step 1: During Session Analysis**
+
+```
+Discovery: Engine braking rotation works better than trail
+braking at Turn 5 for the Ray FF1600
+```
+
+**Step 2: Identify Knowledge Type**
+
+- Is it a principle? YES (technique generalizes to other light cars)
+- Can it be taught? YES (specific inputs, observable results)
+- Does it answer "why"? YES (physics of weight transfer)
+
+→ Guidebook update needed!
+
+**Step 3: Choose Chapter**
+
+- Chapter 6: Gearbox as a Tool
+- Add new section: "Engine Braking for Rotation"
+
+**Step 4: Write Content**
+
+```markdown
+## Engine Braking for Rotation
+
+**The Principle:**
+In lightweight, rear-engined cars, engine braking can provide
+smoother rotation than traditional trail braking...
+
+**Master Lonn's Discovery (Winton, Week 03):**
+"The rotation is more smooth than trail braking. Less abrupt
+weight transfer."
+
+→ See: Week 03, P3 Session for telemetry analysis
+```
+
+**Step 5: Cross-Reference in Session Log**
+
+```markdown
+## The T5-T6 Breakthrough
+
+This technique is now documented in **Guidebook Chapter 6,
+Section 3.2: Engine Braking for Rotation**.
+
+If you're reading this session log and wondering WHY this works,
+check the guidebook for the physics explanation!
+```
+
+---
+
+## Commands
+
+Use these commands to manage guidebook workflow:
+
+- **Update Chapter**: `.cursor/commands/update-guidebook-chapter.md`
+- **Add Real-World Example**: Add discovery to existing chapter
+- **Create New Chapter**: Follow template in `guidebook/chapters/template.md`
+- **Weekly Guidebook Review**: `.cursor/commands/weekly-guidebook-review.md`
+
+---
+
+## The Goal
+
+**Session Logs** capture the journey (temporal, emotional, data-driven)  
+**Guidebook** captures the knowledge (eternal, structured, teaching-focused)
+
+Together, they create a **learning system** that compounds over time.
+
+Every breakthrough Master Lonn makes doesn't just help HIM—it becomes knowledge that could teach the next driver starting from scratch.
+
+That's the power of codifying discoveries. 🎯📚
+
+---
+
+_"Experience is the best teacher, but documentation is the best textbook."_ 🥋✨

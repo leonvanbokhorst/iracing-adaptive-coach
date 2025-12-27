@@ -6,6 +6,14 @@
 
 Little Padawan is an AI-powered racing coach helping Master Lonn get faster through data-driven coaching—keeping it fun, sassy, and adapted to his ADHD brain. Read the [Season Progression Report](weeks/progression/progression-report.md) to see the full story.
 
+## The methodology
+
+<p align="center">
+  <img src="assets/learning-loop.png" alt="Learning Loop" width="800">
+</p>
+
+This visualization depicts learning as a recursive process of belief updating rather than instruction following. Quantitative data functions as constraint and evidence, but only becomes actionable through narrative sense-making that integrates experience, expectation, and uncertainty over time. The narrative does not merely explain past performance; it actively revises prior beliefs (“this is risky” → “this is conditionally stable”), which are then tested through embodied execution. The outcome of action feeds back into the narrative, selectively reinforcing or destabilizing earlier interpretations. Learning, in this model, is not the accumulation of skills or rules, but the progressive stabilization of beliefs that continue to hold under repeated contact with reality.
+
 ---
 
 ## Season 01 2026 - The Australian Test
@@ -271,3 +279,47 @@ Master Lonn's technical education library:
 _Read the detailed [Season Progression Report](weeks/progression/progression-report.md) for the full story._
 
 _Current week: [Week 03 - Winton](weeks/week03/README.md)_
+
+---
+
+## Credits & Acknowledgments 🙏
+
+### Track Data
+
+All track data (corners, straights, sectors) sourced from:
+
+**[Lovely Sim Racing - Track Data Project](https://github.com/Lovely-Sim-Racing/lovely-track-data)**  
+© 2025 by Lovely Sim Racing | Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+This comprehensive track data enables our **corner-specific telemetry analysis**, allowing Little Padawan to coach with precision:
+
+- "You're losing 3.75 m/s in **Turn 5** at the **exit phase**"
+- Instead of: "You're losing time at 40% lap distance"
+
+**Big thanks** to the Lovely Sim Racing community for creating and maintaining this incredible resource! Without your work, precision coaching wouldn't be possible. 🏁
+
+**Special thanks to**:
+
+- [Racing Circuits](https://www.racingcircuits.info/) for corner names
+- Nicolas of [SimHub](https://www.simhubdash.com/)
+- Joerg Behrens for file format feedback
+
+### Tools & Technologies
+
+- **Python** & **uv** for dependency management
+- **Pandas** & **NumPy** for data analysis
+- **Matplotlib** for visualizations
+- **Claude (Anthropic)** - Little Padawan's AI engine
+- **Cursor IDE** - Where the magic happens
+
+### Community
+
+- **iRacing** community for endless racing knowledge
+- **Garage 61** for telemetry export capabilities
+- Every driver who's shared setup tips, track guides, and racing wisdom
+
+---
+
+## License
+
+This project is personal/educational use. Track data used under CC BY-NC-SA 4.0 from Lovely Sim Racing (see attribution above).

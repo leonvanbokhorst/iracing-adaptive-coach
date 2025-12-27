@@ -19,6 +19,13 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
+# Add project root to path for imports
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
+
+from tools.core.track_data_loader import load_track_data
+from tools.core.corner_identifier import identify_location, get_progress_description
+
 
 def load_telemetry(filepath):
     """Load telemetry CSV file"""
@@ -92,13 +99,27 @@ def interpolate_telemetry(df, target_length=1000):
     return pd.DataFrame(interpolated)
 
 
-def compare_metrics(current_df, reference_df):
+def compare_metrics(current_df, reference_df, track_id=None):
     """
     Compare key metrics between current and reference laps.
     Returns factual differences only.
+    
+    Args:
+        current_df: Current lap telemetry dataframe
+        reference_df: Reference lap telemetry dataframe
+        track_id: Optional track identifier for corner-specific analysis
     """
     if current_df is None or reference_df is None:
         return {"error": "Could not load one or both telemetry files"}
+    
+    # Load track data if provided
+    track_data = None
+    if track_id:
+        try:
+            track_data = load_track_data(track_id)
+        except FileNotFoundError:
+            # Track data not available, continue without corner context
+            pass
     
     # Interpolate both to same length for comparison
     current_interp = interpolate_telemetry(current_df)
@@ -242,6 +263,14 @@ def compare_metrics(current_df, reference_df):
                 "speed_diff": float(current_interp.iloc[idx]['Speed'] - reference_interp.iloc[idx]['Speed'])
             }
             
+            # Add corner context if track data is available
+            if track_data:
+                location = identify_location(pct, track_data)
+                point["corner_name"] = location['name']
+                point["corner_type"] = location['type']
+                point["corner_progress"] = get_progress_description(location['progress_through'])
+                point["sector"] = location['sector']
+            
             if 'Brake' in current_interp.columns:
                 point["current_brake"] = float(current_interp.iloc[idx]['Brake'])
                 point["reference_brake"] = float(reference_interp.iloc[idx]['Brake'])
@@ -266,6 +295,14 @@ def compare_metrics(current_df, reference_df):
                 point["reference_steering"] = float(abs(reference_interp.iloc[idx]['SteeringWheelAngle']))
             
             comparison["distance_comparison"].append(point)
+    
+    # --- Corner-by-Corner Analysis (if track data available) ---
+    if track_data and 'Speed' in current_interp.columns and 'Speed' in reference_interp.columns:
+        comparison["corner_analysis"] = analyze_corners(
+            current_interp, 
+            reference_interp, 
+            track_data
+        )
     
     return comparison
 
@@ -324,6 +361,99 @@ def analyze_overdriving(current_df, reference_df):
     return indicators
 
 
+def analyze_corners(current_df, reference_df, track_data):
+    """
+    Analyze performance corner-by-corner.
+    
+    Args:
+        current_df: Current lap interpolated telemetry
+        reference_df: Reference lap interpolated telemetry
+        track_data: Track data dictionary
+    
+    Returns:
+        Dictionary with corner-by-corner analysis
+    """
+    corner_analysis = []
+    
+    # Analyze each turn
+    for turn in track_data.get('turn', []):
+        # Find data points within this corner
+        mask = (current_df['distance_pct'] >= turn['start']) & (current_df['distance_pct'] <= turn['end'])
+        
+        if mask.sum() == 0:
+            continue
+        
+        current_corner = current_df[mask]
+        reference_corner = reference_df[mask]
+        
+        if len(current_corner) == 0 or len(reference_corner) == 0:
+            continue
+        
+        # Calculate corner metrics
+        corner_metrics = {
+            "corner_name": turn['name'],
+            "corner_type": "turn",
+            "start_pct": float(turn['start']),
+            "end_pct": float(turn['end']),
+            "length_pct": float(turn['end'] - turn['start'])
+        }
+        
+        # Speed analysis
+        corner_metrics["current_min_speed"] = float(current_corner['Speed'].min())
+        corner_metrics["reference_min_speed"] = float(reference_corner['Speed'].min())
+        corner_metrics["min_speed_diff"] = float(current_corner['Speed'].min() - reference_corner['Speed'].min())
+        
+        corner_metrics["current_avg_speed"] = float(current_corner['Speed'].mean())
+        corner_metrics["reference_avg_speed"] = float(reference_corner['Speed'].mean())
+        corner_metrics["avg_speed_diff"] = float(current_corner['Speed'].mean() - reference_corner['Speed'].mean())
+        
+        # Exit speed (last 20% of corner)
+        exit_mask_start = int(len(current_corner) * 0.8)
+        corner_metrics["current_exit_speed"] = float(current_corner['Speed'].iloc[exit_mask_start:].mean())
+        corner_metrics["reference_exit_speed"] = float(reference_corner['Speed'].iloc[exit_mask_start:].mean())
+        corner_metrics["exit_speed_diff"] = float(
+            current_corner['Speed'].iloc[exit_mask_start:].mean() - 
+            reference_corner['Speed'].iloc[exit_mask_start:].mean()
+        )
+        
+        # Braking analysis (if available)
+        if 'Brake' in current_corner.columns:
+            current_braking = (current_corner['Brake'] > 0.1).sum()
+            reference_braking = (reference_corner['Brake'] > 0.1).sum()
+            total_points = len(current_corner)
+            
+            corner_metrics["current_braking_pct"] = float((current_braking / total_points) * 100)
+            corner_metrics["reference_braking_pct"] = float((reference_braking / total_points) * 100)
+            corner_metrics["braking_diff_pct"] = float(
+                (current_braking - reference_braking) / total_points * 100
+            )
+        
+        # Lateral G analysis
+        if 'LatAccel' in current_corner.columns:
+            corner_metrics["current_avg_lat_g"] = float(current_corner['LatAccel'].abs().mean())
+            corner_metrics["reference_avg_lat_g"] = float(reference_corner['LatAccel'].abs().mean())
+            corner_metrics["lat_g_diff"] = float(
+                current_corner['LatAccel'].abs().mean() - reference_corner['LatAccel'].abs().mean()
+            )
+            
+            corner_metrics["current_max_lat_g"] = float(current_corner['LatAccel'].abs().max())
+            corner_metrics["reference_max_lat_g"] = float(reference_corner['LatAccel'].abs().max())
+        
+        # Estimate time loss (rough calculation based on avg speed and corner length)
+        # Time = Distance / Speed
+        corner_length_m = track_data.get('length', 3000) * corner_metrics["length_pct"]
+        current_time = corner_length_m / (corner_metrics["current_avg_speed"] + 0.01)  # avoid div by 0
+        reference_time = corner_length_m / (corner_metrics["reference_avg_speed"] + 0.01)
+        corner_metrics["estimated_time_loss"] = float(current_time - reference_time)
+        
+        corner_analysis.append(corner_metrics)
+    
+    # Sort by time loss (biggest losses first)
+    corner_analysis.sort(key=lambda x: x.get('estimated_time_loss', 0), reverse=True)
+    
+    return corner_analysis
+
+
 def find_zones(df, column, threshold=0.1):
     """Find zones where a column value exceeds threshold"""
     zones = []
@@ -343,14 +473,15 @@ def find_zones(df, column, threshold=0.1):
 
 
 def main():
-    if len(sys.argv) != 3:
+    if len(sys.argv) < 3 or len(sys.argv) > 4:
         print(json.dumps({
-            "error": "Usage: python compare_telemetry.py <current_lap.csv> <reference_lap.csv>"
+            "error": "Usage: python compare_telemetry.py <current_lap.csv> <reference_lap.csv> [track_id]"
         }))
         sys.exit(1)
     
     current_file = Path(sys.argv[1])
     reference_file = Path(sys.argv[2])
+    track_id = sys.argv[3] if len(sys.argv) == 4 else None
     
     if not current_file.exists():
         print(json.dumps({"error": f"Current lap file not found: {current_file}"}))
@@ -364,8 +495,8 @@ def main():
     current_df = load_telemetry(current_file)
     reference_df = load_telemetry(reference_file)
     
-    # Compare
-    comparison = compare_metrics(current_df, reference_df)
+    # Compare (with optional track context)
+    comparison = compare_metrics(current_df, reference_df, track_id=track_id)
     
     # Output JSON
     print(json.dumps(comparison, indent=2))

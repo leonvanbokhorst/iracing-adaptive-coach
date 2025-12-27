@@ -1,189 +1,513 @@
-# G-Force Analysis Guide: The Tire Story Without Tire Temps
+# Chapter 10: Reading the Tea Leaves - G-Force Analysis
 
-**Why G-Forces Matter More Than Tire Temps (For Now)**
+**Narrative Hook:**
 
-At your current level, G-force data tells you 90% of what tire temps would tell you, but in a MORE actionable way.
+Master Lonn finishes two laps at Winton—one fast (1:29.691), one slow (1:30.2). They FEEL similar, but one is half a second faster.
 
----
+"Little Wan, they felt the same to me! How do I know what I did differently?"
 
-## What Each Metric Means
+Little Padawan pulls up the G-force traces. "Master, look HERE—your lateral G on the fast lap is smooth and sustained. The slow lap? Spiky and oscillating. The numbers don't lie. Let me show you how to read the tea leaves..."
 
-### 1. Lateral G (Cornering Load)
+**Learning Objectives:**
 
-**What it is:** How hard you're pushing the tires sideways through corners.
-
-**Good Signs:**
-
-- ✅ High lateral G (close to 2.0g+ in FF1600)
-- ✅ Smooth lateral G (low standard deviation)
-- ✅ Consistent lateral G lap-to-lap
-
-**Warning Signs:**
-
-- ⚠️ Low lateral G in fast corners = leaving grip unused
-- ⚠️ Spiky lateral G = sliding/overdriving
-- ⚠️ Lower lateral G than reference = not loading tires enough
-
-**What Little Padawan Will Say:**
-
-- "Your max lateral G is 2.1g but reference is 2.4g - you're leaving 0.3g on the table!"
-- "Your lateral G smoothness is 0.15 vs reference 0.08 - you're fighting the car more."
+- Understand the 5 key G-force metrics
+- Read lateral G (cornering load analysis)
+- Read longitudinal G (braking/acceleration analysis)
+- Calculate steering efficiency (grip usage)
+- Detect overdriving (fighting the car)
+- Use G-force data to improve technique
 
 ---
 
-### 2. Longitudinal G (Braking/Acceleration)
+## Why G-Forces Matter More Than Tire Temps (For Now)
 
-**What it is:** How hard you're loading tires under braking and acceleration.
+### The Problem with Tire Temps
 
-**Good Signs:**
+**Tire temps tell you:**
+- Surface temperature of the tire
+- Whether you're over/under-heating them
 
-- ✅ High braking G (shows commitment)
-- ✅ Smooth braking G (not locking up)
-- ✅ Good acceleration G (good exits)
+**But you need:**
+- To be at advanced level to interpret them
+- To understand temperature ranges for your tire compound
+- Multiple laps of reference data
 
-**Warning Signs:**
+**At your current level, tire temps are information overload.**
 
-- ⚠️ Low braking G = braking too early/softly
-- ⚠️ Spiky braking G = unstable/locking
-- ⚠️ Low accel G = losing exit speed
+### The Power of G-Forces
 
-**What Little Padawan Will Say:**
+**G-force data tells you:**
 
-- "Your max braking G is -1.5g but reference is -1.8g - you're leaving braking performance unused!"
-- "Your braking is smooth (σ = 0.05) - that's good technique!"
+✅ **How hard you're loading the tires** (lateral/longitudinal)  
+✅ **How smoothly you're driving** (consistency)  
+✅ **Where you're overdriving** (fighting vs flowing)  
+✅ **How efficiently you're using grip** (steering efficiency)
 
----
+**And it's INSTANTLY actionable.**
 
-### 3. Steering Efficiency (G per Degree)
+No need to understand temperature ranges or compounds. Just smooth curves = fast laps.
 
-**What it is:** How much lateral G you get per degree of steering input.
+**Master Lonn's Breakthrough (Week 03):**
 
-**Formula:** `Lateral G / Steering Angle = Efficiency`
-
-**Good Signs:**
-
-- ✅ High efficiency (90-100+ g/deg) = flowing, not sliding
-- ✅ Higher than reference = better grip usage
-- ✅ Consistent efficiency = smooth driver
-
-**Warning Signs:**
-
-- ⚠️ Low efficiency (< 80 g/deg) = sliding/overdriving
-- ⚠️ Lower than reference = working harder for less grip
-- ⚠️ Spiky efficiency = inconsistent inputs
-
-**What Little Padawan Will Say:**
-
-- "Your steering efficiency is 85 g/deg vs reference 95 g/deg - you're working the wheel 10% harder for the same grip!"
-- "That means you're sliding or being too aggressive with inputs."
+Little Padawan showed your traction circle (G-force visualization). Fast lap = smooth path. Slow lap = erratic loops. **Same driver, different technique.** The data proved it!
 
 ---
 
-### 4. Overdriving Detection
+## Part 1: Lateral G (Cornering Load)
 
-**What it is:** % of lap where you're using MORE steering but getting LESS lateral G than reference.
+### What It Is
 
-**Formula:** `(More Steering + Less Lat G) / Total Lap = Overdriving %`
+**Lateral G:** How hard you're pushing the tires sideways through corners.
 
-**Good Signs:**
+**Measured in:** G-forces (1.0g = 1× gravity, 2.0g = 2× gravity)
 
-- ✅ Overdriving % < 10% = mostly in control
-- ✅ Better technique % > 20% = improving over reference
-- ✅ Low steering smoothness (σ) = not sawing
+**In the FF1600:**
+- Typical peak: **1.0–1.3 G** (medium corners)
+- Maximum: **2.0–2.4 G** (fast corners, sustained)
+- Spikes: **2.5–3.0 G** (momentary, over bumps/curbs)
 
-**Warning Signs:**
+### Good Signs ✅
 
-- ⚠️ Overdriving % > 20% = fighting the car a lot
-- ⚠️ Better technique % < 10% = not improving technique
-- ⚠️ High steering smoothness (σ > 0.1) = sawing the wheel
+**High lateral G:**
+- Close to 2.0g+ in fast corners
+- Shows you're loading tires properly
+- Using available grip
 
-**What Little Padawan Will Say:**
+**Smooth lateral G:**
+- Low standard deviation (σ < 0.1)
+- Consistent curve, not spiky
+- Shows smooth steering inputs
 
-- "You're overdriving 25% of the lap - that's where you're losing time!"
-- "At 40% lap distance, you're using 5 degrees more steering but getting 0.3g LESS grip. That's sliding, Master."
-- "Good news: 30% of the lap you're using LESS steering and getting MORE grip. Build on that!"
+**Consistent lap-to-lap:**
+- Similar peak G every lap
+- Repeatable technique
+- Confidence in the limit
+
+### Warning Signs ⚠️
+
+**Low lateral G:**
+- Below reference driver
+- Leaving grip unused
+- Not pushing hard enough
+
+**Spiky lateral G:**
+- High σ (> 0.15)
+- Fighting the car
+- Sliding or correcting
+
+**Inconsistent lap-to-lap:**
+- Different peaks every lap
+- Technique not repeatable
+- Finding the limit randomly
+
+### Visual: Good vs Bad Lateral G
+
+**Good (Smooth Arc):**
+
+```
+Lat G:  ___/‾‾‾‾‾\___
+           Smooth!
+```
+
+**Bad (Spiky):**
+
+```
+Lat G:  ___/\__/\___
+          Fighting!
+```
+
+**Master Lonn's Example (Week 03, Winton T5):**
+
+**Tight line:**
+- Peak lateral G: 1.62 G
+- Smoothness (σ): 0.18 (spiky!)
+- Fighting the car
+
+**Wide line:**
+- Peak lateral G: 1.22 G
+- Smoothness (σ): 0.08 (smooth!)
+- Flowing
+
+**Result:** Lower peak G BUT smoother = **FASTER!** 🚀
+
+**The lesson:** Smooth > Peak!
 
 ---
 
-### 5. Combined Total G (Overall Load)
+## Part 2: Longitudinal G (Braking/Acceleration)
 
-**What it is:** Total load on car (lateral + longitudinal combined).
+### What It Is
 
-**Formula:** `sqrt(Lat G² + Long G²)`
+**Longitudinal G:** How hard you're loading tires under braking (negative) and acceleration (positive).
 
-**Good Signs:**
+**In the FF1600:**
+- **Braking:** -1.5 to -2.0 G (hard braking)
+- **Acceleration:** +0.5 to +0.8 G (limited by power)
 
-- ✅ High total G (2.5-3.0g+) = using available grip
-- ✅ Consistent total G = smooth driving
-- ✅ Close to reference = similar car control
+### Good Signs ✅
 
-**Warning Signs:**
+**High braking G:**
+- Close to -1.8 to -2.0 G
+- Shows commitment
+- Using all available braking grip
 
-- ⚠️ Low total G = leaving performance on table
-- ⚠️ Spiky total G = unstable driving
-- ⚠️ Much lower than reference = not pushing hard enough
+**Smooth braking G:**
+- Progressive application
+- Gradual trail-off
+- No sudden spikes (lockups)
 
-**What Little Padawan Will Say:**
+**Good acceleration G:**
+- Quick ramp to max
+- Sustained at max
+- Shows good exits
 
-- "Your max total G is 2.8g vs reference 3.1g - you're not loading the car as hard."
-- "That 0.3g difference is costing you time around the lap."
+### Warning Signs ⚠️
+
+**Low braking G:**
+- Only -1.2 to -1.4 G
+- Braking too early/softly
+- Leaving braking performance unused
+
+**Spiky braking G:**
+- Sharp peaks and valleys
+- Locking wheels
+- Unstable/inconsistent
+
+**Low acceleration G:**
+- Slow ramp, not sustained
+- Losing exit speed
+- Wheelspin or hesitation
+
+### Visual: Good vs Bad Braking
+
+**Good (Smooth Trail-Off):**
+
+```
+Long G:  ____|‾‾‾\___
+         Brake  Trail
+```
+
+**Bad (Abrupt Release):**
+
+```
+Long G:  ____|‾|___
+         Sharp drop!
+```
+
+**Master Lonn's Trail Braking (Week 02, Rudskogen T2):**
+
+**Before:**
+- Abrupt brake release (sudden drop)
+- Longitudinal G spiky
+- Car understeers
+
+**After:**
+- Smooth trail-off (gradual ramp down)
+- Longitudinal G smooth
+- Car rotates beautifully
+
+**Result:** 0.659s gain in ONE corner! ✅
 
 ---
 
-## How to Use This in Practice
+## Part 3: Steering Efficiency (G per Degree)
+
+### What It Is
+
+**Steering efficiency:** How much lateral G you get per degree of steering input.
+
+**Formula:**
+
+```
+Efficiency = Lateral G / Steering Angle (in degrees)
+```
+
+**Example:**
+
+- **Lateral G:** 1.8 G
+- **Steering:** 20 degrees
+- **Efficiency:** 1.8 / 20 = **0.09 G/degree** (or 90 units)
+
+### Good Signs ✅
+
+**High efficiency (90-100+):**
+- Flowing, not sliding
+- Car responding to inputs
+- Using grip efficiently
+
+**Higher than reference:**
+- Better grip usage
+- Better line or technique
+
+**Consistent efficiency:**
+- Smooth driver
+- Repeatable technique
+
+### Warning Signs ⚠️
+
+**Low efficiency (<80):**
+- Sliding/overdriving
+- Working harder for less grip
+- Fighting the car
+
+**Lower than reference:**
+- Need more steering for same grip
+- Line or technique issue
+
+**Spiky efficiency:**
+- Inconsistent inputs
+- Not smooth
+
+**Master Lonn's Realization:**
+
+"So if I'm using MORE steering but getting LESS lateral G... I'm sliding?"
+
+**Exactly, Master!** That's the definition of overdriving. ✅
+
+---
+
+## Part 4: Overdriving Detection
+
+### What It Is
+
+**Overdriving %:** Percentage of lap where you're using MORE steering but getting LESS lateral G than reference.
+
+**Formula:**
+
+```
+Overdriving % = (Points where More Steering + Less Lat G) / Total Points
+```
+
+**This tells you:** Where you're fighting the car vs. flowing.
+
+### Good Signs ✅
+
+**Overdriving % < 10%:**
+- Mostly in control
+- Flowing through corners
+- Technique is good
+
+**Better technique % > 20%:**
+- Using LESS steering, getting MORE grip
+- Improving over reference
+- Excellent driving
+
+### Warning Signs ⚠️
+
+**Overdriving % > 20%:**
+- Fighting the car a lot
+- Sliding or overcorrecting
+- Technique needs work
+
+**Better technique % < 10%:**
+- Not improving over reference
+- Need to find better line/technique
+
+**High steering σ (> 0.1):**
+- Sawing at the wheel
+- Constant corrections
+- Fighting the car
+
+### Master Lonn's Traction Circle Analysis (Week 03)
+
+**Slow lap:**
+- Overdriving visible (erratic loops)
+- Fighting the car
+- Peak G spikes outside sustainable limit
+
+**Fast lap:**
+- Smooth path on traction circle
+- Flowing
+- Sustained G on the limit
+
+**Same average G, but fast lap had:**
+- Lower peak forces (2.11 G vs 2.18 G)
+- Smoother path (0.0225 vs 0.0230 σ)
+- **0.619 seconds faster!**
+
+**The data doesn't lie.** Smooth = fast.
+
+---
+
+## Part 5: Combined Total G (Overall Load)
+
+### What It Is
+
+**Total G:** Total load on car (lateral + longitudinal combined).
+
+**Formula:**
+
+```
+Total G = √(Lateral G² + Longitudinal G²)
+```
+
+**Example:**
+
+- **Lateral G:** 1.8 G (cornering)
+- **Longitudinal G:** -1.2 G (braking)
+- **Total G:** √(1.8² + 1.2²) = √(3.24 + 1.44) = **√4.68 = 2.16 G**
+
+### Good Signs ✅
+
+**High total G (2.5-3.0g+):**
+- Using available grip
+- Loading the car properly
+- Pushing hard
+
+**Consistent total G:**
+- Smooth driving
+- Repeatable technique
+
+**Close to reference:**
+- Similar car control
+- Competitive pace
+
+### Warning Signs ⚠️
+
+**Low total G (<2.5g):**
+- Leaving performance on table
+- Not pushing hard enough
+- Underusing grip
+
+**Spiky total G:**
+- Unstable driving
+- Fighting the car
+- Inconsistent technique
+
+**Much lower than reference:**
+- Significant technique gap
+- Need to study reference approach
+
+---
+
+## Part 6: How to Use This in Practice
 
 ### Before Session
 
-Review last comparison to know focus areas:
+**Review last comparison** to know focus areas:
 
 - "Last time I was overdriving 30% of the lap, especially in S2"
 - "My steering efficiency was low in high-speed corners"
+- "I was braking too softly (only -1.4 G vs reference -1.8 G)"
+
+**Set ONE focus for this session:**
+
+"Today: Brake harder initially, smooth trail-off"
 
 ### During Session
 
-Focus on FEELING the grip:
+**Focus on FEELING the grip:**
 
 - "Am I sawing the wheel or being smooth?"
 - "Can I feel the car loading up through this corner?"
 - "Am I fighting it or flowing?"
 
+**Don't look at numbers while driving!** Feel first, analyze after.
+
 ### After Session
 
-Compare G-forces to see if technique improved:
+**Compare G-forces** to see if technique improved:
 
-- "Did my lateral G smoothness improve?"
-- "Is my overdriving % lower?"
-- "Did my steering efficiency go up?"
+- "Did my lateral G smoothness improve?" (target: σ < 0.10)
+- "Is my overdriving % lower?" (target: < 15%)
+- "Did my steering efficiency go up?" (target: > 85)
+
+**Master Lonn's Approach (Week 03):**
+
+After each session, Little Padawan shows traction circle comparison. You can SEE if the driving was smoother. Data validates the feeling!
 
 ---
 
 ## Quick Reference Table
 
-| Metric                  | Good               | Warning    | Action                           |
-| ----------------------- | ------------------ | ---------- | -------------------------------- |
-| **Lateral G**           | High, smooth       | Low, spiky | Load tires more, smooth inputs   |
-| **Longitudinal G**      | High braking/accel | Low, spiky | Brake harder/later, better exits |
-| **Steering Efficiency** | > 90 g/deg         | < 80 g/deg | Smooth inputs, less sawing       |
-| **Overdriving %**       | < 10%              | > 20%      | Gentler inputs, let car settle   |
-| **Better Technique %**  | > 20%              | < 10%      | Keep doing what's working!       |
-| **Total G**             | > 2.8g             | < 2.5g     | Push harder, use available grip  |
+| Metric | Good | Warning | Action |
+|--------|------|---------|--------|
+| **Lateral G** | High, smooth (1.8-2.0 G, σ < 0.10) | Low, spiky (< 1.5 G, σ > 0.15) | Load tires more, smooth inputs |
+| **Longitudinal G** | High braking (-1.8 G+), smooth | Low, spiky (-1.2 G, σ > 0.10) | Brake harder/later, better exits |
+| **Steering Efficiency** | > 90 G/deg | < 80 G/deg | Smooth inputs, less sawing |
+| **Overdriving %** | < 10% | > 20% | Gentler inputs, let car settle |
+| **Better Technique %** | > 20% | < 10% | Keep doing what's working! |
+| **Total G** | > 2.8 G | < 2.5 G | Push harder, use available grip |
 
 ---
 
-## The Bottom Line
+## Padawan Practice Drills
 
-**G-Forces ARE the tire story:**
+### Drill 1: The Smooth Lateral G Challenge
 
-- **High lateral G** = tires are loaded and gripping
-- **Low lateral G** = tires are underused or sliding
-- **Steering efficiency** = how well you're managing grip
-- **Overdriving %** = where you're fighting the car
-- **Better technique %** = where you're flowing
+**Goal:** Achieve smooth lateral G trace (σ < 0.10)
 
-You don't need tire temps to know if you're overdriving or underusing grip. The G-forces tell you in real-time, lap by lap.
+**Process:**
 
-**Focus on:** Smooth inputs → High G-forces → Better lap times
+1. Drive 3 laps at one track
+2. Ask Little Padawan to show lateral G σ
+3. Goal: Reduce σ each session
+4. Focus: Smooth steering, no corrections
+
+**Success:** σ drops from 0.15 → 0.08 (measurable improvement)
+
+### Drill 2: The Braking Commitment Test
+
+**Goal:** Increase max braking G
+
+**Process:**
+
+1. Baseline: Note current max braking G
+2. Focus: Brake HARDER initially (but still trail off)
+3. After 5 laps: Check new max braking G
+4. Target: +0.2 G improvement
+
+**Success:** Max braking G increases without lockups.
+
+### Drill 3: The Efficiency Hunt
+
+**Goal:** Find where your efficiency is low
+
+**Process:**
+
+1. Ask Little Padawan: "Where is my efficiency lowest?"
+2. Identify the corners (e.g., "T5 and T10")
+3. Focus ONLY on those corners next session
+4. Try: Wider line, less steering, smoother inputs
+
+**Success:** Efficiency improves in those corners (measurable in data).
 
 ---
 
-_"The Force (G-Force) is strong with this one."_ 🏎️💨
+## Key Takeaways
+
+✅ **G-Forces = The tire story** (without needing tire temps)
+
+✅ **Lateral G:** Cornering load (smooth > peak!)
+
+✅ **Longitudinal G:** Braking/acceleration load (hard but smooth!)
+
+✅ **Steering efficiency:** Grip usage per degree (higher = better)
+
+✅ **Overdriving %:** Where you're fighting the car (minimize this!)
+
+✅ **Total G:** Overall load (use available grip!)
+
+✅ **Smooth inputs → Smooth G-forces → Fast laps**
+
+✅ **Master Lonn's proof:** Traction circle shows smooth = 0.6s faster!
+
+---
+
+**Next Chapter:** [Chapter 11: Beyond G-Forces - Advanced Telemetry](11-advanced-telemetry.md)  
+**Previous Chapter:** [Chapter 9: The Car's Conversation - Rotation and Balance](09-rotation-and-balance.md)
+
+---
+
+**See Also:**
+
+- Chapter 5: Weight Transfer (G-forces create weight transfer)
+- Chapter 9: Rotation & Balance (G-forces cause rotation)
+- Master Lonn's traction circle analysis (Week 03)
+- `tools/coach/visualize_traction_circle.py` (generate your own!)
+
+---
+
+_"The Force (G-Force) is strong with this one."_ 💪🏎️
+
+**— Little Padawan** ✨

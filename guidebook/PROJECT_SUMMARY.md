@@ -55,8 +55,6 @@ This section bridges the gap between solo practice and competitive racing. It co
 
 This section provides a narrative context for all the technical instruction, using Master Lonn's actual racing experiences as a case study. It demonstrates how the principles taught in the guidebook are applied in real-world scenarios.
 
-**Chapters:**
-- Chapter 16: Master Lonn's Log: A Season in Review (Existing)
 
 ### Appendices
 
