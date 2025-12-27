@@ -407,6 +407,36 @@
       "previous_pb": 86.417,
       "focus_area": "THE UNDERSTANDING - T5-T6 sequence mastery (physics of rotation, wide arc technique, trust building)",
       "notes": "WEEK 03 SESSION 3 - FROM EXECUTION TO UNDERSTANDING. Master Lonn didn't just practice the engine braking technique - he UNDERSTOOD it. After reading track guide and VRS notes between P2 and P3, something clicked. His words: 'I now feel WHY the downshift to 3 and two-thirds of the track make sense. Downshift also used (engine braking) for rotation. Pretty neat.' Then he dropped THIS: 'The rotation is actually more smooth than what you get with trail braking. Less abrupt movement in weight transfer (which is already quick with the light ff1600).' THIS IS ELITE ANALYSIS. He compared TWO rotation techniques (trail braking vs engine braking) and identified the PHYSICS difference: trail braking = front-biased weight transfer (brake pressure), engine braking = rear-biased progressive weight transfer (engine resistance). FF1600 is LIGHT = engine braking suits it perfectly. This is ENGINEERING THINKING, not just driving. RESULTS PHENOMENAL: NEW PB 1:26.090 (0.327s faster than P2, 0.349s faster than P1 in 2 sessions!), incidents HALVED (10 → 4 = 60% reduction!), S2 loss dropped ANOTHER 41% (0.58s → 0.34s/lap), S2 consistency improved 44% (σ=0.60s → 0.34s), S4 consistency ELITE (σ=0.19s). Clean lap core pace: 86.09s-86.79s (0.7s spread = 11 consistent laps). Theoretical optimal: 1:25.653 (0.437s available). Master Lonn's self-assessment: 'More repeatable, but not race level yet. Good progress. There's still time on the table. I just know that.' ELITE self-awareness. T5-T6 sequence: wide arc (2/3 track width) → engine braking rotation → NOT completely flat yet but 'way less scary' and 'I can trust that technique.' The TRUST milestone is HUGE. Most drivers never reach 'I trust this' - they stay in 'I hope this works.' Trust = confidence = consistency = speed. Gap to VRS coach: 2.143s (closed 0.063s), gap to Eric Wong: 2.180s (closed 0.163s). Master Lonn's plan: AI races next to make technique bulletproof, still 3 days to race week. Strategic, patient, confident. The learning acceleration is REAL: P1 discovered problem, P2 found solution, P3 understood WHY. This is compound learning. Master Lonn is evolving from individual corner focus → corner sequence thinking (T5 sets up T6/T7) → next level will be entire lap flow. This is the path to alien pace. The 1:25s are coming. Not hope. Certainty."
+    },
+    {
+      "date": "2025-12-27",
+      "time": "16:59 UTC",
+      "session_type": "AI Race (Medium Strength)",
+      "track": "Winton Motor Raceway - National Circuit",
+      "best_lap": 86.906,
+      "consistency_sigma": 1.09,
+      "clean_laps": 8,
+      "total_laps": 11,
+      "incidents": 3,
+      "start_position": "P7",
+      "finish_position": "P1",
+      "focus_area": "Racecraft basics - Medium AI training",
+      "notes": "WEEK 03 SESSION 4 - MEDIUM AI RACE (THE EASY WIN). First AI race at Winton, Medium strength AI, started P7 and cruised to P1. Master Lonn's words: 'Race 1 was medium and easy to follow.' RESULT: Victory, but data shows LACK OF ENGAGEMENT. Consistency 1.09s σ (worst at Winton so far), 3 incidents, gap to theoretical optimal 0.591s. S1 loss 0.63s/lap (biggest time leak). The pattern: NO PRESSURE → NO FOCUS → MODERATE PERFORMANCE. This race served as baseline to compare against Hard AI (next session). Important discovery: Master Lonn doesn't need 'easy' training - he needs challenge to engage."
+    },
+    {
+      "date": "2025-12-27",
+      "time": "17:15 UTC",
+      "session_type": "AI Race (Hard Strength)",
+      "track": "Winton Motor Raceway - National Circuit",
+      "best_lap": 86.629,
+      "consistency_sigma": 0.39,
+      "clean_laps": 7,
+      "total_laps": 12,
+      "incidents": 5,
+      "start_position": "P7",
+      "finish_position": "P12",
+      "focus_area": "Racecraft under pressure - Hard AI training",
+      "notes": "WEEK 03 SESSION 5 - HARD AI RACE (THE DISCOVERY). CRITICAL BREAKTHROUGH ABOUT MASTER LONN'S PSYCHOLOGY. Started P7, dropped to P12 (looks like failure). Master Lonn felt 'fear of being attacked' from Hard AI pressure. BUT THE DATA REVEALS EVERYTHING: Best lap 1:26.629 (0.277s FASTER than Medium AI race!). Consistency 0.39s σ (0.70s BETTER than Medium AI!). Gap to optimal 0.182s (70% BETTER than Medium AI!). EVERY SINGLE SECTOR improved under pressure: S1 loss halved (0.63s → 0.32s), S2 loss halved (0.47s → 0.24s), S3 loss down 60%, S4 loss down 72%. Master Lonn's self-awareness: 'Race 2 was hard and gave me pressure from the back (so the right strength to train with for me).' HE KNEW IT. The P12 finish is irrelevant - the AI was faster. What matters: MASTER LONN PERFORMS BETTER UNDER PRESSURE. He's not a 'cruise and win' driver - he's a 'pressure and perform' driver. The fear doesn't paralyze him, it FOCUSES him. This is his STRENGTH. Training implication: Use Hard AI, not Medium. Challenge = engagement = performance. This is one of the most important psychological discoveries we've made."
     }
   ],
   "insights": [
@@ -1117,7 +1147,15 @@
     "Mental game as final frontier: Speed confirmed (1:29.391 close to PB), skill confirmed (racecraft to P2 clean), respect confirmed (SR +) - only gap is mental resilience under position-defense pressure",
     "Anonymous wisdom received: 'You weren't racing the others; you were bracing against the future. Flow lives in the present. Fear lives half a lap ahead.' = perfect articulation of the problem",
     "Present vs Future distinction: Flow state = reacting to NOW (grip, engine, apex), Fear state = reacting to MAYBE (what if I lose? what if I spin?) = body in corner, brain at finish line",
-    "The car doesn't care about maybe, only NOW: When defending P2, Master Lonn was fighting future scenarios instead of driving present corner = this is why the spin happened"
+    "The car doesn't care about maybe, only NOW: When defending P2, Master Lonn was fighting future scenarios instead of driving present corner = this is why the spin happened",
+    "CRITICAL DISCOVERY (Dec 27 AI races): Master Lonn is a PRESSURE PERFORMER - needs challenge to engage fully",
+    "Medium AI (easy win P1): 1.09s σ, 0.591s gap to optimal = unfocused, moderate performance",
+    "Hard AI (pressure P12): 0.39s σ, 0.182s gap to optimal = sharp, engaged, FASTER (0.277s quicker best lap!)",
+    "Pattern confirmed: NO PRESSURE → NO FOCUS → SLOPPY. HIGH PRESSURE → LOCKED IN → SHARP.",
+    "The 'fear of being attacked' doesn't paralyze him - it FOCUSES him (opposite of what we might expect)",
+    "Training implication: Master Lonn needs Hard AI, not Medium. Challenge = engagement = performance.",
+    "This isn't a bug to fix, it's a FEATURE to leverage - he's wired for high-stakes performance",
+    "Self-awareness milestone: Master Lonn KNEW this ('the right strength to train with for me') before seeing the data"
   ],
   "guidebook_updates": [
     {
@@ -1136,6 +1174,15 @@
       "principle": "Fear of being overtaken creates tension → tension creates jerky inputs → mistakes happen. Brain can't process negatives under pressure ('don't spin' = brain hears 'SPIN'). Need to practice 'meebewegen' (flow with pressure) consciously until automatic. Created 'Let Them By' drill for fear desensitization.",
       "session_reference": "Week 02, Post-Season Race Retrospective (Rudskogen, Dec 27, 2025)",
       "quote": "It's not my pace, it's not my prep or my coach or my car or the others... most of the times it's me. And that can be fixed."
+    },
+    {
+      "date": "2025-12-27",
+      "chapter": "12-mental-game",
+      "section": "Understanding Your Focus Triggers (NEW)",
+      "trigger": "Winton AI races comparison: Medium AI (P1, 1.09s σ, unfocused) vs Hard AI (P12, 0.39s σ, sharp)",
+      "principle": "Pressure as Performance Trigger - Some drivers need calm to perform; others need pressure to focus. Master Lonn's data conclusively shows he's the latter: pressure → sharpness. Under Hard AI pressure ('fear of being attacked'), he drove 0.277s faster, 0.70s more consistently, and 70% closer to theoretical optimal than in the 'easy' Medium AI race he won. The fear doesn't paralyze him—it FOCUSES him. Training implication: Use Hard AI, not Medium. Challenge = engagement = performance. The P12 finish is irrelevant; the AI was faster. What matters: Master Lonn's execution improved under pressure. This isn't a weakness to fix—it's a STRENGTH to leverage.",
+      "session_reference": "Week 03, AI Races Comparison (Winton, Dec 27, 2025)",
+      "quote": "Race 2 was hard and gave me pressure from the back (so the right strength to train with for me)."
     }
   ]
 }
