@@ -37,10 +37,6 @@ May the G-Force be with you.
 *   **Chapter 14: The Long Game: Tire Management and Fuel Strategy** - [Outline](outlines/14-tire-management.md)
 *   **Chapter 15: The Art of the Setup: A Primer on Vehicle Tuning** - [Outline](outlines/15-vehicle-tuning.md)
 
-### Part 5: The Journey
-
-*   **Chapter 16: Master Lonn's Log: A Season in Review** - [Chapter](chapters/16-master-lonns-log.md)
-
 ### Appendices
 
 *   **Appendix A: Track-Specific Guides** - [Directory](chapters/track-guides/)
