@@ -139,7 +139,7 @@ Throttle: 85% ────────── (holds here)
 
 **Good Brake Trace:**
 ```
-    100% █
+    100%  █
           █╲
           █  ╲
           █    ╲
@@ -151,7 +151,7 @@ Throttle: 85% ────────── (holds here)
 
 **Bad Brake Trace:**
 ```
-    100% █╲    ╱█╲
+    100%  █╲   ╱█╲
           █╲  ╱ █ ╲
           █ ╲╱  █  ╲
       0%  █     █    ────

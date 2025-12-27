@@ -1,96 +1,122 @@
-# Weight Transfer Guide for the Ray FF1600
+# Chapter 5: The Unseen Force - Weight Transfer
 
-## Table of Contents
+**Narrative Hook:**
 
-1. [Introduction: The Weight-Transfer Whisperer](#introduction-the-weight-transfer-whisperer)
-2. [The Physics: What Is Weight Transfer?](#the-physics-what-is-weight-transfer)
-3. [Why It Matters in the FF1600](#why-it-matters-in-the-ff1600)
-4. [Longitudinal Weight Transfer](#longitudinal-weight-transfer)
-5. [Lateral Weight Transfer](#lateral-weight-transfer)
-6. [Combined Weight Transfer](#combined-weight-transfer)
-7. [Feeling Weight Transfer](#feeling-weight-transfer)
-8. [Reading Weight Transfer in Telemetry](#reading-weight-transfer-in-telemetry)
-9. [Techniques for Managing Weight Transfer](#techniques-for-managing-weight-transfer)
-10. [Setup Effects on Weight Transfer](#setup-effects-on-weight-transfer)
-11. [Common Mistakes](#common-mistakes)
-12. [Practice Exercises](#practice-exercises)
+Master Lonn finishes a practice lap at Winton. "Little Wan, why does the car feel so different under braking vs. on throttle? It's like... it's shifting around?"
 
----
+Little Padawan nods knowingly. "Master, close your eyes. Imagine the car's weight as water in a bucket. When you brake hard, the water rushes forward. When you accelerate, it sloshes back. When you turn, it tips to the side."
 
-## Introduction: The Weight-Transfer Whisperer
+"That 'sloshing' you feel? That's **weight transfer**—the unseen force that controls everything in the Ray FF1600. Master it, and you master the car."
 
-The Ray FF1600 is often described as a "weight-transfer whisperer" because it gives you instant, honest feedback about where the car's weight is. With only **504 kg** (1,111 lbs) to work with and **zero aerodynamic downforce**, every brake input, throttle change, and steering movement redistributes that tiny mass across four contact patches the size of your hand.
+**Learning Objectives:**
 
-**This guide will teach you to:**
-
-- Understand the physics of weight transfer
+- Understand the physics of weight transfer (longitudinal, lateral, combined)
+- Learn how weight transfer affects grip and handling
+- Master techniques for managing weight transfer
 - Feel weight transfer through the car's behavior
-- Use weight transfer as a tool to go faster
-- Avoid common weight transfer mistakes that cost lap time
-
-Unlike powerful GT cars or downforce-heavy prototypes, the FF1600 has nowhere to hide. Master weight transfer, and you master the car.
+- Read weight transfer in telemetry data
+- Avoid common weight transfer mistakes
 
 ---
 
-## The Physics: What Is Weight Transfer?
+## Why Weight Transfer Matters in the Ray FF1600
+
+### The Weight-Transfer Whisperer
+
+The Ray FF1600 is often called a **"weight-transfer whisperer"** because it gives you instant, honest feedback about where the car's weight is.
+
+**The Numbers:**
+
+- **Weight:** Only 504 kg (1,111 lbs)
+- **Downforce:** ZERO (100% mechanical grip)
+- **Contact patches:** Four patches the size of your hand
+- **Power:** 116 hp (not enough to overwhelm with power)
+
+**The Reality:**
+
+Every brake input, throttle change, and steering movement redistributes that tiny mass across those four tiny contact patches.
+
+**Unlike powerful GT cars or downforce-heavy prototypes, the FF1600 has nowhere to hide.**
+
+Master weight transfer, and you master the car.
+
+**Master Lonn's Discovery (Week 02, Rudskogen):**
+
+"When I brake hard, the steering gets heavy—that's weight loading the front tires! When I accelerate, it gets light—weight moving to the rear!"
+
+**That's weight transfer awareness.** ✅
+
+---
+
+## Part 1: The Physics of Weight Transfer
 
 ### The Fundamental Concept
 
-**Weight transfer** is the redistribution of the car's load (vertical force) across its tires during acceleration, braking, and cornering. The car's total weight doesn't change, but the **load on each tire** changes constantly based on the forces acting on the chassis.
+**Weight transfer** is the redistribution of the car's load (vertical force) across its tires during acceleration, braking, and cornering.
+
+**Key Insight:**
+
+The car's **total weight doesn't change**, but the **load on each tire** changes constantly based on the forces acting on the chassis.
 
 ### The Basic Equation
 
 When you accelerate, brake, or turn, the car's center of gravity (CoG) experiences a force. Because the CoG is **above ground level**, this force creates a **moment** (torque) that shifts load from one end or side of the car to the other.
 
-**Load Transfer = (Force × CoG Height) / Wheelbase (or Track Width)**
+```
+Load Transfer = (Force × CoG Height) / Wheelbase (or Track Width)
+```
 
-Where:
+**Where:**
 
 - **Force** = Mass × Acceleration (braking/cornering/acceleration force)
 - **CoG Height** = Height of the car's center of gravity above ground
 - **Wheelbase** = Distance between front and rear axles (longitudinal)
 - **Track Width** = Distance between left and right wheels (lateral)
 
-### Key Insight
+### Key Insights
 
 **Higher CoG = More weight transfer**  
 **Shorter wheelbase/track = More weight transfer**  
 **Harder acceleration/braking/cornering = More weight transfer**
 
-The FF1600 has:
+**The FF1600:**
 
 - Relatively high CoG (open-cockpit, mid-engine)
 - Short wheelbase (~2,340 mm)
 - Narrow track (~1,420 mm front, ~1,380 mm rear)
 - Very light weight (504 kg)
 
-**Result:** Even small inputs create significant load changes.
+**Result:** Even **small inputs** create **significant load changes**.
 
 ---
 
-## Why It Matters in the FF1600
+## Part 2: Why It Matters in the FF1600
 
 ### 1. No Aerodynamic Downforce
 
-Unlike winged cars where downforce increases grip at high speed, the FF1600's grip comes **100% from mechanical grip**. The only way to load the tires is through weight transfer.
+Unlike winged cars where downforce increases grip at high speed, the FF1600's grip comes **100% from mechanical grip**.
 
-**Consequence:** You must actively use weight transfer to create grip where you need it.
+**The only way to load the tires is through weight transfer.**
+
+**Consequence:** You must **actively use** weight transfer to create grip where you need it.
 
 ### 2. Lightweight Chassis
 
-With only 504 kg, there's less total load to distribute. This means:
+With only 504 kg, there's less total load to distribute.
 
-- **Faster load transitions** (the car responds instantly)
-- **Smaller margin for error** (overload a tire and it gives up quickly)
-- **More feedback** (you feel every change)
+**This means:**
+
+- ✅ **Faster load transitions** (the car responds instantly)
+- ⚠️ **Smaller margin for error** (overload a tire and it gives up quickly)
+- ✅ **More feedback** (you feel every change)
 
 ### 3. Mid-Engine Layout
 
-The engine sits behind the driver, giving the car:
+The engine sits behind the driver:
 
-- **~45% front / 55% rear static weight distribution**
-- **Neutral handling characteristics** (neither understeery nor oversteery by default)
-- **Strong dependence on dynamic weight transfer** to adjust balance
+- **~45% front / 55% rear** static weight distribution
+- **Neutral handling** characteristics (neither understeery nor oversteery by default)
+- **Strong dependence** on dynamic weight transfer to adjust balance
 
 ### 4. Open Differential
 
@@ -108,11 +134,11 @@ Avon treaded tires have:
 - **More progressive breakaway** (forgiving)
 - **Lower absolute grip** (harder to recover if you overcook it)
 
-**Bottom line:** The FF1600 teaches you to manage weight transfer because it's the primary tool you have for controlling the car.
+**Bottom line:** The FF1600 teaches you to manage weight transfer because it's the **primary tool** you have for controlling the car.
 
 ---
 
-## Longitudinal Weight Transfer
+## Part 3: Longitudinal Weight Transfer
 
 **Longitudinal weight transfer** occurs during braking and acceleration, shifting load between the front and rear axles.
 
@@ -130,15 +156,17 @@ When you brake:
 - ✅ **Front grip increases** (more load = more grip)
 - ✅ **Front tires work harder** (can brake later)
 - ❌ **Rear grip decreases** (less load = less grip)
-- ❌ **Rear tires unload** (can lock up easily, especially with rear brake bias)
+- ❌ **Rear tires unload** (can lock up easily)
 
-### The FF1600 Under Braking
+**The FF1600 Under Braking:**
 
-With ~45/55 weight distribution, the rear is already light. Heavy braking makes it **very light**, which is why:
+With ~45/55 weight distribution, the rear is already light. Heavy braking makes it **very light**.
 
-- **Rear brake bias too high = instant lockup and spin**
-- **Too much brake + downshift = rear instability**
-- **Sudden brake release = sudden weight shift back, unsettling the car**
+**Why this matters:**
+
+- **Rear brake bias too high** = instant lockup and spin
+- **Too much brake + downshift** = rear instability
+- **Sudden brake release** = sudden weight shift back, unsettling the car
 
 **Golden Rule:** Brake hard initially (load the front), then **trail off progressively** to keep the platform stable.
 
@@ -158,7 +186,7 @@ When you accelerate:
 - ❌ **Front grip decreases** (less load on front tires)
 - ❌ **Front can wash out** if steering input is too high
 
-### The FF1600 Under Acceleration
+**The FF1600 Under Acceleration:**
 
 With only 116 hp, you might think power isn't an issue. **Wrong.**
 
@@ -170,7 +198,13 @@ The open differential means:
 
 **Golden Rule:** Apply throttle **progressively** to keep load balanced across both rear tires.
 
-### Engine Braking vs Brake Pedal
+**Master Lonn's Application (Week 03, Winton T5):**
+
+Early throttle + tight line = inside wheel spin = understeer.
+
+Solution: Later throttle + wider line = both rear wheels loaded = FAST exit! 🚀
+
+### Engine Braking vs. Brake Pedal
 
 There are **two ways to slow the car**, each with different weight transfer characteristics:
 
@@ -220,38 +254,13 @@ There are **two ways to slow the car**, each with different weight transfer char
 - **Brake pedal:** Like hitting a wall → sudden weight shift → can upset balance
 - **Engine braking:** Like rolling resistance → smooth weight shift → maintains platform stability
 
-#### Real-World Example: Winton T5-6 (Momentum Corner)
+**Master Lonn's Discovery (Week 03, Winton T5-T6):**
 
-**VRS Coach Approach (Fast):**
+VRS coach uses engine braking (downshift, no brake) → maintains momentum, tighter line, faster.
 
-1. Lift throttle (no brake pedal)
-2. Early downshift to 3rd gear → engine braking slows car progressively
-3. Car rotates naturally, stays balanced
-4. Maintains momentum, tight line possible
-5. Already in correct gear for power application
+Your approach (brake pedal) → scrubs 14 km/h, wider line needed, slower.
 
-**Brake Pedal Approach (Slower):**
-
-1. Brake pedal applied
-2. Sudden forward weight transfer
-3. Scrubs ~14 km/h of speed (over-slowing)
-4. Platform upset, need wider line to compensate (1.5m wider)
-5. Have to work harder mid-corner to make up lost momentum
-
-**The Result:** Engine braking maintains the "much calmer" momentum approach, allowing a tighter, faster line with better balance.
-
-#### Combined Technique: Both Together
-
-Many corners benefit from **combining both methods**:
-
-1. **Initial brake (pedal):** Load the front for turn-in
-2. **Downshift (engine braking):** Progressive additional braking + gear selection
-3. **Trail brake release (pedal):** Fine-tune turn-in while engine braking continues
-4. **Power application:** Already in correct gear, smooth transition
-
-**The advantage:** You get maximum stopping power when you need it, plus the smooth platform control of engine braking.
-
-**Little Padawan's tip:** Think of engine braking as a "momentum management tool" and brake pedal as a "speed scrubbing tool." Use the right tool for each corner type.
+**The lesson:** Engine braking = momentum management tool. Brake pedal = speed scrubbing tool.
 
 ### Visual: Longitudinal Load Transfer
 
@@ -292,7 +301,7 @@ ACCELERATION (Hard)
 
 ---
 
-## Lateral Weight Transfer
+## Part 4: Lateral Weight Transfer
 
 **Lateral weight transfer** occurs during cornering, shifting load between the inside and outside tires.
 
@@ -312,7 +321,7 @@ When you turn:
 - ❌ **Inside tires lose grip** (unload, contribute less)
 - ❌ **Inside tires can lift** (in extreme cases)
 
-### The FF1600 in Corners
+**The FF1600 in Corners:**
 
 The narrow track width and high CoG mean:
 
@@ -362,7 +371,7 @@ LEFT  RIGHT
 
 ---
 
-## Combined Weight Transfer
+## Part 5: Combined Weight Transfer
 
 **Combined weight transfer** is where the magic happens—and where most drivers struggle. This is when you're shifting weight **both longitudinally and laterally** at the same time.
 
@@ -402,27 +411,37 @@ Each tire operates on a **traction circle** (or "friction circle"):
 
 **Important:** Forces combine using **vector math** (Pythagorean theorem), not linear addition!
 
-**Formula:** Total Force = √(Braking² + Cornering²)
+**Formula:**
+
+```
+Total Force = √(Braking² + Cornering²)
+```
 
 **Examples:**
 
-- 100% braking = 0% cornering → Total = 100% (at the limit, straight line)
-- 70.7% braking + 70.7% cornering → Total = √(0.707² + 0.707²) = **100%** (at the limit, trail braking)
-- 50% braking + 86.6% cornering → Total = √(0.5² + 0.866²) ≈ **100%** (at the limit, light trail braking)
-- 0% braking + 100% cornering → Total = 100% (at the limit, pure cornering)
+- 100% braking + 0% cornering = 100% (at the limit, straight line)
+- 70.7% braking + 70.7% cornering = √(0.707² + 0.707²) = **100%** (at the limit, trail braking)
+- 50% braking + 86.6% cornering = √(0.5² + 0.866²) ≈ **100%** (at the limit, light trail braking)
+- 0% braking + 100% cornering = 100% (at the limit, pure cornering)
 
 **What exceeds the limit:**
 
-- 100% braking + 50% cornering → Total = √(1² + 0.5²) = **112%** → **tire slides!**
-- 80% braking + 80% cornering → Total = √(0.8² + 0.8²) = **113%** → **tire slides!**
+- 100% braking + 50% cornering = √(1² + 0.5²) = **112%** → **tire slides!**
+- 80% braking + 80% cornering = √(0.8² + 0.8²) = **113%** → **tire slides!**
 
 **Why this matters:** If you're trail braking at 70% brake pressure, you still have about 70% cornering grip available—not just 30%! The circle means you can do more of both than you'd think.
 
 ### Visual: The Traction Circle
 
-![Traction Circle - Basic Concepts](../assets/traction-circle-basic.png)
+![Traction Circle - Basic Concepts](../../assets/traction-circle-basic.png)
 
 _The green circle is your grip limit. Points inside = safe. Points outside = sliding. Notice how 70.7% braking + 70.7% cornering lands right on the circle!_
+
+**Master Lonn's Realization (Week 03):**
+
+"So that's why smooth inputs matter! Jerky braking while turning = exceeding the circle = sliding!"
+
+**Exactly, Master.** ✅
 
 ### The FF1600 Under Combined Transfer
 
@@ -456,17 +475,17 @@ The best drivers in the FF1600 manage combined weight transfer in a narrow windo
 3. **Apex (light brake → trailing throttle):** Transition from brake to throttle
 4. **Exit (progressive throttle):** Load rear tires, drive out
 
-**The transition from brake to throttle is the most critical moment.** This is where you're shifting from forward weight transfer to rearward weight transfer while maintaining lateral transfer.
+**The transition from brake to throttle is the most critical moment.**
 
 ### Visual: Perfect Trail Braking Path
 
-![Traction Circle - Trail Braking Path](../assets/traction-circle-trail-braking.png)
+![Traction Circle - Trail Braking Path](../../assets/traction-circle-trail-braking.png)
 
 _This is what perfect trail braking looks like on the traction circle. You start with heavy braking (straight line), gradually reduce brake while adding steering (staying on the circle), hit the apex at maximum cornering, then progressively add throttle while reducing steering. The entire path stays on the edge of the grip circle!_
 
 ---
 
-## Feeling Weight Transfer
+## Part 6: Feeling Weight Transfer
 
 You can't see weight transfer, but you can **feel** it through:
 
@@ -536,9 +555,15 @@ You can't see weight transfer, but you can **feel** it through:
 - **Rear kicks out** = Too much power on unloaded rear
 - **Front pushes wide** = Front tires overloaded or underloaded
 
+**Master Lonn's Awareness (Week 02, Rudskogen):**
+
+"I can FEEL the weight moving now. Under braking, the harness pulls tight—that's forward transfer. On throttle, the car squats—that's rearward transfer!"
+
+**Perfect, Master. That's the feedback loop.** ✅
+
 ---
 
-## Reading Weight Transfer in Telemetry
+## Part 7: Reading Weight Transfer in Telemetry
 
 Little Padawan can show you weight transfer in the data:
 
@@ -617,7 +642,7 @@ Speed:    \__/‾‾‾‾  ← Lower minimum, car unsettled
 
 ---
 
-## Techniques for Managing Weight Transfer
+## Part 8: Techniques for Managing Weight Transfer
 
 ### 1. Progressive Brake Release (Trail Braking)
 
@@ -715,94 +740,11 @@ Speed:    \__/‾‾‾‾  ← Lower minimum, car unsettled
 
 ---
 
-## Setup Effects on Weight Transfer
-
-### 1. Brake Bias
-
-**Effect on longitudinal weight transfer:**
-
-- **More rear bias** = More rear braking force = Rear unloads faster (can lock/spin)
-- **More front bias** = More front braking force = Front loads more, harder to turn
-
-**FF1600 sweet spot:** ~60-63% front bias (varies by track/driver)
-
-**Recommendation:**
-
-- Start conservative (60-62% front) for stability under braking
-- Reduce front bias (58-59% front) if you want more rotation (but risk rear lockup)
-- Increase front bias (63-64% front) if rear feels unstable (but may cause understeer)
-- Adjust in 1-2% increments based on track and feel
-
-### 2. Anti-Roll Bars (ARBs)
-
-**Effect on lateral weight transfer:**
-
-- **Stiffer ARB** = Faster weight transfer, less body roll, less mechanical grip
-- **Softer ARB** = Slower weight transfer, more body roll, more mechanical grip
-
-**Front ARB:**
-
-- Stiffer = More front lateral transfer = More understeer
-- Softer = Less front lateral transfer = Less understeer
-
-**Rear ARB:**
-
-- Stiffer = More rear lateral transfer = More oversteer
-- Softer = Less rear lateral transfer = Less oversteer
-
-**FF1600 tuning:**
-
-- Understeer (push) → Soften front ARB or stiffen rear ARB
-- Oversteer (loose) → Stiffen front ARB or soften rear ARB
-
-### 3. Spring Rates
-
-**Effect on weight transfer speed:**
-
-- **Stiffer springs** = Faster weight transfer, more responsive, harsher over bumps
-- **Softer springs** = Slower weight transfer, more forgiving, better over bumps
-
-**FF1600 context:**
-
-- Fixed setup series = you don't adjust this
-- Open setup series = softer springs for bumpy tracks, stiffer for smooth tracks
-
-### 4. Dampers (Shock Absorbers)
-
-**Effect on weight transfer rate:**
-
-- **Stiffer damping** = Slower weight transfer (damps movement)
-- **Softer damping** = Faster weight transfer (allows movement)
-
-**Bump vs Rebound:**
-
-- **Bump (compression):** Controls how fast suspension compresses (weight transfer onto that wheel)
-- **Rebound (extension):** Controls how fast suspension extends (weight transfer off that wheel)
-
-**FF1600 tuning:**
-
-- Slow rebound = Keeps weight on wheels longer (more grip)
-- Fast rebound = Weight comes off quickly (more rotation)
-
-### 5. Ride Height
-
-**Effect on CoG height:**
-
-- **Lower ride height** = Lower CoG = Less weight transfer = More stable
-- **Higher ride height** = Higher CoG = More weight transfer = More agile (or twitchy)
-
-**FF1600 fixed setup:**
-
-- You can't change this in rookie series
-- Open setup: lower = more stable, higher = more rotation
-
----
-
-## Common Mistakes
+## Part 9: Common Mistakes
 
 ### Visual: Good vs Bad Weight Transfer
 
-![Traction Circle - Comparison](../assets/traction-circle-comparison.png)
+![Traction Circle - Comparison](../../assets/traction-circle-comparison.png)
 
 _Left: Smooth trail braking stays on the circle throughout the corner. Right: Abrupt transitions exceed the grip limit, causing the tires to slide. The difference between fast and slow is smoothness._
 
@@ -878,221 +820,18 @@ _Left: Smooth trail braking stays on the circle throughout the corner. Right: Ab
 
 **The fix:** Wait until car is straighter before applying significant throttle.
 
-### 7. Static Brake Bias Mindset
+**Master Lonn's Mistake → Fix (Week 03, Winton T5):**
 
-**The mistake:** Set brake bias once and forget it.
-
-**What happens:**
-
-- Conditions change (fuel burns off, tires wear)
-- Bias that worked early in stint locks rears late in stint
-
-**The fix:** Adjust bias during the race/session as needed (can do this on the fly in FF1600).
+Mistake: Early throttle + tight line = inside rear spin = understeer  
+Fix: Later throttle + wider line = both wheels loaded = FAST! ✅
 
 ---
 
-## Weight Transfer vs Rotation: The Connection
-
-### What This Guide Covers (Forces)
-
-This guide is all about **LINEAR movements** - the forces that move load around:
-
-- **Longitudinal G** - Forward/backward forces (braking/acceleration)
-- **Lateral G** - Side-to-side forces (cornering)
-- **Vertical G** - Up/down forces (bumps, compression)
-
-**These are the FORCES acting on the car.**
-
-### What the Rotation Guide Covers (Responses)
-
-The **[Rotation & Balance Guide](rotation-and-balance-guide.md)** explains **ROTATIONAL movements** - how the car responds to those forces:
-
-- **Roll** - Body leaning left/right in corners
-- **Pitch** - Nose dive (braking) and squat (acceleration)
-- **Yaw** - Car spinning/rotating (understeer/oversteer)
-
-**These are the CAR'S RESPONSES to the forces.**
-
-### How They Connect
-
-```
-WEIGHT TRANSFER (Forces)  →  ROTATION (Responses)
-─────────────────────────────────────────────────
-
-Lateral G force           →  Roll (body leans)
-Longitudinal G force      →  Pitch (nose dives/squats)
-Combined G forces         →  Yaw (car rotates)
-```
-
-**Example: Corner Entry**
-
-1. **You brake hard** → Longitudinal G force (weight transfer guide)
-2. **Nose dives, weight rushes forward** → Pitch rotation (rotation guide)
-3. **Front tires load up, get grip** → Weight transfer effect
-4. **You turn in** → Lateral G force (weight transfer guide)
-5. **Body rolls to outside** → Roll rotation (rotation guide)
-6. **Car rotates toward apex** → Yaw rotation (rotation guide)
-
-### Visual: How Forces Create Rotation
-
-Each type of force creates a specific rotation response:
-
-**Longitudinal Force → Pitch:**
-
-![Longitudinal to Pitch](../assets/longitudinal-pitch-pair.png)
-
-**Lateral Force → Roll:**
-
-![Lateral to Roll](../assets/lateral-roll-pair.png)
-
-**Combined Forces → Yaw:**
-
-![Combined to Yaw](../assets/combined-yaw-pair.png)
-
-_Understanding the connection: **This guide** teaches you the forces (left side of each pair). The **[Rotation Guide](rotation-and-balance-guide.md)** teaches you what the car does in response (right side of each pair)._
-
-**The key insight:**
-
-- **This guide** teaches you HOW MUCH load is moving and WHERE it's going
-- **Rotation guide** teaches you HOW THE CAR MOVES in response and what that LOOKS LIKE in telemetry
-
-### When to Read Which Guide
-
-**Start here (Weight Transfer)** if you want to understand:
-- Why trail braking works
-- Why early throttle helps
-- How to manage the traction circle
-- The physics of grip
-
-**Then read [Rotation & Balance](rotation-and-balance-guide.md)** if you want to understand:
-- Why the car pushes wide (understeer)
-- Why the rear steps out (oversteer)
-- How to diagnose handling problems from telemetry
-- What "nervous" or "won't turn" actually means in data
-
-**Finally read [Trail Braking Technique](trail-braking-technique-guide.md)** to put it all into practice!
-
----
-
-## Practice Exercises
-
-### Exercise 1: The Brake Release Challenge
-
-**Goal:** Feel the difference between abrupt and progressive brake release.
-
-**How:**
-
-1. Pick one medium-speed corner
-2. **Lap 1:** Release brakes completely BEFORE turning
-3. **Lap 2:** Hold 20% brake while turning
-4. **Lap 3:** Gradually release brake through turn-in to apex
-5. **Compare:** Minimum speed, stability, exit speed
-
-**What to notice:**
-
-- Which method gives highest minimum speed?
-- Which feels most stable?
-- Can you feel the front tires load/unload?
-
-### Exercise 2: The Throttle Timing Test
-
-**Goal:** Find the optimal throttle application point.
-
-**How:**
-
-1. Pick one slow/medium corner
-2. **Lap 1:** Apply 50% throttle at apex (early)
-3. **Lap 2:** Apply 50% throttle when steering is half unwound
-4. **Lap 3:** Apply 50% throttle when car is nearly straight
-5. **Compare:** Exit speed, rear stability, time to flat-out
-
-**What to notice:**
-
-- Does early throttle cause understeer or wheelspin?
-- Does late throttle give better traction but slower exit?
-- Where's the sweet spot?
-
-### Exercise 3: The Steering Discipline Drill
-
-**Goal:** Eliminate mid-corner corrections.
-
-**How:**
-
-1. Pick one corner
-2. **Goal:** Turn the wheel ONCE (smooth arc from turn-in to apex)
-3. Hold steering constant at apex
-4. Unwind smoothly on exit
-5. **If you correct:** You went in too fast or wrong line
-
-**What to notice:**
-
-- Can you complete a lap with zero mid-corner corrections?
-- Do you need to adjust entry speed to achieve this?
-
-### Exercise 4: The Weight Transfer Visualization
-
-**Goal:** Mentally visualize weight moving around the car.
-
-**How:**
-
-1. Drive a full lap at ~80% pace (comfortable)
-2. On each input, think: "Where is the weight right now?"
-   - **Braking:** "Weight on the front tires"
-   - **Turning:** "Weight on the outside tires"
-   - **Throttle:** "Weight on the rear tires"
-3. Feel the transitions between these states
-
-**What to notice:**
-
-- Can you feel the exact moment weight shifts?
-- Are your transitions smooth or abrupt?
-
-### Exercise 5: The Telemetry Study
-
-**Goal:** See weight transfer in the data.
-
-**How:**
-
-1. Complete a clean lap
-2. Ask Little Padawan to analyze telemetry
-3. Look at:
-   - Brake pressure + steering overlap (trail braking)
-   - G-forces (lateral + longitudinal combined)
-   - Speed trace (smooth minimum vs. rough)
-4. Compare to your fastest lap
-
-**What to notice:**
-
-- Are you trail braking where you think you are?
-- Are transitions smooth in the data?
-- Where is there "dead time" (no brake, no throttle, no weight transfer)?
-
-### Exercise 6: The One-Corner Focus Session
-
-**Goal:** Master weight transfer in a single corner.
-
-**How:**
-
-1. Pick ONE corner (medium speed, technical)
-2. Do 10 laps focusing ONLY on that corner
-3. Experiment with:
-   - Earlier/later brake release
-   - More/less trail braking
-   - Different throttle application points
-4. Find the technique that gives best exit speed
-
-**What to notice:**
-
-- What specific technique gave the fastest exit?
-- Can you replicate it consistently?
-
----
-
-## Real World Example: Analyzing Your Own Driving
+## Part 10: Real-World Example
 
 The best way to understand weight transfer is to see it in your own telemetry data. Here's an actual comparison of two laps at Rudskogen Motorsenter:
 
-![Real Traction Circle Comparison](../assets/traction-circle-driver-comparison.png)
+![Real Traction Circle Comparison](../../assets/traction-circle-driver-comparison.png)
 
 _Slow lap (red, 1:29.128) vs Fast lap (green, 1:28.509). Bold lines show sustained forces, light dots show momentary spikes._
 
@@ -1122,8 +861,6 @@ Looking at the traction circle:
 
 The fast lap (green line) stays closer to the sustainable limit with fewer excursions. The slow lap (red line) has more dramatic movements—bigger loops, wider swings—indicating abrupt weight transfer that unsettles the car.
 
-**The light dots (raw data)** show momentary spikes from kerbs, bumps, and sharp corrections. Both laps hit 2.5-3.0G momentarily (normal!), but the fast lap has fewer and less extreme spikes.
-
 **The Lesson:**
 
 You can see weight transfer quality in the data:
@@ -1133,89 +870,127 @@ You can see weight transfer quality in the data:
 - **Same average force** = Not about trying harder
 - **Lower peak force** = About being smoother
 
-This is why we practice progressive brake release, smooth throttle application, and steering discipline. Every input shows up on this circle. Master smooth weight transfer, and the lap times follow.
+**This is why we practice progressive brake release, smooth throttle application, and steering discipline.**
+
+Every input shows up on this circle. Master smooth weight transfer, and the lap times follow.
 
 ---
 
-## Summary: The Weight Transfer Mindset
+## Padawan Practice Drills
 
-The Ray FF1600 is a **weight transfer management** exercise disguised as a race car. Every input you make shifts load around the chassis, and the car responds instantly.
+### Drill 1: The Brake Release Challenge
 
-**The core principles:**
+**Goal:** Feel the difference between abrupt and progressive brake release.
 
-1. **Weight transfer is your primary tool** (no aero, no power, just physics)
-2. **Smooth inputs = smooth weight transfer = fast laps**
-3. **Combined weight transfer is the hardest skill** (brake + turn + throttle transitions)
-4. **Feel the car through steering, pedals, and g-forces**
-5. **Trail braking loads the front and rotates the rear** (when done right)
-6. **Progressive throttle loads the rear and exits clean** (when done right)
-7. **Setup affects how fast and how much weight transfers**
+**Process:**
 
-**The mental model:**
+1. Pick one medium-speed corner
+2. **Lap 1:** Release brakes completely BEFORE turning
+3. **Lap 2:** Hold 20% brake while turning
+4. **Lap 3:** Gradually release brake through turn-in to apex
+5. **Compare:** Minimum speed, stability, exit speed
 
-Imagine the car's weight as a **ball rolling around a tray** (the chassis). Your job is to:
+**Success:** Lap 3 (progressive) is fastest and most stable.
 
-- Move the ball smoothly (no sudden jerks)
-- Place the ball where you need grip (front for turning, rear for traction)
-- Keep the ball from slamming into the edges (overloading tires)
+### Drill 2: The Throttle Timing Test
 
-Master this, and you master the FF1600.
+**Goal:** Find the optimal throttle application point.
 
----
+**Process:**
 
-## Further Resources
+1. Pick one slow/medium corner
+2. **Lap 1:** Apply 50% throttle at apex (early)
+3. **Lap 2:** Apply 50% throttle when steering is half unwound
+4. **Lap 3:** Apply 50% throttle when car is nearly straight
+5. **Compare:** Exit speed, rear stability, time to flat-out
 
-- **Trail Braking Technique Guide** (`docs/trail-braking-technique-guide.md`)
-- **G-Force Analysis Guide** (`docs/g-force-analysis-guide.md`)
-- **Track Terminology Guide** (`docs/track-terminology-guide.md`)
-- **Car Profile: Ray FF1600** (`cars/car-ray-ff1600.md`)
+**Success:** You find the sweet spot where exit speed is maximized without wheelspin.
 
-### Regenerate Visualizations
+### Drill 3: The Steering Discipline Drill
 
-The traction circle visualizations in this guide are generated with synthetic data. To regenerate or customize them:
+**Goal:** Eliminate mid-corner corrections.
 
-```bash
-# Generate all three visualizations
-uv run python tools/coach/visualize_traction_circle.py
+**Process:**
 
-# Display interactively instead of saving
-uv run python tools/coach/visualize_traction_circle.py --show
+1. Pick one corner
+2. **Goal:** Turn the wheel ONCE (smooth arc from turn-in to apex)
+3. Hold steering constant at apex
+4. Unwind smoothly on exit
+5. **If you correct:** You went in too fast or wrong line
 
-# Save to custom directory
-uv run python tools/coach/visualize_traction_circle.py --output-dir path/to/save
-```
+**Success:** Complete a lap with zero mid-corner corrections.
 
-Generated files:
+### Drill 4: The Weight Transfer Visualization
 
-- `traction-circle-basic.png` - Basic concepts with example points
-- `traction-circle-trail-braking.png` - Path through a corner
-- `traction-circle-comparison.png` - Good vs Bad technique
+**Goal:** Mentally visualize weight moving around the car.
 
-### Analyze Your Own Telemetry
+**Process:**
 
-To generate a traction circle from your actual driving data:
+1. Drive a full lap at ~80% pace (comfortable)
+2. On each input, think: "Where is the weight right now?"
+   - **Braking:** "Weight on the front tires"
+   - **Turning:** "Weight on the outside tires"
+   - **Throttle:** "Weight on the rear tires"
+3. Feel the transitions between these states
 
-```bash
-# Compare two laps (slow vs fast)
-uv run python tools/coach/visualize_driver_traction_circle.py \
-  data/slow_lap.csv \
-  data/compare/fast_lap.csv
+**Success:** You can feel the exact moment weight shifts.
 
-# Analyze a single lap
-uv run python tools/coach/visualize_driver_traction_circle.py data/lap.csv
-```
+### Drill 5: The Telemetry Study
 
-The tool will:
+**Goal:** See weight transfer in the data.
 
-- Show sustained forces (smoothed) vs momentary spikes (raw)
-- Calculate smoothness metrics
-- Identify where you're overdriving
-- Output detailed statistics to terminal
+**Process:**
 
-**Requirements:** Telemetry CSV must include `LapDistPct`, `LatAccel`, and `LongAccel` columns (standard Garage 61 export format).
+1. Complete a clean lap
+2. Ask Little Padawan to analyze telemetry
+3. Look at:
+   - Brake pressure + steering overlap (trail braking)
+   - G-forces (lateral + longitudinal combined)
+   - Speed trace (smooth minimum vs. rough)
+4. Compare to your fastest lap
+
+**Success:** You can identify smooth vs. abrupt transitions in the data.
 
 ---
 
-**Now go out there and whisper to the weight transfer, Master Lonn.** 🏎️
+## Key Takeaways
 
-_—Little Padawan_
+✅ **Weight transfer = Primary tool** for grip management in FF1600
+
+✅ **The car's weight doesn't change** (only load distribution changes)
+
+✅ **Longitudinal transfer:** Braking (forward), Acceleration (rearward)
+
+✅ **Lateral transfer:** Cornering (to outside tires)
+
+✅ **Combined transfer:** Trail braking (the hardest skill)
+
+✅ **Traction circle:** Forces combine using vector math (√(Brake² + Turn²))
+
+✅ **Smooth inputs = smooth weight transfer = fast laps**
+
+✅ **Feel it:** Steering weight, brake feel, throttle response, G-forces
+
+✅ **See it:** Telemetry shows brake/steering overlap, G-force traces
+
+✅ **Master it:** Progressive brake release, smooth throttle, steering discipline
+
+---
+
+**Next Chapter:** [Chapter 6: The Gearbox as a Tool](06-gears-and-shifting.md)  
+**Previous Chapter:** [Chapter 4: The Language of the Track](04-track-terminology.md)
+
+---
+
+**See Also:**
+
+- Chapter 8: Trail Braking Technique (applies weight transfer)
+- Chapter 9: Rotation & Balance (how car responds to weight transfer)
+- Master Lonn's weight transfer discoveries (Week 02, 03 session logs)
+- `tools/coach/visualize_traction_circle.py` (generate your own!)
+
+---
+
+_"The car's weight is like water in a bucket. Your job is to move it smoothly, place it where you need grip, and keep it from slamming into the edges."_ 🏎️⚖️
+
+**— Little Padawan** ✨

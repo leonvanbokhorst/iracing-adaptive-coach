@@ -1,63 +1,80 @@
-# Gears & Shifting Guide - Ray FF1600
+# Chapter 6: The Gearbox as a Tool
 
-> **"The gearbox isn't just for speed. It's a rotation tool, a weight transfer manager, and a communication channel between driver and engine."**
+**Narrative Hook:**
 
----
+Master Lonn enters Winton T5, a long sweeping left-hander. He downshifts from 4th → 3rd → 2nd, trail brakes, and... the car rotates PERFECTLY into the apex.
 
-## Table of Contents
+"Little Wan, that was... smooth! Like the downshift helped the car turn?"
 
-1. [Introduction](#introduction)
-2. [Gear Stack Fundamentals](#gear-stack-fundamentals)
-3. [Short vs Tall Stacks](#short-vs-tall-stacks)
-4. [Engine Braking & Gear Selection](#engine-braking--gear-selection)
-5. [Shift Timing & Techniques](#shift-timing--techniques)
-6. [Sound-Based Shifting](#sound-based-shifting)
-7. [Track-Specific Applications](#track-specific-applications)
-8. [Common Mistakes & Fixes](#common-mistakes--fixes)
-9. [Practice Exercises](#practice-exercises)
+Little Padawan grins. "Because it DID, Master. The gearbox isn't just for speed. It's a **rotation tool**, a weight transfer manager, and a power delivery optimizer all rolled into one."
 
----
+**Learning Objectives:**
 
-## Introduction
-
-In the Ray FF1600, **gear selection is a driving technique**, not just a speed control. The gearbox is:
-
-- A **rotation tool** (engine braking for corner entry)
-- A **weight transfer manager** (progressive vs abrupt)
-- An **acceleration optimizer** (staying in power band)
-- A **communication system** (sound tells you when to shift)
-
-iRacing uses **two gear stack options** in FF1600 Fixed setup:
-- **SHORT stack** (close ratios) - Technical tracks
-- **TALL stack** (wide ratios) - Flowing tracks
-
-Understanding which stack you have and how to use it is **championship-level knowledge**.
+- Understand short vs. tall gear stacks (and which tracks use which)
+- Master engine braking as a rotation tool
+- Learn optimal shift timing and techniques
+- Use sound-based shifting (no tachometer racing)
+- Apply gear strategy to specific tracks and corners
+- Avoid common shifting mistakes
 
 ---
 
-## Gear Stack Fundamentals
+## Why the Gearbox Matters
+
+### More Than Just Speed Control
+
+In the Ray FF1600, **gear selection is a driving technique**, not just a speed control.
+
+**The gearbox is:**
+
+✅ **A rotation tool** (engine braking for corner entry)  
+✅ **A weight transfer manager** (progressive vs. abrupt)  
+✅ **An acceleration optimizer** (staying in power band)  
+✅ **A communication system** (sound tells you when to shift)
+
+**Master Lonn's Discovery (Week 03, Winton T5-T6):**
+
+VRS coach uses 4th → 3rd downshift (NO brake pedal) → car rotates smoothly → maintains momentum → faster.
+
+Your approach: Brake pedal → scrubs speed → wider line needed → slower.
+
+**The lesson:** Engine braking (via downshift) can replace brake pedal in momentum corners!
+
+---
+
+## Part 1: Gear Stack Fundamentals
 
 ### What is a Gear Stack?
 
-A **gear stack** is the spacing between gear ratios:
+A **gear stack** is the spacing between gear ratios.
 
-**SHORT stack**: Gears are **close together** (small ratio jumps)
+**SHORT stack:** Gears are **close together** (small ratio jumps)
+
 - 1st: 2.45:1
 - 2nd: 1.85:1 (small jump)
 - 3rd: 1.45:1 (small jump)
 - 4th: 1.15:1 (small jump)
 
-**TALL stack**: Gears are **far apart** (big ratio jumps)
+**TALL stack:** Gears are **far apart** (big ratio jumps)
+
 - 1st: 2.45:1
 - 2nd: 1.65:1 (bigger jump)
 - 3rd: 1.25:1 (bigger jump)
 - 4th: 1.00:1 (bigger jump)
 
-*(Note: These are example ratios to illustrate the concept)*
+_(Note: These are example ratios to illustrate the concept)_
+
+**iRacing uses TWO gear stack options** in FF1600 Fixed setup:
+
+- **SHORT stack** - Technical tracks
+- **TALL stack** - Flowing tracks
+
+Understanding which stack you have and how to use it is **championship-level knowledge**.
 
 ### Why Gear Stack Matters
 
 The gear stack affects:
+
 - **Acceleration rate** (how quickly you gain speed)
 - **Top speed** (maximum velocity achievable)
 - **Shift frequency** (how often you shift)
@@ -66,805 +83,612 @@ The gear stack affects:
 
 ---
 
-## Short vs Tall Stacks
+## Part 2: SHORT Stack vs. TALL Stack
 
 ### SHORT Stack Characteristics
 
-**Acceleration**: ⭐⭐⭐⭐⭐ Excellent
+**Acceleration:** ⭐⭐⭐⭐⭐ Excellent
+
 - Gears close together → small RPM drops when shifting
 - Stay in power band consistently
 - Quick acceleration out of slow corners
 
-**Top Speed**: ⭐⭐⭐ Limited
+**Top Speed:** ⭐⭐⭐ Limited
+
 - Run out of gears on long straights
 - Lower maximum speed in top gear
 - Optimized for short straights
 
-**Shift Frequency**: ⭐⭐⭐⭐⭐ High
+**Shift Frequency:** ⭐⭐⭐⭐⭐ High
+
 - Shift MORE often (every few seconds)
 - Gears used up quickly
 - Busy on straights
 
-**Engine Braking**: ⭐⭐⭐⭐⭐ Strong
+**Engine Braking:** ⭐⭐⭐⭐⭐ Strong
+
 - Lower gears at any given speed
 - Engine spins faster → more resistance
 - Powerful rotation tool
 
-**Forgiveness**: ⭐⭐⭐⭐⭐ Very Forgiving
+**Forgiveness:** ⭐⭐⭐⭐⭐ Very Forgiving
+
 - Early/late shifts = small penalty
 - Hard to fall out of power band
 - User-friendly for technical tracks
 
-**Best For**:
+**Best For:**
+
 - Technical tracks (lots of corners)
 - Short straights
-- Tracks requiring quick direction changes
-- Learning new circuits (forgiving nature)
+- Tight, twisty layouts
+- Learning tracks (forgiving)
 
----
+**Examples:** Okayama, Oran Park
 
 ### TALL Stack Characteristics
 
-**Acceleration**: ⭐⭐⭐ Moderate
-- Gears far apart → big RPM drops when shifting
-- Can fall out of power band
-- Slower acceleration, but pulls longer in each gear
+**Acceleration:** ⭐⭐⭐ Adequate
 
-**Top Speed**: ⭐⭐⭐⭐⭐ High
-- Pull further in each gear
-- Higher maximum speed in top gear
-- Optimized for long straights
+- Bigger RPM drops when shifting
+- Can fall out of power band if you shift wrong
+- Slower out of slow corners
 
-**Shift Frequency**: ⭐⭐ Low
-- Shift LESS often (longer in each gear)
-- Gears used slowly
-- Smooth on straights
+**Top Speed:** ⭐⭐⭐⭐⭐ Excellent
 
-**Engine Braking**: ⭐⭐⭐ Moderate
+- Higher top speed in top gear
+- Gears last longer on straights
+- Optimized for flowing layouts
+
+**Shift Frequency:** ⭐⭐⭐ Low
+
+- Shift LESS often
+- Stay in each gear longer
+- Less busy on straights
+
+**Engine Braking:** ⭐⭐⭐ Moderate
+
 - Higher gears at any given speed
 - Engine spins slower → less resistance
-- Gentler rotation (requires brake pedal)
+- Less aggressive rotation
 
-**Forgiveness**: ⭐⭐ Demanding
-- Early/late shifts = big penalty
+**Forgiveness:** ⭐⭐⭐ Less Forgiving
+
+- Wrong shift = big RPM drop
 - Easy to fall out of power band
 - Requires precision
 
-**Best For**:
-- Flowing tracks (momentum-based)
+**Best For:**
+
+- Flowing tracks (long, sweeping corners)
 - Long straights
-- Tracks with fewer, faster corners
-- Experienced drivers (demands precision)
+- High-speed layouts
+- Experienced drivers
+
+**Examples:** Winton, Rudskogen, Jefferson
+
+**Master Lonn's Tracks (Season 01):**
+
+- **Jefferson:** TALL stack (flowing layout)
+- **Rudskogen:** TALL stack (long straights)
+- **Winton:** TALL stack (flowing corners)
+
+**All TALL stacks so far, Master!** This is why shift timing matters so much for you.
 
 ---
 
-## Comparison Table
-
-| Characteristic | SHORT Stack | TALL Stack |
-|:--------------|:-----------|:-----------|
-| **Acceleration** | Faster (stay in power) | Slower (fall out of power) |
-| **Top Speed** | Lower (run out of gears) | Higher (pull further) |
-| **Shifts per Lap** | More frequent | Less frequent |
-| **RPM Drop per Shift** | ~600-800 RPM | ~1200-1500 RPM |
-| **Engine Braking** | Strong (lower gears) | Weak (higher gears) |
-| **Shift Timing Window** | Wide (forgiving) | Narrow (demanding) |
-| **Best Shift Point** | 7000-7100 RPM | 6800-7000 RPM |
-| **Sound Change Rate** | Fast (quick pitch rise) | Slow (gradual pitch rise) |
-| **Track Type** | Technical, tight | Flowing, fast |
-
----
-
-## Engine Braking & Gear Selection
+## Part 3: Engine Braking & Gear Selection
 
 ### What is Engine Braking?
 
-**Engine braking** = Slowing force from engine resistance when you lift throttle.
+**Engine braking** is using the engine's resistance (via downshifting) to slow the car WITHOUT the brake pedal.
 
-**How it works**:
-1. Lift throttle → fuel cut → engine becomes air pump
-2. Engine resistance fights wheel rotation
-3. Rear wheels slow down (engine is at rear in FF1600!)
-4. Weight shifts rearward (progressive, smooth)
-5. Rear tires load → grip increases → car rotates
+**How it works:**
 
-**Key point**: Brake bias does NOT affect engine braking! It's a separate system.
+1. **Lift off throttle**
+2. **Downshift** (e.g., 4th → 3rd)
+3. **Engine RPM increases** (compression resistance)
+4. **Car slows down** progressively
 
-### Gear Selection = Engine Braking Strength
+**Why it's different from brake pedal:**
 
-**Lower gear = MORE engine braking**:
-- Engine spins faster for same vehicle speed
-- More resistance from pistons/valves
-- Stronger slowing force
-- More rear weight transfer
-- More rotation
+| Brake Pedal            | Engine Braking                 |
+| ---------------------- | ------------------------------ |
+| Sudden weight shift    | Gradual weight shift           |
+| Maximum stopping power | Moderate stopping power        |
+| Can upset balance      | Maintains balance              |
+| Front-biased           | Distributed through drivetrain |
 
-**Higher gear = LESS engine braking**:
-- Engine spins slower for same vehicle speed
-- Less resistance
-- Gentler slowing force
-- Less rear weight transfer
-- Less rotation
+**Master Lonn's Realization (Week 03, Winton T5-T6):**
 
-### Example: Same Corner, Different Gears
+"Engine braking feels SMOOTHER. The car stays settled, doesn't dive as much, rotation is more natural!"
 
-**T5 Winton at 80 km/h**:
+**Exactly, Master.** ✅
 
-**In 2nd gear**:
-- Engine at ~6500 RPM
-- STRONG engine braking (aggressive!)
-- Too much rear weight transfer
-- Car might be unstable
-- Harder to modulate
+### Using Engine Braking for Rotation
 
-**In 3rd gear** (optimal):
-- Engine at ~5000 RPM
-- MODERATE engine braking (controllable!)
-- Progressive rear weight transfer
-- Car stable and predictable
-- Easy to modulate
+**The Technique:**
 
-**In 4th gear**:
-- Engine at ~4000 RPM
-- WEAK engine braking (insufficient!)
-- Not enough rear weight transfer
-- Car won't rotate enough
-- Need brake pedal to assist
+1. **Approach corner** (in 4th gear, for example)
+2. **Lift throttle**
+3. **Downshift to 3rd** (or 2nd, depending on corner)
+4. **NO brake pedal** (or very light brake)
+5. **Car slows via engine resistance**
+6. **Weight shifts forward gradually** → front loads → rear lightens → **car rotates**
 
-### Gear Stack Amplifies This Effect!
+**When to use:**
 
-**SHORT stack (Winton)**:
-- Even 3rd gear has strong engine braking
-- Can use HIGHER gears and still get rotation
-- Example: T5 in 3rd = perfect balance
+✅ **Momentum corners** (want to maintain flow)  
+✅ **Medium-speed corners** (don't need heavy braking)  
+✅ **Flowing sections** (esses, technical zones)  
+✅ **When car feels nervous** (brake pedal too abrupt)
 
-**TALL stack (Rudskogen)**:
-- 3rd gear has weaker engine braking
-- Need LOWER gears or brake pedal for rotation
-- Example: Trail braking becomes more important
+**When NOT to use:**
+
+❌ **Hairpins** (need maximum braking)  
+❌ **Heavy brake zones** (engine braking not enough)  
+❌ **High-speed corners** (don't want to slow down!)
+
+**Master Lonn's Application:**
+
+**Winton T5 (3rd gear sweeper):**
+
+- OLD: Brake pedal → scrubs 14 km/h → wider line
+- NEW: Downshift 4th → 3rd → maintains momentum → tighter line → **FASTER!**
+
+**Winton T6 (4th gear kink):**
+
+- Because T5 exit is faster → can take T6 flat → no need to downshift!
+
+**The compound effect of smooth engine braking.** ✨
 
 ---
 
-## Advanced Technique: Managing Rotation with Gears
+## Part 4: Shift Timing & Techniques
 
-### The "Alien" Approach
+### When to Shift (Upshift)
 
-**Lower-level drivers**: Use lower gears, brake hard, aggressive inputs
-- T5 in 2nd gear → strong braking → tight line
-- Over-slowing the car
-- Losing momentum
+**The Rule:**
 
-**Higher-level drivers**: Use higher gears, engine braking, smooth inputs
-- T5 in 3rd gear → moderate braking → wide line
-- Maintaining momentum
-- "Much calmer" (as Master Lonn discovered!)
+Shift when engine reaches **peak power RPM** (around 7,000-7,500 RPM in FF1600).
 
-### Why Higher Gears = Faster?
+**How to know:**
 
-**Physics**:
-1. Higher gear = less engine braking = less speed loss
-2. Wider line possible (don't need to slow as much)
-3. Higher minimum corner speed (momentum carry!)
-4. Better exit (already in higher gear for acceleration)
-5. Smoother weight transfer (progressive, not abrupt)
+✅ **By sound:** Engine screams, tone changes  
+✅ **By feel:** Acceleration stops increasing  
+❌ **By tachometer:** Don't stare at gauges!
 
-**On SHORT stack**: Even high gears provide enough engine braking!
+**The Shift Point:**
 
-### When to Downshift for Rotation
+- **SHORT stack:** Shift around 7,200 RPM (forgiving)
+- **TALL stack:** Shift around 7,000 RPM (less forgiving)
 
-**Timing matters**:
+**Early shift = lose acceleration**  
+**Late shift = hit limiter = waste time**  
+**Perfect shift = stay in power band**
 
-**Early downshift** (far from apex):
-- Engine braking starts early
-- More total slowing
-- Rear loads sooner
-- Early rotation
+### Upshift Technique
 
-**Late downshift** (close to apex):
-- Engine braking starts late
-- Less total slowing
-- Rear loads later
-- Delayed rotation
+**The Process:**
 
-**Use this to adjust your line**:
-- Need more rotation? Downshift earlier
-- Need less rotation? Downshift later or stay in higher gear
+1. **Lift throttle** (fully, briefly)
+2. **Press clutch** (fully, quickly)
+3. **Shift up** (one gear)
+4. **Release clutch** (quickly but smoothly)
+5. **Apply throttle** (smoothly)
 
----
+**In iRacing:**
 
-## Shift Timing & Techniques
+- Most use **auto-clutch** (one button press)
+- Some use **manual clutch** (more control)
 
-### The FF1600 Power Band
+**The Key:**
 
-**Kent engine characteristics**:
-- Peak power: ~6800-7000 RPM
-- Power holds well to: ~7200 RPM (rev limiter)
-- Usable range: 5000-7200 RPM
-- Sweet spot: 6000-7000 RPM
+**Minimal time off-throttle** = fastest acceleration.
 
-### Shift Light (Blue Light)
+### When to Shift (Downshift)
 
-**Default setting**: ~6800 RPM
+**The Rule:**
 
-**Purpose**: Indicates optimal shift point for TALL stack
+Downshift when entering a corner that requires a lower gear.
 
-**Reality**: May be conservative for SHORT stack!
+**How to know which gear:**
 
-### Optimal Shift Points
+✅ **Corner speed:** 35 mph = 2nd, 55 mph = 3rd, 75+ mph = 4th  
+✅ **By sound:** Engine should rev to ~6,000 RPM after downshift  
+❌ **By memorization:** Learn what gear for each corner
 
-**SHORT Stack**:
-- **Conservative**: 6800 RPM (blue light)
-- **Optimal**: 7000-7100 RPM (rev past blue light!)
-- **Maximum**: 7200 RPM (rev limiter)
+### Downshift Technique
 
-**Why shift later on short stack?**
-- Small RPM drop when shifting
-- Land in good RPM in next gear even from 7100
-- More time in peak power
-- Better acceleration
+**The Process:**
 
-**TALL Stack**:
-- **Optimal**: 6800-7000 RPM (at/slightly past blue light)
-- **Don't shift late!** (7100+ RPM)
+1. **Brake** (if needed)
+2. **Press clutch** (fully)
+3. **Downshift** (one gear at a time, usually)
+4. **Release clutch** (smoothly to avoid locking rear)
+5. **Continue braking/turning**
 
-**Why NOT shift late on tall stack?**
-- Big RPM drop when shifting
-- Land in low RPM if you wait too long
-- Fall out of power band
-- Worse acceleration
+**Key Considerations:**
 
-### The Forgiveness Window
+**Clutch release speed:**
 
-**SHORT stack window**: 6500-7200 RPM (700 RPM range!)
-- Shift anywhere in this range = "good enough"
-- Small differences in acceleration
-- Hard to mess up
+- **Too fast** = sudden engine braking = rear lockup
+- **Too slow** = delayed engine braking = lost time
+- **Just right** = smooth engagement
 
-**TALL stack window**: 6700-7100 RPM (400 RPM range)
-- Shift outside this range = penalty
-- Big differences in acceleration
-- Requires precision
+**Downshift timing:**
 
-### What Happens If You Shift Wrong?
+- **Early downshift** = more engine braking (rotation tool)
+- **Late downshift** = less engine braking (stability)
 
-**Shift too EARLY** (e.g., 6500 RPM):
+**Master Lonn's Learning (Week 03):**
 
-**SHORT stack**:
-- Drop to 5800 RPM (still okay!)
-- Small acceleration loss
-- Recoverable quickly
-
-**TALL stack**:
-- Drop to 5200 RPM (oof!)
-- Big acceleration loss
-- Takes time to recover
-
-**Shift too LATE** (e.g., 7200 RPM, hit limiter):
-
-**SHORT stack**:
-- Rev limiter cuts power briefly
-- Drop to 6600 RPM (good!)
-- Almost no penalty
-
-**TALL stack**:
-- Rev limiter cuts power briefly
-- Drop to 5700 RPM (bad!)
-- Noticeable penalty
-
-**Lesson**: SHORT stack forgives mistakes, TALL stack punishes them!
+Early downshift at Winton T5 = more engine braking = better rotation = faster! 🚀
 
 ---
 
-## Sound-Based Shifting
+## Part 5: Sound-Based Shifting
 
-### Why Shift by Sound?
+### Why Sound Matters
 
-**Problems with visual shift light**:
-- ❌ Takes eyes off track
-- ❌ Visual processing delay
-- ❌ Generic setting (doesn't adapt to conditions)
+**The Problem:**
 
-**Benefits of sound-based shifting**:
-- ✅ Eyes stay on track
-- ✅ Instant feedback (no processing delay)
-- ✅ Hear load changes (uphill, headwind, etc.)
-- ✅ Becomes automatic (subconscious)
-- ✅ **What aliens do!**
+Looking at the tachometer = eyes off track = slower, dangerous.
 
-### The Physics of Engine Sound
+**The Solution:**
 
-**RPM = Sound Frequency (Physics)**:
-- Engine speed creates vibration
-- Vibration creates sound waves
-- Frequency = pitch your ear hears
+**Listen to the engine.** The sound tells you EVERYTHING.
 
-**7000 RPM = SAME pitch** regardless of:
-- Which gear you're in
-- Short or tall stack
-- Vehicle speed
-- Acceleration rate
+### The Sound Signatures
 
-**Your brain can learn**: "THAT pitch = shift time!"
+**Upshift timing:**
 
-### Learning the Shift Sound
+- **6,000 RPM:** "Winding up" (not yet)
+- **6,500 RPM:** "Getting loud" (almost)
+- **7,000 RPM:** "Screaming!" (SHIFT NOW)
+- **7,500 RPM:** "Hitting limiter" (too late!)
 
-**Method**:
+**After upshift:**
 
-1. **First few laps** at new track:
-   - Glance at tachometer when you shift
-   - **Listen to the sound at that moment**
-   - Note the pitch/frequency
+- **4,500-5,000 RPM:** Good (back in power band)
+- **3,500 RPM:** Too low (fell out of power band)
 
-2. **Next 5-10 laps**:
-   - Shift based on sound
-   - Occasionally check tach to verify
-   - Refine your "optimal sound"
+**Downshift validation:**
 
-3. **After 10+ laps**:
-   - Stop looking at tach completely
-   - **Just listen and shift**
-   - It's now automatic!
+- **After downshift, engine revs to ~6,000 RPM** = good
+- **After downshift, engine revs to 4,000 RPM** = shifted too early, try lower gear
+- **After downshift, engine revs to 7,500 RPM** = shifted too late, engine screams!
 
-### Recognizing RPM by Sound
+### Training Your Ear
 
-**Develop your "sound library"**:
+**Drill: No-Look Shifting**
 
-- **5000 RPM**: Low rumble, building
-- **6000 RPM**: Rising tone, power increasing
-- **6500 RPM**: Getting urgent, close to shift
-- **6800 RPM**: Blue light pitch (shift for tall stack)
-- **7000 RPM**: Optimal pitch (shift for short stack)
-- **7100 RPM**: Slightly higher, near limit
-- **7200 RPM**: Sharp/harsh, rev limiter!
+1. Practice on a straight
+2. Close your eyes (or don't look at gauges)
+3. Shift by sound only
+4. After each shift, check if you were in 6,500-7,000 RPM
 
-**With practice**: Your ear recognizes "optimal pitch" instantly!
+**Goal:** Shift perfectly by sound 10 times in a row.
 
-### What Changes with Gear Stack?
+**Master Lonn's Approach:**
 
-**Sound pitch at 7000 RPM**: **SAME** (always!)
-
-**What DOES change**:
-
-**SHORT stack**:
-- Pitch **rises FASTER** (quick acceleration)
-- Hit "shift sound" **MORE OFTEN** (frequent shifts)
-- Sound cycle: vrooom → SHIFT → vrooom → SHIFT (rapid!)
-
-**TALL stack**:
-- Pitch **rises SLOWER** (gradual acceleration)
-- Hit "shift sound" **LESS OFTEN** (infrequent shifts)
-- Sound cycle: vroooooom → SHIFT → vroooooom → SHIFT (patient!)
-
-**But the "shift sound" itself = identical pitch!**
-
-### Advanced: Using Sound for Optimization
-
-**Listen for**:
-- **Flat sound** = hitting rev limiter (shift earlier!)
-- **Laboring sound** = too low RPM after shift (shifted too early!)
-- **Smooth sound** = perfect shift timing (repeat this!)
-
-**Hear load changes**:
-- **Pitch drops suddenly** = uphill (don't shift yet!)
-- **Pitch rises quickly** = downhill (shift sooner!)
-- **Pitch stutters** = wheel spin (lift slightly!)
+Week 01-02: Looking at tach (slow)  
+Week 03+: Shifting by sound (faster, eyes on track!)
 
 ---
 
-## Track-Specific Applications
+## Part 6: Track-Specific Applications
 
-### Example 1: Winton Motor Raceway (SHORT Stack)
+### Jefferson Circuit (TALL Stack)
 
-**Fixed Setup**:
-- Gear stack: **SHORT**
-- Pushrod: 37.0mm (stiff)
-- Fuel: 14.0L (light)
+**T1 (Right 90°):** 2nd gear  
+**T2 (Left Kink):** 4th gear (flat)  
+**T3 (Hairpin):** 2nd gear  
+**T4 (Left Kink):** 4th gear (flat)  
+**T5-T6 (Esses):** 3rd gear (both)  
+**T7 (Carousel):** 3rd gear
 
-**Characteristics**:
-- Short main straight
-- Technical, tight corners
-- Lots of elevation changes
-- Requires quick direction changes
+**Shift strategy:**
 
-**Why SHORT stack?**
-- Quick acceleration out of slow corners ✅
-- Strong engine braking for technical sections ✅
-- Forgiving shift timing (driver focuses on lines) ✅
-- Don't need high top speed (short straights) ✅
+- Long straight → 4th gear maxes out
+- Technical section → lots of 2nd/3rd shifts
+- Use engine braking in esses (T5-T6)
 
-**Driving Technique**:
+### Rudskogen Motorsenter (TALL Stack)
 
-**Shift Points**:
-- Rev to **7000-7100 RPM** before shifting
-- Trust the "optimal sound"
-- Don't stress about perfect shifts (forgiving!)
+**T1:** 3rd gear (high-speed right)  
+**T2:** 2nd gear (downhill double apex)  
+**T3-T4:** 3rd gear (esses)  
+**T5:** 2nd gear (hairpin)  
+**T6:** 4th gear (fast right kink, flat)  
+**T11-T12:** 3rd gear (carousel)
 
-**Gear Selection**:
-- **T5**: 4th → 3rd (engine braking for rotation)
-- **T3**: 3rd gear (not 2nd! - momentum carry)
-- **T1-T2**: Stay in 3rd (smooth power delivery)
+**Master Lonn's T2 Strategy (Week 02):**
 
-**Engine Braking**:
-- SHORT stack makes it STRONG
-- Can use HIGHER gears and still get rotation
-- T5: No brake pedal needed, just engine braking!
+- 3rd gear on first apex
+- Downshift to 2nd before hill to second apex
+- Early 2nd gear = engine braking helps rotation! ✅
 
-**Focus**:
-- Lines > perfect shifts
-- Consistency > chasing tenths
-- Let the forgiving gearbox support you
+### Winton National (TALL Stack)
 
----
+**T1:** 3rd gear (sweeper)  
+**T2:** 2nd gear (hairpin)  
+**T3:** 2nd gear (tight left)  
+**T4:** 2nd gear (switchback)  
+**T5:** 3rd gear (long left sweeper) ← **Master Lonn's focus!**  
+**T6:** 4th gear (right kink, flat if T5 exit good)  
+**T7:** 2nd gear (hairpin)  
+**T10:** 3rd gear (long right carousel)
 
-### Example 2: Rudskogen Motorsenter (TALL Stack)
+**Master Lonn's T5-T6 Discovery (Week 03):**
 
-**Fixed Setup**:
-- Gear stack: **TALL**
-- Pushrod: 39.0mm (soft)
-- Fuel: 15.0L (heavier)
+**T5 approach:**
 
-**Characteristics**:
-- Longer straights
-- Flowing, momentum-based
-- Big elevation changes
-- Fewer but faster corners
+- 4th gear on approach
+- Downshift to 3rd (NO brake pedal)
+- Engine braking slows car + helps rotation
+- Wider arc possible (less lateral G)
+- Maintain momentum
 
-**Why TALL stack?**
-- Pull further in each gear (reach higher speeds) ✅
-- Smooth power delivery (matches flowing layout) ✅
-- Less shift frequency (driver focuses on flow) ✅
-- Higher top speed (longer straights) ✅
+**T6 benefit:**
 
-**Driving Technique**:
+- Because T5 exit is faster → T6 taken flat in 4th!
+- Compound speed gain
 
-**Shift Points**:
-- Shift at **blue light** (6800-7000 RPM)
-- Don't shift late! (big RPM drop penalty)
-- Precision matters (narrow forgiveness window)
-
-**Gear Selection**:
-- Lower gears more often (weaker engine braking)
-- Can't rely on engine braking alone
-- Trail braking becomes important
-
-**Engine Braking**:
-- TALL stack makes it WEAK
-- Need brake pedal more often
-- Combine brake + engine braking for rotation
-
-**Focus**:
-- Momentum > acceleration
-- Flow state > individual corners
-- Shift timing precision (less forgiving)
+**Time saved:** ~0.4s in S2 alone! 🎉
 
 ---
 
-## Common Mistakes & Fixes
+## Part 7: Common Mistakes & Fixes
 
-### Mistake 1: Using Too Low Gears (Over-Slowing)
+### Mistake 1: Shifting Too Early
 
-**Symptom**:
-- Slow lap times despite "feeling fast"
-- Car feels nervous, twitchy
-- Excessive engine braking
-- Poor exits (too slow mid-corner)
+**What happens:**
 
-**Cause**:
-- Dropping to lower gear than necessary
-- Too much engine braking
-- Over-slowing the car
+- Engine drops below power band
+- Acceleration drops off
+- Lose time on straights
 
-**Fix**:
-- Try ONE GEAR HIGHER in problem corners
-- Trust the speed (feels scary at first!)
-- Let momentum work for you
-- "Much calmer" = faster
+**How to recognize:**
 
-**Example**:
-- **Before**: T5 in 2nd gear (aggressive)
-- **After**: T5 in 3rd gear (smooth, faster!)
+- Engine sounds "bogged down"
+- Acceleration feels weak
+- Tach shows < 5,000 RPM after shift
 
----
+**The fix:**
 
-### Mistake 2: Shifting at Wrong RPM
+Wait until 7,000 RPM (or louder engine note) before shifting.
 
-**Symptom** (SHORT stack):
-- Following blue light religiously
-- Feels like "leaving something on the table"
-- Sound says "keep revving!"
+### Mistake 2: Shifting Too Late
 
-**Fix**:
-- Rev **past blue light** to 7000-7100 RPM
-- Trust your ears
-- Small RPM drop means it's safe
-- Test lap times (you'll be faster!)
+**What happens:**
 
-**Symptom** (TALL stack):
-- Revving past 7100 RPM
-- Next gear feels sluggish
-- Acceleration drops after shift
+- Hit rev limiter
+- Engine bounces off limiter
+- No additional acceleration (wasted time)
 
-**Fix**:
-- Shift **at blue light** (6800-7000 RPM)
-- Don't wait for "the sound" (different stack!)
-- Big RPM drop means shift earlier
-- Test lap times (you'll be faster!)
+**How to recognize:**
 
----
+- Engine "sputters" or "cuts out"
+- Loud harsh sound
+- Tach at 7,500+ RPM
 
-### Mistake 3: Ignoring Sound Cues
+**The fix:**
 
-**Symptom**:
-- Always watching tachometer
-- Eyes off track during shifts
-- Inconsistent shift points
-- Feels disconnected from car
+Shift at 7,000 RPM (before the harsh note).
 
-**Fix**:
-- **Learn the sound** of optimal RPM
-- Practice shifting by ear (5-10 laps)
-- Stop looking at tach
-- Feel the rhythm of the engine
+### Mistake 3: Downshifting Too Aggressively
 
-**Benefits**:
-- Eyes on track = better lines
-- Automatic shifting = less mental load
-- Consistent shifts = better lap times
-- Connected to car = flow state
+**What happens:**
 
----
+- Clutch dumps suddenly
+- Rear wheels lock briefly
+- Car becomes unstable
 
-### Mistake 4: Not Adapting to Gear Stack
+**How to recognize:**
 
-**Symptom**:
-- Same technique at every track
-- Struggles at new circuits
-- "This track feels wrong!"
-- Inconsistent results
+- Car "kicks" or "hops" on downshift
+- Rear feels loose on corner entry
+- Lockup sound/feel
 
-**Fix**:
-- **Check setup before driving!**
-- Identify gear stack (short vs tall)
-- Adjust shift points accordingly
-- Adapt gear selection strategy
+**The fix:**
 
-**Quick check**:
-- First lap: How often am I shifting?
-- Many shifts = short stack (rev higher!)
-- Few shifts = tall stack (shift at blue!)
+Release clutch more gradually OR downshift earlier (less speed difference).
 
----
+### Mistake 4: Wrong Gear for Corner
 
-## Practice Exercises
+**What happens:**
 
-### Exercise 1: Gear Stack Identification
+- Engine in wrong RPM range
+- Either: Too low (bogged), or Too high (screaming)
+- Poor acceleration out of corner
 
-**Goal**: Learn to recognize which gear stack you have within 1 lap
+**How to recognize:**
 
-**Method**:
-1. Don't look at setup beforehand
-2. Drive one lap at moderate pace
-3. Count shifts on longest straight
-4. Listen to how quickly pitch rises
+- After corner, acceleration feels weak
+- Engine sounds wrong
+- Have to shift immediately after corner
 
-**What to notice**:
-- **Many shifts, fast pitch rise** = SHORT stack
-- **Few shifts, slow pitch rise** = TALL stack
+**The fix:**
 
-**Next step**:
-- Verify by checking setup
-- Repeat until you can tell instantly
+Learn correct gear for each corner (trial and error).
+
+**Rule of thumb:**
+
+- **< 40 mph** = 2nd gear
+- **40-60 mph** = 3rd gear
+- **60-80 mph** = 4th gear
+- **80+ mph** = 4th or 5th gear
+
+### Mistake 5: Not Using Engine Braking
+
+**What happens:**
+
+- Over-relying on brake pedal
+- Car feels abrupt/nervous
+- Miss rotation opportunities
+
+**How to recognize:**
+
+- Always using brake pedal (even light braking zones)
+- Car feels "jerky" on corner entry
+- VRS coach uses different approach (no brake)
+
+**The fix:**
+
+**Experiment with downshift-only** (no brake) in medium-speed corners.
+
+**Master Lonn's Lesson (Week 03):**
+
+Winton T5: Try downshift WITHOUT brake → feels smoother → IS faster! ✅
 
 ---
 
-### Exercise 2: Sound-Based Shifting Practice
+## Part 8: Advanced Techniques
 
-**Goal**: Shift by sound without looking at tachometer
+### Heel-Toe Downshifting
 
-**Method**:
-1. First 3 laps: Shift while watching tach
-   - Note the sound at shift point
-   - Memorize "that pitch"
-2. Next 5 laps: Shift by sound, check tach after
-   - Were you within 200 RPM of target?
-   - Refine your "shift sound"
-3. Final 5+ laps: Shift by sound only
-   - Don't look at tach at all
-   - Trust your ears
+**What it is:**
 
-**Success metric**: Shifts within ±200 RPM without looking
+Blipping the throttle while downshifting to match engine RPM.
 
----
+**Why it helps:**
 
-### Exercise 3: Optimal Shift Point Testing
+- Smooth clutch engagement
+- No rear lockup
+- Faster, more stable downshifts
 
-**Goal**: Find fastest shift point for your track/gear stack
+**The Technique:**
 
-**Method**:
-1. Pick a straight that uses 2-3 gears
-2. Test 1 (5 laps): Shift at blue light (6800 RPM)
-   - Time the straight (or note speed at corner entry)
-3. Test 2 (5 laps): Shift at 7000 RPM
-   - Time the straight (or note speed at corner entry)
-4. Test 3 (5 laps): Shift at 7100 RPM
-   - Time the straight (or note speed at corner entry)
+1. **Brake** (with ball of right foot)
+2. **Clutch in** (left foot)
+3. **Blip throttle** (heel or side of right foot)
+4. **Downshift** (left hand)
+5. **Release clutch** (left foot)
+6. **Continue braking** (right foot)
 
-**Compare**:
-- Which was fastest?
-- Which felt best?
-- Which was most consistent?
+**Do you need it?**
 
-**Expected result**:
-- SHORT stack: 7000-7100 RPM wins
-- TALL stack: 6800-7000 RPM wins
+- **Manual clutch users:** Yes, very helpful
+- **Auto-clutch users:** Less critical (sim helps)
 
----
+**Master Lonn (currently):**
 
-### Exercise 4: Higher Gear Experimentation
+Using auto-clutch → heel-toe not required yet.
 
-**Goal**: Find if higher gear = faster lap time in specific corners
+Future skill to learn? Maybe! 🎯
 
-**Method**:
-1. Pick a corner where you currently downshift (e.g., T5)
-2. Test 1 (5 laps): Your current gear (e.g., 2nd)
-   - Note corner exit speed
-   - Note lap time
-3. Test 2 (5 laps): ONE gear higher (e.g., 3rd)
-   - Note corner exit speed
-   - Note lap time
-4. Test 3 (5 laps): TWO gears higher (e.g., 4th)
-   - Note corner exit speed
-   - Note lap time
+### Rev-Matching (Automatic)
 
-**Compare**:
-- Which exit speed was highest?
-- Which lap time was fastest?
-- Which felt most stable?
+**What it is:**
 
-**Expected result**: Often ONE gear higher = faster!
-- More momentum carry
-- Smoother weight transfer
-- Better exit (already in higher gear)
+iRacing's auto-blip feature (enabled by default).
+
+**What it does:**
+
+Automatically blips throttle on downshift to match RPM.
+
+**Should you use it?**
+
+✅ **Yes** (especially learning)  
+⏳ **Maybe disable later** (for more control)
+
+**Current recommendation:** Keep it enabled, focus on other skills first.
 
 ---
 
-### Exercise 5: Brake Bias Progression with Gear Stack
+## Padawan Practice Drills
 
-**Goal**: Optimize brake bias for warm tires based on gear stack
+### Drill 1: Sound-Based Shifting
 
-**Method**:
-1. Start session at 57% brake bias (cold tires)
-2. After lap 2: Drop to 56.5% (warming)
-3. After lap 5: Drop to 56% (warm)
+**Goal:** Shift perfectly by sound only (no tachometer)
 
-**What to notice**:
+**Process:**
 
-**SHORT stack** (strong engine braking):
-- Less brake pedal needed overall
-- Bias changes feel more subtle
-- Can run slightly lower bias (55.5-56%)
+1. Pick a track with long straight (Rudskogen, Jefferson)
+2. Accelerate through gears
+3. Close eyes (or look away from gauges)
+4. Shift by sound alone
+5. After each shift, check if you were at 6,800-7,200 RPM
 
-**TALL stack** (weak engine braking):
-- More brake pedal needed overall
-- Bias changes feel more significant
-- Need slightly higher bias (56-56.5%)
+**Success:** 10 perfect shifts in a row (all within target RPM).
 
-**Test**: Lap times and rotation feel at each bias setting
+### Drill 2: Engine Braking Experiment
 
----
+**Goal:** Feel the difference between brake pedal and engine braking
 
-## Quick Reference: Decision Tree
+**Process:**
 
-### "What gear should I use for this corner?"
+1. Pick ONE medium-speed corner
+2. **Lap 1:** Brake pedal approach (your normal method)
+3. **Lap 2:** Engine braking approach (downshift, minimal/no brake)
+4. **Compare:** Which felt smoother? Which was faster?
 
-```
-Is this corner...
-└─ Very slow (under 60 km/h)?
-   └─ Use 2nd gear
-   
-└─ Slow-medium (60-90 km/h)?
-   ├─ SHORT stack? → Use 3rd gear (maybe 2nd if very tight)
-   └─ TALL stack? → Use 2nd or 3rd gear
-   
-└─ Medium-fast (90-120 km/h)?
-   ├─ SHORT stack? → Use 3rd or 4th gear
-   └─ TALL stack? → Use 3rd gear
-   
-└─ Fast (over 120 km/h)?
-   ├─ SHORT stack? → Use 4th gear
-   └─ TALL stack? → Use 4th gear
-```
+**Success:** You can articulate the difference in feel and speed.
 
-**Then ask**: "Do I need more rotation?"
-- YES → Drop ONE gear lower (more engine braking)
-- NO → Stay in current gear or go ONE gear higher
+### Drill 3: The Gear Choice Challenge
 
----
+**Goal:** Find optimal gear for every corner
 
-### "When should I shift?"
+**Process:**
 
-```
-What gear stack do I have?
-├─ SHORT stack
-│  └─ Shift at: 7000-7100 RPM (past blue light!)
-│  └─ Window: 6500-7200 RPM (very forgiving)
-│
-└─ TALL stack
-   └─ Shift at: 6800-7000 RPM (at blue light)
-   └─ Window: 6700-7100 RPM (be precise!)
-```
+1. Drive 3 laps at current track
+2. After each corner, ask: "Was I in the right gear?"
+   - Too low RPM after corner = gear too high
+   - Too high RPM after corner = gear too low
+3. Adjust and test again
 
-**Method**: Shift by SOUND, not by light!
+**Success:** Consistent gear choice, good acceleration out of every corner.
+
+### Drill 4: The Downshift Timing Test
+
+**Goal:** Optimize when you downshift
+
+**Process:**
+
+1. Pick ONE corner
+2. **Lap 1:** Downshift early (before brake zone)
+3. **Lap 2:** Downshift mid-brake zone
+4. **Lap 3:** Downshift late (just before turn-in)
+5. **Compare:** Which gave best rotation? Which was fastest?
+
+**Success:** You know the optimal downshift timing for that corner.
 
 ---
 
-## Summary: The Three Principles
+## Key Takeaways
 
-### 1. **Gear Stack = Track Personality**
+✅ **Gearbox = Tool** (not just speed control)
 
-- **SHORT stack** = Technical, tight, aggressive
-  - Quick acceleration
-  - Strong engine braking
-  - Forgiving shifts
-  - Lower top speed
+✅ **SHORT stack:** Close ratios, forgiving, technical tracks
 
-- **TALL stack** = Flowing, fast, smooth
-  - Smooth acceleration
-  - Weak engine braking
-  - Demanding shifts
-  - Higher top speed
+✅ **TALL stack:** Wide ratios, precise, flowing tracks (your tracks!)
 
-**Know which you have before driving!**
+✅ **Engine braking:** Rotation tool via downshift (smooth weight transfer)
 
----
+✅ **Shift timing:** 7,000 RPM upshift, ~6,000 RPM after downshift
 
-### 2. **Higher Gears = Faster (Usually)**
+✅ **Shift by sound:** Ears > Eyes (keep eyes on track)
 
-- Lower gears = over-slowing
-- Higher gears = momentum carry
-- **"Much calmer" = alien technique**
-- Trust the speed (even if scary!)
+✅ **Track-specific:** Learn correct gear for each corner
 
-**Exception**: Very slow corners still need low gears
+✅ **Master Lonn's discovery:** Engine braking (downshift without brake) = smoother, faster in momentum corners
 
 ---
 
-### 3. **Sound > Sight**
-
-- Shift by sound, not by tachometer
-- Eyes on track = better driving
-- Becomes automatic with practice
-- **7000 RPM = "that pitch"** (learn it!)
-
-**Your ears are more precise than your eyes!**
+**Next Chapter:** [Chapter 7: The Art of the Apex - Racing Lines](07-racing-lines.md)  
+**Previous Chapter:** [Chapter 5: The Unseen Force - Weight Transfer](05-weight-transfer.md)
 
 ---
 
-## Final Thoughts
+**See Also:**
 
-**Master Lonn's Discovery** (Week 3, Winton):
-
-> "The rotation is more smooth than trail braking. Less abrupt weight transfer. I now feel WHY the downshift to 3 and two-thirds of the track make sense. Engine braking for rotation."
-
-This understanding - that **gear selection = rotation management** - is what separates good drivers from great drivers.
-
-The gearbox isn't just about "going fast in straights." It's about:
-- **Managing weight transfer** (progressive vs abrupt)
-- **Controlling rotation** (how much, when, where)
-- **Optimizing momentum** (higher gears = more speed carry)
-- **Adapting to conditions** (track layout, gear stack, grip level)
-
-When you understand this, you stop being a **driver** and become a **racer**.
+- Master Lonn's T5 engine braking discovery (Week 03, Winton)
+- Chapter 5: Weight Transfer (engine braking creates smooth weight shift)
+- Track profiles with gear recommendations
 
 ---
 
-_"The engine speaks. The gears respond. The driver conducts the symphony."_ 🎵⚙️
+_"The gearbox whispers to the engine. The engine talks to the tires. Learn the conversation."_ ⚙️🏎️
 
-**— Little Padawan & Master Lonn, Week 3 2025-26 Season**
-
----
-
-**Document History**:
-- Created: 2025-12-26 (Week 3, Winton Motor Raceway)
-- Based on: Master Lonn's engine braking breakthrough and gear stack analysis
-- Key insight: SHORT stack (Winton) vs TALL stack (Rudskogen) understanding
-
+**— Little Padawan** ✨

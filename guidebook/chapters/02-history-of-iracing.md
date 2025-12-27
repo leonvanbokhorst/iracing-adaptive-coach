@@ -36,21 +36,25 @@ He founds **Papyrus Design Group** with one mission: no compromises on physics.
 Over the next 15 years, Papyrus releases games that become **legendary** in sim racing:
 
 **Indianapolis 500: The Simulation (1989)**
+
 - First realistic racing sim
 - Professional drivers used it for practice
 - Set the standard for physics-based racing
 
 **IndyCar Racing (1993)**
+
 - Advanced tire model
 - Real tracks
 - Multiplayer via modem (cutting edge!)
 
 **Grand Prix Legends (1998)**
+
 - 1967 Formula 1 cars
 - Brutally difficult, insanely realistic
 - **Still** played by hardcore simmers today
 
 **NASCAR Racing 2003 Season (2003)**
+
 - The pinnacle of Papyrus work
 - Physics so good it's STILL used as reference
 - The code that would become iRacing
@@ -73,16 +77,19 @@ Not another racing game. A **service**—like an online racing league that never
 **The Revolutionary Ideas:**
 
 1. **Subscription-based** (not one-time purchase)
+
    - Continuous development
    - Always improving
    - No sequel treadmill
 
 2. **Laser-scanned tracks**
+
    - Survey real tracks to millimeter accuracy
    - Every bump, crack, elevation change captured
    - First sim to do this at scale
 
 3. **Structured competition**
+
    - Official series with schedules
    - Safety Rating (SR) system
    - iRating for skill-based matchmaking
@@ -102,6 +109,7 @@ Not another racing game. A **service**—like an online racing league that never
 ### The Launch (August 26, 2008)
 
 iRacing goes live with:
+
 - 13 cars
 - 14 laser-scanned tracks
 - A few thousand hardcore simmers
@@ -112,6 +120,7 @@ iRacing goes live with:
 The community was **small** but **dedicated**. Subscription cost kept casual players away, but attracted serious racers.
 
 **The critics said:**
+
 - "Too expensive"
 - "Too hardcore"
 - "Won't work"
@@ -122,18 +131,19 @@ The community was **small** but **dedicated**. Subscription cost kept casual pla
 
 Year by year, iRacing grew:
 
-| Year | Milestone |
-|------|-----------|
-| **2010** | NASCAR partnership announced (eNASCAR series) |
-| **2012** | 35,000 active members |
-| **2015** | 50+ cars, 70+ track configs |
+| Year     | Milestone                                          |
+| -------- | -------------------------------------------------- |
+| **2010** | NASCAR partnership announced (eNASCAR series)      |
+| **2012** | 35,000 active members                              |
+| **2015** | 50+ cars, 70+ track configs                        |
 | **2017** | Porsche joins (Porsche TAG Heuer Esports Supercup) |
-| **2019** | AI opponents added for practice |
-| **2020** | 100+ cars, 100+ track configs |
+| **2019** | AI opponents added for practice                    |
+| **2020** | 100+ cars, 100+ track configs                      |
 
 **The Strategy:**
 
 Every year:
+
 - More laser-scanned tracks
 - More licensed cars
 - Better physics (tire model updates)
@@ -225,12 +235,14 @@ NASCAR, IndyCar, F1—all stopped. Drivers at home, bored, looking for something
 **1. Laser Scanning**
 
 iRacing pioneered taking laser scanners to real tracks:
+
 - **Millimeter accuracy** (bumps, elevation, surface)
 - Teams spend weeks at each track
 - Data processed into 3D model
 - Result: You're driving the REAL track
 
 **Master Lonn's tracks:**
+
 - **Winton**: Laser scanned 2016
 - **Rudskogen**: Laser scanned 2021
 - **Jefferson Circuit**: Laser scanned 2014
@@ -268,6 +280,7 @@ You can race someone in Australia from your home with **zero noticeable lag**. T
 ### NASCAR (2010-Present)
 
 **eNASCAR Coca-Cola iRacing Series:**
+
 - $300,000+ prize pool
 - Path to real NASCAR opportunities
 - Broadcast on TV
@@ -276,6 +289,7 @@ You can race someone in Australia from your home with **zero noticeable lag**. T
 ### FIA (2020-Present)
 
 **Official FIA Championships:**
+
 - F4 Esports Championship
 - GT World Championship
 - Real FIA licenses awarded to winners
@@ -326,6 +340,7 @@ You're using a **training platform** that professional drivers use, built on a l
 **Goal:** Experience the laser scanning quality
 
 **Process:**
+
 1. Pick your favorite track (Winton, Rudskogen, etc.)
 2. Drive ONE slow lap (50% pace)
 3. Focus on: Bumps, elevation changes, surface texture
@@ -338,6 +353,7 @@ You're using a **training platform** that professional drivers use, built on a l
 **Goal:** Understand the physics legacy
 
 **Process:**
+
 1. Watch a video of **Grand Prix Legends** (1998)
 2. Watch a video of **NASCAR 2003**
 3. Drive your Ray FF1600
@@ -350,6 +366,7 @@ You're using a **training platform** that professional drivers use, built on a l
 **Goal:** Engage with iRacing's community
 
 **Process:**
+
 1. Visit iRacing forums or subreddit
 2. Find someone's "first win" post
 3. Read their journey
@@ -383,6 +400,7 @@ You're using a **training platform** that professional drivers use, built on a l
 ---
 
 **See Also:**
+
 - [Dave Kaemmer interview](https://www.iracing.com/overview/history/)
 - eNASCAR series coverage
 - COVID Pro Invitational moment (YouTube)
