@@ -163,9 +163,9 @@ Week 03 races: execute the contract from race 1. Survive lap 1-2 clean. NO passi
 | Dec 26 | 11:07 | Practice     | 1:26.417     | 0.86s | NEW PB!     | Engine braking discovered [→](2025-12-26-11-07-winton-practice.md)    |
 | Dec 26 | 14:06 | Practice     | **1:26.090** | 0.49s | **NEW PB!** | UNDERSTANDING (physics) [→](2025-12-26-14-06-winton-practice.md)      |
 | Dec 27 | 16:59 | AI (Medium)  | 1:26.906     | 1.09s | P7→P1       | Easy win, unfocused [→](2025-12-27-1659-winton-race-medium-ai.md)     |
-| Dec 27 | 17:15 | AI (Hard) ⚡ | **1:26.629** | 0.39s | P7→P12      | **PRESSURE = FOCUS** [→](2025-12-27-1715-winton-race-hard-ai.md) 🔥   |
+| Dec 27 | 17:15 | AI (Hard) ⚡ | **1:26.629** | 0.39s | P7→P12      | **FAST BUT MESSY** [→](2025-12-27-1715-winton-race-hard-ai.md) 🔥     |
 
-**[Race Comparison Analysis](2025-12-27-ai-races-comparison.md)** - The Pressure Discovery 💎
+**[Race Comparison Analysis](2025-12-27-ai-races-comparison.md)** - Traffic vs Free Air Reality Check 💎
 
 ---
 
@@ -183,14 +183,14 @@ Week 03 races: execute the contract from race 1. Survive lap 1-2 clean. NO passi
 - Understanding > execution (physics unlocks consistency)
 - "Scary fast but stable" = finding the car's happy place
 - Trust takes ~3 sessions (discovered → executed → understood → trusted)
-- **🔥 PRESSURE = FOCUS** (Master Lonn is a pressure performer!)
+- **Do not confuse 'alone' with 'focused'** (Free air = easy consistency)
 
 **Strategic**:
 
 - Track personality = gear stack choice (iRacing's hidden wisdom)
 - Winton (SHORT) ≠ Rudskogen (TALL) = adapt or struggle
 - Brake bias protocol: 57% (L1-2) → 56.5% (L3-5) → 56% (L6+)
-- **Use Hard AI, not Medium** (challenge = engagement = performance)
+- **Use Hard AI for pace, Medium AI for racecraft** (combine them!)
 
 **Knowledge**:
 
@@ -200,12 +200,11 @@ Week 03 races: execute the contract from race 1. Survive lap 1-2 clean. NO passi
 
 **Psychology** 💎:
 
-- **Master Lonn performs BETTER under pressure** (data-proven!)
-- Medium AI (easy): 1.09s σ, unfocused
-- Hard AI (pressure): 0.39s σ, **0.277s faster!**
-- "Fear of being attacked" doesn't paralyze—it FOCUSES
-- Training implication: Challenge > comfort for ADHD brain
-- Self-awareness: He knew it before seeing the data!
+- **Traffic vs Free Air Reality Check** (Data correction Dec 28)
+- Race 1 (Medium): High variance (1.09s) due to **TRAFFIC** (winning P1)
+- Race 2 (Hard): Low variance (0.39s) due to **FREE AIR** (after incidents dropped to P12)
+- Pressure led to **5 incidents**, not focus. The pace was real, but the racecraft crumbled.
+- **Goal**: Combine Race 2's Pace (1:26.6) with Race 1's Brain (Clean P1).
 
 ---
 

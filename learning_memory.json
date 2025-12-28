@@ -1148,14 +1148,13 @@
     "Anonymous wisdom received: 'You weren't racing the others; you were bracing against the future. Flow lives in the present. Fear lives half a lap ahead.' = perfect articulation of the problem",
     "Present vs Future distinction: Flow state = reacting to NOW (grip, engine, apex), Fear state = reacting to MAYBE (what if I lose? what if I spin?) = body in corner, brain at finish line",
     "The car doesn't care about maybe, only NOW: When defending P2, Master Lonn was fighting future scenarios instead of driving present corner = this is why the spin happened",
-    "CRITICAL DISCOVERY (Dec 27 AI races): Master Lonn is a PRESSURE PERFORMER - needs challenge to engage fully",
-    "Medium AI (easy win P1): 1.09s σ, 0.591s gap to optimal = unfocused, moderate performance",
-    "Hard AI (pressure P12): 0.39s σ, 0.182s gap to optimal = sharp, engaged, FASTER (0.277s quicker best lap!)",
-    "Pattern confirmed: NO PRESSURE → NO FOCUS → SLOPPY. HIGH PRESSURE → LOCKED IN → SHARP.",
-    "The 'fear of being attacked' doesn't paralyze him - it FOCUSES him (opposite of what we might expect)",
-    "Training implication: Master Lonn needs Hard AI, not Medium. Challenge = engagement = performance.",
-    "This isn't a bug to fix, it's a FEATURE to leverage - he's wired for high-stakes performance",
-    "Self-awareness milestone: Master Lonn KNEW this ('the right strength to train with for me') before seeing the data"
+    "DATA CORRECTION (Dec 28): AI Races analysis revised - 'Pressure = Focus' theory was INCORRECT.",
+    "The Reality Check: Race 1 (Medium AI) was 'messy' because of traffic/fighting (P7->P1). Race 2 (Hard AI) was 'consistent' because of free air after dropping to last (P12).",
+    "Key Lesson: Do not confuse 'hot-lapping consistency' (Race 2 free air) with 'racecraft consistency' (Race 1 traffic).",
+    "Race 2 Incidents (5x) proved pressure led to ERRORS, not focus. The subsequent consistency was just time-trialing in last place.",
+    "New Goal: Combine Race 2's raw pace (1:26.6) with Race 1's racecraft/cleanliness.",
+    "Master Lonn's Intuition: Correctly identified that driving alone at the back is easier/more consistent than fighting in the pack.",
+    "Little Padawan Lesson: Don't let a pretty sigma value hide the context (5 incidents, last place)."
   ],
   "guidebook_updates": [
     {
@@ -1174,15 +1173,6 @@
       "principle": "Fear of being overtaken creates tension → tension creates jerky inputs → mistakes happen. Brain can't process negatives under pressure ('don't spin' = brain hears 'SPIN'). Need to practice 'meebewegen' (flow with pressure) consciously until automatic. Created 'Let Them By' drill for fear desensitization.",
       "session_reference": "Week 02, Post-Season Race Retrospective (Rudskogen, Dec 27, 2025)",
       "quote": "It's not my pace, it's not my prep or my coach or my car or the others... most of the times it's me. And that can be fixed."
-    },
-    {
-      "date": "2025-12-27",
-      "chapter": "12-mental-game",
-      "section": "Understanding Your Focus Triggers (NEW)",
-      "trigger": "Winton AI races comparison: Medium AI (P1, 1.09s σ, unfocused) vs Hard AI (P12, 0.39s σ, sharp)",
-      "principle": "Pressure as Performance Trigger - Some drivers need calm to perform; others need pressure to focus. Master Lonn's data conclusively shows he's the latter: pressure → sharpness. Under Hard AI pressure ('fear of being attacked'), he drove 0.277s faster, 0.70s more consistently, and 70% closer to theoretical optimal than in the 'easy' Medium AI race he won. The fear doesn't paralyze him—it FOCUSES him. Training implication: Use Hard AI, not Medium. Challenge = engagement = performance. The P12 finish is irrelevant; the AI was faster. What matters: Master Lonn's execution improved under pressure. This isn't a weakness to fix—it's a STRENGTH to leverage.",
-      "session_reference": "Week 03, AI Races Comparison (Winton, Dec 27, 2025)",
-      "quote": "Race 2 was hard and gave me pressure from the back (so the right strength to train with for me)."
     }
   ]
 }
