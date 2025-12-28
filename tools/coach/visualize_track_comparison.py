@@ -16,14 +16,20 @@ Features:
 - Clean, reusable visualization for any track/comparison
 
 Usage:
-    python tools/coach/visualize_track_comparison.py <current_lap.csv> <reference_lap.csv> <output_image.png>
+    python tools/coach/visualize_track_comparison.py <current_lap.csv> <reference_lap.csv> <output_image.png> [options]
+
+Options:
+    --current_time "1:25.710"   Override current lap time
+    --ref_time "1:26.090"       Override reference lap time
+    --track_name "Winton"       Override track name
 
 Example:
-    python tools/coach/visualize_track_comparison.py \\
-        "data/Garage 61 - Driver - Car - Track - 01.29.691 - ID.csv" \\
-        "data/compare/Garage 61 - Driver - Car - Track - 01.28.969 - ID.csv" \\
-        "weeks/week02/comparison/track-speed-delta-map.png"
-    
+    python tools/coach/visualize_track_comparison.py \
+        "data/processed/lap.csv" \
+        "data/compare/ref.csv" \
+        "output.png" \
+        --current_time "1:25.710" --ref_time "1:26.090"
+
 Output:
     - PNG image with clean track map (20x20 figure, high resolution)
     - Terminal output with detailed stats for coaching
@@ -36,6 +42,7 @@ Philosophy:
 
 import sys
 import json
+import argparse
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -122,6 +129,7 @@ def create_track_visualization(data, output_path, current_time, reference_time, 
     # Create color map (red = slower, white = same, green = faster)
     # Normalize around 0 with symmetric scale
     max_delta = max(abs(speed_delta_kmh.min()), abs(speed_delta_kmh.max()))
+    if max_delta == 0: max_delta = 1.0 # Prevent div by zero
     norm = plt.Normalize(vmin=-max_delta, vmax=max_delta)
     cmap = plt.cm.RdYlGn  # Red-Yellow-Green
     
@@ -186,8 +194,17 @@ def create_track_visualization(data, output_path, current_time, reference_time, 
     # PRINT STATS TO TERMINAL FOR LITTLE PADAWAN TO INTERPRET
     # ============================================================================
     
-    # Calculate time deltas
-    gap_s = float(current_time.split(':')[0])*60 + float(current_time.split(':')[1]) - (float(reference_time.split(':')[0])*60 + float(reference_time.split(':')[1]))
+    # Calculate time deltas if valid times provided
+    gap_s = 0.0
+    try:
+        curr_parts = current_time.split(':')
+        ref_parts = reference_time.split(':')
+        if len(curr_parts) == 2 and len(ref_parts) == 2:
+            curr_seconds = float(curr_parts[0])*60 + float(curr_parts[1])
+            ref_seconds = float(ref_parts[0])*60 + float(ref_parts[1])
+            gap_s = curr_seconds - ref_seconds
+    except:
+        gap_s = 0.0
     
     # Find max gain/loss locations
     max_gain_idx = speed_delta_kmh.argmax()
@@ -279,14 +296,31 @@ def create_track_visualization(data, output_path, current_time, reference_time, 
     return output_path
 
 
+def parse_lap_time(filename):
+    """Attempt to parse lap time from Garage 61 filename"""
+    parts = Path(filename).stem.split(" - ")
+    for part in parts:
+        if "." in part and len(part.split(".")) == 3:
+            time_parts = part.split(".")
+            if len(time_parts[0]) == 2 and time_parts[0].isdigit():
+                return f"{int(time_parts[0])}:{int(time_parts[1]):02d}.{time_parts[2]}"
+    return "Unknown"
+
+
 def main():
-    if len(sys.argv) != 4:
-        print("Usage: python visualize_track_comparison.py <current_lap.csv> <reference_lap.csv> <output_image.png>")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="Visualize Track Speed Delta Comparison")
+    parser.add_argument("current_file", help="Path to current lap telemetry CSV")
+    parser.add_argument("reference_file", help="Path to reference lap telemetry CSV")
+    parser.add_argument("output_file", help="Path to save output PNG")
+    parser.add_argument("--current_time", help="Override current lap time (e.g., 1:25.710)")
+    parser.add_argument("--ref_time", help="Override reference lap time (e.g., 1:26.090)")
+    parser.add_argument("--track_name", help="Override track name")
     
-    current_file = Path(sys.argv[1])
-    reference_file = Path(sys.argv[2])
-    output_file = Path(sys.argv[3])
+    args = parser.parse_args()
+    
+    current_file = Path(args.current_file)
+    reference_file = Path(args.reference_file)
+    output_file = Path(args.output_file)
     
     if not current_file.exists():
         print(f"❌ Current lap file not found: {current_file}")
@@ -307,34 +341,18 @@ def main():
     print(f"🔍 Calculating speed deltas...")
     data = calculate_speed_delta(current_df, reference_df)
     
-    # Auto-detect track name from filename
-    track_name = "Track"
-    filename_parts = current_file.stem.split(" - ")
-    if len(filename_parts) >= 4:
-        track_name = filename_parts[3]  # Track name from Garage 61 format
+    # Determine times
+    current_time = args.current_time if args.current_time else parse_lap_time(current_file)
+    reference_time = args.ref_time if args.ref_time else parse_lap_time(reference_file)
     
-    # Extract lap times from filenames (Garage 61 format: "...TrackName - MM.SS.mmm - ...")
-    current_time = "Unknown"
-    reference_time = "Unknown"
-    
-    for part in filename_parts:
-        if "." in part and len(part.split(".")) == 3:
-            time_parts = part.split(".")
-            if len(time_parts[0]) == 2:  # MM.SS.mmm format
-                mins = int(time_parts[0])
-                secs = int(time_parts[1])
-                current_time = f"{mins}:{secs:02d}.{time_parts[2]}"
-                break
-    
-    ref_filename_parts = reference_file.stem.split(" - ")
-    for part in ref_filename_parts:
-        if "." in part and len(part.split(".")) == 3:
-            time_parts = part.split(".")
-            if len(time_parts[0]) == 2:
-                mins = int(time_parts[0])
-                secs = int(time_parts[1])
-                reference_time = f"{mins}:{secs:02d}.{time_parts[2]}"
-                break
+    # Determine track name
+    track_name = args.track_name
+    if not track_name:
+        parts = current_file.stem.split(" - ")
+        if len(parts) >= 4:
+            track_name = parts[3]
+        else:
+            track_name = "Track"
     
     print(f"🎨 Creating track visualization...")
     print(f"   Track: {track_name}")
@@ -351,4 +369,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
