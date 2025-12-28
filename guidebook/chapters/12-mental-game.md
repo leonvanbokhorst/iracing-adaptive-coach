@@ -391,6 +391,22 @@ When in P2:
 
 **The Fix:** Practice "meebewegen" (Dutch: "moving with" / going with flow) under pressure, so it becomes automatic.
 
+**A fellow racer observed:**
+
+> "You weren't racing the others; you were bracing against the future. Flow lives in the present. Fear lives half a lap ahead."
+
+**This is the essence of the problem:**
+- Flow state = reacting to NOW (feel the grip, hear the engine, see the apex)
+- Fear state = reacting to MAYBE (what if I lose position? what if I spin?)
+
+**The car doesn't care about "maybe." The car cares about NOW.**
+
+When defending P2, Master Lonn's body was in the corner, but his brain was already at the finish line. The car said: _"Excuse me, but we're CURRENTLY in a corner. Pay attention."_
+
+**Next time in that position:**
+- Not: "Don't lose this" (future fear)
+- Instead: "Where's the grip right now?" (present awareness)
+
 → See: Week 02, Post-Season Race Retrospective for full story and practice drills
 
 ---

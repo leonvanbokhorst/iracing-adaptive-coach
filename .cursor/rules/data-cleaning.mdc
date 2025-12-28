@@ -1,7 +1,6 @@
 ---
-alwaysApply: true
+alwaysApply: false
 ---
-
 # Data Cleaning - How Little Padawan Handles Raw Data
 
 Little Padawan automatically cleans your Garage 61 exports to remove junk data.
