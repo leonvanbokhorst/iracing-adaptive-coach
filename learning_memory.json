@@ -15,8 +15,8 @@
     "position_current": 704,
     "total_drivers": 8510
   },
-  "focus": "The Shadow Protocol: Traffic desensitization. NO OVERTAKING Laps 1-3. Flow with the pack.",
-  "goal": "Week 03: Vaccinate against traffic pressure. Finish races clean (0 incidents). Prioritize survival over position.",
+  "focus": "Cold Tire Contract v2.0: The Final Boss. Executing L1-L2 survival in full race sim.",
+  "goal": "Week 03: Vaccinate against traffic pressure. Finish races clean. Qualify P4-P6, Survive L1-2, Attack L3+.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -56,21 +56,6 @@
     },
     {
       "date": "2025-12-26",
-      "time": "11:07 CET",
-      "session_type": "Practice (Offline Testing)",
-      "track": "Winton Motor Raceway - National Circuit",
-      "best_lap": 86.417,
-      "consistency_sigma": 0.86,
-      "clean_laps": 12,
-      "total_laps": 22,
-      "incidents": 10,
-      "setup_brake_bias": "56.5% (considering 56%)",
-      "previous_pb": 86.439,
-      "focus_area": "ENGINE BRAKING TECHNIQUE BREAKTHROUGH",
-      "notes": "WEEK 03 SESSION 2 - THE BREAKTHROUGH. Implemented 'calmer' momentum style. T5 without brakes (lift+downshift). S2 loss dropped 40%. New PB 1:26.417. 'Scary fast but stable'."
-    },
-    {
-      "date": "2025-12-26",
       "time": "14:06 CET",
       "session_type": "Practice (Offline Testing) - P3",
       "track": "Winton Motor Raceway - National Circuit",
@@ -86,21 +71,6 @@
     },
     {
       "date": "2025-12-27",
-      "time": "16:59 UTC",
-      "session_type": "AI Race (Medium Strength)",
-      "track": "Winton Motor Raceway - National Circuit",
-      "best_lap": 86.906,
-      "consistency_sigma": 1.09,
-      "clean_laps": 8,
-      "total_laps": 11,
-      "incidents": 3,
-      "start_position": "P7",
-      "finish_position": "P1",
-      "focus_area": "Racecraft basics - Medium AI training",
-      "notes": "WEEK 03 SESSION 4 - THE TRAFFIC RACE. P7->P1 victory. High variance (1.09s) due to managing traffic/battles. Good racecraft, 'meebewegen' in action."
-    },
-    {
-      "date": "2025-12-27",
       "time": "17:15 UTC",
       "session_type": "AI Race (Hard Strength)",
       "track": "Winton Motor Raceway - National Circuit",
@@ -112,45 +82,60 @@
       "start_position": "P7",
       "finish_position": "P12",
       "focus_area": "Racecraft under pressure - Hard AI training",
-      "notes": "WEEK 03 SESSION 5 - THE FREE AIR REALITY CHECK. Started P7, pressure led to 5 incidents, dropped to P12 (Last). Once alone, drove 1:26.6 pace with 0.39s sigma (hot-lapping in free air). Pace is real, but racecraft under pressure needs work. DATA CORRECTION: Pressure caused errors, not focus."
+      "notes": "WEEK 03 SESSION 5 - THE FREE AIR REALITY CHECK. Started P7, pressure led to 5 incidents, dropped to P12 (Last). Once alone, drove 1:26.6 pace with 0.39s sigma (hot-lapping in free air). Pace is real, but racecraft under pressure needs work."
+    },
+    {
+      "date": "2025-12-28",
+      "time": "09:16 UTC",
+      "session_type": "AI Race (Hard - Shadow Protocol)",
+      "track": "Winton Motor Raceway - National Circuit",
+      "best_lap": 87.242,
+      "consistency_sigma": 0.26,
+      "clean_laps": 15,
+      "total_laps": 20,
+      "incidents": 2,
+      "start_position": "P10",
+      "finish_position": "Mixed",
+      "focus_area": "The Shadow Protocol - Traffic Desensitization",
+      "notes": "WEEK 03 SHADOW EXPERIMENTS. R3: 'Kissed guy in front' (0x), good proximity. R4: 'Punted from back' (braked too early?), but recovered with 0.26s sigma consistency L5-9. Mental toughness proven. Vision technique: 'Looking through the car' established."
     }
   ],
   "insights": [
+    "Brake Bias Protocol (Winton): Start 57.5% (stability on cold tires). Click down (2 clicks) to 56.5% after L3+ as tires warm up and rotation is needed. 56.5% is the floor.",
+    "Vision Technique: 'Looking through the car' is the key to proximity. Focus on track, treat car ahead as peripheral obstacle. Enables flow state in traffic.",
+    "Proximity Gap: 0.2s feels risky but is safer than 0.4s+ because it prevents 'gap panic' when leader brakes. Being closer means reacting to their car body language, not just brake lights.",
+    "Shadow Protocol Result: Master Lonn can follow (R3) and recover from contact (R4). 0.26s consistency AFTER being punted shows mental resilience.",
+    "Braking in Traffic: 'Punted from back' suggests braking too early for the pack pace. Must brake 'with' the train, not 'before' it to be safe.",
     "DATA CORRECTION (Dec 28): AI Races analysis revised - 'Pressure = Focus' theory was INCORRECT. Pressure led to 5 incidents (errors). Consistency (0.39s) was due to driving alone in last place (free air).",
     "Cold Tire Contract v2.0: Laps 1-2 are SURVIVAL. 30-90 seconds of impulse control determines the race. No passing attempts on cold tires.",
     "Engine Braking > Trail Braking (FF1600): For light rear-engine cars, engine braking provides smoother rotation and less abrupt weight transfer than brake pedal (Winton T5 discovery).",
-    "ADHD Impulse Pattern: When goal is ACTIVE (chasing), Master Lonn is strategic. When goal is ACHIEVED (position secured), brain creates artificial risk. Needs 'Position Secured Protocol'.",
-    "Flow vs Fear: Flow state = reacting to NOW. Fear state = reacting to FUTURE ('what if I spin'). Flow must be entered via commitment, not caution.",
     "Hardware/Technique Link: Throttle overlap (resting foot) causes snap oversteer. Clean inputs must be verified before adjusting setup.",
     "Meebewegen (Strategic Patience): Go with the flow in early laps (80-90%), let chaos settle, then attack. Works for ADHD brain to reduce load.",
     "Race Pace Transfer: Practice pace transfers to Race pace almost 1:1 (0.1s gap) - speed is not the issue, race start cleanliness is.",
-    "Short vs Tall Gear Stacks: Winton (Short) = forgiving, strong engine braking. Rudskogen (Tall) = precise, weak engine braking. Track personality dictates gear strategy.",
-    "The Shadow Protocol: Specific training to desensitize against traffic pressure. Driving BEHIND cars deliberately to learn flow without fighting."
+    "Short vs Tall Gear Stacks: Winton (Short) = forgiving, strong engine braking. Rudskogen (Tall) = precise, weak engine braking. Track personality dictates gear strategy."
   ],
   "next_steps": [
-    "Execute 'The Shadow Protocol' in next AI session (Hard AI, start back of pack, NO passing L1-3).",
-    "Combine Race 2 Pace (1:26.6) with Race 1 Brain (Clean Racecraft).",
-    "Verify throttle inputs remain clean (0% overlap).",
-    "Target Top 250 global ranking at Winton.",
+    "Execute Cold Tire Contract v2.0 in Race Sim (Quali P4-P6, survive L1-L2).",
+    "Brake at 60m for T11 on Cold Tires (L1-L2).",
+    "Apply Brake Bias Protocol (57.5% -> 56.5% after L3).",
     "Prepare for Official Race Week (Dec 30)."
   ],
   "guidebook_updates": [
     {
-      "date": "2025-12-27",
-      "chapter": "13-racecraft",
-      "section": "Part 5.1: Meebewegen - The Strategic Patience Opening",
-      "trigger": "First AI race victory (P11→P1, zero incidents, strategic patience approach)",
-      "principle": "Strategic race-start patience: operate at 80-90% pace Laps 1-2 to let field chaos settle, then deploy full speed Lap 4+ with clear targets identified",
-      "session_reference": "Week 03, AI Race (Winton, Dec 27, 2025)"
+      "date": "2025-12-28",
+      "chapter": "12-mental-game",
+      "section": "Part 5: The Reset - Recovering from Contact",
+      "trigger": "Punted in R4 (Shadow Protocol), immediately drove 5 laps with 0.26s sigma",
+      "principle": "Contact is not the end. The 'Mental Reset' allows switching from 'Victim Mode' to 'Focus Mode' immediately. Use the adrenaline from contact to sharpen focus, not aggression.",
+      "session_reference": "Week 03, Shadow Protocol R4 (Winton, Dec 28, 2025)"
     },
     {
-      "date": "2025-12-27",
-      "chapter": "12-mental-game",
-      "section": "Part 4: The Enemy - Fear and Tension (The Fear Loop)",
-      "trigger": "Post-season Rudskogen race: P5 quali → P2 → spun twice same corner (laps 3-4) defending position → P9",
-      "principle": "Fear of being overtaken creates tension → tension creates jerky inputs → mistakes happen. Brain can't process negatives under pressure ('don't spin' = brain hears 'SPIN'). Need to practice 'meebewegen' (flow with pressure) consciously until automatic. Created 'Let Them By' drill for fear desensitization.",
-      "session_reference": "Week 02, Post-Season Race Retrospective (Rudskogen, Dec 27, 2025)",
-      "quote": "It's not my pace, it's not my prep or my coach or my car or the others... most of the times it's me. And that can be fixed."
+      "date": "2025-12-28",
+      "chapter": "13-racecraft",
+      "section": "Part 6: Vision in Traffic - The X-Ray Gaze",
+      "trigger": "Shadow Protocol feedback: 'Looking through the cars in front... focused on the track... cars were in outskirts of vision'",
+      "principle": "Do not stare at the gearbox ahead. Look THROUGH the car to the track. Keep hands light. This reduces the 'fight' response and enables 'flow' even in heavy traffic.",
+      "session_reference": "Week 03, Shadow Protocol (Winton, Dec 28, 2025)"
     }
   ]
 }
