@@ -94,7 +94,7 @@ def generate_report(week_number, analysis, irating_start=None):
 | **Points** | {driver['points']:.1f} | {percentiles['points']['percentile']:.1f}% | {percentiles['points']['better_than_percent']:.1f}% of drivers {format_percentile_badge(percentiles['points']['percentile'])} |
 | **Division** | {driver['division']} | - | - |
 | **Avg Finish** | {driver['avgfinish']:.1f} | {percentiles['avgfinish']['percentile']:.1f}% | {percentiles['avgfinish']['better_than_percent']:.1f}% finish better |
-| **Avg Start** | {driver['avgstart']:.1f} | {percentiles['avgstart']['percentile']:.1f}% | {percentiles['avgstart']['better_than_percent']:.1f}% qualify worse {format_percentile_badge(percentiles['avgstart']['percentile'])} |
+| **Avg Start** | {driver['avgstart']:.1f} | {percentiles['avgstart']['percentile']:.1f}% | {percentiles['avgstart']['better_than_percent']:.1f}% qualify better {format_percentile_badge(percentiles['avgstart']['percentile'])} |
 
 ### Race Results
 

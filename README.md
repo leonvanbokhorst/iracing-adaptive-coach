@@ -11,6 +11,20 @@
 
 ---
 
+## The Season Stats
+
+| Metric              | Week 01 (Jefferson) | Week 02 (Rudskogen) | Week 03 (Winton) |
+| :------------------ | :------------------ | :------------------ | :--------------- |
+| **Best Lap**        | 50.768s             | 1:28.508            | **1:25.710**     |
+| **PB Improvement**  | -0.67s              | -1.78s              | **-1.125s**      |
+| **Consistency (σ)** | 0.40s               | 0.86s               | **0.16s**        |
+| **Victories**       | 1                   | 0                   | **2**            |
+| **Mood**            | Hopeful             | Determined          | **Dangerous**    |
+
+Read the standings report for more details: [Week 03 Standings Report](./weeks/week02/standings-report.md)
+
+---
+
 ## The Ghost of Winton (Week 03)
 
 **Location**: Winton Motor Raceway - National Circuit  
@@ -65,18 +79,6 @@ The season began in chaos. Jefferson, a track with no white lines, just asphalt 
 The breakthrough came in silence. He stopped trying to force the car and started trying to feel it. "Confident but Patient." The flow state unlocked on a quiet afternoon—a 50.768s lap that felt effortless. "Easy flying," he called it.
 
 He took that feeling into his first race against humans. He watched them crash. He drove his line. He won. A P1 victory on debut. Then, a P3 from a pit lane start after a crash. He proved that resilience is faster than raw speed. The foundation was poured.
-
----
-
-## The Season Stats
-
-| Metric              | Week 01 (Jefferson) | Week 02 (Rudskogen) | Week 03 (Winton) |
-| :------------------ | :------------------ | :------------------ | :--------------- |
-| **Best Lap**        | 50.768s             | 1:28.508            | **1:25.710**     |
-| **PB Improvement**  | -0.67s              | -1.78s              | **-1.125s**      |
-| **Consistency (σ)** | 0.40s               | 0.86s               | **0.16s**        |
-| **Victories**       | 1                   | 0                   | **2**            |
-| **Mood**            | Hopeful             | Determined          | **Dangerous**    |
 
 ---
 
