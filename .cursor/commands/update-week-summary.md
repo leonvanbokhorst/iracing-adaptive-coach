@@ -70,12 +70,12 @@ Gather from all session files in the week:
 Create `weeks/weekXX/README.md` with this structure:
 
 ```markdown
-# Week XX - [Track Name] - [Season Year]
+# Week XX - [Track Name] - Season [Season Year]
 
 **Track**: [Track Name]  
 **Car**: [Car Name]  
 **Dates**: [Start Date] → [End Date]  
-**Status**: [In Progress / Complete]
+**Status**: [Practice / Qualifying / Race / Complete]
 
 ---
 
@@ -100,18 +100,17 @@ Create `weeks/weekXX/README.md` with this structure:
 
 **Week Stats:**
 
-- Sessions: X (Y practice, Z races)
-- Total laps: XXX
-- Clean laps: XXX
-- Incidents: XX
-- Podiums: X (if applicable)
+- **Sessions**: X (Y practice, Z races)
+- **Total Laps**: XXX
+- **Victories**: X (if applicable)
+- **Breakthrough**: [One key technical/mental breakthrough]
 
 ---
 
 ## Session Log
 
-| Date                                             | Time | Type | Best Lap | σ   | Result | Key Takeaway |
-| ------------------------------------------------ | ---- | ---- | -------- | --- | ------ | ------------ |
+| Date | Time | Type | Best Lap | σ | Result | Key Takeaway |
+| :--- | :--- | :--- | :------- | :- | :----- | :----------- |
 | [Links to session files with one-line summaries] |
 
 ---
