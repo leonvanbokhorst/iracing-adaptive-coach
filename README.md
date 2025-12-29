@@ -21,7 +21,7 @@
 | **Victories**       | 1                   | 0                   | **2**            |
 | **Mood**            | Hopeful             | Determined          | **Dangerous**    |
 
-Read the standings report for more details: [Week 03 Standings Report](./weeks/week02/standings-report.md)
+Read the standings report for more details: [Week 02 Standings Report](./weeks/week02/standings-report.md)
 
 ---
 
