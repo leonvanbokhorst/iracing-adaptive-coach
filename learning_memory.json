@@ -128,6 +128,21 @@
       "finish_position": "P2",
       "focus_area": "Race Contracts Validation",
       "notes": "WEEK 03 FINAL. Quali P5 (1:26.472) -> Race P2. Best lap 1:25.756 (near PB). Gap to optimal 0.08s (Efficiency Maxed). S3 consistency is elite (0.07s). Contracts (Cold Tire/Shadow) working under pressure."
+    },
+    {
+      "date": "2025-12-29",
+      "time": "11:39 UTC",
+      "session_type": "AI Race (Hard) - Fatigue Check",
+      "track": "Winton Motor Raceway - National Circuit",
+      "best_lap": 86.282,
+      "consistency_sigma": 0.74,
+      "clean_laps": 6,
+      "total_laps": 12,
+      "incidents": 6,
+      "start_position": "P6",
+      "finish_position": "P2",
+      "focus_area": "Survival & Recovery",
+      "notes": "WEEK 03 FATIGUE. Felt 'sloppy' (>1s sigma), actual 0.74s. S1 (Technical) suffered (0.53s sigma), S3 (Flow) remained perfect (0.09s sigma). Incidents (6) show brain drain. Rest required."
     }
   ],
   "insights": [
@@ -141,9 +156,11 @@
     "Meebewegen (Strategic Patience): Go with the flow in early laps (80-90%), let chaos settle, then attack. Works for ADHD brain to reduce load.",
     "Short vs Tall Gear Stacks: Winton (Short) = forgiving, strong engine braking. Rudskogen (Tall) = precise, weak engine braking. Track personality dictates gear strategy.",
     "REALITY CHECK (Alien Pace): 1:25.7 is great, but 1:24.0 (Eric Wong) is the true Alien benchmark. 1.7s gap remains. 0.7s to just break into 1:24s.",
-    "Efficiency Maxed (0.08s Gap): Gap to theoretical optimal is only 0.08s. This means the 'easy speed' is gone. Further gains require moving the limit (better line/technique), not just reducing errors."
+    "Efficiency Maxed (0.08s Gap): Gap to theoretical optimal is only 0.08s. This means the 'easy speed' is gone. Further gains require moving the limit (better line/technique), not just reducing errors.",
+    "Fatigue & Precision: Fatigue degrades Technical Sectors (S1, S2) first. Flow Sectors (S3, S4) relying on muscle memory remain robust. When tired, 'Robot Mode' works in flow, but fails in precision."
   ],
   "next_steps": [
+    "REST. Recovery is training.",
     "Execute Cold Tire Contract v2.0 in Official Races.",
     "Work on Qualifying Psychology (closing the gap between Quali/Race pace).",
     "Refine Sector 1 (Esses/Honda) entry to reduce variance.",
@@ -173,6 +190,14 @@
       "trigger": "P11 -> P1 Victory. Slow L1-3, PB L7.",
       "principle": "Sacrificing early pace (L1-3) buys late-race dominance. Cool tires/heads early = Grip/Flow late. 'The Tortoise laps the Hare'.",
       "session_reference": "Week 03, Victory Session (Winton, Dec 28, 2025)"
+    },
+    {
+      "date": "2025-12-29",
+      "chapter": "12-mental-game",
+      "section": "Part 8: The Fatigue Signature",
+      "trigger": "Tired session. S1 (technical) messy, S3 (flow) perfect.",
+      "principle": "Fatigue attacks Precision (technical corners) first. Flow (muscle memory) lasts longer. If tired, back off the complex sections to survive.",
+      "session_reference": "Week 03, Fatigue Check (Winton, Dec 29, 2025)"
     }
   ]
 }
