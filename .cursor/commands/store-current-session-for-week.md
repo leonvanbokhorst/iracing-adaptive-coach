@@ -42,7 +42,7 @@ Header of the session file: [date time] - [circuit name] - [car name] - [fastest
 
 ## The Narrative
 
-"[Engaging narrative of the session. What happened? How did it feel? What was the outcome? What did Master Lonn learn? What did Padawan learn?]"
+"[Brief high-level summary of the session. Focus on the 'Story' - the feeling, the struggle, or the victory. Do NOT list specific stats here - save them for the sections below.]"
 
 ---
 
@@ -76,16 +76,16 @@ If he has not said anything, ask him what he thought of the session first before
 
 ## 🕵️‍♂️ Little Wan's Deep Dive
 
-"[Conversational analysis. Tell the story of the data. Use 'We' and 'You'. Reference specific corners by number (T1, T2, T11, etc.) when available from the track's corner reference table.]"
+"[Conversational analysis. Do NOT just repeat the stats from above. Explain the **WHY**. Connect the 'Feeling' from the Vibe Check to the 'Facts' from the Numbers Game.]"
 
 ### The "Aha!" Moment
 
-"[The single most important insight from the data that connects to his feeling]"
+"[The single most important insight from the data]"
 
 **The Data Proof**:
 
-- **Fact**: [Data point - use corner numbers for driver, lap % for internal analysis]
-- **Meaning**: [Interpretation]
+- **Fact**: [Data point]
+- **Meaning**: [Interpretation - Why does this matter?]
 
 ---
 

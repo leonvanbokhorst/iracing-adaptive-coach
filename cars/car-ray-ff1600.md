@@ -20,6 +20,12 @@ This is not a power car. It's a momentum apprenticeship on four wheels.
 
 - [Garage 61 Car Page](https://garage61.net/app/cars/147)
 
+[![Ray FF1600 - Helmet Cam](https://img.youtube.com/vi/KxVQgW2JZBU/0.jpg)](https://www.youtube.com/watch?v=KxVQgW2JZBU)
+
+[![Ray FF1600 - Race](https://img.youtube.com/vi/jKjNHCcSk0c/0.jpg)](https://www.youtube.com/watch?v=jKjNHCcSk0c)
+
+[![Formula Ford Documentary](https://img.youtube.com/vi/WtjJe64GcWI/0.jpg)](https://www.youtube.com/watch?v=WtjJe64GcWI)
+
 ---
 
 ## Technical Specifications (iRacing)
