@@ -9,14 +9,14 @@
 ## The Season So Far
 
 | Metric              | [Week 01 (Jefferson)](./weeks/week01/README.md) | [Week 02 (Rudskogen)](./weeks/week02/README.md) | [Week 03 (Winton)](./weeks/week03/README.md) |
-| :------------------ | :------------------ | :------------------ | :--------------- |
-| **Best Lap**        | 50.768s             | 1:28.508            | **1:25.710**     |
-| **PB Improvement**  | -0.67s              | -1.78s              | **-0.729s**      |
-| **Consistency (σ)** | 0.40s               | 0.86s               | **0.16s**        |
-| **Victories**       | 1                   | 0                   | **2** (1 AI)     |
-| **Mood**            | Hopeful             | Determined          | **Dangerous**    |
+| :------------------ | :---------------------------------------------- | :---------------------------------------------- | :------------------------------------------- |
+| **Best Lap**        | 50.768s                                         | 1:28.508                                        | **1:25.710**                                 |
+| **PB Improvement**  | -0.67s                                          | -1.78s                                          | **-0.729s**                                  |
+| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | **0.16s**                                    |
+| **Victories**       | 1                                               | 0                                               | **2** (1 AI)                                 |
+| **Mood**            | Hopeful                                         | Determined                                      | **Dangerous**                                |
 
-Read the series standings report for more details: [Series Standings Report](./data/standings/README.md)
+Read the series standings report after week 02 ended: [Series Standings Report](./weeks/week02/standings-report.md)
 
 ---
 
