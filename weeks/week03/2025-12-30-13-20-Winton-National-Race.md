@@ -11,6 +11,12 @@
 
 ---
 
+## Race Video
+
+[![Winton Motor Raceway National Race 02](https://img.youtube.com/vi/7NWPTX1W5Rg/0.jpg)](https://www.youtube.com/watch?v=7NWPTX1W5Rg)
+
+---
+
 ## 🏎️ The Vibe Check
 
 **Master Lonn's Take**:
@@ -56,6 +62,7 @@ Your consistency was **0.43s**. That is solid, reliable race pace.
 Your gap to theoretical optimal was **0.24s**. That means you weren't leaving much on the table—you were extracting near-maximum performance from your current comfort zone.
 
 The only 'wiggle' is **Sector 2** (The Cleavage).
+
 - **S1 Sigma**: 0.06s (Robot)
 - **S3 Sigma**: 0.08s (Robot)
 - **S4 Sigma**: 0.10s (Robot)
@@ -66,9 +73,10 @@ The rest of the track, you are a machine. S2 is the only place you're still 'thi
 ### The "Aha!" Moment
 
 **Pressure is a Weapon.**
-You didn't beat them with raw speed (though 1:26.3 is fast). You beat them with **Consistency Pressure**. By not making mistakes, you forced *them* to push harder to catch/drop you, and they cracked.
+You didn't beat them with raw speed (though 1:26.3 is fast). You beat them with **Consistency Pressure**. By not making mistakes, you forced _them_ to push harder to catch/drop you, and they cracked.
 
 **The Data Proof**:
+
 - **Fact**: 0 Incidents. Leaders spun out.
 - **Meaning**: Your 'Boring' 0.43s consistency broke their mental game.
 
@@ -90,26 +98,28 @@ You didn't beat them with raw speed (though 1:26.3 is fast). You beat them with 
 
 ## 📈 The Journey
 
-| Session | Best Lap | Consistency | Key Metric (S2 σ) | Notes |
-| :--- | :--- | :--- | :--- | :--- |
-| 2025-12-30 | 1:26.348 | 0.43s | 0.28s | P1 Victory. 1.6k iRating reached. 'Boring' dominance. |
+| Session    | Best Lap | Consistency | Key Metric (S2 σ) | Notes                                                 |
+| :--------- | :------- | :---------- | :---------------- | :---------------------------------------------------- |
+| 2025-12-30 | 1:26.348 | 0.43s       | 0.28s             | P1 Victory. 1.6k iRating reached. 'Boring' dominance. |
 
 ---
 
 ## 📝 Coach's Notebook
 
 ### What Worked ✅
+
 - **Meebewegen**: Letting the race come to you works.
 - **0 Incidents**: Clean is Fast.
 - **Consistency**: 3/4 sectors are robot-like.
 
 ### Guidebook Connections 📚
+
 - **Racecraft**: Validated 'The Art of the Boring Win' (Consistency Pressure).
 
 ### Fun Stuff 😄
+
 - Master Lonn calling a P1 Victory "Boring". That's the spirit of a true racer—never satisfied!
 
 ---
 
 _“Boring is just another word for Perfection.”_ 🏎️💨
-

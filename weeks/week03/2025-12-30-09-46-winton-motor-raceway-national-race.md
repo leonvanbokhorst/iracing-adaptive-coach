@@ -15,7 +15,7 @@ You qualified P3 (1:26.860) and finished P3, but the _way_ you did it was the re
 
 ## Race Video
 
-[![Winton Motor Raceway National Race](https://img.youtube.com/vi/Hc2eLw6p8RE/0.jpg)](https://www.youtube.com/watch?v=Hc2eLw6p8RE)
+[![Winton Motor Raceway National Race 01](https://img.youtube.com/vi/Hc2eLw6p8RE/0.jpg)](https://www.youtube.com/watch?v=Hc2eLw6p8RE)
 
 
 ## 🏎️ The Vibe Check
