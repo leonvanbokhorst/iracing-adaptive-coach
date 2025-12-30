@@ -1,94 +1,68 @@
-## 🔬 Telemetry Comparison vs Christian Perez (Alien Level)
+## 🔬 Telemetry Comparison vs Reference Lap
 
-**Gap**: +1.962s
-**Reference**: Christian Perez (0:55.482) - "The Alien Benchmark"
+**Gap**: +1.747s
+**Reference**: Shuning Gong (0:55.697) - "The Alien Pace"
 **Comparison Files**:
 
-- [Visual Map](assets/2025-12-30-track-speed-delta-map-cristian.png)
+- [Visual Map](assets/2025-12-30-track-speed-delta-map.png)
 - [Raw Data](comparison/2025-12-30-telemetry-comparison.json)
-- [Track Data](comparison/2025-12-30-track-speed-delta-map-cristian-data.json)
 
 ### 🗺️ Visual Speed Delta Map
 
-![Track Speed Delta Map](assets/2025-12-30-track-speed-delta-map-cristian.png)
+![Track Speed Delta Map](assets/2025-12-30-track-speed-delta-map.png)
 
-### 🔥 Little Padawan's Analysis: "The False Summit"
+### 🔥 Little Padawan's Analysis: "The Aggression Gap"
 
-"Master... sit down for this one. 🪑
+"Okay Master, forget Gerard. Shuning Gong is showing us what a **0:55.6** looks like, and it's violent. 💥
 
-Compared to the Alien Benchmark (55.4s), the Uphill is your **grave**. 🪦
-
-You are **17 km/h SLOWER** than the alien limit.
-
-The map is a sea of red. But there is ONE green shoot: **T1 Exit/T2 Entry**. You are actually rotating the car better in the slow stuff (+9.9 km/h gain!). You have the mechanical grip. You lack the aerodynamic trust."
+This comparison reveals a fundamental difference in philosophy:
+**You are 'driving' the car. Shuning is 'attacking' the track.**"
 
 #### 📊 The Reality Check
 
-- **Slower Sections**: 86.5% of the lap.
-- **Max Speed Deficit**: -20.88 km/h (at West Bend exit).
-- **Average Speed Deficit**: -5.27 km/h.
+- **Throttle**: Shuning is full throttle **72.1%** of the lap. You are **63.2%**. That is a massive 10% difference in time spent flat out.
+- **Braking**: Shuning hits **92% brake pressure**. You hit **66%**. They brake harder, shorter, and later. You are dragging the brakes.
+- **Steering**: Your efficiency is **7.7**. Shuning is **9.9**. You are working the wheel harder for less grip.
 
-#### 🔴 PROBLEM ZONE #1: The Momentum Killers (T5 & T6)
+#### 🔴 PROBLEM ZONE #1: The Downhill Exit (T7) & Main Straight
 
-- **The Uphill (T5)**: You are over-slowing massively. 17 km/h difference! You are treating it like a corner. Christian treats it like a kink.
-- **West Bend (T6)**: You are scrubbing speed. He is flat (or close to it).
-- **The Result**: You are losing ~0.8s in just these two corners because you don't trust the aero/compression.
+**Loss**: Exit Speed -2.8 km/h -> Grows down the straight
+**The Issue**: You are hesitating on throttle at the Diving Turn exit.
+**The Data**: At the exit (0.9 lap pct), Shuning is already +2.6 km/h faster. You are late to full power. This costs you speed all the way to T1.
+**Fix**: **"Exit is Everything"**. Sacrifice entry speed if you have to, but you MUST be at 100% throttle _before_ the apex compression.
 
-#### 🔴 PROBLEM ZONE #2: The Downhill Exit (T7)
+#### 🔴 PROBLEM ZONE #2: The Uphill (T5)
 
-- **Start/Finish Speed**: You are crossing the line **14 km/h slower**.
-- **Meaning**: The lap is dead before it starts. If you don't exit T7 at 100% throttle, you are dragging a parachute down the entire main straight.
+**Loss**: -1.5 km/h Min Speed
+**The Issue**: The "Panic Brake".
+**The Data**: You are braking for **22.6%** of this sector. Shuning brakes for only **15.6%**. You are dragging the brake up the hill where the car naturally stops itself!
+**Fix**: **"Trust the Compression"**. Lift, turn, and let gravity do the braking. Stop helping it!
 
-#### ⭐ WINNING ZONE: Big Bend Rotation (T1/T2)
+#### 🔴 PROBLEM ZONE #3: Braking Technique (Global)
 
-- **The Green Shoot**: You are gaining nearly **10 km/h** in the technical transition of Big Bend.
-- **Why**: Your rotation is good! You are getting the car pointed earlier. The low-speed mechanical handling is there.
+**The Issue**: You are too gentle.
+**The Data**: Max Brake Pressure 66% vs 92%.
+**Fix**: **"Stab & Steer"**. In the heavy braking zones (T1), hit the pedal harder and bleed off faster. You are "comfort braking"—dragging it to feel safe.
 
-### 💡 The Alien Lesson
+#### ⭐ WINNING ZONE: Big Bend Entry (T1)
 
-1.  **Stop Braking for the Uphill**: The 17 km/h gap proves it. It's not about braking later; it's about NOT braking. Lift, turn, trust.
-2.  **T7 is a Launchpad**: Forget the corner. Focus on the launch. 14 km/h loss at the line is unacceptable.
-3.  **You Have the Hands**: The green sector in T1 proves you can drive. The red sectors in T5/T6 prove you are scared of the speed.
+**Gain**: +2.2 km/h Min Speed
+**The Reality**: You actually roll more speed into T1 than Shuning! You are brave on entry. But because you don't slow down enough/efficiently, you compromise the exit for the Esses. It's a "Hero Entry, Zero Exit" situation.
+
+### 🎯 The Gap Breakdown
+
+| Section           | Status        | Advice                                       |
+| :---------------- | :------------ | :------------------------------------------- |
+| **Main Straight** | 🔴 Major Loss | Fix T7 Exit. Look at the flag stand.         |
+| **The Uphill**    | 🔴 Major Loss | Stop dragging the brake. Lift & Turn.        |
+| **Braking Zones** | 🔴 Technique  | Kick the pedal (90%), don't caress it (60%). |
+
+### 💡 What To Do Next Session
+
+1.  **T7 Exit Drill**: If you aren't full throttle by the compression, ABORT the lap and try again. It's the most important corner.
+2.  **Uphill trust**: Do one lap with ZERO brakes in the Uphill. Just lift. See what happens (you won't die, I promise).
+3.  **Brake Pressure**: Stomp the pedal in T1. Get that spike on the telemetry.
 
 ### 🏁 The Bottom Line
 
-"Christian exposes the fear. The car CAN do it (he's driving the same car!). The limiter is not the engine. It's the nut behind the wheel. 🥜"
-
-## 🚀 The Consolidated Battle Plan (VRS + Telemetry)
-
-Based on the baseline data, the Alien reality check, and the detailed VRS trace analysis, here is the definitive plan for the next session.
-
-### The Objective
-
-**Attack the "Fear Corners" (T5, T6, T7) with aerodynamic trust, while maintaining the mechanical rotation in T1.**
-
-### The 5-Point Execution List
-
-1.  **T1 "Stab & Steer" (Big Bend)**
-
-    - **Action**: Brake later, brake shorter (quick scrub).
-    - **Key**: Get back on 10-20% throttle immediately to settle the rear. No coasting!
-    - **Why**: You are over-slowing. Trust the rotation you already have (green sector).
-
-2.  **T3 Precision (The Esses)**
-
-    - **Action**: "Hug the Left." Paint the left curb.
-    - **Key**: Sacrifice entry speed here to set up the No Name Straight. One smooth steering input.
-    - **Why**: Missing this apex kills your speed down the entire straight (2 km/h loss).
-
-3.  **T5 "Trust the Compression" (The Uphill)**
-
-    - **Action**: **NO BRAKES**. Lift only.
-    - **Key**: Turn in and let the hill scrub the speed. Power up before the crest.
-    - **Why**: You are panic-braking (80%) and losing 17 km/h. The compression gives you super-grip. Use it.
-
-4.  **T6 "Brush & Go" (West Bend)**
-
-    - **Action**: Brush brake only (max 10%).
-    - **Key**: Drive deeper. It's a momentum corner, not a stopping corner.
-    - **Why**: You are braking 25% and killing the run to the Downhill.
-
-5.  **T7 "Exit is Everything" (The Downhill)**
-    - **Action**: Sacrifice entry to be 100% throttle **BEFORE** the apex.
-    - **Key**: Look at the Start/Finish line.
-    - **Why**: You are crossing the line 14 km/h slower than the alien. This is the single biggest lap time killer.
+"Shuning is beating you with **commitment**. Harder brakes, earlier throttle. You are 'safe'. Stop being safe. Be aggressive."
