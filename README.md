@@ -13,7 +13,7 @@
 | **Best Lap**        | 50.768s                                         | 1:28.508                                        | **1:25.710**                                 |
 | **PB Improvement**  | -0.67s                                          | -1.78s                                          | **-0.729s**                                  |
 | **Consistency (σ)** | 0.40s                                           | 0.86s                                           | **0.16s**                                    |
-| **Victories**       | 1                                               | 0                                               | **2** (1 AI)                                 |
+| **Victories**       | 1                                               | 0                                               | **1** (plus 1 AI)                                 |
 | **Mood**            | Hopeful                                         | Determined                                      | **Dangerous**                                |
 
 Read the series standings report after week 02 ended: [Series Standings Report](./weeks/week02/standings-report.md)
