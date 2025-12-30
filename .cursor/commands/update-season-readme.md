@@ -4,6 +4,27 @@ Updates the main README.md as a **racing magazine feature story** - with emotion
 
 ---
 
+## Start with the overview of the season so far and include the image of Master Lonn.
+
+<div style="text-align: center;">
+  <img src="./assets/lonn-yoda.png" alt="Master Lonn" style="width: 70%; max-width: 480px;">
+</div>
+
+---
+
+## The Season Stats (for example)
+
+| Metric              | [Week 01 (Jefferson)](./weeks/week01/README.md) | [Week 02 (Rudskogen)](./weeks/week02/README.md) | [Week 03 (Winton)](./weeks/week03/README.md) |
+| :------------------ | :------------------ | :------------------ | :--------------- |
+| **Best Lap**        | 50.768s             | 1:28.508            | **1:25.710**     |
+| **PB Improvement**  | -0.67s              | -1.78s              | **-1.125s**      |
+| **Consistency (σ)** | 0.40s               | 0.86s               | **0.16s**        |
+| **Victories**       | 1                   | 0                   | **2**            |
+| **Mood**            | Hopeful             | Determined          | **Dangerous**    |
+
+Read the standings report for more details: [Week 02 Standings Report](./weeks/week02/standings-report.md)
+
+
 ## The Mission
 
 Write Master Lonn's season like you're a **NOVELIST who covers racing** - not a data analyst adding flavor.
