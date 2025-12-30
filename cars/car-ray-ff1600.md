@@ -20,11 +20,13 @@ This is not a power car. It's a momentum apprenticeship on four wheels.
 
 - [Garage 61 Car Page](https://garage61.net/app/cars/147)
 
-[![Ray FF1600 - Helmet Cam](https://img.youtube.com/vi/KxVQgW2JZBU/0.jpg)](https://www.youtube.com/watch?v=KxVQgW2JZBU)
+[![Formula Ford Helmet Cam](https://img.youtube.com/vi/KxVQgW2JZBU/0.jpg)](https://www.youtube.com/watch?v=KxVQgW2JZBU)
 
-[![Ray FF1600 - Race](https://img.youtube.com/vi/jKjNHCcSk0c/0.jpg)](https://www.youtube.com/watch?v=jKjNHCcSk0c)
+[!["Simply FANTASTIC" | Race Of The Week](https://img.youtube.com/vi/jKjNHCcSk0c/0.jpg)](https://www.youtube.com/watch?v=jKjNHCcSk0c)
 
-[![Formula Ford Documentary](https://img.youtube.com/vi/WtjJe64GcWI/0.jpg)](https://www.youtube.com/watch?v=WtjJe64GcWI)
+[![This Is the Greatest Race None of You Watch!](https://img.youtube.com/vi/WtjJe64GcWI/0.jpg)](https://www.youtube.com/watch?v=WtjJe64GcWI)
+
+[![On track with a Formula Ford 1600 | How to Drive – Episode 5](https://img.youtube.com/vi/sNudREeVTws/0.jpg)](https://www.youtube.com/watch?v=sNudREeVTws&t=35s)
 
 ---
 

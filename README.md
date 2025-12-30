@@ -1,85 +1,80 @@
-# The Season of Rebirth - Season 01 2026
-
-**Driver**: Master Lonn  
-**Coach**: Little Padawan  
-**Car**: Ray FF1600  
-**Status**: Week 03 Complete - The Ghost of Winton
+# The Adaptive Coach Chronicles - Season 01 2026
 
 <div style="text-align: center;">
-  <img src="./assets/lonn-yoda.png" alt="Master Lonn" style="width: 70%; max-width: 480px;">
+  <img src="assets/lonn-yoda.png" alt="Master Lonn" style="width: 70%; max-width: 480px;">
 </div>
 
 ---
 
-## The Season Stats
+## The Season So Far
 
-| Metric              | Week 01 (Jefferson) | Week 02 (Rudskogen) | Week 03 (Winton) |
+| Metric              | [Week 01 (Jefferson)](./weeks/week01/README.md) | [Week 02 (Rudskogen)](./weeks/week02/README.md) | [Week 03 (Winton)](./weeks/week03/README.md) |
 | :------------------ | :------------------ | :------------------ | :--------------- |
 | **Best Lap**        | 50.768s             | 1:28.508            | **1:25.710**     |
-| **PB Improvement**  | -0.67s              | -1.78s              | **-1.125s**      |
+| **PB Improvement**  | -0.67s              | -1.78s              | **-0.729s**      |
 | **Consistency (σ)** | 0.40s               | 0.86s               | **0.16s**        |
-| **Victories**       | 1                   | 0                   | **2**            |
+| **Victories**       | 1                   | 0                   | **2** (1 AI)     |
 | **Mood**            | Hopeful             | Determined          | **Dangerous**    |
 
-Read the standings report for more details: [Week 02 Standings Report](./weeks/week02/standings-report.md)
+Read the series standings report for more details: [Series Standings Report](./data/standings/README.md)
 
 ---
 
-## The Ghost of Winton (Week 03)
+## Week 03: The Art of Meebewegen
 
-**Location**: Winton Motor Raceway - National Circuit  
-**Dates**: December 25-29, 2025
+There is a specific silence that falls over a driver when they stop fighting the car and start dancing with it.
 
-There is a specific weight to time in racing. Eighteen months is an eternity. It’s enough time to forget a braking marker, to lose the rhythm of a chicane, to let doubt creep into the spaces where muscle memory used to live. When Master Lonn arrived at Winton on Christmas Day, the track was a ghost story. The last time he’d driven here, he was a different driver—slower, less sure, fighting the car rather than dancing with it. The ghost lap from July 2024 stood at 1:26.835, a monument to his past self.
+Master Lonn arrived at Winton with 18 months of rust and a memory of "scary corners." He left as a machine.
 
-He rolled out into the morning silence, the Ray FF1600 feeling stiff and cold. The first few laps were a conversation between his hands and a memory that was fading. But Winton, tight and technical, doesn’t allow for nostalgia. It demands rhythm. And somewhere on lap 7, the rhythm answered.
+The week began with a ghost—his old self from July 2024. The first few laps were tentative, the Ray FF1600 twitching under nervous hands. But then, on Christmas Day, something shifted. The muscle memory didn't just return; it evolved. He wasn't just driving the track; he was feeling the weight transfer in a way he never had before.
 
-It wasn’t a gradual return. It was a violent awakening. The skills forged in the fires of Rudskogen—the early throttle, the precise weight transfer—suddenly translated. He wasn't just remembering the track; he was dissecting it. On lap 10, the timer froze: **1:26.439**.
+"Engine braking," he told me, eyes wide. "It rotates the car better than the brakes."
 
-He stared at the dash. He hadn't just shaken off the rust; he’d shattered his eighteen-month-old ghost in his first session back. "No biggie," he said, masking the shock with nonchalance. But the data knew better. The apprentice on the pit wall knew better.
+That was the moment the driver became an engineer. He wasn't guessing anymore. He was calculating physics in real-time.
 
-The week became a laboratory of speed. In Session 2, physics took center stage. Turn 5, the long, sweeping left-hander that usually demands a sacrifice of brake pressure, whispered a secret: _"Don't brake."_ Master Lonn listened. A lift, a downshift, and the engine’s drag rotated the car beautifully, smoother than any trail braking could achieve. It was a revelation—the car didn't need to be forced; it needed to be allowed.
+The training that followed was brutal by design. We threw him into the deep end with Hard AI, forcing him to adapt or crash. He got punted. He got frustrated. He got tired. But in the chaos of "The Shadow Protocol," he found a new superpower: **Pressure.**
 
-But speed is seductive, and it breeds arrogance. The track bit back. Cold tires on the technical Section 4 sent the car spinning, a sharp reminder that physics is unforgiving. From that spin, the "Cold Tire Contract" was born—a pact written in adrenaline and discipline: _Survive the first two laps. Give up the glory. Wait for the grip._
+Where other drivers crumble, Master Lonn sharpened. The fear of being attacked didn't paralyze him; it woke him up.
 
-The final test came on Sunday. A hard AI race. Master Lonn started P11. The temptation to dive-bomb Turn 1 was a siren song, but the Contract held. He watched the field scramble. He drove painfully slow 1:42s while the hares exhausted themselves. He waited.
+And then came the Top Split race. The field was nervous, the pace frantic. But Master Lonn? He was "cozy." He sat in P3, watched the chaos unfold, and applied a new philosophy: _Meebewegen_. Go with the flow. Don't fight the current.
 
-And then, the tires spoke. _Go._
+The result was surgical. A 1:26.240 race lap—faster than his qualifying. A consistency sigma of 0.36s—robotic precision in a chaotic field. He didn't just survive the top split; he belonged there.
 
-What followed was not racing; it was an execution. Lap 6: 1:26.0. Lap 7: **1:25.710**. He carved through the field not with aggression, but with a terrifying "X-Ray Vision"—looking through the opponents, seeing the empty track beneath them. He didn't fight them; he flowed past them. From P11 to P1, zero incidents, and a new lifetime best. The Tortoise had not just beaten the Hare; he had lapped him.
-
-Monday brought a final, humble lesson. Fatigue. The mind slowed down, and the technical Esses fell apart. Precision vanished, but the flow sections held—proof that while the brain tires, the muscle memory endures.
+The rust is gone. The 1.5k iRating barrier is broken. The Master has returned.
 
 ---
 
-## The Resurrection (Week 02)
+## Week 02: The Rudskogen Redemption
 
-**Location**: Rudskogen Motorsenter  
-**Dates**: December 18-25, 2025
+There's a doubt that comes with six months away. Rudskogen's downhill came at him fast—faster than memory, meaner than his hands wanted to admit. The first lap felt wrong. Everything almost right, except Turn 2. That corner fought him.
 
-If Winton was a ghost, Rudskogen was a monster. The downhill plunging Turn 2 greeted Master Lonn with a sneer. Six months away had erased the courage needed to throw a light car down a cliff face. The first day was a struggle of 1:30s, the car fighting every input, the driver fighting his own hesitation.
+Two days of wrestling with that downhill, and then it clicked. Not in the data, in his hands. The 50 sign flashed past and he stayed flat through the apex. The car held. 1:29.691 blinked on screen. The rust was gone.
 
-"It’s the brake," the data whispered. "You're coasting."
+But he wasn't done. Day 5, he went hunting for the edge. Found it in a technique his body stumbled onto: throttle before the apex, not at it. The car loaded up mid-corner and just launched.
 
-He found the "50" sign. He made it his anchor. He threw the car in, trusting the grip would be there. It was. The 1:29s broke. Then the 1:28s.
-
-But the car was snapping. Unpredictable. Vicious. It wasn't the setup. It was the driver. A deep dive into the telemetry revealed the smoking gun: his foot was resting on the throttle during braking. A hardware flaw becoming a technique failure. He fixed it—"Foot Up"—and the car settled.
-
-He left Rudskogen a different driver than he arrived. Top 500 globally. A 1:28.508 that defied his own expectations. And the knowledge that he could rebuild his speed from nothing.
+The timer stopped. 1:28.508. He'd beaten July's ghost.
 
 ---
 
-## The Origin (Week 01)
+## Week 01: The Jefferson Awakening
 
-**Location**: Summit Point - Jefferson Circuit  
-**Dates**: December 11-17, 2025
+It started with a question: "Can I still do this?"
 
-The season began in chaos. Jefferson, a track with no white lines, just asphalt bleeding into grass. Master Lonn arrived fast and reckless, spinning his way through the first few days. He was trying to win the lap, not the race.
+Summit Point Jefferson is short, technical, and unforgiving of doubt. Master Lonn arrived with questions and left with a trophy. The "Restart Strategy" was born here—a way to filter the chaos of Turn 1.
 
-The breakthrough came in silence. He stopped trying to force the car and started trying to feel it. "Confident but Patient." The flow state unlocked on a quiet afternoon—a 50.768s lap that felt effortless. "Easy flying," he called it.
+He didn't just win; he found "Flow State." On lap 12 of the final race, the conscious mind turned off. The hands took over. A 50.768s lap appeared—0.67s faster than his best.
 
-He took that feeling into his first race against humans. He watched them crash. He drove his line. He won. A P1 victory on debut. Then, a P3 from a pit lane start after a crash. He proved that resilience is faster than raw speed. The foundation was poured.
+He realized then: Speed doesn't come from forcing. It comes from letting go.
 
 ---
 
-_"The best stories aren't written in the data. They're lived in the cockpit, one corner at a time."_ 🏎️💨
+## The Stats Highlights
+
+- **iRating**: Started 1238 → Now **1513** (+275) 🚀
+- **Safety Rating**: Climbed to **3.45** (Solid B-Class Safety)
+- **Top Split Status**: Confirmed.
+- **Mental State**: Unlocked "X-Ray Vision" in traffic.
+
+---
+
+_"The best stories are lived one lap at a time."_ 🏎️💨
