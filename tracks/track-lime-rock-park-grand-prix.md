@@ -2,73 +2,89 @@
 track: "Lime Rock Park"
 layout: "Grand Prix"
 location: "Lakeville, Connecticut, USA"
-length_km: 2.41
-length_mi: 1.50
+length_km: 2.34
+length_mi: 1.45
 opened: 1957
 type: "road course"
 ---
 
-# Lime Rock Park – Small Track, Big Demands
+# Lime Rock Park – The Bullring
 
-Lime Rock Park started as Jim Vaill’s slightly stubborn idea: carve a permanent road course into a quiet valley in the Berkshires and see if anyone shows up.<sup><a href="https://en.wikipedia.org/wiki/Lime_Rock_Park">Lime Rock Park — Wikipedia</a></sup> With help from engineer John Fitch and aerodynamic input from Cornell, the 1.5-mile natural-terrain circuit opened in 1957 and quickly became the “Road Racing Center of the East.”
+**Character**: High-Commitment Momentum Gym
 
-It’s one of those places where names stack up quickly: Rodger Ward beating sleek sports cars in an Offy midget, Roger Penske and Mark Donohue doing homework, Paul Newman turning it into a second home. A 1959 court injunction still bans Sunday racing but protects unmuffled running on certain days, so even the _sound_ of Lime Rock has its own legal backstory.
+## Background
 
-The Grand Prix layout looks simple at a glance: seven corners, no chicanes, no hairpins. On track, it’s a continuous, looping sentence with no comma where you expect it. Big Bend just keeps going, the Uphill feels like a launch ramp, the Esses arrive faster every lap, West Bend hides the exit behind the guardrail, and the Downhill compresses car and driver right at the point where lifting feels both smart and expensive.<sup><a href="https://www.iracing.com/tracks/lime-rock-park/">Lime Rock Park — iRacing.com</a></sup>
+Lime Rock Park is a deceptive little beast. On paper, it looks simple: 1.5 miles, 7 corners, mostly right-handers. In reality, it is one of the most intense, high-commitment tracks in North America. There are no "rest" zones here. The straights are short, the corners are fast, and the walls are close. It is often described as a "Bullring" for road racers—short, loud, and requiring constant aggression.
 
----
+Uniquely, it has no long braking zones. This means passing is difficult and usually requires forcing an error or executing a brave move into Big Bend. For the FF1600, this track is a momentum test. Scrub too much speed in Big Bend or the Uphill, and you will be punished all the way to the next corner.
+
+## Track Map
+
+<a href="images/lime-rock-park-grand-prix-map.png"><img src="images/lime-rock-park-grand-prix-map.png" alt="Lime Rock Park Map" width="90%"></a>
+
+## Corner Reference
+
+| Turn      | Name                       | Notes                                                          |
+| :-------- | :------------------------- | :------------------------------------------------------------- |
+| **T1-T2** | Big Bend                   | Long double-apex right. Momentum critical.                     |
+| **T3-T4** | The Esses                  | Left-Right complex. Precision required.                        |
+| **T5**    | The Uphill                 | Fast right with a crest. "The Launchpad".                      |
+| **T6**    | West Bend                  | Fast right. Setting up the back section.                       |
+| **T7**    | The Downhill (Diving Turn) | Fast right leading to main straight. Exit speed is everything. |
+
+## Sector Definitions (iRacing)
+
+| Sector | Approx Time  | Corners                              | Key Challenge                        |
+| ------ | ------------ | ------------------------------------ | ------------------------------------ |
+| **S1** | ~14s (24%)   | Start/Finish → Big Bend (T1-T2)      | Brake timing & momentum preservation |
+| **S2** | ~14.5s (25%) | The Esses (T3-T4) → No Name Straight | Precision & exit speed               |
+| **S3** | ~9s (15%)    | The Uphill (T5)                      | Car placement & bravery (crest!)     |
+| **S4** | ~20s (36%)   | West Bend (T6) → Diving Turn (T7)    | Flow & setup for the main straight   |
+
+> **Note:** S1 (Big Bend) sets the tone. S3 (Uphill) requires trust. S4 (Downhill/Diving Turn) defines your top speed.
 
 ## Character Notes
 
-- **Micro-lap, macro-consequences** – At 1.5 miles you’re constantly lapping and being lapped in bigger series. Any mistake in Big Bend or the Downhill infects half the circuit; there’s nowhere to “reset” mid-lap.
-- **Elevation in disguise** – The track looks flat on paper; in the car it never stops rolling and pitching. The Uphill crest, the subtle fall into the Esses, and the compression at the Downhill all change how the car loads up underneath you.
-- **Flow over finesse** – Lime Rock punishes “point and squirt” driving. It’s all about keeping the car rotating and breathing, not barging from brake zone to brake zone.
-- **Visual trust exercise** – Trees, guardrails and banks are your reference points, not giant braking boards. You often have to turn or commit to throttle based on where the hillside or a marshal post lives in your peripheral vision, not on what you can see of the apex.
-
----
+- **The Rhythm**: Lime Rock has a heartbeat. It's fast-fast-fast. There is no "stop-and-go" rhythm here.
+- **The Crests**: The Uphill is famous for launching cars. In the FF1600, you might not catch air, but the suspension unloads significantly.
+- **The "No Name" Straight**: It has no name, but it determines if you can attack into the Uphill.
+- **Right-Hand Bias**: It's almost entirely right turns. Left-side tires will cool down; right-side tires will scream.
 
 ## Ray FF1600 at Lime Rock
 
-The Ray FF1600 feels tailor-made for this place: light, talkative and completely dependent on momentum.
-
-- **Big Bend (T1–T2)**  
-  This is your lap. Treat it as one long, evolving corner rather than “turn in, coast, then turn again.” In the Ray, a short, early brake, trail into the first apex and then a long, gentle release while you let the car drift out and rotate back works best. Any panic stab on the brakes mid-corner kills your run all the way to the Uphill.
-
-- **The Uphill (T5)**  
-  In the FF1600 the Uphill is more about _stability_ than bravery. Aim to be settled and already feeding throttle before the crest. Short-shifting up a gear slightly earlier than feels heroic keeps the rear planted and lets the car float over the brow without spinning the inside rear into the grass.
-
-- **Esses + West Bend (T6–T7)**  
-  This is where impatient hands lose the lap. You want one clean input into the Esses and then minimal correction. Turn a heartbeat earlier than your fear suggests, let the car breathe across the track, and trust that West Bend’s apex is there even when you can’t see it yet. Any sawing at the wheel shows up as scrubbed speed at the Downhill.
-
-- **The Downhill (T7 exit)**  
-  The Ray absolutely exposes bad habits here. Brake too late and you overload the fronts; brake too early and you wait forever to get back to throttle. The trick is a gentle, slightly earlier brake, smooth release just as the car compresses, and a decisive—but not binary—commitment to full throttle once you feel the suspension load up. Done right, the car slingshots onto the front straight like you’ve been fired out of a slingshot.
-
-- **Brake bias on the hill**  
-  For race running, a slightly front-leaning bias in the low-50s helps keep the car calm into Big Bend and over the Downhill compression. As you build confidence, you can trim a half-percent rearward for qualifying to gain rotation into West Bend and Big Bend’s second apex—just stay mindful that any extra rearward bias will show up brutally if you brake hard while turning at the bottom of the hill.
-
----
+- **Momentum is King**: With low horsepower, every km/h scrubbed in Big Bend is lost forever.
+- **Big Bend Strategy**: It's a double-apex (or late apex) corner. Don't rush the entry. Let the car roll.
+- **The Uphill**: In the Ray, you can often take more speed than you think. Trust the downforce (what little there is) and the mechanical grip.
+- **The Downhill (Diving Turn)**: Crucial for the run to the line. A poor exit here costs you time for the entire length of the Sam Posey Straight.
 
 ## Practice Cues for the Week
 
-Use Lime Rock as your **flow and minimum-speed dojo**.
 
-- **Big Bend + Downhill pairing**  
-  Treat these as your anchor corners. In early sessions, forget lap time and simply try to keep your minimum speed in Big Bend and the Downhill within a 1 km/h band lap after lap. If those two are stable, everything in between will start to fall into place.
+1.  **T1 "Stab & Steer"**: Stop dragging the brake in Big Bend. Brake later, brake shorter (quick scrub), and get back on 10-20% throttle immediately to settle the rear. No coasting!
+2.  **T3 Precision (The Esses)**: "Hug the Left." You are missing the T3 apex and sawing the wheel. Sacrifice entry speed to paint the left curb. This sets up T4 and the No Name Straight. One smooth steering input only.
+3.  **T5 "Trust the Compression"**: NO BRAKES at the Uphill entry. You are panic-braking (80%) where you should be flying. Lift only, turn in, and let the hill scrub the speed. Power up before the crest. The compression gives you super-grip—use it!
+4.  **T6 "Brush & Go"**: West Bend is a momentum corner, not a stopping corner. Drive deeper, brush the brake (max 10% pressure just to shift weight), and get back on power. You are braking 25% and killing the run to the Downhill.
+5.  **T7 "Exit is Everything"**: The Downhill sets up the main straight. Sacrifice entry to be 100% throttle BEFORE the compression apex. Look at the Start/Finish line, not the exit curb. Your late throttle is costing 8 km/h down the straight.
 
-- **Eyes two corners ahead**  
-  Pick one stint where your only focus is: “look where I’m going to be, not where I am.” Force your eyes up the road—through Big Bend to the Uphill, through the Uphill to the Esses, through West Bend to the Downhill braking marker. The Ray tells you instantly when your eyes drop; your hands will start correcting, and the car will feel “busy.”
 
-- **Race runs with discipline rules**  
-  In longer runs, give yourself two rules:
-  1. No desperate moves into Big Bend.
-  2. Use the run out of the Downhill as your primary passing tool.  
-     That pushes you to drive the whole lap in service of exits and rhythm, not single-corner glory dives.
+## Personal Notes
 
-When Lime Rock “clicks” in the Ray, the lap stops feeling like seven corners and starts feeling like one breath. That’s when the times start falling in satisfying little chunks, without you ever feeling like you’re forcing it.
+> _"It's not a crash, it's just aggressive landscaping."_
 
----
+### Week 04 – January 2026 (Season 01)
 
-## References
+**First Discovery:** "The Tale of Two Halves." I am slow in the easy bits (Big Bend) and fast in the scary bits (Uphill).
 
-- [Lime Rock Park — Wikipedia](https://en.wikipedia.org/wiki/Lime_Rock_Park)
-- [Lime Rock Park — iRacing.com](https://www.iracing.com/tracks/lime-rock-park/)
+**The Feel:** Frantic. 12 incidents in the baseline session. The car feels unsettled over the crests.
+
+**Specific Challenge:** **Big Bend (T1)**. I am over-slowing and killing momentum. Losing -14.5 km/h on the main straight due to poor T7 exit.
+
+**The Breakthrough:** (Pending - Need to fix T7 Exit and T1 Entry).
+
+### Overtaking
+
+- **Big Bend (T1) Inside**: The classic spot. Requires a good run out of the Downhill.
+- **The Uphill (T5)**: Only for the brave. Not recommended in Rookies.
+- **West Bend**: Possible if the car ahead makes a mistake in the Uphill.
+
+> _"You have the bravery (fast in the scary bits). You lack the discipline (slow in the easy bits)."_ — Little Wan

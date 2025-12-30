@@ -1,7 +1,7 @@
 {
   "season": "01 2026",
-  "current_week": "3 (STARTING - Winton Motor Raceway National)",
-  "current_track": "Winton Motor Raceway - National",
+  "current_week": "4 (STARTING - Lime Rock Park Grand Prix)",
+  "current_track": "Lime Rock Park - Grand Prix",
   "current_car": "Ray FF1600",
   "driver_info": {
     "custid": 981717,
@@ -16,8 +16,8 @@
     "position_current": 459,
     "total_drivers": 15787
   },
-  "focus": "The True Alien Gap (1.4s): Closing the gap to 1:24s through Qualification Psychology and S1 optimization.",
-  "goal": "Week 03: Vaccinate against traffic pressure. Finish races clean. Immediate Target: Sub-1:25.5. End of week: 1:24.9s.",
+  "focus": "Week 04: The Bullring. Survive the chaos, find the rhythm.",
+  "goal": "Week 04: Establish Baseline. Immediate Target: Clean Laps.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -204,11 +204,11 @@
     "Meebewegen (Strategic Flow): In high-stress Top Split, 'going with the flow' (Meebewegen) rather than fighting for every inch yields better consistency (0.36s) and speed than aggression."
   ],
   "next_steps": [
-    "REST. Recovery is training.",
-    "Execute Cold Tire Contract v2.0 in Official Races.",
-    "Work on Qualifying Psychology (closing the gap between Quali/Race pace).",
-    "Refine Sector 1 (Esses/Honda) entry to reduce variance.",
-    "Hunt the 1:24s (The True Alien Gap)."
+    "Establish Baseline at Lime Rock Park.",
+    "Map the track sectors (Big Bend, Uphill, Downhill).",
+    "Identify 'The Cleavage' (the tricky sector) for this week.",
+    "Fix Downhill (T7) Exit - it is killing main straight speed.",
+    "Brake later for Big Bend (T1) - current entry is too slow."
   ],
   "guidebook_updates": [
     {
