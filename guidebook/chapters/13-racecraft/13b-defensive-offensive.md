@@ -151,6 +151,57 @@ Most of your attention = Zone 1.
 Some attention = Zone 2.  
 Minimal attention = Zone 3.
 
+### Vision in Traffic: The X-Ray Gaze
+
+**The Principle:**
+
+When following another car closely, your instinct is to stare at their gearbox. This is wrong.
+
+**The technique:** Look THROUGH the car ahead, not AT it.
+
+**How it works:**
+- Your eyes focus on the track (the apex, brake marker, exit)
+- The car ahead exists in your **peripheral vision**
+- You read their "body language" (movement, brake lights) without fixating
+
+**Why it matters:**
+- Staring at their car = reactive driving (you follow their mistakes)
+- Looking through = proactive driving (you drive YOUR line)
+- Peripheral processing is faster than central vision for threat detection
+
+**Master Lonn's Discovery (Winton, Week 03):**
+
+During the Shadow Protocol training, Master Lonn found the secret to close following:
+
+> "Looking through the cars in front... focused on the track... cars were in the outskirts of my vision."
+
+**The result:**
+- Maintained 0.2-0.5s gaps without panic
+- Could follow for 5+ laps without losing focus
+- Flow state preserved even in heavy traffic
+
+**The Data Proof:**
+- Shadow Protocol R3: "Kissed guy in front" (0x) - good proximity, no contact
+- Post-contact laps: 0.26s sigma = alien-level consistency while in traffic
+- Mental state: "Flow preserved" despite cars everywhere
+
+**Practice the X-Ray Gaze:**
+
+1. In AI race or practice, follow a car for 3 laps
+2. Force your eyes to focus on the TRACK, not the car
+3. Notice: You can still "see" the car, but you're not staring at it
+4. Check: Are your hands lighter? Are you less tense?
+
+**Success criteria:**
+- Following feels "calm" instead of "chasing"
+- You're hitting YOUR apex, not copying theirs
+- Brake lights don't trigger panic (you see them peripherally)
+
+**Key insight:**
+The car ahead is an obstacle. The track is your target. Focus on the target.
+
+→ **See:** Week 03, Shadow Protocol (Winton, Dec 28, 2025)
+
 ---
 
 ## Key Takeaways

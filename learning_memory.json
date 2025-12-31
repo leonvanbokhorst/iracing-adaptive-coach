@@ -210,46 +210,5 @@
     "Fix Downhill (T7) Exit - it is killing main straight speed.",
     "Brake later for Big Bend (T1) - current entry is too slow."
   ],
-  "guidebook_updates": [
-    {
-      "date": "2025-12-28",
-      "chapter": "12-mental-game",
-      "section": "Part 5: The Reset - Recovering from Contact",
-      "trigger": "Punted in R4 (Shadow Protocol), immediately drove 5 laps with 0.26s sigma",
-      "principle": "Contact is not the end. The 'Mental Reset' allows switching from 'Victim Mode' to 'Focus Mode' immediately. Use the adrenaline from contact to sharpen focus, not aggression.",
-      "session_reference": "Week 03, Shadow Protocol R4 (Winton, Dec 28, 2025)"
-    },
-    {
-      "date": "2025-12-28",
-      "chapter": "13-racecraft",
-      "section": "Part 6: Vision in Traffic - The X-Ray Gaze",
-      "trigger": "Shadow Protocol feedback: 'Looking through the cars in front... focused on the track... cars were in outskirts of vision'",
-      "principle": "Do not stare at the gearbox ahead. Look THROUGH the car to the track. Keep hands light. This reduces the 'fight' response and enables 'flow' even in heavy traffic.",
-      "session_reference": "Week 03, Shadow Protocol (Winton, Dec 28, 2025)"
-    },
-    {
-      "date": "2025-12-28",
-      "chapter": "13-racecraft",
-      "section": "Part 7: The Negative Split Strategy",
-      "trigger": "P11 -> P1 Victory. Slow L1-3, PB L7.",
-      "principle": "Sacrificing early pace (L1-3) buys late-race dominance. Cool tires/heads early = Grip/Flow late. 'The Tortoise laps the Hare'.",
-      "session_reference": "Week 03, Victory Session (Winton, Dec 28, 2025)"
-    },
-    {
-      "date": "2025-12-29",
-      "chapter": "12-mental-game",
-      "section": "Part 8: The Fatigue Signature",
-      "trigger": "Tired session. S1 (technical) messy, S3 (flow) perfect.",
-      "principle": "Fatigue attacks Precision (technical corners) first. Flow (muscle memory) lasts longer. If tired, back off the complex sections to survive.",
-      "session_reference": "Week 03, Fatigue Check (Winton, Dec 29, 2025)"
-    },
-    {
-      "date": "2025-12-30",
-      "chapter": "13-racecraft",
-      "section": "Part 9: Meebewegen (Strategic Flow)",
-      "trigger": "Top Split P3. 'Cozy' race. Elite consistency (0.36s).",
-      "principle": "In high-stress fields, 'going with the flow' beats aggression. Matching the pack's rhythm (Meebewegen) reduces cognitive load and increases consistency, often leading to faster race times.",
-      "session_reference": "Week 03, Race 1 (Winton, Dec 30, 2025)"
-    }
-  ]
+  "guidebook_updates": []
 }
