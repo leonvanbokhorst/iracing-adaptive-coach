@@ -12,7 +12,15 @@ Scale:
 - 1m-2m+: Red (what are you doing?!)
 
 Usage:
-    python tools/coach/visualize_deviation_from_reference.py <your_lap.csv> <reference_lap.csv> <boundaries.json> <output_dir> [track_id] [--dark]
+    python tools/coach/visualize_deviation_from_reference.py <your_lap.csv> <reference_lap.csv> <boundaries.json> <output_dir> [track_id] [--dark] [--session-id SESSION_ID]
+
+Examples:
+    # Without session ID (uses generic names)
+    python tools/coach/visualize_deviation_from_reference.py lap.csv ref.csv bounds.json output/ track-id
+
+    # With session ID (prefixes all output files)
+    python tools/coach/visualize_deviation_from_reference.py lap.csv ref.csv bounds.json output/ track-id --session-id 2025-12-31-13-58
+    # Creates: output/2025-12-31-13-58-deviation-s01.png, etc.
 """
 
 import sys
@@ -201,7 +209,8 @@ def get_sector_bounds(track_data, sector_num):
 
 def create_sector_deviation_visualization(your_df, ref_df, boundaries, output_dir,
                                         track_id=None, your_name="Your Lap",
-                                        ref_name="Reference", dark_mode=False):
+                                        ref_name="Reference", dark_mode=False,
+                                        session_id=None):
     """
     Create deviation visualizations for each sector.
     Shows reference line colored by YOUR deviation from it.
@@ -304,8 +313,8 @@ def create_sector_deviation_visualization(your_df, ref_df, boundaries, output_di
         if len(ref_sector_lat) == 0:
             continue
         
-        # Create figure
-        fig, ax = plt.subplots(figsize=(12, 10))
+        # Create figure (wider aspect for horizontal colorbar)
+        fig, ax = plt.subplots(figsize=(12, 9))
         fig.patch.set_facecolor(bg_color)
         ax.set_facecolor(panel_color)
         
@@ -327,29 +336,32 @@ def create_sector_deviation_visualization(your_df, ref_df, boundaries, output_di
         # Overlay YOUR actual line in white on top
         ax.plot(your_sector_lon, your_sector_lat, color=user_color, linewidth=0.7, alpha=1, zorder=4)
         
-        # Custom colorbar with meaningful labels
-        cbar = plt.colorbar(lc, ax=ax)
-        cbar.set_label('Deviation vs Reference (cm)', color=text_color)
-        cbar.ax.yaxis.label.set_color(text_color)
-        cbar.ax.tick_params(colors=text_color)
+        # Custom horizontal colorbar underneath the plot (full width)
+        cbar = plt.colorbar(lc, ax=ax, orientation='horizontal', location='bottom',
+                           pad=0.08, aspect=40, shrink=1.0)
+        cbar.set_label('Deviation from Reference (cm)', color=text_color, fontsize=10)
+        cbar.ax.xaxis.label.set_color(text_color)
+        cbar.ax.tick_params(colors=text_color, labelsize=9)
         
         tick_values = np.linspace(0, color_max_m, 6)
         cbar.set_ticks(tick_values)
         cbar.set_ticklabels([f"{v*100:.0f}" for v in tick_values])
         
-        # Labels
-        ax.set_xlabel('Longitude', color=text_color)
-        ax.set_ylabel('Latitude', color=text_color)
+        # Clean up axes (remove lat/lon labels - not useful for this viz)
+        ax.set_xlabel('')
+        ax.set_ylabel('')
+        ax.set_xticklabels([])
+        ax.set_yticklabels([])
         
         sector_name = sectors[sector_num - 1].get('name', f"Sector {sector_num}")
         ax.set_title(f'Sector {sector_num} - Your Deviation from {ref_name}\'s Line',
-                    fontsize=12, fontweight='bold', color=text_color)
+                    fontsize=12, fontweight='bold', color=text_color, pad=10)
         
-        ax.tick_params(colors=text_color)
+        ax.tick_params(colors=text_color, length=0)
         ax.set_aspect('equal')
-        ax.grid(True, alpha=0.2, color=grid_color)
+        ax.grid(False)
         for spine in ax.spines.values():
-            spine.set_color(grid_color)
+            spine.set_visible(False)
         
         # Calculate stats for this sector
         avg_abs_cm = np.mean(sector_abs_dev) * 100
@@ -373,8 +385,12 @@ Avg Δ (width): {avg_rel_pct:.1f}%
         
         plt.tight_layout()
         
-        # Save
-        output_file = Path(output_dir) / f"sector-{sector_num:02d}-deviation.png"
+        # Save with session ID prefix if provided
+        if session_id:
+            filename = f"{session_id}-deviation-s{sector_num:02d}.png"
+        else:
+            filename = f"sector-{sector_num:02d}-deviation.png"
+        output_file = Path(output_dir) / filename
         plt.savefig(output_file, dpi=200, facecolor=fig.get_facecolor(),
                    edgecolor='none', bbox_inches='tight')
         plt.close()
@@ -387,18 +403,31 @@ Avg Δ (width): {avg_rel_pct:.1f}%
 def main():
     if len(sys.argv) < 5:
         print(json.dumps({
-            "error": "Usage: python visualize_deviation_from_reference.py <your_lap.csv> <reference_lap.csv> <boundaries.json> <output_dir> [track_id] [--dark]"
+            "error": "Usage: python visualize_deviation_from_reference.py <your_lap.csv> <reference_lap.csv> <boundaries.json> <output_dir> [track_id] [--dark] [--session-id ID]"
         }))
         sys.exit(1)
     
     dark_mode = '--dark' in sys.argv
-    args = [a for a in sys.argv if a != '--dark']
     
-    your_file = Path(args[1])
-    ref_file = Path(args[2])
-    boundaries_file = Path(args[3])
-    output_dir = Path(args[4])
-    track_id = args[5] if len(args) > 5 else None
+    # Parse --session-id argument
+    session_id = None
+    args = []
+    i = 1
+    while i < len(sys.argv):
+        if sys.argv[i] == '--session-id' and i + 1 < len(sys.argv):
+            session_id = sys.argv[i + 1]
+            i += 2
+        elif sys.argv[i] == '--dark':
+            i += 1
+        else:
+            args.append(sys.argv[i])
+            i += 1
+    
+    your_file = Path(args[0])
+    ref_file = Path(args[1])
+    boundaries_file = Path(args[2])
+    output_dir = Path(args[3])
+    track_id = args[4] if len(args) > 4 else None
     
     for fpath in [your_file, ref_file, boundaries_file]:
         if not fpath.exists():
@@ -423,7 +452,8 @@ def main():
         track_id=track_id,
         your_name=your_name,
         ref_name=ref_name,
-        dark_mode=dark_mode
+        dark_mode=dark_mode,
+        session_id=session_id
     )
     
     if success:
