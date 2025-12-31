@@ -1,23 +1,23 @@
 {
   "season": "01 2026",
-  "current_week": "3 (STARTING - Winton Motor Raceway National)",
-  "current_track": "Winton Motor Raceway - National",
+  "current_week": "4 (STARTING - Lime Rock Park Grand Prix)",
+  "current_track": "Lime Rock Park - Grand Prix",
   "current_car": "Ray FF1600",
   "driver_info": {
     "custid": 981717,
     "name": "Leon Remondo van Bokhorst",
     "country": "NL",
     "irating_start": 1238,
-    "irating_current": 1513,
-    "irating_change": 275,
+    "irating_current": 1601,
+    "irating_change": 363,
     "license_class": "B",
     "division_current": 8,
     "series": "Formula 1600 Rookie Series",
     "position_current": 459,
     "total_drivers": 15787
   },
-  "focus": "The True Alien Gap (1.4s): Closing the gap to 1:24s through Qualification Psychology and S1 optimization.",
-  "goal": "Week 03: Vaccinate against traffic pressure. Finish races clean. Immediate Target: Sub-1:25.5. End of week: 1:24.9s.",
+  "focus": "Week 04: S3 Consistency (The Uphill). Trust the compression.",
+  "goal": "Week 04: Sub-56s Consistent Pace. S3 σ < 0.4s.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -164,10 +164,50 @@
       "notes": "WEEK 03 RACE 1. Top Split (SoF 1649). Quali P3 (1:26.8). Finish P3. 'Cozy' race. Elite consistency (0.36s). iR +58, SR +0.57 (0 inc). Validated 'Meebewegen' strategy."
     },
     {
+      "date": "2025-12-30",
+      "time": "13:20 UTC",
+      "session_type": "Official Race - Top Split (P1)",
+      "track": "Winton Motor Raceway - National Circuit",
+      "best_lap": 86.348,
+      "consistency_sigma": 0.43,
+      "clean_laps": 8,
+      "total_laps": 11,
+      "incidents": 0,
+      "start_position": "P3",
+      "finish_position": "P1",
+      "sof": 1460,
+      "irating_change": "+88",
+      "sr_change": "+0.1",
+      "focus_area": "Survival & Consistency",
+      "notes": "WEEK 03 RACE 2. P1 Victory! 1601 iRating achieved. 'Boring' race (leaders crashed). S2 (0.28s sigma) still the variant sector. 3/4 sectors robot-consistent."
+    },
+    {
       "period": "Week 03 - Winton Motor Raceway (Summary)",
       "key_achievements": "Top Split P3 (Official), AI Victory (P11->P1), Elite Consistency (0.36s), Meebewegen Strategy Validated.",
       "key_lessons": "Engine Braking > Trail Braking (T5). Pressure improves focus ('Pressure Performer'). Cold Tire Contract v2.0 works. Efficiency gap closed (0.12s).",
       "stats_summary": "PBs: 1:26.4 -> 1:25.7 (-0.7s). iRating: +275 (broken 1.5k). SR: +0.57."
+    },
+    {
+      "date": "2025-12-31",
+      "time": "13:58 CET",
+      "session_type": "Practice (Offline Testing) - Limit Finding",
+      "track": "Lime Rock Park - Grand Prix",
+      "best_lap": 56.278,
+      "consistency_sigma": 1.45,
+      "clean_laps": 20,
+      "total_laps": 37,
+      "incidents": 17,
+      "theoretical_optimal": 56.149,
+      "gap_to_optimal": 0.129,
+      "focus_area": "S3 (The Uphill) - The Chaos Zone",
+      "leaderboard": {
+        "ranking": 65,
+        "total_entries": 1229,
+        "percentile": "top 5.3%",
+        "gap_to_p1": 0.581,
+        "gap_to_top10": 0.412
+      },
+      "notes": "WEEK 04 SESSION 2 - LIMIT FINDING. NEW PB 56.278s (P65/1229 = top 5.3%). Deliberate chaos session to find edges. S2 (Esses) = elite σ 0.15s. S3 (Uphill) = chaos σ 1.13s. Gap to top 10 = 0.41s (exactly what T7+T5 exits cost). Clean lap during chaos session proves pace is real."
     }
   ],
   "insights": [
@@ -183,55 +223,17 @@
     "REALITY CHECK (Alien Pace): 1:25.7 is great, but 1:24.0 (Eric Wong) is the true Alien benchmark. 1.7s gap remains. 0.7s to just break into 1:24s.",
     "Efficiency Maxed (0.08s Gap): Gap to theoretical optimal is only 0.08s. This means the 'easy speed' is gone. Further gains require moving the limit (better line/technique), not just reducing errors.",
     "Fatigue & Precision: Fatigue degrades Technical Sectors (S1, S2) first. Flow Sectors (S3, S4) relying on muscle memory remain robust. When tired, 'Robot Mode' works in flow, but fails in precision.",
-    "Meebewegen (Strategic Flow): In high-stress Top Split, 'going with the flow' (Meebewegen) rather than fighting for every inch yields better consistency (0.36s) and speed than aggression."
+    "Meebewegen (Strategic Flow): In high-stress Top Split, 'going with the flow' (Meebewegen) rather than fighting for every inch yields better consistency (0.36s) and speed than aggression.",
+    "Momentum Chaining (Lime Rock): On short tracks like Lime Rock, corners chain together. A poor T1 kills T2 which kills T3. One throttle commit, one brake, flow through. The track rewards rhythm over heroics.",
+    "Compression Grip (T5 Uphill): Uphill transitions load front tires naturally. Panic-braking wastes this 'free grip'. Lift-only entry + early throttle commit = faster than heavy braking.",
+    "S3 Variance Pattern: When S3 σ is 4-7x higher than other sectors, it's a bravery/consistency problem, not technique. The fast laps prove the skill exists - now make it repeatable."
   ],
   "next_steps": [
-    "REST. Recovery is training.",
-    "Execute Cold Tire Contract v2.0 in Official Races.",
-    "Work on Qualifying Psychology (closing the gap between Quali/Race pace).",
-    "Refine Sector 1 (Esses/Honda) entry to reduce variance.",
-    "Hunt the 1:24s (The True Alien Gap)."
+    "Tame S3 (The Uphill) - reduce σ from 1.13s to <0.4s.",
+    "S3 Technique: Lift only, light brush brake (10-20%), trust the compression.",
+    "Commit to throttle BEFORE the crest, not after.",
+    "Target: Sub-56s consistent pace (best is 56.278s, optimal is 56.149s).",
+    "T7 Exit polish - still leaving 0.27s on average."
   ],
-  "guidebook_updates": [
-    {
-      "date": "2025-12-28",
-      "chapter": "12-mental-game",
-      "section": "Part 5: The Reset - Recovering from Contact",
-      "trigger": "Punted in R4 (Shadow Protocol), immediately drove 5 laps with 0.26s sigma",
-      "principle": "Contact is not the end. The 'Mental Reset' allows switching from 'Victim Mode' to 'Focus Mode' immediately. Use the adrenaline from contact to sharpen focus, not aggression.",
-      "session_reference": "Week 03, Shadow Protocol R4 (Winton, Dec 28, 2025)"
-    },
-    {
-      "date": "2025-12-28",
-      "chapter": "13-racecraft",
-      "section": "Part 6: Vision in Traffic - The X-Ray Gaze",
-      "trigger": "Shadow Protocol feedback: 'Looking through the cars in front... focused on the track... cars were in outskirts of vision'",
-      "principle": "Do not stare at the gearbox ahead. Look THROUGH the car to the track. Keep hands light. This reduces the 'fight' response and enables 'flow' even in heavy traffic.",
-      "session_reference": "Week 03, Shadow Protocol (Winton, Dec 28, 2025)"
-    },
-    {
-      "date": "2025-12-28",
-      "chapter": "13-racecraft",
-      "section": "Part 7: The Negative Split Strategy",
-      "trigger": "P11 -> P1 Victory. Slow L1-3, PB L7.",
-      "principle": "Sacrificing early pace (L1-3) buys late-race dominance. Cool tires/heads early = Grip/Flow late. 'The Tortoise laps the Hare'.",
-      "session_reference": "Week 03, Victory Session (Winton, Dec 28, 2025)"
-    },
-    {
-      "date": "2025-12-29",
-      "chapter": "12-mental-game",
-      "section": "Part 8: The Fatigue Signature",
-      "trigger": "Tired session. S1 (technical) messy, S3 (flow) perfect.",
-      "principle": "Fatigue attacks Precision (technical corners) first. Flow (muscle memory) lasts longer. If tired, back off the complex sections to survive.",
-      "session_reference": "Week 03, Fatigue Check (Winton, Dec 29, 2025)"
-    },
-    {
-      "date": "2025-12-30",
-      "chapter": "13-racecraft",
-      "section": "Part 9: Meebewegen (Strategic Flow)",
-      "trigger": "Top Split P3. 'Cozy' race. Elite consistency (0.36s).",
-      "principle": "In high-stress fields, 'going with the flow' beats aggression. Matching the pack's rhythm (Meebewegen) reduces cognitive load and increases consistency, often leading to faster race times.",
-      "session_reference": "Week 03, Race 1 (Winton, Dec 30, 2025)"
-    }
-  ]
+  "guidebook_updates": []
 }

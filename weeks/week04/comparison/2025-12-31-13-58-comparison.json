@@ -1,0 +1,75 @@
+{
+  "comparison_date": "2025-12-31",
+  "current_lap": {
+    "driver": "Master Lonn",
+    "time": "56.278s",
+    "file": "2025-12-31-13-58-Lime-Rock-Practice-Limit-Finding-Telemetry-56.278.csv"
+  },
+  "reference_lap": {
+    "driver": "Shuning Gong",
+    "time": "55.697s",
+    "file": "Garage 61 - Shuning Gong - Ray FF1600 - Lime Rock Park (Grand Prix) - 00.55.697.csv"
+  },
+  "gap": 0.581,
+  "speed": {
+    "current_top": 56.32,
+    "reference_top": 58.42,
+    "top_diff": -2.10,
+    "current_avg": 43.11,
+    "reference_avg": 43.63,
+    "avg_diff": -0.52,
+    "max_gain_kmh": 9.22,
+    "max_gain_location": "17.1%",
+    "max_loss_kmh": -10.58,
+    "max_loss_location": "25.3%"
+  },
+  "braking": {
+    "current_max_pressure": 0.84,
+    "reference_max_pressure": 0.92,
+    "current_braking_pct": 12.5,
+    "reference_braking_pct": 12.9,
+    "current_brake_zones": 3,
+    "reference_brake_zones": 8
+  },
+  "throttle": {
+    "current_full_throttle_pct": 70.0,
+    "reference_full_throttle_pct": 72.1,
+    "diff": -2.1
+  },
+  "cornering": {
+    "current_max_lat_g": 2.26,
+    "reference_max_lat_g": 3.16,
+    "lat_g_diff": -0.90,
+    "current_avg_lat_g": 0.76,
+    "reference_avg_lat_g": 0.81
+  },
+  "overdriving": {
+    "current_steering_efficiency": 7.97,
+    "reference_steering_efficiency": 9.96,
+    "efficiency_diff": -1.99,
+    "overdriving_pct_of_lap": 16.9,
+    "better_technique_pct": 21.4
+  },
+  "distance_breakdown": {
+    "0%_start_finish": { "speed_diff": -1.79, "note": "T7 exit speed deficit" },
+    "10%_big_bend_mid": { "speed_diff": 0.03, "note": "Matching reference" },
+    "20%_big_bend_exit": { "speed_diff": 0.02, "note": "Matching reference" },
+    "30%_esses_entry": { "speed_diff": 0.80, "note": "FASTER than ref!" },
+    "40%_esses_exit": { "speed_diff": -0.15, "note": "Slight loss" },
+    "50%_uphill_entry": { "speed_diff": 0.47, "note": "FASTER than ref!" },
+    "60%_uphill_exit": { "speed_diff": -0.90, "note": "Slower - exit issue" },
+    "70%_west_bend": { "speed_diff": -0.34, "note": "Slightly slower" },
+    "80%_diving_turn_entry": { "speed_diff": -0.40, "note": "Slower" },
+    "90%_diving_turn_exit": { "speed_diff": -0.95, "note": "KEY LOSS ZONE" },
+    "100%_main_straight": { "speed_diff": -1.63, "note": "Carried from T7 exit" }
+  },
+  "key_insights": [
+    "T7 (Diving Turn) exit is costing 0.95 km/h at exit → 1.63 km/h by Start/Finish",
+    "72.2% of lap is slower, 27.8% is faster",
+    "Overdriving 16.9% of lap (more steering, less grip = sliding)",
+    "Steering efficiency 20% lower than reference",
+    "Max lateral G only 2.26g vs 3.16g (0.9g less cornering grip used)",
+    "Full throttle 70% vs 72.1% - need to commit earlier"
+  ]
+}
+

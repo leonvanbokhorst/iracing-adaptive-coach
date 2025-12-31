@@ -28,6 +28,8 @@ This is not a power car. It's a momentum apprenticeship on four wheels.
 
 [![On track with a Formula Ford 1600 | How to Drive – Episode 5](https://img.youtube.com/vi/sNudREeVTws/0.jpg)](https://www.youtube.com/watch?v=sNudREeVTws&t=35s)
 
+[![Ray FF1600 - Driving a Ray FF1600 - Antispeed](https://img.youtube.com/vi/-Y7zPwbvXow/0.jpg)](https://www.youtube.com/watch?v=-Y7zPwbvXow)
+
 ---
 
 ## Technical Specifications (iRacing)
