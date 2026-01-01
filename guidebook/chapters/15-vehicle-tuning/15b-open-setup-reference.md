@@ -11,6 +11,7 @@
 If you're racing Ray FF1600 FIXED SETUP, this content mostly doesn't apply. Read [Fixed Setup Guide](15a-fixed-setup-guide.md) instead.
 
 **When to read this:**
+
 - Racing open setup series (non-fixed)
 - Different car with adjustable setup
 - Season 2+ when exploring other series
@@ -18,6 +19,10 @@ If you're racing Ray FF1600 FIXED SETUP, this content mostly doesn't apply. Read
 **For now:** Bookmark this. Come back when needed.
 
 ---
+
+## FF1600 Open Setup Guide
+
+[![FF1600 Open Setup Guide](https://img.youtube.com/vi/YP_Zb38JvOY/0.jpg)](https://www.youtube.com/watch?v=YP_Zb38JvOY) by Edward Buchanan
 
 ## Part 1: Understanding Balance
 
@@ -33,16 +38,19 @@ Front slides    Perfect    Rear slides
 ### Understeer (Push)
 
 **What it feels like:**
+
 - Turn steering wheel, car doesn't turn enough
 - "Plowing" wide
 - Front tires sliding
 
 **When it happens:**
+
 - Corner entry (braking while turning)
 - Mid-corner (too much speed)
 - Corner exit (early throttle, front-heavy car)
 
 **Data signature:**
+
 - Steering angle increases, lateral G plateaus
 - Car running wide of intended line
 - More steering input needed
@@ -52,16 +60,19 @@ Front slides    Perfect    Rear slides
 ### Oversteer (Loose)
 
 **What it feels like:**
+
 - Turn steering wheel, rear comes around
 - "Tail happy"
 - Rear tires sliding
 
 **When it happens:**
+
 - Corner entry (weight shifts forward, rear light)
 - Mid-corner (sudden inputs)
 - Corner exit (too much throttle, wheelspin)
 
 **Data signature:**
+
 - Steering corrections (wiggling)
 - Yaw (rotation) exceeds intended
 - Need counter-steering
@@ -71,6 +82,7 @@ Front slides    Perfect    Rear slides
 ### Neutral Balance (The Goal)
 
 **What it feels like:**
+
 - Car responds to steering inputs
 - Predictable, confidence-inspiring
 - Can place car exactly where you want
@@ -86,12 +98,14 @@ Perfect neutral is rare. You'll always have slight understeer or oversteer. Goal
 Control body roll in corners.
 
 **Stiffer ARB:**
+
 - Less body roll
 - More responsive
 - Less mechanical grip
 - More load transfer
 
 **Softer ARB:**
+
 - More body roll
 - Less responsive
 - More mechanical grip
@@ -102,11 +116,13 @@ Control body roll in corners.
 ### Front ARB Adjustments
 
 **Stiffer Front ARB:**
+
 - Reduces front grip
 - Increases understeer
 - More responsive turn-in
 
 **Softer Front ARB:**
+
 - Increases front grip
 - Reduces understeer
 - Slower turn-in response
@@ -116,11 +132,13 @@ Control body roll in corners.
 ### Rear ARB Adjustments
 
 **Stiffer Rear ARB:**
+
 - Reduces rear grip
 - Increases oversteer
 - Car rotates more
 
 **Softer Rear ARB:**
+
 - Increases rear grip
 - Reduces oversteer
 - More stable
@@ -150,6 +168,7 @@ Front Soft + Rear Stiff = Oversteer
 ## Part 3: Tire Pressures
 
 **What they affect:**
+
 - Grip level
 - Tire temperature
 - Wear rate
@@ -163,6 +182,7 @@ Typically 140-200 kPa (20-30 psi)
 ### Higher Pressure
 
 **Effects:**
+
 - Less contact patch
 - Lower grip
 - Less tire temp
@@ -174,6 +194,7 @@ Typically 140-200 kPa (20-30 psi)
 ### Lower Pressure
 
 **Effects:**
+
 - More contact patch
 - More grip
 - Higher tire temp
@@ -206,18 +227,21 @@ Typically 140-200 kPa (20-30 psi)
 ### The Decision Tree
 
 **Step 1: Where is the Problem?**
+
 - Corner entry? (braking zone)
 - Mid-corner? (apex area)
 - Corner exit? (acceleration zone)
 - Specific corner type? (fast/slow)
 
 **Step 2: What is the Characteristic?**
+
 - Understeer (pushing wide)
 - Oversteer (loose, sliding)
 - Instability (unpredictable)
 - Lack of response (car feels dead)
 
 **Step 3: Is it Front or Rear?**
+
 - Front sliding = front grip issue
 - Rear sliding = rear grip issue
 - Both sliding = overall grip issue OR too much speed
@@ -308,11 +332,13 @@ Options:
 **Before ANY changes:**
 
 1. **Drive 5-10 laps**
+
    - Consistent pace
    - No pushing limits
    - Get feel for car
 
 2. **Record data:**
+
    - Best lap time
    - Average lap time (5 fastest laps)
    - Consistency (σ)
@@ -341,6 +367,7 @@ Understeer in slow corners → Soften front ARB by 1 click
 **Step 2: Test (5-10 laps)**
 
 Same process as baseline:
+
 - Consistent pace
 - Same conditions (tire temp, track temp)
 - Focus on problem area
@@ -350,14 +377,17 @@ Same process as baseline:
 **Step 3: Compare**
 
 **Lap times:**
+
 - Faster, slower, or same?
 
 **Feel:**
+
 - Did problem improve?
 - Did something else get worse?
 - More confidence?
 
 **Data:**
+
 - Telemetry shows difference?
 - More/less sliding?
 - Better/worse balance?
@@ -367,16 +397,19 @@ Same process as baseline:
 **Step 4: Decide**
 
 **If improvement:**
+
 - Keep the change
 - Can you go further? (another click?)
 - Test again
 
 **If worse:**
+
 - Revert the change
 - Try different adjustment
 - Test again
 
 **If no change:**
+
 - Try more aggressive change (2 clicks)
 - OR try different adjustment
 - Test again
@@ -388,14 +421,17 @@ Same process as baseline:
 **Check these:**
 
 **Speed traces:**
+
 - Faster through problem area?
 - Lost speed somewhere else?
 
 **Steering traces:**
+
 - Less correction needed?
 - Smoother inputs possible?
 
 **G-force traces:**
+
 - More consistent lateral G?
 - Less fighting for grip?
 
@@ -409,11 +445,13 @@ Same process as baseline:
 There's no "perfect" setup. There's "good enough" and "works for you."
 
 **Don't:**
+
 - Spend hours on 0.01s gains
 - Change setup every session
 - Copy alien setups blindly
 
 **Do:**
+
 - Find setup that feels good
 - Make car predictable
 - Focus on driving, not tweaking
@@ -433,10 +471,12 @@ One change. Test. Evaluate. Next change.
 ### Mistake 3: Ignoring Conditions
 
 **Track temperature:**
+
 - Hot track = less grip = different setup needs
 - Cold track = more grip = different setup needs
 
 **Tire condition:**
+
 - New tires = more grip
 - Worn tires = less grip
 - Setup feels different on worn tires
@@ -453,6 +493,7 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 **Goal:** Learn to establish consistent baseline
 
 **Process:**
+
 1. 10 laps, no setup changes
 2. Record: Best, average, σ
 3. Note: Where car feels best/worst
@@ -467,6 +508,7 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 **Goal:** Learn systematic testing
 
 **Process:**
+
 1. Establish baseline
 2. Make ONE change (your choice)
 3. 10 more laps
@@ -474,6 +516,7 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 5. Keep or revert?
 
 **Measure:**
+
 - Lap time difference
 - Feel difference
 - Telemetry difference
@@ -487,12 +530,14 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 **Goal:** Match symptom to solution
 
 **Setup:**
+
 - Identify one specific problem
 - Use decision tree to choose fix
 - Test the fix
 - Did it work?
 
 **Example:**
+
 - Problem: "Understeer in slow corners on entry"
 - Diagnosis: Need more front grip
 - Fix: Soften front ARB 1 click
@@ -523,6 +568,7 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 ## When to Use This
 
 **Start with open setup when:**
+
 - Racing open setup series
 - Technique is already solid (< 0.3s σ)
 - Know track well
@@ -530,6 +576,7 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 - Can isolate setup changes from technique improvement
 
 **For Ray FF1600 fixed setup:**
+
 - Ignore most of this chapter
 - Read [Fixed Setup Guide](15a-fixed-setup-guide.md) instead
 - Focus on DRIVING
@@ -541,6 +588,7 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 ---
 
 **Related Chapters:**
+
 - [Chapter 5: Weight Transfer](../05-weight-transfer/README.md) - How ARBs affect weight transfer
 - [Chapter 11: Advanced Telemetry](../11-advanced-telemetry.md) - Validating setup changes
 - [Chapter 7: Racing Lines](../07-racing-lines.md) - Line vs. setup trade-offs
@@ -550,9 +598,3 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 _"Setup makes the car disappear. You just... drive."_ 🔧🏎️
 
 **— Little Padawan** ✨
-
-
-
-
-
-
