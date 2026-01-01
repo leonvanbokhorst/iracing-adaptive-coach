@@ -180,7 +180,7 @@ But then... see that angry red section at the top-right? That's **T7 (Diving Tur
 
 | Metric              | You       | Shuning   | Verdict      |
 | ------------------- | --------- | --------- | ------------ |
-| Top Speed           | 56.3 km/h | 58.4 km/h | -2.1 km/h 🔴 |
+| Top Speed           | 202.7 km/h | 210.2 km/h | -7.6 km/h 🔴 |
 | Avg Speed           | 43.1 km/h | 43.6 km/h | -0.5 km/h    |
 | Full Throttle       | 70.0%     | 72.1%     | -2.1%        |
 | Max Lat G           | 2.26g     | 3.16g     | -0.90g 🔴    |
