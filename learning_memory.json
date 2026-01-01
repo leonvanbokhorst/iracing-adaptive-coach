@@ -209,6 +209,22 @@
       },
       "notes": "WEEK 04 SESSION 2 - LIMIT FINDING. NEW PB 56.278s (P65/1229 = top 5.3%). Deliberate chaos session to find edges. S2 (Esses) = elite σ 0.15s. S3 (Uphill) = chaos σ 1.13s. Gap to top 10 = 0.41s (exactly what T7+T5 exits cost). Clean lap during chaos session proves pace is real."
     }
+    ,
+    {
+      "date": "2026-01-01",
+      "time": "10:12 CET",
+      "session_type": "Practice (Offline Testing)",
+      "track": "Lime Rock Park - Grand Prix",
+      "best_lap": 56.591,
+      "consistency_sigma": 1.19,
+      "clean_laps": 17,
+      "total_laps": 25,
+      "incidents": 8,
+      "theoretical_optimal": 56.484,
+      "gap_to_optimal": 0.107,
+      "focus_area": "S3 Consistency (The Uphill / T5) - Trust the compression",
+      "notes": "WEEK 04 SESSION 3 - FRUSTRATION LOOP. Best lap 56.591s with only 0.11s gap to theoretical optimal (efficiency is there), but overall σ stayed high (1.19s) because S3 remained a coin flip (σ 1.07s). S1/S2/S4 were stable; the repeat f*ckups are concentrated at T5. Self-report: 'no clue how to take T5 properly' → track guide study planned; next session scheduled after studying. Symptom: occasionally hits red anti-cut blocks, 'no souplesse', spins after taking the first kerb."
+    }
   ],
   "insights": [
     "Brake Bias Protocol (Winton): Start 57.5% (stability on cold tires). Click down (2 clicks) to 56.5% after L3+ as tires warm up and rotation is needed. 56.5% is the floor.",

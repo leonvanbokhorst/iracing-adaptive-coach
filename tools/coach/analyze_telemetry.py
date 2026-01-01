@@ -44,42 +44,66 @@ def analyze_telemetry_facts(csv_path):
             return 0.0
         return float(val)
 
+    # --- Unit normalization -------------------------------------------------
+    # Garage 61 exports can vary by source:
+    # - Brake/Throttle sometimes in 0-1 range, sometimes 0-100
+    # - Speed sometimes in m/s, sometimes in km/h
+    # - Accels commonly in m/s^2 (convert to g for human-friendly coaching)
+    G = 9.80665
+
+    # Normalize Brake/Throttle to percent (0-100)
+    brake_max_raw = safe_float(df['Brake'].max())
+    throttle_max_raw = safe_float(df['Throttle'].max())
+    brake_scale = 100.0 if brake_max_raw <= 1.5 else 1.0
+    throttle_scale = 100.0 if throttle_max_raw <= 1.5 else 1.0
+    df['_BrakePct'] = df['Brake'] * brake_scale
+    df['_ThrottlePct'] = df['Throttle'] * throttle_scale
+
+    # Normalize Speed to km/h
+    speed_max_raw = safe_float(df['Speed'].max())
+    # Heuristic: FF1600 top speed at Lime Rock is ~180-210 km/h.
+    # If the max is < 120, it's almost certainly m/s → convert to km/h.
+    speed_scale = 3.6 if speed_max_raw < 120 else 1.0
+    df['_SpeedKmh'] = df['Speed'] * speed_scale
+
+    # Normalize accels to g (assuming m/s^2 if values look plausible)
+    df['_LatG'] = df['LatAccel'] / G
+    df['_LongG'] = df['LongAccel'] / G
+
     # 1. Speed Analysis
-    top_speed = safe_float(df['Speed'].max())
+    top_speed_kmh = safe_float(df['_SpeedKmh'].max())
     # Find local minima for corner speeds (simple approach: speed < threshold and is local min)
     # Using a rolling window to smooth noise could be good, but keeping it simple for now
     
     # 2. Braking Analysis
-    braking_zones = df[df['Brake'] > 5] # Brake pressure > 5%
-    max_brake_pressure = safe_float(braking_zones['Brake'].max()) if not braking_zones.empty else 0.0
-    avg_brake_pressure = safe_float(braking_zones['Brake'].mean()) if not braking_zones.empty else 0.0
+    braking_zones = df[df['_BrakePct'] > 5] # Brake pressure > 5%
+    max_brake_pressure = safe_float(braking_zones['_BrakePct'].max()) if not braking_zones.empty else 0.0
+    avg_brake_pressure = safe_float(braking_zones['_BrakePct'].mean()) if not braking_zones.empty else 0.0
     
-    # Max Deceleration (LongAccel is usually negative for braking)
-    # Some sims use positive for braking, but typically it's negative Gs.
-    # We'll take the minimum value (most negative)
-    max_braking_g = safe_float(df['LongAccel'].min())
+    # Max Deceleration (negative LongAccel typically indicates braking)
+    max_braking_g = safe_float(df['_LongG'].min())
     
     # 3. Throttle Analysis
-    throttle_zones = df[df['Throttle'] > 5]
-    avg_throttle = safe_float(throttle_zones['Throttle'].mean()) if not throttle_zones.empty else 0.0
+    throttle_zones = df[df['_ThrottlePct'] > 5]
+    avg_throttle = safe_float(throttle_zones['_ThrottlePct'].mean()) if not throttle_zones.empty else 0.0
     
     # 4. Cornering Gs
     # Max Lateral G (absolute value)
-    max_lat_g = safe_float(df['LatAccel'].abs().max())
-    avg_lat_g = safe_float(df['LatAccel'].abs().mean())
+    max_lat_g = safe_float(df['_LatG'].abs().max())
+    avg_lat_g = safe_float(df['_LatG'].abs().mean())
     
     facts = {
         "speed": {
-            "top_speed": round(top_speed, 2),
+            "top_speed_kmh": round(top_speed_kmh, 1),
             # "min_speeds": [] # TODO: Add sophisticated corner detection later
         },
         "braking": {
-            "max_pressure": round(max_brake_pressure, 2),
-            "avg_pressure_in_zones": round(avg_brake_pressure, 2),
+            "max_pressure_pct": round(max_brake_pressure, 1),
+            "avg_pressure_pct_in_zones": round(avg_brake_pressure, 1),
             "max_long_g": round(max_braking_g, 2)
         },
         "throttle": {
-            "avg_application": round(avg_throttle, 2)
+            "avg_application_pct": round(avg_throttle, 1)
         },
         "cornering": {
             "max_lat_g": round(max_lat_g, 2),
@@ -88,6 +112,11 @@ def analyze_telemetry_facts(csv_path):
         "stats": {
             "total_samples": len(df),
             "duration_s": round(len(df) / 60.0, 2) # Approximation if Hz is 60, need time col for accuracy
+        },
+        "units": {
+            "speed": "km/h",
+            "brake_throttle": "percent",
+            "accel": "g"
         }
     }
     
