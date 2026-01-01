@@ -225,6 +225,22 @@
       "focus_area": "S3 Consistency (The Uphill / T5) - Trust the compression",
       "notes": "WEEK 04 SESSION 3 - FRUSTRATION LOOP. Best lap 56.591s with only 0.11s gap to theoretical optimal (efficiency is there), but overall σ stayed high (1.19s) because S3 remained a coin flip (σ 1.07s). S1/S2/S4 were stable; the repeat f*ckups are concentrated at T5. Self-report: 'no clue how to take T5 properly' → track guide study planned; next session scheduled after studying. Symptom: occasionally hits red anti-cut blocks, 'no souplesse', spins after taking the first kerb."
     }
+    ,
+    {
+      "date": "2026-01-01",
+      "time": "11:34 CET",
+      "session_type": "Practice (Offline Testing)",
+      "track": "Lime Rock Park - Grand Prix",
+      "best_lap": 56.480,
+      "consistency_sigma": 0.69,
+      "clean_laps": 26,
+      "total_laps": 31,
+      "incidents": 5,
+      "theoretical_optimal": 56.265,
+      "gap_to_optimal": 0.215,
+      "focus_area": "S3 Consistency (The Uphill / T5) - Throttle ramp over kerb",
+      "notes": "WEEK 04 SESSION 4 - PRACTICE RUN 2. Less spinning than morning confirmed by data: overall σ dropped to 0.69s and S3 σ dropped to 0.42s (near goal <0.40s). Best lap improved to 56.480s. T5 still the main leak (~0.37s avg loss in S3), but mistakes are more survivable (more clean reps). Garage61: 01KDWHYY71TG1TMH8N972SJ2CD."
+    }
   ],
   "insights": [
     "Brake Bias Protocol (Winton): Start 57.5% (stability on cold tires). Click down (2 clicks) to 56.5% after L3+ as tires warm up and rotation is needed. 56.5% is the floor.",
@@ -251,5 +267,40 @@
     "Target: Sub-56s consistent pace (best is 56.278s, optimal is 56.149s).",
     "T7 Exit polish - still leaving 0.27s on average."
   ],
-  "guidebook_updates": []
+  "guidebook_updates": [
+    {
+      "date": "2026-01-01",
+      "source": "Week 04 Lime Rock Park GP - T5 (The Uphill) consistency work",
+      "title": "Kerb = maintenance, crest = commit (throttle ramp over kerb/crest)",
+      "chapter_candidates": [
+        "guidebook/chapters/05-weight-transfer/",
+        "guidebook/chapters/09-rotation-and-balance.md",
+        "tracks/track-lime-rock-park-grand-prix.md"
+      ],
+      "summary": "When the car is unsettled/unloading over a kerb/crest, full throttle while still steering is a snap-oversteer trigger. Use maintenance throttle (10–30%) over the kerb, then ramp (20→40→70→100) only as steering unwinds. Avoid red anti-cut blocks; treat them as invalid reps.",
+      "evidence": "Driver report: spins after first kerb when back on throttle + occasional red block hits. Data: S3 σ improved from 1.075s (10:12 CET) to 0.416s (11:34 CET) after focusing on survivable sequencing."
+    },
+    {
+      "date": "2026-01-01",
+      "source": "Week 04 Lime Rock Park GP - coaching cue",
+      "title": "Hands quiet → foot loud (sequencing cue for ADHD-proof execution)",
+      "chapter_candidates": [
+        "guidebook/chapters/12-mental-game.md",
+        "guidebook/chapters/09-rotation-and-balance.md"
+      ],
+      "summary": "Simple cue to prevent throttle-oversteer: if hands aren’t calm yet, throttle is not allowed to be brave. Build power as steering unwinds; no stab/lift/stab.",
+      "evidence": "Observed failure mode: snap on throttle at T5 after first kerb. Cue aligns with measurable S3 σ drop when driving became more repeatable."
+    },
+    {
+      "date": "2026-01-01",
+      "source": "Week 04 Lime Rock Park GP - comparison chasing (Gong 1st gear)",
+      "title": "Gear choice is a multiplier, not a fix (don’t copy aliens before sequencing is stable)",
+      "chapter_candidates": [
+        "guidebook/chapters/06-gears-and-shifting.md",
+        "guidebook/chapters/11-advanced-telemetry.md"
+      ],
+      "summary": "Downshifting to 1st at T5 can work for experts, but it amplifies rear instability if sequencing is sloppy. Rule: earn fancy gears after you can repeat the corner cleanly (no reds, no spins) in the stable gear.",
+      "evidence": "Driver observed Gong using 1st at T5 while driver snaps on throttle over kerb; switching to 1st would likely increase snap risk until throttle/steer timing is controlled."
+    }
+  ]
 }

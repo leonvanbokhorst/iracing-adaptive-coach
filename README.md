@@ -12,11 +12,11 @@
 | :------------------ | :---------------------------------------------- | :---------------------------------------------- | :------------------------------------------- | :---------------------------------------------- |
 | **Best Lap**        | 50.768s                                         | 1:28.508                                        | 1:25.710                                     | **56.278s**                                     |
 | **PB Improvement**  | -0.67s                                          | -1.78s                                          | -1.125s                                      | **-0.141s**                                     |
-| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | **1.45s** (limit-finding)                       |
+| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | **0.689s** (latest)                             |
 | **Victories**       | 1                                               | 0                                               | 2 (1 Official)                               | -                                               |
 | **iRating**         | 1396                                            | 1455                                            | 1601                                         | **1601**                                        |
 | **Leaderboard**     | -                                               | -                                               | -                                            | **P65/1229 (Top 5.3%)**                         |
-| **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | **Hunting**                                     |
+| **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | **T5 rehab**                                    |
 
 📊 **Latest Standings**: [Week 03 Report](./weeks/week03/standings-report.md) - P123/17,427 (Top 0.7%) | 1601 iR | 2 Wins | 🇳🇱 3rd Dutch
 
@@ -40,7 +40,11 @@ The telemetry told the real story. Master Lonn wasn't slow everywhere—he was a
 
 Two corners. T5 and T7. The Uphill crest and the Diving Turn. Both the same problem: hesitating on throttle when the car wanted to fly. 0.50 seconds lived in those two exits. The gap to the top 10? 0.41 seconds.
 
-The math added up. The target was clear.
+Then the calendar flipped. Same track. Same car. New year. Same villain.
+
+Run 1 of 2026 was pure frustration: the lap was *there*, but **T5 (The Uphill)** kept turning into snap-oversteer roulette when throttle came in too hard over the first kerb (or the red anti-cut blocks got involved). It looked like “no consistency”, but it was really “one corner ruining your day.”
+
+Run 2 was the payoff: fewer spins, more clean reps, and — best part — the numbers finally agreed with your feeling. Overall σ came down, and S3 (T5) stopped being a coin flip. Not solved yet, but no longer hopeless.
 
 2025 ended not with doubt, but with a plan. The pace was proven. The edges were mapped. The path to the top 10 was two corners wide.
 
@@ -126,7 +130,7 @@ You can be a hero into a corner and still lose time. The exit determines the str
 
 **Week 04 Continues**: Lime Rock Park  
 **Target**: Sub-56s consistent pace, crack top 50 leaderboard  
-**Focus**: T5 exit (crest commitment), T7 exit (early throttle)  
+**Focus**: T5 exit (throttle ramp over kerb/crest), T7 exit (early throttle)  
 **The Math**: 0.41s to top 10. Two corners. One mission.
 
 ---

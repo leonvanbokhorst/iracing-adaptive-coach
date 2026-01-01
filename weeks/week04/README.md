@@ -2,55 +2,58 @@
 
 **Track**: [Lime Rock Park - Grand Prix](../../tracks/track-lime-rock-park-grand-prix.md)  
 **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
-**Dates**: Dec 30, 2025 → Dec 31, 2025 (Pre-Season Practice)  
-**Status**: In Progress - Farewell 2025 🎆
+**Dates**: Dec 30, 2025 → Jan 1, 2026  
+**Status**: In Progress - T5 rehab (The Uphill)
 
 ---
 
 ## The Story
 
-**"The Last Laps of 2025"**
+**"The Last Laps of 2025. The First Problem of 2026."**
 
-The year ends not with a whimper, but with a wall—seventeen of them, actually. Master Lonn arrived at Lime Rock Park, "The Bullring," with a mission: find the limits. And find them he did. The incidents weren't failures; they were discoveries. Each spin, each off-track, each moment of chaos mapped another edge of the possible.
+Week 04 started with a classic Lime Rock greeting: short straights, no time to breathe, and the walls waiting to take notes. The limit-finding session delivered a clean PB (**00:56.278**) and a rude little truth: you're already in the **top 5.3%** of the field when you keep it together.
 
-Buried in the carnage was a lap that told a different story. **56.278s**. A clean lap. A personal best. And when the dust settled and the leaderboard loaded: **65th out of 1,229 drivers**. Top 5.3% of the entire field. On a chaos day. During a limit-finding session.
+Then 2026 showed up and immediately chose violence. Not from the whole track — from one corner: **T5 (The Uphill)**. The pattern was consistent even when you weren’t: T5 would hand you a near-perfect lap one run, then yank the rear around the next when the throttle came in too hard over the first kerb (or you flirted with the red anti-cut blocks).
 
-The data revealed a beautiful paradox: Master Lonn is already FASTER than the alien in the scary sections—the Uphill entry, the Esses. The bravery is there. What's missing? Commitment on the exits. Two corners—T5 and T7—hold the key to the top 10. Fix those exits, and sub-56 isn't a dream; it's a Tuesday.
-
-2025 ends with a PB, a plan, and proof that the pace is real. 2026 begins with a target: 0.41s to the top 10.
+The good news: Practice Run 2 proved the fix is real. **Overall σ dropped to 0.689s**, and **S3 σ (T5)** fell to **0.416s** — basically on the target. The mission is now boring and simple: keep turning T5 into a repeatable “hands quiet → foot loud” corner, and the sub-56 week PB stops being a one-off.
 
 ---
 
 ## The Numbers
 
-| Metric              | Session 1 | Session 2     | Change      | Notes                      |
-| :------------------ | :-------- | :------------ | :---------- | :------------------------- |
-| **Best Lap**        | 56.419s   | **56.278s** ⭐ | **-0.141s** | NEW PB! Top 5.3%           |
-| **Consistency (σ)** | Baseline  | 1.45s         | -           | Expected (limit-finding)   |
-| **Gap to Alien**    | 0.722s    | **0.581s**    | **-0.141s** | Shuning Gong (55.697s)     |
-| **Gap to Top 10**   | -         | **0.412s**    | -           | Hugo Gómez (55.866s)       |
-| **Leaderboard**     | -         | **P65/1229**  | -           | Top 5.3% of field          |
+| Metric                 | Start (Dec 30) | Latest (Jan 1) | Change     | Notes                                             |
+| :--------------------- | :------------- | :------------- | :--------- | :------------------------------------------------ |
+| **Best Lap (session)** | 56.419s        | 56.480s        | +0.061s    | Latest session wasn’t the PB run                  |
+| **Week PB**            | -              | **56.278s** ⭐  | -          | Achieved during limit-finding (P65/1229, Top 5.3%)|
+| **Consistency (σ)**    | -              | **0.689s**     | -          | Big improvement vs morning run (1.19s → 0.689s)   |
+| **S3 σ (T5)**          | -              | **0.416s**     | -          | Near target (<0.40s); huge from 1.075s earlier    |
+| **Gap to Alien**       | 0.722s         | 0.581s         | -0.141s    | Shuning Gong (55.697s)                            |
+| **Gap to Top 10**      | -              | 0.412s         | -          | Hugo Gómez (55.866s)                              |
 
 **Week Stats:**
 
-- **Sessions**: 2 (Baseline + Limit-Finding)
-- **Total Laps**: 63 (26 + 37)
-- **Incidents**: 29 (12 + 17) - Aggressive exploration
-- **Breakthrough**: S2 consistency (σ = 0.15s = robot-mode)
-- **Discovery**: Gap to top 10 lives in exactly two corners (T5 exit, T7 exit)
+- **Sessions**: 4 (Baseline + Limit-Finding + Run 1 + Run 2)
+- **Total Laps**: 119 (26 + 37 + 25 + 31)
+- **Incidents**: 42 (12 + 17 + 8 + 5)
+- **Breakthrough**: T5 stopped being pure chaos (S3 σ 1.075s → 0.416s)
+- **Discovery**: “Kerb = maintenance, crest = commit” is the T5 anti-spin key
 
 ---
 
 ## Session Log
 
-| Date       | Session ID       | Type          | Best Lap       | σ     | Key Takeaway                                |
-| :--------- | :--------------- | :------------ | :------------- | :---- | :------------------------------------------ |
-| Dec 30     | -                | Practice      | 56.419s        | -     | Baseline. "Tale of Two Halves" revealed.    |
-| Dec 31     | 2025-12-31-13-58 | Limit-Finding | **56.278s** ⭐ | 1.45s | NEW PB! P65/1229. Exit speed is the answer. |
+| Date       | Session ID       | Type          | Best Lap       | σ      | Key Takeaway                                           |
+| :--------- | :--------------- | :------------ | :------------- | :----- | :----------------------------------------------------- |
+| Dec 30     | 2025-12-30       | Baseline      | 56.419s        | -      | First look at alien delta: exits (T5/T7) are the tax.   |
+| Dec 31     | 2025-12-31-13-58 | Limit-Finding | **56.278s** ⭐  | 1.45s  | PB + proof: top 5.3% pace exists when clean.            |
+| Jan 1      | 2026-01-01-10-12 | Run 1         | 56.591s        | 1.19s  | Frustration loop: T5 kerb + throttle snap.             |
+| Jan 1      | 2026-01-01-11-34 | Run 2         | 56.480s        | 0.689s | Real progress: S3 σ almost hits target (0.416s).        |
 
 **Session Files:**
 - [2025-12-30 Baseline](2025-12-30-Lime-Rock-Baseline.md)
 - [2025-12-31 Limit-Finding](2025-12-31-13-58-Lime-Rock-Practice-Limit-Finding.md)
+- [2026-01-01 10:12 Offline Testing](2026-01-01-10-12-Lime-Rock-Offline-Testing.md)
+- [2026-01-01 11:34 Offline Testing](2026-01-01-11-34-Lime-Rock-Offline-Testing.md)
 
 ---
 
@@ -65,8 +68,8 @@ The data revealed a beautiful paradox: Master Lonn is already FASTER than the al
 
 ## Challenges 🚧
 
-- **S3 Chaos Zone**: The Uphill has 1.13s σ (vs 0.15-0.25s elsewhere). Same corner, 4-7x more variance.
-- **Crest Commitment**: Fast IN to T5, slow OUT. The lift over the crest is costing 0.15s.
+- **T5 sequencing**: Throttle-on over the first kerb while still steering = snap risk. Needs repeatable throttle ramp.
+- **Crest Commitment**: Fast IN to T5, hesitant OUT when the car gets light.
 - **T7 Exit Speed**: Late throttle at the Diving Turn bleeds 0.35s down the main straight.
 - **Overdriving**: 16.9% of lap spent sliding (more steering, less grip).
 
@@ -90,11 +93,11 @@ The data revealed a beautiful paradox: Master Lonn is already FASTER than the al
 
 ## The Alien Comparison
 
-| Metric              | Master Lonn | Shuning Gong | Gap    |
+| Metric              | Master Lonn | Shuning Gong | Gap     |
 | :------------------ | :---------- | :----------- | :----- |
 | Lap Time            | 56.278s     | 55.697s      | 0.581s |
 | Full Throttle %     | 70.0%       | 72.1%        | -2.1%  |
-| Top Speed           | 56.3 km/h   | 58.4 km/h    | -2.1   |
+| Top Speed           | 202.7 km/h  | 210.2 km/h   | -7.6   |
 | Steering Efficiency | 7.97        | 9.96         | -20%   |
 
 **Where You're Faster**: Big Bend, Esses entry, Uphill entry ✅  
@@ -105,7 +108,7 @@ The data revealed a beautiful paradox: Master Lonn is already FASTER than the al
 ## Next Steps (2026)
 
 **Immediate**:
-- [ ] S3 σ under 0.4s (currently 1.13s)
+- [ ] S3 σ under 0.4s (currently 0.416s — basically there)
 - [ ] Sub-56s lap time (0.28s away)
 - [ ] Crack top 50 on leaderboard
 
@@ -122,7 +125,7 @@ The year ends with Master Lonn in the **top 5% of the field** at a track he's kn
 
 2025 taught us: **Speed comes from understanding, not forcing. Consistency comes from trust, not trying harder. Victory comes from patience, not heroics.**
 
-2026 begins with a simple mission: Fix two exits. Claim the top 10.
+2026 begins with a simple mission: Fix two exits — and make T5 boring. Claim the top 10.
 
 ---
 
