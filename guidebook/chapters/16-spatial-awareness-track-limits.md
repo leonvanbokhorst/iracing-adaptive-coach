@@ -70,6 +70,7 @@ Now multiply that by **7 corners** at Lime Rock. That's **0.35 s per lap** you'r
 **Time**: 20 minutes total
 
 **Quick Summary**:
+
 - 3 laps baseline (screenshot exits)
 - 9 laps slow edge-finding at 70% pace (3 laps per corner: T1, T5, T7)
 - 6 laps ramping up (80% → 90% → race pace)
