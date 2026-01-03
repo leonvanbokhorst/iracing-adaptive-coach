@@ -269,6 +269,14 @@
   ],
   "guidebook_updates": [
     {
+      "date": "2026-01-03",
+      "source": "Week 04 Lime Rock Park GP - driver self-diagnosis of edge usage",
+      "title": "Chapter 16: Spatial Awareness & Track Limits (COMPLETED)",
+      "chapter_created": "guidebook/chapters/16-spatial-awareness-track-limits.md",
+      "summary": "Driver observed VRS coach using ~30 cm more track width on entry + exit vs own lines. Created full chapter codifying the 'Edge Mapping Drill' (3-phase: exit edges, entry edges, comparison). Principle: aliens aren't braver—they just have confident spatial maps of where the track edges are. Drill builds that map through deliberate, repeatable edge-touching at slow pace, then validates at race pace. Addresses 'fear tax' buffer and connects to exit speed + consistency improvements.",
+      "evidence": "Driver statement: 'I seem to leave at least 30cm room compared to my VRS coach... I don't think I really know where the edge is when I'm in the car. Too cautious.' Connected to T5 exit consistency problem (not just throttle, but also not letting car run to full width)."
+    },
+    {
       "date": "2026-01-01",
       "source": "Week 04 Lime Rock Park GP - T5 (The Uphill) consistency work",
       "title": "Kerb = maintenance, crest = commit (throttle ramp over kerb/crest)",

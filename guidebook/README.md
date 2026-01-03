@@ -36,6 +36,7 @@ May the G-Force be with you.
 - **Chapter 13: Racecraft: From Hot Laps to Wheel-to-Wheel** - [Chapter](chapters/13-racecraft/README.md) ✨ NEW
 - **Chapter 14: The Long Game: Tire Management and Fuel Strategy** - [Chapter](chapters/14-tire-management.md) ✨ NEW
 - **Chapter 15: Vehicle Tuning** - [Chapter](chapters/15-vehicle-tuning/README.md) ✨ NEW
+- **Chapter 16: Spatial Awareness & Track Limits** - [Chapter](chapters/16-spatial-awareness-track-limits.md) ✨ NEW
 
 ### Appendices
 
