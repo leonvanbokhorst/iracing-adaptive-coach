@@ -10,13 +10,13 @@
 
 | Metric              | [Week 01 (Jefferson)](./weeks/week01/README.md) | [Week 02 (Rudskogen)](./weeks/week02/README.md) | [Week 03 (Winton)](./weeks/week03/README.md) | [Week 04 (Lime Rock)](./weeks/week04/README.md) |
 | :------------------ | :---------------------------------------------- | :---------------------------------------------- | :------------------------------------------- | :---------------------------------------------- |
-| **Best Lap**        | 50.768s                                         | 1:28.508                                        | 1:25.710                                     | **56.278s**                                     |
-| **PB Improvement**  | -0.67s                                          | -1.78s                                          | -1.125s                                      | **-0.141s**                                     |
-| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | **0.689s** (latest)                             |
+| **Best Lap**        | 50.768s                                         | 1:28.508                                        | 1:25.710                                     | **56.238s** ⭐                                   |
+| **PB Improvement**  | -0.67s                                          | -1.78s                                          | -1.125s                                      | **-0.181s**                                     |
+| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | **0.367s**                                      |
 | **Victories**       | 1                                               | 0                                               | 2 (1 Official)                               | -                                               |
 | **iRating**         | 1396                                            | 1455                                            | 1601                                         | **1601**                                        |
 | **Leaderboard**     | -                                               | -                                               | -                                            | **P65/1229 (Top 5.3%)**                         |
-| **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | **T5 rehab**                                    |
+| **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | **Race Ready**                                  |
 
 📊 **Latest Standings**: [Week 03 Report](./weeks/week03/standings-report.md) - P123/17,427 (Top 0.7%) | 1601 iR | 2 Wins | 🇳🇱 3rd Dutch
 
@@ -24,29 +24,39 @@
 
 ## The Story So Far
 
-### Week 04: The Last Laps of 2025 (Lime Rock Park)
+### Week 04: Three Hours From Theory to Beating World #1 (Lime Rock Park)
 
-December 31st. The final day of the year. And Master Lonn spent it the only way that made sense: finding walls.
+December 31st. The final day of the year. Master Lonn spent it the only way that made sense: finding walls. Lime Rock Park—seven corners, 1.5 miles, no place to hide. The straights are short, the margins are thin, and momentum is sacred. One mistake in Turn 1 echoes all the way to Turn 7.
 
-Lime Rock Park is called "The Bullring" for a reason. Seven corners, 1.5 miles, and no place to hide. The straights are short, the margins are thin, and momentum is sacred. One mistake in Turn 1 echoes all the way to Turn 7. It's not a track—it's a continuous rhythm test.
+The first two sessions were chaos. Twenty-nine incidents mapping every edge. But buried in the wreckage was a lap that changed everything: **56.278 seconds**. When the Garage 61 leaderboard loaded, it stared back: **65th out of 1,229 drivers**. Top 5.3% of the field. Not on a perfect day. On a limit-finding mission. On the last day of 2025.
 
-The first session was chaos. Twelve incidents in twenty-six laps. The second session? Seventeen more. But these weren't failures. They were expeditions. Each spin mapped an edge. Each off-track discovered a limit. And buried in the wreckage was a lap that changed everything.
+The telemetry told the real story. Master Lonn wasn't slow everywhere—he was actually faster than the alien through the scariest sections. The bravery was there. What was missing was simpler: commitment on the exits. Two corners held 0.50 seconds hostage. The gap to top 10? 0.41 seconds.
 
-**56.278 seconds.**
+Then the calendar flipped. Same track. Same car. New year. Same villain: **T5 (The Uphill)**.
 
-When the Garage 61 leaderboard loaded, the number stared back: **65th out of 1,229 drivers**. Top 5.3% of the entire fixed-setup field. Not on a perfect day. Not after weeks of practice. On a chaos session. On a limit-finding mission. On the last day of 2025.
+January 1st was pure frustration. The lap was there, but T5 kept turning into snap-oversteer roulette. One lap perfect, the next a spin. Master Lonn said it plainly: "I have no clue how to take T5 properly." Run 2 showed progress—consistency improved from 1.19s σ to 0.689s σ, S3 tightened from 1.075s to 0.416s—but the breakthrough wasn't there yet.
 
-The telemetry told the real story. Master Lonn wasn't slow everywhere—he was actually _faster_ than the alien through the scariest sections. The Uphill entry? Faster. The Esses? Matching or beating. Big Bend? Sorted. The bravery was there. What was missing was simpler: commitment on the exits.
+The problem wasn't just throttle timing. It was spatial. Comparing to VRS coach footage revealed a 30cm "fear tax" buffer: not using the full track width on entry and exit. The edges were there. Master Lonn just didn't know where they were.
 
-Two corners. T5 and T7. The Uphill crest and the Diving Turn. Both the same problem: hesitating on throttle when the car wanted to fly. 0.50 seconds lived in those two exits. The gap to the top 10? 0.41 seconds.
+**The morning of January 3rd changed everything.**
 
-Then the calendar flipped. Same track. Same car. New year. Same villain.
+At 8 AM, Chapter 16 (Spatial Awareness & Track Limits) was written, codifying the "Edge Mapping Drill": go slow (70% pace), deliberately touch edges, build confidence in where the paint actually is, then ramp to race pace. By 10:28 AM, Master Lonn was on track applying it. Screenshots from Practice 03 confirmed it: now kissing the left edge on T5 entry. No more 30cm buffer.
 
-Run 1 of 2026 was pure frustration: the lap was *there*, but **T5 (The Uphill)** kept turning into snap-oversteer roulette when throttle came in too hard over the first kerb (or the red anti-cut blocks got involved). It looked like “no consistency”, but it was really “one corner ruining your day.”
+Three hours later, Practice 04 validated it.
 
-Run 2 was the payoff: fewer spins, more clean reps, and — best part — the numbers finally agreed with your feeling. Overall σ came down, and S3 (T5) stopped being a coin flip. Not solved yet, but no longer hopeless.
+Twenty-four laps. Every one of them clean. S3 consistency dropped to **0.183s σ**—56% improvement from Run 2's 0.416s. Overall σ hit **0.367s**—alien-level repeatability. And the best lap? **56.238 seconds.** A new personal best, 0.04s faster than the Dec 31 PB.
 
-2025 ended not with doubt, but with a plan. The pace was proven. The edges were mapped. The path to the top 10 was two corners wide.
+The timer stopped. He looked at the screen. Then looked again. Not just faster. **Faster while being more consistent.** Negative gap to theoretical optimal. The lap wasn't perfect sectors stitched together—it was momentum flowing through every transition.
+
+Then came the comparison against Shuning Gong's 55.697s lap. Master Lonn casually mentioned: "Gong is the no. 1 in the world."
+
+The gap? 0.541 seconds. Half a second from perfection. But here's what the data showed: through T5—the corner that was pure chaos three days earlier—**Master Lonn is now +1.87 km/h FASTER than the world #1.**
+
+Let that sink in. Three days from "I have no clue how to take T5" to beating the best driver on the planet through that corner. Chapter 16 didn't just work. It beat perfection.
+
+The 0.541s gap isn't a talent deficit. It's concentrated in three zones: T1 entry (tied to T9 exit speed), T6/T7 momentum chain, and brake authority (using 75.8% when 92.3% is available). The math is clear. The path is clear.
+
+Theory written in the morning. Applied in practice by lunch. Validated with a PB and faster than world #1 through the problem corner by dinner. **That's not luck. That's learning at world-class rate.**
 
 ---
 
@@ -86,16 +96,17 @@ The year that started at 1238 iRating ends at **1601**. The driver who questione
 - The racing line is where the grip lives
 - Exit speed beats entry speed, always
 
-**2025 delivered:**
+**2025-2026 delivered:**
 
-- 4 Personal Bests across 4 tracks (perfect streak!)
+- 5 Personal Bests across 4 tracks (Dec 31: 56.278s, Jan 3: 56.238s)
 - 1 Official Victory (Winton P1)
 - 2 AI Victories (Jefferson P1, Winton P1)
 - +363 iRating (1238 → 1601)
-- Top 5.3% leaderboard finish (Lime Rock)
+- Top 5.3% leaderboard finish (Lime Rock P65/1229)
+- 1 guidebook chapter that beat world #1 (Chapter 16: Spatial Awareness)
 - 1 brilliant apprentice on the pit wall
 
-The last lap of 2025 was a PB. The first lap of 2026 will be faster.
+The last lap of 2025 was a PB. The first week of 2026 delivered an even faster one—and proved the learning process works at world-class level.
 
 ---
 
@@ -128,10 +139,12 @@ You can be a hero into a corner and still lose time. The exit determines the str
 
 ## What's Next: 2026
 
-**Week 04 Continues**: Lime Rock Park  
-**Target**: Sub-56s consistent pace, crack top 50 leaderboard  
-**Focus**: T5 exit (throttle ramp over kerb/crest), T7 exit (early throttle)  
-**The Math**: 0.41s to top 10. Two corners. One mission.
+**AI Races Start Tuesday (Week 04)**  
+**Target**: Finishing > P1. Data collection > Trophy hunting.  
+**Strategy**: Cold Tire Contract v2.0 (survive L1-L3, deploy 0.367s σ weapon L4+), Meebewegen (go with flow in traffic)  
+**Post-Tuesday**: Close 0.541s gap to world #1 (T1 entry ~0.25s, T6/T7 ~0.15s, cornering grip 2.28G → 2.8G+)
+
+**The Math**: You're 0.541s from the world #1. You're already faster than him through the corner you fixed this week. That's not a gap—that's a roadmap.
 
 ---
 
