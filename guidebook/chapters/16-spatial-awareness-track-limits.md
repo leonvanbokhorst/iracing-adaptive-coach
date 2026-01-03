@@ -90,13 +90,19 @@ Now multiply that by **7 corners** at Lime Rock. That's **0.35 s per lap** you'r
 
 **Step 2: Slow Edge Finding (9 laps, 70% pace)**
 
-Pick your 3 problem corners (for Lime Rock: **T1, T5, T7 exits**).
+Pick your 3 problem corners. For Lime Rock:
+
+- **T1**: exit width problem (not letting it run to the right edge)
+- **T5**: **ENTRY setup problem** (not starting wide enough on the left before turn-in)
+- **T7**: exit width problem (not letting it run to the outside edge)
 
 Do **3 laps per corner**, focusing ONLY on that corner:
 
-- **Laps 1-3**: T1 exit — Go SLOW. Let the car drift wider on exit. Touch the white line. If you go a bit off-track, **good**—now you know where the edge is.
-- **Laps 4-6**: T5 exit — Same thing. Slow. Let it run wide. Find the edge.
-- **Laps 7-9**: T7 exit — Same thing.
+- **Laps 1-3: T1 exit** — Go SLOW. Let the car drift wider on exit. Touch the white line on the right side. If you go a bit off-track, **good**—now you know where the edge is.
+
+- **Laps 4-6: T5 ENTRY** — Go SLOW. Before you turn in, place the car **as far LEFT (outside) as possible**. Touch the left edge of the track. Then turn in from there. Don't worry about the exit yet—just nail the wide entry position.
+
+- **Laps 7-9: T7 exit** — Go SLOW. Let the car drift wider on exit. Touch the white line. Find the edge.
 
 **The only rule**: If it doesn't feel a bit scary/uncomfortably close to the edge, you're not doing it right.
 
@@ -210,6 +216,8 @@ The **highest-value edge mapping targets** at Lime Rock:
 - **T7 (Diving Turn) exit**: Gains 0.10 s (longest straight on the track)
 
 **Total potential gain**: **0.2–0.3 s per lap** just from edge usage.
+
+**Special note on T5 (The Uphill)**: The exit chaos (snap/spin) is often caused by **entry setup being too tight**. If you don't use the full track width on the LEFT side before turn-in, you're starting the corner from a tighter angle → you need more steering input → the car is more loaded → when throttle comes in over the kerb, it snaps. Fix the entry width first, and the exit often fixes itself.
 
 ---
 
