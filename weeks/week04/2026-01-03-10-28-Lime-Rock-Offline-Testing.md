@@ -101,13 +101,13 @@ Because you just spent 30 laps building a mental map of where the LEFT edge of t
 
 ## 📈 The Journey
 
-| Date       | Session ID       | Type                | Best Lap       | σ      | S3 σ   | Key Takeaway                                        |
-| :--------- | :--------------- | :------------------ | :------------- | :----- | :----- | :-------------------------------------------------- |
-| Dec 30     | 2025-12-30       | Baseline            | 56.419s        | -      | -      | First look at alien delta: exits (T5/T7) are the tax. |
-| Dec 31     | 2025-12-31-13-58 | Limit-Finding       | **56.278s** ⭐  | 1.45s  | -      | PB + proof: top 5.3% pace exists when clean.         |
-| Jan 1 AM   | 2026-01-01-10-12 | Run 1               | 56.591s        | 1.19s  | 1.075s | Frustration loop: T5 kerb + throttle snap.          |
-| Jan 1 PM   | 2026-01-01-11-34 | Run 2               | 56.480s        | 0.689s | 0.416s | Real progress: S3 σ almost hits target.              |
-| **Jan 3**  | **2026-01-03-10-28** | **Practice 03 (Drill)** | **56.497s** | **1.831s** | **1.029s** | **Chapter 16 applied: T5 entry edge mapping.**      |
+| Date      | Session ID           | Type                    | Best Lap       | σ          | S3 σ       | Key Takeaway                                          |
+| :-------- | :------------------- | :---------------------- | :------------- | :--------- | :--------- | :---------------------------------------------------- |
+| Dec 30    | 2025-12-30           | Baseline                | 56.419s        | -          | -          | First look at alien delta: exits (T5/T7) are the tax. |
+| Dec 31    | 2025-12-31-13-58     | Limit-Finding           | **56.278s** ⭐ | 1.45s      | -          | PB + proof: top 5.3% pace exists when clean.          |
+| Jan 1 AM  | 2026-01-01-10-12     | Run 1                   | 56.591s        | 1.19s      | 1.075s     | Frustration loop: T5 kerb + throttle snap.            |
+| Jan 1 PM  | 2026-01-01-11-34     | Run 2                   | 56.480s        | 0.689s     | 0.416s     | Real progress: S3 σ almost hits target.               |
+| **Jan 3** | **2026-01-03-10-28** | **Practice 03 (Drill)** | **56.497s**    | **1.831s** | **1.029s** | **Chapter 16 applied: T5 entry edge mapping.**        |
 
 ---
 
@@ -140,15 +140,16 @@ Because you just spent 30 laps building a mental map of where the LEFT edge of t
 ## 🧭 What's Next
 
 **Immediate**:
+
 - Do a **"normal" session** (not a drill) to validate: does the wider T5 entry setup actually calm down the exit snap?
 - Target: **S3 σ < 0.60s** on a race-pace session
 - Bonus: Chase the **sub-56.3s theoretical optimal** (it's already there in your sector bests)
 
 **Strategic**:
+
 - If T5 exit is STILL snapping after the entry fix → it's 100% throttle sequencing ("hands quiet → foot loud")
 - If T5 exit is calmer → we just proved Chapter 16 works, and we move to T1/T7 edge usage next
 
 ---
 
 _"The edge is farther than you think. You just found it."_ 🎯🏎️💨
-
