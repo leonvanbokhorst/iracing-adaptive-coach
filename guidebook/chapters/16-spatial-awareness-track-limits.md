@@ -69,9 +69,15 @@ Now multiply that by **7 corners** at Lime Rock. That's **0.35 s per lap** you'r
 
 **Time**: 20 minutes total
 
+**Quick Summary**:
+- 3 laps baseline (screenshot exits)
+- 9 laps slow edge-finding at 70% pace (3 laps per corner: T1, T5, T7)
+- 6 laps ramping up (80% → 90% → race pace)
+- Compare screenshots (are you closer to the edge now?)
+
 ---
 
-### The Recipe
+### The Recipe (Step-by-Step)
 
 **Step 1: Baseline (3 laps, normal pace)**
 
@@ -155,19 +161,19 @@ Once you've calibrated your spatial map, you **free up that bandwidth** for high
 
 ---
 
-## Why This Works: The Neuroscience of Spatial Learning
+## Why This Works (The Simple Version)
 
-Your brain builds spatial maps through a process called **place cell encoding**. When you drive a track, your hippocampus is literally creating a mental 3D model of the environment.
+Your brain builds a mental map of the track, but **only as accurate as your experience**.
 
-But here's the key: **this map is only as accurate as your experience**. If you've never touched the edges, your brain doesn't know where they are—it's just guessing based on visual cues (which are often distorted by speed, FOV, and VR perspective).
+If you've never touched the edges → your brain doesn't know where they are → it adds a "safety buffer."
 
-The Edge Mapping Drill works because it:
+The drill works because:
 
-1. **Provides direct feedback**: Touch the edge → brain updates the map ("Oh, the edge is HERE, not 30 cm back").
-2. **Builds confidence through repetition**: Do it 10 times → brain trusts the map ("I've been here before, it's safe").
-3. **Transfers to speed**: Once the map is confident, you can use it at racing pace without conscious thought.
+1. **Touch the edge slow** → brain updates the map ("Oh, the edge is HERE")
+2. **Repeat it** → brain trusts the map ("I've been here before, it's safe")
+3. **Use it fast** → you can now use the edge at race pace without thinking
 
-This is the same principle used in aviation ("touch-and-go" landings), motorcycle racing (track walks + edge drills), and even video game speedrunning (practice mode edge-finding).
+Same principle pilots use for landing practice: you can't learn the runway edge by staying 10 feet above it.
 
 ---
 
