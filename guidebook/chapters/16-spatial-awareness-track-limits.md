@@ -63,71 +63,56 @@ Now multiply that by **7 corners** at Lime Rock. That's **0.35 s per lap** you'r
 
 ---
 
-## The Edge Mapping Drill (3-Phase Training)
+## The Edge Mapping Drill (Simple Version)
 
-This drill is designed to **teach your brain where the edges actually are**, so it stops adding the "fear tax" buffer.
+**Goal**: Teach your brain where the edges actually are, so it stops adding the "fear tax" buffer.
 
----
-
-### Phase 1: Exit Edge Mapping (10 laps, offline testing)
-
-**Goal**: Build a mental map of where the track edges are on corner exits.
-
-**Rules**:
-
-1. **Ignore lap time completely.** This is not a speed drill—it's a calibration drill.
-2. Pick **3 corners** where you know you're leaving room. For Lime Rock:
-
-   - **T1 (Big Bend) exit** — you're probably not using the full outside
-   - **T5 (Uphill) exit** — your current nemesis AND an edge-use problem
-   - **T7 (Diving Turn) exit** — same issue as T5
-
-3. **One corner per lap block** (3 laps each):
-   - **Laps 1-3**: T1 exit only — deliberately let the car run **0.5 m wider** than you normally would. Feel where the edge actually is. If you go off-track, **good**—now you know.
-   - **Laps 4-6**: T5 exit — same drill. Let the car run to the edge. Touch the white line. Don't fight it.
-   - **Laps 7-9**: T7 exit — same.
-   - **Lap 10**: "Trust lap" — normal pace, but **allow the car to use the edges you just mapped**.
-
-**What you're training**: Your **peripheral vision + muscle memory** to recognize "this is the edge" without conscious thought.
-
-**Success metric**: If you touch/cross the white line at least once per corner, you've successfully mapped the edge.
+**Time**: 20 minutes total
 
 ---
 
-### Phase 2: Entry Edge Mapping (5 laps, same session)
+### The Recipe
 
-**Goal**: Build a mental map of where the track edges are on corner entries (turn-in points).
+**Step 1: Baseline (3 laps, normal pace)**
 
-**Rules**:
-
-1. Now focus on **turn-in points** (where you place the car before the corner).
-2. Pick the same 3 corners.
-3. On each lap, deliberately place the car **0.3 m closer to the outside edge** on entry than you normally would.
-4. **Don't change your apex**—just start wider.
-
-**What you're training**: Your brain to stop adding the "I might hit the wall" buffer when there's still 30 cm of asphalt.
-
-**Success metric**: If your entry position feels "uncomfortably close" to the outside edge, you're doing it right.
+- Drive like you normally would
+- Export your fastest lap
+- Take a screenshot of T1 exit, T5 exit, T7 exit (or just replay the lap and note where you are vs the edge)
 
 ---
 
-### Phase 3: Comparison & Validation (3 laps + telemetry)
+**Step 2: Slow Edge Finding (9 laps, 70% pace)**
 
-**Goal**: Measure the improvement and validate the new spatial map.
+Pick your 3 problem corners (for Lime Rock: **T1, T5, T7 exits**).
 
-**Rules**:
+Do **3 laps per corner**, focusing ONLY on that corner:
 
-1. Do **3 normal "fast" laps** after the drill.
-2. Export the fastest one.
-3. Overlay it with your **pre-drill baseline lap** (or a VRS coach lap) in Garage61.
-4. **Measure the gap** (distance from edge) at T1 exit, T5 exit, T7 exit.
+- **Laps 1-3**: T1 exit — Go SLOW. Let the car drift wider on exit. Touch the white line. If you go a bit off-track, **good**—now you know where the edge is.
+- **Laps 4-6**: T5 exit — Same thing. Slow. Let it run wide. Find the edge.
+- **Laps 7-9**: T7 exit — Same thing.
 
-**Success metric**:
+**The only rule**: If it doesn't feel a bit scary/uncomfortably close to the edge, you're not doing it right.
 
-- If the gap shrinks from **30 cm → 15 cm**, you've just found **0.1–0.2 s** without going faster.
-- If you're now matching the VRS coach's edge usage, you've successfully calibrated.
+---
 
-**Bonus metric**: Check your **exit speed** at T1, T5, T7. If it increased by **1–2 km/h**, the physics worked.
+**Step 3: Build Confidence (6 laps, ramp up speed)**
+
+- **Laps 10-11**: 80% pace, use the edges you just found
+- **Laps 12-13**: 90% pace, trust the map
+- **Laps 14-15**: Normal race pace, let the car go to the edge naturally
+
+---
+
+**Step 4: Compare (screenshot check)**
+
+- Export your fastest lap from Step 3
+- Take screenshots of T1/T5/T7 exits
+- Put them side-by-side with your baseline screenshots
+- **Success = you're now using more track width** (closer to the edge, less "gap")
+
+---
+
+**That's it.** No telemetry analysis needed. Just: find edges slow → trust them fast → check with your eyes.
 
 ---
 
@@ -235,27 +220,28 @@ The Edge Mapping Drill works on **any track**, but the value varies:
 
 ## Padawan Practice Drills
 
-### **Drill 1: The "Touch the White Line" Challenge (10 laps)**
+### **The 20-Minute Edge Finder** (use the Simple Recipe above)
 
-- Pick 3 corners.
-- Your only goal: **touch or cross the white line on exit** at least once per corner.
-- Ignore lap time. Ignore incidents. Just map the edges.
-- **Success**: If you touch the line at least 3 times total (1 per corner).
+1. **3 laps baseline** (normal pace, screenshot the exits)
+2. **9 laps slow edge finding** (70% pace, 3 laps per corner, touch the edges)
+3. **6 laps confidence building** (80% → 90% → race pace)
+4. **Screenshot comparison** (are you using more track now?)
 
-### **Drill 2: The "0.3 m Shift" Drill (5 laps)**
+**Success = your "after" screenshots show you're closer to the edge than your "before" screenshots.**
 
-- Pick 3 corners.
-- On entry, place the car **0.3 m closer to the outside edge** than you normally would.
-- Keep the same apex and exit.
-- **Success**: If your entry position feels "uncomfortably close" to the outside, you're doing it right.
+---
 
-### **Drill 3: The "Before/After Comparison" (6 laps + telemetry)**
+### **Advanced: The Entry Edge Drill** (if exits are sorted)
 
-- Do 3 laps at your normal pace (baseline).
-- Do the Edge Mapping Drill (Phase 1 + 2).
-- Do 3 laps at your normal pace (post-drill).
-- Overlay the fastest baseline lap vs the fastest post-drill lap in Garage61.
-- **Success**: If you're using more track width AND your lap time improved (or stayed the same with less effort).
+Once you're comfortable with exit edges, add entry width:
+
+- Pick the same 3 corners
+- On entry (turn-in), place the car **0.3 m closer to the outside edge** than normal
+- Keep the same apex and exit
+- Do 5 slow laps, then 3 fast laps
+- Compare screenshots again
+
+**Success = entry position feels "uncomfortably close" but you can still hit your apex cleanly.**
 
 ---
 
