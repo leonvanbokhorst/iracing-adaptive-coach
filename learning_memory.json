@@ -241,6 +241,22 @@
       "focus_area": "S3 Consistency (The Uphill / T5) - Throttle ramp over kerb",
       "notes": "WEEK 04 SESSION 4 - PRACTICE RUN 2. Less spinning than morning confirmed by data: overall σ dropped to 0.69s and S3 σ dropped to 0.42s (near goal <0.40s). Best lap improved to 56.480s. T5 still the main leak (~0.37s avg loss in S3), but mistakes are more survivable (more clean reps). Garage61: 01KDWHYY71TG1TMH8N972SJ2CD."
     }
+    ,
+    {
+      "date": "2026-01-03",
+      "time": "10:28 CET",
+      "session_type": "Practice (Offline Testing - Edge Mapping Drill)",
+      "track": "Lime Rock Park - Grand Prix",
+      "best_lap": 56.497,
+      "consistency_sigma": 1.83,
+      "clean_laps": 25,
+      "total_laps": 30,
+      "incidents": 5,
+      "theoretical_optimal": 56.318,
+      "gap_to_optimal": 0.179,
+      "focus_area": "Chapter 16 Field Test - T5 (The Uphill) entry setup (LEFT edge usage)",
+      "notes": "WEEK 04 SESSION 5 - EDGE MAPPING DRILL (Chapter 16 applied same day as written). Deliberate practice session: baseline laps → slow edge-finding (70% pace, T1/T5/T7) → ramp-up (80-90%) → race pace. Overall σ (1.83s) is misleading (drill format mixed slow/fast laps). Key win: screenshots confirm now using full LEFT side on T5 entry (no more 30cm 'fear tax' buffer). S2 σ = 0.19s (excellent). S3 σ = 1.03s (high due to drill laps). Best lap only 0.22s off PB despite drill format. Next: validate if wider T5 entry calms the exit snap. Driver debrief: 'Better positioning screenshots' (4-word summary, ADHD-approved efficiency). Garage61: 01KE1M771419PBJPNSWR3709YS."
+    }
   ],
   "insights": [
     "Brake Bias Protocol (Winton): Start 57.5% (stability on cold tires). Click down (2 clicks) to 56.5% after L3+ as tires warm up and rotation is needed. 56.5% is the floor.",
@@ -271,10 +287,11 @@
     {
       "date": "2026-01-03",
       "source": "Week 04 Lime Rock Park GP - driver self-diagnosis of edge usage",
-      "title": "Chapter 16: Spatial Awareness & Track Limits (COMPLETED)",
+      "title": "Chapter 16: Spatial Awareness & Track Limits (COMPLETED + FIELD TESTED)",
       "chapter_created": "guidebook/chapters/16-spatial-awareness-track-limits.md",
+      "field_test": "2026-01-03 Practice 03 - Applied Edge Mapping Drill same day as chapter was written. Screenshots confirm T5 entry now uses full LEFT side (no more 30cm buffer). Drill format executed correctly: baseline → slow edge-finding → ramp-up → race pace.",
       "summary": "Driver observed VRS coach using ~30 cm more track width on entry + exit vs own lines. Created full chapter codifying the 'Edge Mapping Drill' (3-phase: exit edges, entry edges, comparison). Principle: aliens aren't braver—they just have confident spatial maps of where the track edges are. Drill builds that map through deliberate, repeatable edge-touching at slow pace, then validates at race pace. Addresses 'fear tax' buffer and connects to exit speed + consistency improvements.",
-      "evidence": "Driver statement: 'I seem to leave at least 30cm room compared to my VRS coach... I don't think I really know where the edge is when I'm in the car. Too cautious.' Connected to T5 exit consistency problem (not just throttle, but also not letting car run to full width)."
+      "evidence": "Driver statement: 'I seem to leave at least 30cm room compared to my VRS coach... I don't think I really know where the edge is when I'm in the car. Too cautious.' Connected to T5 exit consistency problem (not just throttle, but also not letting car run to full width). FIELD TEST: Screenshots from 2026-01-03 session confirm spatial calibration working - now kissing left edge on T5 entry."
     },
     {
       "date": "2026-01-01",
