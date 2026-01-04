@@ -14,6 +14,10 @@ When Motorsport Arena Oschersleben opened in 1997, it was Germany’s first purp
 
 The layout looks straightforward: no wild elevation changes, no Spa-style compressions. But the devil here is in the way slow 1st/2nd-gear corners bookend long, loaded sequences, and in the infamous McDonald’s chicane—short, sharp and edged with curbs that have ended more race weekends than any single German sausage. It’s a track where John Cleland’s famous “who designed this in a dark room?” rant about Turn 1 still feels painfully accurate to anyone who’s been tagged under braking.<sup><a href="https://en.wikipedia.org/wiki/Motorsport_Arena_Oschersleben#The_circuit">Motorsport Arena Oschersleben — The circuit</a></sup>
 
+[![Track Guide Oschersleben Grand Prix by luccaszacca](https://img.youtube.com/vi/Issu74FL3JA/0.jpg)](https://www.youtube.com/watch?v=Issu74FL3JA)
+
+[![Lap on Oschersleben by MidfieldRacing219](https://img.youtube.com/vi/803h6qiisI0/0.jpg)](https://www.youtube.com/watch?v=803h6qiisI0)
+
 ---
 
 ## Character Notes
