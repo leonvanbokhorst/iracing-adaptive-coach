@@ -163,8 +163,8 @@ Avon treaded tires have:
 ---
 
 **Related Chapters:**
-- [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md) - Engine braking technique
-- [Chapter 8: The Art of Braking](../08-braking/README.md) - Applying weight transfer
+- [Chapter 7: Gearbox as Tool](../07-gears-and-shifting.md) - Engine braking technique
+- [Chapter 9: The Art of Braking](../09-braking/README.md) - Applying weight transfer
 
 ---
 

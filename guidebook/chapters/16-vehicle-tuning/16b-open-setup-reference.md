@@ -8,7 +8,7 @@
 
 **This chapter is for OPEN SETUP racing.**
 
-If you're racing Ray FF1600 FIXED SETUP, this content mostly doesn't apply. Read [Fixed Setup Guide](15a-fixed-setup-guide.md) instead.
+If you're racing Ray FF1600 FIXED SETUP, this content mostly doesn't apply. Read [Fixed Setup Guide](16a-fixed-setup-guide.md) instead.
 
 **When to read this:**
 
@@ -578,7 +578,7 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 **For Ray FF1600 fixed setup:**
 
 - Ignore most of this chapter
-- Read [Fixed Setup Guide](15a-fixed-setup-guide.md) instead
+- Read [Fixed Setup Guide](16a-fixed-setup-guide.md) instead
 - Focus on DRIVING
 
 ---
@@ -590,8 +590,8 @@ If you setup on cold track with new tires, but race on hot track with 10-lap-old
 **Related Chapters:**
 
 - [Chapter 5: Weight Transfer](../05-weight-transfer/README.md) - How ARBs affect weight transfer
-- [Chapter 11: Advanced Telemetry](../11-advanced-telemetry.md) - Validating setup changes
-- [Chapter 7: Racing Lines](../07-racing-lines.md) - Line vs. setup trade-offs
+- [Chapter 12: Advanced Telemetry](../12-advanced-telemetry.md) - Validating setup changes
+- [Chapter 8: Racing Lines](../08-racing-lines.md) - Line vs. setup trade-offs
 
 ---
 

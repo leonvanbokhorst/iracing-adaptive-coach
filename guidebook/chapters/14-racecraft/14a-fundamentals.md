@@ -114,9 +114,9 @@ Other drivers are predicting your behavior. If you're erratic, they can't predic
 
 **You've learned the fundamentals. Now learn the tactics:**
 
-- **Defense & Offense:** [Chapter 13b](13b-defensive-offensive.md) - How to defend and overtake
-- **Race Starts:** [Chapter 13c](13c-cold-tire-contract.md) - Lap 1-3 protocols
-- **Strategy:** [Chapter 13e](13e-race-strategy.md) - Incidents, pace management
+- **Defense & Offense:** [Chapter 13b](14b-defensive-offensive.md) - How to defend and overtake
+- **Race Starts:** [Chapter 13c](14c-cold-tire-contract.md) - Lap 1-3 protocols
+- **Strategy:** [Chapter 13e](14e-race-strategy.md) - Incidents, pace management
 
 **Or return to:** [Chapter 13 Overview](README.md)
 
@@ -124,8 +124,8 @@ Other drivers are predicting your behavior. If you're erratic, they can't predic
 
 **Related Chapters:**
 
-- [Chapter 12: Mental Game](../12-mental-game.md) - Managing pressure
-- [Chapter 7: Racing Lines](../07-racing-lines.md) - Defensive lines
+- [Chapter 13: Mental Game](../13-mental-game.md) - Managing pressure
+- [Chapter 8: Racing Lines](../08-racing-lines.md) - Defensive lines
 
 ---
 

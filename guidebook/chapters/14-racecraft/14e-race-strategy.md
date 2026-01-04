@@ -177,9 +177,9 @@ The skill is there. Now it's about managing the chaos.
 **You've completed the Racecraft module!**
 
 **Related Advanced Topics:**
-- [Chapter 14: Tire Management](../14-tire-management.md) - Long race strategy
-- [Chapter 12: Mental Game](../12-mental-game.md) - Pressure management, 10-second rule
-- [Chapter 15: Vehicle Tuning](../15-vehicle-tuning/README.md) - Setup adjustments
+- [Chapter 15: Tire Management](../15-tire-management.md) - Long race strategy
+- [Chapter 13: Mental Game](../13-mental-game.md) - Pressure management, 10-second rule
+- [Chapter 16: Vehicle Tuning](../16-vehicle-tuning/README.md) - Setup adjustments
 
 **Or return to:** [Chapter 13 Overview](README.md)
 
@@ -188,8 +188,8 @@ The skill is there. Now it's about managing the chaos.
 **See Also:**
 - Master Lonn's Cold Tire Contract: Week 02 (Rudskogen)
 - Master Lonn's Meebewegen Victory: [Week 03, AI Race (Winton, Dec 27)](../../../weeks/week03/2025-12-27-11-09-28-race-winton.md)
-- Chapter 12: Mental Game (pressure management)
-- Chapter 7: Racing Lines (defensive lines)
+- Chapter 13: Mental Game (pressure management)
+- Chapter 8: Racing Lines (defensive lines)
 
 ---
 

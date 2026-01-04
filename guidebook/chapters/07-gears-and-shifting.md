@@ -1,4 +1,4 @@
-# Chapter 6: The Gearbox as a Tool
+# Chapter 7: The Gearbox as a Tool
 
 **Narrative Hook:**
 
@@ -676,7 +676,7 @@ Automatically blips throttle on downshift to match RPM.
 
 ---
 
-**Next Chapter:** [Chapter 7: The Art of the Apex - Racing Lines](07-racing-lines.md)  
+**Next Chapter:** [Chapter 8: The Art of the Apex - Racing Lines](08-racing-lines.md)  
 **Previous Chapter:** [Chapter 5: Weight Transfer - The Unseen Force](05-weight-transfer/README.md)
 
 ---

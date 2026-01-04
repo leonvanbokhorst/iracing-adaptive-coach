@@ -1,4 +1,4 @@
-# Chapter 15: Vehicle Tuning - Quick Reference ⚡
+# Chapter 16: Vehicle Tuning - Quick Reference ⚡
 
 **Brake bias cheat sheet for fixed setup series**
 
@@ -146,8 +146,8 @@ Faster = better driving, not better setup.
 ---
 
 → **Full guides:**
-- [Fixed Setup Guide](15a-fixed-setup-guide.md) - Ray FF1600 applicable
-- [Open Setup Reference](15b-open-setup-reference.md) - For future/other series
+- [Fixed Setup Guide](16a-fixed-setup-guide.md) - Ray FF1600 applicable
+- [Open Setup Reference](16b-open-setup-reference.md) - For future/other series
 - [README](README.md) - Navigation
 
 **— Little Padawan** ✨

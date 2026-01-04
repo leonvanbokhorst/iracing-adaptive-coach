@@ -134,10 +134,10 @@ The essentials in bullet form. Read this before every session.
 - Week 03 (Winton): Traction circle telemetry analysis
 
 **Related Guidebook Chapters:**
-- [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md) - Engine braking technique
-- [Chapter 8: The Art of Braking](../08-braking/README.md) - Applying weight transfer
-- [Chapter 9: Rotation & Balance](../09-rotation-and-balance.md) - Car response to weight transfer
-- [Chapter 10: G-Force Analysis](../10-g-force-analysis.md) - Reading weight transfer in data
+- [Chapter 7: Gearbox as Tool](../07-gears-and-shifting.md) - Engine braking technique
+- [Chapter 9: The Art of Braking](../09-braking/README.md) - Applying weight transfer
+- [Chapter 10: Rotation & Balance](../10-rotation-and-balance.md) - Car response to weight transfer
+- [Chapter 11: G-Force Analysis](../11-g-force-analysis.md) - Reading weight transfer in data
 
 ---
 
@@ -164,7 +164,7 @@ Master weight transfer, and you master the Ray FF1600.
 
 ---
 
-**Next Chapter:** [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md)  
+**Next Chapter:** [Chapter 7: Gearbox as Tool](../07-gears-and-shifting.md)  
 **Previous Chapter:** [Chapter 4: The Language of the Track](../04-track-terminology/README.md)
 
 ---

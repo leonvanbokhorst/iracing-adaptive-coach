@@ -185,7 +185,7 @@ Master Lonn developed this protocol after recognizing that most incidents happen
 - Fewer incidents overall
 
 **Evolution:**
-Week 03 (Winton AI race), Master Lonn extended this to "Meebewegen" strategy for even more strategic patience. See [Chapter 13d](13d-meebewegen.md) for details.
+Week 03 (Winton AI race), Master Lonn extended this to "Meebewegen" strategy for even more strategic patience. See [Chapter 13d](14d-meebewegen.md) for details.
 
 ---
 
@@ -231,9 +231,9 @@ Week 03 (Winton AI race), Master Lonn extended this to "Meebewegen" strategy for
 
 **You've learned the Cold Tire Contract. Explore related strategies:**
 
-- **Advanced Strategy:** [Chapter 13d](13d-meebewegen.md) - Strategic patience opening
-- **Tactics:** [Chapter 13b](13b-defensive-offensive.md) - How to execute those Lap 3+ overtakes
-- **Strategy:** [Chapter 13e](13e-race-strategy.md) - Incidents, pace management
+- **Advanced Strategy:** [Chapter 13d](14d-meebewegen.md) - Strategic patience opening
+- **Tactics:** [Chapter 13b](14b-defensive-offensive.md) - How to execute those Lap 3+ overtakes
+- **Strategy:** [Chapter 13e](14e-race-strategy.md) - Incidents, pace management
 
 **Or return to:** [Chapter 13 Overview](README.md)
 
@@ -241,8 +241,8 @@ Week 03 (Winton AI race), Master Lonn extended this to "Meebewegen" strategy for
 
 **Related Chapters:**
 
-- [Chapter 12: Mental Game](../12-mental-game.md) - 10-second rule, pressure management
-- [Chapter 14: Tire Management](../14-tire-management.md) - Long race tire strategy
+- [Chapter 13: Mental Game](../13-mental-game.md) - 10-second rule, pressure management
+- [Chapter 15: Tire Management](../15-tire-management.md) - Long race tire strategy
 
 ---
 

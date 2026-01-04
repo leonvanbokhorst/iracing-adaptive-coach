@@ -215,9 +215,9 @@ Speed:    \__/‾‾‾‾  ← Lower minimum, car unsettled
 ---
 
 **Related Chapters:**
-- [Chapter 10: G-Force Analysis](../10-g-force-analysis.md) - Deep dive on telemetry
-- [Chapter 11: Advanced Telemetry](../11-advanced-telemetry.md) - Comparative analysis
-- [Chapter 12: Mental Game](../12-mental-game.md) - Developing feel and awareness
+- [Chapter 11: G-Force Analysis](../11-g-force-analysis.md) - Deep dive on telemetry
+- [Chapter 12: Advanced Telemetry](../12-advanced-telemetry.md) - Comparative analysis
+- [Chapter 13: Mental Game](../13-mental-game.md) - Developing feel and awareness
 
 ---
 

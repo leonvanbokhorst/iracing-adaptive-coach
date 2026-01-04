@@ -1,4 +1,4 @@
-# Chapter 16: Spatial Awareness & Track Limits
+# Chapter 17: Spatial Awareness & Track Limits
 
 **Narrative Hook:**
 

@@ -62,7 +62,7 @@ There isn't just ONE line through a corner. Depending on the situation, you'll u
 
 **Trade-off:** You go slower, but so does the attacker (they can't use optimal line either).
 
-→ **See:** [Chapter 13: Racecraft](../13-racecraft/README.md) for full defensive driving techniques
+→ **See:** [Chapter 14: Racecraft](../14-racecraft/README.md) for full defensive driving techniques
 
 ---
 
@@ -83,7 +83,7 @@ There isn't just ONE line through a corner. Depending on the situation, you'll u
 - Uses alternate line (opponent's not expecting)
 - Focuses on exit speed advantage
 
-→ **See:** [Chapter 13: Racecraft](../13-racecraft/README.md) for full overtaking techniques
+→ **See:** [Chapter 14: Racecraft](../14-racecraft/README.md) for full overtaking techniques
 
 ---
 
@@ -371,8 +371,8 @@ Feeling the difference between early and late apex builds intuition for optimal 
 
 **Continue learning:**
 - [Chapter 5: Weight Transfer](../05-weight-transfer/README.md) - The unseen force
-- [Chapter 7: Racing Lines](../07-racing-lines.md) - Applying terminology to line theory
-- [Chapter 13: Racecraft](../13-racecraft/README.md) - Defensive and overtaking lines
+- [Chapter 8: Racing Lines](../08-racing-lines.md) - Applying terminology to line theory
+- [Chapter 14: Racecraft](../14-racecraft/README.md) - Defensive and overtaking lines
 
 **Or return to:** [Chapter 4 Overview](README.md)
 

@@ -323,9 +323,9 @@ SPEED TRACE:
 
 ## 🔗 FULL CHAPTERS
 
-- [08a: Braking Fundamentals - The Three Phases](08a-braking-fundamentals.md)
-- [08b: Trail Braking Technique - Practical Application](08b-trail-braking-technique.md)
-- [Chapter 8: Main Chapter](README.md)
+- [08a: Braking Fundamentals - The Three Phases](09a-braking-fundamentals.md)
+- [08b: Trail Braking Technique - Practical Application](09b-trail-braking-technique.md)
+- [Chapter 9: Main Chapter](README.md)
 
 ---
 

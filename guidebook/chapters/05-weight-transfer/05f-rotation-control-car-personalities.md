@@ -681,7 +681,7 @@ The **Centripetal Circuit** (if available in your sim) or any **skid pad / circu
 
 ---
 
-**Next:** [Chapter 6: The Gearbox as a Tool](../06-gears-and-shifting.md)  
+**Next:** [Chapter 7: The Gearbox as a Tool](../07-gears-and-shifting.md)  
 **Previous:** [05e: Techniques & Practice](05e-techniques-practice.md)  
 **Up:** [Chapter 5: Weight Transfer](README.md)
 
@@ -691,8 +691,8 @@ The **Centripetal Circuit** (if available in your sim) or any **skid pad / circu
 
 - [05b: Longitudinal Transfer](05b-longitudinal-transfer.md) - Braking and acceleration weight shift
 - [05c: Lateral & Combined](05c-lateral-combined.md) - Trail braking and the traction circle
-- [Chapter 8: The Art of Braking](../08-braking/README.md) - Trail braking technique
-- [Chapter 9: Rotation and Balance](../09-rotation-and-balance.md) - Car response to inputs
+- [Chapter 9: The Art of Braking](../09-braking/README.md) - Trail braking technique
+- [Chapter 10: Rotation and Balance](../10-rotation-and-balance.md) - Car response to inputs
 
 ---
 

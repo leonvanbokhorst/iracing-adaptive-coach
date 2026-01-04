@@ -1,4 +1,4 @@
-# Chapter 11: Beyond G-Forces - An Advanced Telemetry Deep Dive
+# Chapter 12: Beyond G-Forces - An Advanced Telemetry Deep Dive
 
 **Narrative Hook:**
 
@@ -545,14 +545,14 @@ Telemetry now matches Eric's. Discovery confirmed!
 
 ---
 
-**Next Chapter:** [Chapter 12: The Mental Game](12-mental-game.md)  
-**Previous Chapter:** [Chapter 10: G-Force Analysis](10-g-force-analysis.md)
+**Next Chapter:** [Chapter 13: The Mental Game](13-mental-game.md)  
+**Previous Chapter:** [Chapter 11: G-Force Analysis](11-g-force-analysis.md)
 
 ---
 
 **See Also:**
 - Master Lonn vs Eric Wong analysis: Week 03 (Winton)
-- Chapter 10: G-Force Analysis (foundation for this chapter)
+- Chapter 11: G-Force Analysis (foundation for this chapter)
 - Garage 61 telemetry tools
 
 ---

@@ -1,4 +1,4 @@
-# Chapter 7: The Art of the Apex - An Introduction to Racing Lines
+# Chapter 8: The Art of the Apex - An Introduction to Racing Lines
 
 **Narrative Hook:**
 
@@ -460,8 +460,8 @@ That 3.8 m/s difference compounds:
 
 ---
 
-**Next Chapter:** [Chapter 8: The Art of Braking](08-braking/README.md)  
-**Previous Chapter:** [Chapter 6: The Gearbox as a Tool](06-gears-and-shifting.md)
+**Next Chapter:** [Chapter 9: The Art of Braking](09-braking/README.md)  
+**Previous Chapter:** [Chapter 7: The Gearbox as a Tool](07-gears-and-shifting.md)
 
 ---
 
@@ -469,7 +469,7 @@ That 3.8 m/s difference compounds:
 
 - Master Lonn's Turn 5 discovery: Week 03, P3 Session (Winton)
 - Chapter 5: Weight Transfer (how load affects grip)
-- Chapter 9: Rotation & Balance (how the car responds to line choice)
+- Chapter 10: Rotation & Balance (how the car responds to line choice)
 
 ---
 

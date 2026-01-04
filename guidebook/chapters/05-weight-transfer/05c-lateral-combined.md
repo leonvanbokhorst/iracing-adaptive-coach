@@ -237,9 +237,9 @@ _This is what perfect trail braking looks like on the traction circle. You start
 ---
 
 **Related Chapters:**
-- [Chapter 8: The Art of Braking](../08-braking/README.md) - Deep dive on braking and trail braking technique
-- [Chapter 9: Rotation & Balance](../09-rotation-and-balance.md) - Car response to weight transfer
-- [Chapter 10: G-Force Analysis](../10-g-force-analysis.md) - Reading the traction circle in telemetry
+- [Chapter 9: The Art of Braking](../09-braking/README.md) - Deep dive on braking and trail braking technique
+- [Chapter 10: Rotation & Balance](../10-rotation-and-balance.md) - Car response to weight transfer
+- [Chapter 11: G-Force Analysis](../11-g-force-analysis.md) - Reading the traction circle in telemetry
 
 ---
 

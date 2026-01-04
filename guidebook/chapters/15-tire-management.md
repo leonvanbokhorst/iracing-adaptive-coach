@@ -1,4 +1,4 @@
-# Chapter 14: The Long Game - Tire Management and Fuel Strategy
+# Chapter 15: The Long Game - Tire Management and Fuel Strategy
 
 **Narrative Hook:**
 
@@ -536,15 +536,15 @@ Patient approach wins. You didn't need to be fastest early—you needed to be fa
 
 ---
 
-**Next Chapter:** [Chapter 15: Vehicle Tuning](15-vehicle-tuning/README.md)  
-**Previous Chapter:** [Chapter 13: Racecraft](13-racecraft/README.md)
+**Next Chapter:** [Chapter 16: Vehicle Tuning](16-vehicle-tuning/README.md)  
+**Previous Chapter:** [Chapter 14: Racecraft](14-racecraft/README.md)
 
 ---
 
 **See Also:**
 
-- Chapter 12: Mental Game (focus management)
-- Chapter 13: Racecraft (when to fight, when to yield)
+- Chapter 13: Mental Game (focus management)
+- Chapter 14: Racecraft (when to fight, when to yield)
 - Master Lonn's smooth driving style (Chapter 7)
 
 ---

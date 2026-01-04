@@ -674,17 +674,17 @@ Let's walk through a **complete braking zone** using Rudskogen Turn 2 as example
 
 ---
 
-**Next:** [08b: Trail Braking Technique - Practical Application](08b-trail-braking-technique.md)  
-**Previous:** [Chapter 7: The Art of the Apex - Racing Lines](../07-racing-lines.md)  
-**Up:** [Chapter 8: The Art of Braking](README.md)
+**Next:** [09b: Trail Braking Technique - Practical Application](09b-trail-braking-technique.md)  
+**Previous:** [Chapter 9: The Art of the Apex - Racing Lines](../08-racing-lines.md)  
+**Up:** [Chapter 10: The Art of Braking](README.md)
 
 ---
 
 **See Also:**
 
 - [Chapter 5: Weight Transfer](../05-weight-transfer/README.md) (the physics foundation)
-- [08b: Trail Braking Technique](08b-trail-braking-technique.md) (practical application)
-- [Chapter 10: G-Force Analysis](../10-g-force-analysis.md) (see braking phases in data)
+- [09b: Trail Braking Technique](09b-trail-braking-technique.md) (practical application)
+- [Chapter 12: G-Force Analysis](../11-g-force-analysis.md) (see braking phases in data)
 
 ---
 

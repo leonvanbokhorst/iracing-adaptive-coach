@@ -1,4 +1,4 @@
-# Chapter 8: The Trail Braking Technique
+# Chapter 9: The Trail Braking Technique
 
 **Narrative Hook:**
 
@@ -17,7 +17,7 @@ Little Padawan leans forward. "Master, you're releasing the brakes TOO EARLY. Th
 - Recognize and fix common trail braking mistakes
 - Use track-specific applications (Rudskogen, Jefferson, Winton)
 
-**Note:** This chapter focuses on the **practical application** of trail braking in the Ray FF1600. For comprehensive braking theory covering all three phases (application, threshold, and trail braking), see [08a: Braking Fundamentals](08a-braking-fundamentals.md).
+**Note:** This chapter focuses on the **practical application** of trail braking in the Ray FF1600. For comprehensive braking theory covering all three phases (application, threshold, and trail braking), see [09a: Braking Fundamentals](09a-braking-fundamentals.md).
 
 ---
 
@@ -512,17 +512,17 @@ This was you! Releasing too early → car pushing wide → frustrating!
 
 ---
 
-**Next:** [Chapter 9: The Car's Conversation - Rotation and Balance](../09-rotation-and-balance.md)  
-**Previous:** [08a: Braking Fundamentals - The Three Phases](08a-braking-fundamentals.md)  
-**Up:** [Chapter 8: The Art of Braking](README.md)
+**Next:** [Chapter 11: The Car's Conversation - Rotation and Balance](../10-rotation-and-balance.md)  
+**Previous:** [09a: Braking Fundamentals - The Three Phases](09a-braking-fundamentals.md)  
+**Up:** [Chapter 10: The Art of Braking](README.md)
 
 ---
 
 **See Also:**
 
 - [Chapter 5: Weight Transfer](../05-weight-transfer/README.md) (the physics behind trail braking)
-- [08a: Braking Fundamentals](08a-braking-fundamentals.md) (complete braking theory)
-- [Chapter 10: G-Force Analysis](../10-g-force-analysis.md) (see trail braking in telemetry)
+- [09a: Braking Fundamentals](09a-braking-fundamentals.md) (complete braking theory)
+- [Chapter 12: G-Force Analysis](../11-g-force-analysis.md) (see trail braking in telemetry)
 - Master Lonn's T2 breakthrough (Week 02, Rudskogen)
 
 ---

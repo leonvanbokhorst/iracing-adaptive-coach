@@ -1,4 +1,4 @@
-# Chapter 8: The Art of Braking
+# Chapter 9: The Art of Braking
 
 **Narrative Hook:**
 
@@ -32,7 +32,7 @@ This chapter covers the complete braking system from theory to application, with
 
 This chapter is organized into two main sections:
 
-### [08a: Braking Fundamentals - The Three Phases](08a-braking-fundamentals.md)
+### [09a: Braking Fundamentals - The Three Phases](09a-braking-fundamentals.md)
 
 **The Theory Chapter**
 
@@ -49,7 +49,7 @@ Master the complete braking system:
 
 ---
 
-### [08b: Trail Braking Technique - Practical Application](08b-trail-braking-technique.md)
+### [09b: Trail Braking Technique - Practical Application](09b-trail-braking-technique.md)
 
 **The Application Chapter**
 
@@ -69,24 +69,24 @@ Practical trail braking mastery for the Ray FF1600:
 
 ### If You're New to Trail Braking
 
-1. **Start with [08b: Trail Braking Technique](08b-trail-braking-technique.md)**
+1. **Start with [09b: Trail Braking Technique](09b-trail-braking-technique.md)**
    - Focus on the physical technique first
    - Practice the toe pull method
    - Get comfortable with the basic process
 
-2. **Then read [08a: Braking Fundamentals](08a-braking-fundamentals.md)**
+2. **Then read [09a: Braking Fundamentals](09a-braking-fundamentals.md)**
    - Understand the complete system
    - Learn about brake application variations
    - Discover optimization opportunities
 
 ### If You're Already Trail Braking
 
-1. **Start with [08a: Braking Fundamentals](08a-braking-fundamentals.md)**
+1. **Start with [09a: Braking Fundamentals](09a-braking-fundamentals.md)**
    - You might be losing time in Phases 1 or 2
    - Learn about downforce effects
    - Discover advanced techniques (coasting, maintenance throttle)
 
-2. **Then revisit [08b: Trail Braking Technique](08b-trail-braking-technique.md)**
+2. **Then revisit [09b: Trail Braking Technique](09b-trail-braking-technique.md)**
    - Refine your technique with deeper understanding
    - Check for common mistakes
    - Explore track-specific optimizations
@@ -160,7 +160,7 @@ For monitor-mountable quick reference cards, see [Quick Reference Guide](quick-r
 Before diving into this chapter, you should be familiar with:
 
 - **[Chapter 5: Weight Transfer](../05-weight-transfer/README.md)** - The physics foundation for understanding why braking techniques work
-- **[Chapter 7: Racing Lines](../07-racing-lines.md)** - Understanding corner types and where time is gained/lost
+- **[Chapter 9: Racing Lines](../08-racing-lines.md)** - Understanding corner types and where time is gained/lost
 
 ---
 
@@ -168,8 +168,8 @@ Before diving into this chapter, you should be familiar with:
 
 After mastering braking, you'll be ready for:
 
-- **[Chapter 9: Rotation and Balance](../09-rotation-and-balance.md)** - How braking technique affects car rotation
-- **[Chapter 10: G-Force Analysis](../10-g-force-analysis.md)** - Seeing braking phases in telemetry data
+- **[Chapter 11: Rotation and Balance](../10-rotation-and-balance.md)** - How braking technique affects car rotation
+- **[Chapter 12: G-Force Analysis](../11-g-force-analysis.md)** - Seeing braking phases in telemetry data
 
 ---
 
@@ -181,11 +181,11 @@ _"Braking isn't just about slowing down—it's about controlling weight, managin
 
 ## Chapter Navigation
 
-**Next Chapter:** [Chapter 9: The Car's Conversation - Rotation and Balance](../09-rotation-and-balance.md)  
-**Previous Chapter:** [Chapter 7: The Art of the Apex - Racing Lines](../07-racing-lines.md)
+**Next Chapter:** [Chapter 11: The Car's Conversation - Rotation and Balance](../10-rotation-and-balance.md)  
+**Previous Chapter:** [Chapter 9: The Art of the Apex - Racing Lines](../08-racing-lines.md)
 
 **Sub-Chapters:**
-- [08a: Braking Fundamentals - The Three Phases](08a-braking-fundamentals.md)
-- [08b: Trail Braking Technique - Practical Application](08b-trail-braking-technique.md)
+- [09a: Braking Fundamentals - The Three Phases](09a-braking-fundamentals.md)
+- [09b: Trail Braking Technique - Practical Application](09b-trail-braking-technique.md)
 - [Quick Reference](quick-reference.md)
 
