@@ -360,10 +360,13 @@ Every input shows up on this circle. Master smooth weight transfer, and the lap 
 
 **What's Next:**
 
-**Continue learning:**
-- [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md) - Engine braking technique
-- [Chapter 8: Trail Braking](../08-trail-braking.md) - Deep dive on trail braking
-- [Chapter 9: Rotation & Balance](../09-rotation-and-balance.md) - Car response to weight transfer
+**Continue in Chapter 5:**
+- [05f: Rotation Control & Car Personalities](05f-rotation-control-car-personalities.md) - Master rotation management and car adaptation
+
+**Continue to other chapters:**
+- [Chapter 7: Gearbox as Tool](../07-gears-and-shifting.md) - Engine braking technique
+- [Chapter 9: The Art of Braking](../09-braking/README.md) - Deep dive on braking and trail braking
+- [Chapter 10: Rotation & Balance](../10-rotation-and-balance.md) - Car response to weight transfer
 
 **Or return to:** [Chapter 5 Overview](README.md)
 

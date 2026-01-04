@@ -1,4 +1,4 @@
-# Chapter 12: The Mental Game - Flow State and Deliberate Practice
+# Chapter 13: The Mental Game - Flow State and Deliberate Practice
 
 **Narrative Hook:**
 
@@ -992,8 +992,8 @@ That's the mental game.
 
 ---
 
-**Next Chapter:** [Chapter 13: Racecraft](13-racecraft/README.md)  
-**Previous Chapter:** [Chapter 11: Beyond G-Forces - Advanced Telemetry](11-advanced-telemetry.md)
+**Next Chapter:** [Chapter 14: Racecraft](14-racecraft/README.md)  
+**Previous Chapter:** [Chapter 12: Beyond G-Forces - Advanced Telemetry](12-advanced-telemetry.md)
 
 ---
 
@@ -1001,7 +1001,7 @@ That's the mental game.
 
 - Master Lonn's Cold Tire Contract: Week 02 (Rudskogen)
 - Flow state example: Week 03, P3 (Winton Turn 5 trust)
-- Chapter 7: Racing Lines (trust the wide arc)
+- Chapter 8: Racing Lines (trust the wide arc)
 
 ---
 

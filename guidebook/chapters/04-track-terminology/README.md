@@ -113,8 +113,8 @@ Each with: definition, visual, technique, examples
 - Winton T10 (carousel patience)
 
 **Related Guidebook Chapters:**
-- [Chapter 7: Racing Lines](../07-racing-lines.md) - Applies terminology to line theory
-- [Chapter 13: Racecraft](../13-racecraft/README.md) - Defensive/overtaking lines
+- [Chapter 8: Racing Lines](../08-racing-lines.md) - Applies terminology to line theory
+- [Chapter 14: Racecraft](../14-racecraft/README.md) - Defensive/overtaking lines
 - Track profiles: `tracks/track-*.md`
 
 ---

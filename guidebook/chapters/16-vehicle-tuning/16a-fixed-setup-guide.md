@@ -417,7 +417,7 @@ Find brake bias that feels good. Stop tweaking. Focus on DRIVING.
 - That's it!
 
 **For future open setup racing:**
-- Read [Open Setup Reference](15b-open-setup-reference.md)
+- Read [Open Setup Reference](16b-open-setup-reference.md)
 - Deep dive into ARBs, tire pressure, etc.
 - Systematic optimization
 
@@ -427,8 +427,8 @@ Find brake bias that feels good. Stop tweaking. Focus on DRIVING.
 
 **Related Chapters:**
 - [Chapter 5: Weight Transfer](../05-weight-transfer/README.md) - Why brake bias affects rotation
-- [Chapter 8: Trail Braking](../08-trail-braking.md) - How brake bias affects technique
-- [Chapter 12: Mental Game](../12-mental-game.md) - Don't overthink setup
+- [Chapter 9: The Art of Braking](../09-braking/README.md) - How brake bias affects technique
+- [Chapter 13: Mental Game](../13-mental-game.md) - Don't overthink setup
 
 ---
 

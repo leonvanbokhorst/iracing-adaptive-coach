@@ -1,4 +1,4 @@
-# Chapter 10: Reading the Tea Leaves - G-Force Analysis
+# Chapter 11: Reading the Tea Leaves - G-Force Analysis
 
 **Narrative Hook:**
 
@@ -494,15 +494,15 @@ After each session, Little Padawan shows traction circle comparison. You can SEE
 
 ---
 
-**Next Chapter:** [Chapter 11: Beyond G-Forces - Advanced Telemetry](11-advanced-telemetry.md)  
-**Previous Chapter:** [Chapter 9: The Car's Conversation - Rotation and Balance](09-rotation-and-balance.md)
+**Next Chapter:** [Chapter 12: Beyond G-Forces - Advanced Telemetry](12-advanced-telemetry.md)  
+**Previous Chapter:** [Chapter 10: The Car's Conversation - Rotation and Balance](10-rotation-and-balance.md)
 
 ---
 
 **See Also:**
 
 - Chapter 5: Weight Transfer (G-forces create weight transfer)
-- Chapter 9: Rotation & Balance (G-forces cause rotation)
+- Chapter 10: Rotation & Balance (G-forces cause rotation)
 - Master Lonn's traction circle analysis (Week 03)
 - `tools/coach/visualize_traction_circle.py` (generate your own!)
 

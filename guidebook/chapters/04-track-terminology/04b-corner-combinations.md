@@ -291,7 +291,7 @@ Rudskogen T2 taught you about double apex—gear change between apexes, patience
 
 **Related Chapters:**
 - [Chapter 5: Weight Transfer](../05-weight-transfer/README.md) - Weight management in combinations
-- [Chapter 7: Racing Lines](../07-racing-lines.md) - Optimizing combination sequences
+- [Chapter 8: Racing Lines](../08-racing-lines.md) - Optimizing combination sequences
 
 ---
 

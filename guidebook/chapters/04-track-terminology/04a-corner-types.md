@@ -322,8 +322,8 @@ Kinks feel scarier than they are. The FF1600 has enough grip to take them flat i
 ---
 
 **Related Chapters:**
-- [Chapter 7: Racing Lines](../07-racing-lines.md) - Applying corner types to line theory
-- [Chapter 8: Trail Braking](../08-trail-braking.md) - Technique for hairpins, carousels, 90°s
+- [Chapter 8: Racing Lines](../08-racing-lines.md) - Applying corner types to line theory
+- [Chapter 9: The Art of Braking](../09-braking/README.md) - Technique for hairpins, carousels, 90°s
 
 ---
 

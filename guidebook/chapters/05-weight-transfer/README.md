@@ -11,9 +11,11 @@ This chapter has been split into focused micro-chapters for ADHD-friendly learni
 ## 📚 The Chapters
 
 ### [Quick Reference](quick-reference.md) ⚡
+
 **60 lines | Track day cheat sheet**
 
 The essentials in bullet form. Read this before every session.
+
 - Core concepts
 - Types of transfer
 - Traction circle basics
@@ -24,6 +26,7 @@ The essentials in bullet form. Read this before every session.
 ---
 
 ### [05a: Physics & Fundamentals](05a-physics-fundamentals.md) 🧮
+
 **~180 lines | The foundation concepts**
 
 - The physics of weight transfer (load transfer equation)
@@ -36,6 +39,7 @@ The essentials in bullet form. Read this before every session.
 ---
 
 ### [05b: Longitudinal Transfer](05b-longitudinal-transfer.md) ⬆️⬇️
+
 **~220 lines | Braking & acceleration**
 
 - Forward weight transfer (braking)
@@ -49,6 +53,7 @@ The essentials in bullet form. Read this before every session.
 ---
 
 ### [05c: Lateral & Combined Transfer](05c-lateral-combined.md) 🔄
+
 **~250 lines | Cornering & trail braking**
 
 - Lateral weight transfer (cornering, outside tire loading)
@@ -62,6 +67,7 @@ The essentials in bullet form. Read this before every session.
 ---
 
 ### [05d: Feeling & Reading Transfer](05d-feeling-reading.md) 👂📊
+
 **~200 lines | Feedback loops (senses + data)**
 
 - Feeling weight transfer (steering weight, brake feel, throttle response, g-forces)
@@ -74,6 +80,7 @@ The essentials in bullet form. Read this before every session.
 ---
 
 ### [05e: Techniques & Practice](05e-techniques-practice.md) 🛠️
+
 **~280 lines | Application & drills**
 
 - Techniques for managing weight transfer (progressive inputs, steering discipline)
@@ -85,55 +92,81 @@ The essentials in bullet form. Read this before every session.
 
 ---
 
+### [05f: Rotation Control & Car Personalities](05f-rotation-control-car-personalities.md) 🎯
+
+**~450 lines | Rotation management & car adaptation**
+
+- How pedals and steering interfere with each other
+- Using weight transfer to control rotation
+- Common beginner mistakes (lift-off oversteer, panic braking spins)
+- Car personalities (oversteer, neutral, understeer)
+- Pedals as compensating force
+- Micro-adjustments within braking/throttle
+- Centripetal circuit practice drill
+
+**Start here if:** You want to understand WHY you spin, or need to adapt to different car characters.
+
+---
+
 ## 🎓 Learning Path
 
 **For Complete Beginners:**
+
 1. Read [Quick Reference](quick-reference.md) (overview)
 2. Study [05a: Physics & Fundamentals](05a-physics-fundamentals.md) (foundation)
 3. Study [05b: Longitudinal Transfer](05b-longitudinal-transfer.md) (braking/accel)
 4. Study [05c: Lateral & Combined](05c-lateral-combined.md) (trail braking)
 5. Study [05d: Feeling & Reading](05d-feeling-reading.md) (feedback)
 6. Study [05e: Techniques & Practice](05e-techniques-practice.md) (application)
+7. Study [05f: Rotation Control & Car Personalities](05f-rotation-control-car-personalities.md) (mastery)
 
 **For Track Day:**
+
 - Read [Quick Reference](quick-reference.md) only (60 seconds)
 - Focus on: Progressive brake release, smooth throttle, traction circle
 - Remember: Smooth inputs = smooth weight transfer = fast laps
 
 **For Specific Problems:**
+
 - Locking up on braking? → [05b: Longitudinal Transfer](05b-longitudinal-transfer.md)
 - Understeering mid-corner? → [05c: Lateral & Combined](05c-lateral-combined.md)
 - Can't feel what car is doing? → [05d: Feeling & Reading](05d-feeling-reading.md)
 - Need practice drills? → [05e: Techniques & Practice](05e-techniques-practice.md)
+- Keep spinning unexpectedly? → [05f: Rotation Control & Car Personalities](05f-rotation-control-car-personalities.md)
+- Need to adapt to different car? → [05f: Rotation Control & Car Personalities](05f-rotation-control-car-personalities.md)
 
 ---
 
 ## 🔗 Cross-References
 
 **Master Lonn's Real-World Applications:**
+
 - Week 02 (Rudskogen): "I can FEEL the weight moving!"
 - Week 03 (Winton T5): Engine braking rotation breakthrough
 - Week 03 (Winton): Traction circle telemetry analysis
 
 **Related Guidebook Chapters:**
-- [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md) - Engine braking technique
-- [Chapter 8: Trail Braking](../08-trail-braking.md) - Applying weight transfer
-- [Chapter 9: Rotation & Balance](../09-rotation-and-balance.md) - Car response to weight transfer
-- [Chapter 10: G-Force Analysis](../10-g-force-analysis.md) - Reading weight transfer in data
+
+- [Chapter 7: Gearbox as Tool](../07-gears-and-shifting.md) - Engine braking technique
+- [Chapter 9: The Art of Braking](../09-braking/README.md) - Applying weight transfer
+- [Chapter 10: Rotation & Balance](../10-rotation-and-balance.md) - Car response to weight transfer
+- [Chapter 11: G-Force Analysis](../11-g-force-analysis.md) - Reading weight transfer in data
 
 ---
 
 ## 📊 Chapter Stats
 
 **Original file:** 997 lines (longest chapter in guidebook!)  
-**Refactored structure:** 5 micro-chapters (~180-280 lines each)  
+**Refactored structure:** 6 micro-chapters (~180-450 lines each)  
 **Quick reference:** 60 lines (track day cheat sheet)
 
 **Why refactored?**
+
 - Easier to find specific information
 - Each chapter = one focused study session
 - Quick reference for track day
 - Massively reduced cognitive load
+- Progressive learning path (theory → application → mastery)
 
 ---
 
@@ -145,7 +178,7 @@ Master weight transfer, and you master the Ray FF1600.
 
 ---
 
-**Next Chapter:** [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md)  
+**Next Chapter:** [Chapter 6: Slip Angle & Tire Physics](../06-slip-angle/README.md)  
 **Previous Chapter:** [Chapter 4: The Language of the Track](../04-track-terminology/README.md)
 
 ---
@@ -153,4 +186,3 @@ Master weight transfer, and you master the Ray FF1600.
 _"Weight transfer is the unseen force. Feel it, see it, master it."_ 🏎️⚖️
 
 **— Little Padawan** ✨
-

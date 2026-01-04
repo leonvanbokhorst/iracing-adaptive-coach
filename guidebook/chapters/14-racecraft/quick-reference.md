@@ -1,4 +1,4 @@
-# Chapter 13: Racecraft - Quick Reference ⚡
+# Chapter 14: Racecraft - Quick Reference ⚡
 
 **60-second race day cheat sheet**
 

@@ -1,4 +1,4 @@
-# Chapter 9: The Car's Conversation - Rotation and Balance
+# Chapter 10: The Car's Conversation - Rotation and Balance
 
 **Narrative Hook:**
 
@@ -16,6 +16,23 @@ Little Padawan pulls up a 6DOF visualization. "Master, the car doesn't just move
 - Diagnose understeer and oversteer from Yaw data
 - Recognize Roll, Pitch, Yaw signatures in your driving
 - Fix handling problems using rotation analysis
+
+---
+
+## 🔗 How This Chapter Relates to Others
+
+**This chapter focuses on:** How to READ and DIAGNOSE rotation in telemetry data.
+
+| Topic | This Chapter (10) | Related Chapter |
+|-------|------------------|-----------------|
+| **Understeer/Oversteer** | How to SEE it in yaw rate data | [Ch 5f](../05-weight-transfer/05f-rotation-control-car-personalities.md): How your INPUTS cause it |
+| **Slip Angle** | Reading balance through rotation data | [Ch 6d](../06-slip-angle/06d-slip-angle-car-balance.md): The PHYSICS behind balance |
+| **Weight Transfer** | How forces CREATE rotation | [Ch 5](../05-weight-transfer/README.md): The physics of weight transfer |
+
+**In short:**
+- **Chapter 5/5f** = The CAUSE (inputs → weight transfer → rotation)
+- **Chapter 6d** = The PHYSICS (slip angles determine behavior)
+- **This chapter** = The DATA (reading rotation in telemetry)
 
 ---
 
@@ -554,15 +571,15 @@ All three traces are **smooth**. Slow laps? All three are **messy**.
 
 ---
 
-**Next Chapter:** [Chapter 10: Reading the Tea Leaves - G-Force Analysis](10-g-force-analysis.md)  
-**Previous Chapter:** [Chapter 8: The Trail Braking Technique](08-trail-braking.md)
+**Next Chapter:** [Chapter 11: Reading the Tea Leaves - G-Force Analysis](11-g-force-analysis.md)  
+**Previous Chapter:** [Chapter 9: The Art of Braking](09-braking/README.md)
 
 ---
 
 **See Also:**
 
 - Chapter 5: Weight Transfer (the forces that cause rotation)
-- Chapter 10: G-Force Analysis (reading rotation in telemetry)
+- Chapter 11: G-Force Analysis (reading rotation in telemetry)
 - Master Lonn's rotation discoveries (Week 02-03 session logs)
 
 ---

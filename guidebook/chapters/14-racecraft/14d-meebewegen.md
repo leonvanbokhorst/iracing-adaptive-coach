@@ -383,9 +383,9 @@ The slowest looking start often wins the race. 🐢→🏆
 
 **You've learned Meebewegen. Explore related strategies:**
 
-- **Cold Tire Contract:** [Chapter 13c](13c-cold-tire-contract.md) - Tire-focused race start protocol
-- **Tactics:** [Chapter 13b](13b-defensive-offensive.md) - How to execute those Lap 4+ overtakes
-- **Strategy:** [Chapter 13e](13e-race-strategy.md) - Incidents, pace management
+- **Cold Tire Contract:** [Chapter 13c](14c-cold-tire-contract.md) - Tire-focused race start protocol
+- **Tactics:** [Chapter 13b](14b-defensive-offensive.md) - How to execute those Lap 4+ overtakes
+- **Strategy:** [Chapter 13e](14e-race-strategy.md) - Incidents, pace management
 
 **Or return to:** [Chapter 13 Overview](README.md)
 
@@ -393,8 +393,8 @@ The slowest looking start often wins the race. 🐢→🏆
 
 **Related Chapters:**
 
-- [Chapter 12: Mental Game](../12-mental-game.md) - ADHD adaptations, pressure management
-- [Chapter 14: Tire Management](../14-tire-management.md) - Long race tire strategy
+- [Chapter 13: Mental Game](../13-mental-game.md) - ADHD adaptations, pressure management
+- [Chapter 15: Tire Management](../15-tire-management.md) - Long race tire strategy
 
 ---
 

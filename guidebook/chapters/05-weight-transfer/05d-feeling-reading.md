@@ -15,6 +15,24 @@ Mastering both creates a complete feedback loop: feel it in the car, confirm it 
 
 ---
 
+## 🔗 How This Chapter Relates to Others
+
+**This chapter focuses on:** Feeling and reading WEIGHT TRANSFER (load distribution).
+
+| Topic | This Chapter (5d) | Related Chapter |
+|-------|------------------|-----------------|
+| **Steering feel** | Heavy/light = front load | [Ch 6c](../06-slip-angle/06c-feeling-slip-angle.md): Heavy/light = slip angle level |
+| **Force feedback** | Indicates weight on front tires | [Ch 6f](../06-slip-angle/06f-light-hands-technique.md): HOW to use FFB optimally |
+| **Telemetry** | Reading weight transfer in data | [Ch 10](../10-rotation-and-balance.md): Reading ROTATION in data |
+
+**The key difference:**
+- **This chapter:** FFB tells you about LOAD (is the front heavy or light?)
+- **Chapter 6c:** FFB tells you about SLIP ANGLE (is the front at optimal or past it?)
+
+Both are true—they're two aspects of the same signal! Heavy FFB means: loaded front AND near-optimal slip angle. Light FFB means: unloaded front OR past-optimal slip angle.
+
+---
+
 ## Part 1: Feeling Weight Transfer
 
 ### 1. Steering Weight
@@ -215,9 +233,9 @@ Speed:    \__/‾‾‾‾  ← Lower minimum, car unsettled
 ---
 
 **Related Chapters:**
-- [Chapter 10: G-Force Analysis](../10-g-force-analysis.md) - Deep dive on telemetry
-- [Chapter 11: Advanced Telemetry](../11-advanced-telemetry.md) - Comparative analysis
-- [Chapter 12: Mental Game](../12-mental-game.md) - Developing feel and awareness
+- [Chapter 11: G-Force Analysis](../11-g-force-analysis.md) - Deep dive on telemetry
+- [Chapter 12: Advanced Telemetry](../12-advanced-telemetry.md) - Comparative analysis
+- [Chapter 13: Mental Game](../13-mental-game.md) - Developing feel and awareness
 
 ---
 

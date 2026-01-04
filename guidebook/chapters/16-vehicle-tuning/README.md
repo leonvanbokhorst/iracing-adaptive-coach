@@ -1,4 +1,4 @@
-# Chapter 15: Vehicle Tuning
+# Chapter 16: Vehicle Tuning
 
 **Making the car work for you (when you're allowed to)**
 
@@ -25,7 +25,7 @@ Most of this chapter doesn't apply to you RIGHT NOW. The Ray FF1600 fixed setup 
 
 ## 📚 The Two Guides
 
-### [Fixed Setup Guide](15a-fixed-setup-guide.md) ⚡
+### [Fixed Setup Guide](16a-fixed-setup-guide.md) ⚡
 **~250 lines | For Ray FF1600 and other fixed series**
 
 **Read this NOW if:**
@@ -45,7 +45,7 @@ Most of this chapter doesn't apply to you RIGHT NOW. The Ray FF1600 fixed setup 
 
 ---
 
-### [Open Setup Reference](15b-open-setup-reference.md) 📖
+### [Open Setup Reference](16b-open-setup-reference.md) 📖
 **~500 lines | For future open setup series**
 
 **Read this LATER when:**
@@ -67,10 +67,10 @@ Most of this chapter doesn't apply to you RIGHT NOW. The Ray FF1600 fixed setup 
 ## Quick Navigation
 
 **I'm racing Ray FF1600 fixed setup:**
-→ Read: [Fixed Setup Guide](15a-fixed-setup-guide.md)
+→ Read: [Fixed Setup Guide](16a-fixed-setup-guide.md)
 
 **I'm racing open setup series:**
-→ Read: [Open Setup Reference](15b-open-setup-reference.md)
+→ Read: [Open Setup Reference](16b-open-setup-reference.md)
 
 **I just want brake bias tips:**
 → Read: [Quick Reference](quick-reference.md)
@@ -130,8 +130,8 @@ Faster lap time = Better driving
 
 ---
 
-**Previous Chapter:** [Chapter 14: Tire Management](../14-tire-management.md)  
-**Return to Start:** [Chapter 1: Welcome, Padawan](../01-welcome-padawan.md)
+**Next Chapter:** [Chapter 17: Spatial Awareness & Track Limits](../17-spatial-awareness-track-limits.md)  
+**Previous Chapter:** [Chapter 15: Tire Management](../15-tire-management.md)
 
 ---
 

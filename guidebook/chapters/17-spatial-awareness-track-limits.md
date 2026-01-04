@@ -1,4 +1,4 @@
-# Chapter 16: Spatial Awareness & Track Limits
+# Chapter 17: Spatial Awareness & Track Limits
 
 **Narrative Hook:**
 
@@ -272,8 +272,13 @@ _Turns out aliens aren't braver than me. They just know where the paint is."_
 
 ---
 
-**Next Chapter Preview**: [Chapter 17: TBD]
+---
+
+**Previous Chapter:** [Chapter 16: Vehicle Tuning](16-vehicle-tuning/README.md)  
+**Return to Start:** [Chapter 1: Welcome, Padawan](01-welcome-padawan.md)
 
 ---
 
 _"The track is wider than you think. The edge is farther than you fear. Go find it."_ 🎯
+
+**— Little Padawan** ✨

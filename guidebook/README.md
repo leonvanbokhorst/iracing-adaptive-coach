@@ -20,23 +20,24 @@ May the G-Force be with you.
 ### Part 2: The Core Skills
 
 - **Chapter 5: Weight Transfer - The Unseen Force** - [Chapter](chapters/05-weight-transfer/README.md)
-- **Chapter 6: The Gearbox as a Tool** - [Chapter](chapters/06-gears-and-shifting.md)
-- **Chapter 7: The Art of the Apex: An Introduction to Racing Lines** - [Chapter](chapters/07-racing-lines.md) ✨ NEW
-- **Chapter 8: The Trail Braking Technique** - [Chapter](chapters/08-trail-braking.md)
+- **Chapter 6: Slip Angle & Tire Physics - The Foundation of Everything** - [Chapter](chapters/06-slip-angle/README.md) ✨ NEW
+- **Chapter 7: The Gearbox as a Tool** - [Chapter](chapters/07-gears-and-shifting.md)
+- **Chapter 8: The Art of the Apex: An Introduction to Racing Lines** - [Chapter](chapters/08-racing-lines.md) ✨ NEW
+- **Chapter 9: The Art of Braking** - [Chapter](chapters/09-braking/README.md) ✨ NEW
 
 ### Part 3: The Advanced Arts
 
-- **Chapter 9: The Car's Conversation: Rotation and Balance** - [Chapter](chapters/09-rotation-and-balance.md)
-- **Chapter 10: Reading the Tea Leaves: G-Force Analysis** - [Chapter](chapters/10-g-force-analysis.md)
-- **Chapter 11: Beyond G-Forces: An Advanced Telemetry Deep Dive** - [Chapter](chapters/11-advanced-telemetry.md) ✨ NEW
-- **Chapter 12: The Mental Game: Flow State and Deliberate Practice** - [Chapter](chapters/12-mental-game.md) ✨ NEW
+- **Chapter 10: The Car's Conversation: Rotation and Balance** - [Chapter](chapters/10-rotation-and-balance.md)
+- **Chapter 11: Reading the Tea Leaves: G-Force Analysis** - [Chapter](chapters/11-g-force-analysis.md)
+- **Chapter 12: Beyond G-Forces: An Advanced Telemetry Deep Dive** - [Chapter](chapters/12-advanced-telemetry.md) ✨ NEW
+- **Chapter 13: The Mental Game: Flow State and Deliberate Practice** - [Chapter](chapters/13-mental-game.md) ✨ NEW
 
 ### Part 4: The Competitive Edge
 
-- **Chapter 13: Racecraft: From Hot Laps to Wheel-to-Wheel** - [Chapter](chapters/13-racecraft/README.md) ✨ NEW
-- **Chapter 14: The Long Game: Tire Management and Fuel Strategy** - [Chapter](chapters/14-tire-management.md) ✨ NEW
-- **Chapter 15: Vehicle Tuning** - [Chapter](chapters/15-vehicle-tuning/README.md) ✨ NEW
-- **Chapter 16: Spatial Awareness & Track Limits** - [Chapter](chapters/16-spatial-awareness-track-limits.md) ✨ NEW
+- **Chapter 14: Racecraft: From Hot Laps to Wheel-to-Wheel** - [Chapter](chapters/14-racecraft/README.md) ✨ NEW
+- **Chapter 15: The Long Game: Tire Management and Fuel Strategy** - [Chapter](chapters/15-tire-management.md) ✨ NEW
+- **Chapter 16: Vehicle Tuning** - [Chapter](chapters/16-vehicle-tuning/README.md) ✨ NEW
+- **Chapter 17: Spatial Awareness & Track Limits** - [Chapter](chapters/17-spatial-awareness-track-limits.md) ✨ NEW
 
 ### Appendices
 

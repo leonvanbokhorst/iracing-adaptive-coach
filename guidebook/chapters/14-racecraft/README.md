@@ -1,4 +1,4 @@
-# Chapter 13: Racecraft - From Hot Laps to Wheel-to-Wheel
+# Chapter 14: Racecraft - From Hot Laps to Wheel-to-Wheel
 
 **Welcome to the Racecraft module!**
 
@@ -25,7 +25,7 @@ The essentials in bullet form. Read this before every race.
 
 ---
 
-### [13a: Fundamentals](13a-fundamentals.md) 🎯
+### [13a: Fundamentals](14a-fundamentals.md) 🎯
 
 **~150 lines | The mindset shift & golden rules**
 
@@ -38,7 +38,7 @@ The essentials in bullet form. Read this before every race.
 
 ---
 
-### [13b: Defensive & Offensive Tactics](13b-defensive-offensive.md) ⚔️
+### [13b: Defensive & Offensive Tactics](14b-defensive-offensive.md) ⚔️
 
 **~180 lines | Attack & defense techniques**
 
@@ -50,7 +50,7 @@ The essentials in bullet form. Read this before every race.
 
 ---
 
-### [13c: The Cold Tire Contract](13c-cold-tire-contract.md) 🥶
+### [13c: The Cold Tire Contract](14c-cold-tire-contract.md) 🥶
 
 **~120 lines | Lap 1-3 race start protocol**
 
@@ -63,7 +63,7 @@ The essentials in bullet form. Read this before every race.
 
 ---
 
-### [13d: Meebewegen Strategy](13d-meebewegen.md) 🐢
+### [13d: Meebewegen Strategy](14d-meebewegen.md) 🐢
 
 **~220 lines | Strategic patience opening**
 
@@ -77,7 +77,7 @@ The essentials in bullet form. Read this before every race.
 
 ---
 
-### [13e: Race Strategy & Management](13e-race-strategy.md) 🧠
+### [13e: Race Strategy & Management](14e-race-strategy.md) 🧠
 
 **~150 lines | Incidents, strategy, drills**
 
@@ -95,11 +95,11 @@ The essentials in bullet form. Read this before every race.
 **For Complete Beginners:**
 
 1. Read [Quick Reference](quick-reference.md) (overview)
-2. Study [13a: Fundamentals](13a-fundamentals.md) (mindset)
-3. Study [13c: Cold Tire Contract](13c-cold-tire-contract.md) (race starts)
-4. Study [13b: Tactics](13b-defensive-offensive.md) (overtaking/defense)
-5. Study [13e: Strategy](13e-race-strategy.md) (incidents/management)
-6. Optional: [13d: Meebewegen](13d-meebewegen.md) (advanced strategy)
+2. Study [13a: Fundamentals](14a-fundamentals.md) (mindset)
+3. Study [13c: Cold Tire Contract](14c-cold-tire-contract.md) (race starts)
+4. Study [13b: Tactics](14b-defensive-offensive.md) (overtaking/defense)
+5. Study [13e: Strategy](14e-race-strategy.md) (incidents/management)
+6. Optional: [13d: Meebewegen](14d-meebewegen.md) (advanced strategy)
 
 **For Race Day:**
 
@@ -109,10 +109,10 @@ The essentials in bullet form. Read this before every race.
 
 **For Specific Problems:**
 
-- Lap 1 incidents? → [13c: Cold Tire Contract](13c-cold-tire-contract.md)
-- Can't overtake cleanly? → [13b: Tactics](13b-defensive-offensive.md)
-- Getting overwhelmed early? → [13d: Meebewegen](13d-meebewegen.md)
-- Don't know race strategy? → [13e: Strategy](13e-race-strategy.md)
+- Lap 1 incidents? → [13c: Cold Tire Contract](14c-cold-tire-contract.md)
+- Can't overtake cleanly? → [13b: Tactics](14b-defensive-offensive.md)
+- Getting overwhelmed early? → [13d: Meebewegen](14d-meebewegen.md)
+- Don't know race strategy? → [13e: Strategy](14e-race-strategy.md)
 
 ---
 
@@ -125,9 +125,9 @@ The essentials in bullet form. Read this before every race.
 
 **Related Guidebook Chapters:**
 
-- [Chapter 12: Mental Game](../12-mental-game.md) - Pressure management, 10-second rule
-- [Chapter 14: Tire Management](../14-tire-management.md) - Long race strategy
-- [Chapter 7: Racing Lines](../07-racing-lines.md) - Defensive lines
+- [Chapter 13: Mental Game](../13-mental-game.md) - Pressure management, 10-second rule
+- [Chapter 15: Tire Management](../15-tire-management.md) - Long race strategy
+- [Chapter 8: Racing Lines](../08-racing-lines.md) - Defensive lines
 
 ---
 
@@ -146,8 +146,8 @@ The essentials in bullet form. Read this before every race.
 
 ---
 
-**Next Chapter:** [Chapter 14: Tire Management](../14-tire-management.md)  
-**Previous Chapter:** [Chapter 12: Mental Game](../12-mental-game.md)
+**Next Chapter:** [Chapter 15: Tire Management](../15-tire-management.md)  
+**Previous Chapter:** [Chapter 13: Mental Game](../13-mental-game.md)
 
 ---
 
