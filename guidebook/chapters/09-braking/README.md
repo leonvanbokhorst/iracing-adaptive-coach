@@ -181,8 +181,8 @@ _"Braking isn't just about slowing down—it's about controlling weight, managin
 
 ## Chapter Navigation
 
-**Next Chapter:** [Chapter 11: The Car's Conversation - Rotation and Balance](../10-rotation-and-balance.md)  
-**Previous Chapter:** [Chapter 9: The Art of the Apex - Racing Lines](../08-racing-lines.md)
+**Next Chapter:** [Chapter 10: The Car's Conversation - Rotation and Balance](../10-rotation-and-balance.md)  
+**Previous Chapter:** [Chapter 8: The Art of the Apex - Racing Lines](../08-racing-lines.md)
 
 **Sub-Chapters:**
 - [09a: Braking Fundamentals - The Three Phases](09a-braking-fundamentals.md)

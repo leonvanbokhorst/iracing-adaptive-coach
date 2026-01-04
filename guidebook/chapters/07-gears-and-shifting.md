@@ -677,7 +677,7 @@ Automatically blips throttle on downshift to match RPM.
 ---
 
 **Next Chapter:** [Chapter 8: The Art of the Apex - Racing Lines](08-racing-lines.md)  
-**Previous Chapter:** [Chapter 5: Weight Transfer - The Unseen Force](05-weight-transfer/README.md)
+**Previous Chapter:** [Chapter 6: Slip Angle & Tire Physics](06-slip-angle/README.md)
 
 ---
 

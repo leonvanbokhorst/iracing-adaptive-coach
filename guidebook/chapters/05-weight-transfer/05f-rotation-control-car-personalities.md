@@ -35,6 +35,23 @@ Little Padawan shakes their head. "Master, that's **lift-off oversteer**. When y
 
 ---
 
+## 🔗 How This Chapter Relates to Others
+
+**This chapter focuses on:** How your INPUTS (pedals) cause rotation through weight transfer.
+
+| Topic | This Chapter (5f) | Related Chapter |
+|-------|------------------|-----------------|
+| **Understeer/Oversteer** | How your PEDALS create these states | [Ch 6d](../06-slip-angle/06d-slip-angle-car-balance.md): The TIRE PHYSICS behind these states |
+| **Rotation** | How to CONTROL rotation with inputs | [Ch 10](../10-rotation-and-balance.md): How to READ rotation in telemetry |
+| **Car Balance** | How to COMPENSATE for car personality | [Ch 6d](../06-slip-angle/06d-slip-angle-car-balance.md): WHY cars have different personalities |
+
+**In short:**
+- **This chapter** = The CAUSE (your inputs)
+- **Chapter 6d** = The PHYSICS (tire slip angles)
+- **Chapter 10** = The DATA (reading rotation in telemetry)
+
+---
+
 ## Part 1: The Fundamental Truth - Pedals Control Rotation
 
 ### The Beginner Misunderstanding

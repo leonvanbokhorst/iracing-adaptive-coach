@@ -102,6 +102,19 @@ This chapter is organized into focused sub-chapters for ADHD-friendly learning:
 
 ---
 
+### [06f: Light Hands Technique](06f-light-hands-technique.md)
+**The art of listening to your car**
+
+- When and why to apply light hands
+- Measuring front grip through steering feedback
+- Understanding steering torque and force balance
+- Practical examples (dive bombs, grass recovery)
+- Training the technique
+
+**Start here if:** You want to learn HOW to feel slip angle through the steering wheel.
+
+---
+
 ### [Quick Reference](quick-reference.md)
 **Monitor-mountable cheat sheet**
 
@@ -131,6 +144,7 @@ Essential slip angle concepts in bullet form for trackside reference.
 3. [06c: Feeling Slip Angle](06c-feeling-slip-angle.md) - Develop the feel
 4. [06d: Slip Angle & Car Balance](06d-slip-angle-car-balance.md) - Understand balance
 5. [06e: Managing Slip Angle](06e-managing-slip-angle.md) - Apply on track
+6. [06f: Light Hands Technique](06f-light-hands-technique.md) - Master the feel through steering
 
 ### For Track Day:
 - Read [Quick Reference](quick-reference.md) only
@@ -141,6 +155,7 @@ Essential slip angle concepts in bullet form for trackside reference.
 - "How do I know I'm at optimal?" → [06c](06c-feeling-slip-angle.md)
 - "Why am I understeering?" → [06d](06d-slip-angle-car-balance.md)
 - "How do I apply this in corners?" → [06e](06e-managing-slip-angle.md)
+- "How do I feel slip angle through the wheel?" → [06f](06f-light-hands-technique.md)
 
 ---
 
@@ -198,5 +213,6 @@ _"Every tire has a sweet spot. Find it, stay in it, and everything else becomes 
 - [06c: Feeling Slip Angle](06c-feeling-slip-angle.md)
 - [06d: Slip Angle & Car Balance](06d-slip-angle-car-balance.md)
 - [06e: Managing Slip Angle](06e-managing-slip-angle.md)
+- [06f: Light Hands Technique](06f-light-hands-technique.md)
 - [Quick Reference](quick-reference.md)
 

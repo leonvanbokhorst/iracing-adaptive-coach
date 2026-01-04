@@ -467,7 +467,7 @@ Run at 95% of optimal slip angle:
 
 ---
 
-**Next:** [Chapter 7: The Gearbox as a Tool](../../07-gears-and-shifting.md)  
+**Next:** [06f: Light Hands Technique](06f-light-hands-technique.md)  
 **Previous:** [06d: Slip Angle & Car Balance](06d-slip-angle-car-balance.md)  
 **Up:** [Chapter 6: Slip Angle & Tire Physics](README.md)
 

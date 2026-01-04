@@ -28,6 +28,24 @@ Little Padawan smiles. "Master, you DO have a slip angle meter. It's called your
 
 ---
 
+## 🔗 How This Chapter Relates to Others
+
+**This chapter focuses on:** Feeling SLIP ANGLE through force feedback.
+
+| Topic | This Chapter (6c) | Related Chapter |
+|-------|------------------|-----------------|
+| **Force feedback** | FFB indicates slip angle level | [Ch 5d](../05-weight-transfer/05d-feeling-reading.md): FFB indicates front load |
+| **Light hands** | Theory of sensing slip angle | [Ch 6f](06f-light-hands-technique.md): TECHNIQUE for optimal sensing |
+| **Tire sounds** | Auditory slip angle cues | This chapter (no overlap) |
+
+**The key difference:**
+- **Chapter 5d:** FFB tells you about LOAD (is the front heavy or light?)
+- **This chapter:** FFB tells you about SLIP ANGLE (is the front at optimal or past it?)
+
+Both are connected! When load increases → tire can handle more slip angle → FFB is strong. When load decreases OR slip angle goes past optimal → FFB gets lighter.
+
+---
+
 ## Part 1: The Primary Sensor - Force Feedback
 
 ### Your Steering Wheel Tells the Story

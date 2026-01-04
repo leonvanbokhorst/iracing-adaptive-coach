@@ -19,6 +19,23 @@ Little Padawan pulls up a 6DOF visualization. "Master, the car doesn't just move
 
 ---
 
+## 🔗 How This Chapter Relates to Others
+
+**This chapter focuses on:** How to READ and DIAGNOSE rotation in telemetry data.
+
+| Topic | This Chapter (10) | Related Chapter |
+|-------|------------------|-----------------|
+| **Understeer/Oversteer** | How to SEE it in yaw rate data | [Ch 5f](../05-weight-transfer/05f-rotation-control-car-personalities.md): How your INPUTS cause it |
+| **Slip Angle** | Reading balance through rotation data | [Ch 6d](../06-slip-angle/06d-slip-angle-car-balance.md): The PHYSICS behind balance |
+| **Weight Transfer** | How forces CREATE rotation | [Ch 5](../05-weight-transfer/README.md): The physics of weight transfer |
+
+**In short:**
+- **Chapter 5/5f** = The CAUSE (inputs → weight transfer → rotation)
+- **Chapter 6d** = The PHYSICS (slip angles determine behavior)
+- **This chapter** = The DATA (reading rotation in telemetry)
+
+---
+
 ## Weight Transfer vs. Rotation
 
 ### The Relationship

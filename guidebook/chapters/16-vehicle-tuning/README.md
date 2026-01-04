@@ -130,8 +130,8 @@ Faster lap time = Better driving
 
 ---
 
-**Previous Chapter:** [Chapter 15: Tire Management](../15-tire-management.md)  
-**Return to Start:** [Chapter 1: Welcome, Padawan](../01-welcome-padawan.md)
+**Next Chapter:** [Chapter 17: Spatial Awareness & Track Limits](../17-spatial-awareness-track-limits.md)  
+**Previous Chapter:** [Chapter 15: Tire Management](../15-tire-management.md)
 
 ---
 

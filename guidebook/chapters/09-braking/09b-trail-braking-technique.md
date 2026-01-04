@@ -21,6 +21,21 @@ Little Padawan leans forward. "Master, you're releasing the brakes TOO EARLY. Th
 
 ---
 
+## 🔗 How This Chapter Relates to Others
+
+**This chapter is the DEFINITIVE trail braking guide.** Other chapters mention trail braking from different angles:
+
+| Chapter | Trail Braking Perspective |
+|---------|--------------------------|
+| **This chapter (9b)** | **The TECHNIQUE** - How to physically do it |
+| [Ch 5c](../05-weight-transfer/05c-lateral-combined.md) | The WEIGHT TRANSFER - Why it works (physics) |
+| [Ch 6e](../06-slip-angle/06e-managing-slip-angle.md) | The SLIP ANGLE - How it manages front grip |
+| [Ch 6f](../06-slip-angle/06f-light-hands-technique.md) | The FEEL - Light hands during trail braking |
+
+**Start here** for the practical "how to trail brake" guide. Reference the other chapters for deeper understanding of WHY it works.
+
+---
+
 ## What is Trail Braking?
 
 ### The Simple Definition

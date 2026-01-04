@@ -83,6 +83,29 @@ Action: Big correction needed
 
 **KEY RULE:** When steering goes LIGHT, you've gone PAST optimal!
 
+### 🤲 Light Hands Technique
+
+```
+WHEN TO USE:
+✓ Initial turn-in (CRITICAL!)
+✓ Trail braking phase
+✓ Power application on exit
+✓ Curbs, bumps, crests
+✓ Emergency corrections
+
+THE PRINCIPLE:
+→ Apply only the steering torque you WANT
+→ Let force feedback GUIDE you, don't override it
+→ Light hands ≠ Limp hands (always some guiding force)
+
+THE GOAL:
+→ Feel slip angle changes in REAL-TIME
+→ React BEFORE the car is out of shape
+→ Let the car self-correct through FFB
+```
+
+**See:** [06f: Light Hands Technique](06f-light-hands-technique.md)
+
 ---
 
 ## ⚖️ SLIP ANGLE & CAR BALANCE
@@ -263,6 +286,7 @@ Run at 95% optimal (4.5° vs 5°)
 - [06c: Feeling Slip Angle](06c-feeling-slip-angle.md)
 - [06d: Slip Angle & Car Balance](06d-slip-angle-car-balance.md)
 - [06e: Managing Slip Angle](06e-managing-slip-angle.md)
+- [06f: Light Hands Technique](06f-light-hands-technique.md)
 - [Chapter 6: Main Chapter](README.md)
 
 ---

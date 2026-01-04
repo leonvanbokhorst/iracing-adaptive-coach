@@ -33,6 +33,23 @@ Master Lonn is mid-corner at Rudskogen Turn 2. The car pushes wide.
 
 ---
 
+## 🔗 How This Chapter Relates to Others
+
+**This chapter focuses on:** The TIRE PHYSICS behind understeer/oversteer (slip angle perspective).
+
+| Topic | This Chapter (6d) | Related Chapter |
+|-------|------------------|-----------------|
+| **Understeer/Oversteer** | WHY it happens (tire slip angles) | [Ch 5f](../05-weight-transfer/05f-rotation-control-car-personalities.md): How your INPUTS create these states |
+| **Car Balance** | The physics of front vs rear slip | [Ch 10](../10-rotation-and-balance.md): How to SEE balance in telemetry (yaw rate) |
+| **Fixing Balance** | Reduce steering/adjust inputs | [Ch 16](../16-vehicle-tuning/README.md): Setup changes to fix balance |
+
+**In short:**
+- **Chapter 5f** = The CAUSE (your inputs create weight transfer)
+- **This chapter** = The PHYSICS (slip angles determine balance)
+- **Chapter 10** = The DATA (reading balance in telemetry)
+
+---
+
 ## Part 1: The Slip Angle Definition of Balance
 
 ### The Traditional (Wrong) Definitions
