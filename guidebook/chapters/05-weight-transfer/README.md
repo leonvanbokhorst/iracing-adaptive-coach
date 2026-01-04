@@ -85,6 +85,21 @@ The essentials in bullet form. Read this before every session.
 
 ---
 
+### [05f: Rotation Control & Car Personalities](05f-rotation-control-car-personalities.md) 🎯
+**~450 lines | Rotation management & car adaptation**
+
+- How pedals and steering interfere with each other
+- Using weight transfer to control rotation
+- Common beginner mistakes (lift-off oversteer, panic braking spins)
+- Car personalities (oversteer, neutral, understeer)
+- Pedals as compensating force
+- Micro-adjustments within braking/throttle
+- Centripetal circuit practice drill
+
+**Start here if:** You want to understand WHY you spin, or need to adapt to different car characters.
+
+---
+
 ## 🎓 Learning Path
 
 **For Complete Beginners:**
@@ -94,6 +109,7 @@ The essentials in bullet form. Read this before every session.
 4. Study [05c: Lateral & Combined](05c-lateral-combined.md) (trail braking)
 5. Study [05d: Feeling & Reading](05d-feeling-reading.md) (feedback)
 6. Study [05e: Techniques & Practice](05e-techniques-practice.md) (application)
+7. Study [05f: Rotation Control & Car Personalities](05f-rotation-control-car-personalities.md) (mastery)
 
 **For Track Day:**
 - Read [Quick Reference](quick-reference.md) only (60 seconds)
@@ -105,6 +121,8 @@ The essentials in bullet form. Read this before every session.
 - Understeering mid-corner? → [05c: Lateral & Combined](05c-lateral-combined.md)
 - Can't feel what car is doing? → [05d: Feeling & Reading](05d-feeling-reading.md)
 - Need practice drills? → [05e: Techniques & Practice](05e-techniques-practice.md)
+- Keep spinning unexpectedly? → [05f: Rotation Control & Car Personalities](05f-rotation-control-car-personalities.md)
+- Need to adapt to different car? → [05f: Rotation Control & Car Personalities](05f-rotation-control-car-personalities.md)
 
 ---
 
@@ -126,7 +144,7 @@ The essentials in bullet form. Read this before every session.
 ## 📊 Chapter Stats
 
 **Original file:** 997 lines (longest chapter in guidebook!)  
-**Refactored structure:** 5 micro-chapters (~180-280 lines each)  
+**Refactored structure:** 6 micro-chapters (~180-450 lines each)  
 **Quick reference:** 60 lines (track day cheat sheet)
 
 **Why refactored?**
@@ -134,6 +152,7 @@ The essentials in bullet form. Read this before every session.
 - Each chapter = one focused study session
 - Quick reference for track day
 - Massively reduced cognitive load
+- Progressive learning path (theory → application → mastery)
 
 ---
 

@@ -80,6 +80,22 @@ Total Force = √(Braking² + Cornering²)
 - ❌ **Sudden steering inputs** → Outside tires overloaded, slide
 - ❌ **Ignoring inside rear** → Early throttle = wheelspin, no drive
 - ❌ **Fighting the car** → Constant corrections = weight oscillations = slow
+- ❌ **Lift-off when scared** → Weight forward, MORE rotation = spin!
+- ❌ **Panic braking mid-corner** → Adds rotation, overloads front = spin
+
+---
+
+## Rotation Control (Key Concept!)
+
+**Pedals control rotation, not just speed:**
+
+- **Brake (weight forward)** → MORE rotation (front grips, rear loose)
+- **Throttle (weight back)** → LESS rotation (rear grips, front lifts)
+- **Coast (neutral)** → Baseline rotation
+
+**Common beginner mistake:** Lifting when scared = shifts weight forward = adds rotation = SPIN!
+
+**The fix:** Stay committed OR brake earlier next time. Lifting mid-corner is the WORST option.
 
 ---
 
