@@ -117,7 +117,7 @@ The essentials in bullet form. Read this before every session.
 
 **Related Guidebook Chapters:**
 - [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md) - Engine braking technique
-- [Chapter 8: Trail Braking](../08-trail-braking.md) - Applying weight transfer
+- [Chapter 8: The Art of Braking](../08-braking/README.md) - Applying weight transfer
 - [Chapter 9: Rotation & Balance](../09-rotation-and-balance.md) - Car response to weight transfer
 - [Chapter 10: G-Force Analysis](../10-g-force-analysis.md) - Reading weight transfer in data
 

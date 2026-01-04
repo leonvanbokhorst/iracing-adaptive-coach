@@ -466,7 +466,7 @@ Brake Point → Heavy braking → Turn-In Point → Trail brake → Apex → Exi
 **Related Chapters:**
 - [Chapter 5: Weight Transfer](../05-weight-transfer/README.md) - How elevation and camber affect weight transfer
 - [Chapter 7: Racing Lines](../07-racing-lines.md) - Applying apex theory to line optimization
-- [Chapter 8: Trail Braking](../08-trail-braking.md) - Using braking zones effectively
+- [Chapter 8: The Art of Braking](../08-braking/README.md) - Using braking zones effectively
 
 ---
 

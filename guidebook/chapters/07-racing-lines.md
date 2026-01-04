@@ -460,7 +460,7 @@ That 3.8 m/s difference compounds:
 
 ---
 
-**Next Chapter:** [Chapter 8: The Trail Braking Technique](08-trail-braking.md)  
+**Next Chapter:** [Chapter 8: The Art of Braking](08-braking/README.md)  
 **Previous Chapter:** [Chapter 6: The Gearbox as a Tool](06-gears-and-shifting.md)
 
 ---

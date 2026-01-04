@@ -362,7 +362,7 @@ Every input shows up on this circle. Master smooth weight transfer, and the lap 
 
 **Continue learning:**
 - [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md) - Engine braking technique
-- [Chapter 8: Trail Braking](../08-trail-braking.md) - Deep dive on trail braking
+- [Chapter 8: The Art of Braking](../08-braking/README.md) - Deep dive on braking and trail braking
 - [Chapter 9: Rotation & Balance](../09-rotation-and-balance.md) - Car response to weight transfer
 
 **Or return to:** [Chapter 5 Overview](README.md)

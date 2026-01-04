@@ -22,7 +22,7 @@ May the G-Force be with you.
 - **Chapter 5: Weight Transfer - The Unseen Force** - [Chapter](chapters/05-weight-transfer/README.md)
 - **Chapter 6: The Gearbox as a Tool** - [Chapter](chapters/06-gears-and-shifting.md)
 - **Chapter 7: The Art of the Apex: An Introduction to Racing Lines** - [Chapter](chapters/07-racing-lines.md) ✨ NEW
-- **Chapter 8: The Trail Braking Technique** - [Chapter](chapters/08-trail-braking.md)
+- **Chapter 8: The Art of Braking** - [Chapter](chapters/08-braking/README.md) ✨ NEW
 
 ### Part 3: The Advanced Arts
 

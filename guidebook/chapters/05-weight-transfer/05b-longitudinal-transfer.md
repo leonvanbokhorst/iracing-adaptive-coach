@@ -207,7 +207,7 @@ ACCELERATION (Hard)
 
 **Related Chapters:**
 - [Chapter 6: Gearbox as Tool](../06-gears-and-shifting.md) - Engine braking technique
-- [Chapter 8: Trail Braking](../08-trail-braking.md) - Combining brake and steering
+- [Chapter 8: The Art of Braking](../08-braking/README.md) - Combining brake and steering
 
 ---
 

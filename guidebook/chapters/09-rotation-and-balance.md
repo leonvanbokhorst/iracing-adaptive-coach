@@ -555,7 +555,7 @@ All three traces are **smooth**. Slow laps? All three are **messy**.
 ---
 
 **Next Chapter:** [Chapter 10: Reading the Tea Leaves - G-Force Analysis](10-g-force-analysis.md)  
-**Previous Chapter:** [Chapter 8: The Trail Braking Technique](08-trail-braking.md)
+**Previous Chapter:** [Chapter 8: The Art of Braking](08-braking/README.md)
 
 ---
 
