@@ -311,6 +311,22 @@
       "gap_to_optimal": 0.016,
       "focus_area": "Back-to-Back Victory - Cold Tire Contract Consistency + Racecraft Refinement",
       "notes": "WEEK 04 SESSION 8 - BACK-TO-BACK VICTORY. Quali P6 (57.606s) → Finish P1 (race P6→P1 = fourth consecutive cold tire contract victory). Driver self-report: 'Felt more routine. Happy to find the spots where overtaking is possible, but not a lot on this track.' Cold Tire Contract executed perfectly: survived L1-L3 chaos, deployed L7 attack (56.955s fastest lap in traffic—only 0.283s off practice PB 56.238s). Race consistency σ 2.23s (includes cold lap) → drops to ~1.02s for warm laps (L3-L15). S2 (Esses) elite σ 0.14s in traffic. S4 (T6-T7 flow) elite σ 0.14s. 100% CLEAN LAP RATE (15/15 laps), ZERO INCIDENTS. Chapter 16 spatial confidence validated: ran entire race in clean racing without losing nerve or touching walls. Meebewegen strategy deployed: didn't fight early chaos, picked surgical overtake spots (not 'flashy', per driver—i.e., disciplined, not desperate). Cold Tire Contract win streak now 3/3 (Winton P11→P1, Lime Rock P5→P1, Lime Rock P6→P1). Gap to theoretical optimal 0.016s (beat optimal by combining best sector transitions). Pressure brake authority unlocked: expected ~77-78% (vs practice 75.8%). Victory #5 of season. 'Routine' = professional execution. PERFECT RACE: P1, no incidents, consistent pace, surgical racecraft. Garage61: 01KE45PFNATVW3ZX7AKTJ73H82."
+    },
+    {
+      "date": "2026-01-04",
+      "time": "13:32 CET",
+      "session_type": "AI Race (Offline - Hard) - P2 (Aggression Experiment)",
+      "track": "Lime Rock Park - Grand Prix",
+      "best_lap": 56.655,
+      "consistency_sigma": 0.39,
+      "clean_laps": 12,
+      "total_laps": 15,
+      "incidents": 3,
+      "finish_position": "P2",
+      "theoretical_optimal": 56.281,
+      "gap_to_optimal": 0.374,
+      "focus_area": "Aggression Experiment - Testing limits of patient strategy",
+      "notes": "WEEK 04 SESSION 9 - THE AGGRESSION EXPERIMENT. Finished P2 (first non-victory at Lime Rock). Cold Tire Contract win streak ends at 3. Driver deliberately tested more aggressive approach: 'I made it more challenging by being a bit more aggressive. But it didn't pay off. Got kissed on my behind after I passed a guy. Being strategic like a ninja is way more effective and calm.' Best race lap of the week (56.655s) proves pace is there. S1 variance exploded to 0.607s (Big Bend = war zone). S2/S4 remained elite (0.186s/0.215s). Key insight: aggression experiment validates Meebewegen by contrast. 4 races with patience = 4 wins. 1 race with aggression = P2 + punted. Driver self-diagnosed correctly: ninja > barbarian. Fastest lap came Lap 11 AFTER chaos settled. Pace doesn't need aggression—it needs SPACE. Garage61: 01KE4FKZTVZXYFPX6AE8DC1JXC."
     }
   ],
   "insights": [
@@ -340,15 +356,16 @@
     "Brake Authority Under Pressure: Practice max brake 75.8% → Race max brake 77.7%. Pressure situations (defending, attacking, traffic) unlock higher commitment levels than solo practice. This suggests the mental limiter (fear/caution) relaxes when focused on competition vs lap time. Race conditions can reveal true capability.",
     "Chapter 16 Race Validation: Spatial awareness confidence ('knowing where edges are') built in Practice 03 (edge mapping drill) held under race conditions. Driver self-assessment: 'Felt confident and smooth.' The work doesn't evaporate under pressure—it becomes the foundation for calm, fast racing. S2 (Esses) σ 0.096s in traffic proves precision holds even in tight sections with opponents nearby.",
     "Routine = Professional (NEW): Driver's post-race comment 'Felt more routine' is not diminishing praise. It's the opposite. It means the driver executed a proven system (Cold Tire Contract) without panic, drama, or overthinking. Indicates maturity in racecraft. Non-routine wins involve heroics. Routine wins involve repetition of proven strategy. Growth.",
-    "Racecraft vs Raw Pace (NEW): Race 02 fastest lap 56.955s is 0.283s slower than practice PB 56.238s. The gap is entirely due to traffic/positioning/strategy, not loss of pace. This means racecraft (reading overtakes, positioning for passes, defending) is being deployed at the cost of raw lap time. This is correct in races. Validates that driver understands the difference between 'hot-lapping solo' and 'racing with others.'"
+    "Racecraft vs Raw Pace (NEW): Race 02 fastest lap 56.955s is 0.283s slower than practice PB 56.238s. The gap is entirely due to traffic/positioning/strategy, not loss of pace. This means racecraft (reading overtakes, positioning for passes, defending) is being deployed at the cost of raw lap time. This is correct in races. Validates that driver understands the difference between 'hot-lapping solo' and 'racing with others.'",
+    "Meebewegen Validated by Contrast (Race 03): Driver ran deliberate aggression experiment. Results: 4 races with patience = 4 wins (P1, P1, P1, P1). 1 race with aggression = P2 + rear-ended. Driver self-diagnosis: 'Being strategic like a ninja is way more effective and calm.' The fastest lap (56.655s) came on Lap 11 AFTER chaos settled. Pace doesn't need aggression—it needs SPACE. This is now proven from both directions: patience works, aggression doesn't.",
+    "S1 (Big Bend) as Conflict Zone: When racing aggressively, S1 variance exploded (0.607s vs S2's 0.186s). Big Bend is where passes happen at Lime Rock, and forcing the issue there costs rhythm and consistency. The aggression tax is paid in S1."
   ],
   "next_steps": [
-    "Continue AI Races (Week 04 Lime Rock): Victory #2 achieved (P6→P1 = 56.955s). Cold Tire Contract now 3/3 wins (Jefferson, Winton x2, Lime Rock x2). Strategy locked in. Continue collecting race consistency data. Target: at least one more Lime Rock AI race (Race 03) to solidify dominance before moving to Week 05 track.",
-    "Race Strategy VALIDATED (UPDATED): Cold Tire Contract v2.0 (3/3 wins now), Meebewegen (proven across 3 wins), Exit Speed Weapon (T7 overtakes repeatable). This system is bulletproof. No changes needed. Race consistency observed: Practice σ 0.37s → Race σ ~1.02s (clean laps). 0.65s delta is traffic/positioning penalty, not technique failure.",
-    "Post-Second-Race Analysis COMPLETE: ✅ Back-to-back victories (P5→P1, P6→P1). ✅ Consistency transfers (S2/S4 σ 0.14s in traffic = elite precision holds). ✅ Cold Tire Contract repeatable (L1-L3 survival, L4+ attack formula works). ✅ Racecraft improved (87% clean lap rate, only 2 incidents). Continue building sample size.",
-    "Gong Gap Closure (DEFERRED until Week 05+): 0.541s gap remains focus area. Week 04 mission: defend Lime Rock title (Race 03 target: 3/3 wins). Then move to Week 05 with proven playbook. Gap closure techniques will be applied at new track using Chapter 16 drill framework.",
-    "Next Track Prep (Week 05): Apply Chapter 16 Edge Mapping Drill day 1 of new track (proven 3-hour theory-to-breakthrough cycle). Deploy Cold Tire Contract from Race 1. Use 'Exit Speed = Overtaking Weapon' principle: identify which corner exits onto longest straight = pass zone.",
-    "Victory Streak Goal: 5 wins in 4 weeks so far (Jefferson, Winton x2, Lime Rock x2). Can we make it 6 in a row? Week 04 Lime Rock Race 03 (target: P1). Then Week 05 unknown track. Momentum building."
+    "STRATEGY REINFORCEMENT (Post-Aggression Experiment): Race 03 proved aggression doesn't beat strategy. Return to Cold Tire Contract + Meebewegen discipline for remaining Lime Rock races. The data is conclusive: 4 patient races = 4 wins, 1 aggressive race = P2 + punted.",
+    "Race Strategy DOUBLE-VALIDATED: Cold Tire Contract v2.0 (3/4 wins), Meebewegen (validated by contrast in Race 03). The aggression experiment was valuable - now we know what NOT to do. Ninja approach is bulletproof. Aggression is not.",
+    "Pace Is Real (Race 03 Confirmation): Best race lap 56.655s (0.417s off practice PB 56.238s) proves speed transfers to racing. The issue in Race 03 wasn't pace—it was strategy deviation. Fix: return to patient ninja mode.",
+    "Next Track Prep (Week 05): Apply proven playbook from Day 1. Chapter 16 Edge Mapping Drill. Cold Tire Contract from Race 1. Meebewegen always. Use 'Exit Speed = Overtaking Weapon' principle: identify which corner exits onto longest straight = pass zone.",
+    "Victory Count: 5 wins in 4 weeks (Jefferson, Winton x2, Lime Rock x2). Race 03 P2 is a data point, not a failure. Aggression experiment complete—don't repeat it. Return to winning formula."
   ],
   "guidebook_updates": [
     {
