@@ -13,8 +13,10 @@
     "license_class": "B",
     "division_current": 8,
     "series": "Formula 1600 Rookie Series",
-    "position_current": 459,
-    "total_drivers": 15787
+    "position_current": 209,
+    "total_drivers": 21567,
+    "position_percentile": "Top 1.0%",
+    "week03_final": true
   },
   "focus": "Week 04: S3 Consistency (The Uphill). Trust the compression.",
   "goal": "Week 04: Sub-56s Consistent Pace. S3 σ < 0.4s.",
