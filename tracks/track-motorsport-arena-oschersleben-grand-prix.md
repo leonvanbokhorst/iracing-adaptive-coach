@@ -28,30 +28,34 @@ The layout looks straightforward: no wild elevation changes, no Spa-style compre
 
 ## Sector Definitions (iRacing)
 
-| Sector | Approx Time | % of Lap | Corners                                 | Key Challenge                          |
-| :----- | :---------- | :------- | :-------------------------------------- | :------------------------------------- |
-| **S1** | ~34.5s      | 36%      | Hotel (T1), Hasseroeder, Triple         | Heavy braking into T1, technical flow  |
-| **S2** | ~32.9s      | 36%      | T7, Schikane, McDonald's, Stadiongerade | Chicane precision, exit speed          |
-| **S3** | ~26.4s      | 28%      | Shell, Amman, Bauer, Zeppelin           | Fast flowing rhythm, final corner exit |
+| Sector | Approx Time | % of Lap | Corners                              | Key Challenge                          |
+| :----- | :---------- | :------- | :----------------------------------- | :------------------------------------- |
+| **S1** | ~34.5s      | 36%      | T1-T3 (Hotel → Hasseroeder)          | Heavy braking into T1, technical flow  |
+| **S2** | ~32.9s      | 36%      | T4-T10 (Triple → McDonald's)         | Chicane precision, exit speed          |
+| **S3** | ~26.4s      | 28%      | T11-T14 (Shell → Zeppelin)           | Fast flowing rhythm, final corner exit |
 
 > **Note:** S1 contains the chaos magnet (T1 Hotel). Make it boring on purpose. S2 has the signature McDonald's chicane—boring tidy = fast.
 
 ---
 
-## Corner Reference
+## Corner Reference (VRS 14-Turn Layout)
 
-| #      | Track % | Name           | Notes                                              |
-| :----- | :------ | :------------- | :------------------------------------------------- |
-| **1**  | 10-21%  | Hotel          | Chaos magnet. Heavy braking on curved approach. 🔥 |
-| **2**  | 25-32%  | Hasseroeder    | Second corner, sets up Triple                      |
-| **3**  | 37-46%  | Triple         | Three-corner complex, momentum critical            |
-| **4**  | 46-53%  | Turn 7         | Exit sets up chicane                               |
-| **5**  | 54-58%  | Schikane       | Lead-in to McDonald's                              |
-| **6**  | 58-63%  | McDonald's     | THE signature corner. Square it.                   |
-| **7**  | 73-77%  | Shell Kurve    | Fast left, starts S3                               |
-| **8**  | 77-81%  | Amman Kurve    | Flow right                                         |
-| **9**  | 84-88%  | Bauer Kurve    | Tighter right                                      |
-| **10** | 89-95%  | Zeppelin Kurve | Final corner onto straight 🔥                      |
+| #      | Track % | Name            | Notes                                              |
+| :----- | :------ | :-------------- | :------------------------------------------------- |
+| **1**  | 10-14%  | Hotel Entry     | Chaos magnet. Heavy braking on curved approach. 🔥 |
+| **2**  | 15-21%  | Hotel Exit      | Rotation point, sets up run to T3                  |
+| **3**  | 25-32%  | Hasseroeder     | Second corner complex                              |
+| **4**  | 36-40%  | Triple 1        | First of three-corner complex                      |
+| **5**  | 41-44%  | Triple 2        | Middle of complex, momentum critical               |
+| **6**  | 45-48%  | Triple 3        | Exit of complex                                    |
+| **7**  | 49-53%  | Hairpin         | Tight left, sets up chicane run                    |
+| **8**  | 54-56%  | Schikane Entry  | Lead-in to McDonald's                              |
+| **9**  | 57-59%  | Schikane Exit   | Square it for T10                                  |
+| **10** | 60-63%  | McDonald's      | THE signature corner. Square it.                   |
+| **11** | 73-77%  | Shell Kurve     | Fast left, starts S3                               |
+| **12** | 78-81%  | Amman Kurve     | Flow right                                         |
+| **13** | 84-88%  | Bauer Kurve     | Tighter right                                      |
+| **14** | 90-95%  | Zeppelin Kurve  | Final corner onto straight 🔥                      |
 
 ---
 
