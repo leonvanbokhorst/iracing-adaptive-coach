@@ -542,6 +542,67 @@ Learn correct gear for each corner (trial and error).
 
 Winton T5: Try downshift WITHOUT brake → feels smoother → IS faster! ✅
 
+### Mistake 6: Copying Alien Gear Choices Too Early
+
+**The Principle:**
+"Gear choice is a multiplier, not a fix."
+
+**What happens:**
+
+- You watch VRS/alien use 1st gear in a tricky corner
+- You copy it thinking "lower gear = more control"
+- Your corner gets WORSE, not better
+
+**Why?**
+
+Lower gears **amplify** whatever you're doing:
+- ✅ Good technique + low gear = MORE rotation, MORE control
+- ❌ Sloppy technique + low gear = MORE snap, MORE instability
+
+**The Physics:**
+In 1st gear:
+- Engine braking is STRONGEST (highest RPM)
+- Throttle response is SHARPEST (most torque)
+- Mistakes are MAGNIFIED (faster weight transfer)
+
+If your throttle/steering timing is sloppy, 1st gear will punish you harder than 2nd.
+
+**Master Lonn's Discovery (Lime Rock T5, Week 04):**
+
+Observed Gong using 1st gear at T5 while you were snapping on throttle over the kerb.
+
+**The Analysis:**
+- Copying Gong's 1st gear would INCREASE snap risk
+- First priority: Fix throttle/steer sequencing in 2nd
+- Once clean and consistent in 2nd, THEN experiment with 1st
+
+**The Rule:**
+Earn the fancy gear after you can repeat the corner cleanly in the stable gear.
+
+**Progression:**
+```
+Stage 1: No reds, no spins in 2nd gear (stable)
+Stage 2: Consistent exits in 2nd (σ < 0.5s)
+Stage 3: NOW try 1st gear (you've earned it)
+```
+
+**How to Recognize This Mistake:**
+
+- You copy an alien's gear choice
+- Your times get WORSE (not better)
+- You're spinning more than before
+- The corner feels more "violent"
+
+**The Fix:**
+
+Go back to the higher, more forgiving gear. Master the sequencing first. The lower gear will be waiting when you're ready.
+
+→ **See:** Week 04, Session 04 (Lime Rock) for the VRS comparison  
+→ **See:** Chapter 05e for kerb/crest throttle sequencing
+
+**Key Takeaway:**
+Don't copy gear choices until your technique deserves them. Gear selection multiplies your inputs—both good and bad.
+
 ---
 
 ## Part 8: Advanced Techniques

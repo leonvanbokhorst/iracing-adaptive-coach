@@ -171,6 +171,64 @@ Laser focus on ONE thing = actual improvement.
 
 One focus. Real results.
 
+#### Step 5: Racing Cues (ADHD-Proof Execution)
+
+**The Problem:**
+Complex technique explanations don't work in the heat of the moment. ADHD brains need **simple, memorable cues** that trigger the right action.
+
+**The Solution:**
+One-phrase cues that capture the essence of proper sequencing.
+
+---
+
+**CUE: "Hands Quiet → Foot Loud"**
+
+**The Principle:**
+If your hands aren't calm yet (still steering), your throttle foot is NOT ALLOWED to be brave.
+
+**When to Use:**
+
+- Corner exits with kerbs/crests
+- Situations where you've been snapping on throttle
+- Any corner where you feel tempted to "punch it"
+
+**The Sequence:**
+
+```
+Hands steering = Foot gentle (10-30%)
+Hands half = Foot building (40-70%)
+Hands quiet = Foot loud (100%)
+```
+
+**What it Prevents:**
+
+- ❌ Snap oversteer on exit
+- ❌ Stab/lift/stab throttle pattern
+- ❌ Power application before car is ready
+
+**Master Lonn's Discovery (Lime Rock T5, Week 04):**
+
+> "I keep snapping on the throttle after the first kerb when I'm still steering."
+
+**The Fix:** The "hands quiet → foot loud" cue prevented throttle application until steering was unwinding. S3 σ dropped from 1.07s to 0.42s.
+
+**Practice Application:**
+Say "hands quiet, foot loud" out loud during corner exits for one full session. The verbal cue reinforces the sequence until it becomes automatic.
+
+→ **See:** Chapter 05e (Kerb & Crest Technique) for the physics  
+→ **See:** Week 04, Practice 03 (Lime Rock T5) for the data
+
+---
+
+**Why Cues Work for ADHD:**
+
+- **Short** = fits in working memory
+- **Rhythmic** = easy to recall under pressure
+- **Physical** = connects thought to action
+- **Binary** = no complex decision tree
+
+**Build your own cues:** When you discover what works, compress it into a 3-5 word phrase.
+
 ---
 
 ## Part 2: Deliberate Practice
