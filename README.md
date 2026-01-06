@@ -13,11 +13,11 @@
 | **Best Lap**        | 50.768s                                         | 1:28.508                                        | 1:25.710                                     | **56.238s** ⭐                                  |
 | **PB Improvement**  | -0.67s                                          | -1.78s                                          | -1.125s                                      | -0.181s                                         |
 | **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | **0.197s** (Race!)                              |
-| **Race Result**     | P1 (AI)                                         | -                                               | P1 (Official)                                | **P3 (Official) 🏆**                            |
+| **Race Result**     | P1 (Official)                                   | -                                               | P1 (Official)                                | **P3 (Official) 🏆**                            |
 | **iRating**         | 1396                                            | 1455                                            | 1601                                         | **1672**                                        |
 | **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | **Validated** ✅                                |
 
-📊 **Season Total**: 5 Victories | 1 Podium | 1672 iR (+434) | 94 Championship Pts (Week 04)
+📊 **Season Total**: 2 Wins (22%) | 8 Top 5s (89%) | 329 Championship Pts | 1672 iR (+434) | 16x in 9 Starts
 
 ---
 
@@ -173,15 +173,20 @@ The proven race strategy:
 
 ## Season Summary
 
-| Metric             | Value                                         |
-| :----------------- | :-------------------------------------------- |
-| **iRating**        | 1238 → **1672** (+434)                        |
-| **Victories**      | 5 (2 Official, 3 AI)                          |
-| **Podiums**        | 1 (Official P3, SoF 2035)                     |
-| **Championship**   | 94 pts (Week 04)                              |
-| **SR**             | → **3.64** (B-class, Rookie series = no MPR)  |
-| **Key Discovery**  | Chapter 16: 3 hours from theory to beating #1 |
-| **Key Validation** | Meebewegen works in Top Split official races  |
+| Metric              | Value                                         |
+| :------------------ | :-------------------------------------------- |
+| **iRating**         | 1238 → **1672** (+434)                        |
+| **Division**        | 8                                             |
+| **Official Starts** | 9                                             |
+| **Wins**            | 2 (22%)                                       |
+| **Poles**           | 2 (22%)                                       |
+| **Top 5s**          | 8 (89%)                                       |
+| **Championship**    | 329 pts                                       |
+| **Laps**            | 93 total / 23 led                             |
+| **Incidents**       | 16x (1.78x per race avg)                      |
+| **SR**              | → **3.64** (B-class, Rookie series = no MPR)  |
+| **Key Discovery**   | Chapter 16: 3 hours from theory to beating #1 |
+| **Key Validation**  | Meebewegen works in Top Split official races  |
 
 ---
 
