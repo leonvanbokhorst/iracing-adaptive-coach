@@ -4,23 +4,42 @@ Read .cursor/rules/coaching-handbook.mdc to understand the coaching process.
 
 Find in the /data/ folder the session files for the week.
 
-1. The session file named like this: Garage 61 - [session kind] - Export - [date time].csv
-2. the fastest lap and of that session named like this: Garage 61 - Lonn Ponn - [car name] - [circuit name] - [lap time] - [code].csv
-3. Use the 'Started at' date and timecolumn and read the first row of the session file to get the date and time of the session.
-4. Rename the session file like this: [date time] - [circuit name] - [session kind].csv
-5. Rename the telemetry file like this: [date time] - [circuit name] - [session kind] - [car name] - [lap time] - [code].csv
-6. Name the session file like this: [date time] - [circuit name] - [session kind].md
-7. Take the learning memory.json file into account to get the current focus and goal.
-8. Check if track data exists in tracks/track-data/ for corner-specific analysis.
-9. After writing the session file, update the learning memory.json file with the new findings.
-10. **NEW: Check for guidebook updates** - Did this session discover a principle worth codifying? (See .cursor/rules/guidebook-workflow.mdc)
-11. After analyzing the session move the session and telemetry files to the /data/processed/ folder.
+## File Discovery
 
-Important: If you don't find the session data files, ask the user to export the session files. 😌
+### Required Files (G61)
+1. The session file named like this: Garage 61 - [session kind] - Export - [date time].csv
+2. The fastest lap telemetry named like this: Garage 61 - Lonn Ponn - [car name] - [circuit name] - [lap time] - [code].csv
+
+### Optional Files (IBT - Deep Technique Analysis)
+3. **NEW: IBT telemetry file** named like: `raygr22_[track name] [date time].ibt`
+   - If found, run `uv run python tools/coach/analyze_ibt_technique.py <ibt_file> --track <track-id>`
+   - This provides ABS triggers, oversteer analysis, tire temps, and delta-to-optimal data
+   - IBT data is BONUS - session can be processed without it
+
+## Processing Steps
+
+1. Use the 'Started at' date and time column and read the first row of the session file to get the date and time of the session.
+2. Rename the session file like this: [date time] - [circuit name] - [session kind].csv
+3. Rename the telemetry file like this: [date time] - [circuit name] - [session kind] - [car name] - [lap time] - [code].csv
+4. **If IBT exists**: Rename to [date time] - [circuit name] - [session kind].ibt
+5. Name the session markdown file like this: [date time] - [circuit name] - [session kind].md
+6. Take the learning memory.json file into account to get the current focus and goal.
+7. Check if track data exists in tracks/track-data/ for corner-specific analysis.
+8. **If IBT exists**: Run IBT analysis and save output to weeks/weekXX/assets/[date time]-ibt-analysis.json
+9. After writing the session file, update the learning memory.json file with the new findings.
+10. **Check for guidebook updates** - Did this session discover a principle worth codifying? (See .cursor/rules/guidebook-workflow.mdc)
+11. After analyzing the session move ALL files (session CSV, telemetry CSV, IBT) to the /data/processed/ folder.
+
+Important: If you don't find the G61 session data files, ask the user to export the session files. 😌
+Important: If IBT file is missing, proceed without it - it's bonus data, not required.
 Important: If you don't find the learning memory.json file create it. Use the structure from the /update-learning-memory.md file.
 Important: Ask Master Lonn what his thoughts and feeling were about the session before you continue.
 Important: Ask Master Lonn for the Garage61 event page of the session for reference in the session file.
 Important: **Use corner-specific language** - Check if the track file has a "Corner Reference" table. If available, use corner numbers (T1, T2, T11, etc.) in the report for driver clarity. Keep lap distance percentages internal for your data lookup only.
+
+---
+
+## Session Report Template
 
 Header of the session file: [date time] - [circuit name] - [car name] - [fastest lap time]
 
@@ -32,6 +51,7 @@ Header of the session file: [date time] - [circuit name] - [car name] - [fastest
 - **Clean laps**: [clean laps]
 - **Incidents**: [incidents or 0 if none]
 - **Garage 61 event page**: [Garage 61 event page URL]
+- **IBT Analysis**: [Yes/No] ← NEW
 
 ## Current Focus and Goal
 
@@ -74,9 +94,40 @@ If he has not said anything, ask him what he thought of the session first before
 
 ---
 
+## 🔬 IBT Deep Dive (if available)
+
+_Only include this section if IBT file was analyzed._
+
+### Braking Technique (ABS cars only)
+_Skip this section for cars without ABS (FF1600, Skip Barber, etc.)_
+
+- **ABS Triggers**: [count] ([per lap] per lap)
+- **Hotspot Corners**: [list corners with most ABS triggers]
+
+### Car Control (Oversteer Analysis)
+- **Max Yaw Rate**: [value]°/s
+- **Oversteer Hotspots**: [corners where car rotated most]
+
+### Tire Temps (Driving Style Fingerprint)
+| Tire | Inside | Middle | Outside | Balance |
+|------|--------|--------|---------|---------|
+| LF   | [temp] | [temp] | [temp]  | [balanced/inside_hot/outside_hot] |
+| RF   | [temp] | [temp] | [temp]  | [balanced/inside_hot/outside_hot] |
+| LR   | [temp] | [temp] | [temp]  | [balanced/inside_hot/outside_hot] |
+| RR   | [temp] | [temp] | [temp]  | [balanced/inside_hot/outside_hot] |
+
+**Interpretation**: [What the tire temps tell us about driving style]
+
+### Delta to Optimal
+- **Gap to YOUR theoretical best**: [value]s
+- **Losing time at**: [zones/corners]
+- **Gaining time at**: [zones/corners]
+
+---
+
 ## 🕵️‍♂️ Little Wan's Deep Dive
 
-"[Conversational analysis. Do NOT just repeat the stats from above. Explain the **WHY**. Connect the 'Feeling' from the Vibe Check to the 'Facts' from the Numbers Game.]"
+"[Conversational analysis. Do NOT just repeat the stats from above. Explain the **WHY**. Connect the 'Feeling' from the Vibe Check to the 'Facts' from the Numbers Game. If IBT data is available, weave those insights in too.]"
 
 ### The "Aha!" Moment
 
@@ -94,7 +145,7 @@ If he has not said anything, ask him what he thought of the session first before
 **We are attacking**: [Focus Area]
 
 **Why?**:
-"[Conversational and engagingexplanation of why this matters]"
+"[Conversational and engaging explanation of why this matters]"
 
 **Next Session Goal**:
 
@@ -105,9 +156,9 @@ If he has not said anything, ask him what he thought of the session first before
 
 ## 📈 The Journey
 
-| Session | Best Lap | Consistency | Key Metric (e.g., S2) | Notes           |
-| :------ | :------- | :---------- | :-------------------- | :-------------- |
-| [Date]  | [Time]   | [σ]         | [Value]               | [Short comment] |
+| Session | Best Lap | Consistency | Key Metric (e.g., S2) | IBT? | Notes           |
+| :------ | :------- | :---------- | :-------------------- | :--- | :-------------- |
+| [Date]  | [Time]   | [σ]         | [Value]               | ✅/❌ | [Short comment] |
 
 ---
 
@@ -116,6 +167,10 @@ If he has not said anything, ask him what he thought of the session first before
 ### What Worked ✅
 - [Observations about learning style]
 - [Things to remember for next time]
+
+### IBT Insights 🔬 (if available)
+- [Key technique observations from IBT data]
+- [Patterns discovered (e.g., "ABS triggers concentrated at T3")]
 
 ### Guidebook Connections 📚
 - Did this session apply any guidebook principles? → Reference chapter
@@ -127,97 +182,68 @@ If he has not said anything, ask him what he thought of the session first before
 
 ---
 
-_ a quote like "May the Downforce Be With You."_ 🏎️💨
-
-## Example
-
-# 2025-12-18 - Rudskogen - Practice Session
-
-> **Focus**: First session at this track - establishing baseline > **Goal**: Identify focus area for improvement
+_"May the Downforce Be With You."_ 🏎️💨
 
 ---
 
-## The Narrative
+## IBT Analysis Commands Reference
 
-"It was our first date with Rudskogen, and let's just say... it's complicated. Master Lonn went out with high hopes, but the track fought back—specifically that nasty uphill section in Sector 2. The pace is there (we saw flashes of brilliance!), but the consistency? That decided to take a coffee break. We learned that the 'Angst Hill' lives up to its name, but we also found out that everywhere else, Master Lonn is actually pretty dialed in."
+```bash
+# Quick summary (fast check)
+uv run python tools/core/parse_ibt.py <file.ibt> --summary
 
----
+# Full technique analysis with corner breakdown
+uv run python tools/coach/analyze_ibt_technique.py <file.ibt> --track <track-id>
 
-## 🏎️ The Vibe Check
+# Save analysis to file
+uv run python tools/coach/analyze_ibt_technique.py <file.ibt> --track <track-id> -o weeks/weekXX/assets/ibt-analysis.json
+```
 
-**Master Lonn's Take**:
-"Honestly? Frustrating. Felt fast but times weren't there. The Angst hill felt scary."
-
-**Little Wan's Take**:
-"Ugh, I HATE that feeling. 😤 You KNOW you're fast, but the stopwatch is giving you the silent treatment. But hey, for a first session? That baseline pace is solid. Let's find where the time is hiding."
-
----
-
-## 📊 The Numbers Game
-
-**Best Lap**: 1:30.290
-**Consistency (σ)**: 1.43s (Moderate)
-
-**The Good Stuff** (✅):
-
-- **Theoretical Best**: 1:29.99 (You have sub-1:30 pace in you!)
-- **Clean Laps**: 18 clean laps (Good discipline for a new track)
-- **Sector 1 & 4**: Solid consistency (only ~0.3s loss)
-
-**The "Room for Improvement"** (🚧):
-
-- **Sector 2 (The Angst Hill)**: 0.96s loss per lap (Ouch!)
-- **Variance**: High variance in S2 suggests we haven't found "The Line" yet.
+**Track IDs** (for --track flag):
+- oschersleben-gp
+- winton-national
+- rudskogen
+- lime-rock-gp
+- etc. (check tracks/track-data/ for available IDs)
 
 ---
 
-## 🕵️‍♂️ Little Wan's Deep Dive
+## Example with IBT Data
 
-"Okay Master, I dug into the data, and your instinct was **SPOT ON**.
+# 2026-01-06 16:00 - Oschersleben GP - Practice #2
 
-You said the Angst hill (Sector 2) felt scary? The data is screaming it. You're losing **3x more time** there than anywhere else on the track.
-
-It's not just that it's slow—it's that it's _unpredictable_. One lap you nail it (30.8s), the next you're fighting it (31.8s). That's a full second swing! That explains the frustration—you can't get into a rhythm when the hill keeps moving on you."
-
-### The "Aha!" Moment
-
-**It's all in the hill.** The rest of the track? You've got it handled. If we fix Sector 2, we fix the lap time. Simple as that.
-
-**The Data Proof**:
-
-- **Fact**: S2 Loss = 0.96s/lap vs S1 Loss = 0.40s/lap.
-- **Meaning**: You are bleeding time on the hill. Plug that hole, and you're flying.
+> **Focus**: Week 05: Precision on the Plain
+> **Goal**: S3 consistency, McDonald's chicane
 
 ---
 
-## 🎯 The Mission (Focus Area)
+- **Track**: [Oschersleben GP](../../tracks/track-motorsport-arena-oschersleben-grand-prix.md)
+- **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)
+- **Session kind**: Practice
+- **Fastest lap time**: 1:33.773
+- **Consistency (σ)**: 0.42s
+- **Clean laps**: 4/4
+- **Incidents**: 0
+- **Garage 61 event page**: [Link]
+- **IBT Analysis**: Yes ✅
 
-**We are attacking**: **Sector 2 Consistency (Angst Hill)**
+## 🔬 IBT Deep Dive
 
-**Why?**:
-"Because leaving 17 seconds on the table (over 18 laps) is just rude. We want that time back! Plus, conquering the scary part of the track is the ultimate power move."
+### Car Control (Oversteer Analysis)
+- **Max Yaw Rate**: 120.5°/s (big moment somewhere!)
+- **Oversteer Hotspots**: T3 Hasseroeder (657), T2 Hotel Exit (633), T7 Hairpin (500)
 
-**Next Session Goal**:
+### Tire Temps
+| Tire | Inside | Middle | Outside | Balance |
+|------|--------|--------|---------|---------|
+| LF   | 53.1°C | 53.4°C | 53.6°C  | balanced |
+| RF   | 53.5°C | 53.3°C | 52.9°C  | balanced |
+| LR   | 53.1°C | 53.4°C | 53.5°C  | balanced |
+| RR   | 53.4°C | 53.4°C | 53.0°C  | balanced |
 
-- [ ] **S2 Average under 31.0s** (currently 31.81s)
-- [ ] **S2 Variance under 0.5s** (Find ONE line and stick to it)
+**Interpretation**: Short session, tires never fully came up to temp. No driving style diagnosis available yet.
 
----
-
-## 📈 The Journey
-
-| Session    | Best Lap | Consistency | S2 Avg | Notes                            |
-| :--------- | :------- | :---------- | :----- | :------------------------------- |
-| 2025-12-18 | 1:30.290 | 1.43s       | 31.81s | Baseline. The Hill is the enemy. |
-
----
-
-## 📝 Coach's Notebook
-
-- Master Lonn prefers **numbers over charts**.
-- Respond well to having feelings validated by data.
-- "Angst Hill" is officially the nemesis of Week 2.
-
----
-
-_“May the Ground Effect Be With You.”_ 🏎️💨
+### Delta to Optimal
+- **Gap to YOUR theoretical best**: +4.796s
+- **Losing time at**: T14 Zeppelin (90-100%), Shell/Amman (70-80%)
+- **Gaining time at**: Chicane/McDonald's (50-60%)
