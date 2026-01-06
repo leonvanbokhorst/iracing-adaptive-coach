@@ -28,34 +28,34 @@ The layout looks straightforward: no wild elevation changes, no Spa-style compre
 
 ## Sector Definitions (iRacing)
 
-| Sector | Approx Time | % of Lap | Corners                              | Key Challenge                          |
-| :----- | :---------- | :------- | :----------------------------------- | :------------------------------------- |
-| **S1** | ~34.5s      | 36%      | T1-T3 (Hotel → Hasseroeder)          | Heavy braking into T1, technical flow  |
-| **S2** | ~32.9s      | 36%      | T4-T10 (Triple → McDonald's)         | Chicane precision, exit speed          |
-| **S3** | ~26.4s      | 28%      | T11-T14 (Shell → Zeppelin)           | Fast flowing rhythm, final corner exit |
+| Sector | Approx Time | % of Lap | Corners                      | Key Challenge                          |
+| :----- | :---------- | :------- | :--------------------------- | :------------------------------------- |
+| **S1** | ~34.5s      | 36%      | T1-T3 (Hotel → Hasseroeder)  | Heavy braking into T1, technical flow  |
+| **S2** | ~32.9s      | 36%      | T4-T10 (Triple → McDonald's) | Chicane precision, exit speed          |
+| **S3** | ~26.4s      | 28%      | T11-T14 (Shell → Zeppelin)   | Fast flowing rhythm, final corner exit |
 
 > **Note:** S1 contains the chaos magnet (T1 Hotel). Make it boring on purpose. S2 has the signature McDonald's chicane—boring tidy = fast.
 
 ---
 
-## Corner Reference (VRS 14-Turn Layout)
+## Corner Reference (14-Turn Layout)
 
-| #      | Track % | Name            | Notes                                              |
-| :----- | :------ | :-------------- | :------------------------------------------------- |
-| **1**  | 10-14%  | Hotel Entry     | Chaos magnet. Heavy braking on curved approach. 🔥 |
-| **2**  | 15-21%  | Hotel Exit      | Rotation point, sets up run to T3                  |
-| **3**  | 25-32%  | Hasseroeder     | Second corner complex                              |
-| **4**  | 36-40%  | Triple 1        | First of three-corner complex                      |
-| **5**  | 41-44%  | Triple 2        | Middle of complex, momentum critical               |
-| **6**  | 45-48%  | Triple 3        | Exit of complex                                    |
-| **7**  | 49-53%  | Hairpin         | Tight left, sets up chicane run                    |
-| **8**  | 54-56%  | Schikane Entry  | Lead-in to McDonald's                              |
-| **9**  | 57-59%  | Schikane Exit   | Square it for T10                                  |
-| **10** | 60-63%  | McDonald's      | THE signature corner. Square it.                   |
-| **11** | 73-77%  | Shell Kurve     | Fast left, starts S3                               |
-| **12** | 78-81%  | Amman Kurve     | Flow right                                         |
-| **13** | 84-88%  | Bauer Kurve     | Tighter right                                      |
-| **14** | 90-95%  | Zeppelin Kurve  | Final corner onto straight 🔥                      |
+| #      | Track % | Name           | Notes                                              |
+| :----- | :------ | :------------- | :------------------------------------------------- |
+| **1**  | 10-14%  | Hotel Entry    | Chaos magnet. Heavy braking on curved approach. 🔥 |
+| **2**  | 15-21%  | Hotel Exit     | Rotation point, sets up run to T3                  |
+| **3**  | 25-32%  | Hasseroeder    | Second corner complex                              |
+| **4**  | 36-40%  | Triple 1       | First of three-corner complex                      |
+| **5**  | 41-44%  | Triple 2       | Middle of complex, momentum critical               |
+| **6**  | 45-48%  | Triple 3       | Exit of complex                                    |
+| **7**  | 49-53%  | Hairpin        | Tight left, sets up chicane run                    |
+| **8**  | 54-56%  | Schikane Entry | Lead-in to McDonald's                              |
+| **9**  | 57-59%  | Schikane Exit  | Square it for T10                                  |
+| **10** | 60-63%  | McDonald's     | THE signature corner. Square it.                   |
+| **11** | 73-77%  | Shell Kurve    | Fast left, starts S3                               |
+| **12** | 78-81%  | Amman Kurve    | Flow right                                         |
+| **13** | 84-88%  | Bauer Kurve    | Tighter right                                      |
+| **14** | 90-95%  | Zeppelin Kurve | Final corner onto straight 🔥                      |
 
 ---
 
@@ -74,22 +74,154 @@ In the Ray FF1600, Oschersleben turns into a **discipline exam**. You don't have
 
 **Setup Reference:**
 
-- **Brake Bias**: 57% (VRS coach baseline)
+- **Brake Bias**: 57% (coach baseline)
 
-- **Downshifts into Hotel (T1)**  
-  You arrive in fifth, braking on a slightly curved approach. The goal is a smooth, straightened brake phase and a clean downshift ladder that doesn’t spike rear locking. A mildly front-biased brake setting helps you early in the week; once the downshifts become automatic, you can edge bias rearward for a bit more rotation on turn-in.
+---
 
-- **Hotel corner exit**  
-  In the Ray, Hotel is all about the exit. Brake earlier than you think, focus on getting the car rotated before apex, then unwind the steering and commit to throttle as soon as the wheel starts to open. Any mid-corner impatience shows up as understeer and a dead run to Turn 3.
+## Coaching Notes VRS (1:31.295)
 
-- **Middle sector – Shell and friends**  
-  The mid-lap sweepers (Shell-Kurve and the flowing right/lefts) are where momentum cars live or die. You want gentle steering arcs, one decisive brake release, and tiny throttle breaths rather than full lifts. The Ray will gladly carry more minimum speed than you initially believe; the trick is to commit to the line and not “fix” it halfway through.
+> _Corner-by-corner breakdown from coach. The golden rule: "It's not about how MUCH you slow down, it's about HOW you get to minimum speed."_
 
-- **McDonald’s chicane**  
-  The signature feature. In the FF1600 you can be surprisingly aggressive on the entry curb, but only if the car is straight. Aim to brake in a line, pop it over the first curb with minimal steering, then _square_ the car before you attack the right-hand exit. If you’re still turning hard as you hit the second curb, the rear steps and you’re skating onto the astro and dust. Fast laps here feel boringly tidy rather than spectacular.
+### T1-T2: Hotel Complex ⚠️ CRITICAL
 
-- **Final triple left / stadium run home**  
-  The last lefts reward drivers who think of them as one big corner. Stay patient on entry, keep your hands quiet, and let third gear do the work. One small lift, one long rotation, and then a clean launch onto the main straight. In a race, this is where you either set up a Turn 1 defence or line up a slipstream move.
+**The longest braking zone of the entire lap (5-6 seconds!).**
+
+| Phase               | Action                                                                           |
+| ------------------- | -------------------------------------------------------------------------------- |
+| **Pre-brake**       | Turn FIRST, brake SECOND. Start turning 2-3 car lengths BEFORE the access road.  |
+| **Initial brake**   | Just past access road end. Only 25-30% pressure! Don't overdo it.                |
+| **T1 kink**         | Release to ~10% brake through the kink. Car stability is everything.             |
+| **Gears**           | Stay in 4th gear! NO downshifts until between T1 and T2.                         |
+| **Stability trick** | Overlap throttle with brakes, especially during downshifts. Plants the rear.     |
+| **T2 entry**        | Downshift to 1st by T2 apex. A tight entry is FINE—it naturally pushes you wide. |
+| **Sweet spot**      | Get within 0.5m of the pit exit button light between T2 apexes.                  |
+| **Throttle**        | 100% throttle exactly halfway between T2 apexes.                                 |
+| **Exit**            | DON'T touch inside curb (wheel spin). Light steering = better acceleration.      |
+
+> **Master Lonn's Problem:** You're braking too hard too early. Reserve the BULK of braking for the straighter section between T1 and T2. Slow and gradual = optimal. Quick decel = losing lap time.
+
+---
+
+### T3: Hasseroeder
+
+| Element          | Note                                                                    |
+| ---------------- | ----------------------------------------------------------------------- |
+| **Brake point**  | Full car length PAST the tiled gutter on outside                        |
+| **Turn-in**      | Early! As soon as grass ends. Get to the banking ASAP.                  |
+| **Banking trap** | Front grips up more than rear = snap oversteer risk. Light trail brake! |
+| **Gears**        | One downshift to 2nd                                                    |
+| **Apex**         | VERY late—near end of red/white curb                                    |
+| **Throttle**     | Full throttle BEFORE apex                                               |
+| **Curb**         | Don't touch it (wheel spin + pushes wide)                               |
+
+---
+
+### T4-5-6: Triple Complex
+
+| Element        | Note                                                       |
+| -------------- | ---------------------------------------------------------- |
+| **T4 entry**   | Stay flat! Miss first apex by ~0.5m to set up perfect line |
+| **Lift point** | Back off at start of green paint inside                    |
+| **Gears**      | Down to 3rd—NO brakes needed, just coast                   |
+| **Rotation**   | Coasting + downshift gives enough rotation                 |
+| **Throttle**   | Smooth reapply before T5 apex, 100% well before T6         |
+| **Curbs**      | Fully mount T5 and T6 curbs, avoid red sausage             |
+
+---
+
+### T7: Hairpin
+
+| Element         | Note                                                                               |
+| --------------- | ---------------------------------------------------------------------------------- |
+| **Brake point** | Just past the previous corner's apex curb—EARLY! Easy to outbrake.                 |
+| **Approach**    | Perfectly straight line down to apex                                               |
+| **Gears**       | One downshift to 2nd                                                               |
+| **THE TRICK**   | Banking is on INSIDE half. Stay within 1.5m of white line! (Tighter than expected) |
+| **Throttle**    | Halfway between apexes                                                             |
+| **Apex**        | Where curb ends / green begins                                                     |
+| **Exit**        | Use lots of runoff                                                                 |
+
+---
+
+### T8-T9: Chicane (Setup for T10!)
+
+| Element              | Note                                                                                                                                       |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **T8**               | Stay FLAT, use all curb, avoid red sausage                                                                                                 |
+| **Direction change** | Gradually lift through it (DON'T stay flat—compromises T10)                                                                                |
+| **T9 cut**           | Maximum cut without touching bollards (off-track / suspension damage)                                                                      |
+| **⚠️ CRITICAL**      | Keep SOME throttle at T9 apex! Dip causes rotation + bottoming if off-throttle. Off-throttle = car wants to turn LEFT when you need RIGHT. |
+
+---
+
+### T10: McDonald's ⚠️ CRITICAL
+
+**One of the most important corners of the lap!**
+
+| Element         | Note                                                                               |
+| --------------- | ---------------------------------------------------------------------------------- |
+| **Turn-in**     | EARLY—car feels sluggish through direction change. Anticipate understeer.          |
+| **Braking**     | Very light brush. Only enough to rotate, then release. Coasting is OK.             |
+| **Apex**        | Fully mount the curb                                                               |
+| **⚠️ Throttle** | BE PATIENT! Don't focus on where you START throttle—focus on where you reach 100%. |
+| **Trap**        | Throttle too early = massive exit understeer                                       |
+| **Exit**        | Use ALL runoff (close to dirt edge)                                                |
+
+---
+
+### T11-T12: Shell/Amman Chicane
+
+| Element           | Note                                                                |
+| ----------------- | ------------------------------------------------------------------- |
+| **Brake point**   | At rubber marks (or halfway between 100m board and overhead gantry) |
+| **Initial brake** | Straight line, but turn in EARLY to carry momentum                  |
+| **Gears**         | One downshift to 3rd                                                |
+| **Line between**  | Stay within 1 car width of outside white line (don't go too left!)  |
+| **T12 throttle**  | 100% at or before apex                                              |
+| **Track limits**  | Outer edge of curb is limit—can push wider than you think           |
+
+---
+
+### T13: Bauer Kurve
+
+| Element      | Note                                         |
+| ------------ | -------------------------------------------- |
+| **Turn-in**  | BEFORE any braking—very early                |
+| **Braking**  | Light brush only, stay in 3rd (no downshift) |
+| **Curb**     | Use it, avoid anti-cut                       |
+| **Throttle** | 100% at or before apex                       |
+| **Exit**     | Lots of runoff available                     |
+
+---
+
+### T14: Zeppelin (Final Corner)
+
+| Element         | Note                                                       |
+| --------------- | ---------------------------------------------------------- |
+| **Approach**    | Stay wide, but not fully on green paint                    |
+| **Brake point** | ~1 car length before first safety car light (pit entrance) |
+| **Gears**       | One downshift to 2nd                                       |
+| **⚠️ Turn-in**  | DON'T RUSH! Turn LATE to exaggerate late apex.             |
+| **Apex**        | Very late—near end of red anti-cut curb                    |
+| **Why late?**   | Straighter exit = less understeer + less wheel spin        |
+| **Curb**        | Don't fully mount (wheel spin trap)                        |
+| **Exit**        | Use curb, but not all the way to gravel (tire scrub)       |
+
+---
+
+## Quick Reference Card
+
+| Corner | Gear | Key Point                                                              |
+| ------ | ---- | ---------------------------------------------------------------------- |
+| T1-T2  | 4→1  | Turn BEFORE brake. 25-30% initial. Reserve braking for T1-T2 straight. |
+| T3     | 2    | Early turn-in for banking. Late apex.                                  |
+| T4-6   | 3    | Miss T4 by 0.5m. Coast, no brakes. Mount T5-T6 curbs.                  |
+| T7     | 2    | Tighter than expected! Stay within 1.5m of inside.                     |
+| T8-9   | 3    | Lift for T10 setup. KEEP throttle at T9 dip!                           |
+| T10    | 2    | Early turn-in. PATIENT throttle. All runoff.                           |
+| T11-12 | 3    | Early turn-in. Stay right between corners.                             |
+| T13    | 3    | Turn before brake. 100% at apex.                                       |
+| T14    | 2    | LATE turn-in. LATE apex. Don't mount curb fully.                       |
 
 ---
 

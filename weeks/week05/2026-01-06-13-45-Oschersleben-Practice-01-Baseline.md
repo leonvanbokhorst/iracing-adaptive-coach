@@ -181,7 +181,33 @@ That's RIGHT. You can corner just as hard as the alien. The gap isn't talent—i
 
 **My Hunch**: GR86 muscle memory. The GR86 needs earlier braking. The FF1600 stops NOW.
 
-**How to Fix**: Trail the brakes deeper. Start experimenting with braking at the 100m board, not the 150m.
+---
+
+### 📚 VRS Coaching Wisdom for T1-T2 (Johnny Gideon)
+
+> _"The golden rule for any braking zone is to shut off speed as late and as deep into the corner as you can. The longer the braking zone, the more important this becomes. T1-T2 is the LONGEST braking zone of the entire lap (5-6 seconds!)."_
+
+**The Key Insight**: "It's not about HOW MUCH you slow down, it's about HOW you get to minimum speed. Slow gradually = optimal. Quick decel = losing lap time."
+
+**The VRS Technique:**
+
+1. **Turn FIRST, brake SECOND** – Start turning 2-3 car lengths BEFORE the access road
+2. **Initial brake: 25-30% only** – Don't overdo it!
+3. **Through T1 kink: ~10% brake** – Super light, just enough for stability
+4. **Stay in 4th gear** – NO downshifts until between T1 and T2!
+5. **Overlap throttle with braking** – Especially during downshifts. Plants the rear.
+6. **Reserve bulk of braking** – For the straighter section between T1 and T2
+7. **Downshift to 1st** – By the time you hit T2 apex
+
+**Why You're Losing Time**: You're doing too much braking too early. Gong (and VRS) reserve the heavy braking for AFTER the T1 kink, in the straighter section. You're killing your speed before you even get there.
+
+---
+
+**How to Fix**: 
+- Start with 25-30% brake, NOT full pressure
+- Release to ~10% through the kink
+- THEN do your heavy braking between T1 and T2
+- Don't downshift until after T1 kink
 
 #### 🔴 PROBLEM ZONE #2: Triple → McDonald's (30-60% of lap)
 
@@ -233,11 +259,27 @@ This is a good sign though—it means you're NOT afraid of the corner. Just need
 
 ### 💡 What To Do Next Session
 
-1. **Hotel (T1)**: Experiment with later braking. Try the 100m board as a brake marker. You have 2.3 km/h hiding here.
+1. **Hotel (T1-T2)** – The VRS Technique:
+   - Turn 2-3 car lengths BEFORE access road (turn first!)
+   - Initial brake: 25-30% only (not full!)
+   - Release to ~10% through the kink
+   - Stay in 4th gear through T1
+   - Heavy braking AFTER the kink, between T1-T2
+   - Overlap throttle with brakes during downshifts
 
-2. **Zeppelin**: Less brake pressure. Roll more speed into the corner. This directly affects your straight speed into T1.
+2. **Zeppelin (T14)**: 
+   - DON'T rush the turn-in (VRS says turn LATE)
+   - Less brake pressure. Roll more speed in.
+   - Late apex near end of red anti-cut curb
+   - Don't fully mount curb (wheel spin trap)
 
-3. **General**: You're on full throttle 4.7% LESS of the lap. Focus on getting back to power earlier out of corners. Your accel G (0.63) vs Gong's (0.94) shows you're babying the throttle.
+3. **McDonald's (T10)**:
+   - Early turn-in (car feels sluggish)
+   - Light brake brush, then coast if rotating
+   - Patient throttle – focus on where you reach 100%, not where you start
+   - Use ALL runoff on exit
+
+4. **General**: You're on full throttle 4.7% LESS of the lap. Focus on getting back to power earlier out of corners. Your accel G (0.63) vs Gong's (0.94) shows you're babying the throttle.
 
 ### 🏁 The Bottom Line
 
