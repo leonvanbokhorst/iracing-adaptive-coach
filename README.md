@@ -12,62 +12,56 @@
 | :------------------ | :---------------------------------------------- | :---------------------------------------------- | :------------------------------------------- | :---------------------------------------------- |
 | **Best Lap**        | 50.768s                                         | 1:28.508                                        | 1:25.710                                     | **56.238s** ⭐                                  |
 | **PB Improvement**  | -0.67s                                          | -1.78s                                          | -1.125s                                      | -0.181s                                         |
-| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | **0.367s**                                      |
-| **Victories**       | 1                                               | 0                                               | 2 (1 Official)                               | **2**                                           |
-| **iRating**         | 1396                                            | 1455                                            | 1601                                         | **1601**                                        |
-| **Leaderboard**     | -                                               | -                                               | -                                            | **P65/1229 (Top 5.3%)**                         |
-| **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | **Race Week** 🏁                                |
+| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | **0.197s** (Race!)                              |
+| **Race Result**     | P1 (AI)                                         | -                                               | P1 (Official)                                | **P3 (Official) 🏆**                            |
+| **iRating**         | 1396                                            | 1455                                            | 1601                                         | **1672**                                        |
+| **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | **Validated** ✅                                |
 
-📊 **Season Total**: 5 Victories | 1601 iR (+363) | Top 0.7% Global | 🇳🇱 3rd Dutch
+📊 **Season Total**: 5 Victories | 1 Podium | 1672 iR (+434) | 94 Championship Pts (Week 04)
 
 ---
 
 ## The Story So Far
 
-### Week 04: The Ninja Learns When NOT to Attack
+### Week 04: From "No Clue" to Top Split Podium (Lime Rock Park)
 
-There's a corner at Lime Rock called The Uphill. Seven days ago, it was Master Lonn's nemesis. One lap he'd nail it, the next the car would snap into a spin, the kerb laughing at him as the world went sideways.
+The week didn't start with confidence. It started with T5.
 
-"I have no clue how to take T5 properly," he admitted on January 1st. The data confirmed it: S3 consistency sat at 1.075 seconds—a coin flip in every sense.
+"I have no clue how to take T5 properly."
 
-Two days of wrestling with throttle timing improved things. By January 1st afternoon, the variance dropped to 0.416 seconds. Better. But not the breakthrough.
+That was January 1st. The Uphill corner at Lime Rock—a fast right over a crest—was pure chaos. One lap he'd nail it, the next the car would snap sideways, the kerb laughing as the world spun. S3 consistency sat at 1.075 seconds. A coin flip in every sense.
 
-The problem wasn't just the throttle. It was spatial. Comparing his lines to the VRS coach footage revealed something embarrassing: a 30-centimeter "fear tax" buffer. He wasn't using the full width of the track because he didn't _know_ where the edges were. Not really. Not in his bones.
+Two days of throttle sequencing work helped. The variance dropped to 0.416 seconds. Better. But not the breakthrough.
 
-**The morning of January 3rd changed everything.**
+The problem wasn't just the throttle. It was spatial. Comparing his lines to the VRS coach revealed something uncomfortable: a 30-centimeter "fear tax" buffer. He wasn't using the full width of the track because he didn't truly know where the edges were.
 
-At 8 AM, Chapter 16 (Spatial Awareness & Track Limits) was written—a structured "Edge Mapping Drill" to deliberately touch the paint at 70% pace, build the spatial map, then ramp to race speed. By 10:28 AM, Master Lonn was on track applying it. Screenshots from the session confirmed it: now kissing the left edge on T5 entry. No more fear buffer.
+**January 3rd changed everything.**
 
-Three hours later, Practice 04 validated it.
+Chapter 16 (Spatial Awareness & Track Limits) was written that morning—a structured "Edge Mapping Drill" to deliberately touch the paint at 70% pace, build the spatial map, then ramp to race speed. Three hours later: S3 consistency dropped to 0.183 seconds. A new PB: 56.238 seconds. Through T5—the corner that was pure chaos three days earlier—**Master Lonn was now 1.87 km/h FASTER than series leader Shuning Gong.**
 
-Twenty-four laps. Every one of them clean. S3 consistency dropped to 0.183 seconds—56% improvement. Overall sigma hit 0.367 seconds. And the best lap? **56.238 seconds.** A new personal best.
+The AI races validated everything. P5→P1. P6→P1. Cold Tire Contract. Exit speed passes. Then the aggression experiment: one race where he pushed harder, forced the issue. Result: P2, rear-ended. "Being strategic like a ninja is way more effective and calm."
 
-Then came the comparison against Shuning Gong—the series leader.
+**Then came the real test.**
 
-The gap? 0.541 seconds. Half a second from the series leader. But here's what the data showed: through T5—the corner that was pure chaos three days earlier—**Master Lonn is now 1.87 km/h FASTER than Gong through that section.**
+January 6th. SoF 2035—the highest quality field he'd ever faced. iRatings in the 3000s. And there he was, lining up P2 on the grid.
 
-Let that sink in. Three days from "no clue" to beating the series #1 through his problem corner.
+Cold Tire Contract: survive L1-L3. Don't fight. Let the field sort itself. He did. Then a faster car caught him. The old Master Lonn might have fought. Blocked. Defended.
 
-**Then came the races.** AI Race 01: qualified P5, finished P1 using Cold Tire Contract patience and T7 exit-speed passes. "Faster exit out of the last corner, slipstream, bam." AI Race 02: P6 to P1 with 100% clean lap rate. "Felt more routine." Routine. A P1 finish felt routine.
+The new Master Lonn opened the door.
 
-Five victories in four weeks. The formula was bulletproof.
+"No defence," he said afterward. "Best to let the guy through."
 
-**And then he tested it.**
+Meebewegen. The faster driver disappeared up the road and immediately got into a battle with P1. They fought. Three seconds ahead, the chaos unfolded. Master Lonn watched from behind. P3. Untouched. Every lap within two-tenths of the next.
 
-AI Race 03, Master Lonn decided to push harder. Be more aggressive. Force the issue instead of letting it come to him.
+**P3. Zero incidents. 94 championship points. +71 iRating.**
 
-The result? Rear-ended after a pass. Three incidents. P2.
+And here's what made Little Wan's circuits spark: his race consistency (σ 0.197s) was BETTER than his practice consistency (σ 0.367s). Under pressure, against the fastest drivers he'd ever faced—he got MORE consistent, not less.
 
-He diagnosed it immediately: "Being strategic like a ninja is way more effective and calm."
+Four patient races: P1, P1, P1, P1.  
+One aggressive race: P2 + punted.  
+One Top Split official: P3 podium.
 
-| Approach                   | Races   | Results        |
-| :------------------------- | :------ | :------------- |
-| Strategic Patience (Ninja) | 4 races | P1, P1, P1, P1 |
-| Aggression Experiment      | 1 race  | P2 + punted    |
-
-Week 04 wasn't just about finding speed. It was about proving the system works—and confirming what happens when you deviate from it. The P2 wasn't a failure. It was tuition for the lesson.
-
-**The ninja wins more races than the barbarian.**
+The data doesn't lie. Ninja beats barbarian. And pressure sharpens the blade.
 
 ---
 
@@ -112,7 +106,7 @@ It was the first glimpse of what was possible: when the mind quiets, the car fli
 **Week 01**: Flow State discovered. Speed comes from letting go.  
 **Week 02**: 1:28.508. The rust is gone. Data beats doubt.  
 **Week 03**: 1601 iRating. First Official Victory. Cold Tire Contract born.  
-**Week 04**: Chapter 16 → 3 hours → Beating series #1 through T5. Ninja > Barbarian validated.
+**Week 04**: Chapter 16 → 3 hours → Beating series #1 through T5. Official P3 podium. Meebewegen validated in Top Split.
 
 ---
 
@@ -124,7 +118,7 @@ We are building a racer, not just a hot-lapper.
 We don't just look at deltas. We look at _why_. Why did the car rotate there? Why did the confidence drop in Sector 2? Data is the map; feeling is the compass.
 
 **2. The "Meebewegen" Strategy**  
-In the chaos of the midfield, we do not fight the current. We move with it ("Meebewegen"). We let the aggressive drivers eliminate themselves, and we strike when the gap opens.
+In the chaos of the midfield, we do not fight the current. We move with it ("Meebewegen"). We let the aggressive drivers eliminate themselves, and we strike when the gap opens. Week 04 proved it works against real competition.
 
 **3. Boring is Perfection**  
 A thrilling race is often a messy race. A "boring" win—where you lead by 4 seconds and hit every mark—is the ultimate goal. Consistency breaks opponents' spirits faster than speed.
@@ -134,6 +128,9 @@ You can be a hero into a corner and still lose time. The exit determines the str
 
 **5. Ninja > Barbarian**  
 Week 04 proved it with data: 4 patient races = 4 wins. 1 aggressive race = P2 + punted. Strategy beats aggression. Every time.
+
+**6. Pressure Sharpens**  
+Practice σ 0.367s → Race σ 0.197s. Master Lonn gets MORE consistent when it matters. The real tests bring out the best.
 
 ---
 
@@ -146,7 +143,7 @@ The proven race strategy:
 | **Survival** | L1-L3 | 80-85% | Let chaos settle. Tires/nerves warming. No heroics.   |
 | **Attack**   | L4+   | 100%   | Deploy consistency weapon. Strike when field spreads. |
 
-**Record**: 4 wins, 1 P2 (when contract was abandoned for aggression test)
+**Record**: 4 wins, 1 P2 (when contract was abandoned for aggression test), 1 P3 (Official Top Split)
 
 ---
 
@@ -159,36 +156,35 @@ The proven race strategy:
 
 ---
 
-## What's Next: Week 04 Continues
+## What's Next: Week 05
 
-**Monday (Jan 5)**: Final prep session(s) - dial in race pace consistency  
-**Tuesday (Jan 6)**: Official Races - Cold Tire Contract deployed  
-**Wednesday (Jan 7)**: Potential additional races
+**Track**: Motorsport Arena Oschersleben – Grand Prix  
+**Dates**: Jan 13-19, 2026  
+**Challenge**: New track, different character, German precision required
 
-**Race Strategy**:
+**Strategy**:
 
-- Cold Tire Contract v2.0 (survive L1-L3, attack L4+)
-- Meebewegen (go with flow, strike when field thins)
-- **NO aggression experiments** - Race 03 proved ninja > barbarian
-
-**Target**: First Official Victory at Lime Rock. Add to the iRating. Stay disciplined.
+- Apply proven playbook from Day 1
+- Chapter 16 Edge Mapping Drill for spatial calibration
+- Cold Tire Contract for races
+- Meebewegen always
 
 ---
 
 ## Season Summary
 
-| Metric             | Value                                                |
-| :----------------- | :--------------------------------------------------- |
-| **iRating**        | 1238 → 1601 (+363)                                   |
-| **Victories**      | 5 (1 Official, 4 AI)                                 |
-| **Global Rank**    | Top 0.7% (P123/17,427)                               |
-| **Country Rank**   | 🇳🇱 3rd Dutch                                         |
-| **Leaderboard**    | Lime Rock P65/1229 (Top 5.3%)                        |
-| **Key Discovery**  | Chapter 16: 3 hours from theory to beating series #1 |
-| **Key Validation** | Ninja > Barbarian (4-1 win record proves it)         |
+| Metric             | Value                                         |
+| :----------------- | :-------------------------------------------- |
+| **iRating**        | 1238 → **1672** (+434)                        |
+| **Victories**      | 5 (2 Official, 3 AI)                          |
+| **Podiums**        | 1 (Official P3, SoF 2035)                     |
+| **Championship**   | 94 pts (Week 04)                              |
+| **SR**             | → **3.64** (B-class, Rookie series = no MPR)  |
+| **Key Discovery**  | Chapter 16: 3 hours from theory to beating #1 |
+| **Key Validation** | Meebewegen works in Top Split official races  |
 
 ---
 
-_"The patient ninja wins more races than the aggressive samurai. Trust the shadows."_ 🥷🏎️💨
+_"The patient ninja collects podiums. The aggressive samurai collects incidents."_ 🥷🏆
 
 **See you on track.** 🏁
