@@ -27,6 +27,10 @@
 
 ---
 
+## Race video
+
+[![Lime Rock Park GP - Official Race #1 - P3](https://img.youtube.com/vi/YXeQI5jXclg/0.jpg)](https://www.youtube.com/watch?v=YXeQI5jXclg)
+
 ## The Narrative
 
 "Master Lonn's best official race of the season. Qualified P2 in a SoF 2035 field—the highest quality competition he's faced—and converted it to a podium P3 with zero incidents. When a faster driver caught him, he deployed Meebewegen perfectly: let them through, preserved the position, and watched the fight ahead from a safe distance. No freebies from the chaos, but no penalties either. Just clean, calculated, podium-worthy racing."
