@@ -8,6 +8,7 @@
 - **Track**: [Motorsport Arena Oschersleben - Grand Prix](../../tracks/track-motorsport-arena-oschersleben-grand-prix.md)
 - **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)
 - **Session kind**: Practice (Offline Testing) - Baseline
+- **Brake Bias**: 57% (matches VRS coach)
 - **Best Lap**: 1:33.818
 - **Consistency (σ)**: 0.38s (clean laps, excluding exploration lap)
 - **Clean Laps**: 7/11

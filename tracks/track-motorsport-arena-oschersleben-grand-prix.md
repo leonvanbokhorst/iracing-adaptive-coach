@@ -22,17 +22,17 @@ The layout looks straightforward: no wild elevation changes, no Spa-style compre
 
 ## Track Map
 
-<a href="images/oschersleben-grand-prix-map.png"><img src="images/oschersleben-grand-prix-map.png" alt="Oschersleben Grand Prix Map" width="70%"></a>
+<a href="images/oschersleben-grand-prix-map.png"><img src="images/oschersleben-grand-prix-map.png" alt="Oschersleben Grand Prix Map" width="100%"></a>
 
 ---
 
 ## Sector Definitions (iRacing)
 
-| Sector | Approx Time | % of Lap | Corners | Key Challenge |
-|:-------|:------------|:---------|:--------|:--------------|
-| **S1** | ~34.5s | 36% | Hotel (T1), Hasseroeder, Triple | Heavy braking into T1, technical flow |
-| **S2** | ~32.9s | 36% | T7, Schikane, McDonald's, Stadiongerade | Chicane precision, exit speed |
-| **S3** | ~26.4s | 28% | Shell, Amman, Bauer, Zeppelin | Fast flowing rhythm, final corner exit |
+| Sector | Approx Time | % of Lap | Corners                                 | Key Challenge                          |
+| :----- | :---------- | :------- | :-------------------------------------- | :------------------------------------- |
+| **S1** | ~34.5s      | 36%      | Hotel (T1), Hasseroeder, Triple         | Heavy braking into T1, technical flow  |
+| **S2** | ~32.9s      | 36%      | T7, Schikane, McDonald's, Stadiongerade | Chicane precision, exit speed          |
+| **S3** | ~26.4s      | 28%      | Shell, Amman, Bauer, Zeppelin           | Fast flowing rhythm, final corner exit |
 
 > **Note:** S1 contains the chaos magnet (T1 Hotel). Make it boring on purpose. S2 has the signature McDonald's chicane—boring tidy = fast.
 
@@ -40,18 +40,18 @@ The layout looks straightforward: no wild elevation changes, no Spa-style compre
 
 ## Corner Reference
 
-| # | Track % | Name | Notes |
-|:--|:--------|:-----|:------|
-| **1** | 10-21% | Hotel | Chaos magnet. Heavy braking on curved approach. 🔥 |
-| **2** | 25-32% | Hasseroeder | Second corner, sets up Triple |
-| **3** | 37-46% | Triple | Three-corner complex, momentum critical |
-| **4** | 46-53% | Turn 7 | Exit sets up chicane |
-| **5** | 54-58% | Schikane | Lead-in to McDonald's |
-| **6** | 58-63% | McDonald's | THE signature corner. Square it. |
-| **7** | 73-77% | Shell Kurve | Fast left, starts S3 |
-| **8** | 77-81% | Amman Kurve | Flow right |
-| **9** | 84-88% | Bauer Kurve | Tighter right |
-| **10** | 89-95% | Zeppelin Kurve | Final corner onto straight 🔥 |
+| #      | Track % | Name           | Notes                                              |
+| :----- | :------ | :------------- | :------------------------------------------------- |
+| **1**  | 10-21%  | Hotel          | Chaos magnet. Heavy braking on curved approach. 🔥 |
+| **2**  | 25-32%  | Hasseroeder    | Second corner, sets up Triple                      |
+| **3**  | 37-46%  | Triple         | Three-corner complex, momentum critical            |
+| **4**  | 46-53%  | Turn 7         | Exit sets up chicane                               |
+| **5**  | 54-58%  | Schikane       | Lead-in to McDonald's                              |
+| **6**  | 58-63%  | McDonald's     | THE signature corner. Square it.                   |
+| **7**  | 73-77%  | Shell Kurve    | Fast left, starts S3                               |
+| **8**  | 77-81%  | Amman Kurve    | Flow right                                         |
+| **9**  | 84-88%  | Bauer Kurve    | Tighter right                                      |
+| **10** | 89-95%  | Zeppelin Kurve | Final corner onto straight 🔥                      |
 
 ---
 
@@ -66,7 +66,11 @@ The layout looks straightforward: no wild elevation changes, no Spa-style compre
 
 ## Ray FF1600 at Oschersleben
 
-In the Ray FF1600, Oschersleben turns into a **discipline exam**. You don’t have the power to recover from sloppy exits, so all the little 2–3 km/h mistakes stack up.
+In the Ray FF1600, Oschersleben turns into a **discipline exam**. You don't have the power to recover from sloppy exits, so all the little 2–3 km/h mistakes stack up.
+
+**Setup Reference:**
+
+- **Brake Bias**: 57% (VRS coach baseline)
 
 - **Downshifts into Hotel (T1)**  
   You arrive in fifth, braking on a slightly curved approach. The goal is a smooth, straightened brake phase and a clean downshift ladder that doesn’t spike rear locking. A mildly front-biased brake setting helps you early in the week; once the downshifts become automatic, you can edge bias rearward for a bit more rotation on turn-in.
@@ -117,12 +121,14 @@ If you can make Oschersleben feel clinically precise rather than stressful, the 
 **The Telemetry Truth:** Max lateral G is identical to Gong (2.28G vs 2.27G). The gap isn't cornering ability—it's deployment. Brake later, throttle earlier, trust the car.
 
 **Key Numbers (Baseline):**
+
 - Best Lap: 1:33.818 (Gap to Gong: 2.422s)
 - Braking % of lap: 17.6% (Gong: 14.5%) → braking 3.1% MORE
 - Full throttle %: 62.7% (Gong: 67.4%) → 4.7% LESS time on power
 - Gap to theoretical optimal: 0.037s (sectors not synced yet)
 
 **Focus Areas Identified:**
+
 1. T1 Hotel entry - brake later (50m to find)
 2. Zeppelin entry - less brake pressure, more roll speed
 3. General - get on throttle earlier everywhere
