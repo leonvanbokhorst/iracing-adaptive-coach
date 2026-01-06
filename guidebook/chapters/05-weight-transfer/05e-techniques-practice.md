@@ -89,6 +89,57 @@ You know the theory, you can feel it, you can see it in the data. Now it's time 
 - **Effect:** Keeps rear planted, stabilizes platform
 - **Benefit:** More predictable balance
 
+### 5. Kerb & Crest Technique: "Kerb = Maintenance, Crest = Commit"
+
+**The Principle:**
+When the car is unsettled or unloading (over a kerb or crest), full throttle while still steering is a snap-oversteer trigger.
+
+**The Physics/Why:**
+- **Kerb contact** = car bounces, weight transfers unpredictably
+- **Crest/compression** = car unloads, rear gets light
+- **Full throttle + steering + unsettled car** = inside rear breaks traction = spin
+
+**The Technique:**
+
+| Phase | Throttle | Steering | Why |
+|-------|----------|----------|-----|
+| Over kerb/crest | 10-30% (maintenance) | Still turning | Keep car settled |
+| Steering unwinding | 20% → 40% → 70% | Reducing | Gradual weight transfer |
+| Car straight | 100% | Zero | Full power, stable platform |
+
+**The Cue:** "Kerb = maintenance throttle, crest = commit AFTER"
+
+**What to Avoid:**
+- ❌ Full throttle while steering over kerb
+- ❌ Stabbing throttle on crest exit
+- ❌ Stab/lift/stab pattern (oscillates weight transfer)
+- ❌ Red anti-cut blocks (treat as invalid reps)
+
+**Master Lonn's Discovery (Lime Rock T5, Week 04):**
+
+> "Spins after the first kerb when back on throttle—always after I've already started steering."
+
+The data showed: S3 σ improved from **1.075s** (chaotic) to **0.416s** (controlled) after focusing on the kerb = maintenance → crest = commit sequence.
+
+**The Throttle Ramp Sequence:**
+```
+Over kerb:     10-30% ████░░░░░░░░░░░░░░░░
+Steering half: 40%    ████████░░░░░░░░░░░░
+Steering less: 70%    ██████████████░░░░░░
+Car straight:  100%   ████████████████████
+```
+
+**Practice Drill:**
+1. Find a corner with exit kerb/crest (e.g., Lime Rock T5)
+2. Focus ONLY on throttle sequencing (ignore lap time)
+3. Success = no snaps, no red blocks, consistent exits
+4. Once stable, THEN add speed
+
+→ **See:** Week 04, Practice 03 (Lime Rock) for session data
+
+**Key Takeaway:**
+When the car is bouncing or unloading, your throttle foot must be patient. Full power comes ONLY when hands are quiet and car is settled.
+
 ### 5. Braking in a Straight Line (Mostly)
 
 **The principle:** Separate braking and turning when possible.

@@ -1,0 +1,82 @@
+{
+  "comparison_date": "2026-01-06",
+  "current_driver": "Master Lonn",
+  "current_lap_time": "1:33.818",
+  "reference_driver": "Shuning Gong",
+  "reference_lap_time": "1:31.396",
+  "reference_context": "S4 2025 Season - Series fastest lap",
+  "gap_seconds": 2.422,
+  "speed": {
+    "current_top": 195.8,
+    "reference_top": 199.0,
+    "top_diff_kmh": -3.2,
+    "current_avg_kmh": 144.3,
+    "reference_avg_kmh": 147.4,
+    "avg_diff_kmh": -3.1,
+    "max_gain_kmh": 2.15,
+    "max_loss_kmh": -4.81,
+    "gain_distance_pct": 48.3,
+    "loss_distance_pct": 12.7
+  },
+  "braking": {
+    "current_max_pressure_pct": 76.6,
+    "reference_max_pressure_pct": 83.6,
+    "brake_pressure_diff": -7.0,
+    "current_braking_pct_of_lap": 17.6,
+    "reference_braking_pct_of_lap": 14.5,
+    "braking_time_diff_pct": 3.1
+  },
+  "throttle": {
+    "current_full_throttle_pct": 62.7,
+    "reference_full_throttle_pct": 67.4,
+    "full_throttle_diff_pct": -4.7,
+    "current_avg_throttle_pct": 69.9,
+    "reference_avg_throttle_pct": 73.3
+  },
+  "cornering": {
+    "current_max_lat_g": 2.28,
+    "reference_max_lat_g": 2.27,
+    "max_lat_g_diff": 0.01,
+    "current_avg_lat_g": 0.69,
+    "reference_avg_lat_g": 0.77,
+    "avg_lat_g_diff": -0.08,
+    "current_max_accel_g": 0.63,
+    "reference_max_accel_g": 0.94,
+    "accel_g_diff": -0.31,
+    "current_max_braking_g": -1.45,
+    "reference_max_braking_g": -1.54
+  },
+  "problem_zones": [
+    {
+      "name": "Hotel Entry",
+      "distance_pct": 10,
+      "speed_diff_kmh": -2.33,
+      "issue": "Braking 50m earlier than reference",
+      "fix": "Trail brakes deeper, try 100m board"
+    },
+    {
+      "name": "Zeppelin Entry",
+      "distance_pct": 90,
+      "speed_diff_kmh": -2.19,
+      "issue": "Heavy braking kills straight speed",
+      "fix": "Less brake pressure, more roll speed"
+    },
+    {
+      "name": "Triple to McDonald's",
+      "distance_pct": "30-60",
+      "speed_diff_kmh": -1.6,
+      "issue": "Less mid-corner speed throughout",
+      "fix": "Commit more, roll speed through corners"
+    }
+  ],
+  "winning_zones": [
+    {
+      "name": "Shell Kurve",
+      "distance_pct": 80,
+      "lat_g_diff": 0.43,
+      "note": "More cornering load - not afraid of corner"
+    }
+  ],
+  "key_insight": "Gap is deployment, not ability. Max lat G matches alien. Brake later, throttle earlier, trust the car."
+}
+
