@@ -1,7 +1,7 @@
 {
   "season": "01 2026",
-  "current_week": "4 (COMPLETE - Lime Rock Park Grand Prix)",
-  "current_track": "Lime Rock Park - Grand Prix",
+  "current_week": "5 (STARTING - Motorsport Arena Oschersleben GP)",
+  "current_track": "Motorsport Arena Oschersleben - Grand Prix",
   "current_car": "Ray FF1600",
   "driver_info": {
     "custid": 981717,
@@ -18,8 +18,8 @@
     "position_percentile": "Top 1.0%",
     "week03_final": true
   },
-  "focus": "Week 04: S3 Consistency (The Uphill). Trust the compression.",
-  "goal": "Week 04: Sub-56s Consistent Pace. S3 σ < 0.4s.",
+  "focus": "Week 05: Precision on the Plain. Hit the same mark ten times.",
+  "goal": "Week 05: McDonald's Chicane consistency. T1 survival script.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -350,6 +350,21 @@
       "gap_to_optimal": 0.134,
       "focus_area": "Official Race Validation - Meebewegen + Consistency Under Pressure",
       "notes": "WEEK 04 OFFICIAL RACE 1 - TOP SPLIT PODIUM. SoF 2035 (season high). Quali P2 (57.114s) → Finish P3. Best race lap 57.044s (0.07s faster than quali!). Meebewegen deployed: let faster guy through instead of fighting, preserved podium with 0 incidents. Fight happened 3s ahead but yielded no freebies. All sector sigmas under 0.23s - no weak link. S3 (The Uphill) σ = 0.197s - Chapter 16 Edge Mapping VALIDATED in official competition. Practice σ 0.37s → Race σ 0.20s = consistency IMPROVES under pressure. iRating 1672 (+71), SR 3.64 (+0.09). Driver self-assessment: 'P3 is a good result.' (Understatement of the week.) Garage61: 01KE99FVWW5H0FK1CCJQJXSC5X."
+    },
+    {
+      "date": "2026-01-06",
+      "time": "13:45 CET",
+      "session_type": "Practice (Offline Testing) - Baseline",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.818,
+      "consistency_sigma": 0.38,
+      "clean_laps": 7,
+      "total_laps": 11,
+      "incidents": 4,
+      "theoretical_optimal": 93.782,
+      "gap_to_optimal": 0.037,
+      "focus_area": "Week 05 Baseline - Track Learning",
+      "notes": "WEEK 05 SESSION 1 - BASELINE. First FF1600 session at Oschersleben. GR86 background provided instant track familiarity. Best lap 1:33.818 with only 0.037s gap to theoretical optimal (sectors not yet synchronized). S1 (Hotel) already stable (σ 0.08s). S3 (Shell→Zeppelin) is biggest loss zone (0.45s/lap). Gap to alien (Gong 1:31.396) is 2.4s - normal for Day 1. Conservative exploration, no major crashes. Driver self-assessment: 'Suits me well somehow.' Garage61: 01KE9N5M6JZWMNBK7G8DS1HJW8."
     }
   ],
   "insights": [
@@ -385,7 +400,9 @@
     "Meebewegen Official Validation (NEW): First official Top Split race (SoF 2035) deployed 'let faster guy through' strategy. Result: P3 podium preserved, 0 incidents, +71 iRating. Fighting would have risked: incident, tire wear, mental drain, likely losing position anyway. Strategic patience pays dividends in real competition.",
     "Consistency Sharpens Under Pressure (NEW): Practice σ 0.37s → Official Race σ 0.20s. Master Lonn's consistency IMPROVES (by 46%) when stakes are real. This is the hallmark of a pressure performer. The race environment doesn't break focus—it enhances it.",
     "S3 Mastery Complete (NEW): The Uphill (T5) went from σ 1.07s (no clue how to take it) to σ 0.197s (locked in) over 6 sessions. Chapter 16 Edge Mapping + compression trust + throttle ramp sequencing = complete solution. T5 is no longer a weakness—it's a strength.",
-    "Consistency Creates Traffic (NEW): Official Race 01 proved that being uncatchable (σ 0.197s) is more valuable than being fastest. P4 (Pears) had 0.25s more pace but got stuck behind P5 (Nakao) for half the race. Nakao couldn't catch Master Lonn, so he became a rolling roadblock. By the time Pears got clear, the gap was insurmountable. Consistency → Traffic jam behind → Position protected."
+    "Consistency Creates Traffic (NEW): Official Race 01 proved that being uncatchable (σ 0.197s) is more valuable than being fastest. P4 (Pears) had 0.25s more pace but got stuck behind P5 (Nakao) for half the race. Nakao couldn't catch Master Lonn, so he became a rolling roadblock. By the time Pears got clear, the gap was insurmountable. Consistency → Traffic jam behind → Position protected.",
+    "GR86 Track Memory Transfer: Oschersleben baseline showed that previous car experience (GR86) provides layout familiarity, but input calibration must be redone for FF1600. Master Lonn found near-optimal pace (0.037s gap) within 8 laps because he knew WHERE the corners were—just had to learn HOW the new car handles them.",
+    "Gong Comparison (Oschersleben): 2.4s gap to alien is NOT cornering ability—max lat G is identical (2.28 vs 2.27). Gap is deployment: brake 3.1% MORE of lap, full throttle 4.7% LESS, accel G 0.31 gentler. Hotel entry (braking 50m earlier) and Zeppelin (heavy braking) are biggest loss zones. Baseline = driving within limits. Now we know where the time lives."
   ],
   "next_steps": [
     "STRATEGY VALIDATED IN OFFICIAL RACE: Official Race 01 (SoF 2035, P3 finish) proved Meebewegen works against real competition. Let faster guy through → preserved podium with 0 incidents. Patience > ego.",

@@ -115,10 +115,13 @@ def calculate_speed_delta(current_df, reference_df):
     }
 
 
-def create_track_visualization(data, output_path, current_time, reference_time, track_name="Track"):
+def create_track_visualization(data, output_path, current_time, reference_time, track_name="Track", corner_positions=None):
     """
     Create a beautiful track map with speed delta visualization.
     Stats are printed to terminal for Little Padawan to interpret.
+    
+    Args:
+        corner_positions: Optional list of corner positions as fractions (e.g., [0.155, 0.285, ...] for T1, T2, ...)
     """
     # Create figure - CLEAN track map only
     fig, ax_map = plt.subplots(1, 1, figsize=(20, 20))
@@ -157,6 +160,28 @@ def create_track_visualization(data, output_path, current_time, reference_time, 
     ax_map.text(x[0], y[0], '  START/FINISH', fontsize=12, 
                fontweight='bold', va='bottom', ha='left',
                bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+    
+    # Mark corners if provided
+    if corner_positions:
+        lap_dist = data['lap_dist']
+        for i, corner_pct in enumerate(corner_positions, start=1):
+            # Find closest point on track to this corner position
+            idx = np.argmin(np.abs(lap_dist - corner_pct))
+            
+            # Plot corner marker (dark circle with white edge)
+            ax_map.scatter([x[idx]], [y[idx]], color='#2C3E50', 
+                          s=300, zorder=12, marker='o', edgecolors='white', linewidths=2.5)
+            
+            # Add corner label (white text centered on marker)
+            ax_map.annotate(f'{i}', (x[idx], y[idx]), 
+                           textcoords="offset points", 
+                           xytext=(0, 0),  # Centered on marker
+                           fontsize=11, 
+                           color='white', 
+                           fontweight='bold',
+                           ha='center', 
+                           va='center',
+                           zorder=13)
     
     # Styling - equal aspect for meters
     ax_map.set_aspect('equal')
@@ -315,6 +340,9 @@ def main():
     parser.add_argument("--current_time", help="Override current lap time (e.g., 1:25.710)")
     parser.add_argument("--ref_time", help="Override reference lap time (e.g., 1:26.090)")
     parser.add_argument("--track_name", help="Override track name")
+    parser.add_argument("--corners", nargs='*', type=float, default=None,
+                       metavar='POSITION',
+                       help="Corner positions as fractions (e.g., '0.155 0.285 0.417' for T1, T2, T3, ...)")
     
     args = parser.parse_args()
     
@@ -362,7 +390,8 @@ def main():
     create_track_visualization(data, output_file, 
                                current_time=current_time,
                                reference_time=reference_time,
-                               track_name=track_name)
+                               track_name=track_name,
+                               corner_positions=args.corners)
     
     print(f"\n✅ DONE! Check terminal output above for stats! 🏎️📊")
 

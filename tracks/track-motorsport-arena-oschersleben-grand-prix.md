@@ -20,6 +20,41 @@ The layout looks straightforward: no wild elevation changes, no Spa-style compre
 
 ---
 
+## Track Map
+
+<a href="images/oschersleben-grand-prix-map.png"><img src="images/oschersleben-grand-prix-map.png" alt="Oschersleben Grand Prix Map" width="70%"></a>
+
+---
+
+## Sector Definitions (iRacing)
+
+| Sector | Approx Time | % of Lap | Corners | Key Challenge |
+|:-------|:------------|:---------|:--------|:--------------|
+| **S1** | ~34.5s | 36% | Hotel (T1), Hasseroeder, Triple | Heavy braking into T1, technical flow |
+| **S2** | ~32.9s | 36% | T7, Schikane, McDonald's, Stadiongerade | Chicane precision, exit speed |
+| **S3** | ~26.4s | 28% | Shell, Amman, Bauer, Zeppelin | Fast flowing rhythm, final corner exit |
+
+> **Note:** S1 contains the chaos magnet (T1 Hotel). Make it boring on purpose. S2 has the signature McDonald's chicane—boring tidy = fast.
+
+---
+
+## Corner Reference
+
+| # | Track % | Name | Notes |
+|:--|:--------|:-----|:------|
+| **1** | 10-21% | Hotel | Chaos magnet. Heavy braking on curved approach. 🔥 |
+| **2** | 25-32% | Hasseroeder | Second corner, sets up Triple |
+| **3** | 37-46% | Triple | Three-corner complex, momentum critical |
+| **4** | 46-53% | Turn 7 | Exit sets up chicane |
+| **5** | 54-58% | Schikane | Lead-in to McDonald's |
+| **6** | 58-63% | McDonald's | THE signature corner. Square it. |
+| **7** | 73-77% | Shell Kurve | Fast left, starts S3 |
+| **8** | 77-81% | Amman Kurve | Flow right |
+| **9** | 84-88% | Bauer Kurve | Tighter right |
+| **10** | 89-95% | Zeppelin Kurve | Final corner onto straight 🔥 |
+
+---
+
 ## Character Notes
 
 - **Flat but never simple** – With almost no elevation change, you don’t get the usual “gravity hints”. Every brake point, every rotation is about markers, curbs and memory, not feeling the car fall into a valley.
@@ -64,6 +99,35 @@ Let Oschersleben be your **“hit the same mark ten times”** track.
   Do at least one longer stint (20+ minutes) in race fuel. Pay attention to how your braking references shift as tyres and fuel change, and how your mind wanders once the layout feels “solved”. Oschersleben is where loss of focus shows up as “just a bit deep” into a hairpin rather than a dramatic off—those are the habits you want to catch.
 
 If you can make Oschersleben feel clinically precise rather than stressful, the Ray starts to reward you with that smug touring-car satisfaction: you didn’t do one spectacular thing, you just did fifty small things right in a row.
+
+---
+
+## Personal Notes
+
+> _Track evolution and learnings. Worth revisiting next time I'm here._
+
+### Week 05 – January 2026 (Season 01)
+
+**First Discovery:** GR86 muscle memory from S4 2025 provided instant layout familiarity. Knew WHERE corners were within a few laps. But the FF1600 brakes and rotates completely differently.
+
+**The Feel:** Flat. No elevation hints. Every brake point is pure marker discipline. The track rewards "I hit my mark" more than "I sent it".
+
+**T1 (Hotel) Entry:** Baseline showed -17 km/h loss vs Gong at T1 entry. Braking ~50m earlier than alien. GR86 instincts say brake early; FF1600 says brake late. This is Problem Child #1.
+
+**The Telemetry Truth:** Max lateral G is identical to Gong (2.28G vs 2.27G). The gap isn't cornering ability—it's deployment. Brake later, throttle earlier, trust the car.
+
+**Key Numbers (Baseline):**
+- Best Lap: 1:33.818 (Gap to Gong: 2.422s)
+- Braking % of lap: 17.6% (Gong: 14.5%) → braking 3.1% MORE
+- Full throttle %: 62.7% (Gong: 67.4%) → 4.7% LESS time on power
+- Gap to theoretical optimal: 0.037s (sectors not synced yet)
+
+**Focus Areas Identified:**
+1. T1 Hotel entry - brake later (50m to find)
+2. Zeppelin entry - less brake pressure, more roll speed
+3. General - get on throttle earlier everywhere
+
+> _"The GR86 muscle memory is telling you to brake early. The FF1600 is begging you to brake late."_
 
 ---
 
