@@ -19,7 +19,7 @@
     "week03_final": true
   },
   "focus": "Week 05: Precision on the Plain. Hit the same mark ten times.",
-  "goal": "Week 05: McDonald's Chicane consistency. T1 survival script.",
+  "goal": "Week 05: T2 Hotel Exit mastery. Break 1:33.0.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -83,6 +83,23 @@
       "gap_to_optimal": 0.037,
       "focus_area": "Week 05 Baseline - Track Learning",
       "notes": "WEEK 05 SESSION 1 - BASELINE. First FF1600 session at Oschersleben. GR86 background provided instant track familiarity. Best lap 1:33.818 with only 0.037s gap to theoretical optimal (sectors not yet synchronized). S1 (Hotel) already stable (σ 0.08s). S3 (Shell→Zeppelin) is biggest loss zone (0.45s/lap). Gap to alien (Gong 1:31.396) is 2.4s - normal for Day 1. Conservative exploration, no major crashes. Driver self-assessment: 'Suits me well somehow.' Garage61: 01KE9N5M6JZWMNBK7G8DS1HJW8."
+    },
+    {
+      "date": "2026-01-06",
+      "time": "18:18 CET",
+      "session_type": "Practice (Offline) - IBT Analysis",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.333,
+      "best_lap_formatted": "1:33.333",
+      "consistency_sigma": 2.843,
+      "clean_laps": 16,
+      "total_laps": 16,
+      "incidents": 3,
+      "theoretical_optimal": 92.85,
+      "gap_to_optimal": 0.483,
+      "focus_area": "T2 Hotel Exit mastery",
+      "ibt_analysis": true,
+      "notes": "WEEK 05 SESSION 2 - PB! NEW IBT SYSTEM DEBUT. 16 laps, first full IBT-analyzed session. Clear learning progression: L1-L6 had 3 T2 incidents (+7.0s, +6.8s, +4.7s), L7-L16 were consistent and fast. PB 1:33.333 on Lap 14 (-0.485s vs morning baseline). 12/14 corners rated 'dialed' or 'solid'. T2 Hotel Exit (σ 2.257s) and T3 Hasseroeder (σ 1.14s) are the only 'lottery' corners. Driver self-assessment: 'T2 felt better but still a bit off... I remember that being a strange corner from GR86 times.' Tire temps perfectly balanced. Oversteer concentrated at T2/T3/T7/T14 (tight corners - expected). Garage61: 01KEA6H2X7PVMYJ5YC2591G9FY."
     }
   ],
   "insights": [
@@ -121,14 +138,16 @@
     "Consistency Creates Traffic (NEW): Official Race 01 proved that being uncatchable (σ 0.197s) is more valuable than being fastest. P4 (Pears) had 0.25s more pace but got stuck behind P5 (Nakao) for half the race. Nakao couldn't catch Master Lonn, so he became a rolling roadblock. By the time Pears got clear, the gap was insurmountable. Consistency → Traffic jam behind → Position protected.",
     "GR86 Track Memory Transfer: Oschersleben baseline showed that previous car experience (GR86) provides layout familiarity, but input calibration must be redone for FF1600. Master Lonn found near-optimal pace (0.037s gap) within 8 laps because he knew WHERE the corners were—just had to learn HOW the new car handles them.",
     "Gong Comparison (Oschersleben): 2.4s gap to alien is NOT cornering ability—max lat G is identical (2.28 vs 2.27). Gap is deployment: brake 3.1% MORE of lap, full throttle 4.7% LESS, accel G 0.31 gentler. Hotel entry (braking 50m earlier) and Zeppelin (heavy braking) are biggest loss zones. Baseline = driving within limits. Now we know where the time lives.",
-    "VRS T1-T2 Hotel Technique (Johnny Gideon 1:31.295): TURN FIRST, BRAKE SECOND. The key insight: 'It's not about how MUCH you slow down, it's about HOW you get to minimum speed. Slow gradually = optimal. Quick decel = losing lap time.' The Hotel is the LONGEST braking zone of the lap (5-6 seconds). Technique: (1) Turn 2-3 car lengths before access road, (2) Initial brake 25-30% only, (3) Release to ~10% through kink, (4) Stay in 4th gear through T1 (no downshifts!), (5) Reserve bulk of braking for straighter section between T1-T2, (6) Overlap throttle with brakes during downshifts to stabilize rear, (7) Downshift to 1st by T2 apex. Master Lonn's error: doing too much braking too early, killing speed before the kink."
+    "VRS T1-T2 Hotel Technique (Johnny Gideon 1:31.295): TURN FIRST, BRAKE SECOND. The key insight: 'It's not about how MUCH you slow down, it's about HOW you get to minimum speed. Slow gradually = optimal. Quick decel = losing lap time.' The Hotel is the LONGEST braking zone of the lap (5-6 seconds). Technique: (1) Turn 2-3 car lengths before access road, (2) Initial brake 25-30% only, (3) Release to ~10% through kink, (4) Stay in 4th gear through T1 (no downshifts!), (5) Reserve bulk of braking for straighter section between T1-T2, (6) Overlap throttle with brakes during downshifts to stabilize rear, (7) Downshift to 1st by T2 apex. Master Lonn's error: doing too much braking too early, killing speed before the kink.",
+    "IBT Session Learning Curve (NEW): Practice 02 showed visible learning progression within single session. L1-L6 avg at problem corner (T2): 9.76s with 3 incidents. L7-L16 avg at same corner: 7.45s with 0 incidents. That's 2.3s improvement at ONE corner through self-correction. Last 6 laps (L11-L16) averaged 1:33.55s with ~0.18s σ. The data proves: early chaos ≠ session failure. Patience + laps = learning.",
+    "T2 Hotel Exit Nemesis Pattern (NEW): T2 is objectively difficult: (1) Entry partially blind (cresting), (2) Decreasing radius (tightens), (3) Downhill (less rear grip), (4) Still recovering from T1 chaos. GR86 muscle memory interferes—knows WHERE to turn but not HOW in FF1600. σ = 2.257s across 16 laps. When T2 works, lap is 1:33.x. When T2 fails, lap is 1:40+. The difference between good and disaster lap lives at T2."
   ],
   "next_steps": [
-    "STRATEGY VALIDATED IN OFFICIAL RACE: Official Race 01 (SoF 2035, P3 finish) proved Meebewegen works against real competition. Let faster guy through → preserved podium with 0 incidents. Patience > ego.",
-    "Race Strategy TRIPLE-VALIDATED: Cold Tire Contract + Meebewegen now proven in AI races (5 wins) AND official Top Split race (P3 podium). The system is bulletproof across competition types.",
-    "Consistency Under Pressure PROVEN: Practice σ 0.37s → Race σ 0.20s. Master Lonn gets MORE consistent when it matters. Pressure performer confirmed.",
-    "S3 (The Uphill) SOLVED: σ went from 1.07s (Week 04 Session 3) to 0.197s (Official Race 01). 82% improvement. Chapter 16 Edge Mapping + 'trust the compression' is now race-validated.",
-    "New Focus - S1 (Big Bend): With S3 locked in, S1 is now the highest loss/lap sector (0.207s). Single brake input + maintenance throttle = next optimization target.",
+    "WEEK 05 FOCUS: T2 Hotel Exit mastery. Target: zero incidents, avg time < 7.5s, break 1:33.0 barrier.",
+    "PB Progress: 1:33.818 (Practice 01) → 1:33.333 (Practice 02). Gap to alien (Gong 1:31.396) now 1.94s.",
+    "Theoretical Optimal: 1:32.850 is reachable. Gap is only 0.483s. T2 alone loses ~1s on bad laps.",
+    "IBT Analysis System LIVE: Full corner-by-corner analysis now available. Multi-lap behavioral patterns visible.",
+    "GR86 Muscle Memory: T2 confusion is due to different car physics. Need to unlearn old inputs and learn FF1600-specific technique.",
     "iRating Trajectory: 1238 → 1672 (+434 in 4 weeks). Approaching Division 7 territory. SR 3.64 → on track for A-class."
   ],
   "guidebook_updates": []
