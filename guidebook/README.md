@@ -28,6 +28,7 @@ May the G-Force be with you.
 ### Part 3: The Advanced Arts
 
 - **Chapter 10: The Car's Conversation: Rotation and Balance** - [Chapter](chapters/10-rotation-and-balance.md)
+- **Car Behavior: Understeer & Oversteer** - [Chapter](chapters/11-car-behavior/README.md) ✨ NEW
 - **Chapter 11: Reading the Tea Leaves: G-Force Analysis** - [Chapter](chapters/11-g-force-analysis.md)
 - **Chapter 12: Beyond G-Forces: An Advanced Telemetry Deep Dive** - [Chapter](chapters/12-advanced-telemetry.md) ✨ NEW
 - **Chapter 13: The Mental Game: Flow State and Deliberate Practice** - [Chapter](chapters/13-mental-game.md) ✨ NEW

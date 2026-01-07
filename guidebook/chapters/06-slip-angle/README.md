@@ -115,6 +115,19 @@ This chapter is organized into focused sub-chapters for ADHD-friendly learning:
 
 ---
 
+### [06g: Tire Temperature Diagnostics](06g-tire-temperature-diagnostics.md) ✨ NEW
+**Reading the story your tires are telling you**
+
+- The three temperature zones (Inside/Middle/Outside)
+- What each zone tells you about driving style
+- Front vs. rear temps = balance indicator
+- Optimal temperature ranges for grip
+- Correlating tire temps with understeer/oversteer analysis
+
+**Start here if:** You want to understand WHY you're understeering or oversteering, confirmed by tire data.
+
+---
+
 ### [Quick Reference](quick-reference.md)
 **Monitor-mountable cheat sheet**
 
@@ -156,6 +169,7 @@ Essential slip angle concepts in bullet form for trackside reference.
 - "Why am I understeering?" → [06d](06d-slip-angle-car-balance.md)
 - "How do I apply this in corners?" → [06e](06e-managing-slip-angle.md)
 - "How do I feel slip angle through the wheel?" → [06f](06f-light-hands-technique.md)
+- "What are my tire temps telling me?" → [06g](06g-tire-temperature-diagnostics.md)
 
 ---
 
@@ -214,5 +228,6 @@ _"Every tire has a sweet spot. Find it, stay in it, and everything else becomes 
 - [06d: Slip Angle & Car Balance](06d-slip-angle-car-balance.md)
 - [06e: Managing Slip Angle](06e-managing-slip-angle.md)
 - [06f: Light Hands Technique](06f-light-hands-technique.md)
+- [06g: Tire Temperature Diagnostics](06g-tire-temperature-diagnostics.md) ✨ NEW
 - [Quick Reference](quick-reference.md)
 
