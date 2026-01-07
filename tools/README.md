@@ -26,6 +26,7 @@ tools/
 ## Core Tools (Facts Only)
 
 ### Characteristics
+
 - ✅ Output pure JSON
 - ✅ No interpretation
 - ✅ No coaching language
@@ -36,6 +37,7 @@ tools/
 ### Example: `analyze_session.py`
 
 **Bad (rule-based interpretation)**:
+
 ```json
 {
   "sector_2": {
@@ -46,6 +48,7 @@ tools/
 ```
 
 **Good (pure facts)**:
+
 ```json
 {
   "sectors": {
@@ -60,6 +63,7 @@ tools/
 ```
 
 Little Padawan reads this and decides:
+
 - "Sector 2 has 3x more loss than others → focus area"
 - "σ = 0.748s → consistency issue"
 - "Does Master Lonn need a visualization?"
@@ -68,13 +72,76 @@ Little Padawan reads this and decides:
 
 ## Coach Tools (Generated On-Demand)
 
-### When to Create
+### Available Coach Tools
+
+| Tool                           | Purpose                                    | Input     |
+| ------------------------------ | ------------------------------------------ | --------- |
+| `analyze_car_balance.py`       | Detect understeer/oversteer from telemetry | IBT file  |
+| `analyze_braking_technique.py` | Brake zone analysis                        | CSV/IBT   |
+| `analyze_ibt_technique.py`     | Overall technique analysis                 | IBT file  |
+| `compare_telemetry.py`         | Compare two laps/drivers                   | CSV files |
+| `compare_laps.py`              | Lap-to-lap comparison                      | IBT file  |
+
+### Car Balance Analysis (`analyze_car_balance.py`)
+
+**FACTS ONLY** - Outputs raw telemetry data for Little Padawan to interpret.
+
+**What It Measures (raw numbers, no interpretation):**
+
+- **Steering Response Ratio** - Expected vs actual yaw rate
+- **Balance Distribution** - Percentages in each state (understeer/neutral/high_rotation/oversteer)
+- **Event Counts** - Raw counts of understeer, oversteer, spins
+- **Transitions** - Where state changes occur (track position, ratio, yaw rate)
+- **Input Smoothness** - Steering rate statistics (avg, max, std, distribution by rate bands)
+- **Tire Temperatures** - Peak, session avg, cornering temps (L/M/R for each tire)
+- **Delta Correlation** - Delta change during balance events
+- **Corner Breakdown** - Per-corner counts (when track data provided)
+
+**Usage:**
+
+```bash
+python tools/coach/analyze_car_balance.py telemetry.ibt
+python tools/coach/analyze_car_balance.py telemetry.ibt --track oschersleben-gp
+python tools/coach/analyze_car_balance.py telemetry.ibt --pretty
+```
+
+**Example Output (FACTS, no interpretation):**
+
+```json
+{
+  "balance_distribution_pct": {
+    "understeer": 16.7,
+    "neutral": 50.6,
+    "oversteer": 15.5
+  },
+  "event_counts": { "understeer": 8991, "oversteer": 8345, "spins": 26 },
+  "input_smoothness": {
+    "avg_steering_rate_deg_s": 29.0,
+    "max_steering_rate_deg_s": 619.2
+  },
+  "tire_analysis": {
+    "left_front": { "peak_avg_c": 98.2, "cornering_max_R_c": 96.0 }
+  },
+  "corners": { "T1": { "understeer_count": 403, "oversteer_count": 670 } }
+}
+```
+
+**Little Padawan interprets these facts:**
+
+- "RF peak 134°C? Above 110° = overheating tire"
+- "16.7% understeer vs 15.5% oversteer? Balanced."
+- "98.7% inputs under 150 deg/s? Butter smooth!"
+
+### When to Create New Tools
+
 Little Padawan creates coach tools when:
+
 1. Master Lonn asks for specific analysis
 2. A pattern emerges that needs deeper investigation
 3. Existing tools don't provide the needed facts
 
 ### Characteristics
+
 - Still output JSON (facts only)
 - More specialized than core tools
 - Created in `tools/coach/`
@@ -86,6 +153,7 @@ Little Padawan creates coach tools when:
 **Master Lonn**: "I feel like I'm braking too early in Turn 3"
 
 **Little Padawan**:
+
 1. Checks if tool exists: `tools/coach/analyze_braking_zones.py`
 2. If not, generates it to output braking point facts
 3. Runs it: `python tools/coach/analyze_braking_zones.py data/session.csv`
@@ -98,11 +166,13 @@ Little Padawan creates coach tools when:
 ## How Little Padawan Uses Tools
 
 ### 1. Run Tool
+
 ```bash
 python tools/core/analyze_session.py data/session.csv
 ```
 
 ### 2. Read JSON Facts
+
 ```python
 import subprocess
 import json
@@ -117,9 +187,10 @@ facts = json.loads(result.stdout)
 ```
 
 ### 3. Interpret Facts
+
 ```python
 # Little Padawan's interpretation logic
-sector_losses = {name: data['loss_per_lap'] 
+sector_losses = {name: data['loss_per_lap']
                  for name, data in facts['sectors'].items()}
 
 max_loss_sector = max(sector_losses, key=sector_losses.get)
@@ -132,6 +203,7 @@ if max_loss > 2 * avg_loss:
 ```
 
 ### 4. Coach Master Lonn
+
 ```
 "Master Lonn, I analyzed your session.
 
@@ -162,7 +234,7 @@ Little Padawan reads this output and gives it meaning.
 
 Usage:
     python tools/core/tool_name.py <args>
-    
+
 Output: JSON with factual data
 """
 
@@ -191,6 +263,7 @@ if __name__ == "__main__":
 ```
 
 ### Rules
+
 1. Output must be valid JSON
 2. No interpretation in output
 3. No coaching language
@@ -202,6 +275,7 @@ if __name__ == "__main__":
 ## Little Padawan Can Also Search
 
 Little Padawan can use search to find useful facts:
+
 - Racing techniques
 - Track-specific tips
 - Data analysis methods
@@ -214,6 +288,7 @@ Then apply those facts to Master Lonn's specific data.
 ## Why This Matters
 
 ### ❌ Rule-Based (Old Way)
+
 ```python
 if sigma > 1.0:
     print("You need to work on consistency")
@@ -222,6 +297,7 @@ if sigma > 1.0:
 Problem: Rules are rigid, context-blind, not adaptive.
 
 ### ✅ Data-Driven (New Way)
+
 ```python
 # Tool outputs facts
 facts = {"sigma": 1.43}
