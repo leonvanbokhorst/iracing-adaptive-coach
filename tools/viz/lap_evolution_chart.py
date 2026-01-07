@@ -61,26 +61,32 @@ def generate_lap_evolution_chart(
     if not laps:
         return {"error": "No laps found"}
     
-    # Extract lap times
-    lap_numbers = [l["lap_number"] for l in laps]
-    lap_times = [l["lap_time"] for l in laps]
-    valid_flags = [l.get("valid", True) for l in laps]
+    # Filter to flying laps only (exclude outlaps entirely from chart)
+    flying_laps = [l for l in laps if l.get("valid", True) and not l.get("is_outlap", False)]
+    num_outlaps = sum(1 for l in laps if l.get("is_outlap", False))
+    
+    # Extract lap times from flying laps only
+    lap_numbers = [l["lap_number"] for l in flying_laps]
+    lap_times = [l["lap_time"] for l in flying_laps]
     
     # Find best lap
-    valid_times = [(n, t) for n, t, v in zip(lap_numbers, lap_times, valid_flags) if v and 60 < t < 180]
+    valid_times = [(n, t) for n, t in zip(lap_numbers, lap_times) if 60 < t < 180]
     if valid_times:
         best_lap_num, best_time = min(valid_times, key=lambda x: x[1])
     else:
         best_lap_num, best_time = None, None
     
-    # Calculate statistics for valid laps only
-    valid_lap_times = [t for t, v in zip(lap_times, valid_flags) if v and 60 < t < 180]
-    if valid_lap_times:
-        avg_time = np.mean(valid_lap_times)
+    # Calculate statistics for flying laps
+    flying_lap_times = [t for t in lap_times if 60 < t < 180]
+    if flying_lap_times:
+        avg_time = np.mean(flying_lap_times)
         theoretical = session_data["summary"].get("theoretical_optimal")
     else:
         avg_time = None
         theoretical = None
+    
+    # Count for title
+    num_flying = len(flying_lap_times)
     
     # Create figure
     fig, ax = plt.subplots(figsize=(12, 6))
@@ -89,25 +95,25 @@ def generate_lap_evolution_chart(
     def format_time(t):
         return f"{int(t // 60)}:{t % 60:06.3f}"
     
-    # Plot lap times
+    # Plot lap times - colors based on performance (flying laps only)
     colors = []
-    for i, (n, t, v) in enumerate(zip(lap_numbers, lap_times, valid_flags)):
-        if not v or t < 60 or t > 180:
-            colors.append('lightgray')  # Invalid/outlap
+    for n, t in zip(lap_numbers, lap_times):
+        if t < 60 or t > 180:
+            colors.append('lightgray')  # Invalid lap
         elif best_time and t == best_time:
-            colors.append('green')  # Best lap
+            colors.append('darkgreen')  # Best lap
+        elif best_time and t < best_time * 1.01:
+            colors.append('limegreen')  # Within 1% of best
         elif best_time and t < best_time * 1.02:
-            colors.append('limegreen')  # Within 2% of best
-        elif best_time and t < best_time * 1.05:
-            colors.append('gold')  # Within 5% of best
+            colors.append('mediumseagreen')  # Within 2% of best
         else:
-            colors.append('tomato')  # Slow lap
+            colors.append('lightgreen')  # Valid flying lap
     
     bars = ax.bar(lap_numbers, lap_times, color=colors, edgecolor='black', linewidth=0.5)
     
     # Add lap time labels on bars
-    for bar, t, v in zip(bars, lap_times, valid_flags):
-        if v and 60 < t < 180:
+    for bar, t in zip(bars, lap_times):
+        if 60 < t < 180:
             ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5,
                    format_time(t), ha='center', va='bottom', fontsize=8, rotation=45)
     
@@ -135,10 +141,13 @@ def generate_lap_evolution_chart(
     y_padding = (valid_max - valid_min) * 0.15
     ax.set_ylim(valid_min - y_padding, valid_max + y_padding * 2)
     
-    # Title
+    # Title - show flying laps count
     track_name = session_data["metadata"].get("track", "Unknown Track")
-    total_laps = len(laps)
-    ax.set_title(f"Lap Time Evolution\n{track_name} | {total_laps} Laps",
+    if num_outlaps > 0:
+        lap_info = f"{num_flying} Flying Laps (+{num_outlaps} outlap)"
+    else:
+        lap_info = f"{len(laps)} Laps"
+    ax.set_title(f"Lap Time Evolution\n{track_name} | {lap_info}",
                 fontsize=12, fontweight='bold')
     
     # Legend
@@ -148,12 +157,12 @@ def generate_lap_evolution_chart(
     ax.grid(axis='y', alpha=0.3)
     ax.set_axisbelow(True)
     
-    # Add trend line for valid laps
-    if len(valid_lap_times) >= 3:
-        valid_indices = [i+1 for i, (t, v) in enumerate(zip(lap_times, valid_flags)) if v and 60 < t < 180]
-        z = np.polyfit(valid_indices, valid_lap_times, 1)
+    # Add trend line for flying laps
+    if len(flying_lap_times) >= 3:
+        # Use lap numbers directly (already filtered to flying laps only)
+        z = np.polyfit(lap_numbers, flying_lap_times, 1)
         p = np.poly1d(z)
-        trend_x = np.linspace(min(valid_indices), max(valid_indices), 100)
+        trend_x = np.linspace(min(lap_numbers), max(lap_numbers), 100)
         ax.plot(trend_x, p(trend_x), 'r-', alpha=0.5, linewidth=2, label='Trend')
         
         # Determine trend direction

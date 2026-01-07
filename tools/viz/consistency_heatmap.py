@@ -58,29 +58,31 @@ def generate_consistency_heatmap(
         return session_data
     
     laps = session_data.get("laps", [])
-    valid_laps = [l for l in laps if l.get("valid", False) and "corners" in l]
+    # Only include flying laps (valid AND not outlap)
+    flying_laps = [l for l in laps if l.get("valid", False) and not l.get("is_outlap", False) and "corners" in l]
+    outlap_count = sum(1 for l in laps if l.get("is_outlap", False))
     
-    if not valid_laps:
-        return {"error": "No valid laps with corner data found"}
+    if not flying_laps:
+        return {"error": "No flying laps with corner data found"}
     
     # Get corner names
-    corner_names = list(valid_laps[0]["corners"].keys())
+    corner_names = list(flying_laps[0]["corners"].keys())
     
     # Build data matrix
     # Rows = laps, Columns = corners
     # Values = time difference from best time in that corner
     
-    # Find best time per corner
+    # Find best time per corner (flying laps only)
     best_times = {}
     for corner in corner_names:
-        times = [l["corners"].get(corner) for l in valid_laps if l["corners"].get(corner)]
+        times = [l["corners"].get(corner) for l in flying_laps if l["corners"].get(corner)]
         if times:
             best_times[corner] = min(times)
     
     # Build matrix of deltas (time - best)
     data = []
     lap_labels = []
-    for lap in valid_laps:
+    for lap in flying_laps:
         row = []
         for corner in corner_names:
             time = lap["corners"].get(corner)
@@ -96,7 +98,7 @@ def generate_consistency_heatmap(
     data = np.array(data)
     
     # Create figure
-    fig, ax = plt.subplots(figsize=(14, max(4, len(valid_laps) * 0.8)))
+    fig, ax = plt.subplots(figsize=(14, max(4, len(flying_laps) * 0.8)))
     
     # Custom colormap: green (0) -> yellow -> red (max)
     max_delta = np.max(data)
@@ -132,7 +134,11 @@ def generate_consistency_heatmap(
     # Title
     track_name = session_data["metadata"].get("track", "Unknown Track")
     best_lap = session_data["summary"]["best_lap_time_formatted"]
-    ax.set_title(f"Corner Consistency Heatmap\n{track_name} | Best Lap: {best_lap}", 
+    if outlap_count > 0:
+        lap_info = f"{len(flying_laps)} Flying Laps"
+    else:
+        lap_info = f"{len(flying_laps)} Laps"
+    ax.set_title(f"Corner Consistency Heatmap\n{track_name} | {lap_info} | Best: {best_lap}", 
                 fontsize=12, fontweight='bold')
     
     ax.set_xlabel("Corner", fontsize=10)

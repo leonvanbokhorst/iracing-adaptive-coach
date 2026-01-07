@@ -148,6 +148,31 @@ def is_valid_lap(lap_time: float, expected_range: tuple = (60, 180)) -> bool:
     return expected_range[0] < lap_time < expected_range[1]
 
 
+def is_outlap(lap_number: int, lap_time: float, all_lap_times: list) -> bool:
+    """
+    Detect if a lap is an outlap (first lap, significantly slower than session pace).
+    
+    Criteria:
+    - Must be lap 1 (first lap is almost always outlap in practice)
+    - Must be significantly slower than the median of other laps (>1.5s slower)
+    """
+    if lap_number != 1:
+        return False
+    
+    if len(all_lap_times) < 3:
+        return False  # Not enough data to determine
+    
+    # Get median of laps 2+ (excluding potential outlap)
+    other_laps = all_lap_times[1:]  # Skip first lap
+    if not other_laps:
+        return False
+    
+    median_time = sorted(other_laps)[len(other_laps) // 2]
+    
+    # If lap 1 is more than 1.5s slower than median, it's an outlap
+    return lap_time > median_time + 1.5
+
+
 def extract_session(ibt_path: str, track_id: Optional[str] = None) -> dict:
     """
     Extract complete session data from IBT file.
@@ -190,9 +215,18 @@ def extract_session(ibt_path: str, track_id: Optional[str] = None) -> dict:
         ibt.close()
         return {"error": "Not enough complete laps found in session"}
     
-    # Extract each lap
+    # First pass: extract all lap times to detect outlaps
+    raw_lap_times = []
+    for i in range(len(lap_boundaries) - 1):
+        start_idx = lap_boundaries[i]
+        end_idx = lap_boundaries[i + 1]
+        lap_time = session_time[end_idx] - session_time[start_idx]
+        if is_valid_lap(lap_time):
+            raw_lap_times.append(lap_time)
+    
+    # Extract each lap (second pass with outlap detection)
     laps = []
-    all_lap_times = []
+    all_lap_times = []  # Only flying laps (excludes outlaps)
     all_sector_times = {f"S{s['name']}": [] for s in track_data.get("sector", [])} if track_data else {}
     all_corner_times = {t["name"]: [] for t in track_data.get("turn", [])} if track_data else {}
     
@@ -203,6 +237,9 @@ def extract_session(ibt_path: str, track_id: Optional[str] = None) -> dict:
         lap_time = session_time[end_idx] - session_time[start_idx]
         lap_number = i + 1
         
+        # Check if this is an outlap
+        outlap_detected = is_outlap(lap_number, lap_time, raw_lap_times)
+        
         lap_data = {
             "lap_number": lap_number,
             "lap_time": round(lap_time, 3),
@@ -211,7 +248,11 @@ def extract_session(ibt_path: str, track_id: Optional[str] = None) -> dict:
             "end_idx": end_idx,
             "samples": end_idx - start_idx,
             "valid": is_valid_lap(lap_time),
+            "is_outlap": outlap_detected,
         }
+        
+        # For statistics, only include valid NON-outlap laps (flying laps)
+        include_in_stats = lap_data["valid"] and not outlap_detected
         
         # Calculate sector times if track data available
         if track_data and "sector" in track_data:
@@ -220,8 +261,8 @@ def extract_session(ibt_path: str, track_id: Optional[str] = None) -> dict:
             )
             lap_data["sectors"] = sectors
             
-            # Collect for statistics (only valid laps)
-            if lap_data["valid"]:
+            # Collect for statistics (only flying laps)
+            if include_in_stats:
                 for sector_name, sector_time in sectors.items():
                     if sector_name in all_sector_times:
                         all_sector_times[sector_name].append(sector_time)
@@ -233,25 +274,29 @@ def extract_session(ibt_path: str, track_id: Optional[str] = None) -> dict:
             )
             lap_data["corners"] = corners
             
-            # Collect for statistics (only valid laps)
-            if lap_data["valid"]:
+            # Collect for statistics (only flying laps)
+            if include_in_stats:
                 for corner_name, corner_time in corners.items():
                     if corner_name in all_corner_times:
                         all_corner_times[corner_name].append(corner_time)
         
         laps.append(lap_data)
         
-        if lap_data["valid"]:
+        if include_in_stats:
             all_lap_times.append(lap_time)
     
     # Calculate session statistics
     valid_laps = [l for l in laps if l["valid"]]
+    flying_laps = [l for l in laps if l["valid"] and not l.get("is_outlap", False)]
+    outlap_laps = [l for l in laps if l.get("is_outlap", False)]
     
     if not valid_laps:
         ibt.close()
         return {"error": "No valid laps found in session"}
     
-    best_lap = min(valid_laps, key=lambda x: x["lap_time"])
+    # Best lap from flying laps only (or valid laps if no flying laps detected)
+    laps_for_stats = flying_laps if flying_laps else valid_laps
+    best_lap = min(laps_for_stats, key=lambda x: x["lap_time"])
     
     # Calculate theoretical optimal (sum of best sectors)
     theoretical_optimal = None
@@ -302,12 +347,14 @@ def extract_session(ibt_path: str, track_id: Optional[str] = None) -> dict:
         "summary": {
             "total_laps": len(laps),
             "valid_laps": len(valid_laps),
+            "flying_laps": len(flying_laps),
+            "outlaps": len(outlap_laps),
             "invalid_laps": len(laps) - len(valid_laps),
             "best_lap_time": round(best_lap["lap_time"], 3),
             "best_lap_time_formatted": best_lap["lap_time_formatted"],
             "best_lap_number": best_lap["lap_number"],
-            "worst_lap_time": round(max(l["lap_time"] for l in valid_laps), 3),
-            "avg_lap_time": round(statistics.mean(all_lap_times), 3),
+            "worst_flying_lap_time": round(max(l["lap_time"] for l in laps_for_stats), 3) if laps_for_stats else None,
+            "avg_lap_time": round(statistics.mean(all_lap_times), 3) if all_lap_times else None,
             "consistency_sigma": round(statistics.stdev(all_lap_times), 3) if len(all_lap_times) > 1 else 0.0,
             "theoretical_optimal": round(theoretical_optimal, 3) if theoretical_optimal else None,
             "gap_to_optimal": round(best_lap["lap_time"] - theoretical_optimal, 3) if theoretical_optimal else None,

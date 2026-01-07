@@ -100,6 +100,23 @@
       "focus_area": "T2 Hotel Exit mastery",
       "ibt_analysis": true,
       "notes": "WEEK 05 SESSION 2 - PB! NEW IBT SYSTEM DEBUT. 16 laps, first full IBT-analyzed session. Clear learning progression: L1-L6 had 3 T2 incidents (+7.0s, +6.8s, +4.7s), L7-L16 were consistent and fast. PB 1:33.333 on Lap 14 (-0.485s vs morning baseline). 12/14 corners rated 'dialed' or 'solid'. T2 Hotel Exit (σ 2.257s) and T3 Hasseroeder (σ 1.14s) are the only 'lottery' corners. Driver self-assessment: 'T2 felt better but still a bit off... I remember that being a strange corner from GR86 times.' Tire temps perfectly balanced. Oversteer concentrated at T2/T3/T7/T14 (tight corners - expected). Garage61: 01KEA6H2X7PVMYJ5YC2591G9FY."
+    },
+    {
+      "date": "2026-01-07",
+      "time": "18:07 CET",
+      "session_type": "Practice (Offline) - Consistency Focus",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.167,
+      "best_lap_formatted": "1:33.167",
+      "consistency_sigma": 0.40,
+      "clean_laps": 10,
+      "total_laps": 10,
+      "incidents": 0,
+      "theoretical_optimal": 93.033,
+      "gap_to_optimal": 0.134,
+      "focus_area": "Consistency throughout session",
+      "ibt_analysis": true,
+      "notes": "WEEK 05 SESSION 3 - NEW PB! CONSISTENCY BREAKTHROUGH. Goal was 'hit same marks ten times' - DELIVERED. T2 Hotel Exit σ dropped from 2.257s (lottery) to 0.231s (solid) - 90% improvement in one session! First CLEAN Oschersleben session (0 incidents). 12/14 corners now 'dialed' (σ < 0.10s). PB came on final lap (1:33.167). 9 flying laps + 1 outlap (auto-detected and excluded from stats). TRUE consistency σ = 0.40s (not 0.698s which included outlap). S3 σ = 0.055s (ELITE). Driver self-assessment: 'Hotel is still shaky, but not scary. It's a strange corner.' Tire temps perfectly balanced. Gap to theoretical optimal now only 0.134s (sectors synchronizing). Gap to alien (Gong 1:31.396) now 1.77s. Garage61: 01KECPNFE7ZEG3DMHNRG548R0Q."
     }
   ],
   "insights": [
@@ -140,14 +157,19 @@
     "Gong Comparison (Oschersleben): 2.4s gap to alien is NOT cornering ability—max lat G is identical (2.28 vs 2.27). Gap is deployment: brake 3.1% MORE of lap, full throttle 4.7% LESS, accel G 0.31 gentler. Hotel entry (braking 50m earlier) and Zeppelin (heavy braking) are biggest loss zones. Baseline = driving within limits. Now we know where the time lives.",
     "VRS T1-T2 Hotel Technique (Johnny Gideon 1:31.295): TURN FIRST, BRAKE SECOND. The key insight: 'It's not about how MUCH you slow down, it's about HOW you get to minimum speed. Slow gradually = optimal. Quick decel = losing lap time.' The Hotel is the LONGEST braking zone of the lap (5-6 seconds). Technique: (1) Turn 2-3 car lengths before access road, (2) Initial brake 25-30% only, (3) Release to ~10% through kink, (4) Stay in 4th gear through T1 (no downshifts!), (5) Reserve bulk of braking for straighter section between T1-T2, (6) Overlap throttle with brakes during downshifts to stabilize rear, (7) Downshift to 1st by T2 apex. Master Lonn's error: doing too much braking too early, killing speed before the kink.",
     "IBT Session Learning Curve (NEW): Practice 02 showed visible learning progression within single session. L1-L6 avg at problem corner (T2): 9.76s with 3 incidents. L7-L16 avg at same corner: 7.45s with 0 incidents. That's 2.3s improvement at ONE corner through self-correction. Last 6 laps (L11-L16) averaged 1:33.55s with ~0.18s σ. The data proves: early chaos ≠ session failure. Patience + laps = learning.",
-    "T2 Hotel Exit Nemesis Pattern (NEW): T2 is objectively difficult: (1) Entry partially blind (cresting), (2) Decreasing radius (tightens), (3) Downhill (less rear grip), (4) Still recovering from T1 chaos. GR86 muscle memory interferes—knows WHERE to turn but not HOW in FF1600. σ = 2.257s across 16 laps. When T2 works, lap is 1:33.x. When T2 fails, lap is 1:40+. The difference between good and disaster lap lives at T2."
+    "T2 Hotel Exit Nemesis Pattern (NEW): T2 is objectively difficult: (1) Entry partially blind (cresting), (2) Decreasing radius (tightens), (3) Downhill (less rear grip), (4) Still recovering from T1 chaos. GR86 muscle memory interferes—knows WHERE to turn but not HOW in FF1600. σ = 2.257s across 16 laps. When T2 works, lap is 1:33.x. When T2 fails, lap is 1:40+. The difference between good and disaster lap lives at T2.",
+    "Consistency-First Produces Speed (NEW): Practice 03 goal was ONLY consistency ('hit same marks ten times'). Result: PB anyway (1:33.167), zero incidents, T2 variance dropped 90%. Focusing on repeatability paradoxically unlocks speed because: (1) removes fear/tension, (2) builds confidence, (3) allows natural limit-finding without panic. Speed is a byproduct of consistency, not the goal itself.",
+    "T2 Hotel Exit Progression: Fear → Shaky → Solid → Dialed. Practice 02: σ 2.257s (lottery/fear). Practice 03: σ 0.219s (solid/shaky). Next target: σ < 0.15s (approaching dialed). The pattern shows corner mastery is a gradual process—don't expect 'dialed' immediately after 'lottery'.",
+    "Self-Correction Within Session (NEW): Practice 03 Lap 4 had worst T2 (8.15s). Laps 5-10 immediately recovered (7.42-7.58s range). Driver self-corrected without external coaching input. This indicates internalized feedback loop—feel → adjust → verify. Sign of developing driver maturity.",
+    "IBT-Only Workflow Validated (NEW): Practice 03 was analyzed entirely from IBT file—no G61 CSV exports needed. Session extraction tool provides lap times, sector times, corner times, and consistency metrics. Now includes automatic OUTLAP DETECTION (excludes Lap 1 if >1.5s slower than median). IBT technique analysis adds oversteer patterns, tire temps, weight transfer. G61 exports are now optional/backup, not required."
   ],
   "next_steps": [
-    "WEEK 05 FOCUS: T2 Hotel Exit mastery. Target: zero incidents, avg time < 7.5s, break 1:33.0 barrier.",
-    "PB Progress: 1:33.818 (Practice 01) → 1:33.333 (Practice 02). Gap to alien (Gong 1:31.396) now 1.94s.",
-    "Theoretical Optimal: 1:32.850 is reachable. Gap is only 0.483s. T2 alone loses ~1s on bad laps.",
-    "IBT Analysis System LIVE: Full corner-by-corner analysis now available. Multi-lap behavioral patterns visible.",
-    "GR86 Muscle Memory: T2 confusion is due to different car physics. Need to unlearn old inputs and learn FF1600-specific technique.",
+    "WEEK 05 FOCUS: Break 1:33.0 barrier (need -0.167s). T2 σ target: < 0.15s (from 0.219s).",
+    "PB Progress: 1:33.818 → 1:33.333 → 1:33.167 (-0.651s in 3 sessions). Gap to alien (Gong 1:31.396) now 1.77s.",
+    "Theoretical Optimal: 1:33.033 is reachable. Gap is only 0.134s (sectors synchronizing!).",
+    "T2 Hotel Exit: 'Shaky but not scary' - σ dropped 90% (2.257s → 0.231s). Continue consistency-first approach.",
+    "Zero Incident Discipline: First clean Oschersleben session achieved. Maintain this standard.",
+    "IBT-Only Workflow: Validated. G61 exports optional - IBT provides all needed session data.",
     "iRating Trajectory: 1238 → 1672 (+434 in 4 weeks). Approaching Division 7 territory. SR 3.64 → on track for A-class."
   ],
   "guidebook_updates": []
