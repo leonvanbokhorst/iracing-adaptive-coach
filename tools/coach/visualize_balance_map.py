@@ -11,6 +11,8 @@ Usage:
     python tools/coach/visualize_balance_map.py <telemetry.ibt>
     python tools/coach/visualize_balance_map.py <telemetry.ibt> --output balance_map.png
     python tools/coach/visualize_balance_map.py <telemetry.ibt> --track oschersleben-gp
+    python tools/coach/visualize_balance_map.py <telemetry.ibt> --lap 4  # Single lap
+    python tools/coach/visualize_balance_map.py <telemetry.ibt> --compare 4 6  # Compare two laps
 """
 
 import sys
@@ -100,49 +102,51 @@ def classify_balance_state(ratio: float, yaw_deg_s: float) -> str:
 # MAIN VISUALIZATION
 # =============================================================================
 
-def create_balance_map(ibt_path: str, output_path: str = None, track_id: str = None, lap: int = None):
+def load_ibt_data(ibt_path: str, lap: int = None):
     """
-    Create a track-position balance map showing where overdriving occurs.
+    Load telemetry data from IBT file, optionally filtered by lap.
     
-    Args:
-        ibt_path: Path to IBT file
-        output_path: Where to save the image (optional, shows if None)
-        track_id: Track ID for corner annotations
-        lap: Specific lap to analyze (None = all laps overlaid)
+    Returns dict with track_positions, response_ratios, balance_states, yaw_rates.
     """
     ibt = IBT()
     
     try:
         ibt.open(ibt_path)
     except Exception as e:
-        print(json.dumps({"error": f"Failed to open IBT file: {str(e)}"}))
-        return
+        return {"error": f"Failed to open IBT file: {str(e)}"}
     
     available = set(ibt.var_headers_names or [])
     
     # Check required channels
     required = ["SteeringWheelAngle", "YawRate", "Speed", "LapDistPct"]
+    if lap is not None:
+        required.append("Lap")
+    
     missing = [c for c in required if c not in available]
     if missing:
         ibt.close()
-        print(json.dumps({"error": f"Missing required channels: {missing}"}))
-        return
+        return {"error": f"Missing required channels: {missing}"}
     
     # Load data
     steering_data = ibt.get_all("SteeringWheelAngle")
     yaw_data = ibt.get_all("YawRate")
     speed_data = ibt.get_all("Speed")
     dist_data = ibt.get_all("LapDistPct")
+    lap_data = ibt.get_all("Lap") if lap is not None else None
     
     ibt.close()
     
-    # Calculate balance data for plotting
+    # Calculate balance data
     track_positions = []
     response_ratios = []
     balance_states = []
     yaw_rates = []
     
     for i in range(len(steering_data)):
+        # Filter by lap if specified
+        if lap is not None and int(lap_data[i]) != lap:
+            continue
+            
         steering_deg = abs(rad_to_deg(steering_data[i]))
         yaw_deg_s = abs(rad_to_deg(yaw_data[i]))
         speed_ms = speed_data[i]
@@ -163,6 +167,39 @@ def create_balance_map(ibt_path: str, output_path: str = None, track_id: str = N
         response_ratios.append(ratio)
         balance_states.append(state)
         yaw_rates.append(yaw_deg_s)
+    
+    return {
+        "track_positions": track_positions,
+        "response_ratios": response_ratios,
+        "balance_states": balance_states,
+        "yaw_rates": yaw_rates
+    }
+
+
+def create_balance_map(ibt_path: str, output_path: str = None, track_id: str = None, lap: int = None):
+    """
+    Create a track-position balance map showing where overdriving occurs.
+    
+    Args:
+        ibt_path: Path to IBT file
+        output_path: Where to save the image (optional, shows if None)
+        track_id: Track ID for corner annotations
+        lap: Specific lap to analyze (None = all laps overlaid)
+    """
+    data = load_ibt_data(ibt_path, lap)
+    
+    if "error" in data:
+        print(json.dumps(data))
+        return
+    
+    track_positions = data["track_positions"]
+    response_ratios = data["response_ratios"]
+    balance_states = data["balance_states"]
+    yaw_rates = data["yaw_rates"]
+    
+    if not track_positions:
+        print(json.dumps({"error": f"No data found for lap {lap}"}))
+        return
     
     # Load track data for corner annotations
     track_data = load_track_data(track_id) if track_id else None
@@ -259,13 +296,170 @@ def create_balance_map(ibt_path: str, output_path: str = None, track_id: str = N
     
     # Title
     filename = Path(ibt_path).stem
-    fig.suptitle(f'Balance Map: {filename}', color='white', fontsize=14, fontweight='bold')
+    lap_str = f" - Lap {lap}" if lap else " - All Laps"
+    fig.suptitle(f'Balance Map: {filename}{lap_str}', color='white', fontsize=14, fontweight='bold')
     
     plt.tight_layout()
     
     # Save or show
     if output_path:
         plt.savefig(output_path, dpi=150, facecolor='#1a1a2e', edgecolor='none', 
+                   bbox_inches='tight')
+        print(json.dumps({"success": True, "output": output_path}))
+    else:
+        plt.show()
+    
+    plt.close()
+
+
+def create_lap_comparison(ibt_path: str, lap1: int, lap2: int, output_path: str = None, track_id: str = None):
+    """
+    Create side-by-side comparison of two laps' balance maps.
+    
+    Args:
+        ibt_path: Path to IBT file
+        lap1: First lap number (left side)
+        lap2: Second lap number (right side)
+        output_path: Where to save the image
+        track_id: Track ID for corner annotations
+    """
+    # Load data for both laps
+    data1 = load_ibt_data(ibt_path, lap1)
+    data2 = load_ibt_data(ibt_path, lap2)
+    
+    if "error" in data1:
+        print(json.dumps(data1))
+        return
+    if "error" in data2:
+        print(json.dumps(data2))
+        return
+    
+    # Load track data for corner annotations
+    track_data = load_track_data(track_id) if track_id else None
+    
+    # Color map for states
+    state_colors = {
+        "understeer": "#3498db",
+        "mild_understeer": "#85c1e9",
+        "neutral": "#2ecc71",
+        "high_rotation": "#f39c12",
+        "oversteer": "#e74c3c",
+        "spin": "#9b59b6",
+    }
+    
+    # Create figure with 2x2 subplots
+    fig, axes = plt.subplots(2, 2, figsize=(16, 10), sharex=True, sharey='row')
+    fig.patch.set_facecolor('#1a1a2e')
+    
+    # Count events for each lap
+    def count_events(data):
+        counts = {"understeer": 0, "oversteer": 0, "spin": 0, "neutral": 0}
+        for state in data["balance_states"]:
+            if state in ["understeer", "mild_understeer"]:
+                counts["understeer"] += 1
+            elif state in ["oversteer", "high_rotation"]:
+                counts["oversteer"] += 1
+            elif state == "spin":
+                counts["spin"] += 1
+            else:
+                counts["neutral"] += 1
+        return counts
+    
+    counts1 = count_events(data1)
+    counts2 = count_events(data2)
+    
+    for col, (data, lap_num, counts) in enumerate([(data1, lap1, counts1), (data2, lap2, counts2)]):
+        track_positions = data["track_positions"]
+        response_ratios = data["response_ratios"]
+        balance_states = data["balance_states"]
+        yaw_rates = data["yaw_rates"]
+        
+        # TOP ROW: Response Ratio
+        ax_top = axes[0, col]
+        ax_top.set_facecolor('#16213e')
+        
+        for state, color in state_colors.items():
+            mask = [s == state for s in balance_states]
+            x = [track_positions[i] for i in range(len(mask)) if mask[i]]
+            y = [response_ratios[i] for i in range(len(mask)) if mask[i]]
+            if x:
+                ax_top.scatter(x, y, c=color, s=3, alpha=0.6)
+        
+        # Threshold lines
+        ax_top.axhline(y=UNDERSTEER_THRESHOLD, color='#3498db', linestyle='--', alpha=0.5, linewidth=1)
+        ax_top.axhline(y=OVERSTEER_THRESHOLD, color='#e74c3c', linestyle='--', alpha=0.5, linewidth=1)
+        ax_top.axhline(y=1.0, color='white', linestyle='-', alpha=0.2, linewidth=1)
+        
+        # Stats box
+        stats_text = f"US: {counts['understeer']}  OS: {counts['oversteer']}  SP: {counts['spin']}"
+        ax_top.text(50, 2.35, stats_text, color='white', fontsize=9, ha='center',
+                   bbox=dict(boxstyle='round', facecolor='#16213e', edgecolor='#444', alpha=0.9))
+        
+        ax_top.set_title(f'Lap {lap_num}', color='white', fontsize=12, fontweight='bold')
+        ax_top.set_ylim(0, 2.5)
+        ax_top.tick_params(colors='white')
+        ax_top.spines['bottom'].set_color('#444')
+        ax_top.spines['left'].set_color('#444')
+        ax_top.spines['top'].set_visible(False)
+        ax_top.spines['right'].set_visible(False)
+        ax_top.grid(True, alpha=0.15, color='white')
+        
+        if col == 0:
+            ax_top.set_ylabel('Response Ratio', color='white', fontsize=10)
+        
+        # BOTTOM ROW: Yaw Rate
+        ax_bot = axes[1, col]
+        ax_bot.set_facecolor('#16213e')
+        
+        for state, color in state_colors.items():
+            mask = [s == state for s in balance_states]
+            x = [track_positions[i] for i in range(len(mask)) if mask[i]]
+            y = [yaw_rates[i] for i in range(len(mask)) if mask[i]]
+            if x:
+                ax_bot.scatter(x, y, c=color, s=3, alpha=0.6)
+        
+        ax_bot.axhline(y=SPIN_THRESHOLD_DEG_S, color='#9b59b6', linestyle='--', alpha=0.5, linewidth=1)
+        
+        ax_bot.set_xlabel('Track Position (%)', color='white', fontsize=10)
+        ax_bot.set_xlim(0, 100)
+        ax_bot.tick_params(colors='white')
+        ax_bot.spines['bottom'].set_color('#444')
+        ax_bot.spines['left'].set_color('#444')
+        ax_bot.spines['top'].set_visible(False)
+        ax_bot.spines['right'].set_visible(False)
+        ax_bot.grid(True, alpha=0.15, color='white')
+        
+        if col == 0:
+            ax_bot.set_ylabel('Yaw Rate (°/s)', color='white', fontsize=10)
+        
+        # Add corner annotations
+        if track_data and "turn" in track_data:
+            for turn in track_data["turn"]:
+                turn_start = turn["start"] * 100
+                ax_top.axvline(x=turn_start, color='white', alpha=0.15, linewidth=0.5)
+                ax_bot.axvline(x=turn_start, color='white', alpha=0.15, linewidth=0.5)
+    
+    # Overall title
+    filename = Path(ibt_path).stem
+    
+    # Determine which lap is "better"
+    total1 = counts1["oversteer"] + counts1["spin"] * 5  # Weight spins heavily
+    total2 = counts2["oversteer"] + counts2["spin"] * 5
+    
+    if total1 < total2:
+        comparison = f"Lap {lap1} cleaner ({total1} vs {total2} weighted events)"
+    elif total2 < total1:
+        comparison = f"Lap {lap2} cleaner ({total2} vs {total1} weighted events)"
+    else:
+        comparison = "Both laps similar"
+    
+    fig.suptitle(f'Lap Comparison: {filename}\n{comparison}', 
+                 color='white', fontsize=14, fontweight='bold')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        plt.savefig(output_path, dpi=150, facecolor='#1a1a2e', edgecolor='none',
                    bbox_inches='tight')
         print(json.dumps({"success": True, "output": output_path}))
     else:
@@ -407,11 +601,18 @@ def main():
     parser.add_argument("--track", help="Track ID for corner annotations (e.g., oschersleben-gp)")
     parser.add_argument("--chart", choices=["map", "corners"], default="map",
                        help="Chart type: 'map' (track position) or 'corners' (bar chart)")
+    parser.add_argument("--lap", type=int, help="Specific lap to analyze")
+    parser.add_argument("--compare", nargs=2, type=int, metavar=("LAP1", "LAP2"),
+                       help="Compare two laps side-by-side (e.g., --compare 4 6)")
     
     args = parser.parse_args()
     
-    if args.chart == "map":
-        create_balance_map(args.ibt_file, args.output, args.track)
+    # Compare mode takes priority
+    if args.compare:
+        create_lap_comparison(args.ibt_file, args.compare[0], args.compare[1], 
+                             args.output, args.track)
+    elif args.chart == "map":
+        create_balance_map(args.ibt_file, args.output, args.track, args.lap)
     elif args.chart == "corners":
         if not args.track:
             print(json.dumps({"error": "Corner chart requires --track argument"}))
