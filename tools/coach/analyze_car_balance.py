@@ -942,18 +942,18 @@ def analyze_car_balance(ibt_path: str, track_id: Optional[str] = None, lap: str 
         all_events = []
         balance = result["overall_balance"]
         
-        # Add understeer events
-        for event in balance.get("understeer_samples", []):
+        # Add understeer events (key is "understeer_events" not "understeer_samples")
+        for event in balance.get("understeer_events", []):
             event["type"] = "understeer"
             all_events.append(event)
         
-        # Add oversteer events
-        for event in balance.get("oversteer_samples", []):
+        # Add oversteer events (key is "oversteer_events" not "oversteer_samples")
+        for event in balance.get("oversteer_events", []):
             event["type"] = "oversteer"
             all_events.append(event)
         
-        # Add spin events
-        for event in balance.get("spins", {}).get("events", []):
+        # Add spin events (key is "spin_events" not "spins.events")
+        for event in balance.get("spin_events", []):
             event["type"] = "spin"
             all_events.append(event)
         
