@@ -1,6 +1,6 @@
 {
   "season": "01 2026",
-  "current_week": "5 (STARTING - Motorsport Arena Oschersleben GP)",
+  "current_week": "5 (RACING - Motorsport Arena Oschersleben GP)",
   "current_track": "Motorsport Arena Oschersleben - Grand Prix",
   "current_car": "Ray FF1600",
   "driver_info": {
@@ -100,6 +100,44 @@
       "focus_area": "T2 Hotel Exit mastery",
       "ibt_analysis": true,
       "notes": "WEEK 05 SESSION 2 - PB! NEW IBT SYSTEM DEBUT. 16 laps, first full IBT-analyzed session. Clear learning progression: L1-L6 had 3 T2 incidents (+7.0s, +6.8s, +4.7s), L7-L16 were consistent and fast. PB 1:33.333 on Lap 14 (-0.485s vs morning baseline). 12/14 corners rated 'dialed' or 'solid'. T2 Hotel Exit (σ 2.257s) and T3 Hasseroeder (σ 1.14s) are the only 'lottery' corners. Driver self-assessment: 'T2 felt better but still a bit off... I remember that being a strange corner from GR86 times.' Tire temps perfectly balanced. Oversteer concentrated at T2/T3/T7/T14 (tight corners - expected). Garage61: 01KEA6H2X7PVMYJ5YC2591G9FY."
+    },
+    {
+      "date": "2026-01-07",
+      "time": "18:07 CET",
+      "session_type": "Practice (Offline) - Consistency Focus",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.167,
+      "best_lap_formatted": "1:33.167",
+      "consistency_sigma": 0.40,
+      "clean_laps": 10,
+      "total_laps": 10,
+      "incidents": 0,
+      "theoretical_optimal": 93.033,
+      "gap_to_optimal": 0.134,
+      "focus_area": "Consistency throughout session",
+      "ibt_analysis": true,
+      "notes": "WEEK 05 SESSION 3 - NEW PB! CONSISTENCY BREAKTHROUGH. Goal was 'hit same marks ten times' - DELIVERED. T2 Hotel Exit σ dropped from 2.257s (lottery) to 0.231s (solid) - 90% improvement in one session! First CLEAN Oschersleben session (0 incidents). 12/14 corners now 'dialed' (σ < 0.10s). PB came on final lap (1:33.167). 9 flying laps + 1 outlap (auto-detected and excluded from stats). TRUE consistency σ = 0.40s (not 0.698s which included outlap). S3 σ = 0.055s (ELITE). Driver self-assessment: 'Hotel is still shaky, but not scary. It's a strange corner.' Tire temps perfectly balanced. Gap to theoretical optimal now only 0.134s (sectors synchronizing). Gap to alien (Gong 1:31.396) now 1.77s. Garage61: 01KECPNFE7ZEG3DMHNRG548R0Q."
+    },
+    {
+      "date": "2026-01-08",
+      "time": "10:21 CET",
+      "session_type": "AI Race 01",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.983,
+      "best_lap_formatted": "1:33.983",
+      "consistency_sigma": 0.972,
+      "flying_laps": 7,
+      "total_laps": 8,
+      "incidents": 0,
+      "theoretical_optimal": 93.9,
+      "gap_to_optimal": 0.083,
+      "grid_position": 6,
+      "finish_position": 1,
+      "quali_lap": 94.045,
+      "quali_lap_formatted": "1:34.045",
+      "focus_area": "Race execution + T2 mastery",
+      "ibt_analysis": true,
+      "notes": "WEEK 05 AI RACE 01 - P6→P1 VICTORY! 🏆 Cold Tire Contract v2.0 win #5. T2 Hotel Exit now DIALED (σ 0.066s - was 2.257s in Practice 02, 0.219s in Practice 03). Race arc: L1-L2 survival, L3-L6 stuck in traffic (patient), L7-L8 clear air attack. Fastest lap on FINAL lap (1:33.983) - ice cold under pressure. Only flagged corner: T12 Amman Kurve (σ 0.276s). S3 had traffic variance (σ 0.67s). Tire temps proper race temps (70-77°C). Driver self-assessment: 'Went pretty well. Tough competition. Contract worked. Overtaking on straight into T1-T2 is THE spot.' Garage61: 01KEED6AXHEFHRQ3WRFB9RM8E5."
     }
   ],
   "insights": [
@@ -140,14 +178,23 @@
     "Gong Comparison (Oschersleben): 2.4s gap to alien is NOT cornering ability—max lat G is identical (2.28 vs 2.27). Gap is deployment: brake 3.1% MORE of lap, full throttle 4.7% LESS, accel G 0.31 gentler. Hotel entry (braking 50m earlier) and Zeppelin (heavy braking) are biggest loss zones. Baseline = driving within limits. Now we know where the time lives.",
     "VRS T1-T2 Hotel Technique (Johnny Gideon 1:31.295): TURN FIRST, BRAKE SECOND. The key insight: 'It's not about how MUCH you slow down, it's about HOW you get to minimum speed. Slow gradually = optimal. Quick decel = losing lap time.' The Hotel is the LONGEST braking zone of the lap (5-6 seconds). Technique: (1) Turn 2-3 car lengths before access road, (2) Initial brake 25-30% only, (3) Release to ~10% through kink, (4) Stay in 4th gear through T1 (no downshifts!), (5) Reserve bulk of braking for straighter section between T1-T2, (6) Overlap throttle with brakes during downshifts to stabilize rear, (7) Downshift to 1st by T2 apex. Master Lonn's error: doing too much braking too early, killing speed before the kink.",
     "IBT Session Learning Curve (NEW): Practice 02 showed visible learning progression within single session. L1-L6 avg at problem corner (T2): 9.76s with 3 incidents. L7-L16 avg at same corner: 7.45s with 0 incidents. That's 2.3s improvement at ONE corner through self-correction. Last 6 laps (L11-L16) averaged 1:33.55s with ~0.18s σ. The data proves: early chaos ≠ session failure. Patience + laps = learning.",
-    "T2 Hotel Exit Nemesis Pattern (NEW): T2 is objectively difficult: (1) Entry partially blind (cresting), (2) Decreasing radius (tightens), (3) Downhill (less rear grip), (4) Still recovering from T1 chaos. GR86 muscle memory interferes—knows WHERE to turn but not HOW in FF1600. σ = 2.257s across 16 laps. When T2 works, lap is 1:33.x. When T2 fails, lap is 1:40+. The difference between good and disaster lap lives at T2."
+    "T2 Hotel Exit Nemesis Pattern (NEW): T2 is objectively difficult: (1) Entry partially blind (cresting), (2) Decreasing radius (tightens), (3) Downhill (less rear grip), (4) Still recovering from T1 chaos. GR86 muscle memory interferes—knows WHERE to turn but not HOW in FF1600. σ = 2.257s across 16 laps. When T2 works, lap is 1:33.x. When T2 fails, lap is 1:40+. The difference between good and disaster lap lives at T2.",
+    "Consistency-First Produces Speed (NEW): Practice 03 goal was ONLY consistency ('hit same marks ten times'). Result: PB anyway (1:33.167), zero incidents, T2 variance dropped 90%. Focusing on repeatability paradoxically unlocks speed because: (1) removes fear/tension, (2) builds confidence, (3) allows natural limit-finding without panic. Speed is a byproduct of consistency, not the goal itself.",
+    "T2 Hotel Exit Progression: Fear → Shaky → Solid → Dialed. Practice 02: σ 2.257s (lottery/fear). Practice 03: σ 0.219s (solid/shaky). Next target: σ < 0.15s (approaching dialed). The pattern shows corner mastery is a gradual process—don't expect 'dialed' immediately after 'lottery'.",
+    "Self-Correction Within Session (NEW): Practice 03 Lap 4 had worst T2 (8.15s). Laps 5-10 immediately recovered (7.42-7.58s range). Driver self-corrected without external coaching input. This indicates internalized feedback loop—feel → adjust → verify. Sign of developing driver maturity.",
+    "IBT-Only Workflow Validated (NEW): Practice 03 was analyzed entirely from IBT file—no G61 CSV exports needed. Session extraction tool provides lap times, sector times, corner times, and consistency metrics. Now includes automatic OUTLAP DETECTION (excludes Lap 1 if >1.5s slower than median). IBT technique analysis adds oversteer patterns, tire temps, weight transfer. G61 exports are now optional/backup, not required.",
+    "T2 Hotel Exit MASTERED (Race Validated): σ progression: 2.257s (lottery) → 0.219s (shaky) → 0.066s (DIALED). 97% improvement over 3 sessions. Corner mastered UNDER RACE PRESSURE—not just in practice. The consistency-first approach (Practice 03) paid off when stakes were real.",
+    "Cold Tire Contract v2.0 Win Streak (5/6 UPDATED): Winton AI (P11→P1), Lime Rock AI x3 (P5→P1, P6→P1, P2*), Oschersleben AI (P6→P1). *P2 was deliberate aggression test. Pattern: survive L1-L3 at 80-85%, attack L4+ when field spreads. Now proven at 3 different tracks. The contract is not track-specific—it's a universal race strategy.",
+    "Oschersleben Overtaking Strategy: Main straight into T1-T2 is THE spot. Requirements: (1) Clean T14 Zeppelin exit, (2) Slipstream on Stadiongerade, (3) Late brake into Hotel complex. Limited overtaking options = patience required. This track rewards chess, not checkers.",
+    "Final Lap Performance Pattern: AI Race 01 fastest lap was Lap 8 (final lap). Race pace IMPROVED throughout as tires came in and traffic cleared. This indicates: (1) Good tire management (not overheating early), (2) Mental composure under pressure, (3) Understanding that fastest laps come when you stop fighting and start flowing."
   ],
   "next_steps": [
-    "WEEK 05 FOCUS: T2 Hotel Exit mastery. Target: zero incidents, avg time < 7.5s, break 1:33.0 barrier.",
-    "PB Progress: 1:33.818 (Practice 01) → 1:33.333 (Practice 02). Gap to alien (Gong 1:31.396) now 1.94s.",
-    "Theoretical Optimal: 1:32.850 is reachable. Gap is only 0.483s. T2 alone loses ~1s on bad laps.",
-    "IBT Analysis System LIVE: Full corner-by-corner analysis now available. Multi-lap behavioral patterns visible.",
-    "GR86 Muscle Memory: T2 confusion is due to different car physics. Need to unlearn old inputs and learn FF1600-specific technique.",
+    "WEEK 05 FOCUS: Break 1:33.0 barrier (need -0.167s from PB 1:33.167). Race best was 1:33.983.",
+    "T2 Hotel Exit: MASTERED ✅ (σ 0.066s = DIALED). Focus shifts to T12 Amman Kurve (only 'work_needed' corner, σ 0.276s).",
+    "S3 Race Variance: σ 0.67s in race (traffic) vs σ 0.055s in practice. Not a skill issue—it's a traffic management issue.",
+    "Cold Tire Contract: Win #5 logged. Strategy is now second nature. Ready for official race deployment.",
+    "Zero Incident Discipline: 2 consecutive clean sessions (Practice 03, AI Race 01). Maintain this standard.",
+    "Gap to Alien (Gong 1:31.396): 1.77s from practice PB, 2.59s from race best. Next step: close under 1.5s.",
     "iRating Trajectory: 1238 → 1672 (+434 in 4 weeks). Approaching Division 7 territory. SR 3.64 → on track for A-class."
   ],
   "guidebook_updates": []
