@@ -20,6 +20,10 @@ import argparse
 from pathlib import Path
 from typing import Optional
 
+# Use non-interactive backend to prevent blocking
+import matplotlib
+matplotlib.use('Agg')
+
 try:
     import matplotlib.pyplot as plt
     import matplotlib.colors as mcolors

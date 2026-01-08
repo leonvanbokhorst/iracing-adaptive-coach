@@ -2,136 +2,137 @@
 
 **Track**: [Motorsport Arena Oschersleben - Grand Prix](../../tracks/track-motorsport-arena-oschersleben-grand-prix.md)  
 **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
-**Dates**: Jan 13 → Jan 19, 2026  
-**Status**: Starting 🏁
+**Dates**: Jan 6 → Jan 12, 2026  
+**Status**: Racing 🏁
 
 ---
 
-## The Challenge
+## The Story
 
-**"Precision on the Plain"**
+There's a particular cruelty to Oschersleben. It sits there on the German plain—flat, featureless, honest—and asks one question over and over: *can you hit your marks?*
 
-Oschersleben is Germany's discipline exam. No elevation changes to guide you. No dramatic compressions. Just flat, technical, and brutally honest about your consistency.
+Master Lonn showed up on January 6th with an advantage and a problem. The advantage: he'd driven this track before in the GR86. The layout was in his bones. The problem: the FF1600 isn't a GR86. Same corners, different language.
 
-The track looks simple. It's not.
+The first session was promising. A 1:33.818 baseline, only 0.037s off the theoretical optimal. The raw pace was there. But lurking in Sector 1 was a nemesis waiting to introduce itself: **T2 Hotel Exit**—a long, decreasing-radius, downhill corner where GR86 muscle memory goes to die.
 
-**Key Features:**
-- **T1 (Hotel)**: The chaos magnet. Heavy braking, cold tires, pack fighting for the same apex. Good Oschersleben drivers make T1 boring on purpose.
-- **McDonald's Chicane**: The signature feature. Short, sharp, edged with curbs that end race weekends. Fast laps feel "boringly tidy" here.
-- **Reference-Point Circuit**: No trees on crests, no dramatic skyline. Your landmarks are brake boards, marshal posts, painted curbs. This track rewards "I hit my mark" over "I sent it."
+Session 2 revealed the scale of the problem. Three separate incidents at T2. Lap times swinging by 7 seconds. The variance at that one corner: **2.257 seconds**. A lottery. *"I remember that being a strange corner from my GR86 times,"* Master Lonn admitted. Strange was an understatement.
 
----
+But something remarkable happened over the next 48 hours. Instead of chasing speed, Master Lonn chased consistency. *"Hit the same mark ten times"* became the mantra. And the data responded. T2 variance plummeted—90% improvement in one session. The corner went from lottery to learnable.
 
-## Track Data
+By Practice 03, the fear had left the building. *"Hotel is still shaky, but not scary."* A new PB: **1:33.167**. Zero incidents. The strange corner was becoming familiar.
 
-| Property | Value |
-|:---------|:------|
-| **Length** | 3.70 km (2.30 mi) |
-| **Turns** | 10 named corners |
-| **Sectors** | 3 |
-| **Character** | Flat, technical, precision-focused |
+Then came the real test: **AI Race 01**. Grid position P6. Cold Tire Contract activated. Laps 3-6 stuck behind traffic—patient, waiting, refusing to send it into gaps that weren't there. Then clear air on Lap 7. Attack mode. Final lap? **1:33.983**—the fastest lap of the race, on the lap that mattered most.
 
-### Corner Reference
+**P6 → P1.** Cold Tire Contract Win #5.
 
-| Turn | Name | Notes |
-|:-----|:-----|:------|
-| T1 | Hotel | Heavy braking hairpin. Chaos zone in races. |
-| T2 | Hasseroeder | Fast right after Hotel |
-| T3-T5 | Triple | Flowing sequence |
-| T6 | Turn 7 | Mid-track kink |
-| T7 | Schikane | Entry to McDonald's |
-| T8 | McDonald's | THE chicane. Make it boring. |
-| T9 | Shell Kurve | Fast right |
-| T10 | Amman Kurve | Double-apex sweeper |
-| T11 | Bauer Kurve | Setting up the finale |
-| T12 | Zeppelin Kurve | Final corner → Main straight |
-
-### Sector Breakdown
-
-| Sector | Corners | Key Challenge |
-|:-------|:--------|:--------------|
-| **S1** | Start → Triple (0-36.2%) | Hotel exit, momentum carry |
-| **S2** | Triple → Stadiongerade (36.2-71.7%) | McDonald's chicane precision |
-| **S3** | Shell → Finish (71.7-100%) | Final flow sequence, exit speed |
+And here's what made the data sing: T2 Hotel Exit variance in the race? **σ 0.066s**. Not shaky. Not solid. **DIALED**. The nemesis corner, conquered under race pressure.
 
 ---
 
-## Week 05 Strategy
+## The Numbers
 
-### Apply the Proven Playbook
+| Metric               | Start (Practice 01) | End (AI Race 01) | Change    | Notes                          |
+| -------------------- | ------------------- | ---------------- | --------- | ------------------------------ |
+| **Best Lap**         | 1:33.818            | 1:33.167 (PB)    | **-0.651s** | Practice PB; race best 1:33.983 |
+| **Consistency (σ)**  | 0.38s               | 0.40s / 0.97s    | ✅ Stable  | Practice / Race (traffic)      |
+| **T2 Hotel Exit σ**  | N/A                 | 0.066s           | **DIALED** | Was 2.257s lottery in P02      |
+| **Gap to Alien**     | 2.42s               | 1.77s            | **-0.65s** | vs Gong (1:31.396)             |
+| **Incidents**        | 4                   | 0                | **-4**     | First clean sessions           |
 
-| Day | Focus | Goal |
-|:----|:------|:-----|
-| **Day 1** | Track walk + Baseline | Learn the layout, identify problem corners |
-| **Day 2** | Edge Mapping Drill (Chapter 16) | Build spatial map at 70% pace |
-| **Day 3** | Chicane Accuracy Drill | Same line 10 laps in a row |
-| **Day 4** | Race Consistency Validation | Lock in σ < 0.50s |
-| **Day 5+** | AI Races → Official | Cold Tire Contract + Meebewegen |
+**Week Stats:**
 
-### Week 05 Drills (from Track Guide)
-
-1. **Chicane Accuracy Drill**: Same brake marker, same line across first curb, same steering release before second. Any "hero curb" attempt = mental penalty.
-
-2. **T1 Survival Script**: No lunges from more than one car length back. Lift early, straighten, late apex, drive off clean.
-
-3. **Long Runs for Rhythm**: 20+ min stint. Notice how braking references shift. Catch "just a bit deep" habits before they stack up.
-
----
-
-## The Mindset
-
-**"Hit the same mark ten times."**
-
-Oschersleben rewards boring precision over spectacular heroics. In the Ray FF1600, you don't have the power to recover from sloppy exits. Every 2-3 km/h mistake stacks up.
-
-The goal: make it feel clinically precise, not stressful. Fifty small things right in a row.
-
----
-
-## Contracts Active
-
-| Contract | Status | Notes |
-|:---------|:-------|:------|
-| **Cold Tire Contract v2.0** | ✅ Active | Survive L1-L3, attack L4+ |
-| **Meebewegen** | ✅ Active | Go with the flow, strike when field spreads |
-| **Edge Mapping Drill** | ✅ Ready | Apply Day 2 for spatial calibration |
-| **T1 Survival Script** | 🆕 New | Oschersleben-specific: no hero lunges |
+- **Sessions**: 4 (3 practice, 1 AI race)
+- **Total Laps**: 45+
+- **Victories**: 1 (P6→P1) 🏆
+- **Breakthrough**: T2 Hotel Exit mastered—97% variance reduction across 3 sessions
 
 ---
 
 ## Session Log
 
-| Date | Session | Type | Best Lap | σ | Result | Key Takeaway |
-|:-----|:--------|:-----|:---------|:--|:-------|:-------------|
-| - | - | - | - | - | - | - |
+| Date       | Time  | Type         | Best Lap     | σ      | Result   | Key Takeaway                           |
+| :--------- | :---- | :----------- | :----------- | :----- | :------- | :------------------------------------- |
+| 2026-01-06 | 13:45 | [Practice 01](2026-01-06-13-45-Oschersleben-Practice-01-Baseline.md) | 1:33.818 | 0.38s | Baseline | GR86 layout memory + Gong comparison   |
+| 2026-01-06 | 18:18 | [Practice 02](2026-01-06-18-18-Oschersleben-Practice-02.md) | 1:33.333 🏆 | 2.84s | PB! | T2 = lottery (σ 2.257s), but learning visible |
+| 2026-01-07 | 18:07 | [Practice 03](2026-01-07-18-07-Oschersleben-Practice-03.md) | 1:33.167 🏆 | 0.40s | PB! | T2 tamed (σ 0.231s), zero incidents    |
+| 2026-01-08 | 10:21 | [AI Race 01](2026-01-08-10-21-Oschersleben-AI-Race-01.md) | 1:33.983 | 0.97s | **P6→P1** 🏆 | T2 DIALED (σ 0.066s), Cold Tire Contract #5 |
 
 ---
 
-## The Numbers (To Be Filled)
+## Breakthroughs 🎯
 
-| Metric | Start | Current | Target | Notes |
-|:-------|:------|:--------|:-------|:------|
-| **Best Lap** | - | - | TBD | - |
-| **Consistency (σ)** | - | - | < 0.50s | - |
-| **McDonald's σ** | - | - | < 0.30s | Key corner |
-| **Gap to Alien** | - | - | < 0.7s | - |
+### T2 Hotel Exit: From Lottery to Dialed
+
+| Session     | T2 σ     | Status    |
+| :---------- | :------- | :-------- |
+| Practice 02 | 2.257s   | 🎰 Lottery |
+| Practice 03 | 0.231s   | 🟡 Solid   |
+| AI Race 01  | **0.066s** | ✅ **DIALED** |
+
+**97% variance reduction.** The corner that was causing +7s incidents became a repeatable 7.5s passage. And it happened by focusing on consistency, not speed. Speed followed.
+
+### Cold Tire Contract v2.0: Win #5
+
+The race arc tells the story:
+
+| Lap | Time       | Mode     |
+| :-: | :--------: | :------- |
+| 1   | 1:39.733   | Outlap/chaos |
+| 2   | 1:34.667   | Survival |
+| 3-6 | 1:35-1:36  | Patient (stuck behind traffic) |
+| 7   | 1:34.867   | Attack (clear air) |
+| 8   | **1:33.983** | **Victory lap (fastest!)** |
+
+Four laps of patience. Then the kill. Fastest lap on the final lap. Ice cold.
 
 ---
 
-## Coming From Week 04
+## Challenges 🚧
 
-**What Worked:**
-- Chapter 16 Edge Mapping → 82% S3 consistency improvement
-- Cold Tire Contract → 4 patient races = 4 wins
-- Meebewegen → Top Split P3 with 0 incidents
-- Consistency creates traffic → Protected P3 from faster P4
-
-**Apply Here:**
-- Edge Mapping Drill on Day 2 (McDonald's chicane especially)
-- T1 Survival Script from race 1 (it's a chaos magnet)
-- Same consistency weapon: be uncatchable, let traffic protect you
+- **T12 Amman Kurve**: Only corner flagged as "work_needed" in the race (σ 0.276s)
+- **S3 Race Variance**: σ 0.67s in race vs 0.055s in practice—traffic management, not skill
+- **1:33.0 Barrier**: Still unbroken (PB 1:33.167, need 0.167s more)
+- **Gap to Alien**: 1.77s to Gong—braking and throttle deployment, not cornering
 
 ---
 
-_"Oschersleben doesn't reward heroes. It rewards robots who hit their marks."_ 🤖🎯
+## What We Learned
 
+**Technical:**
+
+- **T2 Hotel Exit Technique**: The VRS wisdom—*"Turn first, brake second. Initial brake 25-30% only. Reserve heavy braking for AFTER the T1 kink."* GR86 muscle memory was causing over-braking too early.
+- **Consistency-First Produces Speed**: Practice 03 goal was ONLY consistency. Result: PB anyway, zero incidents. Repeatability unlocks speed.
+
+**Mental:**
+
+- **"Shaky but not scary"** is the correct intermediate state. Fear prevents learning. Shakiness allows adaptation.
+- **Patience in traffic pays**: L3-L6 stuck behind someone, didn't force it. L7-L8 clear air, delivered fastest laps.
+
+**Strategic:**
+
+- **IBT-Only Workflow Validated**: No G61 CSV exports needed anymore. IBT provides all session data.
+- **Oschersleben Overtaking**: Main straight into T1-T2 is THE spot. Requires clean T14 Zeppelin exit → slipstream → late brake.
+
+---
+
+## Next: Continue Week 05
+
+**Challenge**: Break 1:33.0 barrier (need -0.167s from PB)  
+**Focus**: T12 Amman Kurve consistency, maintain T2 discipline  
+**Strategy**: Same approach—consistency first, speed follows  
+**Goal**: Official race ready, deploy Cold Tire Contract
+
+---
+
+## Contracts Active
+
+| Contract                  | Status      | Notes                              |
+| :------------------------ | :---------- | :--------------------------------- |
+| **Cold Tire Contract v2.0** | ✅ Win #5   | Survive L1-L3, attack L4+          |
+| **Meebewegen**            | ✅ Active   | Patience in L3-L6 → victory        |
+| **Edge Mapping Drill**    | ✅ Applied  | T2 spatial calibration complete    |
+| **Zero Incident Discipline** | ✅ Active | 2 consecutive clean sessions       |
+
+---
+
+_"The Hotel stopped being a horror movie. The strange corner is becoming familiar."_ 🏨🏎️

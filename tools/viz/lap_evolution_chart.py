@@ -9,7 +9,12 @@ Shows lap times over the session to visualize:
 
 Usage:
     python tools/viz/lap_evolution_chart.py <telemetry.ibt> --track oschersleben-gp
+    python tools/viz/lap_evolution_chart.py <session.json> -o evolution.png
     python tools/viz/lap_evolution_chart.py <telemetry.ibt> --track oschersleben-gp -o evolution.png
+
+Accepts either:
+- .ibt file (will extract session data)
+- .json file (pre-extracted session data from extract_session_from_ibt.py)
 
 Output: PNG image
 """
@@ -19,6 +24,10 @@ import json
 import argparse
 from pathlib import Path
 from typing import Optional
+
+# Use non-interactive backend to prevent blocking
+import matplotlib
+matplotlib.use('Agg')
 
 try:
     import matplotlib.pyplot as plt
@@ -33,7 +42,7 @@ from core.extract_session_from_ibt import extract_session
 
 
 def generate_lap_evolution_chart(
-    ibt_path: str,
+    input_path: str,
     track_id: Optional[str] = None,
     output_path: Optional[str] = None,
     show: bool = False
@@ -42,16 +51,27 @@ def generate_lap_evolution_chart(
     Generate a lap time evolution chart.
     
     Args:
-        ibt_path: Path to IBT file
-        track_id: Track ID (optional, for track name)
+        input_path: Path to IBT file or session JSON file
+        track_id: Track ID (optional, for track name - only used with IBT files)
         output_path: Output PNG path (optional)
         show: Show plot interactively
     
     Returns:
         dict with status and file path
     """
-    # Extract session data
-    session_data = extract_session(ibt_path, track_id)
+    input_file = Path(input_path)
+    
+    # Check if input is JSON (pre-extracted session) or IBT (needs extraction)
+    if input_file.suffix.lower() == '.json':
+        # Load pre-extracted session data
+        try:
+            with open(input_path, 'r') as f:
+                session_data = json.load(f)
+        except Exception as e:
+            return {"error": f"Failed to load JSON: {e}"}
+    else:
+        # Extract session data from IBT
+        session_data = extract_session(input_path, track_id)
     
     if "error" in session_data:
         return session_data
