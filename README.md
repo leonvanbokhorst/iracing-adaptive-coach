@@ -10,14 +10,14 @@
 
 | Metric              | [Week 01 (Jefferson)](./weeks/week01/README.md) | [Week 02 (Rudskogen)](./weeks/week02/README.md) | [Week 03 (Winton)](./weeks/week03/README.md) | [Week 04 (Lime Rock)](./weeks/week04/README.md) | [Week 05 (Oschersleben)](./weeks/week05/README.md) |
 | :------------------ | :---------------------------------------------- | :---------------------------------------------- | :------------------------------------------- | :---------------------------------------------- | :------------------------------------------------- |
-| **Best Lap**        | 50.768s                                         | 1:28.508                                        | 1:25.710                                     | 56.238s                                         | **1:33.167** ⭐                                    |
-| **PB Improvement**  | -0.67s                                          | -1.78s                                          | -1.125s                                      | -0.181s                                         | **-0.651s**                                        |
-| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | 0.197s                                          | **0.40s** (Practice)                               |
-| **Race Result**     | P1 (Official)                                   | -                                               | P1 (Official)                                | P3 (Official)                                   | **P1 (AI)** 🏆                                     |
+| **Best Lap**        | 50.768s                                         | 1:28.508                                        | 1:25.710                                     | 56.238s                                         | **1:32.933** ⭐                                    |
+| **PB Improvement**  | -0.67s                                          | -1.78s                                          | -1.125s                                      | -0.181s                                         | **-0.885s**                                        |
+| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | 0.197s                                          | **0.434s** (Race)                                  |
+| **Race Result**     | P1 (Official)                                   | -                                               | P1 (Official)                                | P3 (Official)                                   | **P1 x2 (AI)** 🏆                                  |
 | **iRating**         | 1396                                            | 1455                                            | 1601                                         | 1672                                            | **1672** (pending)                                 |
 | **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | Validated                                       | **Precise** 🎯                                     |
 
-📊 **Season Total**: 2 Official Wins | 5 AI Wins | P3 Official Podium | 1672 iR (+434) | Cold Tire Contract: 5/6 wins
+📊 **Season Total**: 2 Official Wins | 6 AI Wins | P3 Official Podium | 1672 iR (+434) | Cold Tire Contract: 6/7 wins
 
 ---
 
@@ -27,7 +27,7 @@
 
 There's a particular cruelty to Oschersleben. It sits there on the German plain—flat, featureless, honest—and asks one question over and over: *can you hit your marks?*
 
-Master Lonn showed up with an advantage and a problem. The advantage: GR86 muscle memory. He'd driven this track before. The problem: the FF1600 isn't a GR86. Same corners, different language.
+Master Lonn showed up with an advantage and a curse. The advantage: GR86 muscle memory. He'd driven this track before. The curse: the FF1600 isn't a GR86. Same corners, different language.
 
 The first session was promising. 1:33.818. Only 0.037s off the theoretical optimal. The raw pace was there. But lurking in Sector 1 was a nemesis waiting to introduce itself.
 
@@ -37,7 +37,7 @@ A long, decreasing-radius, downhill corner where GR86 habits go to die. Session 
 
 *"I remember that being a strange corner from my GR86 times,"* Master Lonn admitted. Strange was an understatement.
 
-But something remarkable happened over the next 48 hours.
+But something remarkable happened over the next 72 hours.
 
 Instead of chasing speed, Master Lonn chased consistency. *"Hit the same mark ten times"* became the mantra. And the data responded. T2 variance plummeted—**90% improvement** in one session. The corner went from lottery to learnable.
 
@@ -45,9 +45,9 @@ By Practice 03, the fear had left the building.
 
 *"Hotel is still shaky, but not scary."*
 
-Shaky but not scary. That's the shift. That's when learning becomes possible. A new PB—**1:33.167**—and zero incidents. The strange corner was becoming familiar.
+Shaky but not scary. That's the shift. That's when learning becomes possible. A new PB—1:33.167—and zero incidents. The strange corner was becoming familiar.
 
-Then came the real test.
+Then came the first test.
 
 **AI Race 01. Grid position P6.**
 
@@ -61,7 +61,29 @@ Lap 8—the final lap—**1:33.983**. The fastest lap of the race, on the lap th
 
 Cold Tire Contract Win #5. And here's what made the data sing: T2 Hotel Exit variance in the race? **σ 0.066s**. Not shaky. Not solid. **DIALED.** The nemesis corner, conquered under race pressure. 97% variance reduction in three sessions.
 
-The strange corner isn't strange anymore.
+But the week wasn't done.
+
+**AI Race 02** looked like a victory parade at first. Weak competition, comfortable lead. Master Lonn expected a cruise. Then Lap 5 happened.
+
+Someone caught up.
+
+For the next **four laps**, Master Lonn had to defend—something he'd never done before. Not blocking, not weaving, but a deliberate **center line defense**. Taking the middle of the track. Denying both inside and outside. Forcing the attacker to commit first. Reacting instead of predicting.
+
+And on Lap 7—*while being hunted*—he set a new personal best.
+
+**1:32.933.**
+
+The goal for the week was to break 1:33.0. He didn't just break it. He **crushed it while someone was on his tail**.
+
+Here's what the data showed that Master Lonn didn't realize in the moment: his fastest lap came under defensive pressure. Not in clear air. Not when relaxed. When someone was hunting him, his focus sharpened, and he found a tenth he didn't know he had.
+
+Pressure doesn't break him. It sharpens him.
+
+**All 14 corners now rated "DIALED."** First track this season with complete corner mastery. The strange corner isn't strange anymore. It's home. And somewhere on Lap 7, with a car in his mirrors, Master Lonn found out what he's made of.
+
+**G61 Leaderboard**: P247/1071 (Top 23.1%)  
+**Gap to Alien (Gong)**: 2.4s → 1.54s  
+**New Skill Unlocked**: Center line defense
 
 ---
 
@@ -149,7 +171,7 @@ It was the first glimpse of what was possible: when the mind quiets, the car fli
 **Week 02**: 1:28.508. The rust is gone. Data beats doubt.  
 **Week 03**: 1601 iRating. First Official Victory. Cold Tire Contract born.  
 **Week 04**: Chapter 16 → 3 hours → Beating series #1 through T5. P3 Top Split podium. Meebewegen validated.  
-**Week 05**: T2 Hotel Exit conquered—97% variance reduction. Cold Tire Contract Win #5. P6→P1.
+**Week 05**: T2 Hotel Exit conquered (97% variance reduction). 1:33.0 goal crushed (1:32.933). PB set while defending. Center line defense unlocked. Cold Tire Contract Wins #5 & #6. **14/14 corners dialed.**
 
 ---
 
@@ -164,16 +186,19 @@ Week 05 proved it again. Focus on hitting the same marks, and the PBs come anywa
 In the chaos of the midfield, we do not fight the current. We move with it. We let the aggressive drivers eliminate themselves, and we strike when the gap opens.
 
 **3. The Cold Tire Contract v2.0**  
-Five wins, one track. Survive L1-L3 while tires and nerves settle. Attack L4+. The contract works everywhere.
+Six wins, three tracks. Survive L1-L3 while tires and nerves settle. Attack L4+. The contract works everywhere.
 
 **4. "Shaky but not scary"**  
 The intermediate state between fear and mastery. When a corner feels shaky but not scary, learning is possible. Fear blocks adaptation. Shakiness allows it.
 
 **5. Ninja > Barbarian**  
-5 patient races = 5 wins. 1 aggressive race = P2 + punted. Strategy beats aggression. Every time.
+6 patient races = 6 wins. 1 aggressive race = P2 + punted. Strategy beats aggression. Every time.
 
 **6. Pressure Sharpens**  
-Practice σ 0.367s → Race σ 0.197s. Master Lonn gets MORE consistent when it matters.
+Practice σ → Race σ often IMPROVES. AI Race 02 proved it: PB came while defending. Master Lonn gets MORE focused when it matters.
+
+**7. Center Line Defense**  
+New skill from Week 05. Take the middle, deny both sides, force attacker to commit first, react instead of predict. Defended P1 for 4 laps with 0 incidents—and set PB mid-defense.
 
 ---
 
@@ -184,30 +209,34 @@ Practice σ 0.367s → Race σ 0.197s. Master Lonn gets MORE consistent when it 
 | Winton AI              | P11  |   P1   | Survive L1-3, attack L4+       |
 | Lime Rock AI #1        | P5   |   P1   | Survive L1-3, attack L4+       |
 | Lime Rock AI #2        | P6   |   P1   | Survive L1-3, attack L4+       |
-| Lime Rock AI #3        | P?   |  P2\*  | Aggression experiment (failed) |
-| **Oschersleben AI #1** | P6   | **P1** | Patience L1-6, attack L7-8     |
+| Lime Rock AI #3        | P?   |  P2*   | Aggression experiment (failed) |
+| Oschersleben AI #1     | P6   |   P1   | Patience L1-6, attack L7-8     |
+| **Oschersleben AI #2** | P1   | **P1** | Defense L5-8, **PB on L7**     |
 
-\*Intentional aggression test. Lesson learned: ninja > barbarian.
+*Intentional aggression test. Lesson learned: ninja > barbarian.
+
+**Record: 6/7 wins (86%)** across 3 tracks.
 
 ---
 
 ## Season Summary
 
-| Metric              | Value                                         |
-| :------------------ | :-------------------------------------------- |
-| **iRating**         | 1238 → **1672** (+434)                        |
-| **Division**        | 8                                             |
-| **Official Starts** | 9                                             |
-| **Official Wins**   | 2 (22%)                                       |
-| **AI Wins**         | 5 (Cold Tire Contract)                        |
-| **Poles**           | 2 (22%)                                       |
-| **Top 5s**          | 8 (89%)                                       |
-| **Championship**    | 329 pts                                       |
-| **Laps**            | 93 total / 23 led                             |
-| **Incidents**       | 16x (1.78x per race avg)                      |
-| **SR**              | → **3.64** (B-class)                          |
+| Metric              | Value                                                        |
+| :------------------ | :----------------------------------------------------------- |
+| **iRating**         | 1238 → **1672** (+434)                                       |
+| **Division**        | 8                                                            |
+| **Official Starts** | 9                                                            |
+| **Official Wins**   | 2 (22%)                                                      |
+| **AI Wins**         | 6 (Cold Tire Contract)                                       |
+| **Poles**           | 2 (22%)                                                      |
+| **Top 5s**          | 8 (89%)                                                      |
+| **Championship**    | 329 pts                                                      |
+| **Laps**            | 93 total / 23 led                                            |
+| **Incidents**       | 16x (1.78x per race avg)                                     |
+| **SR**              | → **3.64** (B-class)                                         |
 | **Key Discovery**   | Consistency-first approach unlocks both speed and repeatability |
-| **Key Validation**  | Cold Tire Contract: 5/6 wins across 3 tracks  |
+| **Key Validation**  | Cold Tire Contract: 6/7 wins across 3 tracks                 |
+| **New Skill**       | Center line defense (Week 05)                                |
 
 ---
 
@@ -222,11 +251,12 @@ Practice σ 0.367s → Race σ 0.197s. Master Lonn gets MORE consistent when it 
 
 ## What's Next
 
-**Track**: Continue Motorsport Arena Oschersleben – Grand Prix  
-**Challenge**: Break 1:33.0 barrier (need -0.167s from PB)  
-**Strategy**: T12 Amman Kurve focus, maintain T2 discipline, official race deployment
+**Track**: Motorsport Arena Oschersleben – Grand Prix (Official Race)  
+**Challenge**: Deploy Cold Tire Contract in official competition  
+**Goal**: Break 1:32.5 (need -0.433s), climb to Top 10% on G61  
+**Strategy**: Maintain T2/T14 discipline, center line defense ready, Meebewegen in traffic
 
-The strange corner is conquered. The next barrier awaits.
+The strange corner is conquered. The goal is debris in the rearview mirror. And somewhere on Lap 7, while defending position, Master Lonn discovered that pressure doesn't break him—it makes him faster.
 
 ---
 
