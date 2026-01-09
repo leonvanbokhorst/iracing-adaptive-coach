@@ -155,7 +155,27 @@
       "finish_position": 1,
       "focus_area": "Test session in race clothes",
       "ibt_analysis": true,
-      "notes": "WEEK 05 AI RACE 02 - NEW PB! 🏆 Cold Tire Contract v2.0 win #6. Goal to break 1:33.0 ACHIEVED (1:32.933). ALL 14 CORNERS NOW DIALED (first time at Oschersleben). T12 Amman Kurve fixed overnight (σ 0.276s → 0.069s). NEW SKILL: Defended P1 for last 4 laps (L5-L8) using CENTER LINE DEFENSE (first time ever). PB came on Lap 7 WHILE DEFENDING - ice cold under pressure. Race arc: L1 outlap, L2-L3 cold tires, L4 rhythm, L5-L8 defensive with PB on L7. Gap to Gong now 1.54s (was 2.4s baseline). G61 LEADERBOARD: P247/1071 (Top 23.1%). Garage61: 01KEHDVNY16QAVQ48WQ9VGWW6E."
+      "technique_analysis": {
+        "apex_consistency": {
+          "corners_analyzed": 14,
+          "best": {"T1_Hotel_Entry": 0.2, "T4_Triple_1": 0.3, "T8_Chicane_Entry": 0.5},
+          "worst": {"T9_Chicane_Exit": 25.9, "T10_McDonalds": 24.0, "T12_Amman_Kurve": 11.7}
+        },
+        "brake_point_consistency": {
+          "braking_corners": 13,
+          "best": {"T3_Hasseroeder": 0.7, "T4_Triple_1": 3.4, "T5_Triple_2": 3.4},
+          "worst": {"T11_Shell_Kurve": 294.4, "T10_McDonalds": 193.2, "T1_Hotel_Entry": 131.4}
+        },
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 12.98,
+          "throttle_avg_jerk_pct_s2": 541.2,
+          "throttle_full_usage_pct": 59.5,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 46.7,
+          "trail_braking_ratio_pct": 93.3
+        }
+      },
+      "notes": "WEEK 05 AI RACE 02 - NEW PB! 🏆 Cold Tire Contract v2.0 win #6. Goal to break 1:33.0 ACHIEVED (1:32.933). ALL 14 CORNERS NOW DIALED (first time at Oschersleben). T12 Amman Kurve fixed overnight (σ 0.276s → 0.069s). NEW SKILL: Defended P1 for last 4 laps (L5-L8) using CENTER LINE DEFENSE (first time ever). PB came on Lap 7 WHILE DEFENDING - ice cold under pressure. Race arc: L1 outlap, L2-L3 cold tires, L4 rhythm, L5-L8 defensive with PB on L7. Gap to Gong now 1.54s (was 2.4s baseline). G61 LEADERBOARD: P247/1071 (Top 23.1%). Garage61: 01KEHDVNY16QAVQ48WQ9VGWW6E. IBT TECHNIQUE ANALYSIS: Apex position consistent at T1 (0.2m σ), T4 (0.3m), T8 (0.5m), but T9 Chicane Exit shows 25.9m variance and T10 McDonald's 24.0m. Brake points locked at T3 (0.7m σ), but T11 Shell (294m), T10 (193m), T1 (131m) wander due to lift-coast zones and race traffic. Trail braking ratio excellent (93.3%). Using 100% brake authority. Steering smoothest at T4 Triple 1 (9.85 jerk), highest jerk at T9 Chicane Exit (28.88)."
     }
   ],
   "insights": [
