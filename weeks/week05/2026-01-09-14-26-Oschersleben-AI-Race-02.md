@@ -8,7 +8,7 @@
 - **Track**: [Motorsport Arena Oschersleben - Grand Prix](../../tracks/track-motorsport-arena-oschersleben-grand-prix.md)
 - **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)
 - **Session Type**: AI Race
-- **Grid Position**: TBD (likely P1-P3 based on pace)
+- **Grid Position**: P1
 - **Finish Position**: P1 (assumed - Cold Tire Contract win #6)
 - **Fastest Lap**: **1:32.933** ⭐ NEW PB
 - **Consistency (σ)**: 0.434s
