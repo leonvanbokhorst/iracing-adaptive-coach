@@ -171,11 +171,41 @@
           "throttle_avg_jerk_pct_s2": 541.2,
           "throttle_full_usage_pct": 59.5,
           "brake_max_pct": 100.0,
-          "brake_avg_when_braking_pct": 46.7,
-          "trail_braking_ratio_pct": 93.3
+          "brake_avg_when_braking_pct": 46.7
         }
       },
-      "notes": "WEEK 05 AI RACE 02 - NEW PB! 🏆 Cold Tire Contract v2.0 win #6. Goal to break 1:33.0 ACHIEVED (1:32.933). ALL 14 CORNERS NOW DIALED (first time at Oschersleben). T12 Amman Kurve fixed overnight (σ 0.276s → 0.069s). NEW SKILL: Defended P1 for last 4 laps (L5-L8) using CENTER LINE DEFENSE (first time ever). PB came on Lap 7 WHILE DEFENDING - ice cold under pressure. Race arc: L1 outlap, L2-L3 cold tires, L4 rhythm, L5-L8 defensive with PB on L7. Gap to Gong now 1.54s (was 2.4s baseline). G61 LEADERBOARD: P247/1071 (Top 23.1%). Garage61: 01KEHDVNY16QAVQ48WQ9VGWW6E. IBT TECHNIQUE ANALYSIS: Apex position consistent at T1 (0.2m σ), T4 (0.3m), T8 (0.5m), but T9 Chicane Exit shows 25.9m variance and T10 McDonald's 24.0m. Brake points locked at T3 (0.7m σ), but T11 Shell (294m), T10 (193m), T1 (131m) wander due to lift-coast zones and race traffic. Trail braking ratio excellent (93.3%). Using 100% brake authority. Steering smoothest at T4 Triple 1 (9.85 jerk), highest jerk at T9 Chicane Exit (28.88)."
+      "notes": "WEEK 05 AI RACE 02 - NEW PB! 🏆 Cold Tire Contract v2.0 win #6. Goal to break 1:33.0 ACHIEVED (1:32.933). ALL 14 CORNERS NOW DIALED (first time at Oschersleben). T12 Amman Kurve fixed overnight (σ 0.276s → 0.069s). NEW SKILL: Defended P1 for last 4 laps (L5-L8) using CENTER LINE DEFENSE (first time ever). PB came on Lap 7 WHILE DEFENDING - ice cold under pressure. Race arc: L1 outlap, L2-L3 cold tires, L4 rhythm, L5-L8 defensive with PB on L7. Gap to Gong now 1.54s (was 2.4s baseline). G61 LEADERBOARD: P247/1071 (Top 23.1%). Garage61: 01KEHDVNY16QAVQ48WQ9VGWW6E. IBT TECHNIQUE ANALYSIS: Apex position consistent at T1 (0.2m σ), T4 (0.3m), T8 (0.5m), but T9 Chicane Exit shows 25.9m variance and T10 McDonald's 24.0m. Brake points locked at T3 (0.7m σ), but T11 Shell (294m), T10 (193m), T1 (131m) wander due to lift-coast zones and race traffic. Using 100% brake authority. Steering smoothest at T4 Triple 1 (9.85 jerk), highest jerk at T9 Chicane Exit (28.88). LIFT-ON-STEER ANALYSIS: T9 Chicane Exit worst offender at 23%, T7 Hairpin 10.4%."
+    },
+    {
+      "date": "2026-01-10",
+      "time": "10:17 CET",
+      "session_type": "Practice (Smooth Input Drill)",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 92.967,
+      "best_lap_formatted": "1:32.967",
+      "consistency_sigma": 0.515,
+      "flying_laps": 8,
+      "total_laps": 8,
+      "incidents": 0,
+      "theoretical_optimal": 92.833,
+      "gap_to_optimal": 0.134,
+      "focus_area": "Smooth inputs - eliminate lift-on-steer at T9",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 11.3,
+          "throttle_avg_jerk_pct_s2": 554.6,
+          "throttle_full_usage_pct": 57.7,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 44.8
+        },
+        "lift_on_steer_comparison": {
+          "T9_Chicane_Exit": {"race_jan9": 23.0, "practice_jan10": 17.0, "change": -6},
+          "T7_Hairpin": {"race_jan9": 10.4, "practice_jan10": 0.5, "change": -9.9},
+          "T2_Hotel_Exit": {"race_jan9": 9.9, "practice_jan10": 5.6, "change": -4.3}
+        }
+      },
+      "notes": "SMOOTH INPUT DRILL - T9 IMPROVING. Short focused practice (8 laps) targeting lift-on-steer habit. T9 Chicane Exit: 23% → 17% (6pt improvement). T7 Hairpin: 10.4% → 0.5% (FIXED). Throttle jerk improved 8% (600 → 554.6). Steering jerk improved 6% (12 → 11.3). 14/14 corners still DIALED. Nearly matched race PB (1:32.967 vs 1:32.933) while focusing on smoothness, not speed. Best lap on final lap. Consistency σ = 0.515s (tighter than race 0.70s). Paradox proven again: consistency-focus produces speed as byproduct. Garage61: 01KEKK3DVFHZS91MWMR176GPXY."
     }
   ],
   "insights": [
@@ -229,7 +259,10 @@
     "Track Mastery Achieved (Oschersleben): AI Race 02 showed 14/14 corners DIALED (σ < 0.10s). First track in Season 01 with complete corner mastery. Progression: Day 1 = 2 corners dialed. Day 4 = 14/14 dialed. The 'consistency-first' approach (Practice 03) unlocked this by removing fear and allowing natural limit-finding.",
     "Low-Stakes Races as Test Sessions (NEW): AI Race 02 competition was weak initially, but required 4 laps of defensive driving (L5-L8). Master Lonn deployed center line defense (first time ever) and set PB (1:32.933) on Lap 7 WHILE defending. This disproves 'PBs need relaxed mind' — pace can come from competitive pressure too.",
     "Center Line Defense (NEW TECHNIQUE): First time Master Lonn used deliberate defensive positioning. Technique: Take center line on straights/approaches, denying clean overtake on both inside AND outside. Forces attacker to commit to a side, allows defender to react. Result: Held P1 for 4 laps against pressure, 0 incidents, PB mid-defense. This is a sustainable defense strategy (vs blocking which loses speed).",
-    "PB Under Defensive Pressure (NEW): AI Race 02 Lap 7 PB (1:32.933) came while defending position, not in clear air. This contradicts assumption that best pace requires 'relaxed mind.' The competitive pressure (someone on your tail) can sharpen focus and extract pace. Defending ≠ slowing down. Defending WITH pace = elite racecraft."
+    "PB Under Defensive Pressure (NEW): AI Race 02 Lap 7 PB (1:32.933) came while defending position, not in clear air. This contradicts assumption that best pace requires 'relaxed mind.' The competitive pressure (someone on your tail) can sharpen focus and extract pace. Defending ≠ slowing down. Defending WITH pace = elite racecraft.",
+    "Lift-on-Steer Pattern (NEW): IBT analysis revealed 'throttle lift when adding steering' pattern — classic commitment issue. T9 Chicane Exit was worst offender (23%). Cause: brain says 'rotation = danger' so foot instinctively lifts. Irony: the lift CAUSES instability (weight transfer forward, light rear). Fix: pick throttle %, HOLD through steering input. 8 laps of focused practice reduced T9 from 23% → 17%. T7 Hairpin went from 10.4% → 0.5% (fully rewired). Pattern can be broken with conscious effort.",
+    "Focused Drill Methodology (NEW): Short practice sessions (8-10 laps) with ONE specific focus are more effective than long 'try to be faster' sessions. Smooth Input Drill: focus on throttle commitment, not lap times. Result: nearly matched PB anyway + measurable technique improvement. For ADHD brain, small focused bites > long unfocused sessions.",
+    "FFB Tuning (MAIRA 35% → 30%): Reducing FFB strength by 5% resulted in 13% smoother steering overall, up to 29% smoother in tight corners (chicane). Jerk σ dropped from 17.25 to 15.44. Consistency IMPROVED (σ 0.70s → 0.515s) and pace held (nearly matched PB). Strong FFB causes micro-corrections that show up as steering jerk. Less fighting the wheel = more flow. 30% MAIRA strength is the new baseline for FF1600."
   ],
   "next_steps": [
     "WEEK 05 FOCUS: 1:33.0 BROKEN ✅ (1:32.933). NEW TARGET: Break 1:32.5 (need -0.433s from PB).",

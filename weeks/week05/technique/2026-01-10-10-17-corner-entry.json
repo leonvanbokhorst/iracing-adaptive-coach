@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "file": "raygr22_oschersleben gp 2026-01-10 10-17-09.ibt",
+    "track": "Motorsport Arena Oschersleben - Grand Prix",
+    "track_id": "oschersleben-gp",
+    "track_length_m": 3610,
+    "laps_found": 9
+  },
+  "corners": {
+    "T9 Chicane Exit": {
+      "zone": {
+        "start": 0.555,
+        "end": 0.58
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -180.2,
+          "overlap_samples": 32,
+          "overlap_pct": 7.5,
+          "entry_speed_kmh": 111.1,
+          "min_speed_kmh": 111.1,
+          "min_speed_dist_m": -180.2,
+          "max_brake_pct": 9.6,
+          "max_steering_rad": 0.523,
+          "lap": 1
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -180.3,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 110.8,
+          "min_speed_kmh": 110.8,
+          "min_speed_dist_m": -180.3,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.648,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -180.5,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 109.5,
+          "min_speed_kmh": 109.5,
+          "min_speed_dist_m": -180.5,
+          "max_brake_pct": 3.2,
+          "max_steering_rad": 0.514,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": 86.7,
+          "turn_in_dist_m": -180.5,
+          "overlap_samples": 46,
+          "overlap_pct": 11.1,
+          "entry_speed_kmh": 114.5,
+          "min_speed_kmh": 114.5,
+          "min_speed_dist_m": -180.5,
+          "max_brake_pct": 33.7,
+          "max_steering_rad": 0.63,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -180.3,
+          "overlap_samples": 59,
+          "overlap_pct": 13.9,
+          "entry_speed_kmh": 111.3,
+          "min_speed_kmh": 111.3,
+          "min_speed_dist_m": -180.3,
+          "max_brake_pct": 24.4,
+          "max_steering_rad": 0.443,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": 79.7,
+          "turn_in_dist_m": -180.4,
+          "overlap_samples": 36,
+          "overlap_pct": 8.5,
+          "entry_speed_kmh": 111.1,
+          "min_speed_kmh": 111.1,
+          "min_speed_dist_m": -180.4,
+          "max_brake_pct": 28.7,
+          "max_steering_rad": 0.506,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -180.1,
+          "overlap_samples": 68,
+          "overlap_pct": 16.1,
+          "entry_speed_kmh": 111.4,
+          "min_speed_kmh": 111.4,
+          "min_speed_dist_m": -180.1,
+          "max_brake_pct": 43.3,
+          "max_steering_rad": 0.501,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -180.4,
+          "overlap_samples": 50,
+          "overlap_pct": 11.9,
+          "entry_speed_kmh": 112.0,
+          "min_speed_kmh": 112.0,
+          "min_speed_dist_m": -180.4,
+          "max_brake_pct": 33.0,
+          "max_steering_rad": 0.482,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": 89.3,
+          "turn_in_dist_m": -180.2,
+          "overlap_samples": 58,
+          "overlap_pct": 13.7,
+          "entry_speed_kmh": 110.6,
+          "min_speed_kmh": 110.6,
+          "min_speed_dist_m": -180.2,
+          "max_brake_pct": 34.0,
+          "max_steering_rad": 0.572,
+          "lap": 9
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": 5.0,
+        "overlap_avg_pct": 9.2,
+        "overlap_sigma_pct": 5.8
+      },
+      "plot": "weeks/week05/assets/corner_entry_T9_Chicane_Exit.png"
+    }
+  }
+}
