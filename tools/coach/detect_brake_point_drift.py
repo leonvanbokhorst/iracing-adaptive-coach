@@ -64,7 +64,8 @@ def find_brake_point_for_corner(
     brake_data: list,
     speed_data: list,
     brake_threshold: float = 0.10,
-    search_window_pct: float = 0.15
+    search_start_pct: float = None,
+    max_search_window_pct: float = 0.10
 ) -> Optional[dict]:
     """
     Find brake application point before a corner.
@@ -79,13 +80,16 @@ def find_brake_point_for_corner(
         brake_data: Brake pedal data (0-1)
         speed_data: Speed data (m/s)
         brake_threshold: Minimum brake pressure to count as "braking" (0.10 = 10%)
-        search_window_pct: How far before corner to search (0.15 = 15% of track)
+        search_start_pct: Where to start searching (typically previous corner's end)
+        max_search_window_pct: Maximum search window if no previous corner (0.10 = 10%)
     
     Returns:
         Dict with brake point info, or None if not found
     """
-    # Define search zone: from (corner_start - window) to corner_start
-    search_start_pct = corner_start_pct - search_window_pct
+    # Define search zone: from search_start to corner_start
+    # If no search_start provided, use max_search_window
+    if search_start_pct is None:
+        search_start_pct = corner_start_pct - max_search_window_pct
     
     # Handle wraparound (corner near start/finish)
     if search_start_pct < 0:
@@ -202,9 +206,35 @@ def detect_brake_point_drift(
     # Analyze each corner
     corners = {}
     
-    for turn in track_data["turn"]:
+    # Sort corners by track position for finding previous corner
+    sorted_turns = sorted(track_data["turn"], key=lambda t: t["start"])
+    
+    for turn_idx, turn in enumerate(sorted_turns):
         corner_name = turn["name"]
         corner_start = turn["start"]
+        
+        # Find previous corner's end to define search window
+        # This prevents picking up braking for the wrong corner
+        if turn_idx > 0:
+            prev_corner_end = sorted_turns[turn_idx - 1]["end"]
+            # Add small buffer (1% of track) after previous corner
+            search_start = prev_corner_end + 0.01
+        else:
+            # First corner - search from end of last corner (wrapping)
+            prev_corner_end = sorted_turns[-1]["end"]
+            # Handle wrap: if prev corner ends at 95%, search from 96%
+            search_start = prev_corner_end + 0.01
+            if search_start > 1.0:
+                search_start -= 1.0
+        
+        # Ensure search window isn't too large (cap at 10% of track)
+        search_window = corner_start - search_start
+        if search_window < 0:
+            search_window += 1.0  # Handle wraparound
+        if search_window > 0.10:
+            search_start = corner_start - 0.10
+            if search_start < 0:
+                search_start += 1.0
         
         brake_points = []
         
@@ -218,7 +248,8 @@ def detect_brake_point_drift(
                 corner_start,
                 lap_start, lap_end,
                 dist_data, brake_data, speed_data,
-                brake_threshold
+                brake_threshold,
+                search_start_pct=search_start
             )
             
             if bp_data and not bp_data.get("no_braking"):
@@ -273,6 +304,7 @@ def detect_brake_point_drift(
         
         corners[corner_name] = {
             "corner_start_pct": corner_start,
+            "search_window_start_pct": round(search_start, 3),
             "brake_points": brake_points,
             "consistency": consistency,
         }

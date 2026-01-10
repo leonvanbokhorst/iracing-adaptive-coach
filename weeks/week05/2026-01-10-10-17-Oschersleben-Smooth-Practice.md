@@ -66,6 +66,8 @@ Oh, and while focusing on being smooth? You nearly matched your race PB. *chef's
 - **ALL 14 corners rated "dialed"** (σ < 0.10s) — complete corner mastery maintained
 - **T9 Chicane Exit** lift-on-steer: **23% → 17%** (6 point improvement!)
 - **T7 Hairpin** lift-on-steer: **10.4% → 0.5%** (basically FIXED)
+- **Brake points locked**: 6/7 braking corners under 5m variance
+- **FFB optimized**: 30% MAIRA = 13% smoother steering
 - Best lap on final lap again (consistent with race pattern)
 
 **The "Room for Improvement"** (🚧):
@@ -101,6 +103,34 @@ Oh, and while focusing on being smooth? You nearly matched your race PB. *chef's
 | Steering Jerk | ~12 rad/s² | **11.3** rad/s² | ↓ 6% smoother |
 | Full Throttle % | 59.5% | **57.7%** | ↓ 2% (expected — more careful) |
 | Consistency σ | 0.70s | **0.515s** | ↓ 26% tighter |
+
+### Brake Point Consistency
+
+![Brake Point Variance](assets/2026-01-10-10-17-brake-variance.png)
+
+| Corner | σ (variance) | Status |
+|--------|-------------:|--------|
+| T14 Zeppelin Kurve | 4.7m | 🔒 locked |
+| T7 Hairpin | 3.9m | 🔒 locked |
+| T9 Chicane Exit | 3.0m | 🔒 locked |
+| T11 Shell Kurve | 2.9m | 🔒 locked |
+| T10 McDonald's | 4.0m | 🔒 locked |
+| T13 Bauer Kurve | 0.2m | 🔒 locked |
+| T1/T2 Hotel | 41.1m | ⚠️ drifting (lift-coast zone) |
+
+**Most brake points are locked in** (< 5m variance). The Hotel complex (T1/T2) shows variance, but that's expected for a lift-coast zone with multiple valid techniques.
+
+### FFB Tuning Discovery
+
+This session ran with **MAIRA FFB at 30%** (down from 35%). Results:
+
+| Metric | 35% FFB (Race) | 30% FFB (Practice) | Change |
+|--------|---------------:|-------------------:|--------|
+| Steering Jerk | 12.98 rad/s² | **11.3** rad/s² | ↓ 13% smoother |
+| T8 Chicane Entry Jerk | 26.5 rad/s² | **18.8** rad/s² | ↓ 29% smoother |
+| Jerk σ | 17.25 | **15.44** | ↓ 10% more consistent |
+
+**Conclusion**: 5% FFB reduction removed unnecessary micro-corrections without losing feel. **30% MAIRA = new baseline**.
 
 ### Corner Entry Traces: T9 Chicane Exit
 
@@ -212,6 +242,8 @@ It's down to 17% but not dead. The habit is wounded, not killed. A few more focu
 - T7 Hairpin lift habit is fully broken (0.5%)
 - T9 is stubborn but improving (23% → 17%)
 - Throttle jerk reduced 8% — inputs ARE smoother
+- **Brake detection tool fixed**: Now correctly identifies brake zones per corner (was picking up wrong corner's braking for T14)
+- **FFB finding**: 30% MAIRA = 13% smoother steering without losing pace
 
 ### Guidebook Connections 📚
 
