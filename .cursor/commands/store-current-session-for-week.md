@@ -59,6 +59,9 @@ That's it. The IBT file contains ALL session data we need:
    
    # Lap evolution chart
    uv run python tools/viz/lap_evolution_chart.py weeks/weekXX/assets/[datetime]-session.json -o weeks/weekXX/assets/[datetime]-lap-evolution.png
+   
+   # NEW: Brake point variance chart
+   uv run python tools/viz/brake_variance_chart.py weeks/weekXX/technique/[datetime]-brake.json -o weeks/weekXX/assets/[datetime]-brake-variance.png
    ```
 8. Write the session markdown file: `weeks/weekXX/[datetime]-[track]-[session-type].md`
 9. **Include visualizations AND technique interpretation in the report** (see template below)
@@ -205,6 +208,8 @@ _"[Brief high-level story of the session. Focus on feeling/struggle/victory, NOT
 | [T#]   | [σ]        | [speed] km/h  | [G] G      |
 
 ### Brake Point Consistency
+
+![Brake Point Variance]([relative path to brake-variance.png])
 
 | Corner | Brake σ (m) | Avg Pressure | Avg Speed at Brake |
 | :----- | ----------: | -----------: | -----------------: |
@@ -376,6 +381,10 @@ uv run python tools/viz/consistency_heatmap.py <file.ibt> --track <track-id> -o 
 
 # Lap evolution chart (from session JSON)
 uv run python tools/viz/lap_evolution_chart.py <session.json> -o output.png
+
+# NEW: Brake point variance chart (from brake JSON)
+uv run python tools/viz/brake_variance_chart.py <brake.json> -o output.png
+uv run python tools/viz/brake_variance_chart.py <file.ibt> --track <track-id> -o output.png  # Direct from IBT
 ```
 
 **Track IDs** (for --track flag):
@@ -402,9 +411,10 @@ uv run python tools/viz/lap_evolution_chart.py <session.json> -o output.png
 8. Run: corner_entry_traces.py → corner-entry.json + plots
 9. Run: consistency_heatmap.py → heatmap.png
 10. Run: lap_evolution_chart.py → evolution.png
-11. Write session markdown with TECHNIQUE INTERPRETATION
-12. Update learning_memory.json (include technique_analysis block)
-13. Move IBT to /data/processed/
+11. Run: brake_variance_chart.py → brake-variance.png
+12. Write session markdown with TECHNIQUE INTERPRETATION
+13. Update learning_memory.json (include technique_analysis block)
+14. Move IBT to /data/processed/
 ```
 
 ---
