@@ -19,7 +19,7 @@
     "week03_final": true
   },
   "focus": "Week 05: Precision on the Plain. Hit the same mark ten times.",
-  "goal": "Week 05: 1:33.0 BROKEN ✅ (1:32.933). NEW: Break 1:32.5, Official Race deployment.",
+  "goal": "Week 05: 1:33.0 BROKEN ✅. NEW PB: 1:32.907. Target: Break 1:32.5, Official Race deployment.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -256,6 +256,76 @@
         }
       },
       "notes": "AI RACE 03 - POLE TO P10 (RACECRAFT LESSON). Qualified POLE (1:33.845). Led race for 7 laps. Best lap 1:33.183 on Lap 4. Laps 3-7 all consistent (1:33.3-1:34.5 range). On FINAL LAP (L8), contact with faster AI at T2 Hotel Exit while defending. S1 exploded to 43.4s (vs normal 34.2s). Dropped from P1 to P10. KEY VALIDATION: Smooth input work SURVIVED race pressure. Steering jerk 11.43 vs practice 11.3 (only 1.2% increase). S2 σ = 0.103s (ELITE consistency in race conditions). RACECRAFT LESSON: The AI was genuinely faster. Master Lonn's reflection: 'He was faster... when he made the move I should have let him go. P2 is way better than P10 and a broken ego.' This is Meebewegen 2.0: yield when defending costs more than it gains. True race σ (L2-L7) estimated ~0.5s. Garage61: 01KEKWANE8JFFS7X2D13XFSZ2K."
+    },
+    {
+      "date": "2026-01-11",
+      "time": "12:00 CET",
+      "session_type": "Practice (Wheelbase Testing)",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 92.907,
+      "best_lap_formatted": "1:32.907",
+      "focus_area": "Wheelbase settings testing",
+      "notes": "NEW PB! 1:32.907 (-0.026s from previous 1:32.933). Achieved while testing wheelbase settings, not hot-lapping. PB confirmed via G61 fastest lap export only. Garage61: 01KEPPEMVADHDH4N6H47YG737Z."
+    },
+    {
+      "date": "2026-01-11",
+      "time": "13:42 CET",
+      "session_type": "AI Race 04",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.3,
+      "best_lap_formatted": "1:33.300",
+      "consistency_sigma": 1.858,
+      "consistency_sigma_note": "Skewed by T2 incident on Lap 7",
+      "flying_laps": 7,
+      "total_laps": 8,
+      "incidents": 1,
+      "incident_description": "T2 Hotel Exit mistake on Lap 7 while fighting for P1",
+      "theoretical_optimal": 93.267,
+      "gap_to_optimal": 0.033,
+      "grid_position": 6,
+      "finish_position": 2,
+      "focus_area": "Race execution",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 10.15,
+          "throttle_avg_jerk_pct_s2": 573.3,
+          "throttle_full_usage_pct": 51.1,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 47.7
+        }
+      },
+      "notes": "AI RACE 04 - P6→P2. Cold Tire Contract deployed successfully (L1-L3 survival, L4+ attack). Best lap on FINAL lap (1:33.300) - composure after incident. Lap 7 T2 Hotel Exit blew up (10.417s vs normal 7.4s = +3.0s loss). T2 σ = 1.109s (LOTTERY). 11/14 corners remain dialed. Steering jerk improved to 10.15 (was 11.43 in Race 03 = 11% smoother). Master Lonn: 'Hotel came and bit me.' This is the 3rd consecutive race where T2 cost a potential win. Garage61: 01KEPH1DAVMQ3HTEMK95GHYYTT."
+    },
+    {
+      "date": "2026-01-11",
+      "time": "14:11 CET",
+      "session_type": "AI Race 05",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.717,
+      "best_lap_formatted": "1:33.717",
+      "consistency_sigma": 1.604,
+      "consistency_sigma_note": "Skewed by T2 incident on Lap 8 (final lap)",
+      "flying_laps": 7,
+      "total_laps": 8,
+      "incidents": 1,
+      "incident_description": "T2 Hotel Exit mistake on final lap while fighting for P1",
+      "theoretical_optimal": 93.483,
+      "gap_to_optimal": 0.234,
+      "grid_position": 6,
+      "finish_position": 2,
+      "focus_area": "Race execution",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 10.98,
+          "throttle_avg_jerk_pct_s2": 557.4,
+          "throttle_full_usage_pct": 49.7,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 49.2
+        }
+      },
+      "notes": "AI RACE 05 - P6→P2. Déjà vu. L6-L7 showed ELITE consistency (0.016s apart). Then L8 (final lap, fighting for P1) = T2 disaster (10.767s vs normal 7.4s = +3.4s loss). T2 σ = 1.236s (LOTTERY). 12/14 corners dialed. S3 on L8 was actually BEST of race (26.63s) - recovered after T2. Master Lonn: 'Hotel came and bit me.' Pattern confirmed: T2 is the Achilles heel when fighting for P1. Garage61: 01KEPJDE2R788PMP7NPK698FYG."
     }
   ],
   "insights": [
@@ -315,17 +385,20 @@
     "FFB Tuning (MAIRA 35% → 30%): Reducing FFB strength by 5% resulted in 13% smoother steering overall, up to 29% smoother in tight corners (chicane). Jerk σ dropped from 17.25 to 15.44. Consistency IMPROVED (σ 0.70s → 0.515s) and pace held (nearly matched PB). Strong FFB causes micro-corrections that show up as steering jerk. Less fighting the wheel = more flow. 30% MAIRA strength is the new baseline for FF1600.",
     "Smooth Input Transfer (Practice → Race): AI Race 03 proved that conscious smooth input practice transfers to race conditions. Steering jerk: Practice 11.3 rad/s² → Race 11.43 rad/s² (only 1.2% increase under race pressure). This confirms neural rewiring is happening—the smooth inputs aren't just temporary focus, they're becoming habit. The FFB reduction + focused drill + race deployment = validated workflow for technique changes.",
     "S2 Elite Consistency Under Pressure: AI Race 03 showed S2 σ = 0.103s (100 milliseconds variance) across 7 flying laps IN A RACE. This is professional-level consistency in the technical middle sector. Proves that when technique is dialed, it holds under traffic and pressure.",
-    "Yield to Faster Cars (Meebewegen 2.0): AI Race 03 taught the hard way: if someone is genuinely faster, let them go. P2 > P10 + broken ego. Master Lonn's reflection: 'He was faster... when he made the move I should have let him go.' This extends Meebewegen from 'let faster guys through early' to 'yield when defending costs more than it gains.' Defending a position you can't hold = gambling. P2 is not losing—it's maximizing the realistic outcome."
+    "Yield to Faster Cars (Meebewegen 2.0): AI Race 03 taught the hard way: if someone is genuinely faster, let them go. P2 > P10 + broken ego. Master Lonn's reflection: 'He was faster... when he made the move I should have let him go.' This extends Meebewegen from 'let faster guys through early' to 'yield when defending costs more than it gains.' Defending a position you can't hold = gambling. P2 is not losing—it's maximizing the realistic outcome.",
+    "T2 Hotel Exit: Race vs Practice Dichotomy (NEW): T2 σ in practice = 0.066s (DIALED). T2 σ in races when fighting for P1 = 1.0+ (LOTTERY). Same corner, same driver, same car — different results. The difference is PRESSURE/TRAFFIC. When someone contests T2: (1) Options reduce (can't take normal line), (2) Braking point shifts (defensive/offensive), (3) Commitment drops (fear of contact). Four consecutive races (Race 03-04-05-AI) had T2 incidents cost potential wins. The solution isn't getting faster at T2 — it's NOT FIGHTING at T2. Fight for P1 everywhere else.",
+    "The Hotel Rule (NEW): Don't fight for P1 AT T2. If contested at T2: Option A = let them have T2, attack at T3-T6 (Triple complex). Option B = let them have T2, set up slipstream for T14→main straight. Option C = if genuinely faster, let them go (Meebewegen 2.0). The Hotel is not where you WIN — it's where you LOSE.",
+    "Steering Smoothness Progression (NEW): Race 02: 12.98 rad/s² → Race 03: 11.43 (-12%) → Race 04: 10.15 (-11%) → Race 05: 10.98. Neural rewiring continues. Smooth input drills + FFB reduction producing measurable, sustained improvement. Now consistently under 11 rad/s².",
+    "T2 Hotel Exit Technique SOLVED (Master Lonn Discovery): Trail brake entry → Full brake + quick downshift 4→3→2 → 20% THROTTLE HOLD through apex → Progressive throttle to 100% on exit. KEY INSIGHT: Never fully off throttle through the apex. The 20% hold stabilizes the rear on the downhill decreasing-radius corner. Without it = light rear = snap oversteer = disaster. This matches VRS Gideon technique ('overlap throttle with brakes to stabilize rear'). Master Lonn reverse-engineered it through feel. Now codified for deployment under race pressure."
   ],
   "next_steps": [
-    "WEEK 05 FOCUS: 1:33.0 BROKEN ✅ (1:32.933). NEW TARGET: Break 1:32.5 (need -0.433s from PB).",
-    "OFFICIAL RACE READY: All systems validated. Cold Tire Contract (6 AI wins). Smooth inputs (verified in race conditions). Corner mastery (14/14). Pace (POLE capable).",
-    "G61 LEADERBOARD: P247/1071 (Top 23.1%). Target: Top 10% (~P107) needs ~1:32.0-1:32.2.",
-    "TRACK MASTERY ACHIEVED: 14/14 corners DIALED. Oschersleben is now 'home track' for FF1600.",
-    "Smooth Input Transfer: VALIDATED. Practice steering jerk 11.3 → Race 11.43 (1.2% increase). Neural rewiring confirmed.",
-    "AI Race Limitation Noted: AI Race 03 showed POLE → P10 due to AI contact. AI races useful for technique deployment but results unreliable.",
-    "Gap to Alien (Gong 1:31.396): 1.54s from PB (was 2.4s baseline). Next milestone: close under 1.0s.",
-    "iRating Trajectory: 1238 → 1672 (+434 in 4 weeks). Official race this week will test Oschersleben gains."
+    "NEW PB: 1:32.907 (-0.026s). Target: Break 1:32.5 (need -0.407s from PB).",
+    "OFFICIAL RACE STRATEGY: Deploy 'Hotel Rule' — don't fight for P1 at T2. Fight everywhere else. Let T2 battles go.",
+    "Cold Tire Contract: 6 wins + 2 P2s + 1 P10 (AI contact). Contract WORKS. P2 finishes are fine — the climb from P6 is consistent.",
+    "T2 ACHILLES HEEL: Practice = dialed (σ 0.066s). Race when fighting = lottery (σ 1.0+). Accept this and race around it.",
+    "Gap to Alien (Gong 1:31.396): 1.51s from new PB (was 2.4s baseline). Closing.",
+    "Steering Smoothness: Now consistently under 11 rad/s² (was 13). Smooth input drills validated.",
+    "iRating Trajectory: 1238 → 1672 (+434 in 4 weeks). Official race deployment ready."
   ],
   "guidebook_updates": [
     {

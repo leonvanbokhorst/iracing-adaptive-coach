@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "file": "raygr22_oschersleben gp 2026-01-11 13-42-33.ibt",
+    "track": "Motorsport Arena Oschersleben - Grand Prix",
+    "track_id": "oschersleben-gp",
+    "sample_rate_hz": 60,
+    "total_samples": 48109,
+    "duration_seconds": 801.8,
+    "laps_found": 9
+  },
+  "steering": {
+    "available": true,
+    "avg_jerk_rad_s2": 10.15,
+    "max_jerk_rad_s2": 382.8,
+    "jerk_sigma": 13.28,
+    "avg_velocity_rad_s": 0.43,
+    "max_velocity_rad_s": 10.3,
+    "max_steering_angle_rad": 2.741,
+    "per_corner": {
+      "T1 Hotel Entry": {
+        "avg_jerk": 11.55,
+        "max_jerk": 94.13
+      },
+      "T2 Hotel Exit": {
+        "avg_jerk": 10.92,
+        "max_jerk": 150.62
+      },
+      "T3 Hasseroeder": {
+        "avg_jerk": 9.23,
+        "max_jerk": 194.54
+      },
+      "T4 Triple 1": {
+        "avg_jerk": 8.25,
+        "max_jerk": 56.48
+      },
+      "T5 Triple 2": {
+        "avg_jerk": 13.72,
+        "max_jerk": 180.95
+      },
+      "T6 Triple 3": {
+        "avg_jerk": 15.37,
+        "max_jerk": 382.8
+      },
+      "T7 Hairpin": {
+        "avg_jerk": 11.23,
+        "max_jerk": 90.99
+      },
+      "T8 Chicane Entry": {
+        "avg_jerk": 15.25,
+        "max_jerk": 117.15
+      },
+      "T9 Chicane Exit": {
+        "avg_jerk": 20.85,
+        "max_jerk": 165.25
+      },
+      "T10 McDonald's": {
+        "avg_jerk": 17.26,
+        "max_jerk": 145.38
+      },
+      "T11 Shell Kurve": {
+        "avg_jerk": 15.18,
+        "max_jerk": 135.97
+      },
+      "T12 Amman Kurve": {
+        "avg_jerk": 11.75,
+        "max_jerk": 94.13
+      },
+      "T13 Bauer Kurve": {
+        "avg_jerk": 11.46,
+        "max_jerk": 191.41
+      },
+      "T14 Zeppelin Kurve": {
+        "avg_jerk": 12.27,
+        "max_jerk": 115.05
+      }
+    }
+  },
+  "throttle": {
+    "available": true,
+    "avg_jerk_pct_s2": 573.3,
+    "max_jerk_pct_s2": 57840.7,
+    "avg_application_rate_pct_s": 79.5,
+    "avg_lift_rate_pct_s": 157.5,
+    "max_application_rate_pct_s": 978.7,
+    "max_throttle_pct": 100.0,
+    "avg_throttle_pct": 63.3,
+    "full_throttle_usage_pct": 51.1,
+    "per_corner_exit": {
+      "T1 Hotel Entry": {
+        "avg_application_rate": 139.6,
+        "max_application_rate": 542.9
+      },
+      "T2 Hotel Exit": {
+        "avg_application_rate": 83.6,
+        "max_application_rate": 776.4
+      },
+      "T3 Hasseroeder": {
+        "avg_application_rate": 74.8,
+        "max_application_rate": 978.7
+      },
+      "T5 Triple 2": {
+        "avg_application_rate": 108.4,
+        "max_application_rate": 444.2
+      },
+      "T6 Triple 3": {
+        "avg_application_rate": 74.6,
+        "max_application_rate": 319.0
+      },
+      "T7 Hairpin": {
+        "avg_application_rate": 53.1,
+        "max_application_rate": 626.4
+      },
+      "T9 Chicane Exit": {
+        "avg_application_rate": 117.8,
+        "max_application_rate": 497.3
+      },
+      "T10 McDonald's": {
+        "avg_application_rate": 55.3,
+        "max_application_rate": 188.9
+      },
+      "T11 Shell Kurve": {
+        "avg_application_rate": 99.4,
+        "max_application_rate": 666.6
+      },
+      "T12 Amman Kurve": {
+        "avg_application_rate": 230.8,
+        "max_application_rate": 481.3
+      },
+      "T13 Bauer Kurve": {
+        "avg_application_rate": 81.3,
+        "max_application_rate": 729.9
+      },
+      "T14 Zeppelin Kurve": {
+        "avg_application_rate": 75.6,
+        "max_application_rate": 672.8
+      }
+    }
+  },
+  "brake": {
+    "available": true,
+    "avg_jerk_pct_s2": 234.2,
+    "max_jerk_pct_s2": 360000.1,
+    "avg_application_rate_pct_s": 77.2,
+    "avg_release_rate_pct_s": 60.3,
+    "max_application_rate_pct_s": 436.8,
+    "max_brake_pct": 100.0,
+    "avg_brake_pct_when_braking": 47.7,
+    "per_corner_entry": {
+      "T1 Hotel Entry": {
+        "avg_application_rate": 76.6,
+        "avg_release_rate": 278.0
+      },
+      "T2 Hotel Exit": {
+        "avg_application_rate": 83.8,
+        "avg_release_rate": 85.4
+      },
+      "T3 Hasseroeder": {
+        "avg_application_rate": 99.0,
+        "avg_release_rate": 88.2
+      },
+      "T4 Triple 1": {
+        "avg_application_rate": 129.5,
+        "avg_release_rate": 90.2
+      },
+      "T5 Triple 2": {
+        "avg_application_rate": 115.1,
+        "avg_release_rate": 90.8
+      },
+      "T6 Triple 3": {
+        "avg_application_rate": 98.9,
+        "avg_release_rate": 120.7
+      },
+      "T7 Hairpin": {
+        "avg_application_rate": 115.3,
+        "avg_release_rate": 109.3
+      },
+      "T8 Chicane Entry": {
+        "avg_application_rate": 114.1,
+        "avg_release_rate": 107.1
+      },
+      "T9 Chicane Exit": {
+        "avg_application_rate": 113.5,
+        "avg_release_rate": 102.8
+      },
+      "T10 McDonald's": {
+        "avg_application_rate": 106.7,
+        "avg_release_rate": 93.4
+      },
+      "T11 Shell Kurve": {
+        "avg_application_rate": 166.9,
+        "avg_release_rate": 78.0
+      },
+      "T12 Amman Kurve": {
+        "avg_application_rate": 102.4,
+        "avg_release_rate": 57.7
+      },
+      "T13 Bauer Kurve": {
+        "avg_application_rate": 102.7,
+        "avg_release_rate": 56.7
+      },
+      "T14 Zeppelin Kurve": {
+        "avg_application_rate": 89.7,
+        "avg_release_rate": 51.7
+      }
+    }
+  }
+}
