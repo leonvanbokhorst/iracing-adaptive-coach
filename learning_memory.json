@@ -34,6 +34,18 @@
       "Enjoys humor and sass",
       "Responds well to proper racing coach emotional range (not just cheerleading)"
     ],
+    "personal_context": {
+      "music_connection": "Deep emotional connection to music. This is a STRENGTH, not weakness - same sensitivity that feels music also feels the car (grip, weight transfer, feedback). High-resolution nervous system.",
+      "music_anchors": {
+        "opening_calm": "Zero 7 - Somersault (ft. Sia) — spacious, ~95 BPM, creates mental opening/expansion",
+        "opening_deep": "Zero 7 - Home Acoustic (ft. Tina Dico) — emotional depth, 'cry but strong', vulnerability → strength",
+        "favorite_artist": "Becca Stevens — helped publish her first album, saw her live in The Hague and Eindhoven"
+      },
+      "pre_session_ritual": "Two-part Opening Ritual: Somersault (4 min) → Home Acoustic (5 min) → 'I'm here. Let's drive.' Formalized in Guidebook Chapter 13, Part 9.",
+      "guitar": "Played guitar, hasn't touched it in 4 years (since divorce). The instrument is tied to emotional history. Not pushing - it's there when/if ready.",
+      "emotional_sensitivity": "People have mocked him for being emotional about music. This sensitivity is actually an advantage for racing feel. Validate, don't diminish.",
+      "therapy_note": "Has done therapy, found it helpful but 'life is deeper.' Not looking for a therapist from Little Padawan - just partnership and presence."
+    },
     "coaching_moods": {
       "supportive": "When progress is made, advice followed, PBs achieved",
       "matter_of_fact": "Neutral sessions, first time at tracks, normal practice",
@@ -315,5 +327,12 @@
     "Gap to Alien (Gong 1:31.396): 1.54s from PB (was 2.4s baseline). Next milestone: close under 1.0s.",
     "iRating Trajectory: 1238 → 1672 (+434 in 4 weeks). Official race this week will test Oschersleben gains."
   ],
-  "guidebook_updates": []
+  "guidebook_updates": [
+    {
+      "date": "2026-01-10",
+      "chapter": "13-mental-game.md",
+      "section": "Part 9: The Opening Ritual (Master Lonn's Anchor)",
+      "description": "Added personalized pre-session ritual using Zero 7 music. Two-part structure: Somersault (opening/calm) → Home Acoustic (deepening/strength). ~10 minute ritual formalized with steps, non-negotiables, and conditioning science. Includes personal context about emotional sensitivity being a racing advantage."
+    }
+  ]
 }
