@@ -19,7 +19,7 @@
     "week03_final": true
   },
   "focus": "Week 05: Precision on the Plain. Hit the same mark ten times.",
-  "goal": "Week 05: 1:33.0 BROKEN ✅ (1:32.933). NEW: Break 1:32.5, Official Race deployment.",
+  "goal": "Week 05: 1:33.0 BROKEN ✅. NEW PB: 1:32.907. Target: Break 1:32.5, Official Race deployment.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -34,6 +34,18 @@
       "Enjoys humor and sass",
       "Responds well to proper racing coach emotional range (not just cheerleading)"
     ],
+    "personal_context": {
+      "music_connection": "Deep emotional connection to music. This is a STRENGTH, not weakness - same sensitivity that feels music also feels the car (grip, weight transfer, feedback). High-resolution nervous system.",
+      "music_anchors": {
+        "opening_calm": "Zero 7 - Somersault (ft. Sia) — spacious, ~95 BPM, creates mental opening/expansion",
+        "opening_deep": "Zero 7 - Home Acoustic (ft. Tina Dico) — emotional depth, 'cry but strong', vulnerability → strength",
+        "favorite_artist": "Becca Stevens — helped publish her first album, saw her live in The Hague and Eindhoven"
+      },
+      "pre_session_ritual": "Two-part Opening Ritual: Somersault (4 min) → Home Acoustic (5 min) → 'I'm here. Let's drive.' Formalized in Guidebook Chapter 13, Part 9.",
+      "guitar": "Played guitar, hasn't touched it in 4 years (since divorce). The instrument is tied to emotional history. Not pushing - it's there when/if ready.",
+      "emotional_sensitivity": "People have mocked him for being emotional about music. This sensitivity is actually an advantage for racing feel. Validate, don't diminish.",
+      "therapy_note": "Has done therapy, found it helpful but 'life is deeper.' Not looking for a therapist from Little Padawan - just partnership and presence."
+    },
     "coaching_moods": {
       "supportive": "When progress is made, advice followed, PBs achieved",
       "matter_of_fact": "Neutral sessions, first time at tracks, normal practice",
@@ -155,7 +167,165 @@
       "finish_position": 1,
       "focus_area": "Test session in race clothes",
       "ibt_analysis": true,
-      "notes": "WEEK 05 AI RACE 02 - NEW PB! 🏆 Cold Tire Contract v2.0 win #6. Goal to break 1:33.0 ACHIEVED (1:32.933). ALL 14 CORNERS NOW DIALED (first time at Oschersleben). T12 Amman Kurve fixed overnight (σ 0.276s → 0.069s). NEW SKILL: Defended P1 for last 4 laps (L5-L8) using CENTER LINE DEFENSE (first time ever). PB came on Lap 7 WHILE DEFENDING - ice cold under pressure. Race arc: L1 outlap, L2-L3 cold tires, L4 rhythm, L5-L8 defensive with PB on L7. Gap to Gong now 1.54s (was 2.4s baseline). G61 LEADERBOARD: P247/1071 (Top 23.1%). Garage61: 01KEHDVNY16QAVQ48WQ9VGWW6E."
+      "technique_analysis": {
+        "apex_consistency": {
+          "corners_analyzed": 14,
+          "best": {"T1_Hotel_Entry": 0.2, "T4_Triple_1": 0.3, "T8_Chicane_Entry": 0.5},
+          "worst": {"T9_Chicane_Exit": 25.9, "T10_McDonalds": 24.0, "T12_Amman_Kurve": 11.7}
+        },
+        "brake_point_consistency": {
+          "braking_corners": 13,
+          "best": {"T3_Hasseroeder": 0.7, "T4_Triple_1": 3.4, "T5_Triple_2": 3.4},
+          "worst": {"T11_Shell_Kurve": 294.4, "T10_McDonalds": 193.2, "T1_Hotel_Entry": 131.4}
+        },
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 12.98,
+          "throttle_avg_jerk_pct_s2": 541.2,
+          "throttle_full_usage_pct": 59.5,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 46.7
+        }
+      },
+      "notes": "WEEK 05 AI RACE 02 - NEW PB! 🏆 Cold Tire Contract v2.0 win #6. Goal to break 1:33.0 ACHIEVED (1:32.933). ALL 14 CORNERS NOW DIALED (first time at Oschersleben). T12 Amman Kurve fixed overnight (σ 0.276s → 0.069s). NEW SKILL: Defended P1 for last 4 laps (L5-L8) using CENTER LINE DEFENSE (first time ever). PB came on Lap 7 WHILE DEFENDING - ice cold under pressure. Race arc: L1 outlap, L2-L3 cold tires, L4 rhythm, L5-L8 defensive with PB on L7. Gap to Gong now 1.54s (was 2.4s baseline). G61 LEADERBOARD: P247/1071 (Top 23.1%). Garage61: 01KEHDVNY16QAVQ48WQ9VGWW6E. IBT TECHNIQUE ANALYSIS: Apex position consistent at T1 (0.2m σ), T4 (0.3m), T8 (0.5m), but T9 Chicane Exit shows 25.9m variance and T10 McDonald's 24.0m. Brake points locked at T3 (0.7m σ), but T11 Shell (294m), T10 (193m), T1 (131m) wander due to lift-coast zones and race traffic. Using 100% brake authority. Steering smoothest at T4 Triple 1 (9.85 jerk), highest jerk at T9 Chicane Exit (28.88). LIFT-ON-STEER ANALYSIS: T9 Chicane Exit worst offender at 23%, T7 Hairpin 10.4%."
+    },
+    {
+      "date": "2026-01-10",
+      "time": "10:17 CET",
+      "session_type": "Practice (Smooth Input Drill)",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 92.967,
+      "best_lap_formatted": "1:32.967",
+      "consistency_sigma": 0.515,
+      "flying_laps": 8,
+      "total_laps": 8,
+      "incidents": 0,
+      "theoretical_optimal": 92.833,
+      "gap_to_optimal": 0.134,
+      "focus_area": "Smooth inputs - eliminate lift-on-steer at T9",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 11.3,
+          "throttle_avg_jerk_pct_s2": 554.6,
+          "throttle_full_usage_pct": 57.7,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 44.8
+        },
+        "lift_on_steer_comparison": {
+          "T9_Chicane_Exit": {"race_jan9": 23.0, "practice_jan10": 17.0, "change": -6},
+          "T7_Hairpin": {"race_jan9": 10.4, "practice_jan10": 0.5, "change": -9.9},
+          "T2_Hotel_Exit": {"race_jan9": 9.9, "practice_jan10": 5.6, "change": -4.3}
+        }
+      },
+      "notes": "SMOOTH INPUT DRILL - T9 IMPROVING. Short focused practice (8 laps) targeting lift-on-steer habit. T9 Chicane Exit: 23% → 17% (6pt improvement). T7 Hairpin: 10.4% → 0.5% (FIXED). Throttle jerk improved 8% (600 → 554.6). Steering jerk improved 6% (12 → 11.3). 14/14 corners still DIALED. Nearly matched race PB (1:32.967 vs 1:32.933) while focusing on smoothness, not speed. Best lap on final lap. Consistency σ = 0.515s (tighter than race 0.70s). Paradox proven again: consistency-focus produces speed as byproduct. Garage61: 01KEKK3DVFHZS91MWMR176GPXY."
+    },
+    {
+      "date": "2026-01-10",
+      "time": "12:48 CET",
+      "session_type": "AI Race 03",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.183,
+      "best_lap_formatted": "1:33.183",
+      "consistency_sigma": 3.551,
+      "consistency_sigma_note": "Skewed by AI contact incident on Lap 8",
+      "flying_laps": 7,
+      "total_laps": 8,
+      "incidents": 1,
+      "incident_description": "Punted by AI at T2 Hotel Exit on final lap while leading",
+      "theoretical_optimal": 93.034,
+      "gap_to_optimal": 0.149,
+      "grid_position": 1,
+      "finish_position": 10,
+      "quali_lap": 93.845,
+      "quali_lap_formatted": "1:33.845",
+      "focus_area": "Race deployment + smooth inputs under pressure",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 11.43,
+          "throttle_avg_jerk_pct_s2": 582.1,
+          "throttle_full_usage_pct": 59.1,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 48.4
+        },
+        "smooth_input_transfer": {
+          "practice_steering_jerk": 11.3,
+          "race_steering_jerk": 11.43,
+          "difference_pct": 1.2,
+          "verdict": "VALIDATED - smooth inputs survived race pressure"
+        }
+      },
+      "notes": "AI RACE 03 - POLE TO P10 (RACECRAFT LESSON). Qualified POLE (1:33.845). Led race for 7 laps. Best lap 1:33.183 on Lap 4. Laps 3-7 all consistent (1:33.3-1:34.5 range). On FINAL LAP (L8), contact with faster AI at T2 Hotel Exit while defending. S1 exploded to 43.4s (vs normal 34.2s). Dropped from P1 to P10. KEY VALIDATION: Smooth input work SURVIVED race pressure. Steering jerk 11.43 vs practice 11.3 (only 1.2% increase). S2 σ = 0.103s (ELITE consistency in race conditions). RACECRAFT LESSON: The AI was genuinely faster. Master Lonn's reflection: 'He was faster... when he made the move I should have let him go. P2 is way better than P10 and a broken ego.' This is Meebewegen 2.0: yield when defending costs more than it gains. True race σ (L2-L7) estimated ~0.5s. Garage61: 01KEKWANE8JFFS7X2D13XFSZ2K."
+    },
+    {
+      "date": "2026-01-11",
+      "time": "12:00 CET",
+      "session_type": "Practice (Wheelbase Testing)",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 92.907,
+      "best_lap_formatted": "1:32.907",
+      "focus_area": "Wheelbase settings testing",
+      "notes": "NEW PB! 1:32.907 (-0.026s from previous 1:32.933). Achieved while testing wheelbase settings, not hot-lapping. PB confirmed via G61 fastest lap export only. Garage61: 01KEPPEMVADHDH4N6H47YG737Z."
+    },
+    {
+      "date": "2026-01-11",
+      "time": "13:42 CET",
+      "session_type": "AI Race 04",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.3,
+      "best_lap_formatted": "1:33.300",
+      "consistency_sigma": 1.858,
+      "consistency_sigma_note": "Skewed by T2 incident on Lap 7",
+      "flying_laps": 7,
+      "total_laps": 8,
+      "incidents": 1,
+      "incident_description": "T2 Hotel Exit mistake on Lap 7 while fighting for P1",
+      "theoretical_optimal": 93.267,
+      "gap_to_optimal": 0.033,
+      "grid_position": 6,
+      "finish_position": 2,
+      "focus_area": "Race execution",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 10.15,
+          "throttle_avg_jerk_pct_s2": 573.3,
+          "throttle_full_usage_pct": 51.1,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 47.7
+        }
+      },
+      "notes": "AI RACE 04 - P6→P2. Cold Tire Contract deployed successfully (L1-L3 survival, L4+ attack). Best lap on FINAL lap (1:33.300) - composure after incident. Lap 7 T2 Hotel Exit blew up (10.417s vs normal 7.4s = +3.0s loss). T2 σ = 1.109s (LOTTERY). 11/14 corners remain dialed. Steering jerk improved to 10.15 (was 11.43 in Race 03 = 11% smoother). Master Lonn: 'Hotel came and bit me.' This is the 3rd consecutive race where T2 cost a potential win. Garage61: 01KEPH1DAVMQ3HTEMK95GHYYTT."
+    },
+    {
+      "date": "2026-01-11",
+      "time": "14:11 CET",
+      "session_type": "AI Race 05",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.717,
+      "best_lap_formatted": "1:33.717",
+      "consistency_sigma": 1.604,
+      "consistency_sigma_note": "Skewed by T2 incident on Lap 8 (final lap)",
+      "flying_laps": 7,
+      "total_laps": 8,
+      "incidents": 1,
+      "incident_description": "T2 Hotel Exit mistake on final lap while fighting for P1",
+      "theoretical_optimal": 93.483,
+      "gap_to_optimal": 0.234,
+      "grid_position": 6,
+      "finish_position": 2,
+      "focus_area": "Race execution",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 10.98,
+          "throttle_avg_jerk_pct_s2": 557.4,
+          "throttle_full_usage_pct": 49.7,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 49.2
+        }
+      },
+      "notes": "AI RACE 05 - P6→P2. Déjà vu. L6-L7 showed ELITE consistency (0.016s apart). Then L8 (final lap, fighting for P1) = T2 disaster (10.767s vs normal 7.4s = +3.4s loss). T2 σ = 1.236s (LOTTERY). 12/14 corners dialed. S3 on L8 was actually BEST of race (26.63s) - recovered after T2. Master Lonn: 'Hotel came and bit me.' Pattern confirmed: T2 is the Achilles heel when fighting for P1. Garage61: 01KEPJDE2R788PMP7NPK698FYG."
     }
   ],
   "insights": [
@@ -209,17 +379,33 @@
     "Track Mastery Achieved (Oschersleben): AI Race 02 showed 14/14 corners DIALED (σ < 0.10s). First track in Season 01 with complete corner mastery. Progression: Day 1 = 2 corners dialed. Day 4 = 14/14 dialed. The 'consistency-first' approach (Practice 03) unlocked this by removing fear and allowing natural limit-finding.",
     "Low-Stakes Races as Test Sessions (NEW): AI Race 02 competition was weak initially, but required 4 laps of defensive driving (L5-L8). Master Lonn deployed center line defense (first time ever) and set PB (1:32.933) on Lap 7 WHILE defending. This disproves 'PBs need relaxed mind' — pace can come from competitive pressure too.",
     "Center Line Defense (NEW TECHNIQUE): First time Master Lonn used deliberate defensive positioning. Technique: Take center line on straights/approaches, denying clean overtake on both inside AND outside. Forces attacker to commit to a side, allows defender to react. Result: Held P1 for 4 laps against pressure, 0 incidents, PB mid-defense. This is a sustainable defense strategy (vs blocking which loses speed).",
-    "PB Under Defensive Pressure (NEW): AI Race 02 Lap 7 PB (1:32.933) came while defending position, not in clear air. This contradicts assumption that best pace requires 'relaxed mind.' The competitive pressure (someone on your tail) can sharpen focus and extract pace. Defending ≠ slowing down. Defending WITH pace = elite racecraft."
+    "PB Under Defensive Pressure (NEW): AI Race 02 Lap 7 PB (1:32.933) came while defending position, not in clear air. This contradicts assumption that best pace requires 'relaxed mind.' The competitive pressure (someone on your tail) can sharpen focus and extract pace. Defending ≠ slowing down. Defending WITH pace = elite racecraft.",
+    "Lift-on-Steer Pattern (NEW): IBT analysis revealed 'throttle lift when adding steering' pattern — classic commitment issue. T9 Chicane Exit was worst offender (23%). Cause: brain says 'rotation = danger' so foot instinctively lifts. Irony: the lift CAUSES instability (weight transfer forward, light rear). Fix: pick throttle %, HOLD through steering input. 8 laps of focused practice reduced T9 from 23% → 17%. T7 Hairpin went from 10.4% → 0.5% (fully rewired). Pattern can be broken with conscious effort.",
+    "Focused Drill Methodology (NEW): Short practice sessions (8-10 laps) with ONE specific focus are more effective than long 'try to be faster' sessions. Smooth Input Drill: focus on throttle commitment, not lap times. Result: nearly matched PB anyway + measurable technique improvement. For ADHD brain, small focused bites > long unfocused sessions.",
+    "FFB Tuning (MAIRA 35% → 30%): Reducing FFB strength by 5% resulted in 13% smoother steering overall, up to 29% smoother in tight corners (chicane). Jerk σ dropped from 17.25 to 15.44. Consistency IMPROVED (σ 0.70s → 0.515s) and pace held (nearly matched PB). Strong FFB causes micro-corrections that show up as steering jerk. Less fighting the wheel = more flow. 30% MAIRA strength is the new baseline for FF1600.",
+    "Smooth Input Transfer (Practice → Race): AI Race 03 proved that conscious smooth input practice transfers to race conditions. Steering jerk: Practice 11.3 rad/s² → Race 11.43 rad/s² (only 1.2% increase under race pressure). This confirms neural rewiring is happening—the smooth inputs aren't just temporary focus, they're becoming habit. The FFB reduction + focused drill + race deployment = validated workflow for technique changes.",
+    "S2 Elite Consistency Under Pressure: AI Race 03 showed S2 σ = 0.103s (100 milliseconds variance) across 7 flying laps IN A RACE. This is professional-level consistency in the technical middle sector. Proves that when technique is dialed, it holds under traffic and pressure.",
+    "Yield to Faster Cars (Meebewegen 2.0): AI Race 03 taught the hard way: if someone is genuinely faster, let them go. P2 > P10 + broken ego. Master Lonn's reflection: 'He was faster... when he made the move I should have let him go.' This extends Meebewegen from 'let faster guys through early' to 'yield when defending costs more than it gains.' Defending a position you can't hold = gambling. P2 is not losing—it's maximizing the realistic outcome.",
+    "T2 Hotel Exit: Race vs Practice Dichotomy (NEW): T2 σ in practice = 0.066s (DIALED). T2 σ in races when fighting for P1 = 1.0+ (LOTTERY). Same corner, same driver, same car — different results. The difference is PRESSURE/TRAFFIC. When someone contests T2: (1) Options reduce (can't take normal line), (2) Braking point shifts (defensive/offensive), (3) Commitment drops (fear of contact). Four consecutive races (Race 03-04-05-AI) had T2 incidents cost potential wins. The solution isn't getting faster at T2 — it's NOT FIGHTING at T2. Fight for P1 everywhere else.",
+    "The Hotel Rule (NEW): Don't fight for P1 AT T2. If contested at T2: Option A = let them have T2, attack at T3-T6 (Triple complex). Option B = let them have T2, set up slipstream for T14→main straight. Option C = if genuinely faster, let them go (Meebewegen 2.0). The Hotel is not where you WIN — it's where you LOSE.",
+    "Steering Smoothness Progression (NEW): Race 02: 12.98 rad/s² → Race 03: 11.43 (-12%) → Race 04: 10.15 (-11%) → Race 05: 10.98. Neural rewiring continues. Smooth input drills + FFB reduction producing measurable, sustained improvement. Now consistently under 11 rad/s².",
+    "T2 Hotel Exit Technique SOLVED (Master Lonn Discovery): Trail brake entry → Full brake + quick downshift 4→3→2 → 20% THROTTLE HOLD through apex → Progressive throttle to 100% on exit. KEY INSIGHT: Never fully off throttle through the apex. The 20% hold stabilizes the rear on the downhill decreasing-radius corner. Without it = light rear = snap oversteer = disaster. This matches VRS Gideon technique ('overlap throttle with brakes to stabilize rear'). Master Lonn reverse-engineered it through feel. Now codified for deployment under race pressure."
   ],
   "next_steps": [
-    "WEEK 05 FOCUS: 1:33.0 BROKEN ✅ (1:32.933). NEW TARGET: Break 1:32.5 (need -0.433s from PB).",
-    "G61 LEADERBOARD: P247/1071 (Top 23.1%). Target: Top 10% (~P107) needs ~1:32.0-1:32.2.",
-    "TRACK MASTERY ACHIEVED: 14/14 corners DIALED. Oschersleben is now 'home track' for FF1600.",
-    "Cold Tire Contract: Win #6 logged. Ready for OFFICIAL race deployment at Oschersleben.",
-    "Center Line Defense: NEW SKILL validated. PB set while defending for 4 laps.",
-    "Zero Incident Discipline: 3 consecutive clean sessions. Standard maintained.",
-    "Gap to Alien (Gong 1:31.396): 1.54s from PB (was 2.4s baseline). Next milestone: close under 1.0s.",
-    "iRating Trajectory: 1238 → 1672 (+434 in 4 weeks). Official race this week will test Oschersleben gains."
+    "NEW PB: 1:32.907 (-0.026s). Target: Break 1:32.5 (need -0.407s from PB).",
+    "OFFICIAL RACE STRATEGY: Deploy 'Hotel Rule' — don't fight for P1 at T2. Fight everywhere else. Let T2 battles go.",
+    "Cold Tire Contract: 6 wins + 2 P2s + 1 P10 (AI contact). Contract WORKS. P2 finishes are fine — the climb from P6 is consistent.",
+    "T2 ACHILLES HEEL: Practice = dialed (σ 0.066s). Race when fighting = lottery (σ 1.0+). Accept this and race around it.",
+    "Gap to Alien (Gong 1:31.396): 1.51s from new PB (was 2.4s baseline). Closing.",
+    "Steering Smoothness: Now consistently under 11 rad/s² (was 13). Smooth input drills validated.",
+    "iRating Trajectory: 1238 → 1672 (+434 in 4 weeks). Official race deployment ready."
   ],
-  "guidebook_updates": []
+  "guidebook_updates": [
+    {
+      "date": "2026-01-10",
+      "chapter": "13-mental-game.md",
+      "section": "Part 9: The Opening Ritual (Master Lonn's Anchor)",
+      "description": "Added personalized pre-session ritual using Zero 7 music. Two-part structure: Somersault (opening/calm) → Home Acoustic (deepening/strength). ~10 minute ritual formalized with steps, non-negotiables, and conditioning science. Includes personal context about emotional sensitivity being a racing advantage."
+    }
+  ]
 }

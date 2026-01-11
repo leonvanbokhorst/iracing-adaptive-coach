@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "file": "raygr22_oschersleben gp 2026-01-10 10-17-09.ibt",
+    "samples": 55357,
+    "duration_seconds": 922.62,
+    "tick_rate_hz": 60,
+    "best_lap_time": 92.974,
+    "laps": 9,
+    "track": "Motorsport Arena Oschersleben - Grand Prix",
+    "car_has_abs": false
+  },
+  "oversteer_analysis": {
+    "available": true,
+    "max_yaw_rate_deg_s": 118.1,
+    "avg_yaw_rate_deg_s": 13.6,
+    "oversteer_events": 7615,
+    "oversteer_threshold_deg_s": 30.0,
+    "oversteer_zones": {
+      "10-20%": 1759,
+      "20-30%": 1701,
+      "40-50%": 2102,
+      "50-60%": 463,
+      "70-80%": 461,
+      "80-90%": 119,
+      "90-100%": 898,
+      "30-40%": 4,
+      "60-70%": 108
+    },
+    "notable_events": [
+      {
+        "sample": 1071,
+        "yaw_rate_deg_s": 30.3,
+        "track_pct": 12.58,
+        "speed_kmh": 77.9
+      },
+      {
+        "sample": 1072,
+        "yaw_rate_deg_s": 31.4,
+        "track_pct": 12.59,
+        "speed_kmh": 77.8
+      },
+      {
+        "sample": 1073,
+        "yaw_rate_deg_s": 33.4,
+        "track_pct": 12.6,
+        "speed_kmh": 77.6
+      },
+      {
+        "sample": 1074,
+        "yaw_rate_deg_s": 34.6,
+        "track_pct": 12.61,
+        "speed_kmh": 77.5
+      },
+      {
+        "sample": 1075,
+        "yaw_rate_deg_s": 35.2,
+        "track_pct": 12.62,
+        "speed_kmh": 77.3
+      },
+      {
+        "sample": 1076,
+        "yaw_rate_deg_s": 34.0,
+        "track_pct": 12.64,
+        "speed_kmh": 77.1
+      },
+      {
+        "sample": 1077,
+        "yaw_rate_deg_s": 32.7,
+        "track_pct": 12.65,
+        "speed_kmh": 77.0
+      },
+      {
+        "sample": 1078,
+        "yaw_rate_deg_s": 31.8,
+        "track_pct": 12.66,
+        "speed_kmh": 76.8
+      },
+      {
+        "sample": 1079,
+        "yaw_rate_deg_s": 30.9,
+        "track_pct": 12.67,
+        "speed_kmh": 76.7
+      },
+      {
+        "sample": 1091,
+        "yaw_rate_deg_s": 30.1,
+        "track_pct": 12.82,
+        "speed_kmh": 74.9
+      }
+    ]
+  },
+  "tire_temps": {
+    "available": true,
+    "tires": {
+      "LF": {
+        "temps_C": {
+          "inside": 52.8,
+          "middle": 53.0,
+          "outside": 53.1
+        },
+        "in_out_diff": -0.3,
+        "balance": "balanced"
+      },
+      "RF": {
+        "temps_C": {
+          "inside": 53.0,
+          "middle": 52.9,
+          "outside": 52.7
+        },
+        "in_out_diff": 0.3,
+        "balance": "balanced"
+      },
+      "LR": {
+        "temps_C": {
+          "inside": 52.8,
+          "middle": 53.0,
+          "outside": 53.0
+        },
+        "in_out_diff": -0.2,
+        "balance": "balanced"
+      },
+      "RR": {
+        "temps_C": {
+          "inside": 53.0,
+          "middle": 52.9,
+          "outside": 52.8
+        },
+        "in_out_diff": 0.2,
+        "balance": "balanced"
+      }
+    }
+  },
+  "weight_transfer": {
+    "available": true,
+    "shocks": {
+      "LFshockDefl": {
+        "min_mm": -1.05,
+        "max_mm": 48.95,
+        "range_mm": 50.0,
+        "avg_mm": 6.58
+      },
+      "RFshockDefl": {
+        "min_mm": -8.35,
+        "max_mm": 48.78,
+        "range_mm": 57.13,
+        "avg_mm": 4.6
+      },
+      "LRshockDefl": {
+        "min_mm": 3.27,
+        "max_mm": 58.38,
+        "range_mm": 55.11,
+        "avg_mm": 26.94
+      },
+      "RRshockDefl": {
+        "min_mm": 1.87,
+        "max_mm": 72.32,
+        "range_mm": 70.45,
+        "avg_mm": 25.01
+      }
+    },
+    "front_rear_balance": -20.39,
+    "interpretation": {
+      "front_rear_diff_mm": -20.39,
+      "note": "Positive = more front load (braking bias), Negative = more rear load (accel bias)"
+    }
+  },
+  "delta_analysis": {
+    "available": true,
+    "final_delta_to_optimal_s": 4.119,
+    "losing_time_zones": {
+      "30-40%": 2715,
+      "40-50%": 3859,
+      "50-60%": 3421,
+      "60-70%": 4774,
+      "70-80%": 3163,
+      "80-90%": 3945,
+      "90-100%": 4057,
+      "0-10%": 2260,
+      "10-20%": 3336,
+      "20-30%": 2517
+    },
+    "gaining_time_zones": {
+      "30-40%": 1993,
+      "40-50%": 2416,
+      "50-60%": 2114,
+      "70-80%": 1340,
+      "90-100%": 1076,
+      "0-10%": 648,
+      "10-20%": 2313,
+      "20-30%": 2639,
+      "80-90%": 865,
+      "60-70%": 5
+    },
+    "interpretation": "Positive delta = slower than optimal, Negative = faster (unlikely)"
+  },
+  "abs_analysis": {
+    "available": false,
+    "reason": "Car does not have ABS"
+  },
+  "corners": {
+    "available": true,
+    "corners": {
+      "T1 Hotel Entry": {
+        "track_pct": "10%-14%",
+        "oversteer_events": 82
+      },
+      "T2 Hotel Exit": {
+        "track_pct": "15%-21%",
+        "oversteer_events": 1409
+      },
+      "T3 Hasseroeder": {
+        "track_pct": "25%-32%",
+        "oversteer_events": 1705
+      },
+      "T4 Triple 1": {
+        "track_pct": "35%-40%",
+        "oversteer_events": 0
+      },
+      "T5 Triple 2": {
+        "track_pct": "40%-44%",
+        "oversteer_events": 25
+      },
+      "T6 Triple 3": {
+        "track_pct": "44%-48%",
+        "oversteer_events": 908
+      },
+      "T7 Hairpin": {
+        "track_pct": "48%-52%",
+        "oversteer_events": 1226
+      },
+      "T8 Chicane Entry": {
+        "track_pct": "53%-56%",
+        "oversteer_events": 47
+      },
+      "T9 Chicane Exit": {
+        "track_pct": "56%-58%",
+        "oversteer_events": 168
+      },
+      "T10 McDonald's": {
+        "track_pct": "58%-62%",
+        "oversteer_events": 294
+      },
+      "T11 Shell Kurve": {
+        "track_pct": "73%-77%",
+        "oversteer_events": 170
+      },
+      "T12 Amman Kurve": {
+        "track_pct": "78%-81%",
+        "oversteer_events": 280
+      },
+      "T13 Bauer Kurve": {
+        "track_pct": "84%-88%",
+        "oversteer_events": 118
+      },
+      "T14 Zeppelin Kurve": {
+        "track_pct": "90%-95%",
+        "oversteer_events": 898
+      }
+    }
+  }
+}

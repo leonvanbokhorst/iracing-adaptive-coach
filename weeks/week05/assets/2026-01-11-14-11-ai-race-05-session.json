@@ -1,0 +1,400 @@
+{
+  "metadata": {
+    "file": "raygr22_oschersleben gp 2026-01-11 14-11-23.ibt",
+    "track": "Motorsport Arena Oschersleben - Grand Prix",
+    "track_id": "oschersleben-gp",
+    "car": "Ray FF1600",
+    "sample_count": 47667,
+    "sample_rate_hz": 60,
+    "duration_seconds": 794.5,
+    "duration_formatted": "13:14"
+  },
+  "summary": {
+    "total_laps": 8,
+    "valid_laps": 8,
+    "flying_laps": 7,
+    "outlaps": 1,
+    "invalid_laps": 0,
+    "best_lap_time": 93.717,
+    "best_lap_time_formatted": "1:33.717",
+    "best_lap_number": 6,
+    "worst_flying_lap_time": 97.95,
+    "avg_lap_time": 95.217,
+    "consistency_sigma": 1.604,
+    "theoretical_optimal": 93.483,
+    "gap_to_optimal": 0.234
+  },
+  "laps": [
+    {
+      "lap_number": 1,
+      "lap_time": 102.9,
+      "lap_time_formatted": "1:42.900",
+      "start_idx": 1046,
+      "end_idx": 7220,
+      "samples": 6174,
+      "valid": true,
+      "is_outlap": true,
+      "sectors": {
+        "S1": 38.983,
+        "S2": 35.117,
+        "S3": 28.783
+      },
+      "corners": {
+        "T1 Hotel Entry": 4.2,
+        "T2 Hotel Exit": 7.967,
+        "T3 Hasseroeder": 8.9,
+        "T4 Triple 1": 4.117,
+        "T5 Triple 2": 3.783,
+        "T6 Triple 3": 4.95,
+        "T7 Hairpin": 5.267,
+        "T8 Chicane Entry": 2.467,
+        "T9 Chicane Exit": 2.633,
+        "T10 McDonald's": 4.117,
+        "T11 Shell Kurve": 3.633,
+        "T12 Amman Kurve": 3.467,
+        "T13 Bauer Kurve": 4.183,
+        "T14 Zeppelin Kurve": 6.317
+      }
+    },
+    {
+      "lap_number": 2,
+      "lap_time": 97.95,
+      "lap_time_formatted": "1:37.950",
+      "start_idx": 7220,
+      "end_idx": 13097,
+      "samples": 5877,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 35.817,
+        "S2": 33.967,
+        "S3": 28.15
+      },
+      "corners": {
+        "T1 Hotel Entry": 3.4,
+        "T2 Hotel Exit": 7.8,
+        "T3 Hasseroeder": 8.933,
+        "T4 Triple 1": 4.017,
+        "T5 Triple 2": 3.667,
+        "T6 Triple 3": 4.75,
+        "T7 Hairpin": 5.067,
+        "T8 Chicane Entry": 2.4,
+        "T9 Chicane Exit": 2.5,
+        "T10 McDonald's": 4.067,
+        "T11 Shell Kurve": 4.033,
+        "T12 Amman Kurve": 3.467,
+        "T13 Bauer Kurve": 3.75,
+        "T14 Zeppelin Kurve": 6.017
+      }
+    },
+    {
+      "lap_number": 3,
+      "lap_time": 95.333,
+      "lap_time_formatted": "1:35.333",
+      "start_idx": 13097,
+      "end_idx": 18818,
+      "samples": 5721,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 34.283,
+        "S2": 33.033,
+        "S3": 28.0
+      },
+      "corners": {
+        "T1 Hotel Entry": 3.383,
+        "T2 Hotel Exit": 7.4,
+        "T3 Hasseroeder": 8.033,
+        "T4 Triple 1": 3.917,
+        "T5 Triple 2": 3.417,
+        "T6 Triple 3": 4.733,
+        "T7 Hairpin": 4.933,
+        "T8 Chicane Entry": 2.25,
+        "T9 Chicane Exit": 2.267,
+        "T10 McDonald's": 4.033,
+        "T11 Shell Kurve": 3.967,
+        "T12 Amman Kurve": 3.183,
+        "T13 Bauer Kurve": 3.983,
+        "T14 Zeppelin Kurve": 6.033
+      }
+    },
+    {
+      "lap_number": 4,
+      "lap_time": 94.617,
+      "lap_time_formatted": "1:34.617",
+      "start_idx": 18818,
+      "end_idx": 24494,
+      "samples": 5676,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 35.1,
+        "S2": 32.733,
+        "S3": 26.767
+      },
+      "corners": {
+        "T1 Hotel Entry": 3.8,
+        "T2 Hotel Exit": 7.7,
+        "T3 Hasseroeder": 8.233,
+        "T4 Triple 1": 3.883,
+        "T5 Triple 2": 3.633,
+        "T6 Triple 3": 4.267,
+        "T7 Hairpin": 4.9,
+        "T8 Chicane Entry": 2.267,
+        "T9 Chicane Exit": 2.25,
+        "T10 McDonald's": 4.0,
+        "T11 Shell Kurve": 3.733,
+        "T12 Amman Kurve": 3.05,
+        "T13 Bauer Kurve": 3.583,
+        "T14 Zeppelin Kurve": 5.9
+      }
+    },
+    {
+      "lap_number": 5,
+      "lap_time": 94.383,
+      "lap_time_formatted": "1:34.383",
+      "start_idx": 24494,
+      "end_idx": 30157,
+      "samples": 5663,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 34.467,
+        "S2": 33.2,
+        "S3": 26.7
+      },
+      "corners": {
+        "T1 Hotel Entry": 3.45,
+        "T2 Hotel Exit": 7.4,
+        "T3 Hasseroeder": 8.117,
+        "T4 Triple 1": 3.933,
+        "T5 Triple 2": 3.583,
+        "T6 Triple 3": 4.6,
+        "T7 Hairpin": 4.917,
+        "T8 Chicane Entry": 2.233,
+        "T9 Chicane Exit": 2.283,
+        "T10 McDonald's": 3.983,
+        "T11 Shell Kurve": 3.567,
+        "T12 Amman Kurve": 3.05,
+        "T13 Bauer Kurve": 3.617,
+        "T14 Zeppelin Kurve": 5.95
+      }
+    },
+    {
+      "lap_number": 6,
+      "lap_time": 93.717,
+      "lap_time_formatted": "1:33.717",
+      "start_idx": 30157,
+      "end_idx": 35780,
+      "samples": 5623,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 34.167,
+        "S2": 32.683,
+        "S3": 26.85
+      },
+      "corners": {
+        "T1 Hotel Entry": 3.283,
+        "T2 Hotel Exit": 7.45,
+        "T3 Hasseroeder": 8.0,
+        "T4 Triple 1": 3.9,
+        "T5 Triple 2": 3.483,
+        "T6 Triple 3": 4.35,
+        "T7 Hairpin": 4.917,
+        "T8 Chicane Entry": 2.25,
+        "T9 Chicane Exit": 2.25,
+        "T10 McDonald's": 3.967,
+        "T11 Shell Kurve": 3.65,
+        "T12 Amman Kurve": 2.95,
+        "T13 Bauer Kurve": 3.633,
+        "T14 Zeppelin Kurve": 6.1
+      }
+    },
+    {
+      "lap_number": 7,
+      "lap_time": 93.733,
+      "lap_time_formatted": "1:33.733",
+      "start_idx": 35780,
+      "end_idx": 41404,
+      "samples": 5624,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 34.3,
+        "S2": 32.683,
+        "S3": 26.733
+      },
+      "corners": {
+        "T1 Hotel Entry": 3.25,
+        "T2 Hotel Exit": 7.4,
+        "T3 Hasseroeder": 8.067,
+        "T4 Triple 1": 3.933,
+        "T5 Triple 2": 3.433,
+        "T6 Triple 3": 4.433,
+        "T7 Hairpin": 4.933,
+        "T8 Chicane Entry": 2.233,
+        "T9 Chicane Exit": 2.2,
+        "T10 McDonald's": 4.017,
+        "T11 Shell Kurve": 3.417,
+        "T12 Amman Kurve": 3.167,
+        "T13 Bauer Kurve": 3.6,
+        "T14 Zeppelin Kurve": 5.9
+      }
+    },
+    {
+      "lap_number": 8,
+      "lap_time": 96.783,
+      "lap_time_formatted": "1:36.783",
+      "start_idx": 41404,
+      "end_idx": 47212,
+      "samples": 5808,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 37.35,
+        "S2": 32.783,
+        "S3": 26.633
+      },
+      "corners": {
+        "T1 Hotel Entry": 2.983,
+        "T2 Hotel Exit": 10.767,
+        "T3 Hasseroeder": 8.133,
+        "T4 Triple 1": 3.917,
+        "T5 Triple 2": 3.5,
+        "T6 Triple 3": 4.467,
+        "T7 Hairpin": 4.85,
+        "T8 Chicane Entry": 2.233,
+        "T9 Chicane Exit": 2.283,
+        "T10 McDonald's": 4.033,
+        "T11 Shell Kurve": 3.517,
+        "T12 Amman Kurve": 2.933,
+        "T13 Bauer Kurve": 3.75,
+        "T14 Zeppelin Kurve": 5.917
+      }
+    }
+  ],
+  "sectors": {
+    "S1": {
+      "best": 34.167,
+      "worst": 37.35,
+      "avg": 35.069,
+      "sigma": 1.165,
+      "loss_per_lap": 0.902
+    },
+    "S2": {
+      "best": 32.683,
+      "worst": 33.967,
+      "avg": 33.012,
+      "sigma": 0.465,
+      "loss_per_lap": 0.329
+    },
+    "S3": {
+      "best": 26.633,
+      "worst": 28.15,
+      "avg": 27.119,
+      "sigma": 0.658,
+      "loss_per_lap": 0.486
+    }
+  },
+  "corners": {
+    "T1 Hotel Entry": {
+      "best": 2.983,
+      "worst": 3.8,
+      "avg": 3.364,
+      "sigma": 0.246,
+      "variance_rating": "solid"
+    },
+    "T2 Hotel Exit": {
+      "best": 7.4,
+      "worst": 10.767,
+      "avg": 7.988,
+      "sigma": 1.236,
+      "variance_rating": "lottery"
+    },
+    "T3 Hasseroeder": {
+      "best": 8.0,
+      "worst": 8.933,
+      "avg": 8.217,
+      "sigma": 0.325,
+      "variance_rating": "work_needed"
+    },
+    "T4 Triple 1": {
+      "best": 3.883,
+      "worst": 4.017,
+      "avg": 3.929,
+      "sigma": 0.043,
+      "variance_rating": "dialed"
+    },
+    "T5 Triple 2": {
+      "best": 3.417,
+      "worst": 3.667,
+      "avg": 3.531,
+      "sigma": 0.098,
+      "variance_rating": "dialed"
+    },
+    "T6 Triple 3": {
+      "best": 4.267,
+      "worst": 4.75,
+      "avg": 4.514,
+      "sigma": 0.186,
+      "variance_rating": "solid"
+    },
+    "T7 Hairpin": {
+      "best": 4.85,
+      "worst": 5.067,
+      "avg": 4.931,
+      "sigma": 0.066,
+      "variance_rating": "dialed"
+    },
+    "T8 Chicane Entry": {
+      "best": 2.233,
+      "worst": 2.4,
+      "avg": 2.267,
+      "sigma": 0.06,
+      "variance_rating": "dialed"
+    },
+    "T9 Chicane Exit": {
+      "best": 2.2,
+      "worst": 2.5,
+      "avg": 2.29,
+      "sigma": 0.097,
+      "variance_rating": "dialed"
+    },
+    "T10 McDonald's": {
+      "best": 3.967,
+      "worst": 4.067,
+      "avg": 4.014,
+      "sigma": 0.034,
+      "variance_rating": "dialed"
+    },
+    "T11 Shell Kurve": {
+      "best": 3.417,
+      "worst": 4.033,
+      "avg": 3.698,
+      "sigma": 0.23,
+      "variance_rating": "solid"
+    },
+    "T12 Amman Kurve": {
+      "best": 2.933,
+      "worst": 3.467,
+      "avg": 3.114,
+      "sigma": 0.183,
+      "variance_rating": "solid"
+    },
+    "T13 Bauer Kurve": {
+      "best": 3.583,
+      "worst": 3.983,
+      "avg": 3.702,
+      "sigma": 0.141,
+      "variance_rating": "solid"
+    },
+    "T14 Zeppelin Kurve": {
+      "best": 5.9,
+      "worst": 6.1,
+      "avg": 5.974,
+      "sigma": 0.077,
+      "variance_rating": "dialed"
+    }
+  }
+}
