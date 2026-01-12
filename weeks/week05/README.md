@@ -198,9 +198,9 @@ The Hotel is where you LOSE, not where you WIN.
 **Track**: Motorsport Arena Oschersleben GP  
 **Car**: Ray FF1600
 
-|  Position  | Percentile  |      PB      | Gap to P1 |
-| :--------: | :---------: | :----------: | :-------: |
-| ~P230/1071 | **Top 21%** | **1:32.907** |   1.51s   |
+| Position  |  Percentile   |      PB      | Gap to P1 |
+| :-------: | :-----------: | :----------: | :-------: |
+| P197/1134 | **Top 17.4%** | **1:32.907** |   1.51s   |
 
 **Targets:**
 

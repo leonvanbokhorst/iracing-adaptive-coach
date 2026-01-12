@@ -54,6 +54,53 @@ And here's the data that matters: his race consistency (σ 0.197s) was BETTER th
 
 ---
 
+## 📊 Season Standings (End of Week 04)
+
+**[Full Standings Report →](standings-report.md)**
+
+### The Climb Continues
+
+| Week       | Position          | iRating  | Percentile   | Total Drivers |
+| :--------- | :---------------- | :------- | :----------- | :------------ |
+| 01 (Final) | P749 / 8,977      | 1396     | Top 8.3%     | 8,977         |
+| 02 (Final) | P459 / 15,787     | 1455     | Top 2.9%     | 15,787        |
+| 03 (Final) | P209 / 21,567     | 1601     | Top 1.0%     | 21,567        |
+| **04**     | **P129 / 26,375** | **1672** | **Top 0.5%** | **26,375**    |
+
+**+620 positions climbed** while the field tripled in size.
+
+### Key Standings Stats
+
+| Metric               | Value             | Percentile   | Context                         |
+| :------------------- | :---------------- | :----------- | :------------------------------ |
+| **Overall Position** | P129 / 26,375     | **Top 0.5%** | Beating 26,246 drivers          |
+| **Division 8 Rank**  | **P6 / 1,487**    | **Top 0.4%** | Elite within division           |
+| **Points**           | 329               | 99.5%        | 4.3× Division 8 average (77)    |
+| **iRating**          | 1672 (+434 total) | 89.4%        | Division 5 level performance    |
+| **Dutch Ranking**    | P6 / 489          | Top 1.2%     | Beating 484 Dutch drivers       |
+| **Incidents/Race**   | 1.78              | -            | 4× cleaner than series avg 7.24 |
+
+### Division 8 Leaderboard (Your Competition)
+
+| Rank  | Driver                        | iRating  | Wins  | Points  | Notes           |
+| :---- | :---------------------------- | :------- | :---- | :------ | :-------------- |
+| 1     | Varot Anuchatkul              | 1713     | 10    | 446     | Division leader |
+| 2     | Marcelo Suita                 | 2032     | 31    | 358     | Volume king     |
+| 3     | Hajrudin Balic2               | 1796     | 3     | 352     |                 |
+| 4     | Dylan Ashtari 🇳🇱              | 1574     | 9     | 337     | Dutch rival     |
+| 5     | Pratik Hopal                  | 1531     | 4     | 331     |                 |
+| **6** | **Leon Remondo van Bokhorst** | **1672** | **2** | **329** | **← YOU**       |
+
+**2 points** behind P5. One solid race = **Top 5 Division 8**.
+
+### iRating Distribution
+
+![iRating Distribution](assets/irating_distribution_ranges.png)
+
+You're in the **"Rising" tier (1600-2000)** — only 8.9% of the 26,375 drivers are here. The massive peak (35.9%) at 1200-1400 is where you STARTED this season.
+
+---
+
 ## Session Log
 
 | Date      | Session                                                                   | Type         | Best Lap         | σ         | Result    | Key Takeaway                             |
@@ -112,6 +159,7 @@ And here's the data that matters: his race consistency (σ 0.197s) was BETTER th
 
 - **Meebewegen Works in Real Races**: Let faster driver through in Official → preserved podium with 0 incidents.
 - **94 Points > Risk**: Banking a Top Split P3 (94 pts) is smarter than gambling on a second race.
+- **Efficiency > Volume**: P6 Division 8 with just 2 wins, while others above have 3-31 wins. Quality beats quantity.
 
 ---
 
@@ -141,9 +189,10 @@ And here's the data that matters: his race consistency (σ 0.197s) was BETTER th
 **Jan 3 PM**: "AI Race 01: P5 → P1. Cold Tire Contract + Exit Speed = Victory #4." 🏆  
 **Jan 4 AM**: "AI Race 02: P6 → P1. 100% clean. Routine. Professional." 🏆  
 **Jan 4 PM**: "AI Race 03: P2. Aggression experiment. Lesson learned: **Ninja > Barbarian.**"  
-**Jan 6 AM**: "Official Race: P2 quali → P3 finish. SoF 2035. 94 points. **Meebewegen in the real world.**" 🏆
+**Jan 6 AM**: "Official Race: P2 quali → P3 finish. SoF 2035. 94 points. **Meebewegen in the real world.**" 🏆  
+**Jan 12**: "Season Standings: **P129 / 26,375. Top 0.5%. P6 Division 8.**" 📊
 
-From frustration to Top Split podium—all in **one week**.
+From frustration to Top Split podium to **Top 0.5% of the entire series**—all in **one week**.
 
 ---
 
