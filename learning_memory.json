@@ -8,8 +8,8 @@
     "name": "Leon Remondo van Bokhorst",
     "country": "NL",
     "irating_start": 1238,
-    "irating_current": 1672,
-    "irating_change": 434,
+    "irating_current": 1703,
+    "irating_change": 465,
     "license_class": "B",
     "division_current": 8,
     "series": "Formula 1600 Rookie Series",
@@ -19,7 +19,7 @@
     "week03_final": true
   },
   "focus": "Week 05: Precision on the Plain. Hit the same mark ten times.",
-  "goal": "Week 05: 1:33.0 BROKEN ✅. NEW PB: 1:32.907. Target: Break 1:32.5, Official Race deployment.",
+  "goal": "Week 05: 1:33.0 BROKEN ✅. NEW PB: 1:32.700 (Official Race). Target: Break 1:32.5 (need -0.2s).",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -326,6 +326,36 @@
         }
       },
       "notes": "AI RACE 05 - P6→P2. Déjà vu. L6-L7 showed ELITE consistency (0.016s apart). Then L8 (final lap, fighting for P1) = T2 disaster (10.767s vs normal 7.4s = +3.4s loss). T2 σ = 1.236s (LOTTERY). 12/14 corners dialed. S3 on L8 was actually BEST of race (26.63s) - recovered after T2. Master Lonn: 'Hotel came and bit me.' Pattern confirmed: T2 is the Achilles heel when fighting for P1. Garage61: 01KEPJDE2R788PMP7NPK698FYG."
+    },
+    {
+      "date": "2026-01-13",
+      "time": "13:57 CET",
+      "session_type": "Official Race",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 92.7,
+      "best_lap_formatted": "1:32.700",
+      "consistency_sigma": 1.477,
+      "consistency_sigma_note": "Skewed by T2 incident on Lap 7; true σ excluding incident ≈ 0.88s",
+      "flying_laps": 7,
+      "total_laps": 8,
+      "incidents": 5,
+      "incident_description": "5x from contact at T2 Hotel Exit on Lap 7 - drove into car braking early",
+      "theoretical_optimal": 92.684,
+      "gap_to_optimal": 0.016,
+      "grid_position": 10,
+      "finish_position": 5,
+      "focus_area": "Official Race deployment",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 10.8,
+          "throttle_avg_jerk_pct_s2": 543.4,
+          "throttle_full_usage_pct": 48.8,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 66.1
+        }
+      },
+      "notes": "WEEK 05 OFFICIAL RACE - NEW PB! 🏆 TOP SPLIT (SoF 1828). P10→P5 (+5 positions). +31 iRating (1672→1703). SR -0.10 (3.64→3.54) from incident. Championship: 68 pts. Sleep-deprived, quali disaster (2x Hotel offs = no time set = P10), then contact at T2 on Lap 7. DESPITE all adversity: NEW PB 1:32.700 on Lap 6 (-0.207s from previous 1:32.907). Cold Tire Contract deployed: L1-5 building pace, L6 BOOM = PB. Recovery after incident: L8 was 1:33.833 (solid composure). 13/14 corners still dialed (T2 flagged due to incident, not technique regression). Steering smoothness held at 10.8 rad/s² (consistent with recent improvement). Driver felt 'awful' but data says otherwise - pace was real, circumstances didn't cooperate. Gap to Gong now 1.3s (was 2.4s baseline). Over-performed vs field (156 iRating below average). Garage61: 01KEVP972XG6151XC38YJEJ667."
     }
   ],
   "insights": [
@@ -389,16 +419,18 @@
     "T2 Hotel Exit: Race vs Practice Dichotomy (NEW): T2 σ in practice = 0.066s (DIALED). T2 σ in races when fighting for P1 = 1.0+ (LOTTERY). Same corner, same driver, same car — different results. The difference is PRESSURE/TRAFFIC. When someone contests T2: (1) Options reduce (can't take normal line), (2) Braking point shifts (defensive/offensive), (3) Commitment drops (fear of contact). Four consecutive races (Race 03-04-05-AI) had T2 incidents cost potential wins. The solution isn't getting faster at T2 — it's NOT FIGHTING at T2. Fight for P1 everywhere else.",
     "The Hotel Rule (NEW): Don't fight for P1 AT T2. If contested at T2: Option A = let them have T2, attack at T3-T6 (Triple complex). Option B = let them have T2, set up slipstream for T14→main straight. Option C = if genuinely faster, let them go (Meebewegen 2.0). The Hotel is not where you WIN — it's where you LOSE.",
     "Steering Smoothness Progression (NEW): Race 02: 12.98 rad/s² → Race 03: 11.43 (-12%) → Race 04: 10.15 (-11%) → Race 05: 10.98. Neural rewiring continues. Smooth input drills + FFB reduction producing measurable, sustained improvement. Now consistently under 11 rad/s².",
-    "T2 Hotel Exit Technique SOLVED (Master Lonn Discovery): Trail brake entry → Full brake + quick downshift 4→3→2 → 20% THROTTLE HOLD through apex → Progressive throttle to 100% on exit. KEY INSIGHT: Never fully off throttle through the apex. The 20% hold stabilizes the rear on the downhill decreasing-radius corner. Without it = light rear = snap oversteer = disaster. This matches VRS Gideon technique ('overlap throttle with brakes to stabilize rear'). Master Lonn reverse-engineered it through feel. Now codified for deployment under race pressure."
+    "T2 Hotel Exit Technique SOLVED (Master Lonn Discovery): Trail brake entry → Full brake + quick downshift 4→3→2 → 20% THROTTLE HOLD through apex → Progressive throttle to 100% on exit. KEY INSIGHT: Never fully off throttle through the apex. The 20% hold stabilizes the rear on the downhill decreasing-radius corner. Without it = light rear = snap oversteer = disaster. This matches VRS Gideon technique ('overlap throttle with brakes to stabilize rear'). Master Lonn reverse-engineered it through feel. Now codified for deployment under race pressure.",
+    "PB Under Adversity (Official Race Proof): Sleep-deprived + P10 start + mid-race contact = NEW PB anyway. Lap 6 was 1:32.700, one lap BEFORE the incident. The pace was REAL, not lucky. Recovery lap after incident was 1:33.833 (solid composure). Feeling 'awful' and performing well are not mutually exclusive. The systems (Cold Tire Contract, technique foundations) work even when the driver doesn't feel sharp. Trust the process.",
+    "Official Race PB Pattern (NEW): AI Race 02 PB came while defending (competitive pressure). Official Race PB came while building through traffic (strategic patience). Both were NOT in clear air. PBs don't require perfect conditions—they require the right mental state (flow, not forcing). The common thread: commit to the process, let speed come as byproduct."
   ],
   "next_steps": [
-    "NEW PB: 1:32.907. G61 LEADERBOARD: P197/1134 (Top 17.4%). Target: Break 1:32.5 (need -0.407s).",
-    "OFFICIAL RACE STRATEGY: Deploy 'Hotel Rule' — don't fight for P1 at T2. Fight everywhere else. Let T2 battles go.",
-    "Cold Tire Contract: 6 wins + 2 P2s + 1 P10 (AI contact). Contract WORKS. P2 finishes are fine — the climb from P6 is consistent.",
-    "T2 ACHILLES HEEL: Practice = dialed (σ 0.066s). Race when fighting = lottery (σ 1.0+). Accept this and race around it.",
-    "Gap to Alien (Gong 1:31.396): 1.51s from new PB (was 2.4s baseline). Closing.",
-    "Steering Smoothness: Now consistently under 11 rad/s² (was 13). Smooth input drills validated.",
-    "iRating Trajectory: 1238 → 1672 (+434 in 4 weeks). Official race deployment ready."
+    "NEW PB: 1:32.700 (Official Race). Target: Break 1:32.5 (need -0.2s).",
+    "Week 05 COMPLETE: P10→P5 official finish. PB set mid-race. Track mastered (13/14 corners dialed).",
+    "Cold Tire Contract: Proven again. L1-5 build pace, L6 = PB in official race.",
+    "T2 ACHILLES HEEL CONFIRMED: 7th consecutive race/session with T2 incident when contested. Accept and race around it.",
+    "Gap to Alien (Gong 1:31.396): 1.3s from new PB (was 2.4s baseline). Closing fast.",
+    "Sleep is non-negotiable: Racing tired cost quali execution. PB pace was there despite fatigue, but risk increased.",
+    "iRating Trajectory: 1238 → 1703 (+465 in 5 weeks). SR: 3.54 (B license). Championship: 68 pts."
   ],
   "guidebook_updates": [
     {
