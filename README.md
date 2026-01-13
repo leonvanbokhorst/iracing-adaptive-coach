@@ -10,74 +10,58 @@
 
 | Metric              | [Week 01 (Jefferson)](./weeks/week01/README.md) | [Week 02 (Rudskogen)](./weeks/week02/README.md) | [Week 03 (Winton)](./weeks/week03/README.md) | [Week 04 (Lime Rock)](./weeks/week04/README.md) | [Week 05 (Oschersleben)](./weeks/week05/README.md) |
 | :------------------ | :---------------------------------------------- | :---------------------------------------------- | :------------------------------------------- | :---------------------------------------------- | :------------------------------------------------- |
-| **Best Lap**        | 50.768s                                         | 1:28.508                                        | 1:25.710                                     | 56.238s                                         | **1:32.907** ⭐                                    |
-| **PB Improvement**  | -0.67s                                          | -1.78s                                          | -1.125s                                      | -0.181s                                         | **-0.911s**                                        |
-| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | 0.197s                                          | 0.5s (race avg)                                    |
-| **Race Result**     | P1 (Official)                                   | -                                               | P1 (Official)                                | P3 (Official)                                   | **P1 x2, P2 x2 (AI)** 🏆                           |
-| **iRating**         | 1396                                            | 1455                                            | 1601                                         | 1672                                            | **1672** (pending)                                 |
-| **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | Validated                                       | **Precise** 🎯                                     |
+| **Best Lap**        | 50.768s                                         | 1:28.508                                        | 1:25.710                                     | 56.238s                                         | **1:32.700** ⭐                                    |
+| **PB Improvement**  | -0.67s                                          | -1.78s                                          | -1.125s                                      | -0.181s                                         | **-1.118s**                                        |
+| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | 0.16s                                        | 0.197s                                          | 0.88s (race)                                       |
+| **Race Result**     | P1 (Official)                                   | -                                               | P1 (Official)                                | P3 (Official)                                   | **P5 (Official, Top Split)** 🏁                    |
+| **iRating**         | 1396                                            | 1455                                            | 1601                                         | 1672                                            | **1703** (+31)                                     |
+| **Mood**            | Hopeful                                         | Determined                                      | Dangerous                                    | Validated                                       | **"Drama Queen"** 😤😴                             |
 
-📊 **Season Total**: 2 Official Wins | 6 AI Wins | 2x P2 Podiums | P3 Official | 1672 iR (+434) | Cold Tire Contract: 6/9 wins
+📊 **Season Total**: 2 Official Wins | 1 Official Podium | 6 AI Wins | 3x P2 | P5 Top Split | **1703 iR (+465)** | Cold Tire Contract: 6/10 wins
 
 ---
 
 ## The Story So Far
 
-### Week 05: The Hotel That Wouldn't Check Out (Oschersleben)
+### Week 05: The Drama Queen's Triumph (Oschersleben)
 
-There's a corner at Oschersleben that doesn't negotiate. T2 Hotel Exit—a long, decreasing-radius, downhill right-hander where GR86 muscle memory goes to die. Master Lonn showed up knowing the track from his GT86 days. What he didn't know was that the FF1600 speaks a different language entirely.
+There's a corner at Oschersleben that doesn't negotiate. T2 Hotel Exit—a long, decreasing-radius, downhill right-hander where GR86 muscle memory goes to die.
 
-The first practice session looked promising. 1:33.818. Only 0.037s off theoretical optimal. The raw pace was there. But Session 2 revealed what was hiding in Sector 1: three separate incidents, lap times swinging by 7 seconds, variance at one corner sitting at **2.257 seconds**.
+Master Lonn arrived knowing the track from his GT86 days. What he didn't know was that the FF1600 speaks a different language entirely. Session 2 revealed the monster hiding in Sector 1: three incidents, lap times swinging by 7 seconds, variance at one corner sitting at **2.257 seconds**.
 
-_"I remember that being a strange corner from my GR86 times."_
+Over three days, he attacked with consistency-first methodology. The variance dropped—90%, then 97%. By AI Race 02, T2 was **DIALED**: σ 0.066s. On Lap 7 of that race, while defending position, he set a PB: **1:32.933**.
 
-Strange was an understatement.
+Then came the revenge. Three consecutive AI races where T2 cost potential wins. POLE to P10. P6→P2. P6→P2. Same story each time—fighting for P1 at Hotel, and Hotel biting back.
 
-Over three days, Master Lonn attacked the problem with consistency-first methodology. _"Hit the same mark ten times."_ The variance dropped—90%, then 97%. By AI Race 02, T2 was **DIALED**: σ 0.066s. And on Lap 7 of that race, while defending position against an attacker, he set a new PB: **1:32.933**.
+But on January 11th, testing wheelbase settings—not even trying—something clicked. **1:32.907.** And more importantly, the words for what his hands had discovered:
 
-The Hotel was conquered. Or so we thought.
+> _"20% gas until I can exit... slowly on the gas to 100."_
 
----
-
-Then came the revenge.
-
-**AI Race 03**: POLE. Leading for 7 laps. Punted at T2 on the final lap by an AI that forgot physics. P1 → P10.
-
-**AI Race 04**: P6 → climbing through the field, Cold Tire Contract deployed perfectly, fighting for P1... and T2 bit on Lap 7. 10.4 seconds at one corner. P2.
-
-**AI Race 05**: Same story. L6 and L7 were _identical_—0.016 seconds apart, ELITE consistency. Then Lap 8, fighting for P1... T2 struck again. P2.
-
-The pattern was brutal and clear:
-
-- **T2 in practice**: DIALED (σ 0.066s)
-- **T2 in races when fighting**: LOTTERY (σ 1.0+)
-
-When someone contested that corner, everything fell apart. The technique existed—it just evaporated under pressure.
+That 20% throttle hold through the apex. That's the secret. Never fully off throttle through the Hotel.
 
 ---
 
-And then, January 11th, testing wheelbase settings—not even trying to go fast—Master Lonn felt something click.
+And then came race day. Everything stacked against him.
 
-**1:32.907.** NEW PB.
+Almost no sleep. Qualifying disaster—two offs at Hotel, P10 on the grid. **Top split. SoF 1828.** Drivers rated 156 points higher surrounding him.
 
-And more importantly, he found the words for what his hands had discovered:
+_"What a f\*$^ing bad race was that,"_ he'd say afterward. _"Awful, awful race."_
 
-> _"Little trail braking into the corner, then full on the brakes, quickly shift 4 to 3 to 2. Then 20% gas until I can exit... slowly on the gas to 100."_
+But here's what the data said:
 
-That 20% throttle hold through the apex. That's the secret. The FF1600's rear gets light when you're off-throttle going downhill into a decreasing radius. The 20% keeps weight on the rear. Stabilizes the car. Prevents the snap.
+**Lap 6: 1:32.700.** NEW PB. Mid-race. On no sleep. In top split.
 
-**The Hotel Technique:**
+Then Lap 7—someone braked early at Hotel. Contact. 5x. The lap exploded.
 
-1. Trail brake entry
-2. Full brake + quick downshift 4→3→2
-3. **20% throttle HOLD through apex**
-4. Progressive to 100% on exit
+Lap 8? 1:33.8. Recovery. Composure. **P5.**
 
-Never fully off throttle through the apex. The Hotel finally has a checkout procedure.
+**+31 iRating. NEW PB. Top split.**
 
-And with it came **The Hotel Rule**: Don't fight for P1 at T2. Four races taught the lesson. If someone's contesting that corner—let them have it. Fight everywhere else.
+_"One off track... hmm I'm a little drama queen..."_ he admitted, falling asleep.
 
-**Week 05 Result**: 1:32.907 PB | 6 AI wins + 2 P2s | 14/14 corners dialed | T2 technique discovered
+The "awful" race was proof the systems work—even when the driver feels like garbage.
+
+**Week 05 Result**: 1:32.700 PB | P5 Official (Top Split) | +31 iR | 13/14 corners dialed | T2 technique discovered | Drama queen status: confirmed
 
 ---
 
@@ -87,41 +71,37 @@ The week didn't start with confidence. It started with T5.
 
 _"I have no clue how to take T5 properly."_
 
-That was January 1st. The Uphill corner at Lime Rock—a fast right over a crest—was pure chaos. One lap he'd nail it, the next the car would snap sideways. S3 consistency: 1.075 seconds. A coin flip.
-
-The problem wasn't just throttle. It was spatial. Comparing lines to VRS revealed a 30-centimeter "fear tax" buffer—not using the full track width because he didn't know where the edges were.
+That was January 1st. The Uphill corner at Lime Rock—a fast right over a crest—was pure chaos. S3 consistency: 1.075 seconds. A coin flip.
 
 **Chapter 16 changed everything.** Spatial Awareness written that morning. Edge Mapping Drill at 70% pace. Three hours later: S3 dropped to 0.183s σ. New PB: 56.238s. Through T5—the chaos corner—he was now **1.87 km/h FASTER than series leader Shuning Gong.**
 
 AI races validated it. P5→P1. P6→P1. Then the aggression test: P2, rear-ended. _"Being strategic like a ninja is way more effective."_
 
-**The real test**: SoF 2035, the highest quality field he'd ever faced. P2 on the grid. A faster car caught him mid-race. The old Master Lonn might have fought. The new one opened the door. The faster car disappeared into a battle ahead. Three seconds up the road, chaos unfolded.
+**The real test**: SoF 2035, the highest quality field he'd ever faced. A faster car caught him mid-race. The old Master Lonn might have fought. The new one opened the door.
 
 **P3. Zero incidents. +71 iRating.**
-
-His race consistency was BETTER than practice. Under pressure, he got MORE consistent.
 
 ---
 
 ### Week 03: The Robot Awakens (Winton National)
 
-Winton is a tight, technical serpent that punishes impatience. Master Lonn didn't just learn it—he dissected it. "Engine Braking" over "Trail Braking" turned the scary T5-T6 complex into a weapon.
+Winton is a tight, technical serpent that punishes impatience. Master Lonn didn't just learn it—he dissected it.
 
-The final official race: qualified P3, took P1, then watched the leaders push too hard and spin. He just kept hitting 1:26s. Round and round. Like a metronome.
+The final official race: qualified P3, took P1, watched leaders push too hard and spin. He just kept hitting 1:26s. Like a metronome.
 
 **First Official Victory of the season.** 1601 iRating—the 1.5k barrier shattered.
 
-The Cold Tire Contract was born: survive L1-L3 at 80% while tires and nerves settle, attack L4+. P11→P1 on the first attempt.
+The Cold Tire Contract was born: survive L1-L3 at 80%, attack L4+. P11→P1 on first attempt.
 
 ---
 
 ### Week 02: The Battle of the Hill (Rudskogen)
 
-Six months away. Rudskogen's downhill came rushing at him—faster than memory, meaner than muscle memory wanted to admit.
+Six months away. Rudskogen's downhill came rushing at him—faster than memory.
 
-Two days of struggle. Then the rhythm clicked. Not on the stopwatch—in his hands. The trust in the rear tires returned.
+Two days of struggle. Then the rhythm clicked. Not on the stopwatch—in his hands.
 
-**1:28.508.** Beating his July ghost lap by nearly two seconds. The rust was gone.
+**1:28.508.** Beating his July ghost lap by nearly two seconds.
 
 ---
 
@@ -129,7 +109,7 @@ Two days of struggle. Then the rhythm clicked. Not on the stopwatch—in his han
 
 Chaos. Survival. Turn 1 crashes filtering out the aggressive.
 
-The discovery: you can't force speed. You have to let it come. In the final laps of a race, a 50.768s lap emerged that felt effortless.
+The discovery: you can't force speed. In the final laps, a 50.768s lap emerged that felt effortless.
 
 When the mind quiets, the car flies.
 
@@ -138,76 +118,82 @@ When the mind quiets, the car flies.
 ## The Breakthrough Moments
 
 **Week 01**: Flow State discovered. Speed comes from letting go.  
-**Week 02**: 1:28.508. The rust is gone. Data beats doubt.  
+**Week 02**: 1:28.508. The rust is gone.  
 **Week 03**: 1601 iRating. First Official Victory. Cold Tire Contract born.  
-**Week 04**: Chapter 16 → 3 hours → Beating world #1 through T5. P3 Top Split podium. Meebewegen validated.  
-**Week 05**: T2 Hotel Exit conquered (97% variance reduction) → then reconquered (20% throttle hold technique). **1:32.907 PB**. 14/14 corners dialed. The Hotel Rule established.
+**Week 04**: Chapter 16 → 3 hours → Beating world #1 through T5. P3 Top Split podium.  
+**Week 05**: T2 Hotel conquered (20% throttle hold). **1:32.700 PB in official race.** P5 Top Split. +31 iR. Drama queen.
 
 ---
 
 ## The Philosophy
 
 **1. Consistency-First Produces Speed**  
-Focus on hitting the same marks. The PBs come anyway. Repeatability → confidence → speed.
+Focus on hitting the same marks. The PBs come anyway.
 
 **2. The "Meebewegen" Strategy**  
-In chaos, don't fight the current. Move with it. Let aggressive drivers eliminate themselves. Strike when the gap opens.
+In chaos, don't fight the current. Move with it. Strike when the gap opens.
 
 **3. The Cold Tire Contract v2.0**  
-Six wins, three tracks. Survive L1-L3. Attack L4+. The contract works everywhere.
+Six wins, three tracks. Survive L1-L3. Attack L4+.
 
 **4. "Shaky but not scary"**  
-The intermediate state between fear and mastery. Fear blocks adaptation. Shakiness allows it.
+The intermediate state between fear and mastery.
 
 **5. Ninja > Barbarian**  
-6 patient races = 6 wins. 1 aggressive race = P2 + punted. Strategy wins.
+6 patient races = 6 wins. 1 aggressive race = P2 + punted.
 
 **6. Pressure Sharpens**  
-Master Lonn's race consistency often BEATS practice. When it matters, focus intensifies.
+Race consistency often BEATS practice.
 
 **7. The Hotel Rule**  
-Don't fight for P1 at contested corners. Let the battle happen. Attack elsewhere.
+Don't fight for P1 at contested corners. Attack elsewhere.
 
 **8. The 20% Throttle Hold**  
-On downhill decreasing-radius corners, never fully off throttle through the apex. The partial throttle stabilizes the rear.
+On downhill decreasing-radius corners, never fully off throttle through the apex.
+
+**9. Trust the Systems**  
+Feeling "awful" and performing well are not mutually exclusive. PBs can come on no sleep.
 
 ---
 
 ## The Cold Tire Contract v2.0
 
-| Race               | Grid | Finish  | Method                     |
-| :----------------- | :--: | :-----: | :------------------------- |
-| Winton AI          | P11  |   P1    | Survive L1-3, attack L4+   |
-| Lime Rock AI #1    |  P5  |   P1    | Survive L1-3, attack L4+   |
-| Lime Rock AI #2    |  P6  |   P1    | Survive L1-3, attack L4+   |
-| Lime Rock AI #3    |  P?  |  P2\*   | Aggression experiment      |
-| Oschersleben AI #1 |  P6  | **P1**  | Patience L1-6, attack L7-8 |
-| Oschersleben AI #2 |  P1  | **P1**  | Defense L5-8, PB on L7     |
-| Oschersleben AI #3 |  P1  | P10\*\* | Punted at T2               |
-| Oschersleben AI #4 |  P6  |   P2    | T2 incident, climbed 4     |
-| Oschersleben AI #5 |  P6  |   P2    | T2 incident, climbed 4     |
+| Race                      |  Grid   |  Finish   | Method                                         |
+| :------------------------ | :-----: | :-------: | :--------------------------------------------- |
+| Winton AI                 |   P11   |    P1     | Survive L1-3, attack L4+                       |
+| Lime Rock AI #1           |   P5    |    P1     | Survive L1-3, attack L4+                       |
+| Lime Rock AI #2           |   P6    |    P1     | Survive L1-3, attack L4+                       |
+| Lime Rock AI #3           |   P?    |   P2\*    | Aggression experiment                          |
+| Oschersleben AI #1        |   P6    |    P1     | Patience L1-6, attack L7-8                     |
+| Oschersleben AI #2        |   P1    |    P1     | Defense L5-8, PB on L7                         |
+| Oschersleben AI #3        |   P1    |  P10\*\*  | Punted at T2                                   |
+| Oschersleben AI #4        |   P6    |    P2     | T2 incident, climbed 4                         |
+| Oschersleben AI #5        |   P6    |    P2     | T2 incident, climbed 4                         |
+| **Oschersleben Official** | **P10** | **P5** 🏁 | **L1-5 build, L6 PB, L7 contact, L8 recovery** |
 
 \*Aggression test. \*\*AI contact.
 
-**Record: 6 wins + 2 P2s + 1 AI-punt** (67% win rate, 89% podium)
+**Record: 6 wins + 3 P2s + 1 P5 + 1 AI-punt** (60% win rate, 90% podium/top-5)
 
 ---
 
 ## Season Summary
 
-| Metric              | Value                        |
-| :------------------ | :--------------------------- |
-| **iRating**         | 1238 → **1672** (+434)       |
-| **Division**        | 8                            |
-| **Official Wins**   | 2 (22%)                      |
-| **AI Wins**         | 6                            |
-| **AI Podiums**      | 8/9 (89%)                    |
-| **Official Podium** | P3 (Top Split SoF 2035)      |
-| **SR**              | **3.64** (B-class)           |
-| **Key Discovery**   | Consistency-first approach   |
-| **Key Technique**   | 20% throttle hold (T2 Hotel) |
-| **Key Strategy**    | Cold Tire Contract v2.0      |
-| **Key Rule**        | The Hotel Rule               |
+| Metric               | Value                            |
+| :------------------- | :------------------------------- |
+| **iRating**          | 1238 → **1703** (+465)           |
+| **Division**         | 8                                |
+| **Official Wins**    | 2                                |
+| **Official Podiums** | 3 (2x P1, 1x P3)                 |
+| **Official Top 5**   | 4 (+ P5 Top Split)               |
+| **AI Wins**          | 6                                |
+| **AI Podiums**       | 9/10 (90%)                       |
+| **SR**               | **3.54** (B-class)               |
+| **Key Discovery**    | Consistency-first approach       |
+| **Key Technique**    | 20% throttle hold (T2 Hotel)     |
+| **Key Strategy**     | Cold Tire Contract v2.0          |
+| **Key Rule**         | The Hotel Rule                   |
+| **Key Realization**  | Feeling awful ≠ performing awful |
 
 ---
 
@@ -216,23 +202,35 @@ On downhill decreasing-radius corners, never fully off throttle through the apex
 - **Little Padawan**: The AI coach with sass and stats
 - **The Guidebook**: Growing encyclopedia of speed. Chapter 16 beat world #1 in 3 hours.
 - **The Contracts**: Cold Tire Contract, Meebewegen, The Hotel Rule
-- **IBT-Only Workflow**: Validated in Week 05. All analysis from telemetry files.
+- **IBT-Only Workflow**: All analysis from telemetry files
+
+---
+
+## Season Progress
+
+```
+Week 01: 1238 iR ─────────────────────────────────────────────────
+Week 02: 1396 iR ──────────────────────────────────────────────────────
+Week 03: 1455 iR ───────────────────────────────────────────────────────────
+Week 04: 1601 iR ────────────────────────────────────────────────────────────────────
+Week 05: 1672 iR ──────────────────────────────────────────────────────────────────────────
+Week 05: 1703 iR ───────────────────────────────────────────────────────────────────────────── ← NOW
+```
+
+**+465 iRating in 5 weeks.** ~93 iR per week average.
 
 ---
 
 ## What's Next
 
-**Track**: Motorsport Arena Oschersleben – Grand Prix (Official Race)  
-**Challenge**: Deploy Cold Tire Contract + Hotel Rule in official competition  
-**Goal**: Break 1:32.5, podium finish  
-**Strategy**: T2 technique ready (20% hold), Hotel Rule active, center line defense available
+**Week 06 Track**: TBD  
+**Season Goal**: Maintain trajectory, keep building  
+**Philosophy**: Trust the systems. Even when tired. Even when it feels awful.
 
-The Hotel has a checkout procedure now. Trail brake, full brake, 20% hold, progressive out.
-
-One more test tonight. Then the officials.
+The Hotel has a checkout procedure now. The drama queen got his PB anyway.
 
 ---
 
-_"The Hotel doesn't negotiate. But we found the checkout procedure."_ 🏨✅
+_"One off track... hmm I'm a little drama queen..."_ 😤😴
 
-**See you on track.** 🏁
+**Sleep well, Master. See you on track.** 🏁
