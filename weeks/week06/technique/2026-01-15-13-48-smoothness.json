@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "file": "raygr22_oran gp 2026-01-15 13-48-14.ibt",
+    "track": "Oran Park Raceway - GP",
+    "track_id": "oran-gp",
+    "sample_rate_hz": 60,
+    "total_samples": 82846,
+    "duration_seconds": 1380.8,
+    "laps_found": 17
+  },
+  "steering": {
+    "available": true,
+    "avg_jerk_rad_s2": 14.82,
+    "max_jerk_rad_s2": 381.75,
+    "jerk_sigma": 16.94,
+    "avg_velocity_rad_s": 0.63,
+    "max_velocity_rad_s": 8.82,
+    "max_steering_angle_rad": 2.493,
+    "per_corner": {
+      "The Sweeper": {
+        "avg_jerk": 20.13,
+        "max_jerk": 140.15
+      },
+      "Coca-Cola Corner": {
+        "avg_jerk": 10.03,
+        "max_jerk": 85.77
+      },
+      "Shell Corner": {
+        "avg_jerk": 11.64,
+        "max_jerk": 118.19
+      },
+      "Champion Curve": {
+        "avg_jerk": 17.63,
+        "max_jerk": 381.75
+      },
+      "Yokohama Bridge": {
+        "avg_jerk": 23.01,
+        "max_jerk": 231.14
+      },
+      "Foster's Dip": {
+        "avg_jerk": 20.88,
+        "max_jerk": 249.98
+      },
+      "Momo Corner": {
+        "avg_jerk": 12.22,
+        "max_jerk": 95.18
+      },
+      "O'Brien Aluminium Dogleg": {
+        "avg_jerk": 26.22,
+        "max_jerk": 283.45
+      },
+      "Recaro Corner": {
+        "avg_jerk": 16.53,
+        "max_jerk": 201.86
+      }
+    }
+  },
+  "throttle": {
+    "available": true,
+    "avg_jerk_pct_s2": 454.0,
+    "max_jerk_pct_s2": 55621.1,
+    "avg_application_rate_pct_s": 105.1,
+    "avg_lift_rate_pct_s": 198.0,
+    "max_application_rate_pct_s": 752.8,
+    "max_throttle_pct": 100.0,
+    "avg_throttle_pct": 61.7,
+    "full_throttle_usage_pct": 54.1,
+    "per_corner_exit": {
+      "The Sweeper": {
+        "avg_application_rate": 155.0,
+        "max_application_rate": 305.7
+      },
+      "Coca-Cola Corner": {
+        "avg_application_rate": 111.8,
+        "max_application_rate": 404.9
+      },
+      "Shell Corner": {
+        "avg_application_rate": 121.0,
+        "max_application_rate": 510.4
+      },
+      "Champion Curve": {
+        "avg_application_rate": 80.5,
+        "max_application_rate": 246.7
+      },
+      "Yokohama Bridge": {
+        "avg_application_rate": 96.6,
+        "max_application_rate": 752.8
+      },
+      "Foster's Dip": {
+        "avg_application_rate": 100.7,
+        "max_application_rate": 423.8
+      },
+      "Momo Corner": {
+        "avg_application_rate": 105.1,
+        "max_application_rate": 396.5
+      },
+      "O'Brien Aluminium Dogleg": {
+        "avg_application_rate": 113.4,
+        "max_application_rate": 609.4
+      },
+      "Recaro Corner": {
+        "avg_application_rate": 110.8,
+        "max_application_rate": 537.8
+      }
+    }
+  },
+  "brake": {
+    "available": true,
+    "avg_jerk_pct_s2": 235.2,
+    "max_jerk_pct_s2": 80511.3,
+    "avg_application_rate_pct_s": 53.2,
+    "avg_release_rate_pct_s": 51.4,
+    "max_application_rate_pct_s": 434.6,
+    "max_brake_pct": 100.0,
+    "avg_brake_pct_when_braking": 42.3,
+    "per_corner_entry": {
+      "The Sweeper": {
+        "avg_application_rate": 50.0,
+        "avg_release_rate": 108.8
+      },
+      "Coca-Cola Corner": {
+        "avg_application_rate": 57.9,
+        "avg_release_rate": 77.6
+      },
+      "Shell Corner": {
+        "avg_application_rate": 75.0,
+        "avg_release_rate": 67.6
+      },
+      "Champion Curve": {
+        "avg_application_rate": 86.0,
+        "avg_release_rate": 67.4
+      },
+      "Yokohama Bridge": {
+        "avg_application_rate": 59.2,
+        "avg_release_rate": 78.2
+      },
+      "Foster's Dip": {
+        "avg_application_rate": 56.7,
+        "avg_release_rate": 56.6
+      },
+      "Momo Corner": {
+        "avg_application_rate": 82.9,
+        "avg_release_rate": 69.9
+      },
+      "O'Brien Aluminium Dogleg": {
+        "avg_application_rate": 78.1,
+        "avg_release_rate": 57.2
+      },
+      "Recaro Corner": {
+        "avg_application_rate": 100.4,
+        "avg_release_rate": 38.0
+      }
+    }
+  }
+}

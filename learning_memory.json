@@ -1,7 +1,7 @@
 {
   "season": "01 2026",
-  "current_week": "5 (RACING - Motorsport Arena Oschersleben GP)",
-  "current_track": "Motorsport Arena Oschersleben - Grand Prix",
+  "current_week": "6 (Oran Park Raceway GP)",
+  "current_track": "Oran Park Raceway - GP",
   "current_car": "Ray FF1600",
   "driver_info": {
     "custid": 981717,
@@ -18,8 +18,8 @@
     "position_percentile": "Top 1.0%",
     "week03_final": true
   },
-  "focus": "Week 05: Precision on the Plain. Hit the same mark ten times.",
-  "goal": "Week 05: 1:33.0 BROKEN ✅. NEW PB: 1:32.700 (Official Race). Target: Break 1:32.5 (need -0.2s).",
+  "focus": "Week 06: Champion Curve Mastery. Eliminate the 3-second swing.",
+  "goal": "Week 06 Baseline: 1:12.583. Target: Champion Curve σ < 0.4s (currently 0.898s).",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -82,318 +82,53 @@
       "stats_summary": "PBs: 56.278 → 56.238 (-0.04s). iRating: +71 (→ 1672). SR: +0.09 (→ 3.64). Leaderboard: P65/1229 (top 5.3%)."
     },
     {
-      "date": "2026-01-06",
-      "time": "13:45 CET",
-      "session_type": "Practice (Offline Testing) - Baseline",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 93.818,
-      "consistency_sigma": 0.38,
-      "clean_laps": 7,
-      "total_laps": 11,
-      "incidents": 4,
-      "theoretical_optimal": 93.782,
-      "gap_to_optimal": 0.037,
-      "focus_area": "Week 05 Baseline - Track Learning",
-      "notes": "WEEK 05 SESSION 1 - BASELINE. First FF1600 session at Oschersleben. GR86 background provided instant track familiarity. Best lap 1:33.818 with only 0.037s gap to theoretical optimal (sectors not yet synchronized). S1 (Hotel) already stable (σ 0.08s). S3 (Shell→Zeppelin) is biggest loss zone (0.45s/lap). Gap to alien (Gong 1:31.396) is 2.4s - normal for Day 1. Conservative exploration, no major crashes. Driver self-assessment: 'Suits me well somehow.' Garage61: 01KE9N5M6JZWMNBK7G8DS1HJW8."
-    },
-    {
-      "date": "2026-01-06",
-      "time": "18:18 CET",
-      "session_type": "Practice (Offline) - IBT Analysis",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 93.333,
-      "best_lap_formatted": "1:33.333",
-      "consistency_sigma": 2.843,
-      "clean_laps": 16,
-      "total_laps": 16,
-      "incidents": 3,
-      "theoretical_optimal": 92.85,
-      "gap_to_optimal": 0.483,
-      "focus_area": "T2 Hotel Exit mastery",
-      "ibt_analysis": true,
-      "notes": "WEEK 05 SESSION 2 - PB! NEW IBT SYSTEM DEBUT. 16 laps, first full IBT-analyzed session. Clear learning progression: L1-L6 had 3 T2 incidents (+7.0s, +6.8s, +4.7s), L7-L16 were consistent and fast. PB 1:33.333 on Lap 14 (-0.485s vs morning baseline). 12/14 corners rated 'dialed' or 'solid'. T2 Hotel Exit (σ 2.257s) and T3 Hasseroeder (σ 1.14s) are the only 'lottery' corners. Driver self-assessment: 'T2 felt better but still a bit off... I remember that being a strange corner from GR86 times.' Tire temps perfectly balanced. Oversteer concentrated at T2/T3/T7/T14 (tight corners - expected). Garage61: 01KEA6H2X7PVMYJ5YC2591G9FY."
-    },
-    {
-      "date": "2026-01-07",
-      "time": "18:07 CET",
-      "session_type": "Practice (Offline) - Consistency Focus",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 93.167,
-      "best_lap_formatted": "1:33.167",
-      "consistency_sigma": 0.40,
-      "clean_laps": 10,
-      "total_laps": 10,
-      "incidents": 0,
-      "theoretical_optimal": 93.033,
-      "gap_to_optimal": 0.134,
-      "focus_area": "Consistency throughout session",
-      "ibt_analysis": true,
-      "notes": "WEEK 05 SESSION 3 - NEW PB! CONSISTENCY BREAKTHROUGH. Goal was 'hit same marks ten times' - DELIVERED. T2 Hotel Exit σ dropped from 2.257s (lottery) to 0.231s (solid) - 90% improvement in one session! First CLEAN Oschersleben session (0 incidents). 12/14 corners now 'dialed' (σ < 0.10s). PB came on final lap (1:33.167). 9 flying laps + 1 outlap (auto-detected and excluded from stats). TRUE consistency σ = 0.40s (not 0.698s which included outlap). S3 σ = 0.055s (ELITE). Driver self-assessment: 'Hotel is still shaky, but not scary. It's a strange corner.' Tire temps perfectly balanced. Gap to theoretical optimal now only 0.134s (sectors synchronizing). Gap to alien (Gong 1:31.396) now 1.77s. Garage61: 01KECPNFE7ZEG3DMHNRG548R0Q."
-    },
-    {
-      "date": "2026-01-08",
-      "time": "10:21 CET",
-      "session_type": "AI Race 01",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 93.983,
-      "best_lap_formatted": "1:33.983",
-      "consistency_sigma": 0.972,
-      "flying_laps": 7,
-      "total_laps": 8,
-      "incidents": 0,
-      "theoretical_optimal": 93.9,
-      "gap_to_optimal": 0.083,
-      "grid_position": 6,
-      "finish_position": 1,
-      "quali_lap": 94.045,
-      "quali_lap_formatted": "1:34.045",
-      "focus_area": "Race execution + T2 mastery",
-      "ibt_analysis": true,
-      "notes": "WEEK 05 AI RACE 01 - P6→P1 VICTORY! 🏆 Cold Tire Contract v2.0 win #5. T2 Hotel Exit now DIALED (σ 0.066s - was 2.257s in Practice 02, 0.219s in Practice 03). Race arc: L1-L2 survival, L3-L6 stuck in traffic (patient), L7-L8 clear air attack. Fastest lap on FINAL lap (1:33.983) - ice cold under pressure. Only flagged corner: T12 Amman Kurve (σ 0.276s). S3 had traffic variance (σ 0.67s). Tire temps proper race temps (70-77°C). Driver self-assessment: 'Went pretty well. Tough competition. Contract worked. Overtaking on straight into T1-T2 is THE spot.' Garage61: 01KEED6AXHEFHRQ3WRFB9RM8E5."
-    },
-    {
-      "date": "2026-01-09",
-      "time": "14:26 CET",
-      "session_type": "AI Race 02",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 92.933,
-      "best_lap_formatted": "1:32.933",
-      "consistency_sigma": 0.434,
-      "flying_laps": 7,
-      "total_laps": 8,
-      "incidents": 0,
-      "theoretical_optimal": 92.851,
-      "gap_to_optimal": 0.082,
-      "finish_position": 1,
-      "focus_area": "Test session in race clothes",
-      "ibt_analysis": true,
-      "technique_analysis": {
-        "apex_consistency": {
-          "corners_analyzed": 14,
-          "best": {"T1_Hotel_Entry": 0.2, "T4_Triple_1": 0.3, "T8_Chicane_Entry": 0.5},
-          "worst": {"T9_Chicane_Exit": 25.9, "T10_McDonalds": 24.0, "T12_Amman_Kurve": 11.7}
-        },
-        "brake_point_consistency": {
-          "braking_corners": 13,
-          "best": {"T3_Hasseroeder": 0.7, "T4_Triple_1": 3.4, "T5_Triple_2": 3.4},
-          "worst": {"T11_Shell_Kurve": 294.4, "T10_McDonalds": 193.2, "T1_Hotel_Entry": 131.4}
-        },
-        "input_smoothness": {
-          "steering_avg_jerk_rad_s2": 12.98,
-          "throttle_avg_jerk_pct_s2": 541.2,
-          "throttle_full_usage_pct": 59.5,
-          "brake_max_pct": 100.0,
-          "brake_avg_when_braking_pct": 46.7
-        }
-      },
-      "notes": "WEEK 05 AI RACE 02 - NEW PB! 🏆 Cold Tire Contract v2.0 win #6. Goal to break 1:33.0 ACHIEVED (1:32.933). ALL 14 CORNERS NOW DIALED (first time at Oschersleben). T12 Amman Kurve fixed overnight (σ 0.276s → 0.069s). NEW SKILL: Defended P1 for last 4 laps (L5-L8) using CENTER LINE DEFENSE (first time ever). PB came on Lap 7 WHILE DEFENDING - ice cold under pressure. Race arc: L1 outlap, L2-L3 cold tires, L4 rhythm, L5-L8 defensive with PB on L7. Gap to Gong now 1.54s (was 2.4s baseline). G61 LEADERBOARD: P247/1071 (Top 23.1%). Garage61: 01KEHDVNY16QAVQ48WQ9VGWW6E. IBT TECHNIQUE ANALYSIS: Apex position consistent at T1 (0.2m σ), T4 (0.3m), T8 (0.5m), but T9 Chicane Exit shows 25.9m variance and T10 McDonald's 24.0m. Brake points locked at T3 (0.7m σ), but T11 Shell (294m), T10 (193m), T1 (131m) wander due to lift-coast zones and race traffic. Using 100% brake authority. Steering smoothest at T4 Triple 1 (9.85 jerk), highest jerk at T9 Chicane Exit (28.88). LIFT-ON-STEER ANALYSIS: T9 Chicane Exit worst offender at 23%, T7 Hairpin 10.4%."
-    },
-    {
-      "date": "2026-01-10",
-      "time": "10:17 CET",
-      "session_type": "Practice (Smooth Input Drill)",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 92.967,
-      "best_lap_formatted": "1:32.967",
-      "consistency_sigma": 0.515,
-      "flying_laps": 8,
-      "total_laps": 8,
-      "incidents": 0,
-      "theoretical_optimal": 92.833,
-      "gap_to_optimal": 0.134,
-      "focus_area": "Smooth inputs - eliminate lift-on-steer at T9",
-      "ibt_analysis": true,
-      "technique_analysis": {
-        "input_smoothness": {
-          "steering_avg_jerk_rad_s2": 11.3,
-          "throttle_avg_jerk_pct_s2": 554.6,
-          "throttle_full_usage_pct": 57.7,
-          "brake_max_pct": 100.0,
-          "brake_avg_when_braking_pct": 44.8
-        },
-        "lift_on_steer_comparison": {
-          "T9_Chicane_Exit": {"race_jan9": 23.0, "practice_jan10": 17.0, "change": -6},
-          "T7_Hairpin": {"race_jan9": 10.4, "practice_jan10": 0.5, "change": -9.9},
-          "T2_Hotel_Exit": {"race_jan9": 9.9, "practice_jan10": 5.6, "change": -4.3}
-        }
-      },
-      "notes": "SMOOTH INPUT DRILL - T9 IMPROVING. Short focused practice (8 laps) targeting lift-on-steer habit. T9 Chicane Exit: 23% → 17% (6pt improvement). T7 Hairpin: 10.4% → 0.5% (FIXED). Throttle jerk improved 8% (600 → 554.6). Steering jerk improved 6% (12 → 11.3). 14/14 corners still DIALED. Nearly matched race PB (1:32.967 vs 1:32.933) while focusing on smoothness, not speed. Best lap on final lap. Consistency σ = 0.515s (tighter than race 0.70s). Paradox proven again: consistency-focus produces speed as byproduct. Garage61: 01KEKK3DVFHZS91MWMR176GPXY."
-    },
-    {
-      "date": "2026-01-10",
-      "time": "12:48 CET",
-      "session_type": "AI Race 03",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 93.183,
-      "best_lap_formatted": "1:33.183",
-      "consistency_sigma": 3.551,
-      "consistency_sigma_note": "Skewed by AI contact incident on Lap 8",
-      "flying_laps": 7,
-      "total_laps": 8,
-      "incidents": 1,
-      "incident_description": "Punted by AI at T2 Hotel Exit on final lap while leading",
-      "theoretical_optimal": 93.034,
-      "gap_to_optimal": 0.149,
-      "grid_position": 1,
-      "finish_position": 10,
-      "quali_lap": 93.845,
-      "quali_lap_formatted": "1:33.845",
-      "focus_area": "Race deployment + smooth inputs under pressure",
-      "ibt_analysis": true,
-      "technique_analysis": {
-        "input_smoothness": {
-          "steering_avg_jerk_rad_s2": 11.43,
-          "throttle_avg_jerk_pct_s2": 582.1,
-          "throttle_full_usage_pct": 59.1,
-          "brake_max_pct": 100.0,
-          "brake_avg_when_braking_pct": 48.4
-        },
-        "smooth_input_transfer": {
-          "practice_steering_jerk": 11.3,
-          "race_steering_jerk": 11.43,
-          "difference_pct": 1.2,
-          "verdict": "VALIDATED - smooth inputs survived race pressure"
-        }
-      },
-      "notes": "AI RACE 03 - POLE TO P10 (RACECRAFT LESSON). Qualified POLE (1:33.845). Led race for 7 laps. Best lap 1:33.183 on Lap 4. Laps 3-7 all consistent (1:33.3-1:34.5 range). On FINAL LAP (L8), contact with faster AI at T2 Hotel Exit while defending. S1 exploded to 43.4s (vs normal 34.2s). Dropped from P1 to P10. KEY VALIDATION: Smooth input work SURVIVED race pressure. Steering jerk 11.43 vs practice 11.3 (only 1.2% increase). S2 σ = 0.103s (ELITE consistency in race conditions). RACECRAFT LESSON: The AI was genuinely faster. Master Lonn's reflection: 'He was faster... when he made the move I should have let him go. P2 is way better than P10 and a broken ego.' This is Meebewegen 2.0: yield when defending costs more than it gains. True race σ (L2-L7) estimated ~0.5s. Garage61: 01KEKWANE8JFFS7X2D13XFSZ2K."
-    },
-    {
-      "date": "2026-01-11",
-      "time": "12:00 CET",
-      "session_type": "Practice (Wheelbase Testing)",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 92.907,
-      "best_lap_formatted": "1:32.907",
-      "focus_area": "Wheelbase settings testing",
-      "notes": "NEW PB! 1:32.907 (-0.026s from previous 1:32.933). Achieved while testing wheelbase settings, not hot-lapping. PB confirmed via G61 fastest lap export only. Garage61: 01KEPPEMVADHDH4N6H47YG737Z."
-    },
-    {
-      "date": "2026-01-11",
-      "time": "13:42 CET",
-      "session_type": "AI Race 04",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 93.3,
-      "best_lap_formatted": "1:33.300",
-      "consistency_sigma": 1.858,
-      "consistency_sigma_note": "Skewed by T2 incident on Lap 7",
-      "flying_laps": 7,
-      "total_laps": 8,
-      "incidents": 1,
-      "incident_description": "T2 Hotel Exit mistake on Lap 7 while fighting for P1",
-      "theoretical_optimal": 93.267,
-      "gap_to_optimal": 0.033,
-      "grid_position": 6,
-      "finish_position": 2,
-      "focus_area": "Race execution",
-      "ibt_analysis": true,
-      "technique_analysis": {
-        "input_smoothness": {
-          "steering_avg_jerk_rad_s2": 10.15,
-          "throttle_avg_jerk_pct_s2": 573.3,
-          "throttle_full_usage_pct": 51.1,
-          "brake_max_pct": 100.0,
-          "brake_avg_when_braking_pct": 47.7
-        }
-      },
-      "notes": "AI RACE 04 - P6→P2. Cold Tire Contract deployed successfully (L1-L3 survival, L4+ attack). Best lap on FINAL lap (1:33.300) - composure after incident. Lap 7 T2 Hotel Exit blew up (10.417s vs normal 7.4s = +3.0s loss). T2 σ = 1.109s (LOTTERY). 11/14 corners remain dialed. Steering jerk improved to 10.15 (was 11.43 in Race 03 = 11% smoother). Master Lonn: 'Hotel came and bit me.' This is the 3rd consecutive race where T2 cost a potential win. Garage61: 01KEPH1DAVMQ3HTEMK95GHYYTT."
-    },
-    {
-      "date": "2026-01-11",
-      "time": "14:11 CET",
-      "session_type": "AI Race 05",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 93.717,
-      "best_lap_formatted": "1:33.717",
-      "consistency_sigma": 1.604,
-      "consistency_sigma_note": "Skewed by T2 incident on Lap 8 (final lap)",
-      "flying_laps": 7,
-      "total_laps": 8,
-      "incidents": 1,
-      "incident_description": "T2 Hotel Exit mistake on final lap while fighting for P1",
-      "theoretical_optimal": 93.483,
-      "gap_to_optimal": 0.234,
-      "grid_position": 6,
-      "finish_position": 2,
-      "focus_area": "Race execution",
-      "ibt_analysis": true,
-      "technique_analysis": {
-        "input_smoothness": {
-          "steering_avg_jerk_rad_s2": 10.98,
-          "throttle_avg_jerk_pct_s2": 557.4,
-          "throttle_full_usage_pct": 49.7,
-          "brake_max_pct": 100.0,
-          "brake_avg_when_braking_pct": 49.2
-        }
-      },
-      "notes": "AI RACE 05 - P6→P2. Déjà vu. L6-L7 showed ELITE consistency (0.016s apart). Then L8 (final lap, fighting for P1) = T2 disaster (10.767s vs normal 7.4s = +3.4s loss). T2 σ = 1.236s (LOTTERY). 12/14 corners dialed. S3 on L8 was actually BEST of race (26.63s) - recovered after T2. Master Lonn: 'Hotel came and bit me.' Pattern confirmed: T2 is the Achilles heel when fighting for P1. Garage61: 01KEPJDE2R788PMP7NPK698FYG."
-    },
-    {
-      "date": "2026-01-13",
-      "time": "13:57 CET",
-      "session_type": "Official Race",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 92.7,
-      "best_lap_formatted": "1:32.700",
-      "consistency_sigma": 1.477,
-      "consistency_sigma_note": "Skewed by T2 incident on Lap 7; true σ excluding incident ≈ 0.88s",
-      "flying_laps": 7,
-      "total_laps": 8,
-      "incidents": 5,
-      "incident_description": "5x from contact at T2 Hotel Exit on Lap 7 - drove into car braking early",
-      "theoretical_optimal": 92.684,
-      "gap_to_optimal": 0.016,
-      "grid_position": 10,
-      "finish_position": 5,
-      "focus_area": "Official Race deployment",
-      "ibt_analysis": true,
-      "technique_analysis": {
-        "input_smoothness": {
-          "steering_avg_jerk_rad_s2": 10.8,
-          "throttle_avg_jerk_pct_s2": 543.4,
-          "throttle_full_usage_pct": 48.8,
-          "brake_max_pct": 100.0,
-          "brake_avg_when_braking_pct": 66.1
-        }
-      },
-      "notes": "WEEK 05 OFFICIAL RACE - NEW PB! 🏆 TOP SPLIT (SoF 1828). P10→P5 (+5 positions). +31 iRating (1672→1703). SR -0.10 (3.64→3.54) from incident. Championship: 68 pts. Sleep-deprived, quali disaster (2x Hotel offs = no time set = P10), then contact at T2 on Lap 7. DESPITE all adversity: NEW PB 1:32.700 on Lap 6 (-0.207s from previous 1:32.907). Cold Tire Contract deployed: L1-5 building pace, L6 BOOM = PB. Recovery after incident: L8 was 1:33.833 (solid composure). 13/14 corners still dialed (T2 flagged due to incident, not technique regression). Steering smoothness held at 10.8 rad/s² (consistent with recent improvement). Driver felt 'awful' but data says otherwise - pace was real, circumstances didn't cooperate. Gap to Gong now 1.3s (was 2.4s baseline). Over-performed vs field (156 iRating below average). Garage61: 01KEVP972XG6151XC38YJEJ667."
+      "period": "Week 05 - Oschersleben GP (Summary)",
+      "key_achievements": "NEW PB 1:32.700 (Official Race), T2 Hotel Exit MASTERED (σ: 2.257s → 0.153s = 93% improvement), 14/14 corners dialed (first complete track mastery), Cold Tire Contract wins #5-7, Center Line Defense technique learned, 2x Official Top Splits (P5, P4), Gap to Gong closed: 2.4s → 1.3s.",
+      "key_lessons": "T2 Hotel Exit technique: 20% throttle hold through apex stabilizes rear on downhill decreasing-radius. The Hotel Rule: Don't fight for P1 AT T2 (3 consecutive races lost there). Meebewegen 2.0: Yield when defending costs more than it gains. Lift-on-steer pattern identified and improved (T9: 23% → 17%, T7: 10.4% → 0.5%). FFB tuning: 35% → 30% MAIRA = 13% smoother steering. Overnight corner processing: T12 fixed during sleep with no practice. Smooth input transfer validated (practice → race only 1.2% degradation).",
+      "stats_summary": "PBs: 1:33.818 → 1:32.700 (-1.118s). iRating: +66 (1672 → 1738). SR: -0.01 (3.64 → 3.63). 11 sessions (3 practice, 5 AI race, 2 official). Steering jerk: 12.98 → 10.39 rad/s² (-20%).",
+      "session_highlights": [
+        "Practice 01 (Jan 06): Baseline 1:33.818, GR86 memory helped",
+        "Practice 03 (Jan 07): Consistency breakthrough, T2 σ 90% improvement",
+        "AI Race 02 (Jan 09): PB 1:32.933 while defending, 14/14 corners dialed",
+        "AI Race 03 (Jan 10): P1→P10 racecraft lesson (yield to faster cars)",
+        "Official Race 01 (Jan 13): PB 1:32.700, P10→P5 despite adversity",
+        "Official Race 02 (Jan 15): Clean P7→P4, T2 mastery confirmed (σ 0.153s)"
+      ]
     },
     {
       "date": "2026-01-15",
-      "time": "10:26 CET",
-      "session_type": "Official Race",
-      "track": "Motorsport Arena Oschersleben - Grand Prix",
-      "best_lap": 93.367,
-      "best_lap_formatted": "1:33.367",
-      "consistency_sigma": 0.773,
-      "flying_laps": 7,
-      "total_laps": 8,
+      "time": "13:48 CET",
+      "session_type": "Practice (Offline) - Baseline",
+      "track": "Oran Park Raceway - GP",
+      "best_lap": 72.583,
+      "best_lap_formatted": "1:12.583",
+      "consistency_sigma": 1.539,
+      "flying_laps": 15,
+      "total_laps": 16,
       "incidents": 0,
-      "theoretical_optimal": 93.2,
-      "gap_to_optimal": 0.167,
-      "grid_position": 7,
-      "finish_position": 4,
-      "quali_lap": 93.442,
-      "quali_lap_formatted": "1:33.442",
-      "focus_area": "Meebewegen + calm race execution",
+      "theoretical_optimal": 72.117,
+      "gap_to_optimal": 0.466,
+      "focus_area": "Week 06 Baseline - New Track Learning",
       "ibt_analysis": true,
       "technique_analysis": {
-        "apex_consistency": {
-          "best": {"T1_Hotel_Entry": 0.2, "T13_Bauer_Kurve": 5.3},
-          "worst": {"T4_Triple_1": 93.1, "T6_Triple_3": 15.8, "T3_Hasseroeder": 14.3}
-        },
-        "brake_point_consistency": {
-          "best": {"T14_Zeppelin_Kurve": 3.0, "T13_Bauer_Kurve": 1.1},
-          "worst": {"T7_Hairpin": 94.5, "T11_Shell_Kurve": 19.0, "T1_Hotel_Entry": 10.3}
+        "corner_mastery": {
+          "solid": ["The Sweeper", "Coca-Cola Corner", "Shell Corner", "Momo Corner", "O'Brien Dogleg", "Recaro Corner"],
+          "work_needed": ["Yokohama Bridge"],
+          "lottery": ["Champion Curve", "Foster's Dip"]
         },
         "input_smoothness": {
-          "steering_avg_jerk_rad_s2": 10.39,
-          "throttle_avg_jerk_pct_s2": 618.4,
-          "throttle_full_usage_pct": 47.8,
+          "steering_avg_jerk_rad_s2": 14.82,
+          "throttle_avg_jerk_pct_s2": 454.0,
+          "throttle_full_usage_pct": 54.1,
           "brake_max_pct": 100.0,
-          "brake_avg_when_braking_pct": 68.8
+          "brake_avg_when_braking_pct": 42.3
+        },
+        "problem_corners": {
+          "Champion_Curve": {"sigma": 0.898, "best": 5.567, "worst": 8.567, "swing": 3.0},
+          "Fosters_Dip": {"sigma": 0.475, "best": 5.417, "worst": 7.233, "swing": 1.816}
         }
       },
-      "notes": "Top split (SoF 1558). P7→P4, clean 0x. SR 3.63 (+0.09), iRating +35 (1703→1738). Championship points 66 (lower than previous). Calm race, stayed clear of chaos. G61: 01KF0F218J5ZXHG368R37WWD6X."
+      "notes": "WEEK 06 SESSION 1 - BASELINE. First ever stint at Oran Park GP. 5-second improvement in 23 minutes (1:17.4 → 1:12.5). MULTIPLE OFFS/SPINS at Champion Curve and Foster's Dip — the track bit back hard. 6/9 corners SOLID on Day 1 despite the drama. Champion Curve identified as 'nemesis corner' (σ 0.898s = 3-second swing from offs). Foster's Dip elevation changes ('ups and downs') also caused spins. BB 55% producing perfectly balanced tire temps. Track character: Heavy elevation changes, blind entries. Champion Curve is the 'Hotel Exit' of Oran Park. G61: 01KF0VEFKDNX310R28PXMRBKSR."
     }
   ],
   "insights": [
@@ -460,17 +195,83 @@
     "T2 Hotel Exit Technique SOLVED (Master Lonn Discovery): Trail brake entry → Full brake + quick downshift 4→3→2 → 20% THROTTLE HOLD through apex → Progressive throttle to 100% on exit. KEY INSIGHT: Never fully off throttle through the apex. The 20% hold stabilizes the rear on the downhill decreasing-radius corner. Without it = light rear = snap oversteer = disaster. This matches VRS Gideon technique ('overlap throttle with brakes to stabilize rear'). Master Lonn reverse-engineered it through feel. Now codified for deployment under race pressure.",
     "PB Under Adversity (Official Race Proof): Sleep-deprived + P10 start + mid-race contact = NEW PB anyway. Lap 6 was 1:32.700, one lap BEFORE the incident. The pace was REAL, not lucky. Recovery lap after incident was 1:33.833 (solid composure). Feeling 'awful' and performing well are not mutually exclusive. The systems (Cold Tire Contract, technique foundations) work even when the driver doesn't feel sharp. Trust the process.",
     "Official Race PB Pattern (NEW): AI Race 02 PB came while defending (competitive pressure). Official Race PB came while building through traffic (strategic patience). Both were NOT in clear air. PBs don't require perfect conditions—they require the right mental state (flow, not forcing). The common thread: commit to the process, let speed come as byproduct.",
-    "T2 Hotel Exit MASTERY COMPLETE (2026-01-15): The Achilles heel is dead. T2 σ in today's official race = 0.153s (SOLID) with traffic. Progression complete: 2.257s (lottery) → 0.219s (shaky) → 0.066s (dialed in practice) → 0.153s (solid in race). The technique (20% throttle hold through apex) is now muscle memory. T2 is just a corner now, not a nemesis. The 'Race vs Practice Dichotomy' no longer applies—technique holds under pressure."
+    "T2 Hotel Exit MASTERY COMPLETE (2026-01-15): The Achilles heel is dead. T2 σ in today's official race = 0.153s (SOLID) with traffic. Progression complete: 2.257s (lottery) → 0.219s (shaky) → 0.066s (dialed in practice) → 0.153s (solid in race). The technique (20% throttle hold through apex) is now muscle memory. T2 is just a corner now, not a nemesis. The 'Race vs Practice Dichotomy' no longer applies—technique holds under pressure.",
+    "Oran Park GP Track Character (NEW): 9 corners, 5 sectors. Heavy elevation changes define this track. Champion Curve (blind entry, tightening radius, elevation) is the 'Hotel Exit' equivalent - where laps go to die. Foster's Dip produces 3.3G compression load through the dip. The Sweeper + Coca-Cola are a linked complex. O'Brien Dogleg is flat out. BB 55% produces perfectly balanced tire temps.",
+    "New Track Learning Efficiency (NEW): First stint at Oran Park yielded 5-second improvement in 23 minutes (1:17.4 → 1:12.5) despite multiple offs and spins. 6/9 corners SOLID on Day 1 (67% dialed on first contact). The offs at Champion Curve and Foster's Dip were part of the learning process — pushed, found limits, recovered, got faster. PB came on Lap 14 AFTER the drama, not before.",
+    "Gong Comparison (Oran Park GP): 2.7s gap to alien (1:12.583 vs 1:09.856). Key findings: (1) The Sweeper is NOT a brake zone - Lonn braking 75% of corner vs Gong 42%, losing 22 km/h through. (2) Champion Curve apex speed 9 km/h slower, lat G 0.21 lower. (3) HIDDEN LOSS at Momo Corner - looked 'consistent' but 11 km/h slower than Gong! (4) Full throttle usage 66.6% vs Gong 72.3% (-5.7%). (5) Overdriving 24% of lap. Top speed identical - gap is ALL corner speed and throttle commitment.",
+    "The Sweeper Technique (Oran Park): LIFT, DON'T BRAKE. This corner before Coca-Cola should be taken at 160+ km/h with minimal or no braking. Gong carries 22 km/h more through by treating it as a lift zone, not a brake zone. Master Lonn's instinct to brake here costs ~0.2-0.3s alone."
   ],
   "next_steps": [
-    "NEW PB: 1:32.700 (Official Race). Target: Break 1:32.5 (need -0.2s).",
-    "Week 05 Race 02: P7→P4, 0x, clean. iRating 1738 (+35). SR 3.63 (+0.09).",
-    "T2 MASTERED: No longer Achilles heel. σ 0.153s in race conditions. Technique is muscle memory.",
-    "14/14 corners effectively dialed (T3 variance today was race context, not technique).",
-    "Gap to Alien (Gong 1:31.396): 1.3s from PB. Closing fast.",
-    "Sleep is non-negotiable: Racing tired increases risk even when pace is there.",
-    "iRating Trajectory: 1238 → 1738 (+500 in 5 weeks). SR: 3.63 (B license). Championship: 66 pts."
+    "WEEK 06 BASELINE: 1:12.583 at Oran Park GP. Gap to Gong: 2.7s.",
+    "PRIORITY 1: The Sweeper - STOP BRAKING. Lift only. Carry 160+ km/h. Worth ~0.3s.",
+    "PRIORITY 2: Champion Curve - Later apex, more commitment. 9 km/h slower than Gong.",
+    "PRIORITY 3: Momo Corner - Hidden loss! 11 km/h slower than Gong despite 'solid' variance.",
+    "Full throttle target: Get from 66.6% to 70%+ (Gong at 72.3%).",
+    "Target: Break 1:11.0 next session by fixing The Sweeper alone.",
+    "iRating: 1738. SR: 3.63 (B license). 5-week trajectory: +500 iRating."
   ],
+  "tools_reference": {
+    "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",
+    
+    "ibt_analysis": {
+      "tools/core/extract_session_from_ibt.py": "Extract session JSON from IBT (laps, sectors, corners, consistency). USE FOR: storing new sessions.",
+      "tools/core/extract_lap_telemetry.py": "Extract single lap from IBT to CSV. USE FOR: preparing laps for comparison tools.",
+      "tools/core/parse_ibt.py": "Parse IBT and list/extract channels. USE FOR: exploring what data IBT contains.",
+      "tools/coach/analyze_ibt_technique.py": "Technique analysis from IBT (oversteer, temps, weight transfer). USE FOR: technique deep-dive."
+    },
+    
+    "csv_analysis": {
+      "tools/core/analyze_session.py": "Analyze G61 CSV session (laps, sectors). USE FOR: quick session stats from CSV.",
+      "tools/coach/analyze_braking_technique.py": "Brake zone analysis from CSV (trail braking, release). USE FOR: braking technique review.",
+      "tools/coach/analyze_car_balance.py": "Understeer/oversteer detection from IBT. USE FOR: setup or technique diagnosis."
+    },
+    
+    "comparison": {
+      "tools/coach/compare_telemetry.py": "Compare two CSV laps (speed, braking, cornering, overdriving). USE FOR: alien comparison.",
+      "tools/coach/compare_laps.py": "Compare two laps within same IBT session. USE FOR: best vs worst lap analysis.",
+      "tools/coach/visualize_racing_lines.py": "Compare GPS lines between two laps. USE FOR: line difference visualization."
+    },
+    
+    "technique_detail": {
+      "tools/coach/detect_apex_points.py": "Apex position consistency per corner. USE FOR: apex variance analysis.",
+      "tools/coach/detect_brake_point_drift.py": "Brake point consistency per corner. USE FOR: brake consistency analysis.",
+      "tools/coach/analyze_input_smoothness.py": "Steering/throttle smoothness (jerk metrics). USE FOR: input quality analysis."
+    },
+    
+    "track_maps": {
+      "tools/core/generate_track_map.py": "Generate track map with sectors + corners from CSV. USE FOR: track file maps.",
+      "tools/coach/visualize_track_comparison.py": "Speed delta map comparing two laps (red/green). USE FOR: alien comparison visual."
+    },
+    
+    "session_visualizations": {
+      "tools/viz/consistency_heatmap.py": "Corner consistency heatmap. USE FOR: session reports.",
+      "tools/viz/lap_evolution_chart.py": "Lap time progression chart. USE FOR: session reports.",
+      "tools/viz/brake_variance_chart.py": "Brake point variance visualization. USE FOR: brake consistency visual.",
+      "tools/viz/corner_entry_traces.py": "Brake/steering/speed traces per corner. USE FOR: trail braking analysis."
+    },
+    
+    "standings_and_rivals": {
+      "tools/coach/analyze_standings.py": "Season standings analysis (position, percentile, division). USE FOR: championship updates.",
+      "tools/coach/track_rivals.py": "Compare stats vs specific rivals. USE FOR: rivalry tracking.",
+      "tools/coach/compare_weekly_standings.py": "Week-over-week standings comparison. USE FOR: progression tracking.",
+      "tools/coach/visualize_standings_progression.py": "iRating/position trajectory charts. USE FOR: season progression visual.",
+      "tools/coach/visualize_irating_distribution.py": "iRating histogram with driver position. USE FOR: field context.",
+      "tools/core/generate_weekly_standings_report.py": "Generate standings markdown report. USE FOR: week summaries."
+    },
+    
+    "educational": {
+      "tools/coach/visualize_traction_circle.py": "Traction circle diagram. USE FOR: explaining grip concepts.",
+      "tools/coach/visualize_driver_traction_circle.py": "Driver's actual traction usage from telemetry. USE FOR: showing grip usage."
+    },
+    
+    "utilities": {
+      "tools/core/analysis_formatter.py": "Format session analysis output (lap times, etc). IMPORT for formatting.",
+      "tools/core/time_formatter.py": "Lap time formatting utilities. IMPORT for time strings.",
+      "tools/core/corner_identifier.py": "Identify corners from track data + distance. IMPORT for corner lookup.",
+      "tools/core/track_data_loader.py": "Load track JSON data. IMPORT for track info.",
+      "tools/core/data_loader.py": "Core CSV loading utilities. IMPORT for data loading."
+    }
+  },
   "guidebook_updates": [
     {
       "date": "2026-01-10",

@@ -18,6 +18,10 @@
 
 ---
 
+## Race Video
+
+[![Oschersleben Official Race](https://img.youtube.com/vi/DJmvX8HtnKs/0.jpg)](https://www.youtube.com/watch?v=DJmvX8HtnKs)
+
 ## Current Focus and Goal
 
 - **Focus**: Precision on the Plain

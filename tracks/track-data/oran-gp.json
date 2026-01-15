@@ -3,53 +3,93 @@
   "trackId": "oran gp",
   "country": "AU",
   "length": 2600,
+  "map": "oran-gp-map.png",
   "pitentry": 0.965,
   "pitexit": 0.138,
   "turn": [
     {
+      "number": 1,
+      "name": "The Sweeper",
+      "apex": 0.17,
       "start": 0.147,
-      "end": 0.195,
-      "name": "The Sweeper"
+      "end": 0.195
     },
     {
+      "number": 2,
+      "name": "Coca-Cola Corner",
+      "apex": 0.23,
       "start": 0.196,
-      "end": 0.268,
-      "name": "Coca-Cola Corner"
+      "end": 0.268
     },
     {
+      "number": 3,
+      "name": "Shell Corner",
+      "apex": 0.35,
       "start": 0.32,
-      "end": 0.38,
-      "name": "Shell Corner"
+      "end": 0.38
     },
     {
+      "number": 4,
+      "name": "Champion Curve Entry",
+      "apex": 0.43,
       "start": 0.414,
-      "end": 0.475,
-      "name": "Champion Curve"
+      "end": 0.45
     },
     {
+      "number": 5,
+      "name": "Champion Curve Exit",
+      "apex": 0.47,
+      "start": 0.45,
+      "end": 0.475
+    },
+    {
+      "number": 6,
+      "name": "Yokohama Bridge",
+      "apex": 0.51,
       "start": 0.478,
-      "end": 0.55,
-      "name": "Yokohama Bridge"
+      "end": 0.55
     },
     {
+      "number": 7,
+      "name": "Foster's Dip Entry",
+      "apex": 0.59,
       "start": 0.575,
-      "end": 0.65,
-      "name": "Foster's Dip"
+      "end": 0.62
     },
     {
+      "number": 8,
+      "name": "Foster's Dip Exit",
+      "apex": 0.64,
+      "start": 0.62,
+      "end": 0.65
+    },
+    {
+      "number": 9,
+      "name": "Momo Corner",
+      "apex": 0.70,
       "start": 0.67,
-      "end": 0.73,
-      "name": "Momo Corner"
+      "end": 0.73
     },
     {
+      "number": 10,
+      "name": "O'Brien Entry",
+      "apex": 0.77,
       "start": 0.755,
-      "end": 0.83,
-      "name": "O'Brien Aluminium Dogleg"
+      "end": 0.78
     },
     {
+      "number": 11,
+      "name": "O'Brien Dogleg",
+      "apex": 0.79,
+      "start": 0.78,
+      "end": 0.83
+    },
+    {
+      "number": 12,
+      "name": "Recaro Corner",
+      "apex": 0.89,
       "start": 0.85,
-      "end": 0.93,
-      "name": "Recaro Corner"
+      "end": 0.93
     }
   ],
   "sector": [

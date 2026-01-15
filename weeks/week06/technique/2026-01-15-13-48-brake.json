@@ -1,0 +1,1111 @@
+{
+  "metadata": {
+    "file": "raygr22_oran gp 2026-01-15 13-48-14.ibt",
+    "track": "Oran Park Raceway - GP",
+    "track_id": "oran-gp",
+    "track_length_m": 2600,
+    "brake_threshold": 0.1,
+    "laps_found": 17
+  },
+  "summary": {
+    "braking_corners_analyzed": 8
+  },
+  "corners": {
+    "The Sweeper": {
+      "corner_start_pct": 0.147,
+      "search_window_start_pct": 0.047,
+      "brake_points": [
+        {
+          "brake_start_pct": 0.12105,
+          "speed_at_brake_kmh": 0.0,
+          "speed_at_brake_ms": 0.01,
+          "max_brake_pressure": 0.414,
+          "no_braking": false,
+          "lap": 1
+        },
+        {
+          "brake_start_pct": 0.13053,
+          "speed_at_brake_kmh": 193.4,
+          "speed_at_brake_ms": 53.72,
+          "max_brake_pressure": 0.648,
+          "no_braking": false,
+          "lap": 2
+        },
+        {
+          "brake_start_pct": 0.13209,
+          "speed_at_brake_kmh": 194.5,
+          "speed_at_brake_ms": 54.01,
+          "max_brake_pressure": 0.422,
+          "no_braking": false,
+          "lap": 4
+        },
+        {
+          "brake_start_pct": 0.1351,
+          "speed_at_brake_kmh": 193.5,
+          "speed_at_brake_ms": 53.76,
+          "max_brake_pressure": 0.438,
+          "no_braking": false,
+          "lap": 5
+        },
+        {
+          "brake_start_pct": 0.13577,
+          "speed_at_brake_kmh": 195.3,
+          "speed_at_brake_ms": 54.26,
+          "max_brake_pressure": 0.602,
+          "no_braking": false,
+          "lap": 6
+        },
+        {
+          "brake_start_pct": 0.13486,
+          "speed_at_brake_kmh": 195.5,
+          "speed_at_brake_ms": 54.31,
+          "max_brake_pressure": 0.603,
+          "no_braking": false,
+          "lap": 8
+        },
+        {
+          "brake_start_pct": 0.14458,
+          "speed_at_brake_kmh": 194.0,
+          "speed_at_brake_ms": 53.88,
+          "max_brake_pressure": 0.561,
+          "no_braking": false,
+          "lap": 9
+        },
+        {
+          "brake_start_pct": 0.13613,
+          "speed_at_brake_kmh": 196.1,
+          "speed_at_brake_ms": 54.47,
+          "max_brake_pressure": 0.674,
+          "no_braking": false,
+          "lap": 10
+        },
+        {
+          "brake_start_pct": 0.13634,
+          "speed_at_brake_kmh": 195.7,
+          "speed_at_brake_ms": 54.35,
+          "max_brake_pressure": 0.549,
+          "no_braking": false,
+          "lap": 11
+        },
+        {
+          "brake_start_pct": 0.14099,
+          "speed_at_brake_kmh": 195.7,
+          "speed_at_brake_ms": 54.35,
+          "max_brake_pressure": 0.522,
+          "no_braking": false,
+          "lap": 14
+        },
+        {
+          "brake_start_pct": 0.13465,
+          "speed_at_brake_kmh": 197.0,
+          "speed_at_brake_ms": 54.73,
+          "max_brake_pressure": 0.619,
+          "no_braking": false,
+          "lap": 16
+        },
+        {
+          "brake_start_pct": 0.14233,
+          "speed_at_brake_kmh": 196.8,
+          "speed_at_brake_ms": 54.67,
+          "max_brake_pressure": 0.983,
+          "no_braking": false,
+          "lap": 17
+        }
+      ],
+      "consistency": {
+        "sigma_track_pct": 0.00608,
+        "sigma_meters": 15.8,
+        "drift_range_pct": 0.02353,
+        "drift_range_m": 61.2,
+        "speed_sigma_kmh": 56.4,
+        "avg_brake_pressure": 0.586,
+        "max_brake_pressure": 0.983,
+        "laps_analyzed": 12,
+        "earliest_brake_lap": 1,
+        "latest_brake_lap": 9,
+        "earliest_brake_m_before_corner": 67.5,
+        "latest_brake_m_before_corner": 6.3
+      },
+      "avg_brake_point_pct": 0.13537,
+      "avg_brake_point_m_before_corner": 30.2,
+      "avg_speed_at_brake_kmh": 179.0
+    },
+    "Coca-Cola Corner": {
+      "corner_start_pct": 0.196,
+      "search_window_start_pct": 0.096,
+      "brake_points": [
+        {
+          "brake_start_pct": 0.12105,
+          "speed_at_brake_kmh": 0.0,
+          "speed_at_brake_ms": 0.01,
+          "max_brake_pressure": 0.414,
+          "no_braking": false,
+          "lap": 1
+        },
+        {
+          "brake_start_pct": 0.13053,
+          "speed_at_brake_kmh": 193.4,
+          "speed_at_brake_ms": 53.72,
+          "max_brake_pressure": 0.442,
+          "no_braking": false,
+          "lap": 2
+        },
+        {
+          "brake_start_pct": 0.1481,
+          "speed_at_brake_kmh": 188.0,
+          "speed_at_brake_ms": 52.23,
+          "max_brake_pressure": 0.43,
+          "no_braking": false,
+          "lap": 3
+        },
+        {
+          "brake_start_pct": 0.13209,
+          "speed_at_brake_kmh": 194.5,
+          "speed_at_brake_ms": 54.01,
+          "max_brake_pressure": 0.422,
+          "no_braking": false,
+          "lap": 4
+        },
+        {
+          "brake_start_pct": 0.1351,
+          "speed_at_brake_kmh": 193.5,
+          "speed_at_brake_ms": 53.76,
+          "max_brake_pressure": 0.438,
+          "no_braking": false,
+          "lap": 5
+        },
+        {
+          "brake_start_pct": 0.13577,
+          "speed_at_brake_kmh": 195.3,
+          "speed_at_brake_ms": 54.26,
+          "max_brake_pressure": 0.602,
+          "no_braking": false,
+          "lap": 6
+        },
+        {
+          "brake_start_pct": 0.18338,
+          "speed_at_brake_kmh": 172.7,
+          "speed_at_brake_ms": 47.97,
+          "max_brake_pressure": 0.728,
+          "no_braking": false,
+          "lap": 7
+        },
+        {
+          "brake_start_pct": 0.13486,
+          "speed_at_brake_kmh": 195.5,
+          "speed_at_brake_ms": 54.31,
+          "max_brake_pressure": 0.603,
+          "no_braking": false,
+          "lap": 8
+        },
+        {
+          "brake_start_pct": 0.14458,
+          "speed_at_brake_kmh": 194.0,
+          "speed_at_brake_ms": 53.88,
+          "max_brake_pressure": 0.561,
+          "no_braking": false,
+          "lap": 9
+        },
+        {
+          "brake_start_pct": 0.13613,
+          "speed_at_brake_kmh": 196.1,
+          "speed_at_brake_ms": 54.47,
+          "max_brake_pressure": 0.674,
+          "no_braking": false,
+          "lap": 10
+        },
+        {
+          "brake_start_pct": 0.13634,
+          "speed_at_brake_kmh": 195.7,
+          "speed_at_brake_ms": 54.35,
+          "max_brake_pressure": 0.549,
+          "no_braking": false,
+          "lap": 11
+        },
+        {
+          "brake_start_pct": 0.15156,
+          "speed_at_brake_kmh": 190.3,
+          "speed_at_brake_ms": 52.87,
+          "max_brake_pressure": 0.586,
+          "no_braking": false,
+          "lap": 12
+        },
+        {
+          "brake_start_pct": 0.1606,
+          "speed_at_brake_kmh": 187.0,
+          "speed_at_brake_ms": 51.93,
+          "max_brake_pressure": 0.718,
+          "no_braking": false,
+          "lap": 13
+        },
+        {
+          "brake_start_pct": 0.14099,
+          "speed_at_brake_kmh": 195.7,
+          "speed_at_brake_ms": 54.35,
+          "max_brake_pressure": 0.522,
+          "no_braking": false,
+          "lap": 14
+        },
+        {
+          "brake_start_pct": 0.15031,
+          "speed_at_brake_kmh": 195.3,
+          "speed_at_brake_ms": 54.26,
+          "max_brake_pressure": 0.646,
+          "no_braking": false,
+          "lap": 15
+        },
+        {
+          "brake_start_pct": 0.13465,
+          "speed_at_brake_kmh": 197.0,
+          "speed_at_brake_ms": 54.73,
+          "max_brake_pressure": 0.619,
+          "no_braking": false,
+          "lap": 16
+        },
+        {
+          "brake_start_pct": 0.14233,
+          "speed_at_brake_kmh": 196.8,
+          "speed_at_brake_ms": 54.67,
+          "max_brake_pressure": 0.983,
+          "no_braking": false,
+          "lap": 17
+        }
+      ],
+      "consistency": {
+        "sigma_track_pct": 0.01412,
+        "sigma_meters": 36.7,
+        "drift_range_pct": 0.06233,
+        "drift_range_m": 162.1,
+        "speed_sigma_kmh": 47.1,
+        "avg_brake_pressure": 0.585,
+        "max_brake_pressure": 0.983,
+        "laps_analyzed": 17,
+        "earliest_brake_lap": 1,
+        "latest_brake_lap": 7,
+        "earliest_brake_m_before_corner": 194.9,
+        "latest_brake_m_before_corner": 32.8
+      },
+      "avg_brake_point_pct": 0.14226,
+      "avg_brake_point_m_before_corner": 139.7,
+      "avg_speed_at_brake_kmh": 181.2
+    },
+    "Shell Corner": {
+      "corner_start_pct": 0.32,
+      "search_window_start_pct": 0.278,
+      "brake_points": [
+        {
+          "brake_start_pct": 0.31846,
+          "speed_at_brake_kmh": 143.7,
+          "speed_at_brake_ms": 39.93,
+          "max_brake_pressure": 0.808,
+          "no_braking": false,
+          "lap": 1
+        },
+        {
+          "brake_start_pct": 0.31499,
+          "speed_at_brake_kmh": 145.8,
+          "speed_at_brake_ms": 40.49,
+          "max_brake_pressure": 0.64,
+          "no_braking": false,
+          "lap": 2
+        },
+        {
+          "brake_start_pct": 0.31854,
+          "speed_at_brake_kmh": 148.2,
+          "speed_at_brake_ms": 41.17,
+          "max_brake_pressure": 0.638,
+          "no_braking": false,
+          "lap": 3
+        },
+        {
+          "brake_start_pct": 0.31794,
+          "speed_at_brake_kmh": 147.8,
+          "speed_at_brake_ms": 41.05,
+          "max_brake_pressure": 0.719,
+          "no_braking": false,
+          "lap": 4
+        },
+        {
+          "brake_start_pct": 0.31806,
+          "speed_at_brake_kmh": 144.6,
+          "speed_at_brake_ms": 40.17,
+          "max_brake_pressure": 0.669,
+          "no_braking": false,
+          "lap": 5
+        },
+        {
+          "brake_start_pct": 0.31509,
+          "speed_at_brake_kmh": 144.7,
+          "speed_at_brake_ms": 40.21,
+          "max_brake_pressure": 0.662,
+          "no_braking": false,
+          "lap": 6
+        },
+        {
+          "brake_start_pct": 0.31828,
+          "speed_at_brake_kmh": 147.4,
+          "speed_at_brake_ms": 40.95,
+          "max_brake_pressure": 0.626,
+          "no_braking": false,
+          "lap": 7
+        },
+        {
+          "brake_start_pct": 0.31799,
+          "speed_at_brake_kmh": 148.9,
+          "speed_at_brake_ms": 41.37,
+          "max_brake_pressure": 0.694,
+          "no_braking": false,
+          "lap": 8
+        },
+        {
+          "brake_start_pct": 0.31982,
+          "speed_at_brake_kmh": 148.9,
+          "speed_at_brake_ms": 41.37,
+          "max_brake_pressure": 0.78,
+          "no_braking": false,
+          "lap": 9
+        },
+        {
+          "brake_start_pct": 0.31705,
+          "speed_at_brake_kmh": 148.3,
+          "speed_at_brake_ms": 41.19,
+          "max_brake_pressure": 0.707,
+          "no_braking": false,
+          "lap": 11
+        },
+        {
+          "brake_start_pct": 0.3162,
+          "speed_at_brake_kmh": 147.4,
+          "speed_at_brake_ms": 40.95,
+          "max_brake_pressure": 0.616,
+          "no_braking": false,
+          "lap": 12
+        },
+        {
+          "brake_start_pct": 0.31715,
+          "speed_at_brake_kmh": 148.7,
+          "speed_at_brake_ms": 41.31,
+          "max_brake_pressure": 0.767,
+          "no_braking": false,
+          "lap": 13
+        },
+        {
+          "brake_start_pct": 0.31842,
+          "speed_at_brake_kmh": 148.2,
+          "speed_at_brake_ms": 41.16,
+          "max_brake_pressure": 0.727,
+          "no_braking": false,
+          "lap": 14
+        },
+        {
+          "brake_start_pct": 0.31906,
+          "speed_at_brake_kmh": 149.9,
+          "speed_at_brake_ms": 41.63,
+          "max_brake_pressure": 0.774,
+          "no_braking": false,
+          "lap": 15
+        },
+        {
+          "brake_start_pct": 0.31828,
+          "speed_at_brake_kmh": 147.0,
+          "speed_at_brake_ms": 40.84,
+          "max_brake_pressure": 0.677,
+          "no_braking": false,
+          "lap": 16
+        }
+      ],
+      "consistency": {
+        "sigma_track_pct": 0.00137,
+        "sigma_meters": 3.6,
+        "drift_range_pct": 0.00483,
+        "drift_range_m": 12.6,
+        "speed_sigma_kmh": 1.8,
+        "avg_brake_pressure": 0.7,
+        "max_brake_pressure": 0.808,
+        "laps_analyzed": 15,
+        "earliest_brake_lap": 2,
+        "latest_brake_lap": 9,
+        "earliest_brake_m_before_corner": 13.0,
+        "latest_brake_m_before_corner": 0.5
+      },
+      "avg_brake_point_pct": 0.31769,
+      "avg_brake_point_m_before_corner": 6.0,
+      "avg_speed_at_brake_kmh": 147.3
+    },
+    "Champion Curve": {
+      "corner_start_pct": 0.414,
+      "search_window_start_pct": 0.39,
+      "brake_points": [
+        {
+          "brake_start_pct": 0.40508,
+          "speed_at_brake_kmh": 123.2,
+          "speed_at_brake_ms": 34.22,
+          "max_brake_pressure": 0.445,
+          "no_braking": false,
+          "lap": 1
+        },
+        {
+          "brake_start_pct": 0.40457,
+          "speed_at_brake_kmh": 128.3,
+          "speed_at_brake_ms": 35.63,
+          "max_brake_pressure": 0.581,
+          "no_braking": false,
+          "lap": 2
+        },
+        {
+          "brake_start_pct": 0.40541,
+          "speed_at_brake_kmh": 127.5,
+          "speed_at_brake_ms": 35.42,
+          "max_brake_pressure": 0.514,
+          "no_braking": false,
+          "lap": 3
+        },
+        {
+          "brake_start_pct": 0.40343,
+          "speed_at_brake_kmh": 127.1,
+          "speed_at_brake_ms": 35.31,
+          "max_brake_pressure": 0.678,
+          "no_braking": false,
+          "lap": 4
+        },
+        {
+          "brake_start_pct": 0.40323,
+          "speed_at_brake_kmh": 125.8,
+          "speed_at_brake_ms": 34.95,
+          "max_brake_pressure": 0.327,
+          "no_braking": false,
+          "lap": 5
+        },
+        {
+          "brake_start_pct": 0.40676,
+          "speed_at_brake_kmh": 129.2,
+          "speed_at_brake_ms": 35.88,
+          "max_brake_pressure": 0.651,
+          "no_braking": false,
+          "lap": 6
+        },
+        {
+          "brake_start_pct": 0.40781,
+          "speed_at_brake_kmh": 130.4,
+          "speed_at_brake_ms": 36.22,
+          "max_brake_pressure": 0.626,
+          "no_braking": false,
+          "lap": 7
+        },
+        {
+          "brake_start_pct": 0.40775,
+          "speed_at_brake_kmh": 130.9,
+          "speed_at_brake_ms": 36.37,
+          "max_brake_pressure": 0.525,
+          "no_braking": false,
+          "lap": 8
+        },
+        {
+          "brake_start_pct": 0.40708,
+          "speed_at_brake_kmh": 130.8,
+          "speed_at_brake_ms": 36.33,
+          "max_brake_pressure": 0.633,
+          "no_braking": false,
+          "lap": 9
+        },
+        {
+          "brake_start_pct": 0.40525,
+          "speed_at_brake_kmh": 130.3,
+          "speed_at_brake_ms": 36.18,
+          "max_brake_pressure": 0.59,
+          "no_braking": false,
+          "lap": 10
+        },
+        {
+          "brake_start_pct": 0.40679,
+          "speed_at_brake_kmh": 130.6,
+          "speed_at_brake_ms": 36.28,
+          "max_brake_pressure": 0.707,
+          "no_braking": false,
+          "lap": 11
+        },
+        {
+          "brake_start_pct": 0.40569,
+          "speed_at_brake_kmh": 129.7,
+          "speed_at_brake_ms": 36.03,
+          "max_brake_pressure": 0.405,
+          "no_braking": false,
+          "lap": 12
+        },
+        {
+          "brake_start_pct": 0.40344,
+          "speed_at_brake_kmh": 127.5,
+          "speed_at_brake_ms": 35.42,
+          "max_brake_pressure": 0.529,
+          "no_braking": false,
+          "lap": 13
+        },
+        {
+          "brake_start_pct": 0.409,
+          "speed_at_brake_kmh": 128.2,
+          "speed_at_brake_ms": 35.61,
+          "max_brake_pressure": 0.237,
+          "no_braking": false,
+          "lap": 14
+        },
+        {
+          "brake_start_pct": 0.40339,
+          "speed_at_brake_kmh": 127.7,
+          "speed_at_brake_ms": 35.48,
+          "max_brake_pressure": 0.737,
+          "no_braking": false,
+          "lap": 15
+        },
+        {
+          "brake_start_pct": 0.40512,
+          "speed_at_brake_kmh": 128.8,
+          "speed_at_brake_ms": 35.78,
+          "max_brake_pressure": 0.663,
+          "no_braking": false,
+          "lap": 16
+        },
+        {
+          "brake_start_pct": 0.40472,
+          "speed_at_brake_kmh": 129.8,
+          "speed_at_brake_ms": 36.04,
+          "max_brake_pressure": 0.849,
+          "no_braking": false,
+          "lap": 17
+        }
+      ],
+      "consistency": {
+        "sigma_track_pct": 0.00174,
+        "sigma_meters": 4.5,
+        "drift_range_pct": 0.00577,
+        "drift_range_m": 15.0,
+        "speed_sigma_kmh": 2.0,
+        "avg_brake_pressure": 0.57,
+        "max_brake_pressure": 0.849,
+        "laps_analyzed": 17,
+        "earliest_brake_lap": 5,
+        "latest_brake_lap": 14,
+        "earliest_brake_m_before_corner": 28.0,
+        "latest_brake_m_before_corner": 13.0
+      },
+      "avg_brake_point_pct": 0.40556,
+      "avg_brake_point_m_before_corner": 21.9,
+      "avg_speed_at_brake_kmh": 128.6
+    },
+    "Yokohama Bridge": {
+      "corner_start_pct": 0.478,
+      "search_window_start_pct": 0.378,
+      "brake_points": [
+        {
+          "brake_start_pct": 0.40508,
+          "speed_at_brake_kmh": 123.2,
+          "speed_at_brake_ms": 34.22,
+          "max_brake_pressure": 0.416,
+          "no_braking": false,
+          "lap": 1
+        },
+        {
+          "brake_start_pct": 0.40457,
+          "speed_at_brake_kmh": 128.3,
+          "speed_at_brake_ms": 35.63,
+          "max_brake_pressure": 0.113,
+          "no_braking": false,
+          "lap": 2
+        },
+        {
+          "brake_start_pct": 0.40541,
+          "speed_at_brake_kmh": 127.5,
+          "speed_at_brake_ms": 35.42,
+          "max_brake_pressure": 0.021,
+          "no_braking": false,
+          "lap": 3
+        },
+        {
+          "brake_start_pct": 0.40343,
+          "speed_at_brake_kmh": 127.1,
+          "speed_at_brake_ms": 35.31,
+          "max_brake_pressure": 0.505,
+          "no_braking": false,
+          "lap": 4
+        },
+        {
+          "brake_start_pct": 0.40323,
+          "speed_at_brake_kmh": 125.8,
+          "speed_at_brake_ms": 34.95,
+          "max_brake_pressure": 0.241,
+          "no_braking": false,
+          "lap": 5
+        },
+        {
+          "brake_start_pct": 0.40676,
+          "speed_at_brake_kmh": 129.2,
+          "speed_at_brake_ms": 35.88,
+          "max_brake_pressure": 0.049,
+          "no_braking": false,
+          "lap": 6
+        },
+        {
+          "brake_start_pct": 0.40781,
+          "speed_at_brake_kmh": 130.4,
+          "speed_at_brake_ms": 36.22,
+          "max_brake_pressure": 0.305,
+          "no_braking": false,
+          "lap": 7
+        },
+        {
+          "brake_start_pct": 0.40775,
+          "speed_at_brake_kmh": 130.9,
+          "speed_at_brake_ms": 36.37,
+          "max_brake_pressure": 0.344,
+          "no_braking": false,
+          "lap": 8
+        },
+        {
+          "brake_start_pct": 0.40708,
+          "speed_at_brake_kmh": 130.8,
+          "speed_at_brake_ms": 36.33,
+          "max_brake_pressure": 0.195,
+          "no_braking": false,
+          "lap": 9
+        },
+        {
+          "brake_start_pct": 0.40525,
+          "speed_at_brake_kmh": 130.3,
+          "speed_at_brake_ms": 36.18,
+          "max_brake_pressure": 0.327,
+          "no_braking": false,
+          "lap": 10
+        },
+        {
+          "brake_start_pct": 0.40679,
+          "speed_at_brake_kmh": 130.6,
+          "speed_at_brake_ms": 36.28,
+          "max_brake_pressure": 0.049,
+          "no_braking": false,
+          "lap": 11
+        },
+        {
+          "brake_start_pct": 0.40569,
+          "speed_at_brake_kmh": 129.7,
+          "speed_at_brake_ms": 36.03,
+          "max_brake_pressure": 0.0,
+          "no_braking": false,
+          "lap": 12
+        },
+        {
+          "brake_start_pct": 0.40344,
+          "speed_at_brake_kmh": 127.5,
+          "speed_at_brake_ms": 35.42,
+          "max_brake_pressure": 0.0,
+          "no_braking": false,
+          "lap": 13
+        },
+        {
+          "brake_start_pct": 0.409,
+          "speed_at_brake_kmh": 128.2,
+          "speed_at_brake_ms": 35.61,
+          "max_brake_pressure": 0.121,
+          "no_braking": false,
+          "lap": 14
+        },
+        {
+          "brake_start_pct": 0.40339,
+          "speed_at_brake_kmh": 127.7,
+          "speed_at_brake_ms": 35.48,
+          "max_brake_pressure": 0.509,
+          "no_braking": false,
+          "lap": 15
+        },
+        {
+          "brake_start_pct": 0.40512,
+          "speed_at_brake_kmh": 128.8,
+          "speed_at_brake_ms": 35.78,
+          "max_brake_pressure": 0.288,
+          "no_braking": false,
+          "lap": 16
+        },
+        {
+          "brake_start_pct": 0.40472,
+          "speed_at_brake_kmh": 129.8,
+          "speed_at_brake_ms": 36.04,
+          "max_brake_pressure": 0.431,
+          "no_braking": false,
+          "lap": 17
+        }
+      ],
+      "consistency": {
+        "sigma_track_pct": 0.00174,
+        "sigma_meters": 4.5,
+        "drift_range_pct": 0.00577,
+        "drift_range_m": 15.0,
+        "speed_sigma_kmh": 2.0,
+        "avg_brake_pressure": 0.23,
+        "max_brake_pressure": 0.509,
+        "laps_analyzed": 17,
+        "earliest_brake_lap": 5,
+        "latest_brake_lap": 14,
+        "earliest_brake_m_before_corner": 194.4,
+        "latest_brake_m_before_corner": 179.4
+      },
+      "avg_brake_point_pct": 0.40556,
+      "avg_brake_point_m_before_corner": 188.3,
+      "avg_speed_at_brake_kmh": 128.6
+    },
+    "Foster's Dip": {
+      "corner_start_pct": 0.575,
+      "search_window_start_pct": 0.56,
+      "brake_points": [
+        {
+          "brake_start_pct": 0.57192,
+          "speed_at_brake_kmh": 140.3,
+          "speed_at_brake_ms": 38.96,
+          "max_brake_pressure": 0.562,
+          "no_braking": false,
+          "lap": 4
+        },
+        {
+          "brake_start_pct": 0.56697,
+          "speed_at_brake_kmh": 138.0,
+          "speed_at_brake_ms": 38.34,
+          "max_brake_pressure": 0.366,
+          "no_braking": false,
+          "lap": 7
+        },
+        {
+          "brake_start_pct": 0.56987,
+          "speed_at_brake_kmh": 138.7,
+          "speed_at_brake_ms": 38.54,
+          "max_brake_pressure": 0.379,
+          "no_braking": false,
+          "lap": 8
+        },
+        {
+          "brake_start_pct": 0.57339,
+          "speed_at_brake_kmh": 132.4,
+          "speed_at_brake_ms": 36.77,
+          "max_brake_pressure": 0.393,
+          "no_braking": false,
+          "lap": 9
+        },
+        {
+          "brake_start_pct": 0.57226,
+          "speed_at_brake_kmh": 139.6,
+          "speed_at_brake_ms": 38.79,
+          "max_brake_pressure": 0.524,
+          "no_braking": false,
+          "lap": 10
+        },
+        {
+          "brake_start_pct": 0.56917,
+          "speed_at_brake_kmh": 141.6,
+          "speed_at_brake_ms": 39.34,
+          "max_brake_pressure": 0.53,
+          "no_braking": false,
+          "lap": 15
+        },
+        {
+          "brake_start_pct": 0.57176,
+          "speed_at_brake_kmh": 144.6,
+          "speed_at_brake_ms": 40.16,
+          "max_brake_pressure": 0.516,
+          "no_braking": false,
+          "lap": 16
+        },
+        {
+          "brake_start_pct": 0.57431,
+          "speed_at_brake_kmh": 146.0,
+          "speed_at_brake_ms": 40.54,
+          "max_brake_pressure": 0.445,
+          "no_braking": false,
+          "lap": 17
+        }
+      ],
+      "consistency": {
+        "sigma_track_pct": 0.0024,
+        "sigma_meters": 6.2,
+        "drift_range_pct": 0.00734,
+        "drift_range_m": 19.1,
+        "speed_sigma_kmh": 4.2,
+        "avg_brake_pressure": 0.464,
+        "max_brake_pressure": 0.562,
+        "laps_analyzed": 8,
+        "earliest_brake_lap": 7,
+        "latest_brake_lap": 17,
+        "earliest_brake_m_before_corner": 20.9,
+        "latest_brake_m_before_corner": 1.8
+      },
+      "avg_brake_point_pct": 0.57121,
+      "avg_brake_point_m_before_corner": 9.9,
+      "avg_speed_at_brake_kmh": 140.2
+    },
+    "Momo Corner": {
+      "corner_start_pct": 0.67,
+      "search_window_start_pct": 0.66,
+      "brake_points": [
+        {
+          "brake_start_pct": 0.66952,
+          "speed_at_brake_kmh": 140.3,
+          "speed_at_brake_ms": 38.98,
+          "max_brake_pressure": 0.425,
+          "no_braking": false,
+          "lap": 2
+        },
+        {
+          "brake_start_pct": 0.66848,
+          "speed_at_brake_kmh": 145.8,
+          "speed_at_brake_ms": 40.49,
+          "max_brake_pressure": 0.559,
+          "no_braking": false,
+          "lap": 3
+        },
+        {
+          "brake_start_pct": 0.66985,
+          "speed_at_brake_kmh": 138.8,
+          "speed_at_brake_ms": 38.56,
+          "max_brake_pressure": 0.323,
+          "no_braking": false,
+          "lap": 5
+        },
+        {
+          "brake_start_pct": 0.66764,
+          "speed_at_brake_kmh": 144.4,
+          "speed_at_brake_ms": 40.12,
+          "max_brake_pressure": 0.618,
+          "no_braking": false,
+          "lap": 6
+        },
+        {
+          "brake_start_pct": 0.66487,
+          "speed_at_brake_kmh": 145.6,
+          "speed_at_brake_ms": 40.44,
+          "max_brake_pressure": 0.366,
+          "no_braking": false,
+          "lap": 7
+        },
+        {
+          "brake_start_pct": 0.66752,
+          "speed_at_brake_kmh": 146.8,
+          "speed_at_brake_ms": 40.77,
+          "max_brake_pressure": 0.379,
+          "no_braking": false,
+          "lap": 8
+        },
+        {
+          "brake_start_pct": 0.66727,
+          "speed_at_brake_kmh": 150.1,
+          "speed_at_brake_ms": 41.7,
+          "max_brake_pressure": 0.572,
+          "no_braking": false,
+          "lap": 10
+        },
+        {
+          "brake_start_pct": 0.66907,
+          "speed_at_brake_kmh": 142.3,
+          "speed_at_brake_ms": 39.52,
+          "max_brake_pressure": 0.541,
+          "no_braking": false,
+          "lap": 12
+        },
+        {
+          "brake_start_pct": 0.66934,
+          "speed_at_brake_kmh": 146.5,
+          "speed_at_brake_ms": 40.69,
+          "max_brake_pressure": 0.525,
+          "no_braking": false,
+          "lap": 14
+        },
+        {
+          "brake_start_pct": 0.66929,
+          "speed_at_brake_kmh": 150.4,
+          "speed_at_brake_ms": 41.78,
+          "max_brake_pressure": 0.53,
+          "no_braking": false,
+          "lap": 15
+        },
+        {
+          "brake_start_pct": 0.66813,
+          "speed_at_brake_kmh": 150.0,
+          "speed_at_brake_ms": 41.68,
+          "max_brake_pressure": 0.516,
+          "no_braking": false,
+          "lap": 16
+        }
+      ],
+      "consistency": {
+        "sigma_track_pct": 0.00143,
+        "sigma_meters": 3.7,
+        "drift_range_pct": 0.00498,
+        "drift_range_m": 12.9,
+        "speed_sigma_kmh": 3.9,
+        "avg_brake_pressure": 0.487,
+        "max_brake_pressure": 0.618,
+        "laps_analyzed": 11,
+        "earliest_brake_lap": 7,
+        "latest_brake_lap": 5,
+        "earliest_brake_m_before_corner": 13.3,
+        "latest_brake_m_before_corner": 0.4
+      },
+      "avg_brake_point_pct": 0.66827,
+      "avg_brake_point_m_before_corner": 4.5,
+      "avg_speed_at_brake_kmh": 145.5
+    },
+    "O'Brien Aluminium Dogleg": {
+      "corner_start_pct": 0.755,
+      "search_window_start_pct": 0.74,
+      "brake_points": [],
+      "consistency": {
+        "laps_analyzed": 0
+      }
+    },
+    "Recaro Corner": {
+      "corner_start_pct": 0.85,
+      "search_window_start_pct": 0.84,
+      "brake_points": [
+        {
+          "brake_start_pct": 0.84766,
+          "speed_at_brake_kmh": 141.3,
+          "speed_at_brake_ms": 39.25,
+          "max_brake_pressure": 0.583,
+          "no_braking": false,
+          "lap": 1
+        },
+        {
+          "brake_start_pct": 0.84594,
+          "speed_at_brake_kmh": 146.3,
+          "speed_at_brake_ms": 40.64,
+          "max_brake_pressure": 0.539,
+          "no_braking": false,
+          "lap": 2
+        },
+        {
+          "brake_start_pct": 0.84304,
+          "speed_at_brake_kmh": 150.4,
+          "speed_at_brake_ms": 41.77,
+          "max_brake_pressure": 0.419,
+          "no_braking": false,
+          "lap": 3
+        },
+        {
+          "brake_start_pct": 0.84687,
+          "speed_at_brake_kmh": 151.8,
+          "speed_at_brake_ms": 42.18,
+          "max_brake_pressure": 0.702,
+          "no_braking": false,
+          "lap": 5
+        },
+        {
+          "brake_start_pct": 0.84187,
+          "speed_at_brake_kmh": 151.6,
+          "speed_at_brake_ms": 42.1,
+          "max_brake_pressure": 0.484,
+          "no_braking": false,
+          "lap": 6
+        },
+        {
+          "brake_start_pct": 0.8401,
+          "speed_at_brake_kmh": 159.1,
+          "speed_at_brake_ms": 44.21,
+          "max_brake_pressure": 0.512,
+          "no_braking": false,
+          "lap": 7
+        },
+        {
+          "brake_start_pct": 0.8407,
+          "speed_at_brake_kmh": 162.5,
+          "speed_at_brake_ms": 45.15,
+          "max_brake_pressure": 0.568,
+          "no_braking": false,
+          "lap": 8
+        },
+        {
+          "brake_start_pct": 0.84687,
+          "speed_at_brake_kmh": 162.8,
+          "speed_at_brake_ms": 45.23,
+          "max_brake_pressure": 0.798,
+          "no_braking": false,
+          "lap": 9
+        },
+        {
+          "brake_start_pct": 0.84667,
+          "speed_at_brake_kmh": 161.6,
+          "speed_at_brake_ms": 44.89,
+          "max_brake_pressure": 0.86,
+          "no_braking": false,
+          "lap": 10
+        },
+        {
+          "brake_start_pct": 0.84304,
+          "speed_at_brake_kmh": 162.3,
+          "speed_at_brake_ms": 45.09,
+          "max_brake_pressure": 0.703,
+          "no_braking": false,
+          "lap": 11
+        },
+        {
+          "brake_start_pct": 0.8444,
+          "speed_at_brake_kmh": 162.6,
+          "speed_at_brake_ms": 45.17,
+          "max_brake_pressure": 0.635,
+          "no_braking": false,
+          "lap": 12
+        },
+        {
+          "brake_start_pct": 0.84719,
+          "speed_at_brake_kmh": 166.1,
+          "speed_at_brake_ms": 46.14,
+          "max_brake_pressure": 0.887,
+          "no_braking": false,
+          "lap": 13
+        },
+        {
+          "brake_start_pct": 0.84947,
+          "speed_at_brake_kmh": 168.2,
+          "speed_at_brake_ms": 46.71,
+          "max_brake_pressure": 0.893,
+          "no_braking": false,
+          "lap": 14
+        },
+        {
+          "brake_start_pct": 0.84738,
+          "speed_at_brake_kmh": 167.5,
+          "speed_at_brake_ms": 46.52,
+          "max_brake_pressure": 0.903,
+          "no_braking": false,
+          "lap": 15
+        },
+        {
+          "brake_start_pct": 0.84723,
+          "speed_at_brake_kmh": 167.7,
+          "speed_at_brake_ms": 46.6,
+          "max_brake_pressure": 0.895,
+          "no_braking": false,
+          "lap": 16
+        },
+        {
+          "brake_start_pct": 0.84331,
+          "speed_at_brake_kmh": 161.6,
+          "speed_at_brake_ms": 44.9,
+          "max_brake_pressure": 0.845,
+          "no_braking": false,
+          "lap": 17
+        }
+      ],
+      "consistency": {
+        "sigma_track_pct": 0.00278,
+        "sigma_meters": 7.2,
+        "drift_range_pct": 0.00937,
+        "drift_range_m": 24.4,
+        "speed_sigma_kmh": 8.2,
+        "avg_brake_pressure": 0.702,
+        "max_brake_pressure": 0.903,
+        "laps_analyzed": 16,
+        "earliest_brake_lap": 7,
+        "latest_brake_lap": 14,
+        "earliest_brake_m_before_corner": 25.7,
+        "latest_brake_m_before_corner": 1.4
+      },
+      "avg_brake_point_pct": 0.84511,
+      "avg_brake_point_m_before_corner": 12.7,
+      "avg_speed_at_brake_kmh": 159.0
+    }
+  }
+}
