@@ -210,6 +210,68 @@
     "Target: Break 1:11.0 next session by fixing The Sweeper alone.",
     "iRating: 1738. SR: 3.63 (B license). 5-week trajectory: +500 iRating."
   ],
+  "tools_reference": {
+    "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",
+    
+    "ibt_analysis": {
+      "tools/core/extract_session_from_ibt.py": "Extract session JSON from IBT (laps, sectors, corners, consistency). USE FOR: storing new sessions.",
+      "tools/core/extract_lap_telemetry.py": "Extract single lap from IBT to CSV. USE FOR: preparing laps for comparison tools.",
+      "tools/core/parse_ibt.py": "Parse IBT and list/extract channels. USE FOR: exploring what data IBT contains.",
+      "tools/coach/analyze_ibt_technique.py": "Technique analysis from IBT (oversteer, temps, weight transfer). USE FOR: technique deep-dive."
+    },
+    
+    "csv_analysis": {
+      "tools/core/analyze_session.py": "Analyze G61 CSV session (laps, sectors). USE FOR: quick session stats from CSV.",
+      "tools/coach/analyze_braking_technique.py": "Brake zone analysis from CSV (trail braking, release). USE FOR: braking technique review.",
+      "tools/coach/analyze_car_balance.py": "Understeer/oversteer detection from IBT. USE FOR: setup or technique diagnosis."
+    },
+    
+    "comparison": {
+      "tools/coach/compare_telemetry.py": "Compare two CSV laps (speed, braking, cornering, overdriving). USE FOR: alien comparison.",
+      "tools/coach/compare_laps.py": "Compare two laps within same IBT session. USE FOR: best vs worst lap analysis.",
+      "tools/coach/visualize_racing_lines.py": "Compare GPS lines between two laps. USE FOR: line difference visualization."
+    },
+    
+    "technique_detail": {
+      "tools/coach/detect_apex_points.py": "Apex position consistency per corner. USE FOR: apex variance analysis.",
+      "tools/coach/detect_brake_point_drift.py": "Brake point consistency per corner. USE FOR: brake consistency analysis.",
+      "tools/coach/analyze_input_smoothness.py": "Steering/throttle smoothness (jerk metrics). USE FOR: input quality analysis."
+    },
+    
+    "track_maps": {
+      "tools/core/generate_track_map.py": "Generate track map with sectors + corners from CSV. USE FOR: track file maps.",
+      "tools/coach/visualize_track_comparison.py": "Speed delta map comparing two laps (red/green). USE FOR: alien comparison visual."
+    },
+    
+    "session_visualizations": {
+      "tools/viz/consistency_heatmap.py": "Corner consistency heatmap. USE FOR: session reports.",
+      "tools/viz/lap_evolution_chart.py": "Lap time progression chart. USE FOR: session reports.",
+      "tools/viz/brake_variance_chart.py": "Brake point variance visualization. USE FOR: brake consistency visual.",
+      "tools/viz/corner_entry_traces.py": "Brake/steering/speed traces per corner. USE FOR: trail braking analysis."
+    },
+    
+    "standings_and_rivals": {
+      "tools/coach/analyze_standings.py": "Season standings analysis (position, percentile, division). USE FOR: championship updates.",
+      "tools/coach/track_rivals.py": "Compare stats vs specific rivals. USE FOR: rivalry tracking.",
+      "tools/coach/compare_weekly_standings.py": "Week-over-week standings comparison. USE FOR: progression tracking.",
+      "tools/coach/visualize_standings_progression.py": "iRating/position trajectory charts. USE FOR: season progression visual.",
+      "tools/coach/visualize_irating_distribution.py": "iRating histogram with driver position. USE FOR: field context.",
+      "tools/core/generate_weekly_standings_report.py": "Generate standings markdown report. USE FOR: week summaries."
+    },
+    
+    "educational": {
+      "tools/coach/visualize_traction_circle.py": "Traction circle diagram. USE FOR: explaining grip concepts.",
+      "tools/coach/visualize_driver_traction_circle.py": "Driver's actual traction usage from telemetry. USE FOR: showing grip usage."
+    },
+    
+    "utilities": {
+      "tools/core/analysis_formatter.py": "Format session analysis output (lap times, etc). IMPORT for formatting.",
+      "tools/core/time_formatter.py": "Lap time formatting utilities. IMPORT for time strings.",
+      "tools/core/corner_identifier.py": "Identify corners from track data + distance. IMPORT for corner lookup.",
+      "tools/core/track_data_loader.py": "Load track JSON data. IMPORT for track info.",
+      "tools/core/data_loader.py": "Core CSV loading utilities. IMPORT for data loading."
+    }
+  },
   "guidebook_updates": [
     {
       "date": "2026-01-10",

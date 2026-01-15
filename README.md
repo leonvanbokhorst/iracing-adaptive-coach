@@ -23,12 +23,12 @@
 
 | Metric              | [Week 05 (Oschersleben)](./weeks/week05/README.md) | [Week 06 (Oran Park)](./weeks/week06/README.md) | Week 07 (Summit Main) | Week 08 (VIR North) |
 | :------------------ | :------------------------------------------------: | :---------------------------------------------: | :-------------------: | :-----------------: |
-| **Best Lap**        |                   **1:32.700** ⭐                   |                        —                        |           —           |          —          |
-| **PB Improvement**  |                      -1.118s                       |                        —                        |           —           |          —          |
-| **Consistency (σ)** |                    0.77 (race)                     |                        —                        |           —           |          —          |
+| **Best Lap**        |                   **1:32.700** ⭐                   |                    1:12.583                     |           —           |          —          |
+| **PB Improvement**  |                      -1.118s                       |                   (baseline)                    |           —           |          —          |
+| **Consistency (σ)** |                    0.77 (race)                     |                      1.539                      |           —           |          —          |
 | **Race Result**     |                 P5 + P4 (Top Split)                |                        —                        |           —           |          —          |
-| **iRating**         |                     **1738** ⭐                     |                        —                        |           —           |          —          |
-| **Mood**            |                   T2 Conquered 🏨                   |                    🦜 Ready                     |           —           |          —          |
+| **iRating**         |                     **1738** ⭐                     |                      1738                       |           —           |          —          |
+| **Mood**            |                   T2 Conquered 🏨                   |                 🦜 Hunting Gong                 |           —           |          —          |
 
 ### Weeks 09–12
 
@@ -46,6 +46,28 @@
 ---
 
 ## The Story So Far
+
+### Week 06: The Alien Arrives (Oran Park)
+
+The track bit first.
+
+Champion Curve—blind entry, climbing, tightening—didn't ask if Master Lonn belonged. It told him he didn't. Multiple offs. Multiple spins. A 3-second swing at one corner. The "ups and downs" he mentioned in his debrief? The data showed exactly what he meant.
+
+And yet: Lap 14, **1:12.583**. Five seconds faster than Lap 1. After the drama. The PB came *because* he pushed through.
+
+Then came Shuning Gong. **1:09.856**. The alien reference lap revealed something brutal: Master Lonn was slower on **96.3%** of the track. Not the straights—top speed was identical. The corners. All of them.
+
+The deepest red on the speed map? The Sweeper. **-23 km/h**.
+
+_"You're braking 75% of that corner. Gong brakes 42%."_
+
+The Sweeper isn't a braking zone. It's a lift zone. Gong carries 160+ km/h through while Master Lonn was treating it like Hotel Exit—heavy braking before a tight corner. But this isn't tight. It's a fast sweeper.
+
+The path to 1:11 is clear. Stop braking where braking isn't needed.
+
+**Week 06 Status**: 1:12.583 baseline | Gap to Gong: 2.7s | Priority: The Sweeper technique
+
+---
 
 ### Week 05: The Achilles Heel Dies at Hotel (Oschersleben)
 
@@ -151,7 +173,8 @@ When the mind quiets, the car flies.
 **Week 02**: 1:28.508. The rust is gone.  
 **Week 03**: 1601 iR. First Official Victory. Cold Tire Contract born.  
 **Week 04**: Chapter 16 → 3 hours → Beating Gong through T5. P3 Top Split podium.  
-**Week 05**: T2 Hotel conquered. **1:32.700 PB.** Two Top Split finishes. **T2 MASTERED in race conditions.**
+**Week 05**: T2 Hotel conquered. **1:32.700 PB.** Two Top Split finishes. **T2 MASTERED in race conditions.**  
+**Week 06**: Alien comparison reveals the truth—2.7s gap lives in corner speed, not straights. The Sweeper exposed.
 
 ---
 
@@ -211,21 +234,23 @@ Week 05: 1738 iR ─────────────────────
 
 ## What's Next
 
-**Week 06**: [Oran Park Raceway – Grand Prix](./weeks/week06/README.md) 🦜  
-A 2.6km momentum playground with a figure-eight bridge. Australia's suburban fever dream.
+**Week 06 continues**: [Oran Park Raceway – Grand Prix](./weeks/week06/README.md) 🦜  
+Baseline established. Alien dissected. Now the real work begins.
 
-**Key Corners**: Coca-Cola (tight right), Yokohama Bridge (trust the climb), Suttons double-apex (the money corner)
+**Priority 1**: The Sweeper — LIFT, don't brake. Carry 160+ km/h.  
+**Priority 2**: Champion Curve — Later apex, trust the grip.  
+**Priority 3**: Momo Corner — Hidden 11 km/h loss exposed.
 
-**The Mission**: Old-school flow. Rhythm over heroics.
-
----
-
-The Hotel has been checked out. The Achilles heel is dead. The drama queen got his PB anyway.
-
-Time for Australia.
+**Target**: Break **1:11.0** by fixing The Sweeper alone.
 
 ---
 
-_"Very clean and controlled. Kept distance from erratic drivers, watched them crash and burn."_ 🏁
+The Hotel has been checked out. The Achilles heel is dead. Now an alien named Gong is showing Master Lonn exactly where 2.7 seconds lives.
 
-**Sleep well, Master. See you at Oran Park.** 🦜
+96.3% of the lap is red. Time to paint it green.
+
+---
+
+_"Tricky track with, eh, ups and downs. I think in time I'll get the hang of it though... Fun track."_ 🦜
+
+**The hunt begins.** 🎯
