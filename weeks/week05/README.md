@@ -109,15 +109,15 @@ The Hotel is where you LOSE, not where you WIN.
 
 ## The Numbers
 
-| Metric              | Start (Jan 6) | End (Jan 13)           | Change      | Notes                       |
-| :------------------ | :------------ | :--------------------- | :---------- | :-------------------------- |
-| **Best Lap**        | 1:33.818      | **1:32.700**           | **-1.118s** | NEW PB (Official Race!)     |
-| **Consistency (σ)** | 0.38s         | 0.88s (race, no inc)   | +0.50s      | Race conditions             |
-| **T2 Hotel Exit σ** | 2.257s        | **0.066s** (clean air) | **-97%**    | Mastered in practice        |
-| **Corners Dialed**  | 2/14          | **13/14**              | +11         | T2 flagged due to incident  |
-| **Gap to Gong**     | 2.42s         | **1.30s**              | **-1.12s**  | Closing fast                |
-| **iRating**         | 1672          | **1703**               | **+31**     | Top split, over-performed   |
-| **SR**              | 3.64          | 3.54                   | -0.10       | 5x from contact             |
+| Metric              | Start (Jan 6) | End (Jan 13)           | Change      | Notes                      |
+| :------------------ | :------------ | :--------------------- | :---------- | :------------------------- |
+| **Best Lap**        | 1:33.818      | **1:32.700**           | **-1.118s** | NEW PB (Official Race!)    |
+| **Consistency (σ)** | 0.38s         | 0.88s (race, no inc)   | +0.50s      | Race conditions            |
+| **T2 Hotel Exit σ** | 2.257s        | **0.066s** (clean air) | **-97%**    | Mastered in practice       |
+| **Corners Dialed**  | 2/14          | **13/14**              | +11         | T2 flagged due to incident |
+| **Gap to Gong**     | 2.42s         | **1.30s**              | **-1.12s**  | Closing fast               |
+| **iRating**         | 1672          | **1703**               | **+31**     | Top split, over-performed  |
+| **SR**              | 3.64          | 3.54                   | -0.10       | 5x from contact            |
 
 **Week Stats:**
 
@@ -135,19 +135,19 @@ The Hotel is where you LOSE, not where you WIN.
 
 ## Session Log
 
-| Date   | Time  | Type                                                                    | Best Lap     | σ       | Result          | Key Takeaway                               |
-| :----- | :---- | :---------------------------------------------------------------------- | :----------- | :------ | :-------------- | :----------------------------------------- |
-| Jan 6  | 13:45 | [Practice 01](2026-01-06-13-45-Oschersleben-Practice-01-Baseline.md)    | 1:33.818     | 0.38s   | Baseline        | GR86 muscle memory helps with layout       |
-| Jan 6  | 18:18 | [Practice 02](2026-01-06-18-18-Oschersleben-Practice-02.md)             | 1:33.333     | 2.84s   | PB              | T2 lottery discovered (σ 2.257s)           |
-| Jan 7  | 18:07 | [Practice 03](2026-01-07-18-07-Oschersleben-Practice-03.md)             | 1:33.167     | 0.40s   | PB              | T2 breakthrough (σ 0.231s), 0 incidents    |
-| Jan 8  | 10:21 | [AI Race 01](2026-01-08-10-21-Oschersleben-AI-Race-01.md)               | 1:33.983     | 0.97s   | **P6→P1** 🏆    | T2 DIALED (σ 0.066s), Contract Win #5      |
-| Jan 9  | 14:26 | [AI Race 02](2026-01-09-14-26-Oschersleben-AI-Race-02.md)               | 1:32.933     | 0.43s   | **P1** 🏆       | PB while defending, Win #6                 |
-| Jan 10 | 10:17 | [Smooth Practice](2026-01-10-10-17-Oschersleben-Smooth-Practice.md)     | 1:32.967     | 0.52s   | —               | Steering jerk ↓11%                         |
-| Jan 10 | 12:48 | [AI Race 03](2026-01-10-12-48-Oschersleben-AI-Race-03-PUNTED.md)        | 1:33.183     | 3.55s\* | **P1→P10** ⚠️   | PUNTED at T2 on final lap                  |
-| Jan 11 | ~12:00| Practice (Wheelbase)                                                    | 1:32.907     | —       | PB              | Technique discovered                       |
-| Jan 11 | 13:42 | [AI Race 04](2026-01-11-13-42-oschersleben-ai-race-04.md)               | 1:33.300     | 1.86s\* | **P6→P2**       | T2 incident L7, still climbed              |
-| Jan 11 | 14:11 | [AI Race 05](2026-01-11-14-11-oschersleben-ai-race-05.md)               | 1:33.717     | 1.60s\* | **P6→P2**       | T2 incident L8, L6-L7 elite (0.016s apart) |
-| Jan 13 | 13:57 | [**Official Race**](2026-01-13-13-57-oschersleben-official-race.md)     | **1:32.700** | 1.48s\* | **P10→P5** 🏁   | **NEW PB**, Top Split, +31 iR              |
+| Date   | Time   | Type                                                                 | Best Lap     | σ       | Result        | Key Takeaway                               |
+| :----- | :----- | :------------------------------------------------------------------- | :----------- | :------ | :------------ | :----------------------------------------- |
+| Jan 6  | 13:45  | [Practice 01](2026-01-06-13-45-Oschersleben-Practice-01-Baseline.md) | 1:33.818     | 0.38s   | Baseline      | GR86 muscle memory helps with layout       |
+| Jan 6  | 18:18  | [Practice 02](2026-01-06-18-18-Oschersleben-Practice-02.md)          | 1:33.333     | 2.84s   | PB            | T2 lottery discovered (σ 2.257s)           |
+| Jan 7  | 18:07  | [Practice 03](2026-01-07-18-07-Oschersleben-Practice-03.md)          | 1:33.167     | 0.40s   | PB            | T2 breakthrough (σ 0.231s), 0 incidents    |
+| Jan 8  | 10:21  | [AI Race 01](2026-01-08-10-21-Oschersleben-AI-Race-01.md)            | 1:33.983     | 0.97s   | **P6→P1** 🏆  | T2 DIALED (σ 0.066s), Contract Win #5      |
+| Jan 9  | 14:26  | [AI Race 02](2026-01-09-14-26-Oschersleben-AI-Race-02.md)            | 1:32.933     | 0.43s   | **P1** 🏆     | PB while defending, Win #6                 |
+| Jan 10 | 10:17  | [Smooth Practice](2026-01-10-10-17-Oschersleben-Smooth-Practice.md)  | 1:32.967     | 0.52s   | —             | Steering jerk ↓11%                         |
+| Jan 10 | 12:48  | [AI Race 03](2026-01-10-12-48-Oschersleben-AI-Race-03-PUNTED.md)     | 1:33.183     | 3.55s\* | **P1→P10** ⚠️ | PUNTED at T2 on final lap                  |
+| Jan 11 | ~12:00 | Practice (Wheelbase)                                                 | 1:32.907     | —       | PB            | Technique discovered                       |
+| Jan 11 | 13:42  | [AI Race 04](2026-01-11-13-42-oschersleben-ai-race-04.md)            | 1:33.300     | 1.86s\* | **P6→P2**     | T2 incident L7, still climbed              |
+| Jan 11 | 14:11  | [AI Race 05](2026-01-11-14-11-oschersleben-ai-race-05.md)            | 1:33.717     | 1.60s\* | **P6→P2**     | T2 incident L8, L6-L7 elite (0.016s apart) |
+| Jan 13 | 13:57  | [**Official Race**](2026-01-13-13-57-oschersleben-official-race.md)  | **1:32.700** | 1.48s\* | **P10→P5** 🏁 | **NEW PB**, Top Split, +31 iR              |
 
 \*σ skewed by T2 incidents
 
@@ -203,17 +203,17 @@ The Hotel is where you LOSE, not where you WIN.
 
 ## Cold Tire Contract v2.0 Update
 
-| Race                   | Grid | Finish    | Method                     |
-| :--------------------- | :--: | :-------: | :------------------------- |
-| Winton AI              | P11  | P1        | Survive L1-3, attack L4+   |
-| Lime Rock AI #1        | P5   | P1        | Survive L1-3, attack L4+   |
-| Lime Rock AI #2        | P6   | P1        | Survive L1-3, attack L4+   |
-| Lime Rock AI #3        | P?   | P2\*      | Aggression experiment      |
-| Oschersleben AI #1     | P6   | **P1** 🏆 | Patience L1-6, attack L7-8 |
-| Oschersleben AI #2     | P1   | **P1** 🏆 | Defense L5-8, PB on L7     |
-| Oschersleben AI #3     | P1   | P10\*\*   | Led 7 laps, punted at T2   |
-| Oschersleben AI #4     | P6   | **P2**    | T2 incident L7, climbed 4  |
-| Oschersleben AI #5     | P6   | **P2**    | T2 incident L8, climbed 4  |
+| Race                      |  Grid   |  Finish   | Method                                          |
+| :------------------------ | :-----: | :-------: | :---------------------------------------------- |
+| Winton AI                 |   P11   |    P1     | Survive L1-3, attack L4+                        |
+| Lime Rock AI #1           |   P5    |    P1     | Survive L1-3, attack L4+                        |
+| Lime Rock AI #2           |   P6    |    P1     | Survive L1-3, attack L4+                        |
+| Lime Rock AI #3           |   P?    |   P2\*    | Aggression experiment                           |
+| Oschersleben AI #1        |   P6    | **P1** 🏆 | Patience L1-6, attack L7-8                      |
+| Oschersleben AI #2        |   P1    | **P1** 🏆 | Defense L5-8, PB on L7                          |
+| Oschersleben AI #3        |   P1    |  P10\*\*  | Led 7 laps, punted at T2                        |
+| Oschersleben AI #4        |   P6    |  **P2**   | T2 incident L7, climbed 4                       |
+| Oschersleben AI #5        |   P6    |  **P2**   | T2 incident L8, climbed 4                       |
 | **Oschersleben Official** | **P10** | **P5** 🏁 | **L1-5 build, L6 PB, L7 incident, L8 recovery** |
 
 \*Aggression test. \*\*AI contact.
@@ -227,9 +227,9 @@ The Hotel is where you LOSE, not where you WIN.
 **Track**: Motorsport Arena Oschersleben GP  
 **Car**: Ray FF1600
 
-| Position  | Percentile    | PB           | Gap to P1 |
-| :-------: | :-----------: | :----------: | :-------: |
-| ~P165/1200| **Top 14%**   | **1:32.700** | 1.30s     |
+|  Position  | Percentile  |      PB      | Gap to P1 |
+| :--------: | :---------: | :----------: | :-------: |
+| ~P165/1200 | **Top 14%** | **1:32.700** |   1.30s   |
 
 **Targets:**
 
@@ -242,13 +242,13 @@ The Hotel is where you LOSE, not where you WIN.
 
 **Final Stats:**
 
-| Metric          | Start   | End      | Change    |
-| :-------------- | :------ | :------- | :-------- |
-| **PB**          | 1:33.818| **1:32.700** | **-1.118s** |
-| **iRating**     | 1672    | **1703** | **+31**   |
-| **SR**          | 3.64    | 3.54     | -0.10     |
-| **Gap to Gong** | 2.42s   | 1.30s    | -1.12s    |
-| **Championship**| -       | 68 pts   | -         |
+| Metric           | Start    | End          | Change      |
+| :--------------- | :------- | :----------- | :---------- |
+| **PB**           | 1:33.818 | **1:32.700** | **-1.118s** |
+| **iRating**      | 1672     | **1703**     | **+31**     |
+| **SR**           | 3.64     | 3.54         | -0.10       |
+| **Gap to Gong**  | 2.42s    | 1.30s        | -1.12s      |
+| **Championship** | -        | 68 pts       | -           |
 
 ---
 
