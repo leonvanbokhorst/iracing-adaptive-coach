@@ -133,6 +133,28 @@ The Hotel is where you LOSE, not where you WIN.
 
 ---
 
+## 📊 Season Standings (End of Week 05)
+
+**[Full Standings Report →](standings-report.md)**
+
+### The Climb Continues
+
+| Week       | Position          | iRating  | Percentile    | Total Drivers |
+| :--------- | :---------------- | :------- | :------------ | :------------ |
+| 01 (Final) | P749              | 1377     | Top 8.3%      | 8,977         |
+| 02 (Final) | P459              | 1494     | Top 2.9%      | 15,787        |
+| 03 (Final) | P209              | 1601     | Top 1.0%      | 21,567        |
+| 04 (Final) | P129              | 1672     | Top 0.5%      | 26,375        |
+| **05**     | **P106**          | **1738** | **Top 0.38%** | **27,864**    |
+
+**Week 05 Highlights:**
+- Climbed **23 positions** despite 1,489 new drivers joining
+- Now **P3 Dutch** out of 512 drivers (was P6)
+- **6 positions** from Top 100
+- Points percentile (99.6%) still ahead of iRating percentile (91.4%)
+
+---
+
 ## Session Log
 
 | Date   | Time   | Type                                                                      | Best Lap     | σ       | Result        | Key Takeaway                               |

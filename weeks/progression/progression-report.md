@@ -272,6 +272,12 @@ The competition got harder, not you getting worse. You went from racing average 
 
 - Position/points data: iRacing standings exports (week01-05)
 - iRating progression: learning_memory.json (actual weekly values)
+- Week standings reports:
+  - [Week 01 Standings](../week01/standings-report.md)
+  - [Week 02 Standings](../week02/standings-report.md)
+  - [Week 03 Standings](../week03/standings-report.md)
+  - [Week 04 Standings](../week04/standings-report.md)
+  - [Week 05 Standings](../week05/standings-report.md)
 
 **Note:** iRacing exports show current iRating in historical week filters, not historical iRating. The iRating values in this report are the actual recorded values from session-by-session tracking.
 
