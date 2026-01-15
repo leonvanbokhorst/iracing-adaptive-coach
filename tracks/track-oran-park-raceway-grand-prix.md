@@ -18,6 +18,29 @@ The Grand Prix loop was a kind of low-rise rollercoaster: not much raw elevation
 
 ---
 
+## Track Map
+
+![Oran Park GP Circuit Map](track-data/oran-gp-map.png)
+
+### Corner Reference (12 Turns)
+
+| #   | Name                 | Apex % | Notes                                   |
+| --- | -------------------- | ------ | --------------------------------------- |
+| 1   | The Sweeper          | 17%    | Fast right-hander entry to infield      |
+| 2   | Coca-Cola Corner     | 23%    | Tight right, pinches on exit            |
+| 3   | Shell Corner         | 35%    | Left-hander, entry to technical section |
+| 4   | Champion Curve Entry | 43%    | Blind entry, climbing                   |
+| 5   | Champion Curve Exit  | 47%    | Tightening radius, downhill             |
+| 6   | Yokohama Bridge      | 51%    | Over the bridge, figure-8 crossing      |
+| 7   | Foster's Dip Entry   | 59%    | Compression through the dip             |
+| 8   | Foster's Dip Exit    | 64%    | Exit onto back section                  |
+| 9   | Momo Corner          | 70%    | Fast left-hander                        |
+| 10  | O'Brien Entry        | 77%    | Quick right into dogleg                 |
+| 11  | O'Brien Dogleg       | 79%    | Quick left, flat-out in FF1600          |
+| 12  | Recaro Corner        | 89%    | Final corner onto main straight         |
+
+---
+
 ## Character Notes
 
 - **Figure-eight weirdness** – There aren’t many circuits where you literally drive over your own approach line. That bridge makes Oran Park feel like a grown-up kart track that someone dropped into suburbia.
