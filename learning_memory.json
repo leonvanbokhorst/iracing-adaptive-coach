@@ -8,8 +8,8 @@
     "name": "Leon Remondo van Bokhorst",
     "country": "NL",
     "irating_start": 1238,
-    "irating_current": 1703,
-    "irating_change": 465,
+    "irating_current": 1738,
+    "irating_change": 500,
     "license_class": "B",
     "division_current": 8,
     "series": "Formula 1600 Rookie Series",
@@ -356,6 +356,44 @@
         }
       },
       "notes": "WEEK 05 OFFICIAL RACE - NEW PB! 🏆 TOP SPLIT (SoF 1828). P10→P5 (+5 positions). +31 iRating (1672→1703). SR -0.10 (3.64→3.54) from incident. Championship: 68 pts. Sleep-deprived, quali disaster (2x Hotel offs = no time set = P10), then contact at T2 on Lap 7. DESPITE all adversity: NEW PB 1:32.700 on Lap 6 (-0.207s from previous 1:32.907). Cold Tire Contract deployed: L1-5 building pace, L6 BOOM = PB. Recovery after incident: L8 was 1:33.833 (solid composure). 13/14 corners still dialed (T2 flagged due to incident, not technique regression). Steering smoothness held at 10.8 rad/s² (consistent with recent improvement). Driver felt 'awful' but data says otherwise - pace was real, circumstances didn't cooperate. Gap to Gong now 1.3s (was 2.4s baseline). Over-performed vs field (156 iRating below average). Garage61: 01KEVP972XG6151XC38YJEJ667."
+    },
+    {
+      "date": "2026-01-15",
+      "time": "10:26 CET",
+      "session_type": "Official Race",
+      "track": "Motorsport Arena Oschersleben - Grand Prix",
+      "best_lap": 93.367,
+      "best_lap_formatted": "1:33.367",
+      "consistency_sigma": 0.773,
+      "flying_laps": 7,
+      "total_laps": 8,
+      "incidents": 0,
+      "theoretical_optimal": 93.2,
+      "gap_to_optimal": 0.167,
+      "grid_position": 7,
+      "finish_position": 4,
+      "quali_lap": 93.442,
+      "quali_lap_formatted": "1:33.442",
+      "focus_area": "Meebewegen + calm race execution",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "apex_consistency": {
+          "best": {"T1_Hotel_Entry": 0.2, "T13_Bauer_Kurve": 5.3},
+          "worst": {"T4_Triple_1": 93.1, "T6_Triple_3": 15.8, "T3_Hasseroeder": 14.3}
+        },
+        "brake_point_consistency": {
+          "best": {"T14_Zeppelin_Kurve": 3.0, "T13_Bauer_Kurve": 1.1},
+          "worst": {"T7_Hairpin": 94.5, "T11_Shell_Kurve": 19.0, "T1_Hotel_Entry": 10.3}
+        },
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 10.39,
+          "throttle_avg_jerk_pct_s2": 618.4,
+          "throttle_full_usage_pct": 47.8,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 68.8
+        }
+      },
+      "notes": "Top split (SoF 1558). P7→P4, clean 0x. SR 3.63 (+0.09), iRating +35 (1703→1738). Championship points 66 (lower than previous). Calm race, stayed clear of chaos. G61: 01KF0F218J5ZXHG368R37WWD6X."
     }
   ],
   "insights": [
@@ -421,16 +459,17 @@
     "Steering Smoothness Progression (NEW): Race 02: 12.98 rad/s² → Race 03: 11.43 (-12%) → Race 04: 10.15 (-11%) → Race 05: 10.98. Neural rewiring continues. Smooth input drills + FFB reduction producing measurable, sustained improvement. Now consistently under 11 rad/s².",
     "T2 Hotel Exit Technique SOLVED (Master Lonn Discovery): Trail brake entry → Full brake + quick downshift 4→3→2 → 20% THROTTLE HOLD through apex → Progressive throttle to 100% on exit. KEY INSIGHT: Never fully off throttle through the apex. The 20% hold stabilizes the rear on the downhill decreasing-radius corner. Without it = light rear = snap oversteer = disaster. This matches VRS Gideon technique ('overlap throttle with brakes to stabilize rear'). Master Lonn reverse-engineered it through feel. Now codified for deployment under race pressure.",
     "PB Under Adversity (Official Race Proof): Sleep-deprived + P10 start + mid-race contact = NEW PB anyway. Lap 6 was 1:32.700, one lap BEFORE the incident. The pace was REAL, not lucky. Recovery lap after incident was 1:33.833 (solid composure). Feeling 'awful' and performing well are not mutually exclusive. The systems (Cold Tire Contract, technique foundations) work even when the driver doesn't feel sharp. Trust the process.",
-    "Official Race PB Pattern (NEW): AI Race 02 PB came while defending (competitive pressure). Official Race PB came while building through traffic (strategic patience). Both were NOT in clear air. PBs don't require perfect conditions—they require the right mental state (flow, not forcing). The common thread: commit to the process, let speed come as byproduct."
+    "Official Race PB Pattern (NEW): AI Race 02 PB came while defending (competitive pressure). Official Race PB came while building through traffic (strategic patience). Both were NOT in clear air. PBs don't require perfect conditions—they require the right mental state (flow, not forcing). The common thread: commit to the process, let speed come as byproduct.",
+    "T2 Hotel Exit MASTERY COMPLETE (2026-01-15): The Achilles heel is dead. T2 σ in today's official race = 0.153s (SOLID) with traffic. Progression complete: 2.257s (lottery) → 0.219s (shaky) → 0.066s (dialed in practice) → 0.153s (solid in race). The technique (20% throttle hold through apex) is now muscle memory. T2 is just a corner now, not a nemesis. The 'Race vs Practice Dichotomy' no longer applies—technique holds under pressure."
   ],
   "next_steps": [
     "NEW PB: 1:32.700 (Official Race). Target: Break 1:32.5 (need -0.2s).",
-    "Week 05 COMPLETE: P10→P5 official finish. PB set mid-race. Track mastered (13/14 corners dialed).",
-    "Cold Tire Contract: Proven again. L1-5 build pace, L6 = PB in official race.",
-    "T2 ACHILLES HEEL CONFIRMED: 7th consecutive race/session with T2 incident when contested. Accept and race around it.",
-    "Gap to Alien (Gong 1:31.396): 1.3s from new PB (was 2.4s baseline). Closing fast.",
-    "Sleep is non-negotiable: Racing tired cost quali execution. PB pace was there despite fatigue, but risk increased.",
-    "iRating Trajectory: 1238 → 1703 (+465 in 5 weeks). SR: 3.54 (B license). Championship: 68 pts."
+    "Week 05 Race 02: P7→P4, 0x, clean. iRating 1738 (+35). SR 3.63 (+0.09).",
+    "T2 MASTERED: No longer Achilles heel. σ 0.153s in race conditions. Technique is muscle memory.",
+    "14/14 corners effectively dialed (T3 variance today was race context, not technique).",
+    "Gap to Alien (Gong 1:31.396): 1.3s from PB. Closing fast.",
+    "Sleep is non-negotiable: Racing tired increases risk even when pace is there.",
+    "iRating Trajectory: 1238 → 1738 (+500 in 5 weeks). SR: 3.63 (B license). Championship: 66 pts."
   ],
   "guidebook_updates": [
     {

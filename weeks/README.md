@@ -29,26 +29,31 @@ weeks/
 ## 🎨 Why Assets Folders?
 
 **Clean Separation:**
+
 - Markdown files stay at the top level (easy to find)
 - Charts/images grouped in `assets/` subdirectory (visual clutter hidden)
 - Clear separation between content and visuals
 
 **Better Organization:**
+
 - Week folders don't get cluttered with PNGs
 - Easy to `.gitignore` assets if needed
 - Professional project structure
 
 **Markdown Simplicity:**
+
 - Reference images: `![Chart](assets/chart.png)`
 - All charts in one predictable location
 
 ## 📊 Visualization Types
 
 ### Per-Week Charts (in `week<XX>/assets/`)
+
 - **iRating Distribution (Ranges):** Bar chart showing where you sit in the field
 - **iRating Distribution (Histogram):** Detailed distribution with percentiles
 
 ### Multi-Week Charts (in `progression/assets/`)
+
 - **iRating Progression:** Your rating climb over the season
 - **Position Climb:** Standings position change week-by-week
 - **Percentile Rankings:** Track your percentiles across multiple metrics
@@ -69,6 +74,13 @@ uv run python tools/coach/visualize_standings_progression.py \\
 
 No manual directory creation needed - the tools handle it! 🚀
 
+## ✅ Week Close Checklist
+
+- Create `README.md` for the week summary
+- Generate `standings-report.md` (if standings data exists)
+- Store analysis JSON in `analysis/` (not `assets/`)
+- Keep `assets/` to PNG/JPG only
+
 ## 📝 Report References
 
 Markdown reports reference their charts using relative paths:
@@ -82,4 +94,3 @@ This keeps reports portable and clean.
 ---
 
 **Keep it clean, Master!** 🧹📊
-
