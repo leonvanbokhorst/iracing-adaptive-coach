@@ -2,6 +2,10 @@
 """
 Generate corrected progression charts with actual historical iRating data.
 
+DEPRECATED: This script contains hardcoded historical data from Season 1 2026.
+            For current seasons, use visualize_standings_progression.py instead.
+            Kept for reference only.
+
 iRacing exports show current iRating in historical week filters, not the 
 historical iRating at that point in time. This script uses the actual 
 recorded values from learning_memory.json.
@@ -9,6 +13,14 @@ recorded values from learning_memory.json.
 Usage:
     python tools/coach/generate_corrected_progression_charts.py
 """
+
+import warnings
+warnings.warn(
+    "generate_corrected_progression_charts.py is deprecated. "
+    "Use visualize_standings_progression.py for current data.",
+    DeprecationWarning,
+    stacklevel=2
+)
 
 import matplotlib.pyplot as plt
 from pathlib import Path
