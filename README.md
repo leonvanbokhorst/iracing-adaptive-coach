@@ -23,12 +23,12 @@
 
 | Metric              | [Week 05 (Oschersleben)](./weeks/week05/README.md) | [Week 06 (Oran Park)](./weeks/week06/README.md) | Week 07 (Summit Main) | Week 08 (VIR North) |
 | :------------------ | :------------------------------------------------: | :---------------------------------------------: | :-------------------: | :-----------------: |
-| **Best Lap**        |                   **1:32.700** ⭐                   |                    1:12.583                     |           —           |          —          |
-| **PB Improvement**  |                      -1.118s                       |                   (baseline)                    |           —           |          —          |
-| **Consistency (σ)** |                    0.77 (race)                     |                      1.539                      |           —           |          —          |
-| **Race Result**     |                 P5 + P4 (Top Split)                |                        —                        |           —           |          —          |
+| **Best Lap**        |                   **1:32.700** ⭐                   |               **🏆 1:11.617 🏆**                |           —           |          —          |
+| **PB Improvement**  |                      -1.118s                       |                  **-0.966s**                    |           —           |          —          |
+| **Consistency (σ)** |                    0.77 (race)                     |                      2.064                      |           —           |          —          |
+| **Race Result**     |                 P5 + P4 (Top Split)                |                   Practice                      |           —           |          —          |
 | **iRating**         |                     **1738** ⭐                     |                      1738                       |           —           |          —          |
-| **Mood**            |                   T2 Conquered 🏨                   |                 🦜 Hunting Gong                 |           —           |          —          |
+| **Mood**            |                   T2 Conquered 🏨                   |        🎯 Champ Curve Laser | 🎰 Foster's Chaos        |           —           |          —          |
 
 ### Weeks 09–12
 
@@ -41,31 +41,31 @@
 | **iRating**         |         —         |        —         |         —         |         —         |
 | **Mood**            |         —         |        —         |         —         |         —         |
 
-📊 **Season Total**: 2 Official Wins | 2 Podiums | P4 + P5 Top Split | 6 AI Wins | **1738 iR (+500)** | Championship P106 (top 0.4%)
+📊 **Season Total**: 2 Official Wins | 2 Podiums | P4 + P5 Top Split | 6 AI Wins | **1738 iR (+500)** | Championship P106 (top 0.4%) | 🏆 Week 06 PB: 1:11.617
 
 ---
 
 ## The Story So Far
 
-### Week 06: The Alien Arrives (Oran Park)
+### Week 06: From Lottery to Laser (Oran Park)
 
 The track bit first.
 
-Champion Curve—blind entry, climbing, tightening—didn't ask if Master Lonn belonged. It told him he didn't. Multiple offs. Multiple spins. A 3-second swing at one corner. The "ups and downs" he mentioned in his debrief? The data showed exactly what he meant.
+Champion Curve—blind entry, climbing, tightening—didn't ask if Master Lonn belonged on Day 1. It told him he didn't. Multiple offs. Multiple spins. A 3-second swing at one corner that could eject you or give you a clean exit depending on which version of luck you brought.
 
-And yet: Lap 14, **1:12.583**. Five seconds faster than Lap 1. After the drama. The PB came *because* he pushed through.
+And yet: Lap 14, **1:12.583**. Five seconds faster than Lap 1. After the drama.
 
-Then came Shuning Gong. **1:09.856**. The alien reference lap revealed something brutal: Master Lonn was slower on **96.3%** of the track. Not the straights—top speed was identical. The corners. All of them.
+Two days later, he came back with a mission: conquer Champion Curve.
 
-The deepest red on the speed map? The Sweeper. **-23 km/h**.
+Champion Curve Entry went from 0.898s variance (lottery) to **0.072s** (laser). That's **92% improvement**. Champion Curve Exit? Work-needed to **0.052s dialed** with 0.2-meter apex precision. The Week 06 goal was "σ < 0.4s." He achieved 0.072s. That's **82% better than the target**.
 
-_"You're braking 75% of that corner. Gong brakes 42%."_
+The result? **1:11.617**. NEW PERSONAL BEST. **0.966 seconds** faster.
 
-The Sweeper isn't a braking zone. It's a lift zone. Gong carries 160+ km/h through while Master Lonn was treating it like Hotel Exit—heavy braking before a tight corner. But this isn't tight. It's a fast sweeper.
+But speed has a price when you're hunting the limit. Foster's Dip—a compound corner with compression and elevation—sent him spinning twice. The consistency suffered. The pace, though? Only **0.217s** from theoretical optimal. He'd found the edge.
 
-The path to 1:11 is clear. Stop braking where braking isn't needed.
+You can't discover the limit without falling off it a few times.
 
-**Week 06 Status**: 1:12.583 baseline | Gap to Gong: 2.7s | Priority: The Sweeper technique
+**Week 06 Status**: **🏆 1:11.617 NEW PB** | Champion Curve MASTERED | Gap to Gong: 2.0s | Next: Foster's Dip chaos
 
 ---
 

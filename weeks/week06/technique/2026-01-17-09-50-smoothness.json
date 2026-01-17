@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "file": "raygr22_oran gp 2026-01-17 09-50-56.ibt",
+    "track": "Oran Park Raceway - GP",
+    "track_id": "oran-gp",
+    "sample_rate_hz": 60,
+    "total_samples": 78057,
+    "duration_seconds": 1301.0,
+    "laps_found": 17
+  },
+  "steering": {
+    "available": true,
+    "avg_jerk_rad_s2": 15.62,
+    "max_jerk_rad_s2": 323.19,
+    "jerk_sigma": 18.0,
+    "avg_velocity_rad_s": 0.64,
+    "max_velocity_rad_s": 8.91,
+    "max_steering_angle_rad": 2.641,
+    "per_corner": {
+      "The Sweeper": {
+        "avg_jerk": 24.18,
+        "max_jerk": 178.85
+      },
+      "Coca-Cola Corner": {
+        "avg_jerk": 10.95,
+        "max_jerk": 179.89
+      },
+      "Shell Corner": {
+        "avg_jerk": 13.21,
+        "max_jerk": 273.0
+      },
+      "Champion Curve Entry": {
+        "avg_jerk": 22.83,
+        "max_jerk": 282.41
+      },
+      "Champion Curve Exit": {
+        "avg_jerk": 10.26,
+        "max_jerk": 143.29
+      },
+      "Yokohama Bridge": {
+        "avg_jerk": 27.9,
+        "max_jerk": 317.96
+      },
+      "Foster's Dip Entry": {
+        "avg_jerk": 17.9,
+        "max_jerk": 155.85
+      },
+      "Foster's Dip Exit": {
+        "avg_jerk": 22.05,
+        "max_jerk": 290.77
+      },
+      "Momo Corner": {
+        "avg_jerk": 14.4,
+        "max_jerk": 100.4
+      },
+      "O'Brien Entry": {
+        "avg_jerk": 18.38,
+        "max_jerk": 110.87
+      },
+      "O'Brien Dogleg": {
+        "avg_jerk": 30.27,
+        "max_jerk": 323.19
+      },
+      "Recaro Corner": {
+        "avg_jerk": 16.84,
+        "max_jerk": 210.23
+      }
+    }
+  },
+  "throttle": {
+    "available": true,
+    "avg_jerk_pct_s2": 459.3,
+    "max_jerk_pct_s2": 56475.8,
+    "avg_application_rate_pct_s": 109.6,
+    "avg_lift_rate_pct_s": 169.0,
+    "max_application_rate_pct_s": 769.7,
+    "max_throttle_pct": 100.0,
+    "avg_throttle_pct": 66.1,
+    "full_throttle_usage_pct": 58.8,
+    "per_corner_exit": {
+      "The Sweeper": {
+        "avg_application_rate": 44.8,
+        "max_application_rate": 130.8
+      },
+      "Coca-Cola Corner": {
+        "avg_application_rate": 130.5,
+        "max_application_rate": 430.2
+      },
+      "Shell Corner": {
+        "avg_application_rate": 134.6,
+        "max_application_rate": 525.1
+      },
+      "Champion Curve Entry": {
+        "avg_application_rate": 188.2,
+        "max_application_rate": 769.7
+      },
+      "Yokohama Bridge": {
+        "avg_application_rate": 100.7,
+        "max_application_rate": 455.6
+      },
+      "Foster's Dip Entry": {
+        "avg_application_rate": 109.8,
+        "max_application_rate": 704.3
+      },
+      "Foster's Dip Exit": {
+        "avg_application_rate": 70.0,
+        "max_application_rate": 210.9
+      },
+      "Momo Corner": {
+        "avg_application_rate": 125.9,
+        "max_application_rate": 497.6
+      },
+      "O'Brien Entry": {
+        "avg_application_rate": 84.7,
+        "max_application_rate": 187.6
+      },
+      "O'Brien Dogleg": {
+        "avg_application_rate": 102.7,
+        "max_application_rate": 472.3
+      },
+      "Recaro Corner": {
+        "avg_application_rate": 78.6,
+        "max_application_rate": 326.8
+      }
+    }
+  },
+  "brake": {
+    "available": true,
+    "avg_jerk_pct_s2": 240.8,
+    "max_jerk_pct_s2": 88288.0,
+    "avg_application_rate_pct_s": 73.1,
+    "avg_release_rate_pct_s": 63.5,
+    "max_application_rate_pct_s": 1293.7,
+    "max_brake_pct": 100.0,
+    "avg_brake_pct_when_braking": 52.1,
+    "per_corner_entry": {
+      "The Sweeper": {
+        "avg_application_rate": 119.5,
+        "avg_release_rate": 761.9
+      },
+      "Coca-Cola Corner": {
+        "avg_application_rate": 97.4,
+        "avg_release_rate": 93.8
+      },
+      "Shell Corner": {
+        "avg_application_rate": 82.8,
+        "avg_release_rate": 72.9
+      },
+      "Champion Curve Entry": {
+        "avg_application_rate": 105.6,
+        "avg_release_rate": 88.6
+      },
+      "Champion Curve Exit": {
+        "avg_application_rate": 102.0,
+        "avg_release_rate": 94.7
+      },
+      "Yokohama Bridge": {
+        "avg_application_rate": 80.8,
+        "avg_release_rate": 96.9
+      },
+      "Foster's Dip Entry": {
+        "avg_application_rate": 89.6,
+        "avg_release_rate": 47.3
+      },
+      "Foster's Dip Exit": {
+        "avg_application_rate": 82.9,
+        "avg_release_rate": 75.9
+      },
+      "Momo Corner": {
+        "avg_application_rate": 94.9,
+        "avg_release_rate": 75.5
+      },
+      "O'Brien Entry": {
+        "avg_application_rate": 115.1,
+        "avg_release_rate": 63.7
+      },
+      "O'Brien Dogleg": {
+        "avg_application_rate": 116.2,
+        "avg_release_rate": 64.1
+      },
+      "Recaro Corner": {
+        "avg_application_rate": 188.6,
+        "avg_release_rate": 17.4
+      }
+    }
+  }
+}

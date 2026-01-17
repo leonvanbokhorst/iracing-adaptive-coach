@@ -1,0 +1,648 @@
+{
+  "metadata": {
+    "file": "raygr22_oran gp 2026-01-17 09-50-56.ibt",
+    "track": "Oran Park Raceway - GP",
+    "track_id": "oran-gp",
+    "car": "Ray FF1600",
+    "sample_count": 78057,
+    "sample_rate_hz": 60,
+    "duration_seconds": 1301.0,
+    "duration_formatted": "21:40"
+  },
+  "summary": {
+    "total_laps": 16,
+    "valid_laps": 16,
+    "flying_laps": 15,
+    "outlaps": 1,
+    "invalid_laps": 0,
+    "best_lap_time": 71.617,
+    "best_lap_time_formatted": "1:11.617",
+    "best_lap_number": 16,
+    "worst_flying_lap_time": 80.217,
+    "avg_lap_time": 73.209,
+    "consistency_sigma": 2.064,
+    "theoretical_optimal": 71.4,
+    "gap_to_optimal": 0.217
+  },
+  "laps": [
+    {
+      "lap_number": 1,
+      "lap_time": 74.217,
+      "lap_time_formatted": "1:14.217",
+      "start_idx": 6545,
+      "end_idx": 10997,
+      "samples": 4452,
+      "valid": true,
+      "is_outlap": true,
+      "sectors": {
+        "S1": 19.767,
+        "S2": 16.283,
+        "S3": 13.05,
+        "S4": 12.883,
+        "S5": 12.217
+      },
+      "corners": {
+        "The Sweeper": 2.517,
+        "Coca-Cola Corner": 6.9,
+        "Shell Corner": 6.217,
+        "Champion Curve Entry": 3.633,
+        "Champion Curve Exit": 2.15,
+        "Yokohama Bridge": 5.5,
+        "Foster's Dip Entry": 3.333,
+        "Foster's Dip Exit": 2.133,
+        "Momo Corner": 4.883,
+        "O'Brien Entry": 1.667,
+        "O'Brien Dogleg": 3.217,
+        "Recaro Corner": 7.067
+      }
+    },
+    {
+      "lap_number": 2,
+      "lap_time": 73.183,
+      "lap_time_formatted": "1:13.183",
+      "start_idx": 10997,
+      "end_idx": 15388,
+      "samples": 4391,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.817,
+        "S2": 16.15,
+        "S3": 12.75,
+        "S4": 12.483,
+        "S5": 11.967
+      },
+      "corners": {
+        "The Sweeper": 2.517,
+        "Coca-Cola Corner": 6.95,
+        "Shell Corner": 6.217,
+        "Champion Curve Entry": 3.6,
+        "Champion Curve Exit": 2.133,
+        "Yokohama Bridge": 5.25,
+        "Foster's Dip Entry": 3.35,
+        "Foster's Dip Exit": 2.1,
+        "Momo Corner": 4.783,
+        "O'Brien Entry": 1.633,
+        "O'Brien Dogleg": 3.05,
+        "Recaro Corner": 6.833
+      }
+    },
+    {
+      "lap_number": 3,
+      "lap_time": 72.95,
+      "lap_time_formatted": "1:12.950",
+      "start_idx": 15388,
+      "end_idx": 19765,
+      "samples": 4377,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.7,
+        "S2": 16.017,
+        "S3": 12.933,
+        "S4": 12.35,
+        "S5": 11.933
+      },
+      "corners": {
+        "The Sweeper": 2.533,
+        "Coca-Cola Corner": 6.85,
+        "Shell Corner": 5.95,
+        "Champion Curve Entry": 3.6,
+        "Champion Curve Exit": 2.267,
+        "Yokohama Bridge": 5.367,
+        "Foster's Dip Entry": 3.383,
+        "Foster's Dip Exit": 2.15,
+        "Momo Corner": 4.65,
+        "O'Brien Entry": 1.617,
+        "O'Brien Dogleg": 3.067,
+        "Recaro Corner": 6.817
+      }
+    },
+    {
+      "lap_number": 4,
+      "lap_time": 73.833,
+      "lap_time_formatted": "1:13.833",
+      "start_idx": 19765,
+      "end_idx": 24195,
+      "samples": 4430,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.917,
+        "S2": 15.917,
+        "S3": 12.933,
+        "S4": 12.983,
+        "S5": 12.067
+      },
+      "corners": {
+        "The Sweeper": 2.55,
+        "Coca-Cola Corner": 7.05,
+        "Shell Corner": 6.033,
+        "Champion Curve Entry": 3.55,
+        "Champion Curve Exit": 2.1,
+        "Yokohama Bridge": 5.267,
+        "Foster's Dip Entry": 3.25,
+        "Foster's Dip Exit": 2.317,
+        "Momo Corner": 4.917,
+        "O'Brien Entry": 1.667,
+        "O'Brien Dogleg": 3.2,
+        "Recaro Corner": 6.933
+      }
+    },
+    {
+      "lap_number": 5,
+      "lap_time": 72.45,
+      "lap_time_formatted": "1:12.450",
+      "start_idx": 24195,
+      "end_idx": 28542,
+      "samples": 4347,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.683,
+        "S2": 15.733,
+        "S3": 12.767,
+        "S4": 12.267,
+        "S5": 11.983
+      },
+      "corners": {
+        "The Sweeper": 2.567,
+        "Coca-Cola Corner": 6.8,
+        "Shell Corner": 5.983,
+        "Champion Curve Entry": 3.45,
+        "Champion Curve Exit": 2.117,
+        "Yokohama Bridge": 5.267,
+        "Foster's Dip Entry": 3.283,
+        "Foster's Dip Exit": 2.15,
+        "Momo Corner": 4.6,
+        "O'Brien Entry": 1.6,
+        "O'Brien Dogleg": 3.067,
+        "Recaro Corner": 6.85
+      }
+    },
+    {
+      "lap_number": 6,
+      "lap_time": 74.383,
+      "lap_time_formatted": "1:14.383",
+      "start_idx": 28542,
+      "end_idx": 33006,
+      "samples": 4464,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 21.55,
+        "S2": 15.85,
+        "S3": 12.85,
+        "S4": 12.3,
+        "S5": 11.817
+      },
+      "corners": {
+        "The Sweeper": 2.483,
+        "Coca-Cola Corner": 8.633,
+        "Shell Corner": 6.05,
+        "Champion Curve Entry": 3.45,
+        "Champion Curve Exit": 2.1,
+        "Yokohama Bridge": 5.3,
+        "Foster's Dip Entry": 3.317,
+        "Foster's Dip Exit": 2.133,
+        "Momo Corner": 4.667,
+        "O'Brien Entry": 1.583,
+        "O'Brien Dogleg": 3.033,
+        "Recaro Corner": 6.75
+      }
+    },
+    {
+      "lap_number": 7,
+      "lap_time": 72.9,
+      "lap_time_formatted": "1:12.900",
+      "start_idx": 33006,
+      "end_idx": 37379,
+      "samples": 4373,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.717,
+        "S2": 15.867,
+        "S3": 12.983,
+        "S4": 12.317,
+        "S5": 12.0
+      },
+      "corners": {
+        "The Sweeper": 2.55,
+        "Coca-Cola Corner": 6.85,
+        "Shell Corner": 5.933,
+        "Champion Curve Entry": 3.533,
+        "Champion Curve Exit": 2.167,
+        "Yokohama Bridge": 5.25,
+        "Foster's Dip Entry": 3.333,
+        "Foster's Dip Exit": 2.333,
+        "Momo Corner": 4.633,
+        "O'Brien Entry": 1.583,
+        "O'Brien Dogleg": 3.05,
+        "Recaro Corner": 6.85
+      }
+    },
+    {
+      "lap_number": 8,
+      "lap_time": 80.217,
+      "lap_time_formatted": "1:20.217",
+      "start_idx": 37379,
+      "end_idx": 42192,
+      "samples": 4813,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.717,
+        "S2": 15.783,
+        "S3": 20.133,
+        "S4": 12.567,
+        "S5": 12.0
+      },
+      "corners": {
+        "The Sweeper": 2.517,
+        "Coca-Cola Corner": 6.9,
+        "Shell Corner": 6.0,
+        "Champion Curve Entry": 3.417,
+        "Champion Curve Exit": 2.15,
+        "Yokohama Bridge": 5.267,
+        "Foster's Dip Entry": 4.483,
+        "Foster's Dip Exit": 8.15,
+        "Momo Corner": 4.75,
+        "O'Brien Entry": 1.583,
+        "O'Brien Dogleg": 3.017,
+        "Recaro Corner": 6.867
+      }
+    },
+    {
+      "lap_number": 9,
+      "lap_time": 72.683,
+      "lap_time_formatted": "1:12.683",
+      "start_idx": 42192,
+      "end_idx": 46553,
+      "samples": 4361,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.55,
+        "S2": 15.75,
+        "S3": 12.7,
+        "S4": 12.767,
+        "S5": 11.9
+      },
+      "corners": {
+        "The Sweeper": 2.483,
+        "Coca-Cola Corner": 6.733,
+        "Shell Corner": 5.95,
+        "Champion Curve Entry": 3.483,
+        "Champion Curve Exit": 2.117,
+        "Yokohama Bridge": 5.317,
+        "Foster's Dip Entry": 3.317,
+        "Foster's Dip Exit": 2.05,
+        "Momo Corner": 4.8,
+        "O'Brien Entry": 1.683,
+        "O'Brien Dogleg": 3.15,
+        "Recaro Corner": 6.783
+      }
+    },
+    {
+      "lap_number": 10,
+      "lap_time": 72.467,
+      "lap_time_formatted": "1:12.467",
+      "start_idx": 46553,
+      "end_idx": 50902,
+      "samples": 4349,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.667,
+        "S2": 15.817,
+        "S3": 12.7,
+        "S4": 12.45,
+        "S5": 11.817
+      },
+      "corners": {
+        "The Sweeper": 2.6,
+        "Coca-Cola Corner": 6.8,
+        "Shell Corner": 5.933,
+        "Champion Curve Entry": 3.517,
+        "Champion Curve Exit": 2.133,
+        "Yokohama Bridge": 5.35,
+        "Foster's Dip Entry": 3.233,
+        "Foster's Dip Exit": 2.117,
+        "Momo Corner": 4.7,
+        "O'Brien Entry": 1.617,
+        "O'Brien Dogleg": 3.083,
+        "Recaro Corner": 6.717
+      }
+    },
+    {
+      "lap_number": 11,
+      "lap_time": 72.283,
+      "lap_time_formatted": "1:12.283",
+      "start_idx": 50902,
+      "end_idx": 55238,
+      "samples": 4336,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.65,
+        "S2": 15.733,
+        "S3": 12.75,
+        "S4": 12.217,
+        "S5": 11.917
+      },
+      "corners": {
+        "The Sweeper": 2.533,
+        "Coca-Cola Corner": 6.867,
+        "Shell Corner": 5.85,
+        "Champion Curve Entry": 3.55,
+        "Champion Curve Exit": 2.117,
+        "Yokohama Bridge": 5.2,
+        "Foster's Dip Entry": 3.317,
+        "Foster's Dip Exit": 2.1,
+        "Momo Corner": 4.617,
+        "O'Brien Entry": 1.583,
+        "O'Brien Dogleg": 3.05,
+        "Recaro Corner": 6.85
+      }
+    },
+    {
+      "lap_number": 12,
+      "lap_time": 71.95,
+      "lap_time_formatted": "1:11.950",
+      "start_idx": 55238,
+      "end_idx": 59555,
+      "samples": 4317,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.567,
+        "S2": 15.683,
+        "S3": 12.6,
+        "S4": 12.133,
+        "S5": 11.95
+      },
+      "corners": {
+        "The Sweeper": 2.55,
+        "Coca-Cola Corner": 6.75,
+        "Shell Corner": 5.933,
+        "Champion Curve Entry": 3.45,
+        "Champion Curve Exit": 2.117,
+        "Yokohama Bridge": 5.283,
+        "Foster's Dip Entry": 3.25,
+        "Foster's Dip Exit": 2.033,
+        "Momo Corner": 4.533,
+        "O'Brien Entry": 1.583,
+        "O'Brien Dogleg": 3.033,
+        "Recaro Corner": 6.833
+      }
+    },
+    {
+      "lap_number": 13,
+      "lap_time": 72.017,
+      "lap_time_formatted": "1:12.017",
+      "start_idx": 59555,
+      "end_idx": 63876,
+      "samples": 4321,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.4,
+        "S2": 15.783,
+        "S3": 12.75,
+        "S4": 12.15,
+        "S5": 11.917
+      },
+      "corners": {
+        "The Sweeper": 2.517,
+        "Coca-Cola Corner": 6.65,
+        "Shell Corner": 5.933,
+        "Champion Curve Entry": 3.567,
+        "Champion Curve Exit": 2.133,
+        "Yokohama Bridge": 5.3,
+        "Foster's Dip Entry": 3.267,
+        "Foster's Dip Exit": 2.1,
+        "Momo Corner": 4.483,
+        "O'Brien Entry": 1.583,
+        "O'Brien Dogleg": 3.083,
+        "Recaro Corner": 6.8
+      }
+    },
+    {
+      "lap_number": 14,
+      "lap_time": 72.767,
+      "lap_time_formatted": "1:12.767",
+      "start_idx": 63876,
+      "end_idx": 68242,
+      "samples": 4366,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.467,
+        "S2": 15.7,
+        "S3": 12.783,
+        "S4": 12.933,
+        "S5": 11.867
+      },
+      "corners": {
+        "The Sweeper": 2.5,
+        "Coca-Cola Corner": 6.733,
+        "Shell Corner": 5.983,
+        "Champion Curve Entry": 3.417,
+        "Champion Curve Exit": 2.1,
+        "Yokohama Bridge": 5.367,
+        "Foster's Dip Entry": 3.317,
+        "Foster's Dip Exit": 2.05,
+        "Momo Corner": 4.483,
+        "O'Brien Entry": 1.817,
+        "O'Brien Dogleg": 3.267,
+        "Recaro Corner": 6.767
+      }
+    },
+    {
+      "lap_number": 15,
+      "lap_time": 72.433,
+      "lap_time_formatted": "1:12.433",
+      "start_idx": 68242,
+      "end_idx": 72588,
+      "samples": 4346,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.367,
+        "S2": 16.017,
+        "S3": 12.9,
+        "S4": 12.367,
+        "S5": 11.767
+      },
+      "corners": {
+        "The Sweeper": 2.533,
+        "Coca-Cola Corner": 6.6,
+        "Shell Corner": 5.933,
+        "Champion Curve Entry": 3.6,
+        "Champion Curve Exit": 2.25,
+        "Yokohama Bridge": 5.333,
+        "Foster's Dip Entry": 3.467,
+        "Foster's Dip Exit": 2.117,
+        "Momo Corner": 4.517,
+        "O'Brien Entry": 1.65,
+        "O'Brien Dogleg": 3.1,
+        "Recaro Corner": 6.683
+      }
+    },
+    {
+      "lap_number": 16,
+      "lap_time": 71.617,
+      "lap_time_formatted": "1:11.617",
+      "start_idx": 72588,
+      "end_idx": 76885,
+      "samples": 4297,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 19.4,
+        "S2": 15.533,
+        "S3": 12.65,
+        "S4": 12.133,
+        "S5": 11.883
+      },
+      "corners": {
+        "The Sweeper": 2.517,
+        "Coca-Cola Corner": 6.633,
+        "Shell Corner": 5.883,
+        "Champion Curve Entry": 3.4,
+        "Champion Curve Exit": 2.1,
+        "Yokohama Bridge": 5.25,
+        "Foster's Dip Entry": 3.267,
+        "Foster's Dip Exit": 2.117,
+        "Momo Corner": 4.533,
+        "O'Brien Entry": 1.583,
+        "O'Brien Dogleg": 3.033,
+        "Recaro Corner": 6.817
+      }
+    }
+  ],
+  "sectors": {
+    "S1": {
+      "best": 19.367,
+      "worst": 21.55,
+      "avg": 19.745,
+      "sigma": 0.524,
+      "loss_per_lap": 0.378
+    },
+    "S2": {
+      "best": 15.533,
+      "worst": 16.15,
+      "avg": 15.822,
+      "sigma": 0.155,
+      "loss_per_lap": 0.289
+    },
+    "S3": {
+      "best": 12.6,
+      "worst": 20.133,
+      "avg": 13.279,
+      "sigma": 1.899,
+      "loss_per_lap": 0.679
+    },
+    "S4": {
+      "best": 12.133,
+      "worst": 12.983,
+      "avg": 12.428,
+      "sigma": 0.275,
+      "loss_per_lap": 0.295
+    },
+    "S5": {
+      "best": 11.767,
+      "worst": 12.067,
+      "avg": 11.919,
+      "sigma": 0.081,
+      "loss_per_lap": 0.152
+    }
+  },
+  "corners": {
+    "The Sweeper": {
+      "best": 2.483,
+      "worst": 2.6,
+      "avg": 2.53,
+      "sigma": 0.031,
+      "variance_rating": "dialed"
+    },
+    "Coca-Cola Corner": {
+      "best": 6.6,
+      "worst": 8.633,
+      "avg": 6.92,
+      "sigma": 0.489,
+      "variance_rating": "lottery"
+    },
+    "Shell Corner": {
+      "best": 5.85,
+      "worst": 6.217,
+      "avg": 5.971,
+      "sigma": 0.085,
+      "variance_rating": "dialed"
+    },
+    "Champion Curve Entry": {
+      "best": 3.4,
+      "worst": 3.6,
+      "avg": 3.506,
+      "sigma": 0.072,
+      "variance_rating": "dialed"
+    },
+    "Champion Curve Exit": {
+      "best": 2.1,
+      "worst": 2.267,
+      "avg": 2.14,
+      "sigma": 0.052,
+      "variance_rating": "dialed"
+    },
+    "Yokohama Bridge": {
+      "best": 5.2,
+      "worst": 5.367,
+      "avg": 5.291,
+      "sigma": 0.048,
+      "variance_rating": "dialed"
+    },
+    "Foster's Dip Entry": {
+      "best": 3.233,
+      "worst": 4.483,
+      "avg": 3.389,
+      "sigma": 0.308,
+      "variance_rating": "work_needed"
+    },
+    "Foster's Dip Exit": {
+      "best": 2.033,
+      "worst": 8.15,
+      "avg": 2.534,
+      "sigma": 1.556,
+      "variance_rating": "lottery"
+    },
+    "Momo Corner": {
+      "best": 4.483,
+      "worst": 4.917,
+      "avg": 4.644,
+      "sigma": 0.128,
+      "variance_rating": "solid"
+    },
+    "O'Brien Entry": {
+      "best": 1.583,
+      "worst": 1.817,
+      "avg": 1.624,
+      "sigma": 0.063,
+      "variance_rating": "dialed"
+    },
+    "O'Brien Dogleg": {
+      "best": 3.017,
+      "worst": 3.267,
+      "avg": 3.086,
+      "sigma": 0.07,
+      "variance_rating": "dialed"
+    },
+    "Recaro Corner": {
+      "best": 6.683,
+      "worst": 6.933,
+      "avg": 6.81,
+      "sigma": 0.063,
+      "variance_rating": "dialed"
+    }
+  }
+}
