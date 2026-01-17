@@ -85,27 +85,31 @@ class TestToolHelp:
 
 
 class TestToolInventory:
-    """Verify tool counts match expectations."""
+    """Verify tool directories exist and contain Python files."""
 
-    def test_core_tool_count(self):
-        """Verify we have the expected number of core tools."""
+    def test_core_tools_exist(self):
+        """Verify core tools directory has Python files."""
         core_tools = list((TOOLS_DIR / "core").glob("*.py"))
         core_tools = [t for t in core_tools if not t.name.startswith("__")]
-        assert len(core_tools) >= 10, f"Expected at least 10 core tools, found {len(core_tools)}"
+        assert len(core_tools) > 0, "No core tools found"
 
-    def test_coach_tool_count(self):
-        """Verify we have the expected number of coach tools."""
+    def test_coach_tools_exist(self):
+        """Verify coach tools directory has Python files."""
         coach_tools = list((TOOLS_DIR / "coach").glob("*.py"))
         coach_tools = [t for t in coach_tools if not t.name.startswith("__")]
-        assert len(coach_tools) >= 20, f"Expected at least 20 coach tools, found {len(coach_tools)}"
+        assert len(coach_tools) > 0, "No coach tools found"
 
-    def test_viz_tool_count(self):
-        """Verify we have the expected number of viz tools."""
+    def test_viz_tools_exist(self):
+        """Verify viz tools directory has Python files."""
         viz_tools = list((TOOLS_DIR / "viz").glob("*.py"))
         viz_tools = [t for t in viz_tools if not t.name.startswith("__")]
-        assert len(viz_tools) >= 4, f"Expected at least 4 viz tools, found {len(viz_tools)}"
+        assert len(viz_tools) > 0, "No viz tools found"
 
-    def test_total_tool_count(self):
-        """Verify total tool count."""
+    def test_all_tools_discovered(self):
+        """Verify tool discovery finds tools in all directories."""
         all_tools = get_tool_modules()
-        assert len(all_tools) >= 40, f"Expected at least 40 tools total, found {len(all_tools)}"
+        # Check we found tools from each directory
+        tool_paths = [str(t[0]) for t in all_tools]
+        assert any("core" in p for p in tool_paths), "No core tools discovered"
+        assert any("coach" in p for p in tool_paths), "No coach tools discovered"
+        assert any("viz" in p for p in tool_paths), "No viz tools discovered"

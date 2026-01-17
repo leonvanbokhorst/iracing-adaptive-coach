@@ -134,3 +134,39 @@ class TestParseLaptime:
     def test_parse_two_minutes(self):
         """Test parsing time over 2 minutes."""
         assert parse_laptime("2:05.450") == pytest.approx(125.450)
+
+    # Error handling tests
+    def test_parse_empty_string_raises(self):
+        """Test that empty string raises ValueError."""
+        with pytest.raises(ValueError):
+            parse_laptime("")
+
+    def test_parse_whitespace_raises(self):
+        """Test that whitespace-only string raises ValueError."""
+        with pytest.raises(ValueError):
+            parse_laptime("   ")
+
+    def test_parse_none_raises(self):
+        """Test that None raises TypeError."""
+        with pytest.raises(TypeError):
+            parse_laptime(None)
+
+    def test_parse_alphabetic_raises(self):
+        """Test that alphabetic string raises ValueError."""
+        with pytest.raises(ValueError):
+            parse_laptime("abc")
+
+    def test_parse_malformed_minutes_raises(self):
+        """Test that malformed minutes part raises ValueError."""
+        with pytest.raises(ValueError):
+            parse_laptime("1:xx.123")
+
+    def test_parse_trailing_colon_raises(self):
+        """Test that trailing colon raises ValueError."""
+        with pytest.raises(ValueError):
+            parse_laptime("1:")
+
+    def test_parse_leading_colon_raises(self):
+        """Test that leading colon raises ValueError."""
+        with pytest.raises(ValueError):
+            parse_laptime(":30.5")
