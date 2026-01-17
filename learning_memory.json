@@ -18,8 +18,8 @@
     "position_percentile": "Top 1.0%",
     "week03_final": true
   },
-  "focus": "Week 06: Champion Curve Mastery. Eliminate the 3-second swing.",
-  "goal": "Week 06 Baseline: 1:12.583. Target: Champion Curve σ < 0.4s (currently 0.898s).",
+  "focus": "Week 06: Foster's Dip Complex. Eliminate the chaos.",
+  "goal": "Week 06 Target: Foster's Dip Entry apex σ < 10m, Exit speed variance < 10 km/h, Coca-Cola brake σ < 10m.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -129,6 +129,47 @@
         }
       },
       "notes": "WEEK 06 SESSION 1 - BASELINE. First ever stint at Oran Park GP. 5-second improvement in 23 minutes (1:17.4 → 1:12.5). MULTIPLE OFFS/SPINS at Champion Curve and Foster's Dip — the track bit back hard. 6/9 corners SOLID on Day 1 despite the drama. Champion Curve identified as 'nemesis corner' (σ 0.898s = 3-second swing from offs). Foster's Dip elevation changes ('ups and downs') also caused spins. BB 55% producing perfectly balanced tire temps. Track character: Heavy elevation changes, blind entries. Champion Curve is the 'Hotel Exit' of Oran Park. G61: 01KF0VEFKDNX310R28PXMRBKSR."
+    },
+    {
+      "date": "2026-01-17",
+      "time": "09:50 CET",
+      "session_type": "Practice (Offline) 02",
+      "track": "Oran Park Raceway - GP",
+      "best_lap": 71.617,
+      "best_lap_formatted": "1:11.617",
+      "consistency_sigma": 2.064,
+      "flying_laps": 15,
+      "total_laps": 16,
+      "incidents": 2,
+      "theoretical_optimal": 71.4,
+      "gap_to_optimal": 0.217,
+      "focus_area": "Week 06 Practice 02 - Champion Curve Mastery + Limit Finding",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "corner_mastery": {
+          "dialed": ["The Sweeper", "Shell Corner", "Champion Curve Entry", "Champion Curve Exit", "Yokohama Bridge", "O'Brien Entry", "O'Brien Dogleg", "Recaro Corner"],
+          "solid": ["Momo Corner"],
+          "work_needed": ["Foster's Dip Entry"],
+          "lottery": ["Coca-Cola Corner", "Foster's Dip Exit"]
+        },
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 15.62,
+          "throttle_avg_jerk_pct_s2": 459.3,
+          "throttle_full_usage_pct": 58.8,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 52.1
+        },
+        "problem_corners": {
+          "Coca_Cola_Corner": {"sigma": 0.489, "best": 6.6, "worst": 8.633, "swing": 2.033, "brake_sigma_m": 45.6},
+          "Fosters_Dip_Entry": {"sigma": 0.308, "best": 3.233, "worst": 4.483, "swing": 1.25, "apex_sigma_m": 19.3},
+          "Fosters_Dip_Exit": {"sigma": 1.556, "best": 2.033, "worst": 8.15, "swing": 6.117, "speed_variance_kmh": 30.17}
+        },
+        "breakthroughs": {
+          "Champion_Curve_Entry": {"sigma": 0.072, "improvement_pct": 92, "from": 0.898, "apex_sigma_m": 6.4},
+          "Champion_Curve_Exit": {"sigma": 0.052, "improvement": "work_needed → DIALED", "apex_sigma_m": 0.2}
+        }
+      },
+      "notes": "WEEK 06 SESSION 2 - NEW PERSONAL BEST! 1:11.617 (0.966s improvement over Practice 01). CHAMPION CURVE MASTERED + WEEK 06 GOAL OBLITERATED: Champion Curve σ 0.072s Entry / 0.052s Exit (target was < 0.4s = 82% overachievement!). Entry: 0.898s → 0.072s (92% improvement). Exit: work-needed → DIALED. Apex Exit precision: 0.2m σ (LASER). Gap to optimal: only 0.217s (AT the limit!). 8/12 corners DIALED. Full throttle usage up 8.7% (58.8%). BUT: 2 massive offs at Foster's Dip (Laps 8 & 9) during limit-finding. Lap 8 Exit: 8.15s corner (vs 2.033s best) = catastrophic gravel trip. Lap 9 Entry: 0.2 km/h (basically stopped). NEW PROBLEM: Coca-Cola Corner brake drift (45.6m σ, was solid in P01). Overall consistency worsened (2.064s σ) due to pushing hard for PB pace. Tire temps perfectly balanced = setup dialed, offs were driver limit-finding. This is textbook progression: conquer one nemesis (Champion Curve), discover new ones (Foster's Dip, Coca-Cola) while setting PB. G61: 01KF5JCEBG97S7CZ8KBPY96J2J."
     }
   ],
   "insights": [
@@ -199,15 +240,22 @@
     "Oran Park GP Track Character (NEW): 9 corners, 5 sectors. Heavy elevation changes define this track. Champion Curve (blind entry, tightening radius, elevation) is the 'Hotel Exit' equivalent - where laps go to die. Foster's Dip produces 3.3G compression load through the dip. The Sweeper + Coca-Cola are a linked complex. O'Brien Dogleg is flat out. BB 55% produces perfectly balanced tire temps.",
     "New Track Learning Efficiency (NEW): First stint at Oran Park yielded 5-second improvement in 23 minutes (1:17.4 → 1:12.5) despite multiple offs and spins. 6/9 corners SOLID on Day 1 (67% dialed on first contact). The offs at Champion Curve and Foster's Dip were part of the learning process — pushed, found limits, recovered, got faster. PB came on Lap 14 AFTER the drama, not before.",
     "Gong Comparison (Oran Park GP): 2.7s gap to alien (1:12.583 vs 1:09.856). Key findings: (1) The Sweeper is NOT a brake zone - Lonn braking 75% of corner vs Gong 42%, losing 22 km/h through. (2) Champion Curve apex speed 9 km/h slower, lat G 0.21 lower. (3) HIDDEN LOSS at Momo Corner - looked 'consistent' but 11 km/h slower than Gong! (4) Full throttle usage 66.6% vs Gong 72.3% (-5.7%). (5) Overdriving 24% of lap. Top speed identical - gap is ALL corner speed and throttle commitment.",
-    "The Sweeper Technique (Oran Park): LIFT, DON'T BRAKE. This corner before Coca-Cola should be taken at 160+ km/h with minimal or no braking. Gong carries 22 km/h more through by treating it as a lift zone, not a brake zone. Master Lonn's instinct to brake here costs ~0.2-0.3s alone."
+    "The Sweeper Technique (Oran Park): LIFT, DON'T BRAKE. This corner before Coca-Cola should be taken at 160+ km/h with minimal or no braking. Gong carries 22 km/h more through by treating it as a lift zone, not a brake zone. Master Lonn's instinct to brake here costs ~0.2-0.3s alone.",
+    "Champion Curve Mastery (Practice 02 Breakthrough): Single-corner focus for 2 sessions resulted in 92% improvement (0.898s → 0.072s σ). Both Entry and Exit went from lottery/work-needed to DIALED. Apex Exit precision: 0.2m σ (laser). Key technique: feeling-based learning (not overthinking), progressive commitment (cautious early, aggressive later), repetition. This validates 'conquer ONE corner fully before attacking the next' philosophy. Champion Curve is now a reference standard.",
+    "Foster's Dip Complex (NEW): Compound corner with elevation + compression + blind entry. Entry drops into dip (3.3G compression), Exit climbs out. When right, it's fast. When wrong, it ejects the car. Practice 02: Entry σ 0.308s (apex wandering 19.3m), Exit σ 1.556s (speed variance 30.17 km/h!). Lap 8 catastrophic off (8.15s corner vs 2.033s best). Lap 9 stopped (0.2 km/h). The compound nature chains errors: bad Entry → bad Exit. Requires POSITIONING over bravery. Trust compression = front tire load = less braking needed mid-corner.",
+    "Coca-Cola Brake Point Drift (NEW): Practice 01 (solid 0.221s σ) → Practice 02 (lottery 0.489s σ). Brake point wandering 45.6m lap-to-lap (~2 car lengths!). Cause: pushing harder post-Champion Curve mastery, no consistent visual marker. When braking early = fine. When braking late = oversteer (2083 events, highest of any corner). Fix: Pick ONE brake marker, hit it every lap. Entry speed might need sacrifice for exit stability. Consistent 6.8s corner > 6.6s/8.6s lottery.",
+    "Limit-Finding vs Consistency Trade-Off (NEW): Practice 01 (safe, consistent 1.539s σ, slow 1:12.583) vs Practice 02 (aggressive, chaotic 2.064s σ, fast 1:11.617). Traded consistency for pace discovery. This is CORRECT for practice. The offs taught where the limit is. Lap 16 proves clean 1:11.617 is achievable. Now job is to repeat it without drama. You can't discover the edge without falling off it a few times.",
+    "Sequential Corner Mastery (NEW PRINCIPLE): Conquer ONE corner fully before attacking the next. Champion Curve (Week 06 focus) was mastered in 2 sessions (92% improvement). This freed mental bandwidth to push elsewhere (Foster's Dip, Coca-Cola). Result: new speed found, new problems discovered. This is the natural progression of limit-finding. Don't fix everything at once—systematic, sequential improvement is faster."
   ],
   "next_steps": [
-    "WEEK 06 BASELINE: 1:12.583 at Oran Park GP. Gap to Gong: 2.7s.",
-    "PRIORITY 1: The Sweeper - STOP BRAKING. Lift only. Carry 160+ km/h. Worth ~0.3s.",
-    "PRIORITY 2: Champion Curve - Later apex, more commitment. 9 km/h slower than Gong.",
-    "PRIORITY 3: Momo Corner - Hidden loss! 11 km/h slower than Gong despite 'solid' variance.",
-    "Full throttle target: Get from 66.6% to 70%+ (Gong at 72.3%).",
-    "Target: Break 1:11.0 next session by fixing The Sweeper alone.",
+    "WEEK 06 PRACTICE 02: 1:11.617 at Oran Park GP. Gap to Gong: 2.0s (was 2.7s). Gap to optimal: 0.217s.",
+    "CHAMPION CURVE: MASTERED. σ 0.072s Entry, 0.052s Exit. Week 06 goal obliterated (target was < 0.4s). Don't change anything. Just repeat.",
+    "NEW FOCUS: Foster's Dip Complex. Biggest addressable time loss (~0.5-1.0s when it goes wrong).",
+    "PRIORITY 1: Foster's Dip Entry - Apex σ < 10m (currently 19.3m). Slow in, fast out. Position > bravery.",
+    "PRIORITY 2: Foster's Dip Exit - Speed variance < 10 km/h (currently 30.17 km/h!). Trust compression, commit to exit.",
+    "PRIORITY 3: Coca-Cola Corner - Brake point σ < 10m (currently 45.6m). Pick ONE marker, hit it 10 times in a row.",
+    "Target Practice 03: Sub-1:12 average (currently 1:13.2) with ZERO catastrophic offs.",
+    "Full throttle usage: 58.8% (up from 54.1%). Keep pushing commitment where safe.",
     "iRating: 1738. SR: 3.63 (B license). 5-week trajectory: +500 iRating."
   ],
   "tools_reference": {
