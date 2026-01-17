@@ -84,11 +84,11 @@ Documented in workflows but not in primary commands.
 
 | Tool | Purpose | Docs |
 |------|---------|------|
-| `coach/analyze_car_balance.py` | Understeer/oversteer detection | tools/README |
-| `coach/analyze_braking_technique.py` | Brake zone analysis | tools/README |
+| `coach/analyze_car_balance.py` | Understeer/oversteer detection | tools/README.md |
+| `coach/analyze_braking_technique.py` | Brake zone analysis | tools/README.md |
 | `coach/analyze_telemetry.py` | General telemetry analysis | coaching-handbook |
-| `coach/compare_laps.py` | Lap-to-lap comparison | tools/README |
-| `coach/compare_telemetry.py` | Two-lap telemetry comparison | tools/README |
+| `coach/compare_laps.py` | Lap-to-lap comparison | tools/README.md |
+| `coach/compare_telemetry.py` | Two-lap telemetry comparison | tools/README.md |
 | `coach/compare_weekly_standings.py` | Week-over-week standings | standings-workflow |
 | `coach/track_rivals.py` | Rival tracking | standings-workflow |
 | `coach/analyze_standings.py` | Standings analysis | standings-workflow |
@@ -326,18 +326,33 @@ Usage:
 Output: JSON with factual data
 """
 
-import sys
 import json
 import argparse
+import pandas as pd
+from pathlib import Path
 
-def analyze_facts(data):
+
+def load_data(file_path):
+    """Load input data from file"""
+    path = Path(file_path)
+    if path.suffix == '.csv':
+        return pd.read_csv(path)
+    elif path.suffix == '.json':
+        with open(path) as f:
+            return json.load(f)
+    else:
+        raise ValueError(f"Unsupported file type: {path.suffix}")
+
+
+def analyze_facts(df):
     """Return pure facts as dictionary"""
     facts = {
-        "metric_1": value,
-        "metric_2": value,
+        "row_count": len(df),
+        "columns": list(df.columns),
         # Only numbers and data, no interpretation
     }
     return facts
+
 
 def main():
     parser = argparse.ArgumentParser(description="Tool description")
@@ -345,9 +360,18 @@ def main():
     parser.add_argument("-o", "--output", help="Output file path")
     args = parser.parse_args()
     
-    # Load data, analyze facts, output JSON
+    # Load data
+    data = load_data(args.input_file)
+    
+    # Analyze and output facts
     facts = analyze_facts(data)
-    print(json.dumps(facts, indent=2))
+    
+    if args.output:
+        with open(args.output, 'w') as f:
+            json.dump(facts, f, indent=2)
+    else:
+        print(json.dumps(facts, indent=2))
+
 
 if __name__ == "__main__":
     main()
