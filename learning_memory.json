@@ -170,6 +170,50 @@
         }
       },
       "notes": "WEEK 06 SESSION 2 - NEW PERSONAL BEST! 1:11.617 (0.966s improvement over Practice 01). CHAMPION CURVE MASTERED + WEEK 06 GOAL OBLITERATED: Champion Curve σ 0.072s Entry / 0.052s Exit (target was < 0.4s = 82% overachievement!). Entry: 0.898s → 0.072s (92% improvement). Exit: work-needed → DIALED. Apex Exit precision: 0.2m σ (LASER). Gap to optimal: only 0.217s (AT the limit!). 8/12 corners DIALED. Full throttle usage up 8.7% (58.8%). BUT: 2 massive offs at Foster's Dip (Laps 8 & 9) during limit-finding. Lap 8 Exit: 8.15s corner (vs 2.033s best) = catastrophic gravel trip. Lap 9 Entry: 0.2 km/h (basically stopped). NEW PROBLEM: Coca-Cola Corner brake drift (45.6m σ, was solid in P01). Overall consistency worsened (2.064s σ) due to pushing hard for PB pace. Tire temps perfectly balanced = setup dialed, offs were driver limit-finding. This is textbook progression: conquer one nemesis (Champion Curve), discover new ones (Foster's Dip, Coca-Cola) while setting PB. G61: 01KF5JCEBG97S7CZ8KBPY96J2J."
+    },
+    {
+      "date": "2026-01-17",
+      "time": "11:37 CET",
+      "session_type": "Practice (Offline) 03",
+      "track": "Oran Park Raceway - GP",
+      "best_lap": 71.2,
+      "best_lap_formatted": "1:11.200",
+      "consistency_sigma": 1.703,
+      "flying_laps": 23,
+      "total_laps": 23,
+      "incidents": 4,
+      "theoretical_optimal": 70.667,
+      "gap_to_optimal": 0.533,
+      "focus_area": "Week 06 Practice 03 - Limit Finding + Corners Connecting",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "corner_mastery": {
+          "dialed": ["The Sweeper", "Shell Corner", "Champion Curve Entry", "O'Brien Entry", "O'Brien Dogleg"],
+          "solid": ["Coca-Cola Corner", "Champion Curve Exit", "Momo Corner", "Recaro Corner"],
+          "lottery": ["Yokohama Bridge", "Foster's Dip Entry", "Foster's Dip Exit"]
+        },
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 14.5,
+          "throttle_avg_jerk_pct_s2": 436.8,
+          "throttle_full_usage_pct": 59.3,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 42.1
+        },
+        "problem_corners": {
+          "Fosters_Dip_Entry": {"sigma": 0.962, "best": 3.183, "worst": 7.867, "swing": 4.684, "apex_sigma_m": 18.5, "speed_variance_kmh": 25.48},
+          "Yokohama_Bridge": {"sigma": 0.413, "best": 5.117, "worst": 7.167, "swing": 2.05, "apex_sigma_m": 54.7, "speed_variance_kmh": 11.63},
+          "Fosters_Dip_Exit": {"sigma": 0.413, "best": 2.0, "worst": 3.95, "swing": 1.95, "speed_variance_kmh": 18.87}
+        },
+        "breakthroughs": {
+          "Champion_Curve_MAINTAINED": {"entry_sigma": 0.052, "exit_sigma": 0.142, "status": "MASTERED and maintained"},
+          "Steering_Smoothness_Improved": {"jerk_rad_s2": 14.5, "improvement_pct": 7, "from": 15.62},
+          "Coca_Cola_Brake_Improved": {"brake_sigma_m": 36.2, "improvement_pct": 21, "from": 45.6},
+          "Corners_Connecting": {"sectors_consistent": "S1 (0.151s), S2 (0.237s), S4 (0.206s), S5 (0.216s)", "status": "Flow emerging"},
+          "Fosters_Dip_Technique_DISCOVERED": {"best_times": "3.183s (L12), 3.183s (L17), 3.200s (L22)", "technique": "Light brakes before dip, early turn-in, trust 3.3G compression, avoid left curbs", "status": "Self-discovered, data-validated, repeatable"},
+          "Brake_Bias_56_Validated": {"change": "55% → 56%", "effect": "More stable turn-in, sharper front bite", "driver_feedback": "More stable in the beginning", "status": "Optimal for Oran Park"}
+        }
+      },
+      "notes": "WEEK 06 SESSION 3 - NEW PERSONAL BEST! 1:11.200 (0.417s improvement over Practice 02, 1.383s over Practice 01). CORNERS CONNECTING VALIDATED: Master Lonn was RIGHT - 'more consistent' (9/12 corners solid+, 4/5 sectors sub-0.25s σ) AND 'surprising spins' (4 offs at lottery corners). S1, S2, S4, S5 all sub-0.25s σ = FLOW emerging through sequences. Champion Curve MAINTAINED (0.052s Entry, 0.142s Exit = still MASTERED). Steering smoothness IMPROVED (15.62 → 14.5 rad/s²) despite pushing harder. Coca-Cola brake σ improved (45.6m → 36.2m). Full throttle up (59.3%). BUT: Foster's Dip Entry = CHAOS (0.962s σ, 18.5m apex wander, Lap 14-15 back-to-back offs). SURPRISE DISCOVERY: Yokohama Bridge = HIDDEN LOTTERY (0.413s σ, 54.7m apex wander!, Lap 7 off). Both Yokohama + Foster's Dip are blind high-speed entries with elevation changes. Gap to optimal: 0.533s (basically AT limit). The time is ALL in Foster's + Yokohama (~0.45-0.7s addressable). This is textbook limit-finding: set PB, have offs at the 2 lottery corners, discover exactly where remaining speed lives. 75% of track (9/12 corners) now consistent. The track is becoming a sequence, not isolated corners. FOSTER'S DIP BREAKTHROUGH (END OF SESSION!): Master Lonn discovered the technique: 'Very light on brakes before the curbs on the left turning in. Don't even think about touching the curbs on the left, guaranteed spin.' DATA VALIDATED: Best Foster's Entry times (3.183s, 3.183s, 3.200s) ALL came on Laps 12, 17, 22 - AFTER discovery. Post-disaster (Lap 14 catastrophic off 7.867s), he REPEATED best time on Lap 17 (3.183s). This is learned technique, not luck. The technique (light brakes + early turn-in + trust compression + avoid left curbs) matches physics: 3.3G compression = free front grip, so heavy braking overloads fronts. Setup: BB 56% (was 55% in P02) gave 'more stable in the beginning' feeling - more front brake bias = sharper turn-in bite + stable rear. G61: 01KF5RFKEJ5SFFWQFFYE8QHWD9."
     }
   ],
   "insights": [
@@ -245,17 +289,27 @@
     "Foster's Dip Complex (NEW): Compound corner with elevation + compression + blind entry. Entry drops into dip (3.3G compression), Exit climbs out. When right, it's fast. When wrong, it ejects the car. Practice 02: Entry σ 0.308s (apex wandering 19.3m), Exit σ 1.556s (speed variance 30.17 km/h!). Lap 8 catastrophic off (8.15s corner vs 2.033s best). Lap 9 stopped (0.2 km/h). The compound nature chains errors: bad Entry → bad Exit. Requires POSITIONING over bravery. Trust compression = front tire load = less braking needed mid-corner.",
     "Coca-Cola Brake Point Drift (NEW): Practice 01 (solid 0.221s σ) → Practice 02 (lottery 0.489s σ). Brake point wandering 45.6m lap-to-lap (~2 car lengths!). Cause: pushing harder post-Champion Curve mastery, no consistent visual marker. When braking early = fine. When braking late = oversteer (2083 events, highest of any corner). Fix: Pick ONE brake marker, hit it every lap. Entry speed might need sacrifice for exit stability. Consistent 6.8s corner > 6.6s/8.6s lottery.",
     "Limit-Finding vs Consistency Trade-Off (NEW): Practice 01 (safe, consistent 1.539s σ, slow 1:12.583) vs Practice 02 (aggressive, chaotic 2.064s σ, fast 1:11.617). Traded consistency for pace discovery. This is CORRECT for practice. The offs taught where the limit is. Lap 16 proves clean 1:11.617 is achievable. Now job is to repeat it without drama. You can't discover the edge without falling off it a few times.",
-    "Sequential Corner Mastery (NEW PRINCIPLE): Conquer ONE corner fully before attacking the next. Champion Curve (Week 06 focus) was mastered in 2 sessions (92% improvement). This freed mental bandwidth to push elsewhere (Foster's Dip, Coca-Cola). Result: new speed found, new problems discovered. This is the natural progression of limit-finding. Don't fix everything at once—systematic, sequential improvement is faster."
+    "Sequential Corner Mastery (NEW PRINCIPLE): Conquer ONE corner fully before attacking the next. Champion Curve (Week 06 focus) was mastered in 2 sessions (92% improvement). This freed mental bandwidth to push elsewhere (Foster's Dip, Coca-Cola). Result: new speed found, new problems discovered. This is the natural progression of limit-finding. Don't fix everything at once—systematic, sequential improvement is faster.",
+    "Corners Connecting Validation (NEW): Practice 03 validated Master Lonn's feeling of 'corners connecting.' Data proof: S1, S2, S4, S5 all sub-0.25s σ. 9/12 corners solid or better (75% of track). Steering jerk IMPROVED (15.62 → 14.5 rad/s²) despite pushing harder. This is flow—track becoming a sequence, not isolated corners. The feeling of momentum chaining is now backed by numbers. Consistency in 4/5 sectors means the car is linking sections together smoothly.",
+    "Yokohama Bridge Hidden Problem (NEW): Master Lonn mentioned Foster's Dip spins but NOT Yokohama Bridge—yet data reveals it's equally problematic. Apex wandering 54.7m (twenty car lengths!), σ 0.413s, speed variance 11.63 km/h, Lap 7 disaster (67.2 km/h vs 120+ km/h normal). It's a blind high-speed kink before Foster's with elevation + no reference point. The 'surprising spins' weren't random—they happened at the TWO lottery corners (Foster's + Yokohama), both sharing: blind entry, high speed, elevation change, no clear reference. This pattern identification is KEY for solving both.",
+    "Limit-Finding PB Pattern (NEW): Practice 03 set NEW PB (1:11.200) while having FOUR offs. This isn't contradiction—it's limit-finding. You can't find the edge without crossing it. The clean PB lap (Lap 12) came MID-SESSION, proving the offs taught where the limit is. Then more offs (Lap 14-15) pushing even harder. Result: 0.533s gap to optimal (basically AT the limit now). The remaining 0.45-0.7s lives in just TWO corners (Foster's + Yokohama). This validates the methodology: push, find edge, consolidate, repeat.",
+    "Steering Smoothness While Limit-Finding (NEW): Practice 03 steering jerk IMPROVED (15.62 → 14.5 rad/s², -7%) despite: setting PB, having 4 offs, pushing harder (59.3% full throttle). This proves learning is happening—fewer corrections needed as track familiarity builds. Even when limit-finding is chaotic (4 offs), underlying technique is improving. Neural adaptation continues: smooth inputs becoming automatic, not conscious effort. This is sustainable speed.",
+    "Champion Curve Mastery Maintained (NEW): Practice 02: Entry 0.072s σ, Exit 0.052s σ (MASTERED). Practice 03: Entry 0.052s σ, Exit 0.142s σ (STILL MASTERED). The corner stayed dialed after being conquered. This proves 'conquer and maintain' is achievable—once a corner is truly learned, it stays learned even when pushing elsewhere. Champion Curve is now reference standard for what 'dialed' means (< 0.15s σ, apex precision, repeatable). Apply this same process to Foster's + Yokohama.",
+    "75% Track Consistency Milestone (NEW): Practice 03: 9/12 corners solid+ (75%), 4/5 sectors sub-0.25s σ. This is a consistency threshold—when 3/4 of track is dialed, the track stops being 'a series of corners' and becomes 'a flow.' Master Lonn's comment 'I start to find how corners connect' is validated by crossing this 75% threshold. The remaining 25% (Foster's + Yokohama + one sector S3) is where the remaining speed lives. This is late-stage track learning—most of the track is solved, now fine-tuning the hard bits.",
+    "Foster's Dip Technique Discovery - Data Validated (NEW): Master Lonn discovered Foster's Entry technique during Practice 03: 'Very light on brakes before the curbs on the left turning in. Don't touch the curbs on the left, guaranteed spin.' Data proof: THREE best times (3.183s, 3.183s, 3.200s) on Laps 12, 17, 22 ALL after discovery. After catastrophic off (Lap 14: 7.867s), he REPEATED best time on Lap 17 - proof of learned technique, not luck. Physics validates it: Foster's has 3.3G compression = free front grip. Heavy braking BEFORE compression overloads fronts. Light braking + early turn-in + trust compression + avoid left curbs = platform stability. The technique chain: (1) Light brake before dip (set platform), (2) Turn in early, (3) Let compression rotate car, (4) Avoid left curbs (no lateral disturbance), (5) Trust grip, commit exit. This is self-discovered technique backed by data.",
+    "Brake Bias 56% Discovery (Oran Park, NEW): Master Lonn changed BB from 55% → 56% for Practice 03, noted it felt 'more stable in the beginning.' Physics explanation: 1% more front bias = more front tire loading under braking = sharper turn-in bite + less rear lock-up tendency = more predictable front behavior. This explains: (1) Champion Curve Entry mastery maintained (0.052s σ), (2) Coca-Cola brake σ improved 21% (45.6m → 36.2m), (3) Steering smoothness improved 7% (15.62 → 14.5 rad/s²) despite pushing harder. More front authority = car listens better. The 'stable in the beginning' feeling is REAL - fronts have more braking authority, so turn-in is more predictable. Trade-off: slightly less ultimate braking power (rears not working as hard). For Oran Park (slow/medium corners), 56% is optimal. Setup changes should be validated by feel AND data."
   ],
   "next_steps": [
-    "WEEK 06 PRACTICE 02: 1:11.617 at Oran Park GP. Gap to Gong: 2.0s (was 2.7s). Gap to optimal: 0.217s.",
-    "CHAMPION CURVE: MASTERED. σ 0.072s Entry, 0.052s Exit. Week 06 goal obliterated (target was < 0.4s). Don't change anything. Just repeat.",
-    "NEW FOCUS: Foster's Dip Complex. Biggest addressable time loss (~0.5-1.0s when it goes wrong).",
-    "PRIORITY 1: Foster's Dip Entry - Apex σ < 10m (currently 19.3m). Slow in, fast out. Position > bravery.",
-    "PRIORITY 2: Foster's Dip Exit - Speed variance < 10 km/h (currently 30.17 km/h!). Trust compression, commit to exit.",
-    "PRIORITY 3: Coca-Cola Corner - Brake point σ < 10m (currently 45.6m). Pick ONE marker, hit it 10 times in a row.",
-    "Target Practice 03: Sub-1:12 average (currently 1:13.2) with ZERO catastrophic offs.",
-    "Full throttle usage: 58.8% (up from 54.1%). Keep pushing commitment where safe.",
+    "WEEK 06 PRACTICE 03: NEW PB 1:11.200 at Oran Park GP. Gap to Gong: 1.4s (was 2.7s in P01). Gap to optimal: 0.533s.",
+    "CHAMPION CURVE: MASTERED AND MAINTAINED. σ 0.052s Entry, 0.142s Exit. Week 06 goal obliterated. Keep repeating.",
+    "CORNERS CONNECTING: VALIDATED. 9/12 corners solid+ (75%). S1, S2, S4, S5 all sub-0.25s σ. Flow emerging.",
+    "NEW DUAL FOCUS: Foster's Dip + Yokohama Bridge (both lottery, both blind high-speed entries with elevation).",
+    "PRIORITY 1: Foster's Dip Entry - Apex σ < 10m (currently 18.5m). Pick ONE turn-in marker BEFORE the dip. Slow in (110-115 km/h), trust compression (3.3G = free grip).",
+    "PRIORITY 2: Yokohama Bridge - Apex σ < 10m (currently 54.7m!). It's a KINK, not a corner. Pick track-out point (right edge). Calm hands (steering jerk 23.47 rad/s² = sawing). Lift, don't corner.",
+    "PRIORITY 3: Foster's Dip Exit - Speed variance < 10 km/h (currently 18.87 km/h). Solve Entry first—bad Entry cascades to bad Exit.",
+    "Coca-Cola brake: Improving (45.6m → 36.2m). Keep current approach, will stabilize as Foster's/Yokohama dial in.",
+    "Target: Sub-1:11 average with ZERO offs at Foster's + Yokohama. The 0.533s gap to optimal is ALL in these 2 corners (~0.45-0.7s addressable).",
+    "Steering smoothness: 14.5 rad/s² (down from 15.62). Full throttle: 59.3%. Both improving despite limit-finding. Keep trend.",
     "iRating: 1738. SR: 3.63 (B license). 5-week trajectory: +500 iRating."
   ],
   "tools_reference": {
