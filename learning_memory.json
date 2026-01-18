@@ -313,9 +313,58 @@
         }
       },
       "notes": "WEEK 06 RACE 01 - FIRST AI RACE! Started P1 (quali 1:12.543), finished P4, 3x incidents. Master Lonn's feeling: 'Not satisfied, AI don't crash, stuck where you started, hard to overtake.' REALITY CHECK: Lap 3 race best 1:12.383 = 0.16s FASTER than quali! The pace IS there. The technique IS there. 10/12 corners dialed (83% mastery), Yokohama CRUSHED (from 0.251s practice nemesis to 0.088s race weapon = 65% improvement!), Foster's Dip weapon MAINTAINED (0.059s Entry σ), smoother steering in race than practice (15.9 vs 16.1 rad/s²), LESS oversteer in race (5,123 vs 12,652 events). What went wrong? ONE corner, ONE lap: Coca-Cola Lap 7 = +2.4s off-track (P1→P4 right there). Root cause: brake point drift 37.4m σ (second-guessing under pressure), overdriving when AI closed in ('need to go faster' instead of 'stay consistent'). Laps 2-6 (pre-disaster) avg 1:13.133 σ 0.367s = SOLID race pace. Lap 8 IMMEDIATE recovery (1:12.767) proves mental reset IS FAST (worked perfectly!). Laps 9-10 slow (1:15.0-1:15.5) = STUCK IN TRAFFIC, couldn't overtake (Oran Park is hard to pass), 2x incidents from overtake attempts. THE BREAKTHROUGH: Yokohama technique ('pick exit, point, hold') DEPLOYED under pressure = better in race than practice! Foster's stayed a weapon (0.059s σ). Technique transfers to racing. THE LESSON: This wasn't about speed (Lap 3 proved it). This was about RACECRAFT - staying calm under pressure, trusting reference points (Coca-Cola brake marker), and finding overtaking zones (Laps 9-10 showed need for clear plan). Mental reset speed is GOOD (Lap 8 = immediate). Addressable in next race: Coca-Cola confidence (~1.5-2.0s), overtaking zones at Oran Park (~2.0-2.5s), cold tire meebewegen Lap 2 (~0.5-1.0s) = 4.0-5.5s total (that's P4→P1-P2). Master Lonn has the pace. Now learning to deploy it under pressure + learning WHERE to overtake. That's the harder skill, but that's what matters in racing. G61: 01KF89WV3PM69NTCNRS9A76VTZ."
+    },
+    {
+      "date": "2026-01-18",
+      "time": "15:09 CET",
+      "session_type": "Race (AI Opponents) 02",
+      "track": "Oran Park Raceway - GP",
+      "best_lap": 71.9,
+      "best_lap_formatted": "1:11.900",
+      "consistency_sigma": 0.619,
+      "flying_laps": 9,
+      "total_laps": 10,
+      "incidents": "Hero moves (failed)",
+      "theoretical_optimal": 71.566,
+      "gap_to_optimal": 0.334,
+      "grid_position": 1,
+      "finish_position": 2,
+      "quali_time": 72.476,
+      "race_vs_quali": -0.576,
+      "focus_area": "Race 02 - Overtaking & Deployment",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "corner_mastery": {
+          "dialed": ["The Sweeper", "Champion Exit", "Yokohama Bridge", "Foster's Dip Entry", "O'Brien Entry", "O'Brien Dogleg"],
+          "solid": ["Shell Corner", "Foster's Dip Exit", "Momo Corner", "Recaro Corner"],
+          "work_needed": ["Coca-Cola Corner"]
+        },
+        "race_vs_practice": {
+          "better_in_race": ["Yokohama (0.039s σ - ALIEN level)", "Consistency (0.619s σ vs P04 2.611s)", "Champion Exit (0.023s σ - ALIEN level)"],
+          "maintained_in_race": ["Foster's Dip Entry (0.069s σ)"],
+          "worse_in_race": ["Coca-Cola (0.344s σ - still the weak link)"]
+        },
+        "critical_laps": {
+          "Lap_5_PB": {"time": 71.9, "note": "Race PB, Flow State, faster than Quali"},
+          "Lap_9_Hero_Move": {"time": 74.05, "loss": 1.3, "note": "Failed hero move/overdrive, cost P1"}
+        },
+        "breakthroughs": {
+          "Yokohama_Alien_Status": {"sigma": 0.039, "status": "From Nemesis to Best Corner on Track"},
+          "Elite_Consistency": {"sigma": 0.619, "status": "Professional grade consistency in a race"}
+        },
+        "race_lesson": {
+          "issue": "Tried to be a 'Hero' on Lap 9 instead of trusting flow",
+          "root_cause": "Coca-Cola confidence (0.344s σ) leads to overdriving",
+          "next_focus": "Coca-Cola discipline + 'Boring Wins' mindset"
+        }
+      },
+      "notes": "WEEK 06 RACE 02 - THE STUPID HERO PARADOX. Started P1, finished P2. Pace was ELITE (1:11.900 Race PB, faster than Quali). Consistency was ELITE (0.619s σ). Yokohama Bridge is now his BEST CORNER (0.039s σ - inhuman consistency). Foster's Dip still a weapon. So why P2? 'Hero Moves' on Lap 9 (1:14.050). Lost ~1.3s forcing a move/defense that wasn't there. Meebewegen validated again by absence. Coca-Cola remains the only weakness (0.344s σ, 1134 oversteer events, LF tire scrubbing from aggressive entry). The data shows: when he commits (Yokohama), he wins. When he 'tries' (Coca-Cola/Hero Moves), he loses. Next goal: Boring Wins. G61: 01KF8MVA9W67VATJV3WFNVTYFN."
     }
   ],
   "insights": [
+    "Stupid Hero Paradox (Race 02): Pace (1:11.900) and Consistency (0.619s σ) were sufficient for P1. The loss came from 'Hero Moves' (Lap 9 overdrive). Validates that 'trying to win' is slower than 'driving to win'. Boring wins are the goal.",
+    "Yokohama Commitment vs Coca-Cola Trying (NEW): Yokohama σ 0.039s (Best) vs Coca-Cola σ 0.344s (Worst). Why? At Yokohama, driver COMMITS ('pick exit, point, hold'). At Coca-Cola, driver TRIES (brakes late, scrubs tires, oversteers). Commitment > Effort.",
+    "LF Tire Scrubbing (Coca-Cola): LF Outside Temp (79.1C) > Inside (71.3C) indicates heavy understeer/scrubbing in right-handers. Cause: aggressive turn-in/late braking at Coca-Cola/Shell. Fix: earlier brake, smooth entry, let fronts grip before loading.",
     "Brake Bias Protocol (Winton): Start 57.5% (stability on cold tires). Click down (2 clicks) to 56.5% after L3+ as tires warm up and rotation is needed. 56.5% is the floor.",
     "Vision Technique: 'Looking through the car' is the key to proximity. Focus on track, treat car ahead as peripheral obstacle. Enables flow state in traffic.",
     "Proximity Gap: 0.2s feels risky but is safer than 0.4s+ because it prevents 'gap panic' when leader brakes. Being closer means reacting to their car body language, not just brake lights.",
@@ -409,20 +458,12 @@
     "Overtaking Difficulty at Oran Park (NEW): Master Lonn's assessment 'hard to overtake' validated by Laps 9-10 (stuck in traffic, 2x incidents from attempts). Track characteristics: narrow, few heavy braking zones, AI competitive. Potential overtaking zones: (1) Foster's Dip complex (he's dialed, can brake later/exit faster), (2) Main straight after Recaro (setup pass through Recaro), (3) Coca-Cola if he can get better exit (but that's his problem corner). For next race: identify specific overtaking plan. Don't wait for AI mistake—CREATE opportunity at Foster's. That's where his weapon lives."
   ],
   "next_steps": [
-    "WEEK 06 RACE 01 (FIRST AI RACE): P1→P4. Lap 3 race best 1:12.383 (0.16s faster than quali!). ONE mistake cost positions: Coca-Cola L7 off-track (+2.4s).",
-    "THE TRUTH: You HAVE the pace (Lap 3 proved it). You HAVE the technique (10/12 corners dialed, Yokohama crushed, Foster's deployed). What you're learning: RACECRAFT (staying calm under pressure).",
-    "BREAKTHROUGH: Yokohama from practice nemesis (0.251s σ) to race weapon (0.088s σ) = 65% improvement! Foster's maintained (0.059s σ). Technique BETTER in race than practice (smoother, less oversteer). When you commit and trust, pressure HELPS.",
-    "THE PROBLEM: Coca-Cola brake drift (37.4m σ in race vs 0.093s σ in P04 = second-guessing under pressure). ONE corner, ONE lap. Not speed issue—confidence issue.",
-    "NEXT RACE FOCUS (Racecraft Training):",
-    "1. COCA-COLA BRAKE MARKER: Pick ONE board. 'Brake at the board.' Every lap. No thinking. Trust it. (Target: < 15m brake σ)",
-    "2. P1 PROTECTION MINDSET: 'Consistent 1:13s > one fast lap.' Lap 3 you did 1:12.383, then tried to go faster. Wrong. Protect the lead with consistency.",
-    "3. OVERTAKING ZONES: Laps 9-10 stuck in traffic (couldn't pass at Oran Park). Deploy Foster's Dip weapon + main straight for overtaking (brake later, exit faster).",
-    "4. REFRAME AI PRESSURE: 'AI behind me = I'm faster' (you're P1 for a REASON). Change self-talk from threat to confidence.",
-    "5. DEPLOY YOKOHAMA + FOSTER'S: Use these as overtaking zones (you flow through, others hesitate). Laps 9-10 showed you need a clear overtaking plan.",
-    "MENTAL RESET SPEED: ACHIEVED ✅ (Lap 8 = immediate 1:12.767 recovery). The skill is there.",
-    "ADDRESSABLE IN NEXT RACE: Coca-Cola confidence (~2s), overtaking zones execution (~2.5s), Lap 2 meebewegen timing (~1s) = 4-5.5s total. That's P4→P1-P2 right there.",
-    "THE LESSON: You're not learning to go faster. You're learning to deploy your speed under pressure. That's the harder skill. That's what matters in racing.",
-    "iRating: 1738. SR: 3.63 (B license). 5-week trajectory: +500 iRating. Next: Race 02 at Oran Park (racecraft deployment)."
+    "WEEK 06 RACE 02 (AI): P1→P2. Race PB 1:11.900 (Elite Pace). Consistency 0.619s σ (Elite).",
+    "THE HERO TRAP: You had the win in the bag with that pace/consistency. 'Hero moves' on Lap 9 cost you. Meebewegen validated by its absence.",
+    "NEW WEAPON: Yokohama Bridge σ 0.039s. You own this corner now. It's safer than the 'easy' corners.",
+    "REMAINING ISSUE: Coca-Cola σ 0.344s + LF Tire Scrubbing. You are fighting the car here. Smooth it out.",
+    "NEXT GOAL: Win a race by being BORING. No heroics. Just robot consistency.",
+    "iRating: 1738. SR: 3.63 (B license). Next: Race 03 - The Boring Win."
   ],
   "tools_reference": {
     "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",

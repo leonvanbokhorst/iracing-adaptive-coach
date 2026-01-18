@@ -1,0 +1,1619 @@
+{
+  "metadata": {
+    "file": "raygr22_oran gp 2026-01-18 15-09-24.ibt",
+    "track": "Oran Park Raceway - GP",
+    "track_id": "oran-gp",
+    "track_length_m": 2600,
+    "laps_found": 11
+  },
+  "corners": {
+    "The Sweeper": {
+      "zone": {
+        "start": 0.147,
+        "end": 0.195
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -84.7,
+          "overlap_samples": 25,
+          "overlap_pct": 7.3,
+          "entry_speed_kmh": 143.7,
+          "min_speed_kmh": 143.7,
+          "min_speed_dist_m": -129.5,
+          "max_brake_pct": 54.8,
+          "max_steering_rad": 0.291,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": 77.6,
+          "turn_in_dist_m": -102.9,
+          "overlap_samples": 61,
+          "overlap_pct": 20.5,
+          "entry_speed_kmh": 186.5,
+          "min_speed_kmh": 153.8,
+          "min_speed_dist_m": 124.3,
+          "max_brake_pct": 72.4,
+          "max_steering_rad": 0.247,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -128.5,
+          "overlap_samples": 74,
+          "overlap_pct": 24.9,
+          "entry_speed_kmh": 188.0,
+          "min_speed_kmh": 154.0,
+          "min_speed_dist_m": 124.4,
+          "max_brake_pct": 61.5,
+          "max_steering_rad": 0.161,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": 72.7,
+          "turn_in_dist_m": -104.9,
+          "overlap_samples": 53,
+          "overlap_pct": 17.7,
+          "entry_speed_kmh": 186.3,
+          "min_speed_kmh": 153.0,
+          "min_speed_dist_m": 124.2,
+          "max_brake_pct": 48.1,
+          "max_steering_rad": 0.173,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": 62.3,
+          "turn_in_dist_m": -120.9,
+          "overlap_samples": 70,
+          "overlap_pct": 23.4,
+          "entry_speed_kmh": 187.2,
+          "min_speed_kmh": 152.4,
+          "min_speed_dist_m": 124.4,
+          "max_brake_pct": 49.7,
+          "max_steering_rad": 0.165,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -109.4,
+          "overlap_samples": 80,
+          "overlap_pct": 27.0,
+          "entry_speed_kmh": 187.0,
+          "min_speed_kmh": 155.6,
+          "min_speed_dist_m": 124.6,
+          "max_brake_pct": 57.2,
+          "max_steering_rad": 0.284,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -41.0,
+          "overlap_samples": 54,
+          "overlap_pct": 18.2,
+          "entry_speed_kmh": 187.3,
+          "min_speed_kmh": 158.5,
+          "min_speed_dist_m": 124.3,
+          "max_brake_pct": 33.0,
+          "max_steering_rad": 0.156,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -121.1,
+          "overlap_samples": 73,
+          "overlap_pct": 24.7,
+          "entry_speed_kmh": 187.8,
+          "min_speed_kmh": 160.9,
+          "min_speed_dist_m": 124.2,
+          "max_brake_pct": 26.3,
+          "max_steering_rad": 0.252,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": 58.7,
+          "turn_in_dist_m": -119.1,
+          "overlap_samples": 54,
+          "overlap_pct": 18.6,
+          "entry_speed_kmh": 190.3,
+          "min_speed_kmh": 164.7,
+          "min_speed_dist_m": 124.8,
+          "max_brake_pct": 62.1,
+          "max_steering_rad": 0.229,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -118.8,
+          "overlap_samples": 75,
+          "overlap_pct": 24.5,
+          "entry_speed_kmh": 191.1,
+          "min_speed_kmh": 144.2,
+          "min_speed_dist_m": 124.6,
+          "max_brake_pct": 30.0,
+          "max_steering_rad": 0.195,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": 8.8,
+        "overlap_avg_pct": 20.7,
+        "overlap_sigma_pct": 5.7
+      },
+      "plot": "weeks/week06/assets/corner_entry_The_Sweeper.png"
+    },
+    "Coca-Cola Corner": {
+      "zone": {
+        "start": 0.196,
+        "end": 0.268
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": 62.1,
+          "turn_in_dist_m": -129.3,
+          "overlap_samples": 124,
+          "overlap_pct": 21.1,
+          "entry_speed_kmh": 165.4,
+          "min_speed_kmh": 73.5,
+          "min_speed_dist_m": 92.4,
+          "max_brake_pct": 64.9,
+          "max_steering_rad": 0.844,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": -49.8,
+          "turn_in_dist_m": -129.8,
+          "overlap_samples": 164,
+          "overlap_pct": 28.6,
+          "entry_speed_kmh": 194.7,
+          "min_speed_kmh": 75.9,
+          "min_speed_dist_m": 93.6,
+          "max_brake_pct": 73.9,
+          "max_steering_rad": 0.902,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": 72.6,
+          "turn_in_dist_m": -129.4,
+          "overlap_samples": 174,
+          "overlap_pct": 31.2,
+          "entry_speed_kmh": 194.8,
+          "min_speed_kmh": 76.0,
+          "min_speed_dist_m": 97.4,
+          "max_brake_pct": 62.1,
+          "max_steering_rad": 0.823,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": -54.7,
+          "turn_in_dist_m": -129.3,
+          "overlap_samples": 172,
+          "overlap_pct": 30.4,
+          "entry_speed_kmh": 193.3,
+          "min_speed_kmh": 74.3,
+          "min_speed_dist_m": 95.9,
+          "max_brake_pct": 70.2,
+          "max_steering_rad": 0.891,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": -65.1,
+          "turn_in_dist_m": -129.2,
+          "overlap_samples": 142,
+          "overlap_pct": 25.1,
+          "entry_speed_kmh": 194.3,
+          "min_speed_kmh": 74.3,
+          "min_speed_dist_m": 86.5,
+          "max_brake_pct": 63.9,
+          "max_steering_rad": 0.703,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": 65.0,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 168,
+          "overlap_pct": 29.9,
+          "entry_speed_kmh": 195.2,
+          "min_speed_kmh": 76.2,
+          "min_speed_dist_m": 96.3,
+          "max_brake_pct": 75.9,
+          "max_steering_rad": 0.903,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": 75.4,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 169,
+          "overlap_pct": 28.8,
+          "entry_speed_kmh": 195.8,
+          "min_speed_kmh": 65.4,
+          "min_speed_dist_m": 102.6,
+          "max_brake_pct": 93.9,
+          "max_steering_rad": 0.686,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": 71.2,
+          "turn_in_dist_m": -129.8,
+          "overlap_samples": 163,
+          "overlap_pct": 27.9,
+          "entry_speed_kmh": 196.2,
+          "min_speed_kmh": 68.7,
+          "min_speed_dist_m": 94.2,
+          "max_brake_pct": 89.0,
+          "max_steering_rad": 0.989,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": -68.7,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 203,
+          "overlap_pct": 32.8,
+          "entry_speed_kmh": 198.3,
+          "min_speed_kmh": 50.7,
+          "min_speed_dist_m": 96.5,
+          "max_brake_pct": 100.0,
+          "max_steering_rad": 2.077,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": 69.3,
+          "turn_in_dist_m": -129.4,
+          "overlap_samples": 153,
+          "overlap_pct": 26.4,
+          "entry_speed_kmh": 190.2,
+          "min_speed_kmh": 71.7,
+          "min_speed_dist_m": 82.0,
+          "max_brake_pct": 69.7,
+          "max_steering_rad": 0.955,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": 66.8,
+        "overlap_avg_pct": 28.2,
+        "overlap_sigma_pct": 3.4
+      },
+      "plot": "weeks/week06/assets/corner_entry_Coca-Cola_Corner.png"
+    },
+    "Shell Corner": {
+      "zone": {
+        "start": 0.32,
+        "end": 0.38
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -86.7,
+          "overlap_samples": 66,
+          "overlap_pct": 11.6,
+          "entry_speed_kmh": 115.9,
+          "min_speed_kmh": 74.2,
+          "min_speed_dist_m": 95.8,
+          "max_brake_pct": 73.1,
+          "max_steering_rad": 1.245,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": 60.3,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 55,
+          "overlap_pct": 9.6,
+          "entry_speed_kmh": 116.6,
+          "min_speed_kmh": 75.3,
+          "min_speed_dist_m": 100.2,
+          "max_brake_pct": 79.9,
+          "max_steering_rad": 1.201,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": 54.2,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 42,
+          "overlap_pct": 7.4,
+          "entry_speed_kmh": 119.0,
+          "min_speed_kmh": 77.4,
+          "min_speed_dist_m": 100.0,
+          "max_brake_pct": 75.4,
+          "max_steering_rad": 1.197,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 86,
+          "overlap_pct": 15.0,
+          "entry_speed_kmh": 115.7,
+          "min_speed_kmh": 74.3,
+          "min_speed_dist_m": 102.1,
+          "max_brake_pct": 74.5,
+          "max_steering_rad": 1.211,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": 49.9,
+          "turn_in_dist_m": -100.8,
+          "overlap_samples": 50,
+          "overlap_pct": 8.9,
+          "entry_speed_kmh": 119.7,
+          "min_speed_kmh": 75.6,
+          "min_speed_dist_m": 94.5,
+          "max_brake_pct": 78.6,
+          "max_steering_rad": 1.013,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": 59.2,
+          "turn_in_dist_m": -130.0,
+          "overlap_samples": 18,
+          "overlap_pct": 3.0,
+          "entry_speed_kmh": 118.6,
+          "min_speed_kmh": 64.5,
+          "min_speed_dist_m": 105.4,
+          "max_brake_pct": 96.1,
+          "max_steering_rad": 1.08,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 80,
+          "overlap_pct": 13.6,
+          "entry_speed_kmh": 103.3,
+          "min_speed_kmh": 72.7,
+          "min_speed_dist_m": 90.0,
+          "max_brake_pct": 79.8,
+          "max_steering_rad": 1.104,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": 60.2,
+          "turn_in_dist_m": -127.5,
+          "overlap_samples": 56,
+          "overlap_pct": 9.8,
+          "entry_speed_kmh": 116.2,
+          "min_speed_kmh": 74.6,
+          "min_speed_dist_m": 82.0,
+          "max_brake_pct": 72.2,
+          "max_steering_rad": 1.271,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": 60.3,
+          "turn_in_dist_m": -122.0,
+          "overlap_samples": 61,
+          "overlap_pct": 10.3,
+          "entry_speed_kmh": 107.6,
+          "min_speed_kmh": 69.6,
+          "min_speed_dist_m": 94.4,
+          "max_brake_pct": 100.0,
+          "max_steering_rad": 1.456,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 68,
+          "overlap_pct": 11.7,
+          "entry_speed_kmh": 120.4,
+          "min_speed_kmh": 72.7,
+          "min_speed_dist_m": 93.4,
+          "max_brake_pct": 84.4,
+          "max_steering_rad": 1.318,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": 4.3,
+        "overlap_avg_pct": 10.1,
+        "overlap_sigma_pct": 3.3
+      },
+      "plot": "weeks/week06/assets/corner_entry_Shell_Corner.png"
+    },
+    "Champion Curve Entry": {
+      "zone": {
+        "start": 0.414,
+        "end": 0.45
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -130.0,
+          "overlap_samples": 105,
+          "overlap_pct": 22.1,
+          "entry_speed_kmh": 83.3,
+          "min_speed_kmh": 83.3,
+          "min_speed_dist_m": -130.0,
+          "max_brake_pct": 37.9,
+          "max_steering_rad": 0.79,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": 12.3,
+          "turn_in_dist_m": -129.8,
+          "overlap_samples": 61,
+          "overlap_pct": 13.0,
+          "entry_speed_kmh": 81.6,
+          "min_speed_kmh": 81.6,
+          "min_speed_dist_m": -129.8,
+          "max_brake_pct": 47.8,
+          "max_steering_rad": 0.979,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": 14.8,
+          "turn_in_dist_m": -129.8,
+          "overlap_samples": 74,
+          "overlap_pct": 15.5,
+          "entry_speed_kmh": 82.2,
+          "min_speed_kmh": 82.2,
+          "min_speed_dist_m": -129.8,
+          "max_brake_pct": 40.1,
+          "max_steering_rad": 1.228,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 59,
+          "overlap_pct": 12.5,
+          "entry_speed_kmh": 79.5,
+          "min_speed_kmh": 79.5,
+          "min_speed_dist_m": -129.7,
+          "max_brake_pct": 37.6,
+          "max_steering_rad": 1.197,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": 8.9,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 52,
+          "overlap_pct": 11.3,
+          "entry_speed_kmh": 85.6,
+          "min_speed_kmh": 85.6,
+          "min_speed_dist_m": -129.7,
+          "max_brake_pct": 33.7,
+          "max_steering_rad": 1.128,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": 16.6,
+          "turn_in_dist_m": -130.0,
+          "overlap_samples": 72,
+          "overlap_pct": 14.9,
+          "entry_speed_kmh": 70.1,
+          "min_speed_kmh": 70.1,
+          "min_speed_dist_m": -130.0,
+          "max_brake_pct": 28.7,
+          "max_steering_rad": 0.962,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": 10.4,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 54,
+          "overlap_pct": 11.7,
+          "entry_speed_kmh": 84.1,
+          "min_speed_kmh": 84.1,
+          "min_speed_dist_m": -129.7,
+          "max_brake_pct": 46.3,
+          "max_steering_rad": 1.05,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 58,
+          "overlap_pct": 12.5,
+          "entry_speed_kmh": 86.1,
+          "min_speed_kmh": 86.1,
+          "min_speed_dist_m": -129.7,
+          "max_brake_pct": 39.5,
+          "max_steering_rad": 1.205,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": 13.2,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 69,
+          "overlap_pct": 14.5,
+          "entry_speed_kmh": 77.9,
+          "min_speed_kmh": 77.9,
+          "min_speed_dist_m": -129.9,
+          "max_brake_pct": 50.9,
+          "max_steering_rad": 0.953,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": 13.8,
+          "turn_in_dist_m": -129.8,
+          "overlap_samples": 61,
+          "overlap_pct": 12.6,
+          "entry_speed_kmh": 82.5,
+          "min_speed_kmh": 82.5,
+          "min_speed_dist_m": -129.8,
+          "max_brake_pct": 67.7,
+          "max_steering_rad": 0.897,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": 2.6,
+        "overlap_avg_pct": 14.1,
+        "overlap_sigma_pct": 3.1
+      },
+      "plot": "weeks/week06/assets/corner_entry_Champion_Curve_Entry.png"
+    },
+    "Champion Curve Exit": {
+      "zone": {
+        "start": 0.45,
+        "end": 0.475
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.5,
+          "overlap_samples": 105,
+          "overlap_pct": 25.5,
+          "entry_speed_kmh": 124.6,
+          "min_speed_kmh": 84.1,
+          "min_speed_dist_m": -32.5,
+          "max_brake_pct": 37.9,
+          "max_steering_rad": 0.79,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": -81.3,
+          "turn_in_dist_m": -113.9,
+          "overlap_samples": 61,
+          "overlap_pct": 15.4,
+          "entry_speed_kmh": 122.1,
+          "min_speed_kmh": 91.0,
+          "min_speed_dist_m": -48.0,
+          "max_brake_pct": 47.8,
+          "max_steering_rad": 0.979,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": -78.8,
+          "turn_in_dist_m": -124.9,
+          "overlap_samples": 74,
+          "overlap_pct": 18.4,
+          "entry_speed_kmh": 122.9,
+          "min_speed_kmh": 88.5,
+          "min_speed_dist_m": -36.3,
+          "max_brake_pct": 40.1,
+          "max_steering_rad": 1.228,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -113.2,
+          "overlap_samples": 59,
+          "overlap_pct": 14.8,
+          "entry_speed_kmh": 121.5,
+          "min_speed_kmh": 91.3,
+          "min_speed_dist_m": -36.4,
+          "max_brake_pct": 37.6,
+          "max_steering_rad": 1.197,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": -84.7,
+          "turn_in_dist_m": -113.0,
+          "overlap_samples": 52,
+          "overlap_pct": 13.2,
+          "entry_speed_kmh": 125.7,
+          "min_speed_kmh": 94.1,
+          "min_speed_dist_m": -37.0,
+          "max_brake_pct": 33.7,
+          "max_steering_rad": 1.128,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": -77.0,
+          "turn_in_dist_m": -126.1,
+          "overlap_samples": 72,
+          "overlap_pct": 18.0,
+          "entry_speed_kmh": 120.7,
+          "min_speed_kmh": 90.3,
+          "min_speed_dist_m": -44.0,
+          "max_brake_pct": 28.7,
+          "max_steering_rad": 0.962,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": -83.2,
+          "turn_in_dist_m": -112.6,
+          "overlap_samples": 54,
+          "overlap_pct": 13.7,
+          "entry_speed_kmh": 126.1,
+          "min_speed_kmh": 90.9,
+          "min_speed_dist_m": -43.0,
+          "max_brake_pct": 46.3,
+          "max_steering_rad": 1.05,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -112.6,
+          "overlap_samples": 58,
+          "overlap_pct": 14.5,
+          "entry_speed_kmh": 127.0,
+          "min_speed_kmh": 88.4,
+          "min_speed_dist_m": -33.5,
+          "max_brake_pct": 39.5,
+          "max_steering_rad": 1.205,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": -80.4,
+          "turn_in_dist_m": -126.2,
+          "overlap_samples": 69,
+          "overlap_pct": 17.3,
+          "entry_speed_kmh": 121.9,
+          "min_speed_kmh": 88.4,
+          "min_speed_dist_m": -48.3,
+          "max_brake_pct": 50.9,
+          "max_steering_rad": 0.953,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": -79.8,
+          "turn_in_dist_m": -110.5,
+          "overlap_samples": 61,
+          "overlap_pct": 14.6,
+          "entry_speed_kmh": 125.4,
+          "min_speed_kmh": 83.1,
+          "min_speed_dist_m": -44.9,
+          "max_brake_pct": 67.7,
+          "max_steering_rad": 0.897,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": 2.6,
+        "overlap_avg_pct": 16.5,
+        "overlap_sigma_pct": 3.6
+      },
+      "plot": "weeks/week06/assets/corner_entry_Champion_Curve_Exit.png"
+    },
+    "Yokohama Bridge": {
+      "zone": {
+        "start": 0.478,
+        "end": 0.55
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 93.3,
+          "min_speed_kmh": 84.1,
+          "min_speed_dist_m": -105.3,
+          "max_brake_pct": 4.0,
+          "max_steering_rad": 0.79,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.8,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 94.7,
+          "min_speed_kmh": 91.0,
+          "min_speed_dist_m": -120.8,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.979,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 17,
+          "overlap_pct": 2.9,
+          "entry_speed_kmh": 94.7,
+          "min_speed_kmh": 88.5,
+          "min_speed_dist_m": -109.1,
+          "max_brake_pct": 6.2,
+          "max_steering_rad": 1.228,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 97.7,
+          "min_speed_kmh": 91.3,
+          "min_speed_dist_m": -109.2,
+          "max_brake_pct": 2.4,
+          "max_steering_rad": 1.197,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.5,
+          "overlap_samples": 12,
+          "overlap_pct": 2.0,
+          "entry_speed_kmh": 100.0,
+          "min_speed_kmh": 94.1,
+          "min_speed_dist_m": -109.8,
+          "max_brake_pct": 6.0,
+          "max_steering_rad": 1.128,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -130.0,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 95.3,
+          "min_speed_kmh": 90.3,
+          "min_speed_dist_m": -116.8,
+          "max_brake_pct": 2.7,
+          "max_steering_rad": 0.962,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 21,
+          "overlap_pct": 3.6,
+          "entry_speed_kmh": 96.5,
+          "min_speed_kmh": 90.9,
+          "min_speed_dist_m": -115.8,
+          "max_brake_pct": 9.1,
+          "max_steering_rad": 1.05,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 23,
+          "overlap_pct": 3.9,
+          "entry_speed_kmh": 98.1,
+          "min_speed_kmh": 88.4,
+          "min_speed_dist_m": -106.3,
+          "max_brake_pct": 12.4,
+          "max_steering_rad": 1.205,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 3,
+          "overlap_pct": 0.5,
+          "entry_speed_kmh": 92.0,
+          "min_speed_kmh": 88.4,
+          "min_speed_dist_m": -121.1,
+          "max_brake_pct": 5.1,
+          "max_steering_rad": 0.953,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -130.0,
+          "overlap_samples": 1,
+          "overlap_pct": 0.2,
+          "entry_speed_kmh": 87.8,
+          "min_speed_kmh": 83.1,
+          "min_speed_dist_m": -117.7,
+          "max_brake_pct": 5.0,
+          "max_steering_rad": 0.897,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": null,
+        "overlap_avg_pct": 1.3,
+        "overlap_sigma_pct": 1.6
+      },
+      "plot": "weeks/week06/assets/corner_entry_Yokohama_Bridge.png"
+    },
+    "Foster's Dip Entry": {
+      "zone": {
+        "start": 0.575,
+        "end": 0.62
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 52,
+          "overlap_pct": 12.4,
+          "entry_speed_kmh": 120.2,
+          "min_speed_kmh": 118.9,
+          "min_speed_dist_m": -119.8,
+          "max_brake_pct": 12.5,
+          "max_steering_rad": 0.988,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 80,
+          "overlap_pct": 19.1,
+          "entry_speed_kmh": 124.8,
+          "min_speed_kmh": 113.0,
+          "min_speed_dist_m": 103.5,
+          "max_brake_pct": 15.2,
+          "max_steering_rad": 0.913,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 60,
+          "overlap_pct": 14.8,
+          "entry_speed_kmh": 122.0,
+          "min_speed_kmh": 122.0,
+          "min_speed_dist_m": -129.6,
+          "max_brake_pct": 18.2,
+          "max_steering_rad": 0.811,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 30,
+          "overlap_pct": 7.3,
+          "entry_speed_kmh": 125.1,
+          "min_speed_kmh": 120.4,
+          "min_speed_dist_m": -113.0,
+          "max_brake_pct": 11.7,
+          "max_steering_rad": 0.743,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 48,
+          "overlap_pct": 11.7,
+          "entry_speed_kmh": 121.6,
+          "min_speed_kmh": 121.1,
+          "min_speed_dist_m": 77.9,
+          "max_brake_pct": 17.9,
+          "max_steering_rad": 0.747,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 58,
+          "overlap_pct": 14.1,
+          "entry_speed_kmh": 122.6,
+          "min_speed_kmh": 121.1,
+          "min_speed_dist_m": 73.6,
+          "max_brake_pct": 16.3,
+          "max_steering_rad": 0.812,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -130.0,
+          "overlap_samples": 37,
+          "overlap_pct": 9.1,
+          "entry_speed_kmh": 124.0,
+          "min_speed_kmh": 123.6,
+          "min_speed_dist_m": 67.1,
+          "max_brake_pct": 20.4,
+          "max_steering_rad": 0.774,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 63,
+          "overlap_pct": 15.7,
+          "entry_speed_kmh": 124.2,
+          "min_speed_kmh": 123.9,
+          "min_speed_dist_m": 67.1,
+          "max_brake_pct": 24.1,
+          "max_steering_rad": 0.831,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": 16.8,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 32,
+          "overlap_pct": 7.7,
+          "entry_speed_kmh": 127.2,
+          "min_speed_kmh": 111.4,
+          "min_speed_dist_m": 115.7,
+          "max_brake_pct": 37.4,
+          "max_steering_rad": 0.767,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.4,
+          "overlap_samples": 33,
+          "overlap_pct": 7.8,
+          "entry_speed_kmh": 128.5,
+          "min_speed_kmh": 117.0,
+          "min_speed_dist_m": 89.9,
+          "max_brake_pct": 14.4,
+          "max_steering_rad": 0.739,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": null,
+        "overlap_avg_pct": 12.0,
+        "overlap_sigma_pct": 4.0
+      },
+      "plot": "weeks/week06/assets/corner_entry_Foster's_Dip_Entry.png"
+    },
+    "Foster's Dip Exit": {
+      "zone": {
+        "start": 0.62,
+        "end": 0.65
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -119.0,
+          "overlap_samples": 52,
+          "overlap_pct": 14.9,
+          "entry_speed_kmh": 141.8,
+          "min_speed_kmh": 119.1,
+          "min_speed_dist_m": -18.8,
+          "max_brake_pct": 12.5,
+          "max_steering_rad": 0.988,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -124.8,
+          "overlap_samples": 80,
+          "overlap_pct": 22.3,
+          "entry_speed_kmh": 143.0,
+          "min_speed_kmh": 113.0,
+          "min_speed_dist_m": -13.5,
+          "max_brake_pct": 15.2,
+          "max_steering_rad": 0.913,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -118.9,
+          "overlap_samples": 60,
+          "overlap_pct": 17.8,
+          "entry_speed_kmh": 144.6,
+          "min_speed_kmh": 122.9,
+          "min_speed_dist_m": -46.7,
+          "max_brake_pct": 18.2,
+          "max_steering_rad": 0.811,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -127.7,
+          "overlap_samples": 30,
+          "overlap_pct": 8.9,
+          "entry_speed_kmh": 141.3,
+          "min_speed_kmh": 121.8,
+          "min_speed_dist_m": -27.6,
+          "max_brake_pct": 11.7,
+          "max_steering_rad": 0.743,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -116.8,
+          "overlap_samples": 48,
+          "overlap_pct": 14.2,
+          "entry_speed_kmh": 143.4,
+          "min_speed_kmh": 121.1,
+          "min_speed_dist_m": -39.1,
+          "max_brake_pct": 17.9,
+          "max_steering_rad": 0.739,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -119.0,
+          "overlap_samples": 58,
+          "overlap_pct": 17.1,
+          "entry_speed_kmh": 143.3,
+          "min_speed_kmh": 121.1,
+          "min_speed_dist_m": -43.4,
+          "max_brake_pct": 16.3,
+          "max_steering_rad": 0.812,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -116.9,
+          "overlap_samples": 37,
+          "overlap_pct": 11.0,
+          "entry_speed_kmh": 144.3,
+          "min_speed_kmh": 123.6,
+          "min_speed_dist_m": -49.9,
+          "max_brake_pct": 20.4,
+          "max_steering_rad": 0.774,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -126.4,
+          "overlap_samples": 63,
+          "overlap_pct": 18.6,
+          "entry_speed_kmh": 146.2,
+          "min_speed_kmh": 123.9,
+          "min_speed_dist_m": -49.9,
+          "max_brake_pct": 24.1,
+          "max_steering_rad": 0.725,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": -100.2,
+          "turn_in_dist_m": -130.0,
+          "overlap_samples": 32,
+          "overlap_pct": 8.8,
+          "entry_speed_kmh": 140.4,
+          "min_speed_kmh": 111.4,
+          "min_speed_dist_m": 6.9,
+          "max_brake_pct": 37.4,
+          "max_steering_rad": 0.566,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -121.1,
+          "overlap_samples": 33,
+          "overlap_pct": 9.5,
+          "entry_speed_kmh": 136.7,
+          "min_speed_kmh": 117.0,
+          "min_speed_dist_m": -27.1,
+          "max_brake_pct": 14.4,
+          "max_steering_rad": 0.739,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": null,
+        "overlap_avg_pct": 14.3,
+        "overlap_sigma_pct": 4.7
+      },
+      "plot": "weeks/week06/assets/corner_entry_Foster's_Dip_Exit.png"
+    },
+    "Momo Corner": {
+      "zone": {
+        "start": 0.67,
+        "end": 0.73
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 58,
+          "overlap_pct": 12.1,
+          "entry_speed_kmh": 121.9,
+          "min_speed_kmh": 113.4,
+          "min_speed_dist_m": 95.4,
+          "max_brake_pct": 14.3,
+          "max_steering_rad": 0.948,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 34,
+          "overlap_pct": 7.0,
+          "entry_speed_kmh": 115.8,
+          "min_speed_kmh": 115.0,
+          "min_speed_dist_m": 99.3,
+          "max_brake_pct": 12.1,
+          "max_steering_rad": 0.901,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": 28.8,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 54,
+          "overlap_pct": 11.4,
+          "entry_speed_kmh": 128.4,
+          "min_speed_kmh": 114.0,
+          "min_speed_dist_m": 95.8,
+          "max_brake_pct": 41.9,
+          "max_steering_rad": 0.702,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -125.0,
+          "overlap_samples": 38,
+          "overlap_pct": 8.1,
+          "entry_speed_kmh": 127.1,
+          "min_speed_kmh": 115.9,
+          "min_speed_dist_m": 92.6,
+          "max_brake_pct": 20.4,
+          "max_steering_rad": 0.924,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -124.6,
+          "overlap_samples": 46,
+          "overlap_pct": 9.8,
+          "entry_speed_kmh": 127.5,
+          "min_speed_kmh": 117.0,
+          "min_speed_dist_m": 104.4,
+          "max_brake_pct": 25.4,
+          "max_steering_rad": 0.949,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -127.1,
+          "overlap_samples": 92,
+          "overlap_pct": 19.5,
+          "entry_speed_kmh": 127.3,
+          "min_speed_kmh": 115.2,
+          "min_speed_dist_m": 86.7,
+          "max_brake_pct": 37.4,
+          "max_steering_rad": 0.895,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -120.8,
+          "overlap_samples": 76,
+          "overlap_pct": 16.1,
+          "entry_speed_kmh": 128.1,
+          "min_speed_kmh": 115.6,
+          "min_speed_dist_m": 75.2,
+          "max_brake_pct": 53.4,
+          "max_steering_rad": 0.859,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": 41.8,
+          "turn_in_dist_m": -129.1,
+          "overlap_samples": 68,
+          "overlap_pct": 13.9,
+          "entry_speed_kmh": 130.2,
+          "min_speed_kmh": 108.6,
+          "min_speed_dist_m": 69.1,
+          "max_brake_pct": 48.3,
+          "max_steering_rad": 0.698,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": 32.8,
+          "turn_in_dist_m": -129.8,
+          "overlap_samples": 37,
+          "overlap_pct": 7.4,
+          "entry_speed_kmh": 111.4,
+          "min_speed_kmh": 111.4,
+          "min_speed_dist_m": -123.1,
+          "max_brake_pct": 19.2,
+          "max_steering_rad": 0.698,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": 34.4,
+          "turn_in_dist_m": -123.9,
+          "overlap_samples": 47,
+          "overlap_pct": 10.0,
+          "entry_speed_kmh": 123.0,
+          "min_speed_kmh": 118.3,
+          "min_speed_dist_m": 74.1,
+          "max_brake_pct": 29.2,
+          "max_steering_rad": 1.004,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": 5.4,
+        "overlap_avg_pct": 11.5,
+        "overlap_sigma_pct": 4.0
+      },
+      "plot": "weeks/week06/assets/corner_entry_Momo_Corner.png"
+    },
+    "O'Brien Entry": {
+      "zone": {
+        "start": 0.755,
+        "end": 0.78
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 113.9,
+          "min_speed_kmh": 113.4,
+          "min_speed_dist_m": -125.6,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.94,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 115.8,
+          "min_speed_kmh": 115.0,
+          "min_speed_dist_m": -121.7,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.9,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.5,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 114.2,
+          "min_speed_kmh": 114.0,
+          "min_speed_dist_m": -125.2,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.67,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.5,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 115.9,
+          "min_speed_kmh": 115.9,
+          "min_speed_dist_m": -128.4,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.816,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 118.8,
+          "min_speed_kmh": 117.0,
+          "min_speed_dist_m": -116.6,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.949,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 115.5,
+          "min_speed_kmh": 115.5,
+          "min_speed_dist_m": -129.9,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.733,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 116.1,
+          "min_speed_kmh": 116.1,
+          "min_speed_dist_m": -129.9,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.636,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 112.4,
+          "min_speed_kmh": 112.4,
+          "min_speed_dist_m": -129.7,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.35,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.5,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 116.8,
+          "min_speed_kmh": 116.8,
+          "min_speed_dist_m": -129.5,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.501,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 119.3,
+          "min_speed_kmh": 119.3,
+          "min_speed_dist_m": -129.6,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.446,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": null,
+        "overlap_avg_pct": 0.0,
+        "overlap_sigma_pct": 0.0
+      },
+      "plot": "weeks/week06/assets/corner_entry_O'Brien_Entry.png"
+    },
+    "O'Brien Dogleg": {
+      "zone": {
+        "start": 0.78,
+        "end": 0.83
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -80.9,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 124.4,
+          "min_speed_kmh": 124.4,
+          "min_speed_dist_m": -129.7,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.47,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.8,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 125.4,
+          "min_speed_kmh": 125.4,
+          "min_speed_dist_m": -129.8,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.403,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 126.3,
+          "min_speed_kmh": 126.3,
+          "min_speed_dist_m": -129.7,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.45,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 127.6,
+          "min_speed_kmh": 127.6,
+          "min_speed_dist_m": -129.6,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.447,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 127.3,
+          "min_speed_kmh": 127.3,
+          "min_speed_dist_m": -129.9,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.531,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.5,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 128.7,
+          "min_speed_kmh": 128.7,
+          "min_speed_dist_m": -129.5,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.488,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 129.2,
+          "min_speed_kmh": 129.2,
+          "min_speed_dist_m": -129.6,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.512,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 128.3,
+          "min_speed_kmh": 128.3,
+          "min_speed_dist_m": -129.9,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.485,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.4,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 130.2,
+          "min_speed_kmh": 130.2,
+          "min_speed_dist_m": -129.4,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.489,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 0,
+          "overlap_pct": 0.0,
+          "entry_speed_kmh": 131.1,
+          "min_speed_kmh": 131.1,
+          "min_speed_dist_m": -129.7,
+          "max_brake_pct": 0.0,
+          "max_steering_rad": 0.446,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": null,
+        "overlap_avg_pct": 0.0,
+        "overlap_sigma_pct": 0.0
+      },
+      "plot": "weeks/week06/assets/corner_entry_O'Brien_Dogleg.png"
+    },
+    "Recaro Corner": {
+      "zone": {
+        "start": 0.85,
+        "end": 0.93
+      },
+      "laps": [
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -130.0,
+          "overlap_samples": 52,
+          "overlap_pct": 8.8,
+          "entry_speed_kmh": 150.2,
+          "min_speed_kmh": 97.8,
+          "min_speed_dist_m": 89.6,
+          "max_brake_pct": 85.5,
+          "max_steering_rad": 1.135,
+          "lap": 2
+        },
+        {
+          "brake_release_dist_m": 56.9,
+          "turn_in_dist_m": -129.9,
+          "overlap_samples": 65,
+          "overlap_pct": 11.0,
+          "entry_speed_kmh": 150.8,
+          "min_speed_kmh": 92.1,
+          "min_speed_dist_m": 114.9,
+          "max_brake_pct": 77.5,
+          "max_steering_rad": 1.076,
+          "lap": 3
+        },
+        {
+          "brake_release_dist_m": 50.0,
+          "turn_in_dist_m": -129.3,
+          "overlap_samples": 55,
+          "overlap_pct": 9.1,
+          "entry_speed_kmh": 151.2,
+          "min_speed_kmh": 93.8,
+          "min_speed_dist_m": 84.2,
+          "max_brake_pct": 72.6,
+          "max_steering_rad": 0.922,
+          "lap": 4
+        },
+        {
+          "brake_release_dist_m": 51.5,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 53,
+          "overlap_pct": 9.1,
+          "entry_speed_kmh": 152.1,
+          "min_speed_kmh": 97.2,
+          "min_speed_dist_m": 105.7,
+          "max_brake_pct": 76.1,
+          "max_steering_rad": 0.89,
+          "lap": 5
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 61,
+          "overlap_pct": 10.5,
+          "entry_speed_kmh": 152.3,
+          "min_speed_kmh": 91.8,
+          "min_speed_dist_m": 111.3,
+          "max_brake_pct": 72.4,
+          "max_steering_rad": 0.718,
+          "lap": 6
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.5,
+          "overlap_samples": 75,
+          "overlap_pct": 12.7,
+          "entry_speed_kmh": 153.5,
+          "min_speed_kmh": 90.6,
+          "min_speed_dist_m": 112.0,
+          "max_brake_pct": 73.7,
+          "max_steering_rad": 0.672,
+          "lap": 7
+        },
+        {
+          "brake_release_dist_m": 52.5,
+          "turn_in_dist_m": -129.1,
+          "overlap_samples": 92,
+          "overlap_pct": 15.6,
+          "entry_speed_kmh": 152.8,
+          "min_speed_kmh": 88.6,
+          "min_speed_dist_m": 114.0,
+          "max_brake_pct": 71.8,
+          "max_steering_rad": 0.522,
+          "lap": 8
+        },
+        {
+          "brake_release_dist_m": 77.5,
+          "turn_in_dist_m": -129.7,
+          "overlap_samples": 110,
+          "overlap_pct": 18.4,
+          "entry_speed_kmh": 154.4,
+          "min_speed_kmh": 86.4,
+          "min_speed_dist_m": 89.8,
+          "max_brake_pct": 62.9,
+          "max_steering_rad": 0.639,
+          "lap": 9
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 57,
+          "overlap_pct": 9.6,
+          "entry_speed_kmh": 152.7,
+          "min_speed_kmh": 95.1,
+          "min_speed_dist_m": 89.2,
+          "max_brake_pct": 71.5,
+          "max_steering_rad": 0.961,
+          "lap": 10
+        },
+        {
+          "brake_release_dist_m": null,
+          "turn_in_dist_m": -129.6,
+          "overlap_samples": 91,
+          "overlap_pct": 15.3,
+          "entry_speed_kmh": 150.9,
+          "min_speed_kmh": 94.4,
+          "min_speed_dist_m": 97.6,
+          "max_brake_pct": 83.6,
+          "max_steering_rad": 0.806,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "brake_release_sigma_m": 11.4,
+        "overlap_avg_pct": 12.0,
+        "overlap_sigma_pct": 3.4
+      },
+      "plot": "weeks/week06/assets/corner_entry_Recaro_Corner.png"
+    }
+  }
+}
