@@ -256,6 +256,63 @@
         }
       },
       "notes": "WEEK 06 SESSION 4 - PRE-RACE FINAL! NEW PERSONAL BEST: 1:11.033 (0.167s improvement over Practice 03). FOUR CONSECUTIVE PBs across four sessions (1.55s total improvement in 3 days!). Master Lonn's vibe check: 'Felt even more consistent and two or three surprising snaps, but I feel more and more in control.' DATA VALIDATES HIS FEELING: 10/12 corners DIALED (83% of track!), gap to optimal only 0.25s, Foster's Dip technique from P03 is now MUSCLE MEMORY (Entry 0.06s σ, Exit 0.042s σ with 0.2m apex precision!). Week 06 goals: ALL THREE ACHIEVED ✅✅✅ (Foster's Entry apex 13.8m, Exit speed variance 4.06 km/h, Coca-Cola corner σ 0.093s = all at or better than targets). Master Lonn was RIGHT about 'two or three snaps': ONE big off at Champion Exit Lap 10 (12.883s corner vs 2.1s avg = gravel trip), ONE Yokohama wobble Lap 11. Champion Exit off was pushing for PB (Entry too aggressive, carried too much speed into Exit). Yokohama Bridge remains the ONLY problem corner (71.6m apex wander, 26.86 rad/s² steering jerk = sawing at wheel). Diagnosis: treating Yokohama like a corner when it's a KINK (blind entry, high speed, no reference). Fix: pick EXIT marker, point and commit, calm hands, one smooth input. Brake consistency ELITE on 6 corners (< 6m σ: Shell, Champion Entry, Foster's Entry, Momo, O'Brien, Recaro). Foster's Dip is now a WEAPON (P03 discovery → P04 muscle memory → ready to attack here in races). Steering smoothness regressed slightly (16.1 vs 14.5 in P03) but NOT a concern (still smooth, just pushing for PB pace). Gap to Gong: closed from 2.7s (P01) to 1.2s (P04) = 1.5s improvement! Ready for AI races tomorrow. The work is done. Now it's about DEPLOYMENT (consistency > speed, avoid big mistakes, use Foster's as overtaking weapon). G61: 01KF62KQ4E5EVXZK8J7E3FKTWW."
+    },
+    {
+      "date": "2026-01-18",
+      "time": "11:31 CET",
+      "session_type": "Race (AI Opponents) 01 - First Race",
+      "track": "Oran Park Raceway - GP",
+      "best_lap": 72.383,
+      "best_lap_formatted": "1:12.383",
+      "consistency_sigma": 1.786,
+      "flying_laps": 9,
+      "total_laps": 10,
+      "incidents": 3,
+      "theoretical_optimal": 71.817,
+      "gap_to_optimal": 0.566,
+      "grid_position": 1,
+      "finish_position": 4,
+      "quali_time": 72.543,
+      "race_vs_quali": -0.16,
+      "focus_area": "First AI Race - Deployment (consistency > speed)",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "corner_mastery": {
+          "dialed": ["The Sweeper (L1)", "Shell (L3)", "Champion Entry (L4)", "Champion Exit (L5)", "Yokohama Bridge (L6)", "Foster's Dip Entry (L7)", "Foster's Dip Exit (L8)", "Momo (L9)", "O'Brien Entry (L10)", "O'Brien Dogleg (L11)", "Recaro (L12)"],
+          "solid": [],
+          "work_needed": [],
+          "lottery": ["Coca-Cola Corner (L2)"]
+        },
+        "race_vs_practice": {
+          "better_in_race": ["Yokohama (-65% improvement: 0.251s → 0.088s σ)", "Champion Exit (-93% improvement: 2.288s → 0.018s σ)", "Steering smoothness (16.1 → 15.9 rad/s²)", "Oversteer events (12,652 → 5,123)"],
+          "maintained_in_race": ["Foster's Entry (0.060s → 0.059s σ)", "Foster's Exit (0.042s → 0.078s σ)", "Elite brake consistency (6 corners < 10m σ)"],
+          "worse_in_race": ["Coca-Cola (0.093s → 0.802s σ = pressure issue)", "Best lap (1:11.033 → 1:12.383 = traffic/defending normal)"]
+        },
+        "input_smoothness": {
+          "steering_avg_jerk_rad_s2": 15.9,
+          "throttle_avg_jerk_pct_s2": 510.5,
+          "throttle_full_usage_pct": 52.7,
+          "brake_max_pct": 100.0,
+          "brake_avg_when_braking_pct": 45.7
+        },
+        "critical_laps": {
+          "Lap_3_PB": {"time": 72.383, "note": "FASTER than quali (72.543), clear air, in the zone, proof pace is there"},
+          "Lap_7_disaster": {"time": 77.867, "cocacola_corner": 9.417, "normal": 7.0, "loss": 2.4, "note": "Off-track at Coca-Cola from overdriving under pressure, P1→P4"},
+          "Lap_8_recovery": {"time": 72.767, "note": "IMMEDIATE 5s recovery proves resilience, mental reset worked"}
+        },
+        "breakthroughs": {
+          "Yokohama_nemesis_crushed": {"p04_sigma": 0.251, "race_sigma": 0.088, "improvement_pct": 65, "status": "Practice nemesis became race weapon"},
+          "Technique_under_pressure": {"corners_dialed": 10, "corners_total": 12, "pct": 83, "smoother_steering": true, "less_oversteer": true, "status": "Better technique in race than practice"},
+          "Resilience_proven": {"disaster_lap": 7, "recovery_lap": 8, "delta": 5.1, "status": "Can reset immediately after mistakes"}
+        },
+        "race_lesson": {
+          "issue": "One mistake under pressure (Coca-Cola L7 +2.4s), not lack of pace",
+          "evidence": "Lap 3 = 1:12.383 (faster than quali), 10/12 corners dialed, smoother inputs than P04",
+          "root_cause": "Brake point drift (37.4m σ at Coca-Cola = second-guessing), overdriving when AI close, trying to 'go faster' instead of 'stay consistent'",
+          "next_focus": "Racecraft: pressure management, reference point trust, faster mental reset (L9-10 still slow after L7 disaster)"
+        }
+      },
+      "notes": "WEEK 06 RACE 01 - FIRST AI RACE! Started P1 (quali 1:12.543), finished P4, 3x incidents. Master Lonn's feeling: 'Not satisfied, AI don't crash, stuck where you started, hard to overtake.' REALITY CHECK: Lap 3 race best 1:12.383 = 0.16s FASTER than quali! The pace IS there. The technique IS there. 10/12 corners dialed (83% mastery), Yokohama CRUSHED (from 0.251s practice nemesis to 0.088s race weapon = 65% improvement!), Foster's Dip weapon MAINTAINED (0.059s Entry σ), smoother steering in race than practice (15.9 vs 16.1 rad/s²), LESS oversteer in race (5,123 vs 12,652 events). What went wrong? ONE corner, ONE lap: Coca-Cola Lap 7 = +2.4s off-track (P1→P4 right there). Root cause: brake point drift 37.4m σ (second-guessing under pressure), overdriving when AI closed in ('need to go faster' instead of 'stay consistent'). Laps 2-6 (pre-disaster) avg 1:13.133 σ 0.367s = SOLID race pace. Lap 8 IMMEDIATE recovery (1:12.767) proves mental reset IS FAST (worked perfectly!). Laps 9-10 slow (1:15.0-1:15.5) = STUCK IN TRAFFIC, couldn't overtake (Oran Park is hard to pass), 2x incidents from overtake attempts. THE BREAKTHROUGH: Yokohama technique ('pick exit, point, hold') DEPLOYED under pressure = better in race than practice! Foster's stayed a weapon (0.059s σ). Technique transfers to racing. THE LESSON: This wasn't about speed (Lap 3 proved it). This was about RACECRAFT - staying calm under pressure, trusting reference points (Coca-Cola brake marker), and finding overtaking zones (Laps 9-10 showed need for clear plan). Mental reset speed is GOOD (Lap 8 = immediate). Addressable in next race: Coca-Cola confidence (~1.5-2.0s), overtaking zones at Oran Park (~2.0-2.5s), cold tire meebewegen Lap 2 (~0.5-1.0s) = 4.0-5.5s total (that's P4→P1-P2). Master Lonn has the pace. Now learning to deploy it under pressure + learning WHERE to overtake. That's the harder skill, but that's what matters in racing. G61: 01KF89WV3PM69NTCNRS9A76VTZ."
     }
   ],
   "insights": [
@@ -344,20 +401,28 @@
     "Yokohama Bridge Diagnosis (NEW): The ONLY remaining problem corner (71.6m apex wander, 11.59 km/h speed variance, steering jerk 26.86 rad/s² = HIGHEST of any corner). Issue: treating it like a corner when it's a HIGH-SPEED KINK. Blind entry + elevation change + no clear reference point = second-guessing mid-corner. Peak lat G 3.32G proves car CAN do it—problem is CONFIDENCE, not capability. Fix: (1) Pick EXIT marker (right-side rumble strip), not apex. (2) Point car at exit from entry. (3) One smooth steering input, HOLD IT, done. (4) Lift if needed (don't scrub speed with corrections). Best laps through Yokohama (L16, L18, L22) all had minimal steering jerk + smooth commitment. This is 'point and shoot' not 'turn and apex.' For races: Yokohama is where passes happen (others lift/hesitate, you commit and flow through).",
     "Champion Exit One-Off Pattern (NEW): Lap 10 disaster (12.883s corner vs 2.1s avg = 10 seconds in gravel) was NOT a consistency problem—it was ONE mistake from pushing for PB. Entry was too aggressive (3.333s vs 3.433s avg = faster), carried too much speed into Exit, overloaded fronts, snap oversteer. Champion is a COMPOUND corner—Entry speed dictates Exit grip. This corner was dialed in P02 and P03 (0.052s σ Entry, 0.142s σ Exit). For races: prioritize Exit over Entry (Entry is blind, Exit sets up the straight). Go 2% slower into Entry if needed. Respect the Entry→Exit chain. No drill needed—already know this corner, just don't overdrive it.",
     "Four Consecutive PBs Pattern (Week 06, NEW): P01: 1:12.583 (baseline) → P02: 1:11.617 (-0.966s) → P03: 1:11.200 (-0.417s) → P04: 1:11.033 (-0.167s). Total: 1.55s improvement in 3 days (4 sessions). Progression shows: (1) Big initial gains from learning track (P01→P02), (2) Technique refinement (P02→P03), (3) Consistency at limit (P03→P04). Each PB was CLEAN (no offs on PB lap itself). P04 PB came on Lap 18 in clear air after recovering from Lap 10 off—shows resilience and ability to refocus. Gap to optimal: 0.533s (P03) → 0.25s (P04) = approaching absolute limit. Remaining time is in Yokohama smoothing (~0.15-0.20s) and Champion consistency (~0.05s). Ready for AI races.",
-    "Pre-Race Readiness Indicators (NEW): Master Lonn's self-assessment 'more consistent, more in control' validated by data: 83% of track dialed (10/12 corners), gap to optimal 0.25s, four consecutive PBs, all Week 06 goals achieved. Key race prep indicators: (1) Foster's Dip is a WEAPON (dialed consistency, can attack here). (2) Brake consistency elite (6 corners < 6m σ). (3) Immediate recovery from mistakes (Lap 10 off → Lap 11 back to 1:11.850). (4) Tire temps perfectly balanced (BB 56% optimal, no setup changes needed). (5) Knows where remaining speed lives (Yokohama smoothing, Champion respect). Race strategy: consistency > speed (target 1:11.5-1:12.0 range, not PB hunting), Cold Tire Contract L1-2, deploy pace L3+, overtake at Foster's + main straight, defend at Recaro exit, mental reset if needed ('Just DRIVE'). The work is done—now it's DEPLOYMENT."
+    "Pre-Race Readiness Indicators (NEW): Master Lonn's self-assessment 'more consistent, more in control' validated by data: 83% of track dialed (10/12 corners), gap to optimal 0.25s, four consecutive PBs, all Week 06 goals achieved. Key race prep indicators: (1) Foster's Dip is a WEAPON (dialed consistency, can attack here). (2) Brake consistency elite (6 corners < 6m σ). (3) Immediate recovery from mistakes (Lap 10 off → Lap 11 back to 1:11.850). (4) Tire temps perfectly balanced (BB 56% optimal, no setup changes needed). (5) Knows where remaining speed lives (Yokohama smoothing, Champion respect). Race strategy: consistency > speed (target 1:11.5-1:12.0 range, not PB hunting), Cold Tire Contract L1-2, deploy pace L3+, overtake at Foster's + main straight, defend at Recaro exit, mental reset if needed ('Just DRIVE'). The work is done—now it's DEPLOYMENT.",
+    "First AI Race Reality Check (CRITICAL NEW DISCOVERY): Race 01 at Oran Park. Master Lonn started P1 (quali 1:12.543), finished P4, felt 'not satisfied, AI too good, stuck where started.' DATA TRUTH: Lap 3 race best 1:12.383 = 0.16s FASTER than quali. Pace IS there. Technique deployed BETTER in race than practice: 10/12 corners dialed (Yokohama from 0.251s practice nemesis → 0.088s race weapon = 65% improvement!), Foster's maintained (0.059s σ), smoother steering (15.9 vs 16.1), less oversteer (5,123 vs 12,652 events). What cost P1→P4? ONE corner, ONE lap: Coca-Cola Lap 7 off-track (+2.4s). Root cause: brake drift 37.4m σ (second-guessing under pressure), overdriving when AI close ('go faster' not 'stay consistent'). Laps 2-6 pre-disaster avg 1:13.133 = solid race pace. Lap 8 immediate recovery (1:12.767) = resilience proven. But Laps 9-10 slow (1:15s) = mental reset took 3 laps not 1. THE PATTERN: Simplify under pressure = better (Yokohama). Overthink under pressure = worse (Coca-Cola). The skill isn't trying harder—it's trusting more. Next race addressable: Coca-Cola confidence (~2s), faster mental reset (~2.5s), Lap 2 meebewegen (~1s) = 4-5.5s total (P4→P1-P2). He's not missing speed. He's learning to deploy it under pressure. That's the lesson.",
+    "Reference Point Trust Under Pressure (NEW PRINCIPLE for Guidebook Ch14): Coca-Cola brake drift 37.4m σ (105m range!) in Race 01 vs 6.1m σ Shell, 5.1m σ Foster's. When AI close, temptation is brake earlier (caution) or brake later (make up time). Both wrong. Brake at YOUR marker, the practiced one, EVERY lap. Coca-Cola was 0.093s σ in P04 (dialed) → 0.802s σ in Race (lottery) = not skill problem, confidence problem. Foster's stayed 5.1m σ because trusted. Yokohama improved (71.6m → 61.3m) because committed to 'pick exit, point, hold.' The fix: 'Brake at the board' becomes automatic mantra. One marker, one commitment, no thinking. Trust overcomes pressure. This is racecraft foundation.",
+    "Better In Race Than Practice Pattern (HUGE): Race 01 technique was BETTER than P04 practice: Yokohama 65% improvement, Champion Exit 93% improvement, steering smoother (15.9 vs 16.1), oversteer down 60% (5,123 vs 12,652). Why? Pressure forced SIMPLIFICATION. 'Pick exit, point, hold' at Yokohama worked BETTER when no time to overthink. Foster's muscle memory deployed (0.059s σ maintained). When he commits to a technique and trusts it, race pressure HELPS by removing overthinking. The lesson: practice dialing in techniques, then trust them to execute BETTER in races. Counterintuitive but data-proven. This is why Yokohama breakthrough happened in Race not Practice. Implications: drilling techniques to automatic (muscle memory) makes them pressure-proof. For next race: Coca-Cola needs same 'automatic trust' treatment.",
+    "Race Resilience - Mental Reset is FAST (VALIDATED): Lap 7 disaster (1:17.867 off) → Lap 8 immediate recovery (1:12.767) = 5s gained back proves 'Just DRIVE' mental reset works PERFECTLY. The skill is THERE. Laps 9-10 slow (1:15.0, 1:15.5) was NOT mental issue—Master Lonn clarified he was STUCK IN TRAFFIC, couldn't find overtaking opportunities, picked up 2x incidents trying. Oran Park is hard to pass (he's right). So the lesson isn't 'faster mental reset' (already fast!)—it's 'WHERE to overtake at Oran Park' (Foster's Dip + main straight are weapons, need to deploy them). Mental reset speed = ACHIEVED. Next: racecraft overtaking zones.",
+    "Overtaking Difficulty at Oran Park (NEW): Master Lonn's assessment 'hard to overtake' validated by Laps 9-10 (stuck in traffic, 2x incidents from attempts). Track characteristics: narrow, few heavy braking zones, AI competitive. Potential overtaking zones: (1) Foster's Dip complex (he's dialed, can brake later/exit faster), (2) Main straight after Recaro (setup pass through Recaro), (3) Coca-Cola if he can get better exit (but that's his problem corner). For next race: identify specific overtaking plan. Don't wait for AI mistake—CREATE opportunity at Foster's. That's where his weapon lives."
   ],
   "next_steps": [
-    "WEEK 06 PRACTICE 04 (PRE-RACE FINAL): NEW PB 1:11.033 at Oran Park GP. Gap to Gong: 1.2s (was 2.7s in P01). Gap to optimal: 0.25s. READY FOR AI RACES.",
-    "FOUR CONSECUTIVE PBs: 1:12.583 → 1:11.617 → 1:11.200 → 1:11.033 (1.55s improvement in 3 days). Track mastery achieved.",
-    "WEEK 06 GOALS: ALL THREE CRUSHED ✅✅✅ (Foster's Entry apex 13.8m, Exit speed 4.06 km/h variance, Coca-Cola σ 0.093s). Mission accomplished.",
-    "FOSTER'S DIP: MASTERED. Entry 0.06s σ, Exit 0.042s σ, 0.2m apex precision. Technique from P03 is now MUSCLE MEMORY. This is your WEAPON for racing.",
-    "TRACK MASTERY: 10/12 corners DIALED (83%). Champion Entry, Coca-Cola, Shell, Foster's complex, Momo, O'Brien, Sweeper, Dogleg, Recaro solid. Only Yokohama remains.",
-    "YOKOHAMA BRIDGE: The ONLY problem corner (71.6m apex wander). It's a KINK, not a corner. Fix: pick EXIT (right rumble), point car at exit from entry, one smooth input, HOLD IT, no corrections. Your best laps (L16, L18, L22) show you CAN do it—just commit and trust. Race advantage: others lift/hesitate, you flow through.",
-    "CHAMPION EXIT: ONE off (Lap 10) from pushing for PB. You know this corner (was dialed in P02/P03). For races: prioritize Exit over Entry. Go 2% slower into Entry if needed. Respect Entry→Exit chain.",
-    "AI RACES TOMORROW: Mission is DEPLOYMENT, not discovery. Target: consistency > speed (1:11.5-1:12.0 range). Strategy: Cold Tire Contract L1-2, deploy pace L3+, overtake at Foster's + main straight, defend at Recaro exit. You're READY.",
-    "Race prep indicators: (1) 83% track dialed, (2) Foster's is weapon, (3) Elite brake consistency (6 corners < 6m σ), (4) Immediate recovery from mistakes, (5) Tire temps perfect (BB 56% optimal), (6) Knows where remaining speed lives. The work is DONE.",
-    "Optional drill before Tuesday: Yokohama-only session (10 laps, ONLY focus: pick exit, aim, commit, hold). But you're already ready NOW.",
-    "iRating: 1738. SR: 3.63 (B license). 5-week trajectory: +500 iRating. Next: first AI race at Oran Park."
+    "WEEK 06 RACE 01 (FIRST AI RACE): P1→P4. Lap 3 race best 1:12.383 (0.16s faster than quali!). ONE mistake cost positions: Coca-Cola L7 off-track (+2.4s).",
+    "THE TRUTH: You HAVE the pace (Lap 3 proved it). You HAVE the technique (10/12 corners dialed, Yokohama crushed, Foster's deployed). What you're learning: RACECRAFT (staying calm under pressure).",
+    "BREAKTHROUGH: Yokohama from practice nemesis (0.251s σ) to race weapon (0.088s σ) = 65% improvement! Foster's maintained (0.059s σ). Technique BETTER in race than practice (smoother, less oversteer). When you commit and trust, pressure HELPS.",
+    "THE PROBLEM: Coca-Cola brake drift (37.4m σ in race vs 0.093s σ in P04 = second-guessing under pressure). ONE corner, ONE lap. Not speed issue—confidence issue.",
+    "NEXT RACE FOCUS (Racecraft Training):",
+    "1. COCA-COLA BRAKE MARKER: Pick ONE board. 'Brake at the board.' Every lap. No thinking. Trust it. (Target: < 15m brake σ)",
+    "2. P1 PROTECTION MINDSET: 'Consistent 1:13s > one fast lap.' Lap 3 you did 1:12.383, then tried to go faster. Wrong. Protect the lead with consistency.",
+    "3. OVERTAKING ZONES: Laps 9-10 stuck in traffic (couldn't pass at Oran Park). Deploy Foster's Dip weapon + main straight for overtaking (brake later, exit faster).",
+    "4. REFRAME AI PRESSURE: 'AI behind me = I'm faster' (you're P1 for a REASON). Change self-talk from threat to confidence.",
+    "5. DEPLOY YOKOHAMA + FOSTER'S: Use these as overtaking zones (you flow through, others hesitate). Laps 9-10 showed you need a clear overtaking plan.",
+    "MENTAL RESET SPEED: ACHIEVED ✅ (Lap 8 = immediate 1:12.767 recovery). The skill is there.",
+    "ADDRESSABLE IN NEXT RACE: Coca-Cola confidence (~2s), overtaking zones execution (~2.5s), Lap 2 meebewegen timing (~1s) = 4-5.5s total. That's P4→P1-P2 right there.",
+    "THE LESSON: You're not learning to go faster. You're learning to deploy your speed under pressure. That's the harder skill. That's what matters in racing.",
+    "iRating: 1738. SR: 3.63 (B license). 5-week trajectory: +500 iRating. Next: Race 02 at Oran Park (racecraft deployment)."
   ],
   "tools_reference": {
     "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",
