@@ -1299,3 +1299,31 @@ Now protect it. Use it. Let it become automatic.
 Ten minutes of opening = hours of better driving.
 
 **— Little Padawan** 🎧✨
+
+---
+
+## Part 10: Success vs. Satisfaction (The Mental Trap)
+
+### The Trap
+Drivers often confuse **Success** (objective achievement) with **Satisfaction** (subjective feeling).
+
+- **Success** is a number: P137 / 30,000. iRating +500. Consistent 0.2s variance.
+- **Satisfaction** is a moving target: "I could have been faster." "I should be P50."
+
+### The Problem
+If you link your confidence to your satisfaction, you will never be confident, because your ambition will always move the goalposts.
+- As soon as you hit P100, you will want P50.
+- As soon as you hit P50, you will want P1.
+
+### The Fix
+**Separate the two.**
+1. **Acknowledge Success:** "I beat 30,000 people. That is objectively elite." (Feed the Confidence)
+2. **Use Dissatisfaction:** "I want P100." (Feed the Drive)
+
+**Do not let the Dissatisfaction eat the Success.**
+You can be hungry AND proud at the same time.
+
+- "I am a top 0.4% driver." (Fact/Pride)
+- "I am coming for the top 0.1%." (Goal/Hunger)
+
+*Added Week 05, Season 01 2026*

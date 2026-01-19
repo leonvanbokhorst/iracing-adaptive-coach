@@ -12,13 +12,24 @@
     "irating_change": 500,
     "license_class": "B",
     "division_current": 8,
+    "division_rank": "P7 (Top 0.4%)",
+    "dutch_rank": "P6 (Overall) / P2 (Div 8)",
     "series": "Formula 1600 Rookie Series",
-    "position_current": 209,
-    "total_drivers": 21567,
-    "position_percentile": "Top 1.0%",
+    "position_current": 137,
+    "total_drivers": 30481,
+    "position_percentile": "Top 0.44%",
     "week03_final": true
   },
-  "focus": "Week 06: Foster's Dip Complex. Eliminate the chaos.",
+  "rivals": [
+    {
+      "name": "Dylan Ashtari",
+      "division": 8,
+      "country": "NL",
+      "status": "The Target (Gap: 30 pts)",
+      "notes": "Higher volume (11 wins), lower iRating (1581). Beatable with consistency."
+    }
+  ],
+  "focus": "Week 06: Foster's Dip Complex. Eliminate the chaos. Hunt down Dylan.",
   "goal": "Week 06 Target: Foster's Dip Entry apex σ < 10m, Exit speed variance < 10 km/h, Coca-Cola brake σ < 10m.",
   "learning_style": {
     "adhd_adaptations": [
@@ -362,6 +373,8 @@
     }
   ],
   "insights": [
+    "Success vs Satisfaction (New): Don't let dissatisfaction with P137 eat the success of being P137. Hunger fuels the drive, but confidence comes from acknowledging the stats.",
+    "Mental State (Week 06): Struggling to accept objective success (P137) due to subjective dissatisfaction ('I want to be better'). The challenge is behaving according to the 'Success vs Satisfaction' rule—separating the two emotions. Sleep and distance recommended.",
     "Stupid Hero Paradox (Race 02): Pace (1:11.900) and Consistency (0.619s σ) were sufficient for P1. The loss came from 'Hero Moves' (Lap 9 overdrive). Validates that 'trying to win' is slower than 'driving to win'. Boring wins are the goal.",
     "Yokohama Commitment vs Coca-Cola Trying (NEW): Yokohama σ 0.039s (Best) vs Coca-Cola σ 0.344s (Worst). Why? At Yokohama, driver COMMITS ('pick exit, point, hold'). At Coca-Cola, driver TRIES (brakes late, scrubs tires, oversteers). Commitment > Effort.",
     "LF Tire Scrubbing (Coca-Cola): LF Outside Temp (79.1C) > Inside (71.3C) indicates heavy understeer/scrubbing in right-handers. Cause: aggressive turn-in/late braking at Coca-Cola/Shell. Fix: earlier brake, smooth entry, let fronts grip before loading.",
