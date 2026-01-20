@@ -8,34 +8,64 @@
   "pitexit": 0.02,
   "turn": [
     {
-      "start": 0.141,
-      "end": 0.23,
-      "name": "Turn 1"
+      "start": 0.14,
+      "end": 0.19,
+      "name": "Turn 1",
+      "number": 1
+    },
+    {
+      "start": 0.20,
+      "end": 0.26,
+      "name": "Turn 2",
+      "number": 2
     },
     {
       "start": 0.307,
       "end": 0.388,
-      "name": "Wagon Bend"
+      "name": "Wagon Bend",
+      "number": 3
     },
     {
       "start": 0.455,
       "end": 0.503,
-      "name": "Chute"
+      "name": "The Chute",
+      "number": 4
     },
     {
       "start": 0.51,
+      "end": 0.57,
+      "name": "The Carousel Entry",
+      "number": 5
+    },
+    {
+      "start": 0.58,
       "end": 0.627,
-      "name": "Carousel"
+      "name": "The Carousel Exit",
+      "number": 6
     },
     {
       "start": 0.628,
-      "end": 0.733,
-      "name": "Esses"
+      "end": 0.68,
+      "name": "The Esses (Entry)",
+      "number": 7
+    },
+    {
+      "start": 0.68,
+      "end": 0.72,
+      "name": "The Esses (Middle)",
+      "number": 8
+    },
+    {
+      "start": 0.72,
+      "end": 0.77,
+      "name": "The Esses Exit / The Bridge",
+      "number": 9
     },
     {
       "start": 0.84,
       "end": 0.905,
-      "name": "Paddock Bend"
+      "name": "The Paddock",
+      "number": 10
     }
   ],
   "sector": [

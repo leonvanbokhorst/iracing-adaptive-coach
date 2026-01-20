@@ -18,6 +18,31 @@ Main looks modest on the map. In the car, it’s more serious: downhill braking 
 
 ---
 
+## Track Map
+
+![Summit Point Raceway - Main Circuit](track-data/summit-summit-raceway-map.png)
+
+**Layout**: 3.2km (2.0 miles), **10 corners**, 3 sectors
+
+**Complete Corner Guide:**
+1. **Turn 1** @ 16.5% lap - Right-hander after start/finish
+2. **Turn 2** @ 23% lap - Second right, continuing the complex
+3. **Turn 3 "Wagon Bend"** @ 35% lap - Medium-speed right-hander
+4. **Turn 4 "The Chute"** @ 48% lap - Fast commitment kink before Carousel
+5. **Turn 5 "The Carousel" (Entry)** @ 54% lap - First apex of the long sweeper
+6. **Turn 6 "The Carousel" (Exit)** @ 60% lap - Second apex, technical gatekeeper
+7. **Turn 7 "The Esses" (Entry)** @ 65% lap - First part of flowing S-curves
+8. **Turn 8 "The Esses" (Middle)** @ 70% lap - Middle section
+9. **Turn 9 "The Esses Exit / The Bridge"** @ 75% lap - Final Esses section
+10. **Turn 10 "The Paddock"** @ 87% lap - Final corner, downhill braking zone
+
+**Sector Splits:**
+- **S1 ends** @ 46.7% lap (just before The Chute)
+- **S2 ends** @ 80.4% lap (after The Esses, before The Paddock)
+- **S3** = Final sector onto main straight
+
+---
+
 ## Character Notes
 
 - **Old-school club racer** – Trees, guardrails, modest runoff. No endless tarmac lakes here—if you miss your mark, you _feel_ it.

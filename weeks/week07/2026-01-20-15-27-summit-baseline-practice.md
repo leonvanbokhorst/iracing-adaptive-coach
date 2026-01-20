@@ -5,6 +5,26 @@
 
 ---
 
+## 🗺️ Track Layout
+
+![Summit Point Raceway Track Map](assets/summit-track-map.png)
+
+**Track**: [Summit Point Raceway - Main Circuit](../../tracks/track-data/summit-summit-raceway.json) (3.2km, **10 corners**, 3 sectors)
+
+**Complete Corner Guide:**
+1. **Turn 1** @ 16.5% - Right-hander after start/finish
+2. **Turn 2** @ 23% - Second right
+3. **Turn 3 "Wagon Bend"** @ 35% - Medium-speed right
+4. **Turn 4 "The Chute"** @ 48% - Fast kink before Carousel
+5. **Turn 5 "The Carousel" (Entry)** @ 54% - First apex (NEMESIS ZONE!)
+6. **Turn 6 "The Carousel" (Exit)** @ 60% - Second apex (NEMESIS ZONE!)
+7. **Turn 7 "The Esses" (Entry)** @ 65% - S-curves start
+8. **Turn 8 "The Esses" (Middle)** @ 70% - Middle section
+9. **Turn 9 "The Esses Exit / The Bridge"** @ 75% - Final Esses
+10. **Turn 10 "The Paddock"** @ 87% - Final corner onto main straight
+
+---
+
 - **Track**: [Summit Point Raceway - Main Circuit](../../tracks/track-data/summit-summit-raceway.json)
 - **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)
 - **Session Type**: Practice (Baseline)

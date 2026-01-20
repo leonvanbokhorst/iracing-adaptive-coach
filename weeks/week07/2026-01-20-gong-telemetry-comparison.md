@@ -6,6 +6,24 @@
 
 ---
 
+## 🗺️ Track Layout Reference
+
+![Summit Point Track Map](assets/summit-track-map.png)
+
+**10 Corners:**
+1. **Turn 1** @ 16.5% lap
+2. **Turn 2** @ 23% lap
+3. **Turn 3 "Wagon Bend"** @ 35% lap
+4. **Turn 4 "The Chute"** @ 48% lap
+5. **Turn 5 "The Carousel Entry"** @ 54% lap ← **BIGGEST LOSS ZONE!**
+6. **Turn 6 "The Carousel Exit"** @ 60% lap ← **NEMESIS!**
+7. **Turn 7 "The Esses Entry"** @ 65% lap
+8. **Turn 8 "The Esses Middle"** @ 70% lap
+9. **Turn 9 "The Esses Exit"** @ 75% lap
+10. **Turn 10 "The Paddock"** @ 87% lap
+
+---
+
 ## 🗺️ Visual Speed Delta Map
 
 ![Track Speed Delta Map](comparison/2026-01-20-gong-speed-delta-map.png)

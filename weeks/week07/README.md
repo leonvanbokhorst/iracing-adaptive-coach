@@ -7,6 +7,26 @@
 
 ---
 
+## 🗺️ Track Map
+
+![Summit Point Track Map](assets/summit-track-map.png)
+
+**Layout**: 3.2km, **10 corners**, 3 sectors
+
+**Complete Corner Guide:**
+1. **Turn 1** @ 16.5% - Right after start/finish
+2. **Turn 2** @ 23% - Second right
+3. **Turn 3 "Wagon Bend"** - Medium-speed right
+4. **Turn 4 "The Chute"** - Fast kink
+5. **Turn 5 "The Carousel Entry"** ← **NEMESIS ZONE!**
+6. **Turn 6 "The Carousel Exit"** ← **NEMESIS ZONE!**
+7. **Turn 7 "The Esses Entry"**
+8. **Turn 8 "The Esses Middle"**
+9. **Turn 9 "The Esses Exit / The Bridge"**
+10. **Turn 10 "The Paddock"** - Final corner
+
+---
+
 ## The Story
 
 _Master Lonn returns to Summit Point Main Circuit after seven months away. "Felt familiar," he says. The data says something else: **1.4 seconds faster than his old PB, on the first session back.** This isn't memory—this is evolution. Week 05-06's lessons are transferring. Sequential Mastery begins NOW._
