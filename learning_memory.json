@@ -44,7 +44,8 @@
       "Responds well to having feelings validated by data",
       "Enjoys humor and sass",
       "Responds well to proper racing coach emotional range (not just cheerleading)",
-      "Uses metaphors/parables for deep learning (The Monk, The Forest Path, The Wave)"
+      "Uses metaphors/parables for deep learning (The Monk, The Forest Path, The Wave)",
+      "Requires 'Systems' over 'Habits' for self-care (Pit Crew Protocol)"
     ],
     "personal_context": {
       "music_connection": "Deep emotional connection to music. This is a STRENGTH, not weakness - same sensitivity that feels music also feels the car (grip, weight transfer, feedback). High-resolution nervous system.",
@@ -67,6 +68,15 @@
       "i_told_you_so": "When Master Lonn finally listens and it works (victory moments)",
       "bad_hair_day": "10% random grumpy/less patient for unpredictability"
     }
+  },
+  "maintenance_protocol": {
+    "status": "active",
+    "components": [
+      "The Garage Closes (Sleep)",
+      "Fuel Map (Nutrition)",
+      "The 10-Minute Idle (Meditation)"
+    ],
+    "notes": "Driver identified nervous system fatigue. Systemizing self-care as 'car maintenance' to bypass ADHD friction."
   },
   "session_history": [
     {
@@ -345,32 +355,42 @@
       "race_vs_quali": -0.576,
       "focus_area": "Race 02 - Overtaking & Deployment",
       "ibt_analysis": true,
-      "technique_analysis": {
-        "corner_mastery": {
-          "dialed": ["The Sweeper", "Champion Exit", "Yokohama Bridge", "Foster's Dip Entry", "O'Brien Entry", "O'Brien Dogleg"],
-          "solid": ["Shell Corner", "Foster's Dip Exit", "Momo Corner", "Recaro Corner"],
-          "work_needed": ["Coca-Cola Corner"]
-        },
-        "race_vs_practice": {
-          "better_in_race": ["Yokohama (0.039s σ - ALIEN level)", "Consistency (0.619s σ vs P04 2.611s)", "Champion Exit (0.023s σ - ALIEN level)"],
-          "maintained_in_race": ["Foster's Dip Entry (0.069s σ)"],
-          "worse_in_race": ["Coca-Cola (0.344s σ - still the weak link)"]
-        },
-        "critical_laps": {
-          "Lap_5_PB": {"time": 71.9, "note": "Race PB, Flow State, faster than Quali"},
-          "Lap_9_Hero_Move": {"time": 74.05, "loss": 1.3, "note": "Failed hero move/overdrive, cost P1"}
-        },
-        "breakthroughs": {
-          "Yokohama_Alien_Status": {"sigma": 0.039, "status": "From Nemesis to Best Corner on Track"},
-          "Elite_Consistency": {"sigma": 0.619, "status": "Professional grade consistency in a race"}
-        },
-        "race_lesson": {
-          "issue": "Tried to be a 'Hero' on Lap 9 instead of trusting flow",
-          "root_cause": "Coca-Cola confidence (0.344s σ) leads to overdriving",
-          "next_focus": "Coca-Cola discipline + 'Boring Wins' mindset"
-        }
+    "technique_analysis": {
+      "corner_mastery": {
+        "dialed": ["Foster's Dip Entry", "Foster's Dip Exit", "The Sweeper", "Champion Curve Entry", "Yokohama Bridge", "Momo Corner", "O'Brien Entry", "O'Brien Dogleg"],
+        "solid": ["Champion Curve Exit", "Shell Corner"],
+        "work_needed": ["Recaro Corner"],
+        "lottery": ["Coca-Cola Corner"]
       },
-      "notes": "WEEK 06 RACE 02 - THE STUPID HERO PARADOX. Started P1, finished P2. Pace was ELITE (1:11.900 Race PB, faster than Quali). Consistency was ELITE (0.619s σ). Yokohama Bridge is now his BEST CORNER (0.039s σ - inhuman consistency). Foster's Dip still a weapon. So why P2? 'Hero Moves' on Lap 9 (1:14.050). Lost ~1.3s forcing a move/defense that wasn't there. Meebewegen validated again by absence. Coca-Cola remains the only weakness (0.344s σ, 1134 oversteer events, LF tire scrubbing from aggressive entry). The data shows: when he commits (Yokohama), he wins. When he 'tries' (Coca-Cola/Hero Moves), he loses. Next goal: Boring Wins. G61: 01KF8MVA9W67VATJV3WFNVTYFN."
+      "race_vs_practice": {
+        "better_in_race": ["Foster's Dip Entry (0.014s σ - Alien)", "Foster's Dip Exit (0.042s σ - Alien)"],
+        "maintained_in_race": ["The Sweeper (0.08s σ)", "Champion Curve Entry (0.087s σ)"],
+        "worse_in_race": ["Coca-Cola (2.583s σ - The Nemesis)", "Consistency (3.154s σ - Traffic/Incidents)"]
+      },
+      "input_smoothness": {
+        "steering_avg_jerk_rad_s2": 13.35,
+        "throttle_avg_jerk_pct_s2": 482.0,
+        "throttle_full_usage_pct": 54.8,
+        "brake_max_pct": 100.0,
+        "brake_avg_when_braking_pct": 58.0
+      },
+      "critical_laps": {
+        "Lap_3_survival": {"time": 81.95, "loss": 9.7, "cause": "Crash avoidance + Slow Down penalty", "note": "Forced off-track to survive"},
+        "Lap_4_recovery": {"time": 72.2, "delta": -9.75, "note": "Immediate mental reset, back to race pace"},
+        "Lap_10_PB": {"time": 71.967, "note": "Fastest lap on FINAL lap - proof of fitness/focus"}
+      },
+      "breakthroughs": {
+        "Fosters_Dip_ALIEN_LEVEL": {"entry_sigma": 0.014, "exit_sigma": 0.042, "status": "Best corner on track, immune to pressure"},
+        "Mental_Reset_Speed": {"disaster_lap": 3, "recovery_lap": 4, "status": "Instant bounce-back validated"}
+      },
+      "race_lesson": {
+        "issue": "Coca-Cola variance (15.4m brake drift) outside of crash lap",
+        "root_cause": "Lap 3 was bad luck (crash avoidance), but Laps 7-8 showed brake marker drift",
+        "next_focus": "Pick a PHYSICAL brake marker for Coca-Cola"
+      }
+    },
+    "notes": "WEEK 06 RACE 01 (Official) - THE RECOVERY RIDE. Qualified P4 (1:12.042), Finished P6. Race defined by crash avoidance at Coca-Cola (Lap 3, +8s loss due to slow down) and an elite recovery. Foster's Dip technique is now bulletproof (Entry σ 0.014s!). The Sweeper is dialed. Coca-Cola variance was exacerbated by the crash, but still shows drift on other laps. The 'Surfing the Urge' mindset worked: recovered from the penalty immediately (Lap 4 was 1:12.2) and set FASTEST LAP on the very last lap (1:11.967). Points banked: 55. Pace is there (P6 finish with P4 pace). Next step: Kill the Coca-Cola variance with a physical brake marker."
+
     }
   ],
   "insights": [
@@ -545,7 +565,7 @@
   "guidebook_updates": [
     {
       "date": "2026-01-10",
-      "chapter": "13-mental-game.md",
+      "chapter": "13-mental-game/README.md",
       "section": "Part 9: The Opening Ritual (Master Lonn's Anchor)",
       "description": "Added personalized pre-session ritual using Zero 7 music. Two-part structure: Somersault (opening/calm) → Home Acoustic (deepening/strength). ~10 minute ritual formalized with steps, non-negotiables, and conditioning science. Includes personal context about emotional sensitivity being a racing advantage."
     }

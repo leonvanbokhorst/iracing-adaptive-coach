@@ -1,0 +1,1576 @@
+{
+  "metadata": {
+    "file": "raygr22_oran gp 2026-01-20 08-55-28.ibt",
+    "track": "Oran Park Raceway - GP",
+    "track_id": "oran-gp",
+    "track_length_m": 2600,
+    "sample_rate_hz": 60,
+    "total_samples": 47798,
+    "laps_found": 11
+  },
+  "summary": {
+    "corners_analyzed": 12
+  },
+  "corners": {
+    "The Sweeper": {
+      "zone": {
+        "start": 0.147,
+        "end": 0.195
+      },
+      "laps": [
+        {
+          "apex_pct": 0.1948,
+          "min_speed_kmh": 134.8,
+          "min_speed_pct": 0.1948,
+          "peak_lat_g": 1.68,
+          "peak_lat_g_pct": 0.176,
+          "max_steering_rad": 0.255,
+          "max_steering_pct": 0.1717,
+          "samples_in_zone": 185,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.1947,
+          "min_speed_kmh": 143.8,
+          "min_speed_pct": 0.1947,
+          "peak_lat_g": 1.67,
+          "peak_lat_g_pct": 0.1742,
+          "max_steering_rad": 0.223,
+          "max_steering_pct": 0.1791,
+          "samples_in_zone": 158,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.1949,
+          "min_speed_kmh": 154.5,
+          "min_speed_pct": 0.1949,
+          "peak_lat_g": 1.29,
+          "peak_lat_g_pct": 0.1744,
+          "max_steering_rad": 0.212,
+          "max_steering_pct": 0.1826,
+          "samples_in_zone": 155,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.195,
+          "min_speed_kmh": 141.7,
+          "min_speed_pct": 0.195,
+          "peak_lat_g": 2.08,
+          "peak_lat_g_pct": 0.1743,
+          "max_steering_rad": 0.182,
+          "max_steering_pct": 0.1666,
+          "samples_in_zone": 158,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.1948,
+          "min_speed_kmh": 130.0,
+          "min_speed_pct": 0.1948,
+          "peak_lat_g": 1.89,
+          "peak_lat_g_pct": 0.1589,
+          "max_steering_rad": 0.261,
+          "max_steering_pct": 0.1668,
+          "samples_in_zone": 168,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.1949,
+          "min_speed_kmh": 145.3,
+          "min_speed_pct": 0.1949,
+          "peak_lat_g": 1.48,
+          "peak_lat_g_pct": 0.1742,
+          "max_steering_rad": 0.327,
+          "max_steering_pct": 0.1791,
+          "samples_in_zone": 158,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.1948,
+          "min_speed_kmh": 139.3,
+          "min_speed_pct": 0.1948,
+          "peak_lat_g": 1.74,
+          "peak_lat_g_pct": 0.1742,
+          "max_steering_rad": 0.234,
+          "max_steering_pct": 0.172,
+          "samples_in_zone": 168,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.1949,
+          "min_speed_kmh": 150.3,
+          "min_speed_pct": 0.1949,
+          "peak_lat_g": 1.61,
+          "peak_lat_g_pct": 0.1743,
+          "max_steering_rad": 0.27,
+          "max_steering_pct": 0.1789,
+          "samples_in_zone": 156,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.1948,
+          "min_speed_kmh": 143.9,
+          "min_speed_pct": 0.1948,
+          "peak_lat_g": 2.09,
+          "peak_lat_g_pct": 0.1743,
+          "max_steering_rad": 0.213,
+          "max_steering_pct": 0.1781,
+          "samples_in_zone": 159,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.1949,
+          "min_speed_kmh": 146.1,
+          "min_speed_pct": 0.1949,
+          "peak_lat_g": 2.05,
+          "peak_lat_g_pct": 0.1743,
+          "max_steering_rad": 0.172,
+          "max_steering_pct": 0.1666,
+          "samples_in_zone": 158,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 8e-05,
+        "apex_position_sigma_m": 0.2,
+        "apex_position_range": 0.0003,
+        "apex_position_range_m": 0.8,
+        "min_speed_sigma_kmh": 7.1,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 6,
+        "fastest_through_lap": 4
+      },
+      "avg_apex_pct": 0.1948,
+      "avg_min_speed_kmh": 143.0
+    },
+    "Coca-Cola Corner": {
+      "zone": {
+        "start": 0.196,
+        "end": 0.268
+      },
+      "laps": [
+        {
+          "apex_pct": 0.232,
+          "min_speed_kmh": 69.4,
+          "min_speed_pct": 0.232,
+          "peak_lat_g": 1.54,
+          "peak_lat_g_pct": 0.2302,
+          "max_steering_rad": 0.965,
+          "max_steering_pct": 0.2326,
+          "samples_in_zone": 446,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.2325,
+          "min_speed_kmh": 78.9,
+          "min_speed_pct": 0.2325,
+          "peak_lat_g": 1.76,
+          "peak_lat_g_pct": 0.2271,
+          "max_steering_rad": 1.136,
+          "max_steering_pct": 0.2336,
+          "samples_in_zone": 407,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.2498,
+          "min_speed_kmh": 0.1,
+          "min_speed_pct": 0.2498,
+          "peak_lat_g": 2.15,
+          "peak_lat_g_pct": 0.2485,
+          "max_steering_rad": 3.533,
+          "max_steering_pct": 0.2479,
+          "samples_in_zone": 878,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.2305,
+          "min_speed_kmh": 77.7,
+          "min_speed_pct": 0.2305,
+          "peak_lat_g": 1.69,
+          "peak_lat_g_pct": 0.2283,
+          "max_steering_rad": 0.96,
+          "max_steering_pct": 0.2316,
+          "samples_in_zone": 410,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.2355,
+          "min_speed_kmh": 78.6,
+          "min_speed_pct": 0.2355,
+          "peak_lat_g": 1.85,
+          "peak_lat_g_pct": 0.2303,
+          "max_steering_rad": 1.083,
+          "max_steering_pct": 0.2337,
+          "samples_in_zone": 413,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.2347,
+          "min_speed_kmh": 78.9,
+          "min_speed_pct": 0.2347,
+          "peak_lat_g": 1.77,
+          "peak_lat_g_pct": 0.2261,
+          "max_steering_rad": 0.921,
+          "max_steering_pct": 0.2338,
+          "samples_in_zone": 405,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.229,
+          "min_speed_kmh": 58.5,
+          "min_speed_pct": 0.229,
+          "peak_lat_g": 1.43,
+          "peak_lat_g_pct": 0.2271,
+          "max_steering_rad": 1.003,
+          "max_steering_pct": 0.2285,
+          "samples_in_zone": 444,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.2305,
+          "min_speed_kmh": 66.9,
+          "min_speed_pct": 0.2305,
+          "peak_lat_g": 1.63,
+          "peak_lat_g_pct": 0.2298,
+          "max_steering_rad": 1.106,
+          "max_steering_pct": 0.2288,
+          "samples_in_zone": 423,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.2306,
+          "min_speed_kmh": 80.6,
+          "min_speed_pct": 0.2306,
+          "peak_lat_g": 1.66,
+          "peak_lat_g_pct": 0.2272,
+          "max_steering_rad": 1.029,
+          "max_steering_pct": 0.2337,
+          "samples_in_zone": 412,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.2344,
+          "min_speed_kmh": 80.0,
+          "min_speed_pct": 0.2344,
+          "peak_lat_g": 1.86,
+          "peak_lat_g_pct": 0.2272,
+          "max_steering_rad": 0.817,
+          "max_steering_pct": 0.2333,
+          "samples_in_zone": 403,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 0.00596,
+        "apex_position_sigma_m": 15.5,
+        "apex_position_range": 0.0208,
+        "apex_position_range_m": 54.1,
+        "min_speed_sigma_kmh": 24.59,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 4,
+        "fastest_through_lap": 10
+      },
+      "avg_apex_pct": 0.2339,
+      "avg_min_speed_kmh": 67.0
+    },
+    "Shell Corner": {
+      "zone": {
+        "start": 0.32,
+        "end": 0.38
+      },
+      "laps": [
+        {
+          "apex_pct": 0.3498,
+          "min_speed_kmh": 66.7,
+          "min_speed_pct": 0.3498,
+          "peak_lat_g": 1.6,
+          "peak_lat_g_pct": 0.3563,
+          "max_steering_rad": 1.401,
+          "max_steering_pct": 0.3536,
+          "samples_in_zone": 379,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.355,
+          "min_speed_kmh": 74.1,
+          "min_speed_pct": 0.355,
+          "peak_lat_g": 1.96,
+          "peak_lat_g_pct": 0.353,
+          "max_steering_rad": 1.195,
+          "max_steering_pct": 0.3544,
+          "samples_in_zone": 355,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.3552,
+          "min_speed_kmh": 73.7,
+          "min_speed_pct": 0.3552,
+          "peak_lat_g": 1.84,
+          "peak_lat_g_pct": 0.353,
+          "max_steering_rad": 1.214,
+          "max_steering_pct": 0.3561,
+          "samples_in_zone": 362,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.3551,
+          "min_speed_kmh": 73.0,
+          "min_speed_pct": 0.3551,
+          "peak_lat_g": 1.85,
+          "peak_lat_g_pct": 0.3532,
+          "max_steering_rad": 1.25,
+          "max_steering_pct": 0.3532,
+          "samples_in_zone": 357,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.3587,
+          "min_speed_kmh": 71.5,
+          "min_speed_pct": 0.3587,
+          "peak_lat_g": 1.8,
+          "peak_lat_g_pct": 0.3534,
+          "max_steering_rad": 1.15,
+          "max_steering_pct": 0.36,
+          "samples_in_zone": 386,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.3556,
+          "min_speed_kmh": 75.1,
+          "min_speed_pct": 0.3556,
+          "peak_lat_g": 1.98,
+          "peak_lat_g_pct": 0.3544,
+          "max_steering_rad": 1.282,
+          "max_steering_pct": 0.3545,
+          "samples_in_zone": 358,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.3581,
+          "min_speed_kmh": 73.2,
+          "min_speed_pct": 0.3581,
+          "peak_lat_g": 1.9,
+          "peak_lat_g_pct": 0.3573,
+          "max_steering_rad": 1.284,
+          "max_steering_pct": 0.3561,
+          "samples_in_zone": 357,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.3552,
+          "min_speed_kmh": 73.9,
+          "min_speed_pct": 0.3552,
+          "peak_lat_g": 1.85,
+          "peak_lat_g_pct": 0.3529,
+          "max_steering_rad": 1.117,
+          "max_steering_pct": 0.3546,
+          "samples_in_zone": 353,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.3567,
+          "min_speed_kmh": 74.5,
+          "min_speed_pct": 0.3567,
+          "peak_lat_g": 1.93,
+          "peak_lat_g_pct": 0.353,
+          "max_steering_rad": 1.243,
+          "max_steering_pct": 0.3579,
+          "samples_in_zone": 372,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.3536,
+          "min_speed_kmh": 75.8,
+          "min_speed_pct": 0.3536,
+          "peak_lat_g": 1.89,
+          "peak_lat_g_pct": 0.3521,
+          "max_steering_rad": 1.128,
+          "max_steering_pct": 0.3563,
+          "samples_in_zone": 362,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 0.00247,
+        "apex_position_sigma_m": 6.4,
+        "apex_position_range": 0.0089,
+        "apex_position_range_m": 23.1,
+        "min_speed_sigma_kmh": 2.56,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 2,
+        "fastest_through_lap": 11
+      },
+      "avg_apex_pct": 0.3553,
+      "avg_min_speed_kmh": 73.2
+    },
+    "Champion Curve Entry": {
+      "zone": {
+        "start": 0.414,
+        "end": 0.45
+      },
+      "laps": [
+        {
+          "apex_pct": 0.4335,
+          "min_speed_kmh": 91.8,
+          "min_speed_pct": 0.4335,
+          "peak_lat_g": 2.18,
+          "peak_lat_g_pct": 0.4249,
+          "max_steering_rad": 1.112,
+          "max_steering_pct": 0.4328,
+          "samples_in_zone": 207,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.4352,
+          "min_speed_kmh": 92.1,
+          "min_speed_pct": 0.4352,
+          "peak_lat_g": 2.24,
+          "peak_lat_g_pct": 0.4249,
+          "max_steering_rad": 1.091,
+          "max_steering_pct": 0.4329,
+          "samples_in_zone": 204,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.4325,
+          "min_speed_kmh": 89.1,
+          "min_speed_pct": 0.4325,
+          "peak_lat_g": 2.49,
+          "peak_lat_g_pct": 0.4323,
+          "max_steering_rad": 1.08,
+          "max_steering_pct": 0.4323,
+          "samples_in_zone": 210,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.4348,
+          "min_speed_kmh": 91.5,
+          "min_speed_pct": 0.4348,
+          "peak_lat_g": 2.26,
+          "peak_lat_g_pct": 0.4256,
+          "max_steering_rad": 1.106,
+          "max_steering_pct": 0.4329,
+          "samples_in_zone": 205,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.4335,
+          "min_speed_kmh": 90.2,
+          "min_speed_pct": 0.4335,
+          "peak_lat_g": 2.24,
+          "peak_lat_g_pct": 0.4255,
+          "max_steering_rad": 1.208,
+          "max_steering_pct": 0.4329,
+          "samples_in_zone": 206,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.447,
+          "min_speed_kmh": 82.1,
+          "min_speed_pct": 0.447,
+          "peak_lat_g": 2.39,
+          "peak_lat_g_pct": 0.4257,
+          "max_steering_rad": 1.127,
+          "max_steering_pct": 0.4376,
+          "samples_in_zone": 221,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.4342,
+          "min_speed_kmh": 89.1,
+          "min_speed_pct": 0.4342,
+          "peak_lat_g": 2.16,
+          "peak_lat_g_pct": 0.4255,
+          "max_steering_rad": 0.988,
+          "max_steering_pct": 0.4301,
+          "samples_in_zone": 208,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.4335,
+          "min_speed_kmh": 91.7,
+          "min_speed_pct": 0.4335,
+          "peak_lat_g": 2.22,
+          "peak_lat_g_pct": 0.4255,
+          "max_steering_rad": 1.097,
+          "max_steering_pct": 0.4298,
+          "samples_in_zone": 205,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.4319,
+          "min_speed_kmh": 90.0,
+          "min_speed_pct": 0.4319,
+          "peak_lat_g": 2.2,
+          "peak_lat_g_pct": 0.4253,
+          "max_steering_rad": 1.173,
+          "max_steering_pct": 0.4294,
+          "samples_in_zone": 209,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.433,
+          "min_speed_kmh": 92.2,
+          "min_speed_pct": 0.433,
+          "peak_lat_g": 2.27,
+          "peak_lat_g_pct": 0.4256,
+          "max_steering_rad": 1.077,
+          "max_steering_pct": 0.4297,
+          "samples_in_zone": 205,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 0.00436,
+        "apex_position_sigma_m": 11.3,
+        "apex_position_range": 0.0151,
+        "apex_position_range_m": 39.3,
+        "min_speed_sigma_kmh": 3.01,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 7,
+        "fastest_through_lap": 11
+      },
+      "avg_apex_pct": 0.4349,
+      "avg_min_speed_kmh": 90.0
+    },
+    "Champion Curve Exit": {
+      "zone": {
+        "start": 0.45,
+        "end": 0.475
+      },
+      "laps": [
+        {
+          "apex_pct": 0.4502,
+          "min_speed_kmh": 102.2,
+          "min_speed_pct": 0.4502,
+          "peak_lat_g": 1.84,
+          "peak_lat_g_pct": 0.4509,
+          "max_steering_rad": 0.486,
+          "max_steering_pct": 0.4502,
+          "samples_in_zone": 127,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.4501,
+          "min_speed_kmh": 103.7,
+          "min_speed_pct": 0.4501,
+          "peak_lat_g": 1.36,
+          "peak_lat_g_pct": 0.4673,
+          "max_steering_rad": 0.443,
+          "max_steering_pct": 0.4655,
+          "samples_in_zone": 127,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.4501,
+          "min_speed_kmh": 103.3,
+          "min_speed_pct": 0.4501,
+          "peak_lat_g": 1.26,
+          "peak_lat_g_pct": 0.4583,
+          "max_steering_rad": 0.401,
+          "max_steering_pct": 0.4534,
+          "samples_in_zone": 126,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.45,
+          "min_speed_kmh": 102.9,
+          "min_speed_pct": 0.45,
+          "peak_lat_g": 1.25,
+          "peak_lat_g_pct": 0.4506,
+          "max_steering_rad": 0.363,
+          "max_steering_pct": 0.4525,
+          "samples_in_zone": 127,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.45,
+          "min_speed_kmh": 104.4,
+          "min_speed_pct": 0.45,
+          "peak_lat_g": 1.22,
+          "peak_lat_g_pct": 0.4659,
+          "max_steering_rad": 0.41,
+          "max_steering_pct": 0.4638,
+          "samples_in_zone": 126,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.45,
+          "min_speed_kmh": 84.0,
+          "min_speed_pct": 0.45,
+          "peak_lat_g": 1.36,
+          "peak_lat_g_pct": 0.4512,
+          "max_steering_rad": 0.32,
+          "max_steering_pct": 0.4567,
+          "samples_in_zone": 149,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.4502,
+          "min_speed_kmh": 104.2,
+          "min_speed_pct": 0.4502,
+          "peak_lat_g": 1.37,
+          "peak_lat_g_pct": 0.4672,
+          "max_steering_rad": 0.411,
+          "max_steering_pct": 0.4637,
+          "samples_in_zone": 126,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.4501,
+          "min_speed_kmh": 105.0,
+          "min_speed_pct": 0.4501,
+          "peak_lat_g": 1.24,
+          "peak_lat_g_pct": 0.4582,
+          "max_steering_rad": 0.419,
+          "max_steering_pct": 0.4538,
+          "samples_in_zone": 125,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.4502,
+          "min_speed_kmh": 106.4,
+          "min_speed_pct": 0.4502,
+          "peak_lat_g": 1.38,
+          "peak_lat_g_pct": 0.4634,
+          "max_steering_rad": 0.472,
+          "max_steering_pct": 0.4535,
+          "samples_in_zone": 125,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.4501,
+          "min_speed_kmh": 106.4,
+          "min_speed_pct": 0.4501,
+          "peak_lat_g": 1.58,
+          "peak_lat_g_pct": 0.4636,
+          "max_steering_rad": 0.609,
+          "max_steering_pct": 0.461,
+          "samples_in_zone": 125,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 8e-05,
+        "apex_position_sigma_m": 0.2,
+        "apex_position_range": 0.0002,
+        "apex_position_range_m": 0.5,
+        "min_speed_sigma_kmh": 6.56,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 7,
+        "fastest_through_lap": 10
+      },
+      "avg_apex_pct": 0.4501,
+      "avg_min_speed_kmh": 102.2
+    },
+    "Yokohama Bridge": {
+      "zone": {
+        "start": 0.478,
+        "end": 0.55
+      },
+      "laps": [
+        {
+          "apex_pct": 0.528,
+          "min_speed_kmh": 120.4,
+          "min_speed_pct": 0.528,
+          "peak_lat_g": 1.79,
+          "peak_lat_g_pct": 0.5172,
+          "max_steering_rad": 0.914,
+          "max_steering_pct": 0.5328,
+          "samples_in_zone": 319,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.5245,
+          "min_speed_kmh": 125.6,
+          "min_speed_pct": 0.5245,
+          "peak_lat_g": 2.79,
+          "peak_lat_g_pct": 0.5147,
+          "max_steering_rad": 0.897,
+          "max_steering_pct": 0.5327,
+          "samples_in_zone": 313,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.531,
+          "min_speed_kmh": 123.0,
+          "min_speed_pct": 0.531,
+          "peak_lat_g": 3.09,
+          "peak_lat_g_pct": 0.5148,
+          "max_steering_rad": 0.789,
+          "max_steering_pct": 0.5247,
+          "samples_in_zone": 314,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.5437,
+          "min_speed_kmh": 122.0,
+          "min_speed_pct": 0.5437,
+          "peak_lat_g": 2.48,
+          "peak_lat_g_pct": 0.5147,
+          "max_steering_rad": 0.923,
+          "max_steering_pct": 0.5402,
+          "samples_in_zone": 315,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.533,
+          "min_speed_kmh": 119.6,
+          "min_speed_pct": 0.533,
+          "peak_lat_g": 2.01,
+          "peak_lat_g_pct": 0.5104,
+          "max_steering_rad": 0.812,
+          "max_steering_pct": 0.5243,
+          "samples_in_zone": 316,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.478,
+          "min_speed_kmh": 114.1,
+          "min_speed_pct": 0.478,
+          "peak_lat_g": 1.88,
+          "peak_lat_g_pct": 0.5172,
+          "max_steering_rad": 0.672,
+          "max_steering_pct": 0.5187,
+          "samples_in_zone": 327,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.5293,
+          "min_speed_kmh": 123.3,
+          "min_speed_pct": 0.5293,
+          "peak_lat_g": 2.21,
+          "peak_lat_g_pct": 0.5147,
+          "max_steering_rad": 0.744,
+          "max_steering_pct": 0.5243,
+          "samples_in_zone": 313,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.5351,
+          "min_speed_kmh": 119.6,
+          "min_speed_pct": 0.5351,
+          "peak_lat_g": 2.09,
+          "peak_lat_g_pct": 0.5147,
+          "max_steering_rad": 0.731,
+          "max_steering_pct": 0.5328,
+          "samples_in_zone": 316,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.5306,
+          "min_speed_kmh": 118.6,
+          "min_speed_pct": 0.5306,
+          "peak_lat_g": 3.02,
+          "peak_lat_g_pct": 0.5147,
+          "max_steering_rad": 0.707,
+          "max_steering_pct": 0.5318,
+          "samples_in_zone": 318,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.5309,
+          "min_speed_kmh": 123.8,
+          "min_speed_pct": 0.5309,
+          "peak_lat_g": 2.06,
+          "peak_lat_g_pct": 0.5146,
+          "max_steering_rad": 0.783,
+          "max_steering_pct": 0.5329,
+          "samples_in_zone": 314,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 0.01775,
+        "apex_position_sigma_m": 46.1,
+        "apex_position_range": 0.0657,
+        "apex_position_range_m": 170.8,
+        "min_speed_sigma_kmh": 3.28,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 7,
+        "fastest_through_lap": 3
+      },
+      "avg_apex_pct": 0.5264,
+      "avg_min_speed_kmh": 121.0
+    },
+    "Foster's Dip Entry": {
+      "zone": {
+        "start": 0.575,
+        "end": 0.62
+      },
+      "laps": [
+        {
+          "apex_pct": 0.6064,
+          "min_speed_kmh": 122.1,
+          "min_speed_pct": 0.6064,
+          "peak_lat_g": 1.95,
+          "peak_lat_g_pct": 0.5932,
+          "max_steering_rad": 0.941,
+          "max_steering_pct": 0.6085,
+          "samples_in_zone": 197,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.6152,
+          "min_speed_kmh": 119.4,
+          "min_speed_pct": 0.6152,
+          "peak_lat_g": 2.06,
+          "peak_lat_g_pct": 0.5918,
+          "max_steering_rad": 1.02,
+          "max_steering_pct": 0.6089,
+          "samples_in_zone": 197,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.6119,
+          "min_speed_kmh": 122.3,
+          "min_speed_pct": 0.6119,
+          "peak_lat_g": 2.18,
+          "peak_lat_g_pct": 0.6036,
+          "max_steering_rad": 0.871,
+          "max_steering_pct": 0.6058,
+          "samples_in_zone": 195,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.6082,
+          "min_speed_kmh": 120.6,
+          "min_speed_pct": 0.6082,
+          "peak_lat_g": 2.09,
+          "peak_lat_g_pct": 0.5918,
+          "max_steering_rad": 0.924,
+          "max_steering_pct": 0.6065,
+          "samples_in_zone": 198,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.6094,
+          "min_speed_kmh": 121.5,
+          "min_speed_pct": 0.6094,
+          "peak_lat_g": 2.24,
+          "peak_lat_g_pct": 0.6079,
+          "max_steering_rad": 0.932,
+          "max_steering_pct": 0.6059,
+          "samples_in_zone": 197,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.6065,
+          "min_speed_kmh": 119.8,
+          "min_speed_pct": 0.6065,
+          "peak_lat_g": 2.04,
+          "peak_lat_g_pct": 0.5916,
+          "max_steering_rad": 1.009,
+          "max_steering_pct": 0.6026,
+          "samples_in_zone": 197,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.6116,
+          "min_speed_kmh": 122.1,
+          "min_speed_pct": 0.6116,
+          "peak_lat_g": 2.36,
+          "peak_lat_g_pct": 0.6057,
+          "max_steering_rad": 0.897,
+          "max_steering_pct": 0.6097,
+          "samples_in_zone": 196,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.6021,
+          "min_speed_kmh": 122.8,
+          "min_speed_pct": 0.6021,
+          "peak_lat_g": 2.03,
+          "peak_lat_g_pct": 0.5931,
+          "max_steering_rad": 0.824,
+          "max_steering_pct": 0.6056,
+          "samples_in_zone": 196,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.6006,
+          "min_speed_kmh": 122.6,
+          "min_speed_pct": 0.6006,
+          "peak_lat_g": 2.04,
+          "peak_lat_g_pct": 0.593,
+          "max_steering_rad": 0.766,
+          "max_steering_pct": 0.6055,
+          "samples_in_zone": 197,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.6054,
+          "min_speed_kmh": 120.7,
+          "min_speed_pct": 0.6054,
+          "peak_lat_g": 2.03,
+          "peak_lat_g_pct": 0.5932,
+          "max_steering_rad": 0.936,
+          "max_steering_pct": 0.6071,
+          "samples_in_zone": 197,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 0.0045,
+        "apex_position_sigma_m": 11.7,
+        "apex_position_range": 0.0146,
+        "apex_position_range_m": 38.0,
+        "min_speed_sigma_kmh": 1.2,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 3,
+        "fastest_through_lap": 9
+      },
+      "avg_apex_pct": 0.6077,
+      "avg_min_speed_kmh": 121.4
+    },
+    "Foster's Dip Exit": {
+      "zone": {
+        "start": 0.62,
+        "end": 0.65
+      },
+      "laps": [
+        {
+          "apex_pct": 0.6202,
+          "min_speed_kmh": 125.7,
+          "min_speed_pct": 0.6202,
+          "peak_lat_g": 1.68,
+          "peak_lat_g_pct": 0.6325,
+          "max_steering_rad": 0.464,
+          "max_steering_pct": 0.6311,
+          "samples_in_zone": 125,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.62,
+          "min_speed_kmh": 120.6,
+          "min_speed_pct": 0.62,
+          "peak_lat_g": 1.65,
+          "peak_lat_g_pct": 0.6325,
+          "max_steering_rad": 0.506,
+          "max_steering_pct": 0.6393,
+          "samples_in_zone": 131,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.6202,
+          "min_speed_kmh": 126.1,
+          "min_speed_pct": 0.6202,
+          "peak_lat_g": 1.67,
+          "peak_lat_g_pct": 0.6326,
+          "max_steering_rad": 0.408,
+          "max_steering_pct": 0.6311,
+          "samples_in_zone": 125,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.6201,
+          "min_speed_kmh": 125.1,
+          "min_speed_pct": 0.6201,
+          "peak_lat_g": 1.48,
+          "peak_lat_g_pct": 0.6414,
+          "max_steering_rad": 0.485,
+          "max_steering_pct": 0.6412,
+          "samples_in_zone": 125,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.6201,
+          "min_speed_kmh": 126.4,
+          "min_speed_pct": 0.6201,
+          "peak_lat_g": 1.44,
+          "peak_lat_g_pct": 0.6325,
+          "max_steering_rad": 0.352,
+          "max_steering_pct": 0.6408,
+          "samples_in_zone": 124,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.62,
+          "min_speed_kmh": 126.1,
+          "min_speed_pct": 0.62,
+          "peak_lat_g": 1.31,
+          "peak_lat_g_pct": 0.6326,
+          "max_steering_rad": 0.399,
+          "max_steering_pct": 0.6397,
+          "samples_in_zone": 125,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.6201,
+          "min_speed_kmh": 126.4,
+          "min_speed_pct": 0.6201,
+          "peak_lat_g": 1.49,
+          "peak_lat_g_pct": 0.6325,
+          "max_steering_rad": 0.424,
+          "max_steering_pct": 0.6408,
+          "samples_in_zone": 124,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.62,
+          "min_speed_kmh": 128.6,
+          "min_speed_pct": 0.62,
+          "peak_lat_g": 1.46,
+          "peak_lat_g_pct": 0.6324,
+          "max_steering_rad": 0.418,
+          "max_steering_pct": 0.6408,
+          "samples_in_zone": 123,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.6202,
+          "min_speed_kmh": 129.4,
+          "min_speed_pct": 0.6202,
+          "peak_lat_g": 1.54,
+          "peak_lat_g_pct": 0.6324,
+          "max_steering_rad": 0.531,
+          "max_steering_pct": 0.6413,
+          "samples_in_zone": 122,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.62,
+          "min_speed_kmh": 127.6,
+          "min_speed_pct": 0.62,
+          "peak_lat_g": 1.57,
+          "peak_lat_g_pct": 0.6325,
+          "max_steering_rad": 0.371,
+          "max_steering_pct": 0.6403,
+          "samples_in_zone": 124,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 9e-05,
+        "apex_position_sigma_m": 0.2,
+        "apex_position_range": 0.0002,
+        "apex_position_range_m": 0.5,
+        "min_speed_sigma_kmh": 2.38,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 3,
+        "fastest_through_lap": 10
+      },
+      "avg_apex_pct": 0.6201,
+      "avg_min_speed_kmh": 126.2
+    },
+    "Momo Corner": {
+      "zone": {
+        "start": 0.67,
+        "end": 0.73
+      },
+      "laps": [
+        {
+          "apex_pct": 0.6984,
+          "min_speed_kmh": 114.8,
+          "min_speed_pct": 0.6984,
+          "peak_lat_g": 2.14,
+          "peak_lat_g_pct": 0.6939,
+          "max_steering_rad": 0.898,
+          "max_steering_pct": 0.6958,
+          "samples_in_zone": 271,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.6963,
+          "min_speed_kmh": 113.0,
+          "min_speed_pct": 0.6963,
+          "peak_lat_g": 2.2,
+          "peak_lat_g_pct": 0.6932,
+          "max_steering_rad": 0.789,
+          "max_steering_pct": 0.693,
+          "samples_in_zone": 275,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.6964,
+          "min_speed_kmh": 111.0,
+          "min_speed_pct": 0.6964,
+          "peak_lat_g": 2.07,
+          "peak_lat_g_pct": 0.6941,
+          "max_steering_rad": 0.84,
+          "max_steering_pct": 0.6956,
+          "samples_in_zone": 278,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.6986,
+          "min_speed_kmh": 113.7,
+          "min_speed_pct": 0.6986,
+          "peak_lat_g": 2.19,
+          "peak_lat_g_pct": 0.6939,
+          "max_steering_rad": 0.847,
+          "max_steering_pct": 0.6958,
+          "samples_in_zone": 273,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.6991,
+          "min_speed_kmh": 111.2,
+          "min_speed_pct": 0.6991,
+          "peak_lat_g": 2.17,
+          "peak_lat_g_pct": 0.6941,
+          "max_steering_rad": 0.792,
+          "max_steering_pct": 0.6983,
+          "samples_in_zone": 276,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.7033,
+          "min_speed_kmh": 112.1,
+          "min_speed_pct": 0.7033,
+          "peak_lat_g": 2.03,
+          "peak_lat_g_pct": 0.6937,
+          "max_steering_rad": 0.871,
+          "max_steering_pct": 0.6982,
+          "samples_in_zone": 275,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.7052,
+          "min_speed_kmh": 115.0,
+          "min_speed_pct": 0.7052,
+          "peak_lat_g": 2.17,
+          "peak_lat_g_pct": 0.6937,
+          "max_steering_rad": 0.831,
+          "max_steering_pct": 0.6985,
+          "samples_in_zone": 272,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.7011,
+          "min_speed_kmh": 117.6,
+          "min_speed_pct": 0.7011,
+          "peak_lat_g": 2.15,
+          "peak_lat_g_pct": 0.7008,
+          "max_steering_rad": 0.909,
+          "max_steering_pct": 0.7008,
+          "samples_in_zone": 269,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.6966,
+          "min_speed_kmh": 112.3,
+          "min_speed_pct": 0.6966,
+          "peak_lat_g": 2.19,
+          "peak_lat_g_pct": 0.6942,
+          "max_steering_rad": 0.773,
+          "max_steering_pct": 0.6994,
+          "samples_in_zone": 274,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.6984,
+          "min_speed_kmh": 114.6,
+          "min_speed_pct": 0.6984,
+          "peak_lat_g": 2.19,
+          "peak_lat_g_pct": 0.6964,
+          "max_steering_rad": 0.674,
+          "max_steering_pct": 0.6984,
+          "samples_in_zone": 270,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 0.003,
+        "apex_position_sigma_m": 7.8,
+        "apex_position_range": 0.0089,
+        "apex_position_range_m": 23.1,
+        "min_speed_sigma_kmh": 2.03,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 4,
+        "fastest_through_lap": 9
+      },
+      "avg_apex_pct": 0.6993,
+      "avg_min_speed_kmh": 113.5
+    },
+    "O'Brien Entry": {
+      "zone": {
+        "start": 0.755,
+        "end": 0.78
+      },
+      "laps": [
+        {
+          "apex_pct": 0.7551,
+          "min_speed_kmh": 144.2,
+          "min_speed_pct": 0.7551,
+          "peak_lat_g": 1.81,
+          "peak_lat_g_pct": 0.7796,
+          "max_steering_rad": 0.583,
+          "max_steering_pct": 0.7759,
+          "samples_in_zone": 95,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.7722,
+          "min_speed_kmh": 139.2,
+          "min_speed_pct": 0.7722,
+          "peak_lat_g": 1.82,
+          "peak_lat_g_pct": 0.7714,
+          "max_steering_rad": 0.533,
+          "max_steering_pct": 0.7746,
+          "samples_in_zone": 100,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.7552,
+          "min_speed_kmh": 142.5,
+          "min_speed_pct": 0.7552,
+          "peak_lat_g": 1.82,
+          "peak_lat_g_pct": 0.7773,
+          "max_steering_rad": 0.534,
+          "max_steering_pct": 0.7755,
+          "samples_in_zone": 95,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.7551,
+          "min_speed_kmh": 142.9,
+          "min_speed_pct": 0.7551,
+          "peak_lat_g": 1.86,
+          "peak_lat_g_pct": 0.7798,
+          "max_steering_rad": 0.532,
+          "max_steering_pct": 0.7747,
+          "samples_in_zone": 95,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.755,
+          "min_speed_kmh": 141.5,
+          "min_speed_pct": 0.755,
+          "peak_lat_g": 1.59,
+          "peak_lat_g_pct": 0.78,
+          "max_steering_rad": 0.397,
+          "max_steering_pct": 0.7755,
+          "samples_in_zone": 97,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.7551,
+          "min_speed_kmh": 141.4,
+          "min_speed_pct": 0.7551,
+          "peak_lat_g": 1.83,
+          "peak_lat_g_pct": 0.7795,
+          "max_steering_rad": 0.443,
+          "max_steering_pct": 0.7721,
+          "samples_in_zone": 95,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.755,
+          "min_speed_kmh": 142.7,
+          "min_speed_pct": 0.755,
+          "peak_lat_g": 1.93,
+          "peak_lat_g_pct": 0.7773,
+          "max_steering_rad": 0.564,
+          "max_steering_pct": 0.7755,
+          "samples_in_zone": 96,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.755,
+          "min_speed_kmh": 145.0,
+          "min_speed_pct": 0.755,
+          "peak_lat_g": 1.75,
+          "peak_lat_g_pct": 0.7775,
+          "max_steering_rad": 0.472,
+          "max_steering_pct": 0.7735,
+          "samples_in_zone": 95,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.7552,
+          "min_speed_kmh": 143.4,
+          "min_speed_pct": 0.7552,
+          "peak_lat_g": 1.6,
+          "peak_lat_g_pct": 0.7791,
+          "max_steering_rad": 0.418,
+          "max_steering_pct": 0.7653,
+          "samples_in_zone": 95,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.7551,
+          "min_speed_kmh": 144.4,
+          "min_speed_pct": 0.7551,
+          "peak_lat_g": 1.84,
+          "peak_lat_g_pct": 0.7774,
+          "max_steering_rad": 0.518,
+          "max_steering_pct": 0.7717,
+          "samples_in_zone": 94,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 0.00541,
+        "apex_position_sigma_m": 14.1,
+        "apex_position_range": 0.0172,
+        "apex_position_range_m": 44.7,
+        "min_speed_sigma_kmh": 1.71,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 3,
+        "fastest_through_lap": 9
+      },
+      "avg_apex_pct": 0.7568,
+      "avg_min_speed_kmh": 142.7
+    },
+    "O'Brien Dogleg": {
+      "zone": {
+        "start": 0.78,
+        "end": 0.83
+      },
+      "laps": [
+        {
+          "apex_pct": 0.785,
+          "min_speed_kmh": 149.1,
+          "min_speed_pct": 0.785,
+          "peak_lat_g": 2.05,
+          "peak_lat_g_pct": 0.7807,
+          "max_steering_rad": 0.521,
+          "max_steering_pct": 0.7992,
+          "samples_in_zone": 183,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.7801,
+          "min_speed_kmh": 140.3,
+          "min_speed_pct": 0.7801,
+          "peak_lat_g": 1.73,
+          "peak_lat_g_pct": 0.7808,
+          "max_steering_rad": 0.424,
+          "max_steering_pct": 0.7801,
+          "samples_in_zone": 192,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.784,
+          "min_speed_kmh": 148.1,
+          "min_speed_pct": 0.784,
+          "peak_lat_g": 1.9,
+          "peak_lat_g_pct": 0.7808,
+          "max_steering_rad": 0.454,
+          "max_steering_pct": 0.7992,
+          "samples_in_zone": 184,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.7814,
+          "min_speed_kmh": 148.1,
+          "min_speed_pct": 0.7814,
+          "peak_lat_g": 2.12,
+          "peak_lat_g_pct": 0.7811,
+          "max_steering_rad": 0.414,
+          "max_steering_pct": 0.799,
+          "samples_in_zone": 183,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.7802,
+          "min_speed_kmh": 149.1,
+          "min_speed_pct": 0.7802,
+          "peak_lat_g": 1.93,
+          "peak_lat_g_pct": 0.8118,
+          "max_steering_rad": 0.476,
+          "max_steering_pct": 0.8046,
+          "samples_in_zone": 181,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.8298,
+          "min_speed_kmh": 141.6,
+          "min_speed_pct": 0.8298,
+          "peak_lat_g": 2.5,
+          "peak_lat_g_pct": 0.8181,
+          "max_steering_rad": 0.451,
+          "max_steering_pct": 0.8184,
+          "samples_in_zone": 187,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.7831,
+          "min_speed_kmh": 147.8,
+          "min_speed_pct": 0.7831,
+          "peak_lat_g": 2.05,
+          "peak_lat_g_pct": 0.7816,
+          "max_steering_rad": 0.434,
+          "max_steering_pct": 0.8045,
+          "samples_in_zone": 184,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.7801,
+          "min_speed_kmh": 149.4,
+          "min_speed_pct": 0.7801,
+          "peak_lat_g": 1.8,
+          "peak_lat_g_pct": 0.7809,
+          "max_steering_rad": 0.428,
+          "max_steering_pct": 0.8003,
+          "samples_in_zone": 183,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.7804,
+          "min_speed_kmh": 148.4,
+          "min_speed_pct": 0.7804,
+          "peak_lat_g": 1.72,
+          "peak_lat_g_pct": 0.8093,
+          "max_steering_rad": 0.42,
+          "max_steering_pct": 0.7992,
+          "samples_in_zone": 182,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.7833,
+          "min_speed_kmh": 149.4,
+          "min_speed_pct": 0.7833,
+          "peak_lat_g": 1.98,
+          "peak_lat_g_pct": 0.7808,
+          "max_steering_rad": 0.402,
+          "max_steering_pct": 0.8041,
+          "samples_in_zone": 182,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 0.01524,
+        "apex_position_sigma_m": 39.6,
+        "apex_position_range": 0.0497,
+        "apex_position_range_m": 129.2,
+        "min_speed_sigma_kmh": 3.32,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 3,
+        "fastest_through_lap": 9
+      },
+      "avg_apex_pct": 0.7867,
+      "avg_min_speed_kmh": 147.1
+    },
+    "Recaro Corner": {
+      "zone": {
+        "start": 0.85,
+        "end": 0.93
+      },
+      "laps": [
+        {
+          "apex_pct": 0.884,
+          "min_speed_kmh": 92.8,
+          "min_speed_pct": 0.884,
+          "peak_lat_g": 1.79,
+          "peak_lat_g_pct": 0.8818,
+          "max_steering_rad": 0.901,
+          "max_steering_pct": 0.8873,
+          "samples_in_zone": 414,
+          "lap": 2
+        },
+        {
+          "apex_pct": 0.8944,
+          "min_speed_kmh": 95.3,
+          "min_speed_pct": 0.8944,
+          "peak_lat_g": 2.14,
+          "peak_lat_g_pct": 0.8698,
+          "max_steering_rad": 0.964,
+          "max_steering_pct": 0.8997,
+          "samples_in_zone": 413,
+          "lap": 3
+        },
+        {
+          "apex_pct": 0.8828,
+          "min_speed_kmh": 91.1,
+          "min_speed_pct": 0.8828,
+          "peak_lat_g": 2.04,
+          "peak_lat_g_pct": 0.8944,
+          "max_steering_rad": 0.786,
+          "max_steering_pct": 0.8967,
+          "samples_in_zone": 411,
+          "lap": 4
+        },
+        {
+          "apex_pct": 0.8834,
+          "min_speed_kmh": 93.1,
+          "min_speed_pct": 0.8834,
+          "peak_lat_g": 1.93,
+          "peak_lat_g_pct": 0.8698,
+          "max_steering_rad": 0.805,
+          "max_steering_pct": 0.9079,
+          "samples_in_zone": 409,
+          "lap": 5
+        },
+        {
+          "apex_pct": 0.8848,
+          "min_speed_kmh": 89.7,
+          "min_speed_pct": 0.8848,
+          "peak_lat_g": 2.02,
+          "peak_lat_g_pct": 0.8945,
+          "max_steering_rad": 0.875,
+          "max_steering_pct": 0.891,
+          "samples_in_zone": 412,
+          "lap": 6
+        },
+        {
+          "apex_pct": 0.8882,
+          "min_speed_kmh": 85.0,
+          "min_speed_pct": 0.8882,
+          "peak_lat_g": 1.9,
+          "peak_lat_g_pct": 0.8817,
+          "max_steering_rad": 0.732,
+          "max_steering_pct": 0.902,
+          "samples_in_zone": 462,
+          "lap": 7
+        },
+        {
+          "apex_pct": 0.891,
+          "min_speed_kmh": 90.0,
+          "min_speed_pct": 0.891,
+          "peak_lat_g": 2.03,
+          "peak_lat_g_pct": 0.8853,
+          "max_steering_rad": 0.801,
+          "max_steering_pct": 0.8892,
+          "samples_in_zone": 408,
+          "lap": 8
+        },
+        {
+          "apex_pct": 0.8863,
+          "min_speed_kmh": 88.1,
+          "min_speed_pct": 0.8863,
+          "peak_lat_g": 1.93,
+          "peak_lat_g_pct": 0.8819,
+          "max_steering_rad": 0.746,
+          "max_steering_pct": 0.8967,
+          "samples_in_zone": 412,
+          "lap": 9
+        },
+        {
+          "apex_pct": 0.8948,
+          "min_speed_kmh": 84.5,
+          "min_speed_pct": 0.8948,
+          "peak_lat_g": 2.06,
+          "peak_lat_g_pct": 0.8819,
+          "max_steering_rad": 0.684,
+          "max_steering_pct": 0.8908,
+          "samples_in_zone": 424,
+          "lap": 10
+        },
+        {
+          "apex_pct": 0.8877,
+          "min_speed_kmh": 91.2,
+          "min_speed_pct": 0.8877,
+          "peak_lat_g": 2.11,
+          "peak_lat_g_pct": 0.8819,
+          "max_steering_rad": 0.697,
+          "max_steering_pct": 0.8945,
+          "samples_in_zone": 409,
+          "lap": 11
+        }
+      ],
+      "consistency": {
+        "apex_position_sigma": 0.00438,
+        "apex_position_sigma_m": 11.4,
+        "apex_position_range": 0.012,
+        "apex_position_range_m": 31.2,
+        "min_speed_sigma_kmh": 3.45,
+        "laps_analyzed": 10,
+        "slowest_apex_lap": 10,
+        "fastest_through_lap": 3
+      },
+      "avg_apex_pct": 0.8877,
+      "avg_min_speed_kmh": 90.1
+    }
+  }
+}

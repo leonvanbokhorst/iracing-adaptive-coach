@@ -269,7 +269,7 @@ Builds awareness without pressure. You learn to "see" racecraft.
 ---
 
 **Related Chapters:**
-- [Chapter 13: Mental Game](../13-mental-game.md) - Pressure management
+- [Chapter 13: Mental Game](../13-mental-game/README.md) - Pressure management
 - [Chapter 8: Racing Lines](../08-racing-lines.md) - Defensive lines
 
 ---

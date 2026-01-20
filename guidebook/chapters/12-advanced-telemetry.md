@@ -545,7 +545,7 @@ Telemetry now matches Eric's. Discovery confirmed!
 
 ---
 
-**Next Chapter:** [Chapter 13: The Mental Game](13-mental-game.md)  
+**Next Chapter:** [Chapter 13: The Mental Game](13-mental-game/README.md)  
 **Previous Chapter:** [Chapter 11: G-Force Analysis](11-g-force-analysis.md)
 
 ---

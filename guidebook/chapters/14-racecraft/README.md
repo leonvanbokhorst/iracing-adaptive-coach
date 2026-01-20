@@ -125,7 +125,7 @@ The essentials in bullet form. Read this before every race.
 
 **Related Guidebook Chapters:**
 
-- [Chapter 13: Mental Game](../13-mental-game.md) - Pressure management, 10-second rule
+- [Chapter 13: Mental Game](../13-mental-game/README.md) - Pressure management, 10-second rule
 - [Chapter 15: Tire Management](../15-tire-management.md) - Long race strategy
 - [Chapter 8: Racing Lines](../08-racing-lines.md) - Defensive lines
 
@@ -147,7 +147,7 @@ The essentials in bullet form. Read this before every race.
 ---
 
 **Next Chapter:** [Chapter 15: Tire Management](../15-tire-management.md)  
-**Previous Chapter:** [Chapter 13: Mental Game](../13-mental-game.md)
+**Previous Chapter:** [Chapter 13: Mental Game](../13-mental-game/README.md)
 
 ---
 

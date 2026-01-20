@@ -428,7 +428,7 @@ Find brake bias that feels good. Stop tweaking. Focus on DRIVING.
 **Related Chapters:**
 - [Chapter 5: Weight Transfer](../05-weight-transfer/README.md) - Why brake bias affects rotation
 - [Chapter 9: The Art of Braking](../09-braking/README.md) - How brake bias affects technique
-- [Chapter 13: Mental Game](../13-mental-game.md) - Don't overthink setup
+- [Chapter 13: Mental Game](../13-mental-game/README.md) - Don't overthink setup
 
 ---
 
