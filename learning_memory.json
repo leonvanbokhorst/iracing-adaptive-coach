@@ -1,7 +1,7 @@
 {
   "season": "01 2026",
-  "current_week": "6 (Oran Park Raceway GP)",
-  "current_track": "Oran Park Raceway - GP",
+  "current_week": "7 (Summit Point Raceway Main Circuit)",
+  "current_track": "Summit Point Raceway - Main Circuit",
   "current_car": "Ray FF1600",
   "driver_info": {
     "custid": 981717,
@@ -29,8 +29,8 @@
       "notes": "Higher volume (11 wins), lower iRating (1581). Beatable with consistency."
     }
   ],
-  "focus": "Week 06 Race 01: The Banker. Meebewegen strategy. Prio 1: Finish clean. Prio 2: Mid-pack points. Race 2-4 are for pushing.",
-  "goal": "Week 06 Target: Secure a clean finish in Race 01. No heroics. 0x incidents.",
+  "focus": "Week 07 (Summit Point Main Circuit): New track, apply Sequential Mastery from Week 06. Identify nemesis corners early.",
+  "goal": "Week 07 Target: Baseline → Conquer nemesis corners → Deploy in races. Apply 'Know When To Stop' lesson.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -666,12 +666,12 @@
     "Overtaking Difficulty at Oran Park (NEW): Master Lonn's assessment 'hard to overtake' validated by Laps 9-10 (stuck in traffic, 2x incidents from attempts). Track characteristics: narrow, few heavy braking zones, AI competitive. Potential overtaking zones: (1) Foster's Dip complex (he's dialed, can brake later/exit faster), (2) Main straight after Recaro (setup pass through Recaro), (3) Coca-Cola if he can get better exit (but that's his problem corner). For next race: identify specific overtaking plan. Don't wait for AI mistake—CREATE opportunity at Foster's. That's where his weapon lives."
   ],
   "next_steps": [
-    "WEEK 06 RACE 02 (AI): P1→P2. Race PB 1:11.900 (Elite Pace). Consistency 0.619s σ (Elite).",
-    "THE HERO TRAP: You had the win in the bag with that pace/consistency. 'Hero moves' on Lap 9 cost you. Meebewegen validated by its absence.",
-    "NEW WEAPON: Yokohama Bridge σ 0.039s. You own this corner now. It's safer than the 'easy' corners.",
-    "REMAINING ISSUE: Coca-Cola σ 0.344s + LF Tire Scrubbing. You are fighting the car here. Smooth it out.",
-    "NEXT GOAL: Win a race by being BORING. No heroics. Just robot consistency.",
-    "iRating: 1738. SR: 3.63 (B license). Next: Race 03 - The Boring Win."
+    "WEEK 06 COMPLETE: 4 official races (P6, DNF, P7, P8). Championship points: 67 (from Race 03). Net iRating: 1703 (-35 from week start).",
+    "BIG LESSON LEARNED: 'Know When To Stop' - Race 03 banked 67 pts. Race 04 was unnecessary risk (gained nothing, lost 20 iR).",
+    "TECHNIQUE PROVEN: Sequential Mastery works. Champion Curve → Foster's Dip → Yokohama, all conquered systematically.",
+    "WEEK 07 BEGINS: Summit Point Main Circuit (2.0-mile, 10 corners). NEW track. Apply Sequential Mastery framework from Day 1.",
+    "STRATEGY: Baseline → Identify nemesis corners → Conquer one by one → Deploy in races. Remember: Know when to stop.",
+    "iRating: 1703. SR: 3.29 (B license). Halfway through Season 01. Let's make it count."
   ],
   "tools_reference": {
     "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",
