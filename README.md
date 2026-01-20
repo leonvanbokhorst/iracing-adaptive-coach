@@ -8,33 +8,67 @@
 
 ## The Season Stats
 
-| Metric              | [W01 (Jefferson)](./weeks/week01/README.md) | [W02 (Rudskogen)](./weeks/week02/README.md) | [W03 (Winton)](./weeks/week03/README.md) | [W04 (Lime Rock)](./weeks/week04/README.md) | [W05 (Oschersleben)](./weeks/week05/README.md) | [W06 (Oran Park)](./weeks/week06/README.md) |
-| :------------------ | :------------------------------------------ | :------------------------------------------ | :--------------------------------------- | :------------------------------------------ | :--------------------------------------------- | :------------------------------------------ |
-| **Best Lap**        | 50.768s                                     | 1:28.508                                    | **1:25.710**                             | 56.238s                                     | 1:32.700                                       | 1:11.033                                    |
-| **PB Improvement**  | -0.67s                                      | -1.78s                                      | **-1.125s**                              | -0.18s                                      | -1.12s                                         | **-1.55s**                                  |
-| **Consistency (σ)** | 0.40s                                       | 0.86s                                       | **0.16s**                                | 0.19s                                       | 0.77s                                          | 2.61s (limit-finding)                       |
-| **Victories**       | 1                                           | 0                                           | **2**                                    | 2                                           | 2 (AI)                                         | -                                           |
-| **Mood**            | Hopeful                                     | Determined                                  | **Dangerous**                            | Clinical                                    | Battle-Hardened                                | **Resilient**                               |
+**Weeks 01-04:**
 
-**Current Status:** [Week 06 Standings Report](./weeks/week06/standings-report.md) (Coming Soon)
+| Metric              | [W01 (Jefferson)](./weeks/week01/README.md) | [W02 (Rudskogen)](./weeks/week02/README.md) | [W03 (Winton)](./weeks/week03/README.md) | [W04 (Lime Rock)](./weeks/week04/README.md) |
+| :------------------ | :------------------------------------------ | :------------------------------------------ | :--------------------------------------- | :------------------------------------------ |
+| **Best Lap**        | 50.768s                                     | 1:28.508                                    | **1:25.710**                             | 56.238s                                     |
+| **PB Improvement**  | -0.67s                                      | -1.78s                                      | **-1.125s**                              | -0.18s                                      |
+| **Consistency (σ)** | 0.40s                                       | 0.86s                                       | **0.16s**                                | 0.19s                                       |
+| **Victories**       | 1                                           | 0                                           | **2**                                    | 2                                           |
+| **Mood**            | Hopeful                                     | Determined                                  | **Dangerous**                            | Clinical                                    |
+
+**Weeks 05-08:**
+
+| Metric              | [W05 (Oschersleben)](./weeks/week05/README.md) | [W06 (Oran Park)](./weeks/week06/README.md) | [W07 (Summit Pt Main)](./tracks/track-summit-point-main-circuit.md) | [W08 (VIR North)](./tracks/track-virginia-international-raceway-north.md) |
+| :------------------ | :--------------------------------------------- | :------------------------------------------ | :------------------------------------------------------------------- | :------------------------------------------------------------------------ |
+| **Best Lap**        | 1:32.700                                       | 1:11.033                                    | -                                                                    | -                                                                         |
+| **PB Improvement**  | -1.12s                                         | **-1.55s**                                  | -                                                                    | -                                                                         |
+| **Consistency (σ)** | 0.77s                                          | 2.61s (limit-finding)                       | -                                                                    | -                                                                         |
+| **Victories**       | 2 (AI)                                         | 0                                           | -                                                                    | -                                                                         |
+| **Mood**            | Battle-Hardened                                | **Resilient**                               | -                                                                    | -                                                                         |
+
+**Weeks 09-12:**
+
+| Metric              | [W09 (Lédenon)](./tracks/track-circuit-de-ledenon.md) | [W10 (Oulton Park)](./tracks/track-oulton-park-international.md) | [W11 (Okayama)](./tracks/track-okayama-international-circuit-full.md) | [W12 (Navarra)](./tracks/track-circuito-de-navarra-medium.md) |
+| :------------------ | :----------------------------------------------------- | :--------------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------- |
+| **Best Lap**        | -                                                      | -                                                                | -                                                                      | -                                                              |
+| **PB Improvement**  | -                                                      | -                                                                | -                                                                      | -                                                              |
+| **Consistency (σ)** | -                                                      | -                                                                | -                                                                      | -                                                              |
+| **Victories**       | -                                                      | -                                                                | -                                                                      | -                                                              |
+| **Mood**            | -                                                      | -                                                                | -                                                                      | -                                                              |
+
+**Current Status:** Week 06 Complete | [Standings (Week 05)](./weeks/week05/standings-report.md) | **Next Up:** Week 07 - Summit Point Raceway (Main Circuit)
 
 ---
 
-## Week 06: The Rollercoaster (Oran Park)
+## Week 06: The Lesson (Oran Park)
 
-Master Lonn arrived at Oran Park facing a track he'd never seen—a twisted ribbon of asphalt draped over Australian hills, full of blind crests and mean elevation changes.
+Oran Park was supposed to be simple. Learn a new track. Race clean. Bank points. Move on.
 
-**Day 1**: The baseline was humble (1:12.583), but the nemesis was clear immediately: Champion Curve. A 3-second variance swing. One lap clean, the next in the dirt. It was a lottery corner.
+Instead, Master Lonn learned what separates fast drivers from championship drivers: knowing when to walk away.
 
-But this week wasn't about raw speed. It was about **sequential mastery**.
+The week started clean. A track he'd never seen—blind crests, elevation changes, corners that bit back. Champion Curve was a 3-second lottery on Day 1. By Day 3, it was a 0.052s laser. Foster's Dip, a terrifying compression that threw the car sideways, became a weapon when he discovered the trick: trust the 3.3G load. Light brakes, early turn-in, let physics do the work.
 
-**Day 3**: Champion Curve fell first. 92% improvement in ONE session. Then Foster's Dip—a terrifying blind compression—turned from a crash site into a weapon when Master Lonn learned to "trust the 3.3G compression."
+Four consecutive practice PBs. 1.55 seconds dropped in three days. By Practice 04, he was sitting on 1:11.033, gap to optimal just 0.25s. The track was dialed. 83% of corners locked in.
 
-**Day 4**: Yokohama Bridge, the high-speed blind kink, was tamed. By Practice 04, 83% of the track was dialed. The lap time dropped to **1:11.033**—a massive 1.55-second improvement in three days. Four consecutive PBs.
+Then came race day. Four races in five hours.
 
-**Race Day**: The official race brought chaos. P4 qualification. A crash avoidance at Coca-Cola cost 8 seconds. But instead of spiraling, Master Lonn reset. He clawed back time, found his rhythm, and set his **fastest lap of the race on the VERY LAST lap**.
+**Race 01** (08:55): Qualified P4. Got caught in a crash at Coca-Cola, lost 8 seconds, but reset instantly. Set his fastest lap on the FINAL lap. P6, 55 points banked. The Banker strategy worked.
 
-P6 finish. 55 points banked. But the real victory was internal: the resilience to reset and perform after the chaos.
+**Race 02** (11:31): Top split demolition derby. Punted from behind at Coca-Cola. Drove into another unavoidable crash. Two meatball flags. DNF. 10x incidents. iRating -46. The pace was there (1:12.767, faster than quali), but the track was a war zone.
+
+**Race 03** (11:57): The reset. Qualified P5, finished P7. Best lap 1:11.500. Consistency 0.796s (ELITE). 10 out of 12 corners dialed. Drove into a spinner (3x, unavoidable), but brought the car home. **67 championship points**. iRating +24, clawing back from Race 02.
+
+He should have stopped there.
+
+**Race 04** (12:27): Didn't qualify. Started P9. Wanted to test meebewegen from the back. Got caught in chaos anyway. Another meatball. 4x. Best lap 1:11.750—**slower** than Race 03. P8 finish. iRating -20.
+
+And then it hit him. The point system (best 1 of 4 races) meant **Race 03's 67 points WAS his week score**. Race 04 was unnecessary risk that gained nothing and cost iRating.
+
+His words: *"If I had known we earned 67 points, I would have stopped."*
+
+That's the lesson Oran Park taught him. Championship racing isn't about how fast you can go. It's about knowing when you've already won.
 
 ---
 
