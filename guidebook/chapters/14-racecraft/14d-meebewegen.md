@@ -393,7 +393,7 @@ The slowest looking start often wins the race. 🐢→🏆
 
 **Related Chapters:**
 
-- [Chapter 13: Mental Game](../13-mental-game.md) - ADHD adaptations, pressure management
+- [Chapter 13: Mental Game](../13-mental-game/README.md) - ADHD adaptations, pressure management
 - [Chapter 15: Tire Management](../15-tire-management.md) - Long race tire strategy
 
 ---

@@ -31,7 +31,7 @@ May the G-Force be with you.
 - **Car Behavior: Understeer & Oversteer** - [Chapter](chapters/11-car-behavior/README.md) ✨ NEW
 - **Chapter 11: Reading the Tea Leaves: G-Force Analysis** - [Chapter](chapters/11-g-force-analysis.md)
 - **Chapter 12: Beyond G-Forces: An Advanced Telemetry Deep Dive** - [Chapter](chapters/12-advanced-telemetry.md) ✨ NEW
-- **Chapter 13: The Mental Game: Flow State and Deliberate Practice** - [Chapter](chapters/13-mental-game.md) ✨ NEW
+- **Chapter 13: The Mental Game: Flow State and Deliberate Practice** - [Chapter](chapters/13-mental-game/README.md) ✨ NEW
 
 ### Part 4: The Competitive Edge
 

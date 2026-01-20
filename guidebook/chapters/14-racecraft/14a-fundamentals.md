@@ -124,7 +124,7 @@ Other drivers are predicting your behavior. If you're erratic, they can't predic
 
 **Related Chapters:**
 
-- [Chapter 13: Mental Game](../13-mental-game.md) - Managing pressure
+- [Chapter 13: Mental Game](../13-mental-game/README.md) - Managing pressure
 - [Chapter 8: Racing Lines](../08-racing-lines.md) - Defensive lines
 
 ---

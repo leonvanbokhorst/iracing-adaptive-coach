@@ -16,6 +16,10 @@ Fans loved it because you could see almost everything from one grassy bank: cars
 
 The Grand Prix loop was a kind of low-rise rollercoaster: not much raw elevation, but constant camber tricks, bumps and direction changes. Pits Bend dropped away just as you wanted to brake, Coca-Cola corner pinched tighter than it looked, the run to the bridge was a rhythm test, and crossing over your own previous braking line at full chat never stopped feeling slightly surreal. The final double-apex at Suttons was all or nothing: nail the inner ripple strip and the car fired onto the short straight; miss your line and you'd bog down before the start/finish kink.
 
+[![Lap on Oran Park by MidfieldRacing219](https://img.youtube.com/vi/8AfW1-zmwPE/0.jpg)](https://www.youtube.com/watch?v=8AfW1-zmwPE)
+
+_S4 2025 Rookies on Oran Park by MidfieldRacing219_
+
 ---
 
 ## Track Map

@@ -1,4 +1,4 @@
-# Little Wan Coaching Master Lonn - A Season of Speed
+# Master Lonn's Season 01 (2026) - Ray FF1600
 
 <div style="text-align: center;">
   <img src="./assets/lonn-yoda.png" alt="Master Lonn" style="width: 70%; max-width: 480px;">
@@ -8,137 +8,94 @@
 
 ## The Season Stats
 
-### Weeks 01–04
+| Metric              | [W01 (Jefferson)](./weeks/week01/README.md) | [W02 (Rudskogen)](./weeks/week02/README.md) | [W03 (Winton)](./weeks/week03/README.md) | [W04 (Lime Rock)](./weeks/week04/README.md) | [W05 (Oschersleben)](./weeks/week05/README.md) | [W06 (Oran Park)](./weeks/week06/README.md) |
+| :------------------ | :------------------------------------------ | :------------------------------------------ | :--------------------------------------- | :------------------------------------------ | :--------------------------------------------- | :------------------------------------------ |
+| **Best Lap**        | 50.768s                                     | 1:28.508                                    | **1:25.710**                             | 56.238s                                     | 1:32.700                                       | 1:11.033                                    |
+| **PB Improvement**  | -0.67s                                      | -1.78s                                      | **-1.125s**                              | -0.18s                                      | -1.12s                                         | **-1.55s**                                  |
+| **Consistency (σ)** | 0.40s                                       | 0.86s                                       | **0.16s**                                | 0.19s                                       | 0.77s                                          | 2.61s (limit-finding)                       |
+| **Victories**       | 1                                           | 0                                           | **2**                                    | 2                                           | 2 (AI)                                         | -                                           |
+| **Mood**            | Hopeful                                     | Determined                                  | **Dangerous**                            | Clinical                                    | Battle-Hardened                                | **Resilient**                               |
 
-| Metric              | [Week 01 (Jefferson)](./weeks/week01/README.md) | [Week 02 (Rudskogen)](./weeks/week02/README.md) | [Week 03 (Winton)](./weeks/week03/README.md) | [Week 04 (Lime Rock)](./weeks/week04/README.md) |
-| :------------------ | :---------------------------------------------: | :---------------------------------------------: | :------------------------------------------: | :---------------------------------------------: |
-| **Best Lap**        |                    0:50.768                     |                    1:28.508                     |                   1:25.710                   |                    0:56.238                     |
-| **PB Improvement**  |                     -0.67s                      |                     -1.78s                      |                   -1.125s                    |                     -0.181s                     |
-| **Consistency (σ)** |                      0.400                      |                      0.860                      |                    0.160                     |                      0.197                      |
-| **Race Result**     |                   P1 Official                   |                        —                        |                 P1 Official                  |                   P3 Official                   |
-| **iRating**         |                      1396                       |                      1455                       |                     1601                     |                      1672                       |
-| **Mood**            |                     Hopeful                     |                   Determined                    |                  Dangerous                   |                    Validated                    |
-
-### Weeks 05–08
-
-| Metric              | [Week 05 (Oschersleben)](./weeks/week05/README.md) | [Week 06 (Oran Park)](./weeks/week06/README.md) | Week 07 (Summit Main) | Week 08 (VIR North) |
-| :------------------ | :------------------------------------------------: | :---------------------------------------------: | :-------------------: | :-----------------: |
-| **Best Lap**        |                   **1:32.700** ⭐                   |           **1:11.033** (Practice)               |           —           |          —          |
-| **PB Improvement**  |                      -1.118s                       |                  **-1.550s** (total)                  |           —           |          —          |
-| **Consistency (σ)** |                    0.77 (race)                     |                      0.619 (race)                      |           —           |          —          |
-| **Race Result**     |                 P5 + P4 (Top Split)                |                   P4, P2 (AI)                   |           —           |          —          |
-| **iRating**         |                     **1738** ⭐                     |                      1738                       |           —           |          —          |
-| **Mood**            |                   T2 Conquered 🏨                   |    🦸 The Stupid Hero |    -     |           —           |          —          |
-
-### Weeks 09–12
-
-| Metric              | Week 09 (Lédenon) | Week 10 (Oulton) | Week 11 (Okayama) | Week 12 (Navarra) |
-| :------------------ | :---------------: | :--------------: | :---------------: | :---------------: |
-| **Best Lap**        |         —         |        —         |         —         |         —         |
-| **PB Improvement**  |         —         |        —         |         —         |         —         |
-| **Consistency (σ)** |         —         |        —         |         —         |         —         |
-| **Race Result**     |         —         |        —         |         —         |         —         |
-| **iRating**         |         —         |        —         |         —         |         —         |
-| **Mood**            |         —         |        —         |         —         |         —         |
-
-📊 **Season Total**: 2 Official Wins | 2 Podiums | P4 + P5 Top Split | 6 AI Wins | **1738 iR (+500)** | Championship P106 (top 0.4%) | 🏆 Week 06: **1:11.033** (4 consecutive PBs)
+**Current Status:** [Week 06 Standings Report](./weeks/week06/standings-report.md) (Coming Soon)
 
 ---
 
-## The Story So Far
+## Week 06: The Rollercoaster (Oran Park)
 
-### Week 06: The Stupid Hero Paradox (Oran Park Raceway GP)
+Master Lonn arrived at Oran Park facing a track he'd never seen—a twisted ribbon of asphalt draped over Australian hills, full of blind crests and mean elevation changes.
 
-Oran Park arrived with an attitude. "Ups and downs," Master Lonn called them, a polite way of describing a rollercoaster that wanted to throw him into the scenery. Champion Curve, blind and tightening, started the week as a bully. It demanded a 3-second variance tax from anyone brave enough to guess its entry.
+**Day 1**: The baseline was humble (1:12.583), but the nemesis was clear immediately: Champion Curve. A 3-second variance swing. One lap clean, the next in the dirt. It was a lottery corner.
 
-But something shifted on Day 3. Master Lonn stopped guessing and started feeling. He took Champion Curve—the nemesis—and dismantled it piece by piece until the variance dropped from 0.898s to **0.072s**. He didn't just learn it; he owned it.
+But this week wasn't about raw speed. It was about **sequential mastery**.
 
-Then came the speed. Four consecutive sessions. Four consecutive Personal Bests. **1.55 seconds** shaved off in three days. He discovered a secret at Foster's Dip ("light brakes, don't touch the curb") that defied logic but obeyed physics. He turned Yokohama Bridge—a terrifying blind kink—into a weapon where he gained time while others lifted.
+**Day 3**: Champion Curve fell first. 92% improvement in ONE session. Then Foster's Dip—a terrifying blind compression—turned from a crash site into a weapon when Master Lonn learned to "trust the 3.3G compression."
 
-By Sunday, he was P1 on the grid. He had the pace of an alien (**1:11.033**). He had the consistency of a robot (**0.619s σ**).
+**Day 4**: Yokohama Bridge, the high-speed blind kink, was tamed. By Practice 04, 83% of the track was dialed. The lap time dropped to **1:11.033**—a massive 1.55-second improvement in three days. Four consecutive PBs.
 
-And then, the paradox.
+**Race Day**: The official race brought chaos. P4 qualification. A crash avoidance at Coca-Cola cost 8 seconds. But instead of spiraling, Master Lonn reset. He clawed back time, found his rhythm, and set his **fastest lap of the race on the VERY LAST lap**.
 
-"The Stupid Hero," he called himself after Race 02. Leading the pack, with the speed to walk away, he tried to force a moment that wasn't there. A "hero move" on Lap 9. The P1 finish evaporated into P2.
-
-It was the most expensive lesson of the season: You don't win because you try harder. You win because you trust what you've built. The speed is real. The consistency is elite. The only thing missing now is the courage to be boring.
+P6 finish. 55 points banked. But the real victory was internal: the resilience to reset and perform after the chaos.
 
 ---
 
-### Week 05: The Achilles Heel Dies at Hotel (Oschersleben)
+## The Journey So Far
 
-There's a corner at Oschersleben that doesn't negotiate. T2 Hotel Exit—a long, decreasing-radius, downhill nightmare. Master Lonn arrived with muscle memory from his GR86 days, but the FF1600 spoke a different language.
+### Week 05: The Hotel's Revenge (Oschersleben)
 
-For days, the Hotel took its toll. Spins. Lost wins. A 2.2-second variance that turned races into lotteries.
+Oschersleben is honest. It asks one question: *Can you hit your marks?*
 
-But the obsession with consistency paid off. He drilled it. He analyzed it. And then, he broke it. **1:32.700** mid-race, in Top Split, on no sleep. The Achilles heel didn't just heal; it became a strength. By the final race, T2 was dialed (σ 0.153s) in heavy traffic.
+Master Lonn arrived with GR86 muscle memory that betrayed him in the FF1600. T2 Hotel Exit became a nightmare—a decreasing radius downhill corner that snapped the rear axle and cost race wins.
 
-He left Germany with a P4 finish in Top Split, +66 iRating, and the knowledge that even his demons could be tamed.
+Five AI races. Three potential victories lost to T2.
 
----
+But he didn't quit. He went back to the lab. He reverse-engineered the aliens. He found the technique: **20% throttle hold through the apex**. It stabilized the rear.
 
-### Week 04: From "No Clue" to Top Split Podium (Lime Rock Park)
+In the final official race, on no sleep and starting P10, he drove through the field. T2 was mastered (σ 0.153s). He finished P4 with 0 incidents. The Achilles heel was dead.
 
-The week started with a confession: _"I have no clue how to take T5 properly."_ The Uphill at Lime Rock was pure chaos.
+### Week 04: The Ninja (Lime Rock Park)
 
-Three hours later, after writing and applying Chapter 16 (Spatial Awareness), he wasn't just surviving T5—he was beating the series leader's speed through it. From "no clue" to **1.87 km/h faster than an Alien**.
+"From 'No Clue' to Top Split Podium."
 
-In the official race, a faster car caught him. The old Master Lonn might have fought and crashed. The new one opened the door, played the long game, and took a **P3 podium in Top Split**. Ninja > Barbarian.
+It started with frustration at The Uphill (T5). It ended with beating the Series #1 driver through that exact corner.
 
----
+The breakthrough came from Chapter 16: **Edge Mapping**. Master Lonn applied the drill and instantly found 0.8s. In the Top Split official race (SoF 2035), he qualified P2. When a faster driver attacked, he didn't fight—he deployed **Meebewegen**. He let them through, stayed clean, and took a P3 podium with 94 championship points. Ninja > Barbarian.
 
-### Week 03: The Robot Awakens (Winton National)
+### Week 03: The Robot (Winton)
 
-Winton rewards patience, and Master Lonn became a metronome. He qualified P3, took the lead on Lap 3, and then... just didn't make mistakes.
+"Boring is just another word for Perfection."
 
-While the field spun and crashed behind him, he clicked off 1:26s like a machine. **First Official Victory.** The 1.5k iRating barrier shattered.
+Master Lonn returned to Winton and turned into a metronome. **1:25.710**. Consistency σ **0.16s**. He won by being so relentlessly consistent that opponents crashed trying to keep up.
 
----
+This was the week of the **Cold Tire Contract**: giving up Laps 1-2 to survive, then attacking from Lap 3. It became the foundation of his racecraft.
 
-### Week 02: The Battle of the Hill (Rudskogen)
+### Week 02: The Rust (Rudskogen)
 
-Six months of rust vs one mean downhill corner. Rudskogen fought back hard. But on Day 3, the rhythm clicked. The 50 sign flashed past, the foot stayed flat, and the car stuck. **1:28.508**. Two seconds faster than his previous best. The rust was gone.
+Six months away from this track. The rust was real. T2 was a disaster.
 
----
+But he chipped away at it. Found the "50 sign" brake marker. Beat his July PB by 0.4s. Scored a Top 500 global ranking time.
 
-### Week 01: The Awakening (Summit Point Jefferson)
+The lesson? **Strategic Maturity**. In a chaotic race, he recognized "P3 is secured," backed off 5%, and brought the car home. A driver became a racer.
 
-Chaos. Survival. And then, in the final laps, a discovery: speed comes from letting go. **50.768s** emerged from effortless flow. First Official Win.
+### Week 01: The Beginning (Jefferson)
 
----
+He arrived running 51.4s, scared of the walls. He left running 50.5s, with a race victory and a podium.
 
-## The Breakthrough Moments
-
-- **Week 01**: Flow State discovered. Speed comes from calm.
-- **Week 02**: 1:28.508. Rust erased.
-- **Week 03**: First Official Victory. The Robot emerges.
-- **Week 04**: Chapter 16 validation. Top Split Podium.
-- **Week 05**: **1:32.700 PB**. T2 Hotel conquered in Top Split.
-- **Week 06**: **4 Consecutive PBs**. 1:11.033. Foster's technique self-discovered. Consistency reaching elite levels (0.619s σ).
+The discovery of **Flow State**. "Easy flying." The realization that trying less means going faster.
 
 ---
 
-## Season Summary
+## The Driver
 
-| Metric               | Value                       |
-| :------------------- | :-------------------------- |
-| **iRating**          | 1238 → **1738** (+500)      |
-| **Championship**     | **P106 / 27,885** (top 0.4%)|
-| **SR**               | **3.63** (B-class)          |
-| **Official Wins**    | 2 (Jefferson, Winton)       |
-| **Official Podiums** | 4 total (2x P1, 1x P3, 1x P4, 1x P5) |
-| **PBs Set**          | 15 personal bests          |
+**Master Lonn** isn't just fast. He's a **Systems Thinker**.
 
----
+He doesn't just drive laps; he builds protocols. The *Cold Tire Contract*. The *Position Secured Protocol*. The *Pit Crew Protocol*.
 
-## What's Next
+He has ADHD, which means his brain craves novelty but struggles with impulse. The systems are the guardrails. When the red mist descends, the protocol takes over.
 
-**Week 06 Status**: The track is conquered (75% dialed). The pace is elite. The driver is fast but impatient.
+He's learned that **Success** (P6, 55 points) is different from **Satisfaction** ("I wanted P1"). He's learned that **Resilience** (resetting after a crash) is worth more than raw speed.
 
-**Target**: **Make 1:11.200 REPEATABLE.** The pace exists. Now make it boring.
-
-**The Mission**: Win a race without a single "hero move." Just robot consistency.
+He is currently ranked **Top 0.4%** globally. And he's just getting started.
 
 ---
 
-_"The best stories are lived one lap at a time."_ 🏎️💨
+_"The fastest driver is the one whose mind doesn't get in the way."_ 🧠🏎️

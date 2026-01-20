@@ -1,37 +1,36 @@
-# Week 06 - Oran Park Raceway - GP - Season 01 2026
+# Week 06 - Oran Park Raceway - GP - Season 2026
 
 **Track**: Oran Park Raceway - GP  
 **Car**: Ray FF1600  
-**Dates**: 2026-01-15 → 2026-01-18  
-**Status**: Practice & AI Races Complete
+**Dates**: 2026-01-15 → 2026-01-20  
+**Status**: Race Week (Ongoing)
 
 ---
 
 ## The Story
 
-There's a specific kind of arrogance tracks like Oran Park have. "Ups and downs," Master Lonn called them on Day 1. But they weren't just elevation changes—they were character tests. Champion Curve started the week as a bully, tossing the car into 3-second variances and spins. It ended the week as a conquest: mastered, dialed, laser-precise.
+Master Lonn arrived at Oran Park—a track he'd never driven—facing a daunting "Australian rollercoaster" of blind crests and tricky elevation changes. The week began with a humble 1:12.583 baseline and a clear nemesis: Champion Curve, where a 3-second variance threatened to ruin every lap.
 
-The week was a study in paradoxes. Master Lonn found **1.55 seconds of pace** in three days, setting four consecutive personal bests. He discovered a technique for Foster's Dip that defied conventional logic ("light brakes before the curbs") and proved it with data. He turned Yokohama Bridge—a blind, terrifying high-speed kink—from a practice nemesis into a race weapon.
+But this week wasn't about raw speed; it was about **sequential mastery**. Like a video game boss rush, Master Lonn tackled each nemesis one by one. First, Champion Curve fell (92% improvement in ONE session). Then, Foster's Dip (mastered with a "trust the compression" technique). Finally, Yokohama Bridge turned from a 54m apex wander into a race weapon. By Practice 04, 83% of the track was dialed, and he'd dropped **1.55 seconds** to hit a blistering 1:11.033.
 
-But racing isn't just about speed. It's about the "Stupid Hero Paradox." Race 02 saw him start P1 with elite consistency and alien pace, only to lose the win to a "hero move" on Lap 9. The lesson wasn't about finding more tenths—it was about trusting the tenths he already had. The speed is there. The consistency is pro-level. Now, the mission is simply to be "boring" enough to win.
+The official race brought chaos—a crash avoidance at Coca-Cola cost 8 seconds—but it revealed a new superpower: **Resilience**. Instead of spiraling, Master Lonn reset instantly, clawed back pace, and set his fastest lap of the race on the VERY LAST lap. He didn't just survive the rollercoaster; he learned to enjoy the ride.
 
 ---
 
 ## The Numbers
 
-| Metric               | Start     | End       | Change   | Notes          |
-| -------------------- | --------- | --------- | -------- | -------------- |
-| **Best Lap**         | 1:12.583  | 1:11.033  | -1.550s  | **4 Consecutive PBs!** |
-| **Consistency (σ)**  | 1.539s    | 0.619s    | -0.920s  | **Elite Race 02 consistency** |
-| **Gap to Optimal**   | 0.466s    | 0.250s    | -0.216s  | Approaching absolute limit |
-| **Focus Area**       | Champion  | **DIALED**| 0.898s→0.072s σ | **Nemesis Mastered** |
+| Metric               | Start (P01) | End (Race) | Change   | Notes |
+| -------------------- | ----------- | ---------- | -------- | ----- |
+| **Best Lap**         | 1:12.583    | 1:11.033   | -1.55s   | Four consecutive PBs! |
+| **Consistency (σ)**  | 1.539s      | 2.611s     | +1.072s  | Skewed by limit-finding offs |
+| **Gap to Optimal**   | 0.466s      | 0.250s     | -0.216s  | Basically AT the limit |
+| **Focus Area**       | Baseline    | Racecraft  | Evolved  | From survival to deployment |
 
 **Week Stats:**
 
 - **Sessions**: 6 (4 practice, 2 races)
 - **Total Laps**: ~90
-- **Victories**: 0 (P4, P2) - "Stupid Hero" tax
-- **Breakthrough**: **Yokohama Bridge (Practice Nemesis → Race Weapon)**
+- **Breakthrough**: **Sequential Corner Mastery** (Champion → Foster's → Yokohama)
 
 ---
 
@@ -39,54 +38,52 @@ But racing isn't just about speed. It's about the "Stupid Hero Paradox." Race 02
 
 | Date | Time | Type | Best Lap | σ | Result | Key Takeaway |
 | :--- | :--- | :--- | :------- | :- | :----- | :----------- |
-| [Jan 15](./2026-01-15-13-48-oran-park-practice-01.md) | 13:48 | Practice | 1:12.583 | 1.54s | Baseline | 5s improvement, 6/9 corners solid |
-| [Jan 17](./2026-01-17-09-50-oran-park-practice-02.md) | 09:50 | Practice | 1:11.617 | 2.06s | **PB** | Champion Curve MASTERED (92% gain) |
-| [Jan 17](./2026-01-17-11-37-oran-park-practice-03.md) | 11:37 | Practice | 1:11.200 | 1.70s | **PB** | Foster's technique DISCOVERED |
-| [Jan 17](./2026-01-17-14-35-oran-park-practice-04.md) | 14:35 | Practice | 1:11.033 | 2.61s | **PB** | Foster's muscle memory LOCKED IN |
-| [Jan 18](./2026-01-18-11-31-oran-park-race-01.md) | 11:31 | AI Race | 1:12.383 | 1.79s | P1→P4 | Yokohama became a WEAPON |
-| [Jan 18](./2026-01-18-15-09-oran-park-race-02.md) | 15:09 | AI Race | 1:11.900 | **0.62s**| P1→P2 | **The Stupid Hero Paradox** |
+| [Jan 15](2026-01-15-13-48-oran-park-practice-01.md) | 13:48 | Practice | 1:12.583 | 1.54s | Baseline | 6/9 corners solid on Day 1. Champion Curve is the nemesis. |
+| [Jan 17](2026-01-17-09-50-oran-park-practice-02.md) | 09:50 | Practice | 1:11.617 | 2.06s | **PB (-0.9s)** | Champion Curve MASTERED (92% improvement). Foster's Dip chaos. |
+| [Jan 17](2026-01-17-11-37-oran-park-practice-03.md) | 11:37 | Practice | 1:11.200 | 1.70s | **PB (-0.4s)** | Foster's Dip technique discovered. 9/12 corners dialed. |
+| [Jan 17](2026-01-17-14-35-oran-park-practice-04.md) | 14:35 | Practice | 1:11.033 | 2.61s | **PB (-0.1s)** | Foster's Dip MUSCLE MEMORY. Ready for racing. |
+| [Jan 18](2026-01-18-11-31-oran-park-race-01.md) | 11:31 | AI Race | 1:12.383 | 1.79s | P4 | Race pace confirmed. Yokohama crushed. One mistake cost P1. |
+| [Jan 20](2026-01-20-08-55-oran-park-race-official.md) | 08:55 | Official | 1:11.967 | 3.15s | P6 | **Resilience**. Lap 3 disaster -> Lap 10 FASTEST LAP. 55 pts banked. |
 
 ---
 
 ## Breakthroughs 🎯
 
-- **Champion Curve Mastery**: Went from 3-second lottery (σ 0.898s) to laser precision (σ 0.072s). The Week 06 goal was obliterated.
-- **Yokohama Transformation**: Practice nemesis (0.251s σ) → Race weapon (0.039s σ). Master Lonn learned to COMMIT under pressure.
-- **Foster's Dip Technique**: "Light brakes, don't touch left curbs." Self-discovered, data-validated, now muscle memory.
-- **Elite Consistency**: Race 02 σ of **0.619s** proves professional-grade repeatability is possible.
+- **The Champion Curve Miracle**: Went from "Where do I turn?" (0.898s σ) to **LASER PRECISION** (0.052s σ) in two sessions.
+- **"Trust the Compression"**: Discovered that Foster's Dip (3.3G load) gives free grip, turning a nemesis corner into a passing weapon.
+- **The 1-Lap Reset**: Proved in the Official Race that a disaster lap (1:21) can be immediately followed by a recovery lap (1:12.2). The spiral is broken.
 
 ---
 
 ## Challenges 🚧
 
-- **"The Stupid Hero"**: P1 starts converted to P4/P2 finishes because of "trying" instead of "flowing."
-- **Coca-Cola Corner**: Brake point wandering (37.4m σ in Race 01). Confidence issue under pressure.
-- **Traffic Management**: Struggled to find overtaking spots (Laps 9-10 Race 01). Oran Park is tight; needs a plan.
+- **Coca-Cola Corner**: The final boss. Still struggling with brake point drift (15m-45m variance) under pressure. Needs a physical marker.
+- **Limit-Finding Chaos**: Pushing for 100% pace often led to "surprising snaps." The speed is real, but the stability at the limit is fragile.
 
 ---
 
 ## What We Learned
 
 **Technical:**
-- **BB 56%** is the magic number. More stable turn-in, sharp front bite.
-- **Commitment > Effort**: Yokohama (committed) is faster/safer than Coca-Cola (trying).
+- **Compound Corners**: Foster's Dip isn't one corner; it's an Entry-Exit chain. Fix the Entry, the Exit fixes itself.
+- **Yokohama is a Kink**: Treating it like a corner (turning) caused chaos. Treating it like a straight (point-and-shoot) unlocked speed.
 
 **Mental:**
-- **"Boring Wins"**: Consistency (Race 02) would have won the race if not for one "hero move."
-- **Resilience**: Lap 8 recovery in Race 01 (5s gain back immediately) proves the reset switch works.
+- **Success vs. Satisfaction**: P6 feels "meh," but 55 points and a last-lap purple sector is objectively SUCCESS.
+- **System over Habit**: The "Pit Crew Protocol" (sleep/food/meditation) was born this week. Systems work for ADHD; habits don't.
 
 **Strategic:**
-- **P1 Protection**: When leading, the goal is to NOT LOSE, not to gap the field.
+- **"The Banker"**: Sometimes the goal isn't to win, but to bring the car home and bank the points. Job done.
 
 ---
 
 ## Next Week Preview
 
-**Track**: Summit Point - Main Course (Week 07)  
-**Challenge**: High speed, heavy braking T1, technical chute.  
-**Goal**: Carry the "Boring Win" mindset. No heroics.  
-**Strategy**: Apply the Sequential Mastery method (one corner at a time).
+**Track**: [Next Track TBD]  
+**Challenge**: Carrying this momentum to a new venue.  
+**Goal**: Apply the "Sequential Mastery" framework from Day 1.  
+**Strategy**: Baseline -> Identify Nemesis -> Isolate -> Conquer.
 
 ---
 
-_Week 06 Complete: You have the pace of an alien and the consistency of a robot. Now, just find the patience of a saint._ 🏎️💨
+_Week 06 Complete: You didn't just learn a track; you learned how to learn. 🏎️💨_

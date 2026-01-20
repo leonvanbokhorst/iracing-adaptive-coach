@@ -241,7 +241,7 @@ Week 03 (Winton AI race), Master Lonn extended this to "Meebewegen" strategy for
 
 **Related Chapters:**
 
-- [Chapter 13: Mental Game](../13-mental-game.md) - 10-second rule, pressure management
+- [Chapter 13: Mental Game](../13-mental-game/README.md) - 10-second rule, pressure management
 - [Chapter 15: Tire Management](../15-tire-management.md) - Long race tire strategy
 
 ---
