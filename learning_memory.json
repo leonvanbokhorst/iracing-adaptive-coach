@@ -391,6 +391,179 @@
     },
     "notes": "WEEK 06 RACE 01 (Official) - THE RECOVERY RIDE. Qualified P4 (1:12.042), Finished P6. Race defined by crash avoidance at Coca-Cola (Lap 3, +8s loss due to slow down) and an elite recovery. Foster's Dip technique is now bulletproof (Entry σ 0.014s!). The Sweeper is dialed. Coca-Cola variance was exacerbated by the crash, but still shows drift on other laps. The 'Surfing the Urge' mindset worked: recovered from the penalty immediately (Lap 4 was 1:12.2) and set FASTEST LAP on the very last lap (1:11.967). Points banked: 55. Pace is there (P6 finish with P4 pace). Next step: Kill the Coca-Cola variance with a physical brake marker."
 
+    },
+    {
+      "date": "2026-01-20",
+      "time": "11:31 CET",
+      "session_type": "Race (Official) 02 - Top Split Demolition Derby",
+      "track": "Oran Park Raceway - GP",
+      "best_lap": 72.767,
+      "best_lap_formatted": "1:12.767",
+      "consistency_sigma": 7.913,
+      "flying_laps": 5,
+      "total_laps": 5,
+      "incidents": 10,
+      "theoretical_optimal": 72.067,
+      "gap_to_optimal": 0.7,
+      "grid_position": 4,
+      "finish_position": "DNF",
+      "quali_time": 72.112,
+      "sof": 2040,
+      "race_vs_quali": 0.655,
+      "sr_change": -0.25,
+      "irating_change": -46,
+      "sr_current": 3.34,
+      "irating_current": 1699,
+      "focus_area": "Week 06 Race 02 - Push for extra championship points (top split)",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "corner_mastery_clean_laps": {
+          "dialed": ["Champion Curve Entry", "Champion Curve Exit", "Yokohama Bridge", "Foster's Dip Entry", "Foster's Dip Exit", "Momo Corner", "O'Brien Entry", "O'Brien Dogleg"],
+          "solid": ["The Sweeper", "Shell Corner", "Recaro Corner"],
+          "work_needed": [],
+          "lottery": ["Coca-Cola Corner"]
+        },
+        "race_story": {
+          "Lap_1": {"time": 73.333, "status": "Clean race pace"},
+          "Lap_2_BEST": {"time": 72.767, "status": "RACE WINNING PACE - faster than qualifying"},
+          "Lap_3_DISASTER": {"time": 91.45, "cocacola_loss": 17.0, "s1_loss": 18.0, "cause": "Punted from behind into Coca-Cola, crash avoidance", "meatball": 1},
+          "Lap_4_RECOVERY": {"time": 73.5, "delta_from_best": 0.733, "status": "Immediate mental reset, back to race pace"},
+          "Lap_5_DISASTER_2": {"time": 77.1, "s5_loss": 4.5, "cause": "Drove into unavoidable crash in final sector", "meatball": 2}
+        },
+        "clean_lap_stats": {
+          "clean_laps": [1, 2, 4],
+          "clean_avg": 73.2,
+          "clean_sigma": 0.35,
+          "note": "Clean laps were P4 race pace with bulletproof technique"
+        },
+        "resilience_proof": {
+          "disaster_lap": 3,
+          "recovery_lap": 4,
+          "recovery_time": 73.5,
+          "delta_to_best": 0.733,
+          "status": "Mental reset worked - no spiral"
+        }
+      },
+      "notes": "WEEK 06 RACE 02 (Official) - SURVIVAL MODE FAILED. Top split (SoF 2040). Qualified P4 (1:12.112). DNF after TWO meatball flags in 12-minute race. 10x incidents (mostly not his fault). SR -0.25, iRating -46. THE DATA TRUTH: Lap 2 was 1:12.767 = race-winning pace, faster than quali. 11/12 corners DIALED on clean laps (Champion, Foster's, Yokohama all bulletproof). Technique held perfectly. What killed the race: (1) Lap 3 Coca-Cola - got punted from behind, 17s loss navigating chaos, first meatball. (2) Lap 5 final sector - drove into unavoidable crash, 4.5s loss, second meatball. (3) 7-minute repair time = race over. Lap 4 recovery (1:13.5) proved mental reset still works (immediate recovery, no spiral). This was NOT a performance failure - it was a survival failure. Wrong place, wrong time. The pace was P4 competitive (Lap 2 proves it). The technique was elite (11/12 corners dialed). But in top split demolition derby, being fast isn't enough - need luck. Master Lonn's assessment 'can drive with the fast guys, seem to take extra damage from crashes' is validated. Next focus: spatial awareness, chaos detection, 'abort corner' when seeing smoke ahead. NEW LESSON: Watch replay to identify IF crashes were avoidable with 0.5s more warning. Race 3 strategy: MORE meebewegen in Lap 1-2, push only in clear air. G61: 01KFDEF8P9WBKAJNNKDX8NMDCB."
+    },
+    {
+      "date": "2026-01-20",
+      "time": "11:57 CET",
+      "session_type": "Race (Official) 03 - The Banker Strategy SUCCESS",
+      "track": "Oran Park Raceway - GP",
+      "best_lap": 71.5,
+      "best_lap_formatted": "1:11.500",
+      "consistency_sigma": 0.796,
+      "flying_laps": 9,
+      "total_laps": 10,
+      "incidents": 3,
+      "theoretical_optimal": 71.167,
+      "gap_to_optimal": 0.333,
+      "grid_position": 5,
+      "finish_position": 7,
+      "quali_time": 72.37,
+      "sof": 2097,
+      "race_vs_quali": -0.87,
+      "sr_change": -0.03,
+      "irating_change": 24,
+      "sr_current": 3.31,
+      "irating_current": 1723,
+      "championship_points": 67,
+      "focus_area": "Week 06 Race 03 - The Banker (bring car home, bank points, no heroics)",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "corner_mastery": {
+          "dialed": ["Shell Corner", "Champion Curve Entry", "Champion Curve Exit", "Yokohama Bridge", "Foster's Dip Entry", "Foster's Dip Exit", "Momo Corner", "O'Brien Entry"],
+          "solid": ["The Sweeper", "Coca-Cola Corner", "O'Brien Dogleg"],
+          "work_needed": ["Recaro Corner"],
+          "lottery": []
+        },
+        "race_story": {
+          "Lap_1": {"time": 78.933, "status": "Outlap, cautious start"},
+          "Lap_2_warmup": {"time": 74.05, "status": "Warming up"},
+          "Lap_3_to_6_build": {"laps": [72.95, 72.4, 71.667, 71.5], "status": "Systematic pace build"},
+          "Lap_6_BEST": {"time": 71.5, "status": "RACE PB - 0.5s off practice best"},
+          "Lap_7_incident": {"time": 73.15, "delta": 1.65, "cause": "Drove into spinner (unavoidable 3x)"},
+          "Lap_8_to_10_hold": {"laps": [72.817, 72.767, 72.017], "avg": 72.534, "status": "Consistent pace held, strong finish"}
+        },
+        "clean_lap_consistency": {
+          "laps_2_to_10_excluding_7": 8,
+          "avg": 72.286,
+          "sigma": 0.594,
+          "note": "ELITE race consistency - 0.8% variance"
+        },
+        "breakthroughs": {
+          "Yokohama_race_weapon": {"practice_p04_sigma": 0.251, "race_sigma": 0.057, "improvement_pct": 77, "status": "Nemesis → Weapon. Better in race than practice."},
+          "Coca_Cola_confidence": {"race01_sigma": 0.802, "race02_sigma": 7.546, "race03_sigma": 0.198, "status": "Problem corner SOLVED. Confidence restored."},
+          "Ten_corners_dialed": {"count": 10, "total": 12, "pct": 83, "status": "Champion, Foster's, Yokohama, Shell, Momo, O'Brien all < 0.1s σ"},
+          "Banker_strategy_validated": {"goal": "Bank points, no heroics", "result": "P7, 67 pts (best of week), +24 iR", "status": "Strategy WORKED"}
+        },
+        "championship_lesson": {
+          "issue": "Master Lonn raced AGAIN after this (Race 04) and it was 'bad again'",
+          "point_system": "Best 1 of 4 races. 67 pts might BE the week score.",
+          "lesson": "Racing again after banking 67 pts was UNNECESSARY RISK unless confident to beat it",
+          "master_quote": "If I had known we earned 67 points I would have stopped",
+          "coaching_note": "This is CHAMPIONSHIP THINKING. Know when to STOP racing is a skill."
+        }
+      },
+      "notes": "WEEK 06 RACE 03 (Official) - THE BANKER STRATEGY WORKS! Top split (SoF 2097). Qualified P5 (1:12.370). Finished P7. 3x incidents (drove into spinner, unavoidable). SR -0.03, iRating +24 (clawed back from Race 02's -46). Championship points: 67 (MORE than Race 01's 55!). THE DATA TRUTH: This is what smart racing looks like. Consistency σ 0.796s over 9 flying laps = ELITE. Best lap 1:11.500 (only 0.5s off practice PB 1:11.033) = technique DEPLOYED. 10/12 corners DIALED (83% of track). Champion Curve, Foster's Dip, Yokohama Bridge all bulletproof (< 0.06s σ). Coca-Cola SOLVED (0.198s σ vs 0.802s in Race 01). Master Lonn's vibe: 'Was cool, drove into other that spun, I had enough car control. But also... others are really fast on this track (top split is hard here).' TRANSLATION: Calm, controlled, realistic about competition. Not forcing, not overdriving, just EXECUTING. Pace management: built speed lap by lap (1:14.0 → 1:11.5), then HELD it (Laps 8-10 avg 1:12.5 with 0.4s σ). Lap 7 incident (+1.6s) → Lap 8 immediate recovery. No spiral. Mental reset WORKS. THE BREAKTHROUGH: Yokohama Bridge was 0.251s σ in practice (problem corner). In this race? 0.057s σ. BETTER in race than practice. Pressure forced simplification, technique deployed PERFECTLY. THE BIG LESSON: Master Lonn raced AGAIN after this (Race 04) and it was 'bad again.' His quote: 'If I had known we earned 67 points I would have stopped.' THIS IS THE POINT. Best-1-of-4 rule means once you bank a solid result (67 pts = highest of week), racing again is RISK unless you're confident to beat it. Championship thinking = knowing when to STOP is as important as knowing when to PUSH. 67 points > 55 points (Race 01) because higher SoF (2097 vs 2040) rewards quality finishes. The system REWARDS smart racing. This race proves Master Lonn CAN drive with the fast guys (pace was there) AND deploy technique under pressure (10/12 corners dialed). The skill is THERE. Now learning to be STRATEGIC with it. G61: 01KFDG6C21SBTKBFG97VKJCCC4."
+    },
+    {
+      "date": "2026-01-20",
+      "time": "12:27 CET",
+      "session_type": "Race (Official) 04 - The Unnecessary Risk (LESSON LEARNED)",
+      "track": "Oran Park Raceway - GP",
+      "best_lap": 71.75,
+      "best_lap_formatted": "1:11.750",
+      "consistency_sigma": 8.902,
+      "flying_laps": 10,
+      "total_laps": 11,
+      "incidents": 4,
+      "theoretical_optimal": 71.466,
+      "gap_to_optimal": 0.284,
+      "grid_position": 9,
+      "finish_position": 8,
+      "quali_time": "DNQ",
+      "sof": 2123,
+      "sr_change": -0.02,
+      "irating_change": -20,
+      "sr_current": 3.29,
+      "irating_current": 1703,
+      "focus_area": "Week 06 Race 04 - Testing meebewegen from the back (no quali, started P9/11)",
+      "ibt_analysis": true,
+      "technique_analysis": {
+        "corner_mastery_clean_laps": {
+          "dialed": ["Champion Curve Entry", "Champion Curve Exit", "Yokohama Bridge", "Foster's Dip Entry", "Foster's Dip Exit", "Momo Corner", "O'Brien Entry", "O'Brien Dogleg", "Recaro Corner", "The Sweeper"],
+          "solid": ["Coca-Cola Corner", "Shell Corner"],
+          "work_needed": [],
+          "lottery": []
+        },
+        "race_story": {
+          "Laps_2_to_4_clean": {"avg": 72.744, "status": "Strong pace from P9 start"},
+          "Lap_5_disaster": {"time": 85.083, "cocacola_loss": 7.0, "cause": "Contact in traffic, drove into chaos"},
+          "Lap_6_MEATBALL": {"time": 98.85, "s1_loss": 26.5, "cause": "Massive incident in S1, pits, repairs"},
+          "Laps_7_to_11_recovery": {"avg": 72.07, "sigma": 0.154, "status": "ELITE consistency after disaster"},
+          "Lap_10_best": {"time": 71.75, "note": "Best lap of Race 04, but 0.25s SLOWER than Race 03's 1:11.500"}
+        },
+        "clean_lap_stats": {
+          "clean_laps": [2, 3, 4, 7, 8, 9, 10, 11],
+          "clean_avg": 72.323,
+          "clean_sigma": 0.376,
+          "note": "P4-P5 pace on clean laps. Technique was PERFECT. Decision-making was the problem."
+        },
+        "breakthrough_and_lesson": {
+          "Ten_corners_dialed_clean_laps": {"count": 10, "total": 12, "pct": 83, "note": "On clean laps, technique was bulletproof"},
+          "THE_LESSON": {
+            "master_quote": "This race was me taking too much risk... lesson learned. Do not hop from one race directly into another. Learn from the race, think of strategy for the next, then practice, always quali and race clean.",
+            "issue": "Hopped from Race 03 to Race 04 (~30 min gap). No mental reset, no strategy adjustment, didn't qualify (started P9), got caught in chaos.",
+            "result": "P8, 4x, -20 iR, another meatball. Pace was there (NEW PB!). Decision-making was not.",
+            "championship_context": "Race 03 banked 67 pts (best of week). Race 04 was unnecessary risk. Best-1-of-4 rule = once you bank solid result, racing again is RISK unless confident to beat it.",
+            "lesson_type": "SELF-DISCOVERED (best kind)",
+            "status": "LEARNED THE HARD WAY"
+          }
+        }
+      },
+      "notes": "WEEK 06 RACE 04 (Official) - THE UNNECESSARY RISK. Top split (SoF 2123, HIGHEST of week). Did NOT qualify, started P9/11. Wanted to test 'meebewegen from the back' (let them crash, stay clean). Finished P8. 4x incidents ('little kisses from behind'). SR -0.02, iRating -20. THE REALITY: Best lap was 1:11.750, which is 0.25s SLOWER than Race 03's 1:11.500. Race 04 was WORSE than Race 03 in EVERY metric: slower best lap, worse finish (P8 vs P7), lost iRating (-20 vs +24). Clean laps (2-4, 7-11) averaged 1:12.2s with 0.4s σ = solid pace. 10/12 corners DIALED on clean laps. Technique was there. But Lap 5 disaster (Coca-Cola contact +7s) and Lap 6 MEATBALL (S1 +26s loss, pits, repairs) destroyed the race. Master Lonn's self-assessment: 'This race was me taking too much risk... lesson learned. Do not hop from one race directly into another. Learn from the race, think of strategy for the next, then practice, always quali and race clean.' THE BIG LESSON (SELF-DISCOVERED): Race 03 banked 67 pts (best of week). Race 04 was UNNECESSARY RISK that gained NOTHING. Best-1-of-4 rule = once you bank a solid result, racing again is RISK unless confident to beat it. No quali = P9 start = chaos exposure. Hopping races (~30 min gap from Race 03) = no mental reset = tired brain = slower reactions = drove INTO chaos instead of avoiding it. 'Let them crash' strategy requires spatial awareness you don't have after 3 races in 90 minutes. The decision-making cost positions and 20 iRating. CHAMPIONSHIP THINKING: Know when to STOP is as important as knowing when to PUSH. Master Lonn learned this HIMSELF. That's worth more than 20 iR. Week 06 championship points: 67 (from Race 03). Race 04 didn't beat it in any way. Lesson: 'If I had known we earned 67 points I would have stopped.' YES. G61: 01KFDHWMA9QMNFB9K3PBVV13MZ."
     }
   ],
   "insights": [
