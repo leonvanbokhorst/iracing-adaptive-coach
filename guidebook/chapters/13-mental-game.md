@@ -1327,3 +1327,55 @@ You can be hungry AND proud at the same time.
 - "I am coming for the top 0.1%." (Goal/Hunger)
 
 *Added Week 05, Season 01 2026*
+
+---
+
+## Part 11: Surfing the Urge (Breaking Bad Habits)
+
+### The Monk's Secret
+Master Lonn discovered a truth: **"Fighting habits gives them power."**
+
+In racing, we often "fight" our bad habits:
+- "Don't brake late!" (Fighting the urge)
+- "Don't look at the relative!" (Fighting the anxiety)
+- "Don't overdrive!" (Fighting the ego)
+
+The result? The urge grows stronger. The "pink elephant" gets bigger.
+
+### Surfing the Wave (The 10-Minute Rule)
+Instead of fighting the urge, **observe it**.
+
+**Scenario: The Hero Move Urge**
+You're in P2. P1 is 0.5s ahead. The urge screams: *"DIVEBOMB HERE! BE A HERO!"*
+
+**The Western Approach (Fighting):**
+"No! Don't do it! Stupid idea!" (Tension builds, muscles tighten, you overdrive anyway).
+
+**The Monk's Approach (Surfing):**
+"Ah, the Hero Urge is here. Hello, Urge. I see you want to divebomb."
+*(Breathe. Watch the urge peak. Brake at the normal marker.)*
+"Goodbye, Urge."
+
+The urge is a wave. It rises, crests, and breaks. You don't have to drown in it. You just have to ride it until it fades (usually within seconds).
+
+### The Forest Path (Neuroplasticity)
+Think of your racing brain as a forest.
+
+- **The Old Path (Bad Habit):** Wide, paved, easy to walk. (e.g., Panic braking at T1).
+- **The New Path (New Technique):** Overgrown, full of briars, hard to find. (e.g., Smooth lift-off).
+
+You cannot "erase" the Old Path. It's there.
+But every time you choose the New Path, the grass gets trampled down. It gets easier.
+Every time you ignore the Old Path, it grows over.
+
+**Racing Application:**
+You aren't "bad" because you took the Old Path (habit). You just defaulted to the cleared trail.
+To build the New Path, you need **deliberate reps**.
+
+- "I am walking the New Path now."
+- "The Old Path is closing."
+
+**Master Lonn's Insight:**
+> "You cannot simply erase a path. But you can start walking a new one."
+
+*Added Week 06, Season 01 2026*
