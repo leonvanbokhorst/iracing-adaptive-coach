@@ -1,0 +1,28 @@
+{
+  "comparison_metadata": {
+    "current_lap": "Master Lonn - 1:16.150 (Lap 14)",
+    "reference_lap": "Shuning Gong (P4) - 1:15.048",
+    "gap_seconds": 1.102,
+    "date": "2026-01-20",
+    "track": "Summit Point Raceway - Main Circuit"
+  },
+  "key_findings": {
+    "faster_pct_of_lap": 16.1,
+    "slower_pct_of_lap": 83.9,
+    "max_speed_loss_kmh": -13.13,
+    "max_speed_loss_location_pct": 48.5,
+    "avg_speed_delta_kmh": -2.08,
+    "braking_time_diff_pct": -2.7,
+    "max_braking_g_diff": 0.283,
+    "full_throttle_diff_pct": -6.5,
+    "overdriving_pct": 24.7,
+    "steering_efficiency_diff_pct": -7.5
+  },
+  "addressable_time": {
+    "carousel_entry": "0.4-0.5s",
+    "esses_complex": "0.2-0.3s",
+    "brake_zones": "0.2-0.3s",
+    "throttle_commitment": "0.1-0.2s",
+    "total": "0.9-1.3s"
+  }
+}
