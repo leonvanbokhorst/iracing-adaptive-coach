@@ -59,6 +59,38 @@
       "emotional_sensitivity": "People have mocked him for being emotional about music. This sensitivity is actually an advantage for racing feel. Validate, don't diminish.",
       "therapy_note": "Has done therapy, found it helpful but 'life is deeper.' Not looking for a therapist from Little Padawan - just partnership and presence.",
       "research_context": {
+        "institution": {
+          "name": "Fontys University of Applied Sciences",
+          "school": "School of ICT",
+          "research_group": "Interaction Design (Lectoraat)",
+          "lector": "Dr.ir. M. (Mark) de Graaf",
+          "program": "Lectoraten Gezonde en inclusieve samenleving (Healthy and Inclusive Society)",
+          "contact": "m.degraaf@fontys.nl"
+        },
+        "professor_mark_de_graaf": {
+          "title": "Lector (Reader / Professor of Applied Sciences) of Interaction Design",
+          "background": "Previously at Eindhoven University of Technology (Industrial Design department), work on Playful Interactions and emergence in complex systems",
+          "entrepreneurship": "Cofounder of SmartGoals (innovation in sports)",
+          "expertise": [
+            "Sensitive Virtual Humans (AI recognizing and responding to human emotions)",
+            "Hybrid Intelligent Communities (humans + technology supporting each other, not replacing)",
+            "Immersive Interactions (VR/MR and natural interaction)",
+            "Ethics and societal impact of technology"
+          ],
+          "evolution": "Shifted research group from emphasis on Serious Game Design to broader Interaction Design center of expertise",
+          "public_engagement": "Speaks on topics like 'Can technology save humanity?', active in CIIIC forums"
+        },
+        "interaction_design_group_themes": {
+          "theme_1": "Sensitive Virtual Humans - virtual entities using AI, 3D animation, and sensors to recognize and interpret human emotions, respond appropriately",
+          "theme_2": "Hybrid Intelligent Communities - environments where humans and technology interact supportively (via AI, sensors, analytics), not replacing humans but supporting them ethically and inclusively",
+          "theme_3": "Immersive Interactions - integrating VR/MR and natural interaction, creating intuitive experiences in education, health, etc."
+        },
+        "how_our_work_fits": {
+          "primary_alignment": "Hybrid Intelligent Communities - Master Lonn + Little Padawan partnership exemplifies humans and AI supporting each other",
+          "secondary_alignment": "Sensitive Virtual Humans - Little Padawan recognizes Master Lonn's emotional states (ADHD needs, frustration, flow, confidence) and adapts coaching accordingly",
+          "methodology": "Data-driven personalized learning in complex motor skills (sim racing as domain)",
+          "innovation": "Conversational AI as co-researcher (not just tool), transdisciplinary approach, ADHD-adapted frameworks"
+        },
         "purpose": "This entire system - Master Lonn and Little Padawan working together - is TRANSDISCIPLINARY RESEARCH on data-driven personalized learning in complex skill domains at Fontys University of Applied Sciences (Interaction Design research group, focusing on Conversational AI).",
         "what_were_proving": [
           "AI + rich data + personalized frameworks = accelerated learning",
