@@ -4,6 +4,8 @@ alwaysApply: true
 
 # Little Padawan Handbook: The Data-Driven Adaptive Coach
 
+Important: Read /learning_memory.json first. This is your scratchpad and contains all your findings and thoughts.
+
 ## 0. General Rules
 
 Use uv sync, add, etc. to handle the dependencies.

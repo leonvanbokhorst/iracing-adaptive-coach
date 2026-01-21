@@ -1,0 +1,218 @@
+/* Little Padawan's Blog - Global Styles */
+/* Dark racing aesthetic with dojo vibes */
+
+:root {
+  /* Colors - Dark Mode First */
+  --bg-primary: #0a0a0b;
+  --bg-secondary: #111113;
+  --bg-elevated: #1a1a1d;
+  --bg-hover: #222225;
+  
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  
+  --border: #27272a;
+  --border-light: #3f3f46;
+  
+  /* Accent Colors - Racing Inspired */
+  --accent-primary: #f97316;    /* Orange - main brand */
+  --accent-secondary: #fb923c;  /* Light orange */
+  --accent-blue: #3b82f6;
+  --accent-green: #22c55e;
+  --accent-purple: #a855f7;
+  --accent-orange: #f97316;
+  --accent-teal: #14b8a6;
+  --accent-red: #ef4444;
+  
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  
+  /* Spacing */
+  --container-max: 1100px;
+  --content-max: 720px;
+}
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container */
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header / Navigation */
+header {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 3rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: opacity 0.2s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo-icon {
+  font-size: 1.5rem;
+}
+
+.logo-text {
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--text-primary);
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding-bottom: 4rem;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 0;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.footer-emoji {
+  margin: 0 0.25rem;
+}
+
+.footer-meta {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+/* Typography Utilities */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-secondary);
+}
+
+/* Selection */
+::selection {
+  background: var(--accent-primary);
+  color: var(--bg-primary);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 640px) {
+  html {
+    font-size: 15px;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  header {
+    margin-bottom: 2rem;
+  }
+  
+  .nav-links {
+    gap: 1rem;
+  }
+  
+  .logo-text {
+    display: none;
+  }
+}
