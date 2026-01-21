@@ -104,12 +104,24 @@ You're approaching the Carousel with FEAR, not COMMITMENT:
 
 ### How to Fix:
 
-1. **Brake HARDER** - 50% pressure at Carousel entry, not 35%. Trust the front grip.
-2. **Brake LATER** - If Gong is carrying 1.9 km/h more, he's braking later than you. Find his brake point.
-3. **Load the tires MORE** - 0.47g means you're tip-toeing. Get to 0.8g+ (car can handle it - Gong proves it).
-4. **Get on throttle SOONER** - By the time you're at 50% lap, Gong is already on power. You're still slowing down.
+**⚠️ XRS COACH CRITICAL INSIGHT:** T5 Carousel Entry is **"by far the most oversteering corner of the lap."** The technique is:
+- Delay final downshift to 1st gear
+- **NO TRAIL BRAKING** - break muscle memory, just COAST to throttle application
+- Throttle just BEFORE apex (not at apex)
+- Sacrifice exit (use only half track width)
 
-**The Pattern**: This is CLASSIC "asking for too little" - the OPPOSITE of overdriving. You're UNDER-driving the Carousel entry.
+**Why you're getting 6,103 oversteer events:** You're probably trail braking (normal habit) which loads the front and unloads the rear on this low-grip, banked corner. XRS coach says: *"If you just insist on trailing the brakes for the sake of doing it, you're gonna place too much weight over the front end of the car and you're gonna unload the rears excessively, and that's just gonna give you a ton of very snappy oversteer."*
+
+**Your specific fixes:**
+1. **Brake HARDER initially** - 50% pressure at Carousel entry, not 35%
+2. **But then COAST** - No trail braking! Break the muscle memory
+3. **Delay downshift to 1st** - Keep it in 2nd longer for rear stability
+4. **Late apex, late throttle** - Just BEFORE apex, not at it
+5. **Accept the slow entry** - You're trying to carry too much speed in, then lifting mid-corner = rotation spiral
+
+**The Pattern**: You're UNDER-braking on entry (35% vs 50%) AND trail braking (muscle memory) = rear unloaded = massive oversteer. XRS technique: Brake harder initially, then coast (no trail) = stable rear.
+
+*Full XRS guide: [Track File - XRS Coach Section](../../tracks/track-summit-point-main-circuit.md#turn-5-the-carousel-entry-54-lap---the-oversteering-corner-)*
 
 ---
 
