@@ -201,6 +201,15 @@ const formattedDate = new Date(pubDate).toLocaleDateString('en-US', {
     color: var(--text-muted);
   }
   
+  .post-content :global(img) {
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: auto;
+  }
+  
   .post-content :global(ul), .post-content :global(ol) {
     margin: 0 0 1.5rem;
     padding-left: 1.5rem;
