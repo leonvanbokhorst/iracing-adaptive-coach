@@ -153,7 +153,7 @@ _Master Lonn returns to Summit Point Main Circuit after seven months away. "Felt
 - 88% of oversteer events concentrated in just 2 zones (Turn 1 + Carousel/Esses)
 - Delta-to-optimal analysis perfectly matches oversteer zones (causation confirmed)
 - Conservative inputs appropriate for baseline (49.8% avg brake, 65.4% full throttle)
-- **XRS Coach validation**: T5 Carousel Entry is "by far the most oversteering corner" - technique is **NO trail braking** (just coast!), delay downshift to 1st, carry momentum. T6 Carousel Exit sets up longest accel zone (critical). See [track file XRS guide](../../tracks/track-summit-point-main-circuit.md#xrs-coach-lap-guide---corner-by-corner-breakdown) for full breakdown.
+- **EXPERT Coach validation**: T5 Carousel Entry is "by far the most oversteering corner" - technique is **NO trail braking** (just coast!), delay downshift to 1st, carry momentum. T6 Carousel Exit sets up longest accel zone (critical). See [track file EXPERT guide](../../tracks/track-summit-point-main-circuit.md#EXPERT-coach-lap-guide---corner-by-corner-breakdown) for full breakdown.
 
 **Mental:**
 - "Felt familiar" was accurate—muscle memory IS real

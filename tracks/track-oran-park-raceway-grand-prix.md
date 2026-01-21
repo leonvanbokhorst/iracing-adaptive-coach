@@ -54,7 +54,7 @@ _S4 2025 Rookies on Oran Park by MidfieldRacing219_
 
 ---
 
-## Ray FF1600 at Oran Park (XRS Technique Guide)
+## Ray FF1600 at Oran Park (EXPERT Technique Guide)
 
 For the Ray FF1600, Oran Park is basically fan-service. It's a **momentum playground** where bravery is less important than staying light on your hands and honest with your exits.
 

@@ -28,7 +28,7 @@ There isn't just ONE line through a corner. Depending on the situation, you'll u
 - The mathematically fastest path through a corner/track
 - Usually involves late apex
 - What aliens use
-- What XRS coaches show
+- What EXPERT coaches show
 
 **When to use:**
 - Hot lapping (qualifying)

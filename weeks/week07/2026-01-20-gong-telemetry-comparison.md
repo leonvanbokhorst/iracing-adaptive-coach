@@ -104,13 +104,13 @@ You're approaching the Carousel with FEAR, not COMMITMENT:
 
 ### How to Fix:
 
-**⚠️ XRS COACH CRITICAL INSIGHT:** T5 Carousel Entry is **"by far the most oversteering corner of the lap."** The technique is:
+**⚠️ EXPERT COACH CRITICAL INSIGHT:** T5 Carousel Entry is **"by far the most oversteering corner of the lap."** The technique is:
 - Delay final downshift to 1st gear
 - **NO TRAIL BRAKING** - break muscle memory, just COAST to throttle application
 - Throttle just BEFORE apex (not at apex)
 - Sacrifice exit (use only half track width)
 
-**Why you're getting 6,103 oversteer events:** You're probably trail braking (normal habit) which loads the front and unloads the rear on this low-grip, banked corner. XRS coach says: *"If you just insist on trailing the brakes for the sake of doing it, you're gonna place too much weight over the front end of the car and you're gonna unload the rears excessively, and that's just gonna give you a ton of very snappy oversteer."*
+**Why you're getting 6,103 oversteer events:** You're probably trail braking (normal habit) which loads the front and unloads the rear on this low-grip, banked corner. EXPERT coach says: *"If you just insist on trailing the brakes for the sake of doing it, you're gonna place too much weight over the front end of the car and you're gonna unload the rears excessively, and that's just gonna give you a ton of very snappy oversteer."*
 
 **Your specific fixes:**
 1. **Brake HARDER initially** - 50% pressure at Carousel entry, not 35%
@@ -119,9 +119,9 @@ You're approaching the Carousel with FEAR, not COMMITMENT:
 4. **Late apex, late throttle** - Just BEFORE apex, not at it
 5. **Accept the slow entry** - You're trying to carry too much speed in, then lifting mid-corner = rotation spiral
 
-**The Pattern**: You're UNDER-braking on entry (35% vs 50%) AND trail braking (muscle memory) = rear unloaded = massive oversteer. XRS technique: Brake harder initially, then coast (no trail) = stable rear.
+**The Pattern**: You're UNDER-braking on entry (35% vs 50%) AND trail braking (muscle memory) = rear unloaded = massive oversteer. EXPERT technique: Brake harder initially, then coast (no trail) = stable rear.
 
-*Full XRS guide: [Track File - XRS Coach Section](../../tracks/track-summit-point-main-circuit.md#turn-5-the-carousel-entry-54-lap---the-oversteering-corner-)*
+*Full EXPERT guide: [Track File - EXPERT Coach Section](../../tracks/track-summit-point-main-circuit.md#turn-5-the-carousel-entry-54-lap---the-oversteering-corner-)*
 
 ---
 

@@ -65,7 +65,7 @@ def calculate_traction_usage(df):
     df['TotalG'] = np.sqrt(df['LongG']**2 + df['LatG']**2)
     
     # Traction usage - use smoothed for sustained cornering limit
-    # Sustained cornering limit: ~1.4G (based on XRS data)
+    # Sustained cornering limit: ~1.4G (based on EXPERT data)
     df['TractionUsage'] = (df['TotalG'] / 1.4) * 100
     
     # Overdriving flag - sustained over 1.4G
@@ -189,7 +189,7 @@ def plot_comparison(df1, df2, name1, name2, output_path=None):
     
     # --- ONE SIMPLE TRACTION CIRCLE ---
     
-    # Draw grip limit circles (XRS-style: inner = sustained, outer = peaks)
+    # Draw grip limit circles (EXPERT-style: inner = sustained, outer = peaks)
     circle_sustained = plt.Circle((0, 0), 1.4, color='#2ecc71', fill=False, linewidth=2.5, 
                                    linestyle='-', alpha=0.7, label='Sustained Limit (~1.4G)')
     circle_peak = plt.Circle((0, 0), 2.0, color='gray', fill=False, linewidth=1.5, 

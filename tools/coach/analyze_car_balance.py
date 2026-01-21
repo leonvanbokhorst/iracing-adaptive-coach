@@ -866,7 +866,7 @@ def analyze_car_balance(ibt_path: str, track_id: Optional[str] = None, lap: str 
     # iRacing tire temp channels
     # NOTE: Surface temps (LFtempL) are dynamic and useful for driving style analysis
     # Carcass temps (LFtempCL) mostly stay at base value, only spike under load
-    # XRS uses surface temps - so should we!
+    # EXPERT uses surface temps - so should we!
     temp_channels = {
         "LF": ["LFtempL", "LFtempM", "LFtempR"],  # Surface temps (dynamic)
         "RF": ["RFtempL", "RFtempM", "RFtempR"],

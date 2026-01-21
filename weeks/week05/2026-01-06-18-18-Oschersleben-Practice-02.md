@@ -156,7 +156,7 @@ This corner is objectively weird:
 3. Downhill (weight forward, less rear grip)
 4. Still recovering from T1 chaos
 
-Your GR86 memory says "turn in here"—but the FF1600 has different grip levels, different weight distribution, and different rotation characteristics. The XRS tip from this morning applies: **brake later, brake less, let the car flow through the kink**.
+Your GR86 memory says "turn in here"—but the FF1600 has different grip levels, different weight distribution, and different rotation characteristics. The EXPERT tip from this morning applies: **brake later, brake less, let the car flow through the kink**.
 
 ---
 
@@ -204,7 +204,7 @@ This corner alone cost you 17+ seconds across 3 laps. When you get T2 right, you
 
 ### Guidebook Connections 📚
 
-- **Chapter 9 (Braking)**: XRS technique for T1-T2 applies—turn first, brake second
+- **Chapter 9 (Braking)**: EXPERT technique for T1-T2 applies—turn first, brake second
 - **Chapter 13 (Mental Game)**: Learning curve visible in data—proof that patience works
 
 ### Fun Stuff 😄

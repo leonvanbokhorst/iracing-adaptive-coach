@@ -214,7 +214,7 @@ If NO to any of these → It's a driver problem.
 - ❌ Lap times inconsistent (σ > 0.5s)
 - ❌ Technique still developing
 - ❌ Making different mistakes each lap
-- ❌ Haven't watched XRS/coach laps
+- ❌ Haven't watched EXPERT/coach laps
 
 **Why not:** You can't separate setup effect from technique improvement. You're changing too much lap-to-lap.
 

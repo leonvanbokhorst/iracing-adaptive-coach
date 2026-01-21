@@ -178,7 +178,7 @@ The Hotel is where you LOSE, not where you WIN.
 
 ## Breakthroughs 🎯
 
-- **T2 Hotel Exit Technique SOLVED**: Trail brake → Full brake → 4→3→2 → 20% throttle HOLD → Progressive exit. The 20% hold stabilizes the rear on the downhill decreasing-radius corner. Master Lonn reverse-engineered what the XRS aliens do.
+- **T2 Hotel Exit Technique SOLVED**: Trail brake → Full brake → 4→3→2 → 20% throttle HOLD → Progressive exit. The 20% hold stabilizes the rear on the downhill decreasing-radius corner. Master Lonn reverse-engineered what the EXPERT aliens do.
 
 - **T2 MASTERY COMPLETE** (Jan 15): The technique survived race pressure. Official Race 02 showed T2 σ = 0.153s with traffic. Progression: 2.257s (lottery) → 0.066s (practice) → **0.153s (race)**. The Achilles heel is dead.
 
@@ -209,7 +209,7 @@ The Hotel is where you LOSE, not where you WIN.
 **Technical:**
 
 - T2 Hotel Exit Formula: 20% throttle hold through apex prevents rear snap on downhill decreasing-radius corners
-- XRS Hotel technique validated: Turn FIRST, brake SECOND. Initial brake 25-30% only.
+- EXPERT Hotel technique validated: Turn FIRST, brake SECOND. Initial brake 25-30% only.
 - Consistency-first paradoxically produces speed. Focus on repeatability → confidence → natural limit-finding.
 
 **Mental:**
