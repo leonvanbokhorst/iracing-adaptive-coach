@@ -13,7 +13,7 @@ This is a **living research project** on **data-driven personalized learning** i
 **The Experiment:** Can an AI coach (Little Padawan) + rich telemetry data + ADHD-adapted frameworks accelerate skill acquisition in sim racing?
 
 **The Evidence (So Far):**
-- **+500 iRating** in 6 weeks (1238 → 1738)
+- **+465 iRating** in 6 weeks (1238 → 1703)
 - **Sequential Mastery framework** producing measurable corner-by-corner improvement
 - **17-minute focused practice sessions** outperforming hour-long scattered training
 - **Feeling + data alignment** producing locked-in learning (Week 07: 59% oversteer reduction in one session)

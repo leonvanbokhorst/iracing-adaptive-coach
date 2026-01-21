@@ -1,7 +1,7 @@
-# Season Progression Report (Week 01 → Week 05)
+# Season Progression Report (Week 01 → Week 06)
 
-**Generated:** 2026-01-19 20:25
-**Weeks Analyzed:** 5
+**Generated:** 2026-01-21 09:30 (Updated with Week 06 final data)
+**Weeks Analyzed:** 6
 
 ---
 
@@ -11,10 +11,10 @@
 
 ![iRating Progression](assets/irating_progression.png)
 
-- **Starting iRating:** 1377
-- **Current iRating:** 1738
-- **Total Gain:** +361 points
-- **Average per Week:** +90.2 points
+- **Starting iRating:** 1238 (Season 01 2026 start)
+- **Current iRating:** 1703 (Week 06 final)
+- **Total Gain:** +465 points
+- **Average per Week:** +77.5 points
 
 ### Position Climb
 
@@ -64,7 +64,7 @@ Track your standing across multiple metrics week-over-week.
 ### Week 04
 
 - **Position:** 383 / 10,096
-- **iRating:** 1703
+- **iRating:** 1672
 - **Points:** 94.0
 - **Wins:** 0
 - **Starts:** 1
@@ -78,6 +78,17 @@ Track your standing across multiple metrics week-over-week.
 - **Wins:** 2
 - **Starts:** 11
 - **Incidents/Race:** 1.91
+
+### Week 06
+
+- **Position:** TBD / ~30,000+
+- **iRating:** 1703
+- **Points:** 67.0 (championship points)
+- **Wins:** 0
+- **Starts:** 4 official races (+ 2 AI races)
+- **Incidents/Race:** ~2.5
+
+**Note:** Week 06 was about learning "Know When To Stop" - strategic racing over pure speed chasing. Championship points secured (67), iRating sacrificed (-35) for learning. The lesson was worth more than the rating.
 
 ---
 
