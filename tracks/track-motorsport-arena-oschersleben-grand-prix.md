@@ -78,7 +78,7 @@ In the Ray FF1600, Oschersleben turns into a **discipline exam**. You don't have
 
 ---
 
-## Coaching Notes XRS (1:31.295)
+## Coaching Notes EXPERT (1:31.295)
 
 > _Corner-by-corner breakdown from coach. The golden rule: "It's not about how MUCH you slow down, it's about HOW you get to minimum speed."_
 

@@ -8,7 +8,7 @@
 - **Track**: [Motorsport Arena Oschersleben - Grand Prix](../../tracks/track-motorsport-arena-oschersleben-grand-prix.md)
 - **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)
 - **Session kind**: Practice (Offline Testing) - Baseline
-- **Brake Bias**: 57% (matches XRS coach)
+- **Brake Bias**: 57% (matches EXPERT coach)
 - **Best Lap**: 1:33.818
 - **Consistency (σ)**: 0.38s (clean laps, excluding exploration lap)
 - **Clean Laps**: 7/11
@@ -183,13 +183,13 @@ That's RIGHT. You can corner just as hard as the alien. The gap isn't talent—i
 
 ---
 
-### 📚 XRS Coaching Wisdom for T1-T2 (Johnny Gideon)
+### 📚 EXPERT Coaching Wisdom for T1-T2 (Johnny Gideon)
 
 > _"The golden rule for any braking zone is to shut off speed as late and as deep into the corner as you can. The longer the braking zone, the more important this becomes. T1-T2 is the LONGEST braking zone of the entire lap (5-6 seconds!)."_
 
 **The Key Insight**: "It's not about HOW MUCH you slow down, it's about HOW you get to minimum speed. Slow gradually = optimal. Quick decel = losing lap time."
 
-**The XRS Technique:**
+**The EXPERT Technique:**
 
 1. **Turn FIRST, brake SECOND** – Start turning 2-3 car lengths BEFORE the access road
 2. **Initial brake: 25-30% only** – Don't overdo it!
@@ -199,7 +199,7 @@ That's RIGHT. You can corner just as hard as the alien. The gap isn't talent—i
 6. **Reserve bulk of braking** – For the straighter section between T1 and T2
 7. **Downshift to 1st** – By the time you hit T2 apex
 
-**Why You're Losing Time**: You're doing too much braking too early. Gong (and XRS) reserve the heavy braking for AFTER the T1 kink, in the straighter section. You're killing your speed before you even get there.
+**Why You're Losing Time**: You're doing too much braking too early. Gong (and EXPERT) reserve the heavy braking for AFTER the T1 kink, in the straighter section. You're killing your speed before you even get there.
 
 ---
 
@@ -259,7 +259,7 @@ This is a good sign though—it means you're NOT afraid of the corner. Just need
 
 ### 💡 What To Do Next Session
 
-1. **Hotel (T1-T2)** – The XRS Technique:
+1. **Hotel (T1-T2)** – The EXPERT Technique:
    - Turn 2-3 car lengths BEFORE access road (turn first!)
    - Initial brake: 25-30% only (not full!)
    - Release to ~10% through the kink
@@ -268,7 +268,7 @@ This is a good sign though—it means you're NOT afraid of the corner. Just need
    - Overlap throttle with brakes during downshifts
 
 2. **Zeppelin (T14)**: 
-   - DON'T rush the turn-in (XRS says turn LATE)
+   - DON'T rush the turn-in (EXPERT says turn LATE)
    - Less brake pressure. Roll more speed in.
    - Late apex near end of red anti-cut curb
    - Don't fully mount curb (wheel spin trap)

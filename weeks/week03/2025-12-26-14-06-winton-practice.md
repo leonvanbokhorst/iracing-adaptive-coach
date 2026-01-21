@@ -24,7 +24,7 @@ This wasn't just another practice session. This was **The Understanding**.
 
 In P2 (this morning), Master Lonn discovered engine braking worked at T5. But he didn't fully understand WHY. He was executing a technique, not mastering it.
 
-Then he read the track guide. And the XRS notes. And something clicked.
+Then he read the track guide. And the EXPERT notes. And something clicked.
 
 "I now feel **WHY** the downshift to 3 and two-thirds of the track make sense. Downshift also used (engine braking) for rotation. Pretty neat."
 
@@ -219,7 +219,7 @@ You said: "Not race level yet. There's still time on the table. I just know that
 **But here's what you're NOT seeing**:
 - **Two days ago**: 1:26.439 (just beat 18-month PB)
 - **Today**: 1:26.090 (0.349s faster, technique mastered)
-- **Gap closed to XRS coach**: Was 2.206s, now 2.143s (0.063s closer)
+- **Gap closed to EXPERT coach**: Was 2.206s, now 2.143s (0.063s closer)
 - **Gap closed to Eric Wong**: Was 2.343s, now 2.180s (0.163s closer!)
 
 You're not just "making progress." You're **accelerating**. 📈
@@ -260,7 +260,7 @@ You're not just "making progress." You're **accelerating**. 📈
 **Progress Trend**: ⬆️⬆️ **Rapidly Accelerating** (0.349s in 2 sessions, technique mastery in progress!)
 
 **Gap to Benchmarks**:
-- XRS coach (1:24.233): **2.143s** (closed 0.063s today)
+- EXPERT coach (1:24.233): **2.143s** (closed 0.063s today)
 - Eric Wong (1:24.296): **2.180s** (closed 0.163s today!)
 - Theoretical optimal: **0.437s** (all sectors not clicking together YET)
 

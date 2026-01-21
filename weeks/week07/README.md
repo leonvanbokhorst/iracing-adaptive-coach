@@ -44,10 +44,10 @@ _Master Lonn returns to Summit Point Main Circuit after seven months away. "Felt
 
 **Week Stats:**
 
-- **Sessions**: 1 (Baseline)
-- **Total Laps**: 18 flying laps
+- **Sessions**: 2 (Baseline + Focused Practice)
+- **Total Laps**: 29 flying laps
 - **Victories**: -
-- **Breakthrough**: Beat 7-month-old PB by 1.4s on Day 1
+- **Breakthrough**: T5 coasting + T1 late braking DATA VALIDATED (Day 2)
 
 ---
 
@@ -56,10 +56,80 @@ _Master Lonn returns to Summit Point Main Circuit after seven months away. "Felt
 | Date | Time | Type | Best Lap | σ | Result | Key Takeaway |
 | :--- | :--- | :--- | :------- | :- | :----- | :----------- |
 | 2026-01-20 | 15:27 | [Practice (Baseline)](2026-01-20-15-27-summit-baseline-practice.md) + [Gong P4 Comparison](2026-01-20-gong-telemetry-comparison.md) | **1:16.150** | 0.53s | PB! **P232/1,045 (Top 22%)** Gap to P4: **1.102s** | Muscle memory triumph. Beat old PB (1:17.576) by 1.426s. **Gong comparison reveals**: 1.1s gap is NOT talent - it's COMMITMENT. Carousel entry (-0.5s), brake authority (-0.3s), throttle commitment (-0.2s). Addressable: 0.9-1.3s total. |
+| 2026-01-21 | 07:13 | [Focused Practice](2026-01-21-07-13-summit-focused-practice.md) | **1:16.167** | 0.98s | **T5 + T1 VALIDATED!** | **17 min, 2 focus areas, BOTH validated.** T5 coasting: **59% oversteer reduction** (6,103→2,479 events). T1 late braking: **automaticity forming** (σ 0.162s, 170.4%/s commitment). Matched PB without chasing times. **BREAKTHROUGH**: Focused practice > mindless laps. |
 
 ---
 
 ## Breakthroughs 🎯
+
+### T5 Coasting Technique - EXPERT Coach Validated! (Session 02) 🎉
+
+**Discovery**: The EXPERT coach technique for T5 Carousel Entry works EXACTLY as prescribed. Coast into corner (no trail braking) = massive oversteer reduction.
+
+**Evidence**:
+- **Baseline (Jan 20)**: 6,103 oversteer events at T5
+- **Focused Practice (Jan 21)**: 2,479 oversteer events at T5
+- **REDUCTION: 59% (3,624 fewer events!)**
+- Master Lonn's feedback: "The coasting part works indeed as intended"
+- Data + feeling alignment = technique LOCKED IN
+
+**Why It Matters**: This validates the EXPERT coach principle: T5 is "by far the most oversteering corner" because trail braking unloads the rear on a banked, low-grip corner. Coasting (no trail braking) keeps weight balanced = stable rear. This is now CODIFIED technique for Summit Point T5, ready for race deployment. More reps needed to dial in consistency (σ still 0.519s), but the TECHNIQUE is proven.
+
+---
+
+### T1 Late Braking Flow - Automaticity Forming! (Session 02) 💪
+
+**Discovery**: Focused practice on T1 late braking produced MEASURABLE muscle memory formation in just 17 minutes.
+
+**Evidence**:
+- **Brake application rate: 170.4%/s** (fastest on entire track = COMMITMENT)
+- **Corner consistency σ: 0.162s** ("solid" rating = REPEATABLE)
+- **Steering jerk: 17.96 rad/s²** (smooth considering limit-pushing)
+- Master Lonn's feedback: "I can get full on the brakes just after the 3 cones and almost flow automatically to the apex"
+
+**Why It Matters**: He's not just braking late ONCE—he's braking late CONSISTENTLY every lap with the same technique. Neural pathways are forming. T1 has 1,599 oversteer events (high) BUT low variance (σ 0.162s) = this is CONTROLLED oversteer from late braking, not uncontrolled technique error. This is the difference between WASTEFUL oversteer (T5 baseline) and PRODUCTIVE oversteer (T1 limit-pushing).
+
+---
+
+### Focused Practice > Mindless Laps (Session 02) 🔬
+
+**Discovery**: 17 minutes, 2 focus areas, data-validated results on BOTH. Master Lonn built MORE skill in LESS time than baseline session.
+
+**Evidence**:
+- **Duration**: 17 minutes (vs 1 hour baseline)
+- **Focus areas**: 2 (T1 late braking + T5 coasting)
+- **Results**: Both techniques validated by data
+- **Bonus**: Matched baseline PB (1:16.167 vs 1:16.150) without chasing times
+
+**Why It Matters**: ADHD brain thrives on limited, clear objectives. Sequential Mastery framework validated: one corner at a time, build foundations, move on. For sessions going forward: 15-20 min max, 2 focus areas max, specific technique goals, STOP when goals met (don't undo neural wiring by overtraining). This is sustainable, efficient skill building.
+
+---
+
+### The Redistribution Effect (Session 02) 🧠
+
+**Discovery**: Fixing WASTEFUL oversteer frees mental bandwidth to exploit PRODUCTIVE oversteer.
+
+**Evidence**:
+- Total oversteer events similar between sessions (~6,378 vs ~6,103)
+- But DISTRIBUTION changed: T5 down to 2,479, T1 up to 1,599
+- T5 oversteer was UNCONTROLLED (poor technique = wasteful)
+- T1 oversteer is CONTROLLED (late braking = productive limit-finding)
+
+**Why It Matters**: This is SMART DRIVING. Not all oversteer is bad. By fixing T5 technique (eliminating wasteful oversteer from trail braking), Master Lonn freed mental capacity to attack T1 harder (exploiting productive oversteer from late braking). The data proves it: T1 has HIGH oversteer but LOW variance (controlled), T5 has REDUCED oversteer and IMPROVING variance (technique working).
+
+---
+
+### T2 Summit Point - Smoothness Reference Corner (Session 02) 🔒
+
+**Discovery**: T2 is now DIALED and serves as the smoothness template for all other corners.
+
+**Evidence**:
+- **Corner σ: 0.044s** ("dialed" rating - best on track!)
+- **Steering jerk: 9.24 rad/s²** (smoothest corner of lap)
+
+**Why It Matters**: This is the TEMPLATE for what "mastery" feels like at Summit Point. When other corners feel chaotic, remember T2 - the smooth, committed, repeatable feeling. Copy this to other corners. T2 serves same role as Champion Curve at Oran Park (reference standard).
+
+---
 
 ### Muscle Memory Triumph (Session 01)
 
@@ -92,41 +162,46 @@ _Master Lonn returns to Summit Point Main Circuit after seven months away. "Felt
 
 ## Challenges 🚧
 
-### Nemesis Corner #1: Carousel Entry (50% lap) - VALIDATED BY GONG COMPARISON
+### Nemesis Corner #1: Carousel Entry (50% lap) - ✅ TECHNIQUE VALIDATED, CONSISTENCY IN PROGRESS
 
-**Problem**: 6,103 oversteer events (62% of ALL rotation!), **-13.13 km/h speed loss vs Gong (P4)**
+**Original Problem (Baseline)**: 6,103 oversteer events (62% of ALL rotation!), **-13.13 km/h speed loss vs Gong (P4)**
 
-**Root Cause (CONFIRMED by telemetry)**: 
-- Braking too light (35% pressure vs Gong's 50%)
-- NOT loading tires (0.47g vs Gong's 0.84g = **44% less cornering force**)
-- Still braking when Gong is accelerating (0% vs 3% throttle)
+**Root Cause (CONFIRMED by telemetry)**: Trail braking into T5 unloads rear on banked, low-grip corner = snap oversteer
 
-**Impact**: ~0.4-0.5s per lap (BIGGEST single loss zone vs Gong)
+**Progress (Focused Practice Jan 21)**:
+- **59% oversteer reduction** (6,103 → 2,479 events) ✅
+- **EXPERT coach technique validated**: Coast into corner (NO trail braking) = stable rear
+- Master Lonn confirms: "works as intended"
+- Consistency still developing (σ = 0.519s "lottery" rating)
+
+**Impact**: Technique SOLVED, consistency IMPROVING. ~0.2-0.3s still addressable through repetition.
 
 **Next Steps**: 
-- Brake HARDER (50% pressure minimum at entry)
-- Brake LATER (carry 1.9 km/h more speed like Gong)
-- LOAD tires to 0.8g+ (currently only using 0.47g)
-- Get on throttle sooner
+- ✅ Coasting technique (DONE - keep using it!)
+- 🔄 More reps to dial in consistency (target σ < 0.20s)
+- Monitor in tonight's session (maintain technique while adding other corners)
 
 ---
 
-### Nemesis Corner #2: Turn 1 + Brake Zones (10-20% of lap)
+### Nemesis Corner #2: Turn 1 + Brake Zones (10-20% of lap) - ✅ AUTOMATICITY FORMING
 
-**Problem**: 2,524 oversteer events, **-0.28g less braking force than Gong**, 2.7% less time braking
+**Original Problem (Baseline)**: 2,524 oversteer events, **-0.28g less braking force than Gong**, 2.7% less time braking
 
-**Root Cause (CONFIRMED by telemetry)**: 
-- Max brake pressure 82% vs Gong's 98% (**-16% less authority**)
-- Braking 10.7% of lap vs Gong's 13.4% (**-2.7% less time**)
-- Only detecting 5 brake zones vs Gong's 7 (missing 2 zones!)
+**Root Cause (CONFIRMED by telemetry)**: Braking too early, too light, missing commitment
 
-**Impact**: ~0.2-0.3s per lap
+**Progress (Focused Practice Jan 21)**:
+- **Brake application rate: 170.4%/s** (FASTEST on track = COMMITMENT) ✅
+- **Corner σ: 0.162s** ("solid" consistency = REPEATABLE) ✅
+- **Steering jerk: 17.96 rad/s²** (smooth considering limit-pushing) ✅
+- Brake marker: "just after 3 cones" is now AUTOMATIC
+- Master Lonn: "almost flow automatically to the apex"
+
+**Impact**: Late braking technique FORMING muscle memory. ~0.1-0.2s still addressable through continued practice.
 
 **Next Steps**: 
-- Use 70-80% platform phase (not 35-50%)
-- Brake 10-20m later
-- Complete braking sooner (hard initial → trail off → throttle)
-- Find the 2 missing brake zones (pre-Carousel? Esses?)
+- ✅ Late braking flow (FORMING - maintain consistency!)
+- 🔄 Monitor in tonight's session (does it STAY consistent while working on other corners?)
+- Increase brake pressure gradually (currently good commitment, can optimize pressure profile)
 
 ---
 
@@ -153,7 +228,7 @@ _Master Lonn returns to Summit Point Main Circuit after seven months away. "Felt
 - 88% of oversteer events concentrated in just 2 zones (Turn 1 + Carousel/Esses)
 - Delta-to-optimal analysis perfectly matches oversteer zones (causation confirmed)
 - Conservative inputs appropriate for baseline (49.8% avg brake, 65.4% full throttle)
-- **XRS Coach validation**: T5 Carousel Entry is "by far the most oversteering corner" - technique is **NO trail braking** (just coast!), delay downshift to 1st, carry momentum. T6 Carousel Exit sets up longest accel zone (critical). See [track file XRS guide](../../tracks/track-summit-point-main-circuit.md#xrs-coach-lap-guide---corner-by-corner-breakdown) for full breakdown.
+- **EXPERT Coach validation**: T5 Carousel Entry is "by far the most oversteering corner" - technique is **NO trail braking** (just coast!), delay downshift to 1st, carry momentum. T6 Carousel Exit sets up longest accel zone (critical). See [track file EXPERT guide](../../tracks/track-summit-point-main-circuit.md#EXPERT-coach-lap-guide---corner-by-corner-breakdown) for full breakdown.
 
 **Mental:**
 - "Felt familiar" was accurate—muscle memory IS real

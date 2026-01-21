@@ -93,9 +93,9 @@ Get Summit Main right in the Ray, and it feels like you’ve been allowed into a
 
 ---
 
-## XRS Coach Lap Guide - Corner-by-Corner Breakdown
+## EXPERT Coach Lap Guide - Corner-by-Corner Breakdown
 
-*Expert-level analysis from XRS coaching, mapped to our 10-corner system.*
+*Expert-level analysis from EXPERT coaching, mapped to our 10-corner system.*
 
 ### Turn 1 (16.5% lap) - Opening Right-Hander
 
@@ -114,7 +114,7 @@ Get Summit Main right in the Ray, and it feels like you’ve been allowed into a
 
 ### Turn 2 (23% lap) - Second Right
 
-*XRS guide treats T1-T2 as one complex. See T1 notes above.*
+*EXPERT guide treats T1-T2 as one complex. See T1 notes above.*
 
 ---
 
@@ -161,7 +161,7 @@ Get Summit Main right in the Ray, and it feels like you’ve been allowed into a
 
 **The Why:** This is the most oversteering corner of the lap. Banking + low grip + aggressive downshifts = rear unloading. If you trail brake (normal habit), you'll get tons of snappy oversteer. Coast instead.
 
-**XRS Quote:** *"If you just insist on trailing the brakes for the sake of doing it, you're gonna place too much weight over the front end of the car and you're gonna unload the rears excessively, and that's just gonna give you a ton of very snappy oversteer."*
+**EXPERT Quote:** *"If you just insist on trailing the brakes for the sake of doing it, you're gonna place too much weight over the front end of the car and you're gonna unload the rears excessively, and that's just gonna give you a ton of very snappy oversteer."*
 
 ---
 
@@ -180,7 +180,7 @@ Get Summit Main right in the Ray, and it feels like you’ve been allowed into a
 
 **The Why:** T6 sets up the LONGEST stretch of acceleration of entire lap (flat through T7-T8-T9 to T10). If you slow too much on entry, you'll want to get on throttle too soon = understeer = offline for rest of sequence. Carry entry speed to justify later throttle = less understeer.
 
-**XRS Quote:** *"This is one of the more important corners of the entire lap, believe it or not."*
+**EXPERT Quote:** *"This is one of the more important corners of the entire lap, believe it or not."*
 
 ---
 
@@ -217,7 +217,7 @@ Get Summit Main right in the Ray, and it feels like you’ve been allowed into a
 
 ---
 
-## Key XRS Themes for Ray FF1600 at Summit Point
+## Key EXPERT Themes for Ray FF1600 at Summit Point
 
 ### 1. **The Carousel (T5-T6) is THE Critical Section**
 - T5 = most oversteering corner (requires special technique)

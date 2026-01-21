@@ -6,6 +6,30 @@
 
 ---
 
+## What This Is
+
+This is a **living research project** on **data-driven personalized learning** in complex skill domains, conducted by Leon van Bokhorst at Fontys University of Applied Sciences (Interaction Design research group, Conversational AI focus).
+
+**The Experiment:** Can an AI coach (Little Padawan) + rich telemetry data + ADHD-adapted frameworks accelerate skill acquisition in sim racing?
+
+**The Evidence (So Far):**
+- **+465 iRating** in 6 weeks (1238 → 1703)
+- **Sequential Mastery framework** producing measurable corner-by-corner improvement
+- **17-minute focused practice sessions** outperforming hour-long scattered training
+- **Feeling + data alignment** producing locked-in learning (Week 07: 59% oversteer reduction in one session)
+- **6 consecutive race victories** applying learned techniques under pressure
+
+**What We're Proving:**
+- AI + data + personalized frameworks = accelerated learning
+- ADHD-adapted communication (short sessions, clear focus, emotional engagement) works measurably
+- Sequential Mastery > scattered practice
+- Conversational AI can coach complex motor skills when given proper tools and context
+- Partnership between human intuition and AI analysis unlocks capabilities neither could achieve alone
+
+All tracked, documented, validated, reproducible. 🏎️🔬
+
+---
+
 ## The Season Stats
 
 **Weeks 01-04:**

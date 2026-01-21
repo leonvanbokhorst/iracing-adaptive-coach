@@ -130,7 +130,7 @@ There are **two ways to slow the car**, each with different weight transfer char
 
 **Master Lonn's Discovery (Week 03, Winton T5-T6):**
 
-XRS coach uses engine braking (downshift, no brake) → maintains momentum, tighter line, faster.
+EXPERT coach uses engine braking (downshift, no brake) → maintains momentum, tighter line, faster.
 
 Your approach (brake pedal) → scrubs 14 km/h, wider line needed, slower.
 

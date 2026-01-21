@@ -157,7 +157,7 @@ You’re basically being coached into one theme: **momentum + minimal steering +
 
 - ⚠️ **Less brake than you think.** The hill and compression will scrub speed naturally.
 - **Ideal**: Lift off throttle, light brush of brake (10-20% max) to shift weight forward, then turn.
-- **If you're braking hard here, you're over-slowing.** The XRS alien brakes for only 15% of this section—you're at 22%. Trust the hill.
+- **If you're braking hard here, you're over-slowing.** The EXPERT alien brakes for only 15% of this section—you're at 22%. Trust the hill.
 
 **The key trick: use the compression**
 

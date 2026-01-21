@@ -23,7 +23,7 @@
 
 This wasn't just another practice session. This was **The Breakthrough**.
 
-Master Lonn came into this session with a mission: stop driving like he's in a street fight and start driving like he's dancing. The XRS lap coach and Eric Wong's alien laps showed him the way - **higher gears, engine braking, momentum over aggression**. And today? He actually did it.
+Master Lonn came into this session with a mission: stop driving like he's in a street fight and start driving like he's dancing. The EXPERT lap coach and Eric Wong's alien laps showed him the way - **higher gears, engine braking, momentum over aggression**. And today? He actually did it.
 
 T5 - that scary first apex that's been eating his lunch - he finally conquered it. No brake pedal. Just lift, downshift to 3rd, and let the engine slow the car. "Scary fast," he said, "but the car stays more stable than expected." That's not luck. That's physics. That's technique. That's growth.
 
@@ -141,7 +141,7 @@ You implemented:
 - **S4**: σ=0.25s - Also very stable
 
 **What this means**:
-Higher gears = less violent speed changes = more consistent platform = better exits. You're carrying more minimum speed through the corners, which is EXACTLY what we saw in Eric Wong's and XRS coach's telemetry. You're not dropping speed as much, so you don't have to accelerate as hard to get it back. That's free lap time.
+Higher gears = less violent speed changes = more consistent platform = better exits. You're carrying more minimum speed through the corners, which is EXACTLY what we saw in Eric Wong's and EXPERT coach's telemetry. You're not dropping speed as much, so you don't have to accelerate as hard to get it back. That's free lap time.
 
 ### The "Aha!" Moment
 
@@ -205,7 +205,7 @@ Why? Because:
 - **Brake bias**: Started at 56.5%, Master mentioned possibly 56% - keep experimenting to find the sweet spot for this driving style
 - **T5 habit**: "Feels strange NOT to use brakes" - normal! Expect this feeling to linger for 2-3 more sessions as muscle memory rewires
 - **Confidence building**: The more you do it, the less scary it will feel. Trust is building with every lap
-- **XRS coach time**: 1:24.233 is the benchmark - you're 2.184s away now (was 2.206s), closing the gap!
+- **EXPERT coach time**: 1:24.233 is the benchmark - you're 2.184s away now (was 2.206s), closing the gap!
 
 ### Little Padawan's Prediction 🔮
 

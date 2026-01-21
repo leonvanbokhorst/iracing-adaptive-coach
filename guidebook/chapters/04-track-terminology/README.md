@@ -2,7 +2,7 @@
 
 **Welcome to the Track Terminology module!**
 
-Master Lonn is watching a XRS coach lap: _"Brake at the 100m board, trail into the sweeper, late apex the carousel..."_
+Master Lonn is watching a EXPERT coach lap: _"Brake at the 100m board, trail into the sweeper, late apex the carousel..."_
 
 You can't master what you can't name. Every track is a sentence, every corner a word. This is your vocabulary lesson.
 
