@@ -4,7 +4,7 @@
 **Institution:** Fontys University of Applied Sciences - Interaction Design Research Group  
 **Domain:** Data-Driven Personalized Learning in Complex Motor Skills  
 **Initiated:** 2026-01-21  
-**Status:** Active (Week 07, Summit Point Main Circuit)
+**Status:** Active (Week 07, [Summit Point Main Circuit](../tracks/summit-point/README.md))
 
 _Note: Master Lonn is the identity used throughout this research project. Academic attribution: Leon van Bokhorst._
 
