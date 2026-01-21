@@ -34,7 +34,7 @@ In the Ray FF1600, **gear selection is a driving technique**, not just a speed c
 
 **Master Lonn's Discovery (Week 03, Winton T5-T6):**
 
-VRS coach uses 4th → 3rd downshift (NO brake pedal) → car rotates smoothly → maintains momentum → faster.
+XRS coach uses 4th → 3rd downshift (NO brake pedal) → car rotates smoothly → maintains momentum → faster.
 
 Your approach: Brake pedal → scrubs speed → wider line needed → slower.
 
@@ -532,7 +532,7 @@ Learn correct gear for each corner (trial and error).
 
 - Always using brake pedal (even light braking zones)
 - Car feels "jerky" on corner entry
-- VRS coach uses different approach (no brake)
+- XRS coach uses different approach (no brake)
 
 **The fix:**
 
@@ -549,7 +549,7 @@ Winton T5: Try downshift WITHOUT brake → feels smoother → IS faster! ✅
 
 **What happens:**
 
-- You watch VRS/alien use 1st gear in a tricky corner
+- You watch XRS/alien use 1st gear in a tricky corner
 - You copy it thinking "lower gear = more control"
 - Your corner gets WORSE, not better
 
@@ -597,7 +597,7 @@ Stage 3: NOW try 1st gear (you've earned it)
 
 Go back to the higher, more forgiving gear. Master the sequencing first. The lower gear will be waiting when you're ready.
 
-→ **See:** Week 04, Session 04 (Lime Rock) for the VRS comparison  
+→ **See:** Week 04, Session 04 (Lime Rock) for the XRS comparison  
 → **See:** Chapter 05e for kerb/crest throttle sequencing
 
 **Key Takeaway:**

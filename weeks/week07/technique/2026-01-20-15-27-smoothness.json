@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "file": "raygr22_summit summit raceway 2026-01-20 15-27-03.ibt",
+    "track": null,
+    "track_id": "summit summit raceway",
+    "sample_rate_hz": 60,
+    "total_samples": 91615,
+    "duration_seconds": 1526.9,
+    "laps_found": 20
+  },
+  "steering": {
+    "available": true,
+    "avg_jerk_rad_s2": 13.04,
+    "max_jerk_rad_s2": 294.95,
+    "jerk_sigma": 15.16,
+    "avg_velocity_rad_s": 0.52,
+    "max_velocity_rad_s": 8.05,
+    "max_steering_angle_rad": 2.718
+  },
+  "throttle": {
+    "available": true,
+    "avg_jerk_pct_s2": 386.2,
+    "max_jerk_pct_s2": 56220.3,
+    "avg_application_rate_pct_s": 80.2,
+    "avg_lift_rate_pct_s": 136.6,
+    "max_application_rate_pct_s": 607.3,
+    "max_throttle_pct": 100.0,
+    "avg_throttle_pct": 75.0,
+    "full_throttle_usage_pct": 65.4
+  },
+  "brake": {
+    "available": true,
+    "avg_jerk_pct_s2": 148.7,
+    "max_jerk_pct_s2": 360000.1,
+    "avg_application_rate_pct_s": 76.9,
+    "avg_release_rate_pct_s": 53.9,
+    "max_application_rate_pct_s": 1389.1,
+    "max_brake_pct": 100.0,
+    "avg_brake_pct_when_braking": 49.8
+  }
+}

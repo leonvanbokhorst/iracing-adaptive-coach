@@ -18,6 +18,31 @@ Main looks modest on the map. In the car, it’s more serious: downhill braking 
 
 ---
 
+## Track Map
+
+![Summit Point Raceway - Main Circuit](track-data/summit-summit-raceway-map.png)
+
+**Layout**: 3.2km (2.0 miles), **10 corners**, 3 sectors
+
+**Complete Corner Guide:**
+1. **Turn 1** @ 16.5% lap - Right-hander after start/finish
+2. **Turn 2** @ 23% lap - Second right, continuing the complex
+3. **Turn 3 "Wagon Bend"** @ 35% lap - Medium-speed right-hander
+4. **Turn 4 "The Chute"** @ 48% lap - Fast commitment kink before Carousel
+5. **Turn 5 "The Carousel" (Entry)** @ 54% lap - First apex of the long sweeper
+6. **Turn 6 "The Carousel" (Exit)** @ 60% lap - Second apex, technical gatekeeper
+7. **Turn 7 "The Esses" (Entry)** @ 65% lap - First part of flowing S-curves
+8. **Turn 8 "The Esses" (Middle)** @ 70% lap - Middle section
+9. **Turn 9 "The Esses Exit / The Bridge"** @ 75% lap - Final Esses section
+10. **Turn 10 "The Paddock"** @ 87% lap - Final corner, downhill braking zone
+
+**Sector Splits:**
+- **S1 ends** @ 46.7% lap (just before The Chute)
+- **S2 ends** @ 80.4% lap (after The Esses, before The Paddock)
+- **S3** = Final sector onto main straight
+
+---
+
 ## Character Notes
 
 - **Old-school club racer** – Trees, guardrails, modest runoff. No endless tarmac lakes here—if you miss your mark, you _feel_ it.
@@ -65,6 +90,160 @@ Use Summit Main as your **“carousel & commitments”** lab in the Ray.
   In longer runs with AI or online fields, treat the Esses as your setup tool and Turn 10 as your main passing zone. Focus on exits out of the Carousel and through the Esses that put you in position to either defend the inside into T10 or launch a clean, early move under braking. Avoid last-second dives; Summit will happily punish those with shared trips into the grass.
 
 Get Summit Main right in the Ray, and it feels like you’ve been allowed into a slightly scruffy but very real club where everyone learns the same lessons: respect the downhill, don’t cheat the Carousel, and let the car flow more than your fear thinks is reasonable.
+
+---
+
+## XRS Coach Lap Guide - Corner-by-Corner Breakdown
+
+*Expert-level analysis from XRS coaching, mapped to our 10-corner system.*
+
+### Turn 1 (16.5% lap) - Opening Right-Hander
+
+**Key Points:**
+- Brake VERY late and deep into the corner (halfway between 3 cones and 2 cones)
+- Late turn-in to justify the late braking
+- **Geometric brake release** - slow, gradual to keep weight on nose for rotation
+- Downshift: 3 total (down to 1st gear)
+- Apex: Touch the white line (avoid curb)
+- Exit: NEVER use more than half track width (scrubs speed + covers more distance)
+- Back to 100% throttle at apex
+
+**The Why:** How late you brake shapes the entire corner. Brake too early = apex early = run wide. Brake late = apex late = tight exit line.
+
+---
+
+### Turn 2 (23% lap) - Second Right
+
+*XRS guide treats T1-T2 as one complex. See T1 notes above.*
+
+---
+
+### Turn 3 "Wagon Bend" (35% lap) - High-Speed Commitment Corner
+
+**Key Points:**
+- Start braking gently at start of grass on outside
+- Downshift once to 3rd - **DON'T downshift immediately** (wait a second for stability)
+- Already at 100% throttle AT the apex (sometimes 1-2 car lengths BEFORE!)
+- **Trust the grip** - uphill at apex = plenty of grip available
+- Avoid inside curb (aim for white line only)
+- Use all exit curbing (avoid gravel trap)
+
+**The Why:** Track goes uphill through and after the corner. More grip than you think. Be aggressive with throttle - there's lap time here.
+
+---
+
+### Turn 4 "The Chute" (48% lap) - Setup Corner for Carousel
+
+**Key Points:**
+- This is a SETUP corner for T5 braking zone (not the main event)
+- Keep car far RIGHT on exit (don't use full track width)
+- Partial throttle lift only (40-50% max)
+- Apex late to stay right
+- Don't touch curb
+- Briefly reach full throttle before T5 braking
+
+**The Why:** You COULD go flat, but you sacrifice it to set up proper positioning for the critical Carousel entry.
+
+---
+
+### Turn 5 "The Carousel Entry" (54% lap) - THE OVERSTEERING CORNER ⚠️
+
+**CRITICAL INSIGHTS:**
+
+**Key Points:**
+- Start braking near middle of road, point car OUT as you decelerate (get within 1m of white line)
+- Downshift to 1st gear - **DELAY the final downshift!**
+- Low grip + banking = front has WAY more grip than rear = snappy oversteer
+- **NO TRAIL BRAKING** - break the muscle memory! Just COAST to throttle application
+- Throttle application: Just before apex (not AT apex like usual)
+- Apex: Late, stay off curb
+- Exit: **Use only HALF track width** (sacrifice to get left for T6)
+
+**The Why:** This is the most oversteering corner of the lap. Banking + low grip + aggressive downshifts = rear unloading. If you trail brake (normal habit), you'll get tons of snappy oversteer. Coast instead.
+
+**XRS Quote:** *"If you just insist on trailing the brakes for the sake of doing it, you're gonna place too much weight over the front end of the car and you're gonna unload the rears excessively, and that's just gonna give you a ton of very snappy oversteer."*
+
+---
+
+### Turn 6 "The Carousel Exit" (60% lap) - SETS UP LONGEST ACCEL 🔑
+
+**CRITICAL INSIGHTS:**
+
+**Key Points:**
+- Turn in just before gap between two tire stacks
+- Very gentle brake brush as you reach the gap
+- Keep car in 1st gear (don't upshift between T5-T6)
+- **Carry GOOD momentum** into T6 (don't slow too much)
+- Don't touch inside curb
+- **Gradual and LATE throttle application** (on purpose!)
+- Don't run wide on exit
+
+**The Why:** T6 sets up the LONGEST stretch of acceleration of entire lap (flat through T7-T8-T9 to T10). If you slow too much on entry, you'll want to get on throttle too soon = understeer = offline for rest of sequence. Carry entry speed to justify later throttle = less understeer.
+
+**XRS Quote:** *"This is one of the more important corners of the entire lap, believe it or not."*
+
+---
+
+### Turn 7-8-9 "The Esses" (65-75% lap) - Flat-Out Momentum Section
+
+**Key Points:**
+- All flat out (after first 1-2 laps when tires are up to temp)
+- **Minimize tire scrub** and **minimize sliding** (these kill momentum)
+- Be precise with lines
+- **Avoid ALL apex curbs** if possible
+
+**Line Details:**
+- **T7:** Drive slightly past dotted white center line (all 4 wheels left of it), barely miss apex curb
+- **T8:** Apex very late (as curb ends), stay far left for easier T10 approach
+- **T9:** Stay on leftmost lane, anticipate turn-in (car reluctant to respond at high speed)
+- Unwind wheel quickly, light grip on steering for smoothness
+
+**The Why:** This is a LONG flat-out section setting up T10. Any scrub or sliding costs you momentum into the final corner and down the main straight.
+
+---
+
+### Turn 10 "The Paddock" (87% lap) - Final Corner, Unique Technique
+
+**Key Points:**
+- Brake and turn SIMULTANEOUSLY (1 car length before patchy grass section on outside)
+- **Very early turn-in** (unusual!)
+- Downshift once to 3rd - delay downshift for momentum, blip throttle for rear stability
+- **Minimum speed is MORE important than typical** (car won't accelerate well on exit)
+- Already at 100% throttle AT apex
+- **Gradual throttle application** - not for traction, but to **minimize understeer**
+- Use all exit curbing (avoid gravel trap)
+
+**The Why:** High-speed 3rd gear corner = traction is easy, understeer is the problem. Focus on carrying high minimum speed (entry matters more than exit here) and gradual throttle to manage understeer, not wheelspin.
+
+---
+
+## Key XRS Themes for Ray FF1600 at Summit Point
+
+### 1. **The Carousel (T5-T6) is THE Critical Section**
+- T5 = most oversteering corner (requires special technique)
+- T6 = sets up longest acceleration zone
+- Get these right = entire back half of lap works
+
+### 2. **Brake Release Philosophy Varies by Corner**
+- T1: Geometric/gradual (for rotation)
+- T3: Full throttle early (trust uphill grip)
+- T5: NO trail braking (coast to avoid oversteer)
+- T6: Gentle brush only (carry momentum)
+- T10: Gradual for understeer management
+
+### 3. **Downshifting Discipline**
+- Don't downshift immediately when braking (wait for stability)
+- T5 especially: DELAY final downshift to 1st
+- T10: Blip throttle on downshift for rear stability
+
+### 4. **Track Width Strategy**
+- T1 exit: Max half width only
+- T5 exit: Max half width only (need to get left for T6)
+- T7-T10: Use as needed, but precision > width in Esses
+
+### 5. **The "Anti-Muscle Memory" Corners**
+- T5: DON'T trail brake (breaks normal habit)
+- T10: Gradual throttle for understeer (not traction)
 
 ---
 
