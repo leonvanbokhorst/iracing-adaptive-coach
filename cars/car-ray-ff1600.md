@@ -30,6 +30,10 @@ This is not a power car. It's a momentum apprenticeship on four wheels.
 
 [![Ray FF1600 - Driving a Ray FF1600 - Antispeed](https://img.youtube.com/vi/-Y7zPwbvXow/0.jpg)](https://www.youtube.com/watch?v=-Y7zPwbvXow)
 
+
+Not a Ray, but a Formula Ford Hawke from 1976, the DL19.
+[![1976 Formula Ford, how race cars were build back then](https://img.youtube.com/vi/aU7JvooC5Ss/0.jpg)](https://www.youtube.com/watch?v=aU7JvooC5Ss)
+
 ---
 
 ## Technical Specifications (iRacing)
