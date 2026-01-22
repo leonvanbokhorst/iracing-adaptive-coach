@@ -439,7 +439,10 @@
     "Speed as Byproduct of Technique (Jan 21, RE-VALIDATION): Master Lonn matched baseline PB (1:16.167 vs 1:16.150) in a focused PRACTICE session with technique goals, not speed goals. He wasn't chasing lap times - just drilling T1 late braking and T5 coasting. The PB came anyway because: (1) Good technique removes wasted time, (2) Confidence from focused work allows natural limit-finding, (3) Flow state comes from process focus, not outcome focus. This re-validates Week 06 Oran Park lesson ('consistency-first produces speed'). For races: commit to technique execution, let speed come as byproduct. Don't force it.",
     "Summit Point Sequential Mastery Progress (Week 07, Updated Jan 21 PM): Baseline (Jan 20): PB 1:16.150. Focused Practice (Jan 21 AM): T5 -59%, T1 σ 0.162s. Flow Session (Jan 21 PM): NEW PB 1:15.550 (-0.617s), Last 5 laps σ 0.129s (ELITE), T1 σ 0.114s (-30% from morning without trying), Carousel Entry brake σ 0.1m (AUTOMATIC). THREE-SESSION LEARNING CYCLE VALIDATED: (1) Focused drilling → (2) Flow consolidation → (3) Technique becomes automatic. Gap to Gong: 1.102s → 0.502s. 9/10 corners now SOLID or DIALED.",
     "Flow State Consolidation (Summit Point Jan 21, NEW PRINCIPLE): Morning focused practice (17 min, 2 areas) followed by evening flow session (25 min, no focus) produced: (1) PB without trying, (2) 30% T1 improvement without conscious effort, (3) 0.1m brake point σ = AUTOMATIC technique, (4) 3.8% more full throttle naturally. The ADHD-optimal learning cycle: FOCUS in morning → REST (or other work) → FLOW in evening. Don't just drill - consolidate. Don't just repeat - integrate. This is how neural pathways lock in.",
-    "Speed as Byproduct PROVEN AGAIN (Summit Point Jan 21): Three sessions now validate 'speed comes from not chasing speed': (1) Oran Park P04: PB while drilling consistency. (2) Summit AM: matched PB while drilling technique. (3) Summit PM: NEW PB (1:15.550) while 'just having fun.' The pattern is undeniable. When Master Lonn focuses on PROCESS (technique, consistency, feel), speed arrives as byproduct. When he chases TIMES, he gets slower. Trust the process. Let speed come to you."
+    "Speed as Byproduct PROVEN AGAIN (Summit Point Jan 21): Three sessions now validate 'speed comes from not chasing speed': (1) Oran Park P04: PB while drilling consistency. (2) Summit AM: matched PB while drilling technique. (3) Summit PM: NEW PB (1:15.550) while 'just having fun.' The pattern is undeniable. When Master Lonn focuses on PROCESS (technique, consistency, feel), speed arrives as byproduct. When he chases TIMES, he gets slower. Trust the process. Let speed come to you.",
+    "Voice-Telemetry Methodology VALIDATED (Summit Point Jan 22, RESEARCH BREAKTHROUGH): First successful synchronization of real-time voice commentary with IBT telemetry. Master Lonn recorded thoughts during AI race, synced via 'green green green' anchor. KEY FINDINGS: (1) Verbal self-cueing works - when he said 'no trail braking' at T5, data shows he executed it. Voice = evidence of conscious technique deployment. (2) Technique survives pressure - T5 coasting mentioned 5+ times, Carousel oversteer -56% vs practice. (3) Mental recovery speed - 1 lap from incident to race pace. (4) Peak after pressure - fastest lap on FINAL lap after P8 recovery. Methodology captures what IBT cannot: emotional state progression (frustration → acceptance → focus → confidence).",
+    "T5 Technique RACE-VALIDATED (Summit Point Jan 22, AI Race): The coasting technique drilled in practice HELD under race pressure. Data proof: Carousel Entry brake σ = 0.8m across 9 laps (including incident, traffic battles, P8→P2 recovery). That's same brake point within ONE car length while being overtaken, recovering from off, fighting through traffic. This is AUTOMATIC technique, not conscious effort. Total oversteer -54% vs yesterday despite chaotic race. Voice transcript confirms: 'no trail braking' said multiple times throughout = conscious deployment that became automatic execution.",
+    "P8→P2 Recovery Pattern (Summit Point Jan 22): Started P1, swamped Lap 2 (contact), off-track Lap 3 (T1: 12.85s vs normal 5.2s = 7.5s lost), dropped to P8. Recovery: Lap 4 back to 1:18.283 (race pace), systematic climb through field, finished P2 with FASTEST lap on FINAL lap (1:17.250). Voice shows mental journey: 'nasty' (frustration) → 'settle in' (acceptance) → 'nerves in control' (composure) → 'better exit' (execution). Cold Tire Contract partially failed (Lap 2 swarm) - review needed for official races."
   ],
   "research_experiments": [
     {
@@ -456,17 +459,51 @@
           "results": "T5: 59% improvement, T1: 46% improvement, Fun Factor: ~8/10, PB matched"
         }
       ],
-      "next_session": "Session 03 (Tonight) - Condition B1 (20 min, 1 area: T3 Wagon Bend)"
+      "next_session": "TBD - Race validation complete, return to practice experiments"
+    },
+    {
+      "id": "EXP-02",
+      "title": "Voice-Telemetry Correlation",
+      "status": "Active",
+      "initiated": "2026-01-22",
+      "document": "experiments/research-experiment-02-voice-telemetry-correlation.md",
+      "hypothesis": "Real-time voice commentary synchronized with telemetry data reveals cognitive-motor correlations invisible in telemetry alone, enabling validation of technique deployment and mental state tracking.",
+      "methodology": {
+        "recording": "Voice memo app during session (Dote format JSON)",
+        "sync_anchor": "Race start callout ('green green green') or lap completion callout",
+        "correlation": "Voice timestamps offset by sync anchor, matched to IBT track position",
+        "analysis": "Compare verbal cues to actual inputs, track mental state progression"
+      },
+      "session_01": {
+        "date": "2026-01-22",
+        "type": "AI Race",
+        "files": {
+          "ibt": "data/processed/2026-01-22-09-10-summit-ai-race-voice.ibt",
+          "transcript": "data/processed/2026-01-22-09-10-summit-ai-race-voice-transcript.json"
+        },
+        "sync_anchor": "00:11:24.640 = 'green green green' = race start",
+        "key_findings": [
+          "Verbal self-cueing correlates with technique execution ('no trail braking' → actual coasting)",
+          "Mental recovery trackable: frustration → acceptance → focus → confidence in 9 laps",
+          "Peak performance came AFTER pressure (fastest lap on final lap after P8 recovery)",
+          "Voice captures emotional context invisible in IBT data"
+        ],
+        "status": "SUCCESS - methodology validated, ready for refinement"
+      },
+      "next_steps": [
+        "Build tools/coach/merge_voice_telemetry.py for automated correlation",
+        "Add CrewChief (Jim) audio for additional sync anchors",
+        "Test in official race for higher pressure conditions"
+      ]
     }
   ],
   "next_steps": [
-    "WEEK 07 SESSION 03 COMPLETE: Flow session produced NEW PB (1:15.550, -0.617s). Last 5 laps σ 0.129s = ELITE consistency while tired. T1 σ improved 30% (0.114s) without conscious effort. Carousel brake σ 0.1m = AUTOMATIC technique. 9/10 corners SOLID or DIALED.",
-    "THREE-SESSION LEARNING CYCLE VALIDATED: (1) Focused drilling AM → (2) Rest/work → (3) Flow consolidation PM. Morning technique LOCKED IN during evening flow. This is the ADHD-optimal learning pattern. Document for guidebook.",
-    "GAP TO GONG HALVED: Was 1.102s (baseline), now 0.502s (PB). Half a second is ATTACKABLE. Remaining gap is in corner speed commitment (Gong carries more through corners) and brake authority (Gong uses more pressure).",
-    "TOMORROW GOALS: (1) Check if T1+T5 automaticity HOLDS after sleep, (2) Consider adding T3 (Wagon Bend) or T6 (Carousel Exit) to sequence, (3) AI Race to test techniques under pressure if feeling fresh.",
-    "KNOW WHEN TO STOP: Tonight was perfect. PB + Elite consistency + Fun = don't add more laps. Let the brain consolidate overnight.",
-    "RACE READINESS: 90% of track is DIALED. T1 late braking + T5 coasting are automatic. Cold Tire Contract ready. Gap to P4 = 0.5s. Ready for official races when confident.",
-    "iRating: 1703. SR: 3.29 (B license). Week 07 is on track."
+    "WEEK 07 AI RACE COMPLETE (Jan 22): T5 coasting technique VALIDATED under race pressure. P1→P8→P2 recovery. Fastest lap on FINAL lap (1:17.250). Carousel oversteer -56% vs practice. Brake σ 0.8m = AUTOMATIC. 8/10 corners SOLID+ despite incident.",
+    "VOICE-TELEMETRY EXPERIMENT SUCCESS: First multi-modal session. Voice + IBT sync working. 'no trail braking' verbal cues correlate with data. Mental state progression captured. Research methodology validated - ready for refinement.",
+    "COLD TIRE CONTRACT REVIEW NEEDED: Lap 2 swarm (P1→P3→P8) suggests insufficient caution in early laps. For official races: commit to 80% pace L1-2 even from pole. Don't fight for position until tires warm.",
+    "TOOL TO BUILD: tools/coach/merge_voice_telemetry.py - automate voice+IBT correlation. Input: IBT + transcript JSON + sync anchor. Output: merged timeline with voice annotations at telemetry positions.",
+    "NEXT: Official race when ready. Techniques are race-validated. Consider adding CrewChief (Jim) audio for additional sync points. Gap to Gong: ~0.5s (attackable in clean air).",
+    "iRating: 1703. SR: 3.29 (B license). Week 07 progressing well."
   ],
   "tools_reference": {
     "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",

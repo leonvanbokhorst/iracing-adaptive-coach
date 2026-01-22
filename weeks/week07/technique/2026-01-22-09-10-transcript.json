@@ -1,0 +1,1330 @@
+{
+  "lines" : [
+    {
+      "endTime" : "00:00:01,060",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:00,001",
+      "text" : "*cough*"
+    },
+    {
+      "endTime" : "00:00:03,600",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:02,320",
+      "text" : "Okay, testing 1.2"
+    },
+    {
+      "endTime" : "00:00:05,200",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:04,340",
+      "text" : "Testing 1.2"
+    },
+    {
+      "endTime" : "00:00:09,000",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:05,820",
+      "text" : "This won't be very loud, I think"
+    },
+    {
+      "endTime" : "00:00:11,220",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:10,840",
+      "text" : "But"
+    },
+    {
+      "endTime" : "00:00:13,800",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:12,280",
+      "text" : "Let's see how it will work"
+    },
+    {
+      "endTime" : "00:00:18,500",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:17,340",
+      "text" : "Starting a new review"
+    },
+    {
+      "endTime" : "00:00:20,900",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:19,800",
+      "text" : "VR set is on"
+    },
+    {
+      "endTime" : "00:00:26,220",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:25,160",
+      "text" : "Restarting the Virtual Desktop"
+    },
+    {
+      "endTime" : "00:00:29,000",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:27,760",
+      "text" : "On the VR set"
+    },
+    {
+      "endTime" : "00:00:42,220",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:37,739",
+      "text" : "Okay, we have an iRacing 4 once again."
+    },
+    {
+      "endTime" : "00:00:49,320",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:44,030",
+      "text" : "Another official race is Formula 1600 Rookie Series."
+    },
+    {
+      "endTime" : "00:00:59,800",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:50,200",
+      "text" : "I'm now 464 points in the standings on place 111."
+    },
+    {
+      "endTime" : "00:01:07,220",
+      "speakerDesignation" : "",
+      "startTime" : "00:00:59,940",
+      "text" : "But it will be going up because it's Thursday."
+    },
+    {
+      "endTime" : "00:01:10,460",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:07,310",
+      "text" : "And we have Thursday, Friday, Saturday, Sunday, and Monday"
+    },
+    {
+      "endTime" : "00:01:12,420",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:10,720",
+      "text" : "still in this week's series."
+    },
+    {
+      "endTime" : "00:01:19,480",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:13,560",
+      "text" : "But we are prepping for Summit Point Raceway, Maine,"
+    },
+    {
+      "endTime" : "00:01:23,980",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:20,120",
+      "text" : "So I go to racing, race against AI."
+    },
+    {
+      "endTime" : "00:01:31,700",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:26,500",
+      "text" : "I have a three minute practice, which is not that great."
+    },
+    {
+      "endTime" : "00:01:39,900",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:31,820",
+      "text" : "Then a qualifier of two laps and 12 minutes of race."
+    },
+    {
+      "endTime" : "00:01:44,000",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:40,630",
+      "text" : "And I decided not to record Jim for now,"
+    },
+    {
+      "endTime" : "00:01:50,180",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:44,040",
+      "text" : "And just to get an idea if this is going to work with my own voice."
+    },
+    {
+      "endTime" : "00:01:54,960",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:50,580",
+      "text" : "So press continue and then erase."
+    },
+    {
+      "endTime" : "00:01:59,440",
+      "speakerDesignation" : "",
+      "startTime" : "00:01:56,340",
+      "text" : "And we launch the simulator in OpenXR."
+    },
+    {
+      "endTime" : "00:02:02,920",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:01,680",
+      "text" : "As we do always."
+    },
+    {
+      "endTime" : "00:02:04,360",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:03,520",
+      "text" : "It's loading now."
+    },
+    {
+      "endTime" : "00:02:07,920",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:06,700",
+      "text" : "I will put up my headphones."
+    },
+    {
+      "endTime" : "00:02:16,560",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:15,000",
+      "text" : "The sim is loading still."
+    },
+    {
+      "endTime" : "00:02:23,880",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:21,380",
+      "text" : "I do wear gloves today."
+    },
+    {
+      "endTime" : "00:02:32,280",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:25,850",
+      "text" : "It's one of the things I'm really not sure of if I have to wear gloves or not."
+    },
+    {
+      "endTime" : "00:02:39,100",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:35,960",
+      "text" : "The break bias setting is 56."
+    },
+    {
+      "endTime" : "00:02:42,360",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:40,500",
+      "text" : "So that's a standard setup setting."
+    },
+    {
+      "endTime" : "00:02:50,200",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:45,760",
+      "text" : "And I'm going into practice right now, but I hear I don't have sound."
+    },
+    {
+      "endTime" : "00:02:52,460",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:50,520",
+      "text" : "This happens quite often."
+    },
+    {
+      "endTime" : "00:02:59,480",
+      "speakerDesignation" : "",
+      "startTime" : "00:02:53,600",
+      "text" : "I have to go to the settings within the sim, go to audio, and hook it all up again."
+    },
+    {
+      "endTime" : "00:03:10,320",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:03,320",
+      "text" : "So that's the game Audiezin Maxwell for my microphone."
+    },
+    {
+      "endTime" : "00:03:12,420",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:10,340",
+      "text" : "I have to chat to Audiezin Maxwell."
+    },
+    {
+      "endTime" : "00:03:18,360",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:14,340",
+      "text" : "And also for the..."
+    },
+    {
+      "endTime" : "00:03:22,120",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:20,120",
+      "text" : "Jim says I have two minutes left."
+    },
+    {
+      "endTime" : "00:03:23,400",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:22,440",
+      "text" : "I have sound now."
+    },
+    {
+      "endTime" : "00:03:27,080",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:25,600",
+      "text" : "Centralize playing field."
+    },
+    {
+      "endTime" : "00:03:28,760",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:28,180",
+      "text" : "The stage."
+    },
+    {
+      "endTime" : "00:03:37,120",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:35,000",
+      "text" : "And now I do miss something else."
+    },
+    {
+      "endTime" : "00:03:39,420",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:37,380",
+      "text" : "That's my BudKicker."
+    },
+    {
+      "endTime" : "00:03:43,520",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:41,280",
+      "text" : "Which is also an audio channel."
+    },
+    {
+      "endTime" : "00:03:47,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:45,200",
+      "text" : "So I'll go to settings again."
+    },
+    {
+      "endTime" : "00:04:01,500",
+      "speakerDesignation" : "",
+      "startTime" : "00:03:52,320",
+      "text" : "I will select the LFV device which in this case is the AudioQuest Dragonfly Cobalt version 1"
+    },
+    {
+      "endTime" : "00:04:04,560",
+      "speakerDesignation" : "",
+      "startTime" : "00:04:03,280",
+      "text" : "Apply and choose"
+    },
+    {
+      "endTime" : "00:04:14,380",
+      "speakerDesignation" : "",
+      "startTime" : "00:04:06,080",
+      "text" : "And now I feel my car instead of only feeling the force feedback"
+    },
+    {
+      "endTime" : "00:04:19,319",
+      "speakerDesignation" : "",
+      "startTime" : "00:04:16,760",
+      "text" : "I'm heading to turn 1"
+    },
+    {
+      "endTime" : "00:04:32,360",
+      "speakerDesignation" : "",
+      "startTime" : "00:04:26,960",
+      "text" : "Breaking before the three cones."
+    },
+    {
+      "endTime" : "00:04:34,540",
+      "speakerDesignation" : "",
+      "startTime" : "00:04:33,750",
+      "text" : "Turn two."
+    },
+    {
+      "endTime" : "00:04:43,820",
+      "speakerDesignation" : "",
+      "startTime" : "00:04:41,110",
+      "text" : "And going towards turn three."
+    },
+    {
+      "endTime" : "00:04:49,500",
+      "speakerDesignation" : "",
+      "startTime" : "00:04:47,620",
+      "text" : "Back to second for some reason."
+    },
+    {
+      "endTime" : "00:05:00,300",
+      "speakerDesignation" : "",
+      "startTime" : "00:04:58,220",
+      "text" : "Into the SS, back to one."
+    },
+    {
+      "endTime" : "00:05:02,280",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:01,220",
+      "text" : "Coasting into the corner."
+    },
+    {
+      "endTime" : "00:05:06,200",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:05,180",
+      "text" : "Not real braking there."
+    },
+    {
+      "endTime" : "00:05:12,280",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:11,560",
+      "text" : "To the SS again."
+    },
+    {
+      "endTime" : "00:05:16,340",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:15,080",
+      "text" : "Sliding all over the place."
+    },
+    {
+      "endTime" : "00:05:18,900",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:17,360",
+      "text" : "Which is this track."
+    },
+    {
+      "endTime" : "00:05:25,120",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:23,300",
+      "text" : "Into 4 to the last corner."
+    },
+    {
+      "endTime" : "00:05:30,260",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:27,480",
+      "text" : "Braking trail, braking into the last corner."
+    },
+    {
+      "endTime" : "00:05:33,580",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:32,180",
+      "text" : "Take the whole of the outside."
+    },
+    {
+      "endTime" : "00:05:36,560",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:34,060",
+      "text" : "And then to the start\/finish."
+    },
+    {
+      "endTime" : "00:05:39,680",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:39,160",
+      "text" : "is here."
+    },
+    {
+      "endTime" : "00:05:46,440",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:44,160",
+      "text" : "1.21 of course."
+    },
+    {
+      "endTime" : "00:05:58,240",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:52,180",
+      "text" : "Trail braking into turn 1, turn 2 now, heading to turn 3."
+    },
+    {
+      "endTime" : "00:06:01,080",
+      "speakerDesignation" : "",
+      "startTime" : "00:05:59,600",
+      "text" : "And it's the end of the session already."
+    },
+    {
+      "endTime" : "00:06:15,880",
+      "speakerDesignation" : "",
+      "startTime" : "00:06:09,399",
+      "text" : "So we go back into the pits and prepare for qualifying,"
+    },
+    {
+      "endTime" : "00:06:22,880",
+      "speakerDesignation" : "",
+      "startTime" : "00:06:17,180",
+      "text" : "which is, which will take a while in AI races."
+    },
+    {
+      "endTime" : "00:06:29,460",
+      "speakerDesignation" : "",
+      "startTime" : "00:06:25,280",
+      "text" : "same 9 minutes but it will be less than that."
+    },
+    {
+      "endTime" : "00:06:42,320",
+      "speakerDesignation" : "",
+      "startTime" : "00:06:36,300",
+      "text" : "Jim just said it's the end of the session and I'm 6th place within the practice which"
+    },
+    {
+      "endTime" : "00:06:44,420",
+      "speakerDesignation" : "",
+      "startTime" : "00:06:42,360",
+      "text" : "is not that useful information."
+    },
+    {
+      "endTime" : "00:06:47,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:06:45,520",
+      "text" : "So I go out now and qualify."
+    },
+    {
+      "endTime" : "00:06:51,080",
+      "speakerDesignation" : "",
+      "startTime" : "00:06:50,320",
+      "text" : "Getting out of the pits."
+    },
+    {
+      "endTime" : "00:06:57,240",
+      "speakerDesignation" : "",
+      "startTime" : "00:06:55,820",
+      "text" : "And heading into turn 1."
+    },
+    {
+      "endTime" : "00:07:00,400",
+      "speakerDesignation" : "",
+      "startTime" : "00:06:59,440",
+      "text" : "Towards turn 1."
+    },
+    {
+      "endTime" : "00:07:02,520",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:01,490",
+      "text" : "I see the cones now."
+    },
+    {
+      "endTime" : "00:07:06,300",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:04,760",
+      "text" : "At the third cone, brake."
+    },
+    {
+      "endTime" : "00:07:13,340",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:08,440",
+      "text" : "And then steer into 1, 2."
+    },
+    {
+      "endTime" : "00:07:21,440",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:19,880",
+      "text" : "The uphill now."
+    },
+    {
+      "endTime" : "00:07:26,980",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:26,160",
+      "text" : "Towards the sandbank."
+    },
+    {
+      "endTime" : "00:07:31,460",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:30,860",
+      "text" : "Downhill."
+    },
+    {
+      "endTime" : "00:07:36,080",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:35,240",
+      "text" : "Into turn 5."
+    },
+    {
+      "endTime" : "00:07:39,120",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:38,220",
+      "text" : "Back in first."
+    },
+    {
+      "endTime" : "00:07:41,980",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:39,500",
+      "text" : "Just coasting, not trail braking."
+    },
+    {
+      "endTime" : "00:07:44,420",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:43,780",
+      "text" : "Back to 1."
+    },
+    {
+      "endTime" : "00:07:47,340",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:46,880",
+      "text" : "There we go."
+    },
+    {
+      "endTime" : "00:07:50,980",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:49,900",
+      "text" : "Through the S's."
+    },
+    {
+      "endTime" : "00:07:56,040",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:53,759",
+      "text" : "Sliding real smooth."
+    },
+    {
+      "endTime" : "00:08:02,060",
+      "speakerDesignation" : "",
+      "startTime" : "00:07:59,820",
+      "text" : "Heading towards the final corner."
+    },
+    {
+      "endTime" : "00:08:14,620",
+      "speakerDesignation" : "",
+      "startTime" : "00:08:09,380",
+      "text" : "And now we go green for the first lap."
+    },
+    {
+      "endTime" : "00:08:30,900",
+      "speakerDesignation" : "",
+      "startTime" : "00:08:14,880",
+      "text" : "So from here, towards the first corner, brake, slightly late into the corner, that went pretty"
+    },
+    {
+      "endTime" : "00:08:39,659",
+      "speakerDesignation" : "",
+      "startTime" : "00:08:37,779",
+      "text" : "Into fourth."
+    },
+    {
+      "endTime" : "00:08:46,000",
+      "speakerDesignation" : "",
+      "startTime" : "00:08:42,759",
+      "text" : "Back into third to stabilize the car."
+    },
+    {
+      "endTime" : "00:08:47,300",
+      "speakerDesignation" : "",
+      "startTime" : "00:08:46,450",
+      "text" : "Now downhill."
+    },
+    {
+      "endTime" : "00:08:55,740",
+      "speakerDesignation" : "",
+      "startTime" : "00:08:54,919",
+      "text" : "Back into one."
+    },
+    {
+      "endTime" : "00:08:57,120",
+      "speakerDesignation" : "",
+      "startTime" : "00:08:56,300",
+      "text" : "Not trail braking."
+    },
+    {
+      "endTime" : "00:09:00,900",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:00,500",
+      "text" : "Back into third."
+    },
+    {
+      "endTime" : "00:09:01,200",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:00,900",
+      "text" : "to one."
+    },
+    {
+      "endTime" : "00:09:20,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:17,380",
+      "text" : "And again approaching the final corner."
+    },
+    {
+      "endTime" : "00:09:27,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:25,280",
+      "text" : "Taking all of the outside."
+    },
+    {
+      "endTime" : "00:09:34,100",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:29,920",
+      "text" : "Setting our first time now."
+    },
+    {
+      "endTime" : "00:09:38,300",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:37,700",
+      "text" : "A pole."
+    },
+    {
+      "endTime" : "00:09:40,620",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:39,500",
+      "text" : "1.16768."
+    },
+    {
+      "endTime" : "00:09:41,740",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:40,620",
+      "text" : "7, 6, 8"
+    },
+    {
+      "endTime" : "00:09:46,900",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:46,260",
+      "text" : "Jim is happy"
+    },
+    {
+      "endTime" : "00:09:53,480",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:49,980",
+      "text" : "Now I see my delta is red, so it will become hard"
+    },
+    {
+      "endTime" : "00:09:57,040",
+      "speakerDesignation" : "",
+      "startTime" : "00:09:55,760",
+      "text" : "But I'm still on pole"
+    },
+    {
+      "endTime" : "00:10:07,220",
+      "speakerDesignation" : "",
+      "startTime" : "00:10:04,320",
+      "text" : "0.5 off the pace now"
+    },
+    {
+      "endTime" : "00:10:14,920",
+      "speakerDesignation" : "",
+      "startTime" : "00:10:10,220",
+      "text" : "I think I won't get it any better than this. M1, no trail braking."
+    },
+    {
+      "endTime" : "00:10:37,180",
+      "speakerDesignation" : "",
+      "startTime" : "00:10:33,460",
+      "text" : "Now still red. Going into the final corner."
+    },
+    {
+      "endTime" : "00:10:48,680",
+      "speakerDesignation" : "",
+      "startTime" : "00:10:43,480",
+      "text" : "The crawl of the outside, now it's half a second off."
+    },
+    {
+      "endTime" : "00:10:55,260",
+      "speakerDesignation" : "",
+      "startTime" : "00:10:53,980",
+      "text" : "17.418."
+    },
+    {
+      "endTime" : "00:11:01,400",
+      "speakerDesignation" : "",
+      "startTime" : "00:10:58,320",
+      "text" : "But I have a pole position, so that's good."
+    },
+    {
+      "endTime" : "00:11:08,240",
+      "speakerDesignation" : "",
+      "startTime" : "00:11:07,300",
+      "text" : "So we grid up now."
+    },
+    {
+      "endTime" : "00:11:18,640",
+      "speakerDesignation" : "",
+      "startTime" : "00:11:17,340",
+      "text" : "Grid up on the right side."
+    },
+    {
+      "endTime" : "00:11:22,740",
+      "speakerDesignation" : "",
+      "startTime" : "00:11:20,900",
+      "text" : "And there is the red light."
+    },
+    {
+      "endTime" : "00:11:25,680",
+      "speakerDesignation" : "",
+      "startTime" : "00:11:24,640",
+      "text" : "And green, green, green."
+    },
+    {
+      "endTime" : "00:11:33,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:11:32,340",
+      "text" : "good start here"
+    },
+    {
+      "endTime" : "00:11:47,720",
+      "speakerDesignation" : "",
+      "startTime" : "00:11:44,780",
+      "text" : "yeah I kept everybody behind me in the first turn"
+    },
+    {
+      "endTime" : "00:11:49,660",
+      "speakerDesignation" : "",
+      "startTime" : "00:11:49,040",
+      "text" : "this is good"
+    },
+    {
+      "endTime" : "00:12:05,020",
+      "speakerDesignation" : "",
+      "startTime" : "00:12:04,340",
+      "text" : "Downhill."
+    },
+    {
+      "endTime" : "00:12:10,940",
+      "speakerDesignation" : "",
+      "startTime" : "00:12:10,380",
+      "text" : "Back to 1."
+    },
+    {
+      "endTime" : "00:12:12,120",
+      "speakerDesignation" : "",
+      "startTime" : "00:12:11,300",
+      "text" : "Not trailbraking."
+    },
+    {
+      "endTime" : "00:12:16,100",
+      "speakerDesignation" : "",
+      "startTime" : "00:12:14,880",
+      "text" : "Sliding over there."
+    },
+    {
+      "endTime" : "00:12:34,120",
+      "speakerDesignation" : "",
+      "startTime" : "00:12:30,920",
+      "text" : "Ok, heading towards the final corner."
+    },
+    {
+      "endTime" : "00:12:36,880",
+      "speakerDesignation" : "",
+      "startTime" : "00:12:35,340",
+      "text" : "Everybody in my rear mirror."
+    },
+    {
+      "endTime" : "00:12:42,180",
+      "speakerDesignation" : "",
+      "startTime" : "00:12:40,600",
+      "text" : "Taking it as wide as possible."
+    },
+    {
+      "endTime" : "00:12:49,300",
+      "speakerDesignation" : "",
+      "startTime" : "00:12:47,659",
+      "text" : "And across the line."
+    },
+    {
+      "endTime" : "00:12:56,620",
+      "speakerDesignation" : "",
+      "startTime" : "00:12:51,300",
+      "text" : "right he's still there clear right"
+    },
+    {
+      "endTime" : "00:13:12,100",
+      "speakerDesignation" : "",
+      "startTime" : "00:13:00,740",
+      "text" : "Oh got contact two cars got me now so I'm in third now and a fourth"
+    },
+    {
+      "endTime" : "00:13:19,380",
+      "speakerDesignation" : "",
+      "startTime" : "00:13:17,020",
+      "text" : "Picks me now up as well"
+    },
+    {
+      "endTime" : "00:13:27,340",
+      "speakerDesignation" : "",
+      "startTime" : "00:13:22,880",
+      "text" : "And a fifth, and a sixth, and a seventh"
+    },
+    {
+      "endTime" : "00:13:31,600",
+      "speakerDesignation" : "",
+      "startTime" : "00:13:29,760",
+      "text" : "These guys are nasty"
+    },
+    {
+      "endTime" : "00:13:36,540",
+      "speakerDesignation" : "",
+      "startTime" : "00:13:35,040",
+      "text" : "I think I'm eight now"
+    },
+    {
+      "endTime" : "00:13:42,019",
+      "speakerDesignation" : "",
+      "startTime" : "00:13:39,680",
+      "text" : "Let's try to settle in"
+    },
+    {
+      "endTime" : "00:14:08,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:14:06,940",
+      "text" : "wow that's intense"
+    },
+    {
+      "endTime" : "00:14:10,360",
+      "speakerDesignation" : "",
+      "startTime" : "00:14:09,860",
+      "text" : "I'm 8"
+    },
+    {
+      "endTime" : "00:14:14,840",
+      "speakerDesignation" : "",
+      "startTime" : "00:14:13,380",
+      "text" : "Going towards turn 1"
+    },
+    {
+      "endTime" : "00:14:21,420",
+      "speakerDesignation" : "",
+      "startTime" : "00:14:19,940",
+      "text" : "Ohh, sliding"
+    },
+    {
+      "endTime" : "00:14:23,860",
+      "speakerDesignation" : "",
+      "startTime" : "00:14:22,580",
+      "text" : "Getting in contact now"
+    },
+    {
+      "endTime" : "00:14:32,540",
+      "speakerDesignation" : "",
+      "startTime" : "00:14:30,680",
+      "text" : "And off track, lost control"
+    },
+    {
+      "endTime" : "00:14:37,379",
+      "speakerDesignation" : "",
+      "startTime" : "00:14:35,240",
+      "text" : "And now I'm lost"
+    },
+    {
+      "endTime" : "00:14:45,100",
+      "speakerDesignation" : "",
+      "startTime" : "00:14:42,380",
+      "text" : "well that didn't went as planned"
+    },
+    {
+      "endTime" : "00:14:52,920",
+      "speakerDesignation" : "",
+      "startTime" : "00:14:47,420",
+      "text" : "see if I can follow these guys and take over someone"
+    },
+    {
+      "endTime" : "00:15:01,980",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:00,980",
+      "text" : "I'm pretty close to them."
+    },
+    {
+      "endTime" : "00:15:11,400",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:09,780",
+      "text" : "Sliding through the S's."
+    },
+    {
+      "endTime" : "00:15:21,840",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:18,980",
+      "text" : "And going towards the final corner"
+    },
+    {
+      "endTime" : "00:15:27,839",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:22,920",
+      "text" : "close to them, so..."
+    },
+    {
+      "endTime" : "00:15:29,880",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:27,840",
+      "text" : "Yes, I will take the first one."
+    },
+    {
+      "endTime" : "00:15:31,740",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:30,890",
+      "text" : "Car left now."
+    },
+    {
+      "endTime" : "00:15:38,600",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:35,760",
+      "text" : "I'm holding my line, but I'm really fast."
+    },
+    {
+      "endTime" : "00:15:52,700",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:50,640",
+      "text" : "Okay, second car."
+    },
+    {
+      "endTime" : "00:15:55,140",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:54,040",
+      "text" : "Little bit of contact there."
+    },
+    {
+      "endTime" : "00:15:56,980",
+      "speakerDesignation" : "",
+      "startTime" : "00:15:56,400",
+      "text" : "10th position."
+    },
+    {
+      "endTime" : "00:16:24,260",
+      "speakerDesignation" : "",
+      "startTime" : "00:16:21,459",
+      "text" : "all right"
+    },
+    {
+      "endTime" : "00:16:26,660",
+      "speakerDesignation" : "",
+      "startTime" : "00:16:24,700",
+      "text" : "slipping through the asses"
+    },
+    {
+      "endTime" : "00:16:39,980",
+      "speakerDesignation" : "",
+      "startTime" : "00:16:38,120",
+      "text" : "he's defending before me"
+    },
+    {
+      "endTime" : "00:16:47,700",
+      "speakerDesignation" : "",
+      "startTime" : "00:16:44,100",
+      "text" : "that's good, because I have a way faster exit"
+    },
+    {
+      "endTime" : "00:16:54,680",
+      "speakerDesignation" : "",
+      "startTime" : "00:16:52,759",
+      "text" : "and slipstream"
+    },
+    {
+      "endTime" : "00:16:56,300",
+      "speakerDesignation" : "",
+      "startTime" : "00:16:54,680",
+      "text" : "the start\/finish line now"
+    },
+    {
+      "endTime" : "00:17:23,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:21,920",
+      "text" : "just passed another car"
+    },
+    {
+      "endTime" : "00:17:30,800",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:30,060",
+      "text" : "turn 5"
+    },
+    {
+      "endTime" : "00:17:34,720",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:33,220",
+      "text" : "no trail braking"
+    },
+    {
+      "endTime" : "00:17:40,880",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:39,200",
+      "text" : "he's pretty slow"
+    },
+    {
+      "endTime" : "00:17:43,720",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:42,650",
+      "text" : "through the S's"
+    },
+    {
+      "endTime" : "00:17:49,200",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:46,230",
+      "text" : "but that's what adaptive AI does"
+    },
+    {
+      "endTime" : "00:17:50,140",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:49,200",
+      "text" : "being pretty slow"
+    },
+    {
+      "endTime" : "00:17:53,140",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:52,500",
+      "text" : "okay"
+    },
+    {
+      "endTime" : "00:17:54,420",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:53,940",
+      "text" : "slipstream"
+    },
+    {
+      "endTime" : "00:17:56,700",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:55,940",
+      "text" : "it will defend"
+    },
+    {
+      "endTime" : "00:18:00,580",
+      "speakerDesignation" : "",
+      "startTime" : "00:17:57,740",
+      "text" : "I will take the outside, I don't know why"
+    },
+    {
+      "endTime" : "00:18:09,580",
+      "speakerDesignation" : "",
+      "startTime" : "00:18:06,920",
+      "text" : "and I don't know why but I overtook him"
+    },
+    {
+      "endTime" : "00:18:15,180",
+      "speakerDesignation" : "",
+      "startTime" : "00:18:12,740",
+      "text" : "I have to defend now"
+    },
+    {
+      "endTime" : "00:18:16,060",
+      "speakerDesignation" : "",
+      "startTime" : "00:18:15,180",
+      "text" : "Overstart finish"
+    },
+    {
+      "endTime" : "00:18:34,040",
+      "speakerDesignation" : "",
+      "startTime" : "00:18:29,480",
+      "text" : "P7 now and five minutes to go"
+    },
+    {
+      "endTime" : "00:18:46,540",
+      "speakerDesignation" : "",
+      "startTime" : "00:18:41,020",
+      "text" : "And there's a group in front of me also slowing down but that's adaptive AI"
+    },
+    {
+      "endTime" : "00:18:54,540",
+      "speakerDesignation" : "",
+      "startTime" : "00:18:51,840",
+      "text" : "25 into one not trail braking"
+    },
+    {
+      "endTime" : "00:19:03,700",
+      "speakerDesignation" : "",
+      "startTime" : "00:18:56,620",
+      "text" : "Whoa, they're really slow. I have to make sure I'm not driving into the back of them"
+    },
+    {
+      "endTime" : "00:19:18,680",
+      "speakerDesignation" : "",
+      "startTime" : "00:19:14,720",
+      "text" : "Stay behind them now to be a little bit more safe."
+    },
+    {
+      "endTime" : "00:19:21,860",
+      "speakerDesignation" : "",
+      "startTime" : "00:19:21,340",
+      "text" : "Final corner."
+    },
+    {
+      "endTime" : "00:19:24,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:19:23,560",
+      "text" : "Get an exit."
+    },
+    {
+      "endTime" : "00:19:33,580",
+      "speakerDesignation" : "",
+      "startTime" : "00:19:30,740",
+      "text" : "Four cars in front of me, very close, defending."
+    },
+    {
+      "endTime" : "00:19:38,020",
+      "speakerDesignation" : "",
+      "startTime" : "00:19:34,880",
+      "text" : "Let's be safer, give him some space."
+    },
+    {
+      "endTime" : "00:19:46,380",
+      "speakerDesignation" : "",
+      "startTime" : "00:19:45,340",
+      "text" : "Through the corner."
+    },
+    {
+      "endTime" : "00:19:51,180",
+      "speakerDesignation" : "",
+      "startTime" : "00:19:49,980",
+      "text" : "Three white."
+    },
+    {
+      "endTime" : "00:20:03,980",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:02,700",
+      "text" : "Passing one car."
+    },
+    {
+      "endTime" : "00:20:07,980",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:07,340",
+      "text" : "He's still there."
+    },
+    {
+      "endTime" : "00:20:09,380",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:08,720",
+      "text" : "Clear right."
+    },
+    {
+      "endTime" : "00:20:12,200",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:11,100",
+      "text" : "T5 again."
+    },
+    {
+      "endTime" : "00:20:13,140",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:12,580",
+      "text" : "Into one."
+    },
+    {
+      "endTime" : "00:20:14,180",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:13,320",
+      "text" : "Not railbraking."
+    },
+    {
+      "endTime" : "00:20:19,760",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:18,700",
+      "text" : "Not too close to the guys."
+    },
+    {
+      "endTime" : "00:20:28,540",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:24,640",
+      "text" : "So I'm really getting held up now by the 5 car."
+    },
+    {
+      "endTime" : "00:20:35,560",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:33,940",
+      "text" : "And passing the 5 car now."
+    },
+    {
+      "endTime" : "00:20:52,760",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:41,940",
+      "text" : "corner taking it as wide as I can picking up the slipstream going over"
+    },
+    {
+      "endTime" : "00:20:53,840",
+      "speakerDesignation" : "",
+      "startTime" : "00:20:52,800",
+      "text" : "start finish now"
+    },
+    {
+      "endTime" : "00:21:12,720",
+      "speakerDesignation" : "",
+      "startTime" : "00:21:08,500",
+      "text" : "yeah and I passed one of them"
+    },
+    {
+      "endTime" : "00:21:35,940",
+      "speakerDesignation" : "",
+      "startTime" : "00:21:23,100",
+      "text" : "pretty close to the 449 car he's very slow I don't know why these guys passed"
+    },
+    {
+      "endTime" : "00:21:39,060",
+      "speakerDesignation" : "",
+      "startTime" : "00:21:35,940",
+      "text" : "me so quickly in the first couple of laps."
+    },
+    {
+      "endTime" : "00:21:50,340",
+      "speakerDesignation" : "",
+      "startTime" : "00:21:49,700",
+      "text" : "See what I can do."
+    },
+    {
+      "endTime" : "00:22:01,620",
+      "speakerDesignation" : "",
+      "startTime" : "00:22:00,060",
+      "text" : "I overtook another car, last corner"
+    },
+    {
+      "endTime" : "00:22:06,080",
+      "speakerDesignation" : "",
+      "startTime" : "00:22:04,820",
+      "text" : "As wide as I can"
+    },
+    {
+      "endTime" : "00:22:12,600",
+      "speakerDesignation" : "",
+      "startTime" : "00:22:10,620",
+      "text" : "And I'm now in"
+    },
+    {
+      "endTime" : "00:22:17,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:22:15,000",
+      "text" : "Third position, white flag"
+    },
+    {
+      "endTime" : "00:22:26,060",
+      "speakerDesignation" : "",
+      "startTime" : "00:22:24,120",
+      "text" : "Getting in control of my nerves now"
+    },
+    {
+      "endTime" : "00:22:33,040",
+      "speakerDesignation" : "",
+      "startTime" : "00:22:28,060",
+      "text" : "We're on the podium if I just take it home."
+    },
+    {
+      "endTime" : "00:22:45,700",
+      "speakerDesignation" : "",
+      "startTime" : "00:22:42,180",
+      "text" : "Maybe one spot because the car in front of me is still very slow."
+    },
+    {
+      "endTime" : "00:22:53,180",
+      "speakerDesignation" : "",
+      "startTime" : "00:22:51,080",
+      "text" : "Back in 2-1, no trail braking."
+    },
+    {
+      "endTime" : "00:23:00,720",
+      "speakerDesignation" : "",
+      "startTime" : "00:22:59,320",
+      "text" : "Final time, SS."
+    },
+    {
+      "endTime" : "00:23:12,880",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:09,820",
+      "text" : "Oh, he is slow. I need to get him."
+    },
+    {
+      "endTime" : "00:23:17,160",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:15,780",
+      "text" : "But then it's a big risk."
+    },
+    {
+      "endTime" : "00:23:18,920",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:18,280",
+      "text" : "Final corner."
+    },
+    {
+      "endTime" : "00:23:22,640",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:20,840",
+      "text" : "Better exit? Yes I have."
+    },
+    {
+      "endTime" : "00:23:27,500",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:23,060",
+      "text" : "And I overtake the last second car as well."
+    },
+    {
+      "endTime" : "00:23:34,260",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:27,670",
+      "text" : "So I will finish right about now in second place."
+    },
+    {
+      "endTime" : "00:23:39,380",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:38,650",
+      "text" : "End of the session."
+    },
+    {
+      "endTime" : "00:23:44,640",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:40,260",
+      "text" : "11 minutes or something."
+    },
+    {
+      "endTime" : "00:23:46,320",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:46,100",
+      "text" : "Yeah."
+    },
+    {
+      "endTime" : "00:23:52,880",
+      "speakerDesignation" : "",
+      "startTime" : "00:23:48,220",
+      "text" : "session and let's take a look one at how this is going to work."
+    }
+  ]
+}
