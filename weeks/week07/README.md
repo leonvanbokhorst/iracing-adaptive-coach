@@ -1,53 +1,45 @@
-# Week 07 - Summit Point Raceway Main Circuit - Season 2026
+# Week 07 - Summit Point Main Circuit - Season 2026
 
 **Track**: [Summit Point Raceway - Main Circuit](../../tracks/track-data/summit-summit-raceway.json)  
 **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
 **Dates**: 2026-01-20 → 2026-01-26  
-**Status**: In Progress - Baseline Complete ✅
-
----
-
-## 🗺️ Track Map
-
-![Summit Point Track Map](assets/summit-track-map.png)
-
-**Layout**: 3.2km, **10 corners**, 3 sectors
-
-**Complete Corner Guide:**
-1. **Turn 1** @ 16.5% - Right after start/finish
-2. **Turn 2** @ 23% - Second right
-3. **Turn 3 "Wagon Bend"** - Medium-speed right
-4. **Turn 4 "The Chute"** - Fast kink
-5. **Turn 5 "The Carousel Entry"** ← **NEMESIS ZONE!**
-6. **Turn 6 "The Carousel Exit"** ← **NEMESIS ZONE!**
-7. **Turn 7 "The Esses Entry"**
-8. **Turn 8 "The Esses Middle"**
-9. **Turn 9 "The Esses Exit / The Bridge"**
-10. **Turn 10 "The Paddock"** - Final corner
+**Status**: In Progress - Track Mastery Achieved ✅
 
 ---
 
 ## The Story
 
-_Master Lonn returns to Summit Point Main Circuit after seven months away. "Felt familiar," he says. The data says something else: **1.4 seconds faster than his old PB, on the first session back.** This isn't memory—this is evolution. Week 05-06's lessons are transferring. Sequential Mastery begins NOW._
+Seven months away from Summit Point. Seven months of racing other tracks, building techniques, learning lessons. Master Lonn returned wondering if he'd lost it. The first lap answered: **1.4 seconds faster than his old PB**.
+
+But that was just baseline. The real story happened over three days.
+
+Day one was reconnaissance—muscle memory working, but nemesis corners emerging. Turn 1 and the Carousel were lottery zones, accounting for 88% of all rotation events. The data showed a clear gap: 1.1 seconds to Shuning Gong's P4 time. Not talent. *Commitment*.
+
+Day two, he went to the lab. Seventeen minutes. Two focus areas. T5 coasting (no trail braking into the Carousel) and T1 late braking (full commitment after the three cones). The result? 59% oversteer reduction at T5. Automaticity forming at T1. PB matched without chasing times. That evening, he went for a "flow session"—just drive, have fun, see what stuck. **NEW PB: 1:15.550**. The morning's drilling had bedded in during play.
+
+Day three, he raced. The morning AI race was chaos—contact at Lap 2, off-track at Lap 3, dropped to P8, clawed back to P2 with the fastest lap on the final lap. That evening, everything clicked. Started on pole, got passed by faster AI, *took the lead back* with a pass at T5 using the coasting technique he'd drilled two days earlier, then the adaptive AI cranked up and reclaimed P1. Final lap: **1:15.800**. Only 0.25s off his practice PB. In a race. While chasing.
+
+**10 out of 10 corners dialed.** The track that was a mess on Monday was mastered by Wednesday evening.
 
 ---
 
 ## The Numbers
 
-| Metric               | Start     | Current   | Change    | Notes |
-| -------------------- | --------- | --------- | --------- | ----- |
-| **Best Lap**         | 1:17.576* | 1:16.150  | **-1.426s** | *7 months ago |
-| **Consistency (σ)**  | -         | 0.53s     | -         | Solid baseline |
-| **Gap to Optimal**   | -         | 3.039s    | -         | Turn 1 + Carousel/Esses |
-| **Focus Area**       | -         | Turn 1 + Carousel/Esses | - | 88% of oversteer events |
+| Metric | Start (Jan 20) | End (Jan 22) | Change | Notes |
+| ------ | -------------- | ------------ | ------ | ----- |
+| **Best Lap** | 1:16.150 | **1:15.550** | **-0.600s** | Flow session PB |
+| **Race Best** | - | 1:15.800 | - | 0.25s off PB while racing |
+| **T1 Consistency** | 2.626s σ | **0.087s σ** | **-97%** | Lottery → Dialed |
+| **T5 Oversteer** | 6,103 events | 2,479 events | **-59%** | Coasting technique |
+| **Corners Dialed** | 2/10 | **10/10** | **+400%** | Complete mastery |
+| **Gap to Gong (P4)** | 1.102s | **0.752s** | **-32%** | Attackable |
 
 **Week Stats:**
 
-- **Sessions**: 2 (Baseline + Focused Practice)
-- **Total Laps**: 29 flying laps
-- **Victories**: -
-- **Breakthrough**: T5 coasting + T1 late braking DATA VALIDATED (Day 2)
+- **Sessions**: 6 (3 practice, 1 flow, 2 AI race)
+- **Total Laps**: ~80+ flying laps
+- **Victories**: 0 (P2 x2 - adaptive AI too fast)
+- **Breakthrough**: Same-day corner transformation (97% improvement in one day)
 
 ---
 
@@ -55,202 +47,126 @@ _Master Lonn returns to Summit Point Main Circuit after seven months away. "Felt
 
 | Date | Time | Type | Best Lap | σ | Result | Key Takeaway |
 | :--- | :--- | :--- | :------- | :- | :----- | :----------- |
-| 2026-01-20 | 15:27 | [Practice (Baseline)](2026-01-20-15-27-summit-baseline-practice.md) + [Gong P4 Comparison](2026-01-20-gong-telemetry-comparison.md) | **1:16.150** | 0.53s | PB! **P232/1,045 (Top 22%)** Gap to P4: **1.102s** | Muscle memory triumph. Beat old PB (1:17.576) by 1.426s. **Gong comparison reveals**: 1.1s gap is NOT talent - it's COMMITMENT. Carousel entry (-0.5s), brake authority (-0.3s), throttle commitment (-0.2s). Addressable: 0.9-1.3s total. |
-| 2026-01-21 | 07:13 | [Focused Practice](2026-01-21-07-13-summit-focused-practice.md) | **1:16.167** | 0.98s | **T5 + T1 VALIDATED!** | **17 min, 2 focus areas, BOTH validated.** T5 coasting: **59% oversteer reduction** (6,103→2,479 events). T1 late braking: **automaticity forming** (σ 0.162s, 170.4%/s commitment). Matched PB without chasing times. **BREAKTHROUGH**: Focused practice > mindless laps. |
+| Jan 20 | 15:27 | [Baseline](2026-01-20-15-27-summit-baseline-practice.md) | 1:16.150 | 0.53s | P232/1,045 | Muscle memory triumph. Beat 7-month-old PB by 1.4s. |
+| Jan 20 | - | [Gong Comparison](2026-01-20-gong-telemetry-comparison.md) | - | - | Gap: 1.102s | Gap is commitment, not talent. 0.9-1.3s addressable. |
+| Jan 21 | 07:13 | [Focused Practice](2026-01-21-07-13-summit-focused-practice.md) | 1:16.167 | 0.98s | T5 + T1 ✅ | 17 min, 2 focus areas, BOTH validated. T5 -59% oversteer. |
+| Jan 21 | 15:59 | [Flow Session](2026-01-21-15-59-summit-flow-session.md) | **1:15.550** 🏆 | 0.129s* | **NEW PB** | "Just having fun" produced PB. Speed as byproduct. |
+| Jan 22 | 09:10 | [AI Race + Voice](2026-01-22-09-10-summit-ai-race-voice.md) | 1:17.250 | 3.26s | P2 (P8→P2) | Chaos → recovery. Voice-telemetry validated. |
+| Jan 22 | 17:11 | [AI Race 02 + Voice](2026-01-22-17-11-summit-ai-race-02-voice.md) | 1:15.800 | 0.49s | P2 (T5 pass!) | **10/10 corners dialed.** Race best while chasing. |
+
+*Last 5 laps only
 
 ---
 
 ## Breakthroughs 🎯
 
-### T5 Coasting Technique - EXPERT Coach Validated! (Session 02) 🎉
+### Same-Day Corner Transformation
 
-**Discovery**: The EXPERT coach technique for T5 Carousel Entry works EXACTLY as prescribed. Coast into corner (no trail braking) = massive oversteer reduction.
+**Morning AI race**: T1 σ = 2.626s (lottery), T2 σ = 0.569s (lottery)  
+**Evening AI race**: T1 σ = 0.087s (dialed), T2 σ = 0.062s (dialed)
 
-**Evidence**:
-- **Baseline (Jan 20)**: 6,103 oversteer events at T5
-- **Focused Practice (Jan 21)**: 2,479 oversteer events at T5
-- **REDUCTION: 59% (3,624 fewer events!)**
-- Master Lonn's feedback: "The coasting part works indeed as intended"
-- Data + feeling alignment = technique LOCKED IN
+**97% and 89% improvement in ONE DAY.**
 
-**Why It Matters**: This validates the EXPERT coach principle: T5 is "by far the most oversteering corner" because trail braking unloads the rear on a banked, low-grip corner. Coasting (no trail braking) keeps weight balanced = stable rear. This is now CODIFIED technique for Summit Point T5, ready for race deployment. More reps needed to dial in consistency (σ still 0.519s), but the TECHNIQUE is proven.
+The difference: focused practice in the morning, flow consolidation in the afternoon, race deployment in the evening. Neural pathways lock in FAST when the learning cycle is respected.
 
 ---
 
-### T1 Late Braking Flow - Automaticity Forming! (Session 02) 💪
+### T5 Coasting Technique - Race-Validated Weapon
 
-**Discovery**: Focused practice on T1 late braking produced MEASURABLE muscle memory formation in just 17 minutes.
+The EXPERT coach technique (coast into T5, no trail braking) went from theory to muscle memory to *overtaking weapon* in three days:
 
-**Evidence**:
-- **Brake application rate: 170.4%/s** (fastest on entire track = COMMITMENT)
-- **Corner consistency σ: 0.162s** ("solid" rating = REPEATABLE)
-- **Steering jerk: 17.96 rad/s²** (smooth considering limit-pushing)
-- Master Lonn's feedback: "I can get full on the brakes just after the 3 cones and almost flow automatically to the apex"
+- **Day 1**: 6,103 oversteer events (lottery)
+- **Day 2**: 2,479 oversteer events (-59%)
+- **Day 3**: 1.9m brake point σ (automatic) + used for T5 pass to take the lead
 
-**Why It Matters**: He's not just braking late ONCE—he's braking late CONSISTENTLY every lap with the same technique. Neural pathways are forming. T1 has 1,599 oversteer events (high) BUT low variance (σ 0.162s) = this is CONTROLLED oversteer from late braking, not uncontrolled technique error. This is the difference between WASTEFUL oversteer (T5 baseline) and PRODUCTIVE oversteer (T1 limit-pushing).
+Voice recording proves conscious deployment: "no trail braking" said **4 times** during race, brake σ = 1.9m (hitting the same spot within 2 meters across 10 laps).
 
 ---
 
-### Focused Practice > Mindless Laps (Session 02) 🔬
+### Voice-Telemetry Methodology (EXP-02)
 
-**Discovery**: 17 minutes, 2 focus areas, data-validated results on BOTH. Master Lonn built MORE skill in LESS time than baseline session.
+First research methodology breakthrough: real-time voice commentary synchronized with IBT telemetry.
 
-**Evidence**:
-- **Duration**: 17 minutes (vs 1 hour baseline)
-- **Focus areas**: 2 (T1 late braking + T5 coasting)
-- **Results**: Both techniques validated by data
-- **Bonus**: Matched baseline PB (1:16.167 vs 1:16.150) without chasing times
-
-**Why It Matters**: ADHD brain thrives on limited, clear objectives. Sequential Mastery framework validated: one corner at a time, build foundations, move on. For sessions going forward: 15-20 min max, 2 focus areas max, specific technique goals, STOP when goals met (don't undo neural wiring by overtraining). This is sustainable, efficient skill building.
+**Key findings:**
+- Verbal self-cueing correlates with execution ("no trail braking" x4 → 1.9m brake σ)
+- Mental state progression trackable across race
+- Peak performance came AFTER pressure (race best on final lap while chasing)
+- Technique survives pressure when drilled to automaticity
 
 ---
 
-### The Redistribution Effect (Session 02) 🧠
+### Speed as Byproduct - PROVEN (Again)
 
-**Discovery**: Fixing WASTEFUL oversteer frees mental bandwidth to exploit PRODUCTIVE oversteer.
+Three sessions now validate the principle:
 
-**Evidence**:
-- Total oversteer events similar between sessions (~6,378 vs ~6,103)
-- But DISTRIBUTION changed: T5 down to 2,479, T1 up to 1,599
-- T5 oversteer was UNCONTROLLED (poor technique = wasteful)
-- T1 oversteer is CONTROLLED (late braking = productive limit-finding)
+1. **Focused Practice (Jan 21 AM)**: Matched PB while drilling technique
+2. **Flow Session (Jan 21 PM)**: NEW PB while "just having fun"
+3. **AI Race (Jan 22 PM)**: Race best while chasing, not in clear air
 
-**Why It Matters**: This is SMART DRIVING. Not all oversteer is bad. By fixing T5 technique (eliminating wasteful oversteer from trail braking), Master Lonn freed mental capacity to attack T1 harder (exploiting productive oversteer from late braking). The data proves it: T1 has HIGH oversteer but LOW variance (controlled), T5 has REDUCED oversteer and IMPROVING variance (technique working).
-
----
-
-### T2 Summit Point - Smoothness Reference Corner (Session 02) 🔒
-
-**Discovery**: T2 is now DIALED and serves as the smoothness template for all other corners.
-
-**Evidence**:
-- **Corner σ: 0.044s** ("dialed" rating - best on track!)
-- **Steering jerk: 9.24 rad/s²** (smoothest corner of lap)
-
-**Why It Matters**: This is the TEMPLATE for what "mastery" feels like at Summit Point. When other corners feel chaotic, remember T2 - the smooth, committed, repeatable feeling. Copy this to other corners. T2 serves same role as Champion Curve at Oran Park (reference standard).
-
----
-
-### Muscle Memory Triumph (Session 01)
-
-**Discovery**: Skills transfer across tracks. Seven months racing OTHER tracks made Master Lonn 1.4s faster at THIS track without explicit Summit Point practice.
-
-**Evidence**: 
-- Old PB: 1:17.576 (7 months ago)
-- New PB: 1:16.150 (first session back) = **-1.426s improvement**
-- **G61 Leaderboard: P232 out of 1,045 drivers (Top 22.2%)**
-- Consistency: 0.53s σ (solid for baseline)
-- Week 06 smoothness maintained: 13.04 rad/s² steering jerk
-
-**Why It Matters**: Growth compounds. You don't need to practice every track to get faster—you need to practice DRIVING. On his BASELINE session, Master Lonn is already in the top quarter of all drivers at this track. With 3 seconds still on the table (overdriving zones identified), potential climb to Top 100 or higher is realistic.
-
----
-
-### Setup Intuition - BB 65% First Try Perfection (Session 01)
-
-**Discovery**: BB 65% produced textbook tire temps on first attempt. All tires 52.5-53.0°C, perfectly balanced.
-
-**Evidence**: 
-- LF: 52.8-53.0°C (balanced)
-- RF: 52.5-52.8°C (balanced)
-- LR: 52.9-53.0°C (balanced)
-- RR: 52.6-52.9°C (balanced)
-
-**Why It Matters**: This is Oran Park BB 56% level of first-try perfection. Setup intuition from Week 05-06 is transferring. No changes needed.
+When Master Lonn focuses on PROCESS, speed arrives as byproduct. When he chases TIMES, he gets slower.
 
 ---
 
 ## Challenges 🚧
 
-### Nemesis Corner #1: Carousel Entry (50% lap) - ✅ TECHNIQUE VALIDATED, CONSISTENCY IN PROGRESS
+### Cold Tire Contract - Review Needed
 
-**Original Problem (Baseline)**: 6,103 oversteer events (62% of ALL rotation!), **-13.13 km/h speed loss vs Gong (P4)**
+Morning AI race: P1 start → contact Lap 2 → off Lap 3 → P8. The field swarmed him before tires were warm.
 
-**Root Cause (CONFIRMED by telemetry)**: Trail braking into T5 unloads rear on banked, low-grip corner = snap oversteer
-
-**Progress (Focused Practice Jan 21)**:
-- **59% oversteer reduction** (6,103 → 2,479 events) ✅
-- **EXPERT coach technique validated**: Coast into corner (NO trail braking) = stable rear
-- Master Lonn confirms: "works as intended"
-- Consistency still developing (σ = 0.519s "lottery" rating)
-
-**Impact**: Technique SOLVED, consistency IMPROVING. ~0.2-0.3s still addressable through repetition.
-
-**Next Steps**: 
-- ✅ Coasting technique (DONE - keep using it!)
-- 🔄 More reps to dial in consistency (target σ < 0.20s)
-- Monitor in tonight's session (maintain technique while adding other corners)
+**Lesson**: Even from pole, commit to 80% pace L1-2. Don't fight for position until grip is there.
 
 ---
 
-### Nemesis Corner #2: Turn 1 + Brake Zones (10-20% of lap) - ✅ AUTOMATICITY FORMING
+### Adaptive AI as Training Partner
 
-**Original Problem (Baseline)**: 2,524 oversteer events, **-0.28g less braking force than Gong**, 2.7% less time braking
+Both AI races ended P2 because the AI sped up when he took the lead. Not driver error—simulation adaptation.
 
-**Root Cause (CONFIRMED by telemetry)**: Braking too early, too light, missing commitment
-
-**Progress (Focused Practice Jan 21)**:
-- **Brake application rate: 170.4%/s** (FASTEST on track = COMMITMENT) ✅
-- **Corner σ: 0.162s** ("solid" consistency = REPEATABLE) ✅
-- **Steering jerk: 17.96 rad/s²** (smooth considering limit-pushing) ✅
-- Brake marker: "just after 3 cones" is now AUTOMATIC
-- Master Lonn: "almost flow automatically to the apex"
-
-**Impact**: Late braking technique FORMING muscle memory. ~0.1-0.2s still addressable through continued practice.
-
-**Next Steps**: 
-- ✅ Late braking flow (FORMING - maintain consistency!)
-- 🔄 Monitor in tonight's session (does it STAY consistent while working on other corners?)
-- Increase brake pressure gradually (currently good commitment, can optimize pressure profile)
-
----
-
-### Challenge #3: Throttle Commitment (Lap-wide)
-
-**Problem**: 71.1% full throttle vs Gong's 77.6% = **-6.5% less commitment**
-
-**Root Cause**: Overdriving 24.7% of lap → lift-on-steer pattern → hesitation on exits
-
-**Impact**: ~0.1-0.2s per lap
-
-**Next Steps**:
-- 20% throttle floor at apex (Oschersleben T2 technique)
-- Don't lift when car rotates (commit THROUGH wobbles)
-- Fix Carousel entry (stable entry = confident exit)
+**Reframe**: When AI speeds up to catch you, it means you're winning. The AI had to *cheat* to beat you.
 
 ---
 
 ## What We Learned
 
 **Technical:**
-- BB 65% is optimal (perfect tire temps on Day 1)
-- Steering smoothness maintained from Week 06 (13.04 rad/s²)
-- 88% of oversteer events concentrated in just 2 zones (Turn 1 + Carousel/Esses)
-- Delta-to-optimal analysis perfectly matches oversteer zones (causation confirmed)
-- Conservative inputs appropriate for baseline (49.8% avg brake, 65.4% full throttle)
-- **EXPERT Coach validation**: T5 Carousel Entry is "by far the most oversteering corner" - technique is **NO trail braking** (just coast!), delay downshift to 1st, carry momentum. T6 Carousel Exit sets up longest accel zone (critical). See [track file EXPERT guide](../../tracks/track-summit-point-main-circuit.md#EXPERT-coach-lap-guide---corner-by-corner-breakdown) for full breakdown.
+- T5 coasting (no trail braking) eliminates wasteful oversteer
+- Late braking commitment + consistency = controlled limit-pushing
+- 17-minute focused sessions outperform hour-long scattered training
+- Carousel Entry brake σ = 0.1m is achievable (flow session)
 
 **Mental:**
-- "Felt familiar" was accurate—muscle memory IS real
-- Seven months of growth made him faster WITHOUT explicit practice
-- Consistency-first approach working (0.53s σ, zero incidents)
-- Progressive learning curve (Lap 2: 1:18.0 → Lap 14: 1:16.150)
+- Focused practice → Flow consolidation → Race deployment = optimal learning cycle
+- Verbal self-cueing reinforces technique (say it, do it, automate it)
+- Peak performance often comes under pressure, not in clear air
+- "Just have fun" produces better results than "go fast"
 
 **Strategic:**
-- Sequential Mastery framework applies from Day 1
-- Nemesis corners identified early (Turn 1, Carousel/Esses)
-- Clear roadmap for Week 07: Baseline ✅ → Conquer Turn 1 → Conquer Carousel/Esses → Deploy in races
-- 2.0-3.1s addressable time identified (throttle ~1.2s, brake ~0.9s, oversteer ~0.8s)
+- Sequential Mastery framework validated across 6 sessions
+- 97% corner improvement possible in one day with right approach
+- Voice-telemetry captures what IBT alone cannot (mental state)
+- Meebewegen 2.0: yield to faster → reclaim later with trained technique
+
+---
+
+## Next Steps
+
+**Immediate:**
+- Official race deployment when ready (techniques validated twice)
+- Gap to Gong: 0.752s (attackable in clean air)
+
+**Research:**
+- Build `tools/coach/merge_voice_telemetry.py` for automated correlation
+- Add CrewChief (Jim) audio for additional sync points
+- Test voice-telemetry in official race (higher pressure)
 
 ---
 
 ## Next Week Preview
 
 **Track**: Virginia International Raceway - North Course  
-**Challenge**: _TBD_  
-**Goal**: _TBD_  
-**Strategy**: _TBD_
+**Challenge**: New track, technical layout, elevation changes  
+**Goal**: Apply Sequential Mastery from Week 07  
+**Strategy**: Identify nemesis corners early, deploy focused practice cycle
 
 ---
 
-_Week 07: Halfway through the season. Let's make it count._ 🏎️💨
+_Week 07: The week everything clicked. From lottery corners to complete mastery in 72 hours. Trust the process._ 🏎️💨
