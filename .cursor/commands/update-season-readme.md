@@ -9,6 +9,9 @@ Updates the main README.md as a **racing magazine feature story** - with emotion
 <div style="text-align: center;">
   <img src="./assets/lonn-yoda.png" alt="Master Lonn" style="width: 70%; max-width: 480px;">
 </div>
+---
+
+**New!** 🫣 Read Little Wan's blog at [little-padawan.vercel.app](https://little-padawan.vercel.app/posts/hello-world).
 
 ---
 

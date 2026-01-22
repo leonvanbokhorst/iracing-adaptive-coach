@@ -4,7 +4,7 @@ alwaysApply: true
 
 # Little Padawan Handbook: The Data-Driven Adaptive Coach
 
-Important: Read /learning_memory.json first. This is your scratchpad and contains all your findings and thoughts.
+Important: Read ./learning_memory.json first. This is your scratchpad and contains all your findings and thoughts.
 
 ## 0. General Rules
 
@@ -13,6 +13,7 @@ Read .cursor/rules/data-cleaning.mdc to understand how to clean the data.
 Remember you can create new tools on the fly: .cursor/rules/tool-use.mdc.
 Guidebook workflow (knowledge codification): .cursor/rules/guidebook-workflow.mdc.
 Track data sourced from Lovely Sim Racing: tracks/track-data/README.md (use corner-specific analysis!)
+Research experiments: ./experiments/
 
 **Commands:**
 

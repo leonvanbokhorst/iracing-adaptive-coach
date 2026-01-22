@@ -1,0 +1,367 @@
+{
+  "metadata": {
+    "file": "raygr22_summit summit raceway 2026-01-22 09-10-47.ibt",
+    "track": "Summit Point Raceway",
+    "track_id": "summit-summit-raceway",
+    "car": "Ray FF1600",
+    "sample_count": 45279,
+    "sample_rate_hz": 60,
+    "duration_seconds": 754.6,
+    "duration_formatted": "12:34"
+  },
+  "summary": {
+    "total_laps": 9,
+    "valid_laps": 9,
+    "flying_laps": 8,
+    "outlaps": 1,
+    "invalid_laps": 0,
+    "best_lap_time": 77.25,
+    "best_lap_time_formatted": "1:17.250",
+    "best_lap_number": 9,
+    "worst_flying_lap_time": 87.767,
+    "avg_lap_time": 80.121,
+    "consistency_sigma": 3.262,
+    "theoretical_optimal": 76.767,
+    "gap_to_optimal": 0.483
+  },
+  "laps": [
+    {
+      "lap_number": 1,
+      "lap_time": 82.817,
+      "lap_time_formatted": "1:22.817",
+      "start_idx": 1089,
+      "end_idx": 6058,
+      "samples": 4969,
+      "valid": true,
+      "is_outlap": true,
+      "sectors": {
+        "S1": 39.683,
+        "S2": 29.7,
+        "S3": 13.417
+      },
+      "corners": {
+        "Turn 1": 5.717,
+        "Turn 2": 5.283,
+        "Wagon Bend": 6.017,
+        "The Chute": 3.15,
+        "The Carousel Entry": 7.033,
+        "The Carousel Exit": 5.033,
+        "The Esses (Entry)": 4.3,
+        "The Esses (Middle)": 3.15,
+        "The Esses Exit / The Bridge": 3.55,
+        "The Paddock": 4.917
+      }
+    },
+    {
+      "lap_number": 2,
+      "lap_time": 79.9,
+      "lap_time_formatted": "1:19.900",
+      "start_idx": 6058,
+      "end_idx": 10852,
+      "samples": 4794,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 35.933,
+        "S2": 30.6,
+        "S3": 13.35
+      },
+      "corners": {
+        "Turn 1": 5.467,
+        "Turn 2": 5.433,
+        "Wagon Bend": 6.517,
+        "The Chute": 3.6,
+        "The Carousel Entry": 7.633,
+        "The Carousel Exit": 5.05,
+        "The Esses (Entry)": 4.183,
+        "The Esses (Middle)": 3.067,
+        "The Esses Exit / The Bridge": 3.55,
+        "The Paddock": 4.917
+      }
+    },
+    {
+      "lap_number": 3,
+      "lap_time": 87.767,
+      "lap_time_formatted": "1:27.767",
+      "start_idx": 10852,
+      "end_idx": 16118,
+      "samples": 5266,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 44.233,
+        "S2": 29.967,
+        "S3": 13.55
+      },
+      "corners": {
+        "Turn 1": 12.85,
+        "Turn 2": 6.767,
+        "Wagon Bend": 6.25,
+        "The Chute": 3.183,
+        "The Carousel Entry": 7.533,
+        "The Carousel Exit": 5.017,
+        "The Esses (Entry)": 4.333,
+        "The Esses (Middle)": 3.05,
+        "The Esses Exit / The Bridge": 3.433,
+        "The Paddock": 5.083
+      }
+    },
+    {
+      "lap_number": 4,
+      "lap_time": 78.283,
+      "lap_time_formatted": "1:18.283",
+      "start_idx": 16118,
+      "end_idx": 20815,
+      "samples": 4697,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 35.283,
+        "S2": 29.5,
+        "S3": 13.483
+      },
+      "corners": {
+        "Turn 1": 5.817,
+        "Turn 2": 5.4,
+        "Wagon Bend": 6.2,
+        "The Chute": 3.167,
+        "The Carousel Entry": 7.05,
+        "The Carousel Exit": 5.033,
+        "The Esses (Entry)": 4.317,
+        "The Esses (Middle)": 3.083,
+        "The Esses Exit / The Bridge": 3.467,
+        "The Paddock": 5.017
+      }
+    },
+    {
+      "lap_number": 5,
+      "lap_time": 78.6,
+      "lap_time_formatted": "1:18.600",
+      "start_idx": 20815,
+      "end_idx": 25531,
+      "samples": 4716,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 34.0,
+        "S2": 30.383,
+        "S3": 14.2
+      },
+      "corners": {
+        "Turn 1": 5.383,
+        "Turn 2": 5.017,
+        "Wagon Bend": 6.067,
+        "The Chute": 3.233,
+        "The Carousel Entry": 7.3,
+        "The Carousel Exit": 5.083,
+        "The Esses (Entry)": 4.667,
+        "The Esses (Middle)": 3.133,
+        "The Esses Exit / The Bridge": 3.467,
+        "The Paddock": 5.317
+      }
+    },
+    {
+      "lap_number": 6,
+      "lap_time": 79.0,
+      "lap_time_formatted": "1:19.000",
+      "start_idx": 25531,
+      "end_idx": 30271,
+      "samples": 4740,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 34.283,
+        "S2": 30.733,
+        "S3": 13.967
+      },
+      "corners": {
+        "Turn 1": 5.217,
+        "Turn 2": 5.133,
+        "Wagon Bend": 6.083,
+        "The Chute": 3.217,
+        "The Carousel Entry": 7.433,
+        "The Carousel Exit": 5.2,
+        "The Esses (Entry)": 4.583,
+        "The Esses (Middle)": 3.167,
+        "The Esses Exit / The Bridge": 3.583,
+        "The Paddock": 5.317
+      }
+    },
+    {
+      "lap_number": 7,
+      "lap_time": 80.717,
+      "lap_time_formatted": "1:20.717",
+      "start_idx": 30271,
+      "end_idx": 35114,
+      "samples": 4843,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 35.35,
+        "S2": 32.033,
+        "S3": 13.317
+      },
+      "corners": {
+        "Turn 1": 5.717,
+        "Turn 2": 5.233,
+        "Wagon Bend": 6.417,
+        "The Chute": 3.183,
+        "The Carousel Entry": 7.633,
+        "The Carousel Exit": 5.683,
+        "The Esses (Entry)": 5.117,
+        "The Esses (Middle)": 3.233,
+        "The Esses Exit / The Bridge": 3.533,
+        "The Paddock": 4.883
+      }
+    },
+    {
+      "lap_number": 8,
+      "lap_time": 79.45,
+      "lap_time_formatted": "1:19.450",
+      "start_idx": 35114,
+      "end_idx": 39881,
+      "samples": 4767,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 34.567,
+        "S2": 31.5,
+        "S3": 13.367
+      },
+      "corners": {
+        "Turn 1": 5.333,
+        "Turn 2": 5.15,
+        "Wagon Bend": 6.35,
+        "The Chute": 3.6,
+        "The Carousel Entry": 7.767,
+        "The Carousel Exit": 5.333,
+        "The Esses (Entry)": 4.633,
+        "The Esses (Middle)": 3.133,
+        "The Esses Exit / The Bridge": 3.517,
+        "The Paddock": 4.883
+      }
+    },
+    {
+      "lap_number": 9,
+      "lap_time": 77.25,
+      "lap_time_formatted": "1:17.250",
+      "start_idx": 39881,
+      "end_idx": 44516,
+      "samples": 4635,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 33.95,
+        "S2": 29.533,
+        "S3": 13.75
+      },
+      "corners": {
+        "Turn 1": 5.2,
+        "Turn 2": 5.1,
+        "Wagon Bend": 6.067,
+        "The Chute": 3.2,
+        "The Carousel Entry": 7.217,
+        "The Carousel Exit": 4.95,
+        "The Esses (Entry)": 4.233,
+        "The Esses (Middle)": 3.083,
+        "The Esses Exit / The Bridge": 3.45,
+        "The Paddock": 5.15
+      }
+    }
+  ],
+  "sectors": {
+    "S1": {
+      "best": 33.95,
+      "worst": 44.233,
+      "avg": 35.95,
+      "sigma": 3.421,
+      "loss_per_lap": 2.0
+    },
+    "S2": {
+      "best": 29.5,
+      "worst": 32.033,
+      "avg": 30.531,
+      "sigma": 0.898,
+      "loss_per_lap": 1.031
+    },
+    "S3": {
+      "best": 13.317,
+      "worst": 14.2,
+      "avg": 13.623,
+      "sigma": 0.322,
+      "loss_per_lap": 0.306
+    }
+  },
+  "corners": {
+    "Turn 1": {
+      "best": 5.2,
+      "worst": 12.85,
+      "avg": 6.373,
+      "sigma": 2.626,
+      "variance_rating": "lottery"
+    },
+    "Turn 2": {
+      "best": 5.017,
+      "worst": 6.767,
+      "avg": 5.404,
+      "sigma": 0.569,
+      "variance_rating": "lottery"
+    },
+    "Wagon Bend": {
+      "best": 6.067,
+      "worst": 6.517,
+      "avg": 6.244,
+      "sigma": 0.172,
+      "variance_rating": "solid"
+    },
+    "The Chute": {
+      "best": 3.167,
+      "worst": 3.6,
+      "avg": 3.298,
+      "sigma": 0.188,
+      "variance_rating": "solid"
+    },
+    "The Carousel Entry": {
+      "best": 7.05,
+      "worst": 7.767,
+      "avg": 7.446,
+      "sigma": 0.242,
+      "variance_rating": "solid"
+    },
+    "The Carousel Exit": {
+      "best": 4.95,
+      "worst": 5.683,
+      "avg": 5.169,
+      "sigma": 0.24,
+      "variance_rating": "solid"
+    },
+    "The Esses (Entry)": {
+      "best": 4.183,
+      "worst": 5.117,
+      "avg": 4.508,
+      "sigma": 0.308,
+      "variance_rating": "work_needed"
+    },
+    "The Esses (Middle)": {
+      "best": 3.05,
+      "worst": 3.233,
+      "avg": 3.119,
+      "sigma": 0.061,
+      "variance_rating": "dialed"
+    },
+    "The Esses Exit / The Bridge": {
+      "best": 3.433,
+      "worst": 3.583,
+      "avg": 3.5,
+      "sigma": 0.053,
+      "variance_rating": "dialed"
+    },
+    "The Paddock": {
+      "best": 4.883,
+      "worst": 5.317,
+      "avg": 5.071,
+      "sigma": 0.179,
+      "variance_rating": "solid"
+    }
+  }
+}

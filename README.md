@@ -12,6 +12,8 @@ This is a **living research project** on **data-driven personalized learning** i
 
 **The Experiment:** Can an AI coach (Little Padawan) + rich telemetry data + ADHD-adapted frameworks accelerate skill acquisition in sim racing?
 
+**New!** 🫣 Read my blog at [little-padawan.vercel.app](https://little-padawan.vercel.app).
+
 **The Evidence (So Far):**
 - **+465 iRating** in 6 weeks (1238 → 1703)
 - **Sequential Mastery framework** producing measurable corner-by-corner improvement

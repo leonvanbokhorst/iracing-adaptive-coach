@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "file": "raygr22_summit summit raceway 2026-01-22 09-10-47.ibt",
+    "track": "Summit Point Raceway",
+    "track_id": "summit-summit-raceway",
+    "sample_rate_hz": 60,
+    "total_samples": 45279,
+    "duration_seconds": 754.6,
+    "laps_found": 10
+  },
+  "steering": {
+    "available": true,
+    "avg_jerk_rad_s2": 13.85,
+    "max_jerk_rad_s2": 237.42,
+    "jerk_sigma": 15.75,
+    "avg_velocity_rad_s": 0.57,
+    "max_velocity_rad_s": 12.57,
+    "max_steering_angle_rad": 3.199,
+    "per_corner": {
+      "Turn 1": {
+        "avg_jerk": 17.24,
+        "max_jerk": 189.3
+      },
+      "Turn 2": {
+        "avg_jerk": 11.2,
+        "max_jerk": 85.76
+      },
+      "Wagon Bend": {
+        "avg_jerk": 16.86,
+        "max_jerk": 223.82
+      },
+      "The Chute": {
+        "avg_jerk": 17.23,
+        "max_jerk": 189.32
+      },
+      "The Carousel Entry": {
+        "avg_jerk": 17.59,
+        "max_jerk": 165.25
+      },
+      "The Carousel Exit": {
+        "avg_jerk": 17.18,
+        "max_jerk": 237.42
+      },
+      "The Esses (Entry)": {
+        "avg_jerk": 18.39,
+        "max_jerk": 180.94
+      },
+      "The Esses (Middle)": {
+        "avg_jerk": 18.49,
+        "max_jerk": 144.35
+      },
+      "The Esses Exit / The Bridge": {
+        "avg_jerk": 10.8,
+        "max_jerk": 77.4
+      },
+      "The Paddock": {
+        "avg_jerk": 20.23,
+        "max_jerk": 196.64
+      }
+    }
+  },
+  "throttle": {
+    "available": true,
+    "avg_jerk_pct_s2": 490.9,
+    "max_jerk_pct_s2": 41577.1,
+    "avg_application_rate_pct_s": 80.4,
+    "avg_lift_rate_pct_s": 110.6,
+    "max_application_rate_pct_s": 653.7,
+    "max_throttle_pct": 100.0,
+    "avg_throttle_pct": 68.6,
+    "full_throttle_usage_pct": 55.4,
+    "per_corner_exit": {
+      "Turn 1": {
+        "avg_application_rate": 106.8,
+        "max_application_rate": 548.2
+      },
+      "Turn 2": {
+        "avg_application_rate": 89.1,
+        "max_application_rate": 398.6
+      },
+      "Wagon Bend": {
+        "avg_application_rate": 70.7,
+        "max_application_rate": 284.7
+      },
+      "The Chute": {
+        "avg_application_rate": 133.2,
+        "max_application_rate": 407.0
+      },
+      "The Carousel Entry": {
+        "avg_application_rate": 61.2,
+        "max_application_rate": 466.0
+      },
+      "The Carousel Exit": {
+        "avg_application_rate": 76.5,
+        "max_application_rate": 301.6
+      },
+      "The Esses (Entry)": {
+        "avg_application_rate": 80.0,
+        "max_application_rate": 301.5
+      },
+      "The Esses (Middle)": {
+        "avg_application_rate": 140.9,
+        "max_application_rate": 546.2
+      },
+      "The Esses Exit / The Bridge": {
+        "avg_application_rate": 105.0,
+        "max_application_rate": 324.8
+      },
+      "The Paddock": {
+        "avg_application_rate": 81.4,
+        "max_application_rate": 246.7
+      }
+    }
+  },
+  "brake": {
+    "available": true,
+    "avg_jerk_pct_s2": 200.5,
+    "max_jerk_pct_s2": 360000.1,
+    "avg_application_rate_pct_s": 74.0,
+    "avg_release_rate_pct_s": 63.0,
+    "max_application_rate_pct_s": 466.1,
+    "max_brake_pct": 100.0,
+    "avg_brake_pct_when_braking": 54.9,
+    "per_corner_entry": {
+      "Turn 1": {
+        "avg_application_rate": 103.7,
+        "avg_release_rate": 155.6
+      },
+      "Turn 2": {
+        "avg_application_rate": 74.3,
+        "avg_release_rate": 65.6
+      },
+      "Wagon Bend": {
+        "avg_application_rate": 41.3,
+        "avg_release_rate": 83.1
+      },
+      "The Chute": {
+        "avg_application_rate": 98.1,
+        "avg_release_rate": 65.6
+      },
+      "The Carousel Entry": {
+        "avg_application_rate": 105.4,
+        "avg_release_rate": 48.3
+      },
+      "The Carousel Exit": {
+        "avg_application_rate": 97.9,
+        "avg_release_rate": 76.9
+      },
+      "The Esses (Entry)": {
+        "avg_application_rate": 99.0,
+        "avg_release_rate": 77.9
+      },
+      "The Esses (Middle)": {
+        "avg_application_rate": 119.2,
+        "avg_release_rate": 86.3
+      },
+      "The Esses Exit / The Bridge": {
+        "avg_application_rate": 34.9,
+        "avg_release_rate": 42.4
+      },
+      "The Paddock": {
+        "avg_application_rate": 134.2,
+        "avg_release_rate": 100.9
+      }
+    }
+  }
+}
