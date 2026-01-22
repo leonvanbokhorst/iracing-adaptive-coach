@@ -15,11 +15,12 @@ This is a **living research project** on **data-driven personalized learning** i
 **New!** 🫣 Read my blog at [little-padawan.vercel.app](https://little-padawan.vercel.app).
 
 **The Evidence (So Far):**
-- **+465 iRating** in 6 weeks (1238 → 1703)
-- **Sequential Mastery framework** producing measurable corner-by-corner improvement
+- **+465 iRating** in 7 weeks (1238 → 1703)
+- **Sequential Mastery framework** producing 97% corner improvement in a single day
 - **17-minute focused practice sessions** outperforming hour-long scattered training
-- **Feeling + data alignment** producing locked-in learning (Week 07: 59% oversteer reduction in one session)
-- **6 consecutive race victories** applying learned techniques under pressure
+- **Voice-telemetry correlation** (EXP-02) validating verbal self-cueing → automatic execution
+- **6 consecutive AI race victories** applying learned techniques under pressure
+- **10/10 corners dialed** at Summit Point after 3 days of focused work
 
 **What We're Proving:**
 - AI + data + personalized frameworks = accelerated learning
@@ -46,101 +47,103 @@ All tracked, documented, validated, reproducible. 🏎️🔬
 
 **Weeks 05-08:**
 
-| Metric              | [W05 (Oschersleben)](./weeks/week05/README.md) | [W06 (Oran Park)](./weeks/week06/README.md) | [W07 (Summit Pt Main)](./tracks/track-summit-point-main-circuit.md) | [W08 (VIR North)](./tracks/track-virginia-international-raceway-north.md) |
-| :------------------ | :--------------------------------------------- | :------------------------------------------ | :------------------------------------------------------------------- | :------------------------------------------------------------------------ |
-| **Best Lap**        | 1:32.700                                       | 1:11.033                                    | -                                                                    | -                                                                         |
-| **PB Improvement**  | -1.12s                                         | **-1.55s**                                  | -                                                                    | -                                                                         |
-| **Consistency (σ)** | 0.77s                                          | 2.61s (limit-finding)                       | -                                                                    | -                                                                         |
-| **Victories**       | 2 (AI)                                         | 0                                           | -                                                                    | -                                                                         |
-| **Mood**            | Battle-Hardened                                | **Resilient**                               | -                                                                    | -                                                                         |
+| Metric              | [W05 (Oschersleben)](./weeks/week05/README.md) | [W06 (Oran Park)](./weeks/week06/README.md) | [W07 (Summit Pt Main)](./weeks/week07/README.md) | W08 (VIR North) |
+| :------------------ | :--------------------------------------------- | :------------------------------------------ | :----------------------------------------------- | :-------------- |
+| **Best Lap**        | 1:32.700                                       | 1:11.033                                    | **1:15.550**                                     | -               |
+| **PB Improvement**  | -1.12s                                         | **-1.55s**                                  | -0.60s                                           | -               |
+| **Consistency (σ)** | 0.77s                                          | 2.61s (limit-finding)                       | **0.129s** (elite!)                              | -               |
+| **Victories**       | 2 (AI)                                         | 0                                           | 0 (P2 x2)                                        | -               |
+| **Mood**            | Battle-Hardened                                | **Resilient**                               | **Evolved**                                      | -               |
 
-**Weeks 09-12:**
-
-| Metric              | [W09 (Lédenon)](./tracks/track-circuit-de-ledenon.md) | [W10 (Oulton Park)](./tracks/track-oulton-park-international.md) | [W11 (Okayama)](./tracks/track-okayama-international-circuit-full.md) | [W12 (Navarra)](./tracks/track-circuito-de-navarra-medium.md) |
-| :------------------ | :----------------------------------------------------- | :--------------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------- |
-| **Best Lap**        | -                                                      | -                                                                | -                                                                      | -                                                              |
-| **PB Improvement**  | -                                                      | -                                                                | -                                                                      | -                                                              |
-| **Consistency (σ)** | -                                                      | -                                                                | -                                                                      | -                                                              |
-| **Victories**       | -                                                      | -                                                                | -                                                                      | -                                                              |
-| **Mood**            | -                                                      | -                                                                | -                                                                      | -                                                              |
-
-**Current Status:** Week 06 Complete | [Standings (Week 05)](./weeks/week05/standings-report.md) | **Next Up:** Week 07 - Summit Point Raceway (Main Circuit)
+**Current Status:** Week 07 In Progress | **iRating: 1703** | **Top 0.44%** (P137 / 30,481)
 
 ---
 
-## Week 06: The Lesson (Oran Park)
+## Week 07: The Click (Summit Point Main Circuit)
 
-Oran Park was supposed to be simple. Learn a new track. Race clean. Bank points. Move on.
+There's a moment when everything stops feeling hard. When the track that fought you yesterday suddenly feels like home. When the corner that was a lottery becomes a weapon.
 
-Instead, Master Lonn learned what separates fast drivers from championship drivers: knowing when to walk away.
+Master Lonn found that moment at Summit Point.
 
-The week started clean. A track he'd never seen—blind crests, elevation changes, corners that bit back. Champion Curve was a 3-second lottery on Day 1. By Day 3, it was a 0.052s laser. Foster's Dip, a terrifying compression that threw the car sideways, became a weapon when he discovered the trick: trust the 3.3G load. Light brakes, early turn-in, let physics do the work.
+He returned after seven months away, expecting rust. Instead, his first lap was 1.4 seconds faster than his old PB. The growth from Weeks 01-06 had compounded into something he couldn't see until he was back on familiar ground.
 
-Four consecutive practice PBs. 1.55 seconds dropped in three days. By Practice 04, he was sitting on 1:11.033, gap to optimal just 0.25s. The track was dialed. 83% of corners locked in.
+But that was just the beginning. The first session revealed two nemesis corners—Turn 1 and the Carousel—accounting for 88% of all rotation events. The gap to P4 (Shuning Gong) was 1.1 seconds. Not talent. *Commitment*.
 
-Then came race day. Four races in five hours.
+Day two, seventeen minutes changed everything.
 
-**Race 01** (08:55): Qualified P4. Got caught in a crash at Coca-Cola, lost 8 seconds, but reset instantly. Set his fastest lap on the FINAL lap. P6, 55 points banked. The Banker strategy worked.
+He walked into the session with two focus areas: T5 coasting (no trail braking into the Carousel) and T1 late braking (full commitment after the three cones). No chasing lap times. No heroics. Just deliberate, focused drilling.
 
-**Race 02** (11:31): Top split demolition derby. Punted from behind at Coca-Cola. Drove into another unavoidable crash. Two meatball flags. DNF. 10x incidents. iRating -46. The pace was there (1:12.767, faster than quali), but the track was a war zone.
+The data came back: 59% oversteer reduction at T5. Automaticity forming at T1. PB matched without trying.
 
-**Race 03** (11:57): The reset. Qualified P5, finished P7. Best lap 1:11.500. Consistency 0.796s (ELITE). 10 out of 12 corners dialed. Drove into a spinner (3x, unavoidable), but brought the car home. **67 championship points**. iRating +24, clawing back from Race 02.
+That evening, exhausted, he did a "flow session"—just drive, have fun, see what stuck. Twenty-five minutes of rallycross-mode shenanigans. The result? **NEW PB: 1:15.550**. The morning's technique work had bedded in during play. Speed came as byproduct.
 
-He should have stopped there.
+Day three brought the races. The morning was chaos—contact at Lap 2, off-track at Lap 3, dropped from P1 to P8. He recovered to P2, setting his fastest lap on the final lap. Voice recording captured his mental journey: frustration → acceptance → focus → confidence.
 
-**Race 04** (12:27): Didn't qualify. Started P9. Wanted to test meebewegen from the back. Got caught in chaos anyway. Another meatball. 4x. Best lap 1:11.750—**slower** than Race 03. P8 finish. iRating -20.
+But the evening session was where it clicked.
 
-And then it hit him. The point system (best 1 of 4 races) meant **Race 03's 67 points WAS his week score**. Race 04 was unnecessary risk that gained nothing and cost iRating.
+Started on pole. Got passed by faster AI—*didn't fight it* (Meebewegen 2.0). Chased. Caught. Then, at T5, the corner he'd drilled two days earlier, he saw his moment. He carried speed through the apex, got better drive, and made a clean pass to take the lead.
 
-His words: *"If I had known we earned 67 points, I would have stopped."*
+The adaptive AI sped up. With two minutes left, the #8 car slipstreamed past and reclaimed P1.
 
-That's the lesson Oran Park taught him. Championship racing isn't about how fast you can go. It's about knowing when you've already won.
+Master Lonn's final lap? **1:15.800**. Only 0.25s off his practice PB. In a race. While chasing.
+
+He finished P2. But the data told a different story: **10 out of 10 corners dialed**. Turn 1, which had been a 2.626-second lottery that morning, was now 0.087 seconds consistent. A 97% improvement in *one day*.
+
+The voice recording proved what the telemetry couldn't see. "No trail braking," he said four times during the race. Carousel Entry brake point σ: 1.9 meters—the same spot within two meters across ten laps of intense racing. Verbal self-cueing becoming automatic execution.
+
+This wasn't luck. This was the result of focused practice → flow consolidation → race deployment. The learning cycle that Week 05-06 built, weaponized.
+
+When the adaptive AI had to speed up to beat him, it wasn't a loss. It was validation.
 
 ---
 
 ## The Journey So Far
 
+### Week 06: The Lesson (Oran Park)
+
+Oran Park was supposed to be simple. Learn a new track. Race clean. Bank points.
+
+Instead, Master Lonn learned what separates fast drivers from championship drivers: knowing when to walk away.
+
+Four consecutive practice PBs. 1.55 seconds dropped in three days. Champion Curve mastered (92% improvement). Foster's Dip technique self-discovered—light brakes before the compression, trust the 3.3G load, let physics do the work.
+
+Then came race day. Four races in five hours. Race 03 was perfect: P7 finish, 67 championship points, 0.796s σ (ELITE), resilience proven. **That was the week score.**
+
+But he didn't stop. Race 04 cost iRating and gained nothing. The lesson: *Know When To Stop*.
+
 ### Week 05: The Hotel's Revenge (Oschersleben)
 
-Oschersleben is honest. It asks one question: *Can you hit your marks?*
+T2 Hotel Exit—a decreasing radius downhill corner that snapped the rear and cost race wins. Five AI races. Three potential victories lost to one corner.
 
-Master Lonn arrived with GR86 muscle memory that betrayed him in the FF1600. T2 Hotel Exit became a nightmare—a decreasing radius downhill corner that snapped the rear axle and cost race wins.
+He went back to the lab. Reverse-engineered the aliens. Found the technique: 20% throttle hold through the apex to stabilize the rear.
 
-Five AI races. Three potential victories lost to T2.
-
-But he didn't quit. He went back to the lab. He reverse-engineered the aliens. He found the technique: **20% throttle hold through the apex**. It stabilized the rear.
-
-In the final official race, on no sleep and starting P10, he drove through the field. T2 was mastered (σ 0.153s). He finished P4 with 0 incidents. The Achilles heel was dead.
+In the final official race, on no sleep, starting P10, he drove through the field. T2 was mastered (σ 0.153s). The Achilles heel was dead.
 
 ### Week 04: The Ninja (Lime Rock Park)
 
-"From 'No Clue' to Top Split Podium."
+From "No Clue" to Top Split Podium.
 
-It started with frustration at The Uphill (T5). It ended with beating the Series #1 driver through that exact corner.
-
-The breakthrough came from Chapter 16: **Edge Mapping**. Master Lonn applied the drill and instantly found 0.8s. In the Top Split official race (SoF 2035), he qualified P2. When a faster driver attacked, he didn't fight—he deployed **Meebewegen**. He let them through, stayed clean, and took a P3 podium with 94 championship points. Ninja > Barbarian.
+The breakthrough came from Edge Mapping—finding the spatial limits at 70% pace, then deploying at 100%. S3 consistency improved 56%. In the Top Split (SoF 2035), when a faster driver attacked, he deployed Meebewegen. Let them through. Stayed clean. P3 podium. Ninja > Barbarian.
 
 ### Week 03: The Robot (Winton)
 
-"Boring is just another word for Perfection."
+Master Lonn became a metronome. 1:25.710. Consistency σ 0.16s. He won by being so relentlessly consistent that opponents crashed trying to keep up.
 
-Master Lonn returned to Winton and turned into a metronome. **1:25.710**. Consistency σ **0.16s**. He won by being so relentlessly consistent that opponents crashed trying to keep up.
-
-This was the week of the **Cold Tire Contract**: giving up Laps 1-2 to survive, then attacking from Lap 3. It became the foundation of his racecraft.
+This was the week of the Cold Tire Contract: survive Laps 1-2, attack from Lap 3. It became the foundation of his racecraft.
 
 ### Week 02: The Rust (Rudskogen)
 
-Six months away from this track. The rust was real. T2 was a disaster.
+Six months away. The rust was real. T2 was a disaster.
 
 But he chipped away at it. Found the "50 sign" brake marker. Beat his July PB by 0.4s. Scored a Top 500 global ranking time.
 
-The lesson? **Strategic Maturity**. In a chaotic race, he recognized "P3 is secured," backed off 5%, and brought the car home. A driver became a racer.
+The lesson: Strategic Maturity. In a chaotic race, he recognized "P3 is secured," backed off 5%, and brought the car home.
 
 ### Week 01: The Beginning (Jefferson)
 
 He arrived running 51.4s, scared of the walls. He left running 50.5s, with a race victory and a podium.
 
-The discovery of **Flow State**. "Easy flying." The realization that trying less means going faster.
+The discovery of Flow State. "Easy flying." The realization that trying less means going faster.
 
 ---
 
@@ -148,13 +151,17 @@ The discovery of **Flow State**. "Easy flying." The realization that trying less
 
 **Master Lonn** isn't just fast. He's a **Systems Thinker**.
 
-He doesn't just drive laps; he builds protocols. The *Cold Tire Contract*. The *Position Secured Protocol*. The *Pit Crew Protocol*.
+He doesn't just drive laps; he builds protocols. The *Cold Tire Contract*. The *Position Secured Protocol*. The *Pit Crew Protocol*. The *Sequential Mastery Framework*.
 
 He has ADHD, which means his brain craves novelty but struggles with impulse. The systems are the guardrails. When the red mist descends, the protocol takes over.
 
-He's learned that **Success** (P6, 55 points) is different from **Satisfaction** ("I wanted P1"). He's learned that **Resilience** (resetting after a crash) is worth more than raw speed.
+He's learned that **Success** (P137, 67 points) is different from **Satisfaction** ("I wanted P1"). He's learned that **Resilience** (resetting after a crash in one lap) is worth more than raw speed.
 
-He is currently ranked **Top 0.4%** globally. And he's just getting started.
+He's learned that **increments getting smaller** doesn't mean growth stopping—it means reaching the next phase. The gains from "stop crashing" are done. Now it's fractions of seconds against people who've been doing this for years.
+
+He is currently ranked **Top 0.44%** globally. And after Week 07, he's not wondering if he's still growing.
+
+He knows.
 
 ---
 

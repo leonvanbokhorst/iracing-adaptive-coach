@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "file": "raygr22_summit summit raceway 2026-01-22 17-11-01.ibt",
+    "track": "Summit Point Raceway",
+    "track_id": "summit-summit-raceway",
+    "sample_rate_hz": 60,
+    "total_samples": 47949,
+    "duration_seconds": 799.1,
+    "laps_found": 11
+  },
+  "steering": {
+    "available": true,
+    "avg_jerk_rad_s2": 14.93,
+    "max_jerk_rad_s2": 240.57,
+    "jerk_sigma": 16.86,
+    "avg_velocity_rad_s": 0.57,
+    "max_velocity_rad_s": 6.07,
+    "max_steering_angle_rad": 1.103,
+    "per_corner": {
+      "Turn 1": {
+        "avg_jerk": 18.98,
+        "max_jerk": 175.72
+      },
+      "Turn 2": {
+        "avg_jerk": 11.96,
+        "max_jerk": 87.85
+      },
+      "Wagon Bend": {
+        "avg_jerk": 18.56,
+        "max_jerk": 208.13
+      },
+      "The Chute": {
+        "avg_jerk": 16.67,
+        "max_jerk": 110.87
+      },
+      "The Carousel Entry": {
+        "avg_jerk": 18.04,
+        "max_jerk": 188.26
+      },
+      "The Carousel Exit": {
+        "avg_jerk": 18.88,
+        "max_jerk": 154.79
+      },
+      "The Esses (Entry)": {
+        "avg_jerk": 21.18,
+        "max_jerk": 178.85
+      },
+      "The Esses (Middle)": {
+        "avg_jerk": 17.84,
+        "max_jerk": 131.79
+      },
+      "The Esses Exit / The Bridge": {
+        "avg_jerk": 10.62,
+        "max_jerk": 98.32
+      },
+      "The Paddock": {
+        "avg_jerk": 23.08,
+        "max_jerk": 219.65
+      }
+    }
+  },
+  "throttle": {
+    "available": true,
+    "avg_jerk_pct_s2": 339.4,
+    "max_jerk_pct_s2": 38919.2,
+    "avg_application_rate_pct_s": 83.3,
+    "avg_lift_rate_pct_s": 137.7,
+    "max_application_rate_pct_s": 643.2,
+    "max_throttle_pct": 100.0,
+    "avg_throttle_pct": 74.3,
+    "full_throttle_usage_pct": 65.5,
+    "per_corner_exit": {
+      "Turn 1": {
+        "avg_application_rate": 109.8,
+        "max_application_rate": 643.2
+      },
+      "Turn 2": {
+        "avg_application_rate": 26.7,
+        "max_application_rate": 38.0
+      },
+      "Wagon Bend": {
+        "avg_application_rate": 97.4,
+        "max_application_rate": 474.4
+      },
+      "The Chute": {
+        "avg_application_rate": 119.2,
+        "max_application_rate": 345.9
+      },
+      "The Carousel Entry": {
+        "avg_application_rate": 54.3,
+        "max_application_rate": 217.2
+      },
+      "The Carousel Exit": {
+        "avg_application_rate": 42.6,
+        "max_application_rate": 231.9
+      },
+      "The Esses (Entry)": {
+        "avg_application_rate": 65.0,
+        "max_application_rate": 189.9
+      },
+      "The Esses (Middle)": {
+        "avg_application_rate": 43.1,
+        "max_application_rate": 82.2
+      },
+      "The Paddock": {
+        "avg_application_rate": 86.5,
+        "max_application_rate": 288.8
+      }
+    }
+  },
+  "brake": {
+    "available": true,
+    "avg_jerk_pct_s2": 181.9,
+    "max_jerk_pct_s2": 360000.1,
+    "avg_application_rate_pct_s": 80.3,
+    "avg_release_rate_pct_s": 73.9,
+    "max_application_rate_pct_s": 462.5,
+    "max_brake_pct": 100.0,
+    "avg_brake_pct_when_braking": 59.1,
+    "per_corner_entry": {
+      "Turn 1": {
+        "avg_application_rate": 110.8,
+        "avg_release_rate": 680.8
+      },
+      "Turn 2": {
+        "avg_application_rate": 79.5,
+        "avg_release_rate": 99.6
+      },
+      "Wagon Bend": {
+        "avg_application_rate": 51.7,
+        "avg_release_rate": 108.3
+      },
+      "The Chute": {
+        "avg_application_rate": 105.6,
+        "avg_release_rate": 74.2
+      },
+      "The Carousel Entry": {
+        "avg_application_rate": 110.4,
+        "avg_release_rate": 41.2
+      },
+      "The Carousel Exit": {
+        "avg_application_rate": 101.4,
+        "avg_release_rate": 88.6
+      },
+      "The Esses (Entry)": {
+        "avg_application_rate": 102.3,
+        "avg_release_rate": 89.5
+      },
+      "The Esses (Middle)": {
+        "avg_application_rate": 136.0,
+        "avg_release_rate": 97.3
+      },
+      "The Paddock": {
+        "avg_application_rate": 154.0,
+        "avg_release_rate": 81.6
+      }
+    }
+  }
+}

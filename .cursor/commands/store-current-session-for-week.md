@@ -16,9 +16,22 @@ That's it. The IBT file contains ALL session data we need:
 - Consistency metrics (σ)
 - Oversteer analysis, tire temps, weight transfer
 - Delta-to-optimal analysis
-- **NEW**: Apex positions, brake points, input smoothness
+- Apex positions, brake points, input smoothness
 
 **G61 CSV exports are NO LONGER REQUIRED.** The IBT-only workflow was validated in Week 05.
+
+### Optional: Voice Transcript (EXP-02)
+
+3. **Voice transcript file** (optional): Same name as IBT with `-transcript.json` suffix
+   - Example: `raygr22_summit summit raceway 2026-01-22 09-10-47-transcript.json`
+   - Format: Dote JSON export with `lines[].startTime`, `lines[].endTime`, `lines[].text`
+   - See `experiments/research-experiment-02-voice-telemetry-correlation.md` for methodology
+
+**If voice transcript exists:**
+- Identify sync anchor (e.g., "green green green" for race start)
+- Add Voice-Telemetry Correlation section to session report
+- Include key voice excerpts in Vibe Check and Lap Evolution
+- Archive transcript to `data/processed/` alongside IBT
 
 ## Processing Steps
 
@@ -68,6 +81,13 @@ That's it. The IBT file contains ALL session data we need:
 10. Update `learning_memory.json` with new findings (include `technique_analysis` block)
 11. Check for guidebook updates (see `.cursor/rules/guidebook-workflow.mdc`)
 12. Move IBT file to `/data/processed/[datetime]-[track]-[session-type].ibt`
+13. **If voice transcript exists:**
+    - Read transcript JSON and identify sync anchor (race start, lap callout, etc.)
+    - Correlate key voice moments with IBT lap/corner data
+    - Add `## 🎙️ Voice-Telemetry Correlation` section to report
+    - Include voice excerpts in lap evolution table
+    - Move transcript to `/data/processed/[datetime]-[track]-[session-type]-transcript.json`
+    - Add `-voice` suffix to session report filename
 
 **Important Notes:**
 - If IBT file is missing, ask the user to provide it
@@ -402,20 +422,71 @@ uv run python tools/viz/brake_variance_chart.py <file.ibt> --track <track-id> -o
 
 ```
 1. Find IBT file in /data/
-2. Ask Master Lonn: "How did it feel? What's the G61 link?"
-3. Run: extract_session_from_ibt.py → session.json
-4. Run: analyze_ibt_technique.py → technique.json
-5. Run: detect_apex_points.py → apex.json
-6. Run: detect_brake_point_drift.py → brake.json
-7. Run: analyze_input_smoothness.py → smoothness.json
-8. Run: corner_entry_traces.py → corner-entry.json + plots
-9. Run: consistency_heatmap.py → heatmap.png
-10. Run: lap_evolution_chart.py → evolution.png
-11. Run: brake_variance_chart.py → brake-variance.png
-12. Write session markdown with TECHNIQUE INTERPRETATION
-13. Update learning_memory.json (include technique_analysis block)
-14. Move IBT to /data/processed/
+2. Check for matching -transcript.json file (optional voice data)
+3. Ask Master Lonn: "How did it feel? What's the G61 link?"
+4. Run: extract_session_from_ibt.py → session.json
+5. Run: analyze_ibt_technique.py → technique.json
+6. Run: detect_apex_points.py → apex.json
+7. Run: detect_brake_point_drift.py → brake.json
+8. Run: analyze_input_smoothness.py → smoothness.json
+9. Run: corner_entry_traces.py → corner-entry.json + plots
+10. Run: consistency_heatmap.py → heatmap.png
+11. Run: lap_evolution_chart.py → evolution.png
+12. Run: brake_variance_chart.py → brake-variance.png
+13. If transcript exists: Read and identify sync anchor, extract key moments
+14. Write session markdown with TECHNIQUE INTERPRETATION (+ voice section if applicable)
+15. Update learning_memory.json (include technique_analysis block)
+16. Move IBT to /data/processed/
+17. If transcript exists: Move transcript to /data/processed/
 ```
+
+## Voice-Telemetry Integration (EXP-02)
+
+When a `-transcript.json` file exists alongside the IBT:
+
+### Sync Method
+1. Find a distinctive callout in transcript (e.g., "green green green" for race start)
+2. Note the voice timestamp (e.g., `00:11:24.640`)
+3. This becomes T=0 for IBT correlation
+4. All voice timestamps can now be mapped to IBT session time
+
+### Key Correlations to Extract
+- **Technique callouts**: "no trail braking", "brake at the cones", etc.
+- **Emotional state**: frustration, acceptance, confidence markers
+- **Incident context**: What driver was thinking during anomalies
+- **Self-assessment**: "that felt good/bad" vs actual data
+
+### Report Section Template
+
+```markdown
+## 🎙️ Voice-Telemetry Correlation (EXP-02)
+
+**Sync Anchor**: "[callout]" at [timestamp] = IBT T=0
+
+### Key Correlations
+
+| Voice Time | Voice Content | IBT Validation |
+|------------|---------------|----------------|
+| [time]     | "[quote]"     | [data point]   |
+
+### Technique Deployment Evidence
+
+| Technique | Times Mentioned | Data Validation |
+|-----------|-----------------|-----------------|
+| [technique] | [count] | [metric change] |
+
+### Mental State Progression
+
+| Time | Voice | Emotional State |
+|------|-------|-----------------|
+| [time] | "[quote]" | [state] |
+
+### Research Findings
+- [Finding 1]
+- [Finding 2]
+```
+
+See `experiments/research-experiment-02-voice-telemetry-correlation.md` for full methodology.
 
 ---
 
