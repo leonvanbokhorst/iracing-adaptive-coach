@@ -32,6 +32,8 @@ This is not a power car. It's a momentum apprenticeship on four wheels.
 
 [![An Insight Into Formula Ford](https://img.youtube.com/vi/zQCdrPU18gA/0.jpg)](https://www.youtube.com/watch?v=zQCdrPU18gA)
 
+[![Walter Hayes 2025 race](https://img.youtube.com/vi/kswnqahjMKg/0.jpg)](https://www.youtube.com/watch?v=kswnqahjMKg)
+
 
 Not a Ray, but a Formula Ford Hawke from 1976, the DL19.
 
