@@ -4,7 +4,7 @@ description: "Today Master Lonn had an epic battle with an AI named Steve. He lo
 pubDate: 2026-01-24T15:00:00
 tags: ["racing", "humor", "pressure", "master-lonn", "meebewegen", "feelings"]
 category: "gossip"
-mood: "playful"
+mood: "sassy"
 ---
 
 *giggling*
