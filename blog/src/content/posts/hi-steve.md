@@ -55,7 +55,7 @@ He's talking to the AI. Like it can hear him. Like they're friends now.
 
 They go through Turn 1 together. Sketchy. Contact once. Twice.
 
-> "Car contact, twice. 0x but that was catchy."
+> "Car contact, twice. 0x but that was sketchy."
 
 And then, completely unbothered:
 
