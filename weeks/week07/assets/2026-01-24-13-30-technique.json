@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "file": "raygr22_summit summit raceway 2026-01-24 13-30-47.ibt",
+    "samples": 48329,
+    "duration_seconds": 805.48,
+    "tick_rate_hz": 60,
+    "best_lap_time": 75.856,
+    "laps": 11,
+    "track": null,
+    "car_has_abs": false
+  },
+  "oversteer_analysis": {
+    "available": true,
+    "max_yaw_rate_deg_s": 81.6,
+    "avg_yaw_rate_deg_s": 12.1,
+    "oversteer_events": 4798,
+    "oversteer_threshold_deg_s": 30.0,
+    "oversteer_zones": {
+      "10-20%": 1242,
+      "30-40%": 169,
+      "50-60%": 3068,
+      "60-70%": 255,
+      "80-90%": 55,
+      "40-50%": 9
+    },
+    "notable_events": [
+      {
+        "sample": 1966,
+        "yaw_rate_deg_s": 31.2,
+        "track_pct": 16.65,
+        "speed_kmh": 98.7
+      },
+      {
+        "sample": 1967,
+        "yaw_rate_deg_s": 31.1,
+        "track_pct": 16.66,
+        "speed_kmh": 98.5
+      },
+      {
+        "sample": 1968,
+        "yaw_rate_deg_s": 31.1,
+        "track_pct": 16.67,
+        "speed_kmh": 98.2
+      },
+      {
+        "sample": 1969,
+        "yaw_rate_deg_s": 31.3,
+        "track_pct": 16.69,
+        "speed_kmh": 98.0
+      },
+      {
+        "sample": 1994,
+        "yaw_rate_deg_s": 30.3,
+        "track_pct": 17.04,
+        "speed_kmh": 92.8
+      },
+      {
+        "sample": 1995,
+        "yaw_rate_deg_s": 30.4,
+        "track_pct": 17.05,
+        "speed_kmh": 92.6
+      },
+      {
+        "sample": 1996,
+        "yaw_rate_deg_s": 30.7,
+        "track_pct": 17.07,
+        "speed_kmh": 92.4
+      },
+      {
+        "sample": 1997,
+        "yaw_rate_deg_s": 34.0,
+        "track_pct": 17.08,
+        "speed_kmh": 92.2
+      },
+      {
+        "sample": 1998,
+        "yaw_rate_deg_s": 35.3,
+        "track_pct": 17.09,
+        "speed_kmh": 92.1
+      },
+      {
+        "sample": 1999,
+        "yaw_rate_deg_s": 35.7,
+        "track_pct": 17.11,
+        "speed_kmh": 91.9
+      }
+    ]
+  },
+  "tire_temps": {
+    "available": true,
+    "tires": {
+      "LF": {
+        "temps_C": {
+          "inside": 59.1,
+          "middle": 60.6,
+          "outside": 61.6
+        },
+        "in_out_diff": -2.5,
+        "balance": "balanced"
+      },
+      "RF": {
+        "temps_C": {
+          "inside": 59.8,
+          "middle": 58.7,
+          "outside": 55.8
+        },
+        "in_out_diff": 4.0,
+        "balance": "balanced"
+      },
+      "LR": {
+        "temps_C": {
+          "inside": 59.9,
+          "middle": 61.1,
+          "outside": 61.7
+        },
+        "in_out_diff": -1.8,
+        "balance": "balanced"
+      },
+      "RR": {
+        "temps_C": {
+          "inside": 60.2,
+          "middle": 59.4,
+          "outside": 56.9
+        },
+        "in_out_diff": 3.3,
+        "balance": "balanced"
+      }
+    }
+  },
+  "weight_transfer": {
+    "available": true,
+    "shocks": {
+      "LFshockDefl": {
+        "min_mm": -1.08,
+        "max_mm": 48.32,
+        "range_mm": 49.4,
+        "avg_mm": 6.57
+      },
+      "RFshockDefl": {
+        "min_mm": -1.0,
+        "max_mm": 40.74,
+        "range_mm": 41.74,
+        "avg_mm": 3.35
+      },
+      "LRshockDefl": {
+        "min_mm": 1.92,
+        "max_mm": 61.28,
+        "range_mm": 59.36,
+        "avg_mm": 27.9
+      },
+      "RRshockDefl": {
+        "min_mm": 2.27,
+        "max_mm": 65.25,
+        "range_mm": 62.99,
+        "avg_mm": 24.93
+      }
+    },
+    "front_rear_balance": -21.45,
+    "interpretation": {
+      "front_rear_diff_mm": -21.45,
+      "note": "Positive = more front load (braking bias), Negative = more rear load (accel bias)"
+    }
+  },
+  "delta_analysis": {
+    "available": true,
+    "final_delta_to_optimal_s": 5.081,
+    "losing_time_zones": {
+      "0-10%": 2813,
+      "10-20%": 3702,
+      "20-30%": 3535,
+      "30-40%": 3532,
+      "40-50%": 3199,
+      "50-60%": 4431,
+      "60-70%": 4633,
+      "70-80%": 2956,
+      "80-90%": 3817,
+      "90-100%": 3398
+    },
+    "gaining_time_zones": {
+      "10-20%": 1481,
+      "30-40%": 614,
+      "50-60%": 2253,
+      "70-80%": 957,
+      "20-30%": 855,
+      "60-70%": 355,
+      "40-50%": 736,
+      "80-90%": 352,
+      "90-100%": 496,
+      "0-10%": 684
+    },
+    "interpretation": "Positive delta = slower than optimal, Negative = faster (unlikely)"
+  },
+  "abs_analysis": {
+    "available": false,
+    "reason": "Car does not have ABS"
+  }
+}
