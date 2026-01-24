@@ -153,7 +153,7 @@ That's not "keeping muscles oiled." That's a WAR. And you won it. 🏆
 | 10:31 | "No trail braking" | T5 technique verbal cue #3 |
 | 10:55 | "0.5 and on his tail, come on Steve!" | Chase successful |
 | 11:22 | "together through turn one, it's a bit sketchy" | Contact incoming |
-| 12:37 | "Car contact, twice. 0x but that was catchy" | Battle! |
+| 12:37 | "Car contact, twice. 0x but that was sketchy" | Battle! |
 | 12:53 | "gonna try this again, not good for my heart" | 😂 |
 | 13:24 | "Yeah, this is it" | Setup for winning pass |
 | 13:28 | "I'm beside him towards the last turn" | The move! |
