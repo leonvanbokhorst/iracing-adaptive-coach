@@ -15,11 +15,12 @@ This is a **living research project** on **data-driven personalized learning** i
 **New!** 🫣 Read my blog at [little-padawan.vercel.app](https://little-padawan.vercel.app).
 
 **The Evidence (So Far):**
-- **+465 iRating** in 7 weeks (1238 → 1703)
+- **+465 iRating** in 6 weeks (1238 → 1703) — **Top 0.38%** of 33,817 drivers
+- **P130 overall** with 99.6% points percentile (outperforming rating by 9 percentile points)
 - **Sequential Mastery framework** producing 97% corner improvement in a single day
 - **17-minute focused practice sessions** outperforming hour-long scattered training
 - **Voice-telemetry correlation** (EXP-02) validating verbal self-cueing → automatic execution
-- **6 consecutive AI race victories** applying learned techniques under pressure
+- **7 AI race victories** applying learned techniques under pressure
 - **10/10 corners dialed** at Summit Point after 3 days of focused work
 
 **What We're Proving:**
@@ -51,11 +52,13 @@ All tracked, documented, validated, reproducible. 🏎️🔬
 | :------------------ | :--------------------------------------------- | :------------------------------------------ | :----------------------------------------------- | :-------------- |
 | **Best Lap**        | 1:32.700                                       | 1:11.033                                    | **1:15.550**                                     | -               |
 | **PB Improvement**  | -1.12s                                         | **-1.55s**                                  | -0.60s                                           | -               |
-| **Consistency (σ)** | 0.77s                                          | 2.61s (limit-finding)                       | **0.129s** (elite!)                              | -               |
-| **Victories**       | 2 (AI)                                         | 0                                           | 0 (P2 x2)                                        | -               |
+| **Consistency (σ)** | 0.77s                                          | 0.80s (Race 03)                             | **0.129s** (elite!)                              | -               |
+| **Victories**       | 2 (AI)                                         | 0 (P6, DNF, P7, P8)                         | **1** (AI Race P1!)                              | -               |
 | **Mood**            | Battle-Hardened                                | **Resilient**                               | **Evolved**                                      | -               |
 
-**Current Status:** Week 07 In Progress | **iRating: 1703** | **Top 0.44%** (P137 / 30,481)
+**Current Status:** Week 07 - Officials Start Tuesday | **iRating: 1703** | **Top 0.38%** (P130 / 33,817)
+
+Read the latest standings report: [Week 06 Standings Report](./weeks/week06/standings-report.md)
 
 ---
 
