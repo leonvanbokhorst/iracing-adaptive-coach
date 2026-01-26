@@ -16,10 +16,19 @@
     "division_rank": "P7 (Top 0.4%)",
     "dutch_rank": "P6 (Overall) / P2 (Div 8)",
     "series": "Formula 1600 Rookie Series",
-    "position_current": 129,
-    "total_drivers": 33684,
+    "position_current": 130,
+    "total_drivers": 33817,
     "position_percentile": "Top 0.38%",
-    "week06_final": true
+    "week06_final": true,
+    "week06_stats": {
+      "starts": 15,
+      "wins": 2,
+      "poles": 2,
+      "top5s": 10,
+      "laps_led": 23,
+      "incidents": 42,
+      "points": 464
+    }
   },
   "rivals": [
     {
