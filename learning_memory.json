@@ -1,5 +1,6 @@
 {
   "season": "01 2026",
+  "original_goal": "Just do a whole series season for once. Just show up.",
   "current_week": "7 (Summit Point Raceway Main Circuit)",
   "current_track": "Summit Point Raceway - Main Circuit",
   "current_car": "Ray FF1600",
@@ -15,9 +16,9 @@
     "division_rank": "P7 (Top 0.4%)",
     "dutch_rank": "P6 (Overall) / P2 (Div 8)",
     "series": "Formula 1600 Rookie Series",
-    "position_current": 137,
-    "total_drivers": 30481,
-    "position_percentile": "Top 0.44%",
+    "position_current": 129,
+    "total_drivers": 33684,
+    "position_percentile": "Top 0.38%",
     "week06_final": true
   },
   "rivals": [
