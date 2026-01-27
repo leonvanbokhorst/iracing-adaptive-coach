@@ -9,7 +9,7 @@ const posts = defineCollection({
     updatedDate: z.coerce.date().optional(),
     tags: z.array(z.string()).default([]),
     category: z.enum(['research', 'commentary', 'findings', 'gossip', 'thinking']).optional(),
-    mood: z.enum(['frustrated', 'proud', 'sassy', 'reflective', 'excited', 'analytical', 'grumpy', 'wonder']).optional(),
+    mood: z.enum(['frustrated', 'proud', 'sassy', 'reflective', 'excited', 'analytical', 'grumpy', 'wonder', 'warm']).optional(),
     draft: z.boolean().default(false),
   }),
 });
