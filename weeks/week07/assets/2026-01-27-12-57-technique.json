@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "file": "raygr22_summit summit raceway 2026-01-27 12-57-08.ibt",
+    "samples": 54713,
+    "duration_seconds": 911.88,
+    "tick_rate_hz": 60,
+    "best_lap_time": 76.425,
+    "laps": 11,
+    "track": "Summit Point Raceway",
+    "car_has_abs": false
+  },
+  "oversteer_analysis": {
+    "available": true,
+    "max_yaw_rate_deg_s": 61.5,
+    "avg_yaw_rate_deg_s": 10.6,
+    "oversteer_events": 4724,
+    "oversteer_threshold_deg_s": 30.0,
+    "oversteer_zones": {
+      "10-20%": 1223,
+      "30-40%": 128,
+      "40-50%": 9,
+      "50-60%": 3048,
+      "60-70%": 275,
+      "80-90%": 38,
+      "90-100%": 3
+    },
+    "notable_events": [
+      {
+        "sample": 8289,
+        "yaw_rate_deg_s": 30.5,
+        "track_pct": 16.85,
+        "speed_kmh": 81.3
+      },
+      {
+        "sample": 8290,
+        "yaw_rate_deg_s": 31.7,
+        "track_pct": 16.86,
+        "speed_kmh": 81.2
+      },
+      {
+        "sample": 8291,
+        "yaw_rate_deg_s": 31.6,
+        "track_pct": 16.87,
+        "speed_kmh": 81.2
+      },
+      {
+        "sample": 8296,
+        "yaw_rate_deg_s": 30.4,
+        "track_pct": 16.92,
+        "speed_kmh": 80.8
+      },
+      {
+        "sample": 8306,
+        "yaw_rate_deg_s": 30.9,
+        "track_pct": 17.03,
+        "speed_kmh": 79.4
+      },
+      {
+        "sample": 8307,
+        "yaw_rate_deg_s": 32.0,
+        "track_pct": 17.04,
+        "speed_kmh": 79.2
+      },
+      {
+        "sample": 8308,
+        "yaw_rate_deg_s": 32.7,
+        "track_pct": 17.05,
+        "speed_kmh": 79.1
+      },
+      {
+        "sample": 8309,
+        "yaw_rate_deg_s": 32.2,
+        "track_pct": 17.06,
+        "speed_kmh": 78.9
+      },
+      {
+        "sample": 8310,
+        "yaw_rate_deg_s": 30.0,
+        "track_pct": 17.08,
+        "speed_kmh": 78.7
+      },
+      {
+        "sample": 8313,
+        "yaw_rate_deg_s": 31.1,
+        "track_pct": 17.11,
+        "speed_kmh": 78.1
+      }
+    ]
+  },
+  "tire_temps": {
+    "available": true,
+    "tires": {
+      "LF": {
+        "temps_C": {
+          "inside": 67.3,
+          "middle": 71.1,
+          "outside": 73.0
+        },
+        "in_out_diff": -5.7,
+        "balance": "outside_hot"
+      },
+      "RF": {
+        "temps_C": {
+          "inside": 69.6,
+          "middle": 67.3,
+          "outside": 60.3
+        },
+        "in_out_diff": 9.3,
+        "balance": "inside_hot"
+      },
+      "LR": {
+        "temps_C": {
+          "inside": 67.9,
+          "middle": 71.1,
+          "outside": 72.2
+        },
+        "in_out_diff": -4.3,
+        "balance": "balanced"
+      },
+      "RR": {
+        "temps_C": {
+          "inside": 69.6,
+          "middle": 68.1,
+          "outside": 62.1
+        },
+        "in_out_diff": 7.5,
+        "balance": "inside_hot"
+      }
+    }
+  },
+  "weight_transfer": {
+    "available": true,
+    "shocks": {
+      "LFshockDefl": {
+        "min_mm": -1.02,
+        "max_mm": 42.42,
+        "range_mm": 43.44,
+        "avg_mm": 5.95
+      },
+      "RFshockDefl": {
+        "min_mm": -0.9,
+        "max_mm": 43.1,
+        "range_mm": 44.0,
+        "avg_mm": 3.0
+      },
+      "LRshockDefl": {
+        "min_mm": 1.23,
+        "max_mm": 60.41,
+        "range_mm": 59.18,
+        "avg_mm": 27.22
+      },
+      "RRshockDefl": {
+        "min_mm": 2.65,
+        "max_mm": 57.85,
+        "range_mm": 55.2,
+        "avg_mm": 24.66
+      }
+    },
+    "front_rear_balance": -21.47,
+    "interpretation": {
+      "front_rear_diff_mm": -21.47,
+      "note": "Positive = more front load (braking bias), Negative = more rear load (accel bias)"
+    }
+  },
+  "delta_analysis": {
+    "available": true,
+    "final_delta_to_optimal_s": 4.884,
+    "losing_time_zones": {
+      "0-10%": 3999,
+      "10-20%": 4439,
+      "20-30%": 2170,
+      "30-40%": 3792,
+      "40-50%": 2928,
+      "50-60%": 4026,
+      "60-70%": 4211,
+      "70-80%": 2900,
+      "80-90%": 4154,
+      "90-100%": 4013
+    },
+    "gaining_time_zones": {
+      "50-60%": 2698,
+      "60-70%": 648,
+      "0-10%": 166,
+      "10-20%": 813,
+      "20-30%": 2072,
+      "30-40%": 617,
+      "70-80%": 954,
+      "40-50%": 763,
+      "80-90%": 36
+    },
+    "interpretation": "Positive delta = slower than optimal, Negative = faster (unlikely)"
+  },
+  "abs_analysis": {
+    "available": false,
+    "reason": "Car does not have ABS"
+  },
+  "corners": {
+    "available": true,
+    "corners": {
+      "Turn 1": {
+        "track_pct": "14%-19%",
+        "oversteer_events": 1197
+      },
+      "Turn 2": {
+        "track_pct": "20%-26%",
+        "oversteer_events": 0
+      },
+      "Wagon Bend": {
+        "track_pct": "31%-39%",
+        "oversteer_events": 128
+      },
+      "The Chute": {
+        "track_pct": "46%-50%",
+        "oversteer_events": 9
+      },
+      "The Carousel Entry": {
+        "track_pct": "51%-57%",
+        "oversteer_events": 1725
+      },
+      "The Carousel Exit": {
+        "track_pct": "58%-63%",
+        "oversteer_events": 734
+      },
+      "The Esses (Entry)": {
+        "track_pct": "63%-68%",
+        "oversteer_events": 111
+      },
+      "The Esses (Middle)": {
+        "track_pct": "68%-72%",
+        "oversteer_events": 15
+      },
+      "The Esses Exit / The Bridge": {
+        "track_pct": "72%-77%",
+        "oversteer_events": 0
+      },
+      "The Paddock": {
+        "track_pct": "84%-90%",
+        "oversteer_events": 41
+      }
+    }
+  }
+}

@@ -15,13 +15,13 @@ This is a **living research project** on **data-driven personalized learning** i
 **New!** 🫣 Read my blog at [little-padawan.vercel.app](https://little-padawan.vercel.app).
 
 **The Evidence (So Far):**
-- **+465 iRating** in 6 weeks (1238 → 1703) — **Top 0.38%** of 33,817 drivers
-- **P130 overall** with 99.6% points percentile (outperforming rating by 9 percentile points)
+- **+503 iRating** in 7 weeks (1238 → 1741) — climbing toward **Top 0.3%**
+- **Official TOP SPLIT P5** (SoF 2045) in Week 07 with only 1x incident
+- **T5 brake point σ = 1.0 METER** — verbal cueing → automatic execution validated
 - **Sequential Mastery framework** producing 97% corner improvement in a single day
 - **17-minute focused practice sessions** outperforming hour-long scattered training
-- **Voice-telemetry correlation** (EXP-02) validating verbal self-cueing → automatic execution
-- **7 AI race victories** applying learned techniques under pressure
-- **10/10 corners dialed** at Summit Point after 3 days of focused work
+- **Voice-telemetry correlation** (EXP-02) proving verbal self-cueing works under race pressure
+- **10/10 corners dialed** at Summit Point under TOP SPLIT official racing conditions
 
 **What We're Proving:**
 - AI + data + personalized frameworks = accelerated learning
@@ -52,51 +52,47 @@ All tracked, documented, validated, reproducible. 🏎️🔬
 | :------------------ | :--------------------------------------------- | :------------------------------------------ | :----------------------------------------------- | :-------------- |
 | **Best Lap**        | 1:32.700                                       | 1:11.033                                    | **1:15.550**                                     | -               |
 | **PB Improvement**  | -1.12s                                         | **-1.55s**                                  | -0.60s                                           | -               |
-| **Consistency (σ)** | 0.77s                                          | 0.80s (Race 03)                             | **0.129s** (elite!)                              | -               |
-| **Victories**       | 2 (AI)                                         | 0 (P6, DNF, P7, P8)                         | **1** (AI Race P1!)                              | -               |
-| **Mood**            | Battle-Hardened                                | **Resilient**                               | **Evolved**                                      | -               |
+| **Consistency (σ)** | 0.77s                                          | 0.80s (Race 03)                             | **0.404s** (race)                                | -               |
+| **Official Result** | P5, P4                                         | P6, DNF, P7, P8                             | **P5 TOP SPLIT** 🚀                              | -               |
+| **Mood**            | Battle-Hardened                                | **Resilient**                               | **Automatic**                                    | -               |
 
-**Current Status:** Week 07 - Officials Start Tuesday | **iRating: 1703** | **Top 0.38%** (P130 / 33,817)
+**Current Status:** Week 07 - First Official DONE | **iRating: 1741** (+503 season) | **76 Championship Points**
 
 Read the latest standings report: [Week 06 Standings Report](./weeks/week06/standings-report.md)
 
 ---
 
-## Week 07: The Click (Summit Point Main Circuit)
+## Week 07: Second Nature (Summit Point Main Circuit)
 
-There's a moment when everything stops feeling hard. When the track that fought you yesterday suddenly feels like home. When the corner that was a lottery becomes a weapon.
+There's a moment when everything stops being technique and becomes instinct. When the words you've drilled become muscle memory. When "no trail braking" isn't something you think—it's something your hands do.
 
 Master Lonn found that moment at Summit Point.
 
-He returned after seven months away, expecting rust. Instead, his first lap was 1.4 seconds faster than his old PB. The growth from Weeks 01-06 had compounded into something he couldn't see until he was back on familiar ground.
+He returned after seven months away, expecting rust. Instead, his first lap was 1.4 seconds faster than his old PB. The growth from Weeks 01-06 had compounded into something invisible until tested.
 
-But that was just the beginning. The first session revealed two nemesis corners—Turn 1 and the Carousel—accounting for 88% of all rotation events. The gap to P4 (Shuning Gong) was 1.1 seconds. Not talent. *Commitment*.
+Day two, seventeen minutes of focused drilling: T5 coasting, T1 late braking. No lap time chasing. Just repetition. 59% oversteer reduction at the Carousel. PB matched without trying. That evening, a flow session—"just have fun"—produced a **NEW PB: 1:15.550**. The morning's work had bedded in during play.
 
-Day two, seventeen minutes changed everything.
+The AI races proved it held under pressure. An epic battle with "Steve" in Race 03—lost the lead, went off-track, chased him down, made contact twice, reclaimed P1, defended through a misshift. *"I'm one fast son of a bitch."*
 
-He walked into the session with two focus areas: T5 coasting (no trail braking into the Carousel) and T1 late braking (full commitment after the three cones). No chasing lap times. No heroics. Just deliberate, focused drilling.
+But the real test came Tuesday.
 
-The data came back: 59% oversteer reduction at T5. Automaticity forming at T1. PB matched without trying.
+**Official Race 01. TOP SPLIT. SoF 2045.** Division 1-2 drivers. The real thing.
 
-That evening, exhausted, he did a "flow session"—just drive, have fun, see what stuck. Twenty-five minutes of rallycross-mode shenanigans. The result? **NEW PB: 1:15.550**. The morning's technique work had bedded in during play. Speed came as byproduct.
+He botched qualifying—two off-tracks, no time, P10 start. In a field of aliens, he was starting from the back. Everything about this setup said "damage limitation mode."
 
-Day three brought the races. The morning was chaos—contact at Lap 2, off-track at Lap 3, dropped from P1 to P8. He recovered to P2, setting his fastest lap on the final lap. Voice recording captured his mental journey: frustration → acceptance → focus → confidence.
+He deployed Meebewegen from the lights. Let the aggressive car through—*"let him wreck himself."* Pressured Sato until he spun. Collected positions through patience and consistency.
 
-But the evening session was where it clicked.
+"No trail braking," he said eight times during the race. A mantra. A meditation. The T5 Carousel Entry brake point data came back: **σ = 1.0 METER**. One meter variance across ten race laps. Against TOP SPLIT competition. With traffic and pressure and strategy.
 
-Started on pole. Got passed by faster AI—*didn't fight it* (Meebewegen 2.0). Chased. Caught. Then, at T5, the corner he'd drilled two days earlier, he saw his moment. He carried speed through the apex, got better drive, and made a clean pass to take the lead.
+When he crossed the line P5, he knew what it meant. Not just the result. The technique. The training. All of it.
 
-The adaptive AI sped up. With two minutes left, the #8 car slipstreamed past and reclaimed P1.
+**"Feels like second nature,"** he said mid-race. That phrase captured everything. The conscious → automatic transition complete. The verbal cue triggering neural pathways that no longer needed conscious thought.
 
-Master Lonn's final lap? **1:15.800**. Only 0.25s off his practice PB. In a race. While chasing.
+P10 → P5. Only 1x incident. +38 iRating. **76 championship points**.
 
-He finished P2. But the data told a different story: **10 out of 10 corners dialed**. Turn 1, which had been a 2.626-second lottery that morning, was now 0.087 seconds consistent. A 97% improvement in *one day*.
+*"Hell yeah! That was a good race. I did pretty well."*
 
-The voice recording proved what the telemetry couldn't see. "No trail braking," he said four times during the race. Carousel Entry brake point σ: 1.9 meters—the same spot within two meters across ten laps of intense racing. Verbal self-cueing becoming automatic execution.
-
-This wasn't luck. This was the result of focused practice → flow consolidation → race deployment. The learning cycle that Week 05-06 built, weaponized.
-
-When the adaptive AI had to speed up to beat him, it wasn't a loss. It was validation.
+Three more attempts this week to beat 76. The system protects him—only the best result counts. But he's already proven what matters: the methodology works under TOP SPLIT pressure.
 
 ---
 
@@ -162,9 +158,9 @@ He's learned that **Success** (P137, 67 points) is different from **Satisfaction
 
 He's learned that **increments getting smaller** doesn't mean growth stopping—it means reaching the next phase. The gains from "stop crashing" are done. Now it's fractions of seconds against people who've been doing this for years.
 
-He is currently ranked **Top 0.44%** globally. And after Week 07, he's not wondering if he's still growing.
+He is currently ranked **Top 0.35%** globally with **1741 iRating** (+503 this season). And after Week 07's TOP SPLIT P5, he's not wondering if the training works under real pressure.
 
-He knows.
+He knows. It *feels like second nature*.
 
 ---
 
