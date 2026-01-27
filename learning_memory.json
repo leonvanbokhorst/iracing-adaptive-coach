@@ -349,7 +349,15 @@
         "AI Race 01 (Jan 22 AM): Chaotic, P8→P2 recovery, fastest lap on final lap",
         "AI Race 02 (Jan 22 PM): Race best 1:15.800 (0.25s off PB), 10/10 corners DIALED, P2, T5 pass",
         "AI Race 03 (Jan 24 PM): P1 WIN! Epic battle vs Steve. Lost lead, off-track, chased, contact x2, reclaimed P1, defended despite misshift. 'I'm one fast son of a bitch' peak confidence."
-      ]
+      ],
+      "official_race_context": {
+        "week_opens": "2026-01-27 (Tuesday)",
+        "combo_popularity": "9 splits running, top SoF 2717 - very popular combo",
+        "top_split_pace": "1:15.3-1:15.8 best laps (P1 Wen Jun 1:15.353, P4 David Beshara 1:15.801)",
+        "pace_validation": "Master's prep race best (1:15.800) competitive with mid-pack top split",
+        "expected_split": "Second split likely (1703 iR, rookie series skewed left with many 1350 iR drivers)",
+        "first_race_plan": "~11:00 mixed split - good for first official"
+      }
     }
   ],
   "insights": [
