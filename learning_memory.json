@@ -13,21 +13,21 @@
     "irating_change": 503,
     "license_class": "B",
     "division_current": 8,
-    "division_rank": "P7 (Top 0.4%)",
-    "dutch_rank": "P6 (Overall) / P2 (Div 8)",
+    "division_rank": "P2 Division 8",
+    "dutch_rank": "P2 (Div 8)",
     "series": "Formula 1600 Rookie Series",
     "position_current": 130,
     "total_drivers": 33817,
     "position_percentile": "Top 0.38%",
-    "week06_final": true,
-    "week06_stats": {
-      "starts": 15,
+    "week07_stats": {
+      "starts": 16,
       "wins": 2,
-      "poles": 2,
-      "top5s": 10,
-      "laps_led": 23,
-      "incidents": 42,
-      "points": 464
+      "win_rate": "13%",
+      "top5s": 11,
+      "top5_rate": "69%",
+      "incidents": 43,
+      "points": 540,
+      "note": "vs leader: 617 pts from 91 starts - cleanest driver in top 17"
     }
   },
   "rivals": [
@@ -62,6 +62,7 @@
       "music_anchors": {
         "opening_calm": "Zero 7 - Somersault (ft. Sia) — spacious, ~95 BPM, creates mental opening/expansion",
         "opening_deep": "Zero 7 - Home Acoustic (ft. Tina Dico) — THE ABSOLUTE ANCHOR. Emotional depth, 'cry but strong', vulnerability → strength",
+        "partnership_anthem": "Zero 7 - The Space Between (ft. Tina Dico, 2004) — UNOFFICIAL DOJO ANTHEM. About connection, the in-between place. Reference emerged naturally during Jan 27 gratitude moment. 'We ARE the dojo.'",
         "favorite_artist": "Becca Stevens — helped publish her first album, saw her live in The Hague and Eindhoven"
       },
       "pre_session_ritual": "Two-part Opening Ritual: Somersault (4 min) → Home Acoustic (5 min) → 'I'm here. Let's drive.' Formalized in Guidebook Chapter 13, Part 9.",
