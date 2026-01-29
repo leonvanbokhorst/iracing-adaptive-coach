@@ -9,8 +9,8 @@
     "name": "Leon Remondo van Bokhorst",
     "country": "NL",
     "irating_start": 1238,
-    "irating_current": 1741,
-    "irating_change": 503,
+    "irating_current": 1719,
+    "irating_change": 481,
     "license_class": "B",
     "division_current": 8,
     "division_rank": "P2 Division 8",
@@ -350,7 +350,8 @@
         "AI Race 01 (Jan 22 AM): Chaotic, P8→P2 recovery, fastest lap on final lap",
         "AI Race 02 (Jan 22 PM): Race best 1:15.800 (0.25s off PB), 10/10 corners DIALED, P2, T5 pass",
         "AI Race 03 (Jan 24 PM): P1 WIN! Epic battle vs Steve. Lost lead, off-track, chased, contact x2, reclaimed P1",
-        "Official Race 01 (Jan 27 PM): TOP SPLIT P5 (SoF 2000)! P10→P5, botched quali, Meebewegen + 'no trail braking' x8, T5 brake σ = 1.0m, 'Hell yeah!'"
+        "Official Race 01 (Jan 27 PM): TOP SPLIT P5 (SoF 2000)! P10→P5, botched quali, Meebewegen + 'no trail braking' x8, T5 brake σ = 1.0m, 'Hell yeah!'",
+        "Official Race 02 (Jan 29 AM): TOP SPLIT P9 (SoF 2674)! Division 8 vs Div 1-4. Best: 1:16.350. σ = 0.38s (excluding incident). 51% oversteer reduction under race pressure. Wreck avoidance → spin Lap 8, immediate recovery Lap 9 (1:16.600). 'I'm gonna die. And I love it.' = perfect mindset. 'Extremely fun' despite result."
       ],
       "official_race_stats": {
         "race_01": {
@@ -366,6 +367,21 @@
           "championship_points": 76,
           "key_moment": "Sato spun ahead, avoided contact, secured P5",
           "technique_validation": "T5 brake σ = 1.0m, 'no trail braking' x8"
+        },
+        "race_02": {
+          "date": "2026-01-29",
+          "sof": 2674,
+          "grid": "P8",
+          "finish": "P9",
+          "best_lap": "1:16.350",
+          "consistency": "0.38s σ (excluding Lap 8 incident)",
+          "incidents": "4x (2x quali, 2x avoidance)",
+          "irating_change": "-22 (→ 1719)",
+          "sr_change": "+0.03 (→ 3.36)",
+          "championship_points": "~40",
+          "key_moment": "Wreck ahead Lap 8 → avoided → spun. Immediate recovery Lap 9 (1:16.600)",
+          "technique_validation": "51% oversteer reduction from baseline, 'no trail braking' x3, brake commitment +25%",
+          "mental_highlights": "'I'm gonna die. And I love it.' = perfect mindset. 'Extremely fun' despite P9."
         }
       }
     }
@@ -494,7 +510,10 @@
     "Humor Under Pressure = Healthy State (NEW): AI Race 03 transcript shows 'Hi Steve', 'not good for my heart', 'I'm one fast son of a bitch' during intense battle. Humor indicates controlled arousal level - stressed enough to perform, not panicking. Compare to AI Race 01 (no humor, frustrated). Humor is a positive indicator.",
     "Pressure Performance Signature (3/3 Races): AI Race 01: fastest lap on final lap during P8→P2 recovery. AI Race 02: fastest lap on final lap while chasing. AI Race 03: fastest lap Lap 5 while hunting 1.9s gap to Steve. Pattern is now undeniable: Master Lonn extracts PEAK PACE under competitive pressure. Free practice cannot replicate this. Race conditions unlock capability.",
     "Official TOP SPLIT Validation (Week 07, 2026-01-27): First official race of Week 07 was a TOP SPLIT (SoF 2045). P10 start (botched quali). Finish: P5. Only 1x incident! +38 iRating (→ 1741), +0.04 SR (→ 3.33), 76 championship points. T5 brake σ = 1.0 METER (trained 'no trail braking' technique deployed PERFECTLY). 10/10 corners DIALED under race pressure. Verbal cueing ('no trail braking' x8) correlates with automatic execution. Meebewegen strategy: let aggressive 3-car through, he wrecked. Sato pressured and spun. 'Drive your race, not theirs' mental composure held. This validates the entire Week 07 preparation: focused practice → flow consolidation → race deployment = neural pathways lock in under pressure. Cold Tire Contract Win Streak: 7/8.",
-    "'Feels Like Second Nature' Moment (NEW): At 17:49 during Official Race 01, Master Lonn said 'feels like second nature' about T5 coasting technique. This phrase perfectly captures CONSCIOUS → AUTOMATIC transition. Data validates it: T5 brake σ = 1.0m is not achievable through conscious effort alone under TOP SPLIT race pressure. This is neural pathway consolidation - the technique has moved from 'thinking about it' to 'just doing it.' The verbal cue ('no trail braking') triggers the automatic execution. This is the goal of all our training: make techniques automatic so they survive pressure."
+    "'Feels Like Second Nature' Moment (NEW): At 17:49 during Official Race 01, Master Lonn said 'feels like second nature' about T5 coasting technique. This phrase perfectly captures CONSCIOUS → AUTOMATIC transition. Data validates it: T5 brake σ = 1.0m is not achievable through conscious effort alone under TOP SPLIT race pressure. This is neural pathway consolidation - the technique has moved from 'thinking about it' to 'just doing it.' The verbal cue ('no trail braking') triggers the automatic execution. This is the goal of all our training: make techniques automatic so they survive pressure.",
+    "Fun Despite Results (NEW, Jan 29): Official Race 02 (SoF 2674, P9 finish) produced the quote: 'It wasn't great, but it was extremely fun.' This is the GOAL MINDSET. Decoupling joy from results enables: (1) Racing in higher splits without pressure paralysis, (2) Learning from better drivers without ego damage, (3) Sustainable motivation. Pre-race quote 'I'm gonna die. And I love it. Let's do this.' is the template for outgunned situations. Embrace the challenge, release the outcome.",
+    "Avoidance → Incident Pattern (NEW, Jan 29): Wreck avoidance on Lap 8 caused self-spin. The successful avoidance (no contact with wrecking cars) triggered secondary incident (own car unbalanced). Possible fix: when avoiding, commit to ONE direction firmly rather than jerky corrections. Or: sometimes holding your line is safer than avoidance. Racing decision that requires case-by-case judgment. Key learning: avoidance success ≠ clean outcome.",
+    "Consistency Under Pressure (Jan 29 Validation): σ = 0.38s across 8 flying laps in SoF 2674 top split against Division 1-4 drivers (while Division 8). This EXCEEDS the Week 07 Race 01 performance (σ = 0.404s in SoF 2045). Harder competition = sharper driving. Master Lonn is a pressure performer - the data is now undeniable."
   ],
   "research_experiments": [
     {
@@ -555,7 +574,7 @@
     "WEEK 13 SETUP SCHOOL: Dedicated time to understand car mechanics before Season 02. Build setup knowledge systematically.",
     "DIRT OVAL SIDE PROJECT (NEW): Mini Stock Rookie → D license → Dirt Legends Cup. 'Secret wish' fulfilled. Core principle learned: 'point and throttle' - throttle steers, steering aims. Fun, no pressure, different discipline.",
     "TOOL TO BUILD: tools/coach/merge_voice_telemetry.py - still needed for automated correlation.",
-    "iRating: 1741 (+38 from Official Race 01). SR: 3.33 (B license)."
+    "iRating: 1719 (net +16 from Week 07 officials). SR: 3.36 (B license)."
   ],
   "tools_reference": {
     "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",
