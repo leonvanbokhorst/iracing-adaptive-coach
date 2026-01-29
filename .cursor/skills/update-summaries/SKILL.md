@@ -1,10 +1,191 @@
-# update-season-readme
+---
+name: update-summaries
+description: Update week or season summaries with emotional storytelling - write racing like a novelist, not a data analyst
+disable-model-invocation: true
+---
 
-Updates the main README.md as a **racing magazine feature story** - with emotion, atmosphere, struggle, and heart.
+# Summary Updates
+
+Two related workflows for updating racing summaries with narrative storytelling.
 
 ---
 
-## Start with the overview of the season so far and include the image of Master Lonn.
+## Workflow A: Update Week Summary
+
+When the user asks to "summarize the week" or "create week summary" or "week recap":
+
+### 1. Consistency Checks
+
+First, run these checks across ALL session files in the specified week directory:
+
+#### Timeline Anomalies
+
+- [ ] Check for "202[34]" (wrong years)
+- [ ] Check for "year ago", "1 year", "year off", "year-long" (should be specific months)
+- [ ] Verify all dates are in 2025
+
+#### PB Reference Anomalies
+
+- [ ] Check for "1:28.762" (open-setup PB - should use same-series PB 1:28.969)
+- [ ] Check for inconsistent gap calculations
+- [ ] Verify all PB references match current target
+
+#### Emphasis Anomalies (per handbook)
+
+- [ ] Check for **BOLD CAPS SENTENCES** (too much shouting)
+- [ ] Check for excessive **BOLD** usage
+- [ ] Verify emphasis follows handbook guidelines
+
+#### Terminology Anomalies
+
+- [ ] Check for "MULTIPLAYER" or "multiplayer race" (should be "Race" vs "AI Race")
+- [ ] Check session type consistency
+
+### 2. Week Analysis
+
+Gather from all session files in the week:
+
+#### Sessions
+
+- Date, time, session type for each
+- Best lap, consistency (σ), clean laps, incidents
+- Focus area and goals for each session
+
+#### Progress Metrics
+
+- Starting lap time vs ending lap time
+- Starting consistency vs ending consistency
+- Sector improvements (if applicable)
+- Gap to target PB (start vs end)
+
+#### Key Moments
+
+- Breakthroughs (identify from session notes)
+- Setbacks or challenges
+- Mental state evolution
+- Quotes from Master Lonn
+
+#### Coaching Narrative
+
+- What worked (coaching strategies that clicked)
+- What didn't (areas still struggling)
+- Pattern recognition (similar to previous weeks?)
+- Next week setup (what carries forward?)
+
+### 3. Generate README.md
+
+Create `weeks/weekXX/README.md` with this structure:
+
+```markdown
+# Week XX - [Track Name] - Season [Season Year]
+
+**Track**: [Track Name]  
+**Car**: [Car Name]  
+**Dates**: [Start Date] → [End Date]  
+**Status**: [Practice / Qualifying / Race / Complete]
+
+---
+
+## The Story
+
+[Engaging narrative summary - 2-3 paragraphs telling the STORY of the week]
+
+[Use Little Padawan's voice but tone down excessive emphasis]
+[Focus on the JOURNEY, not just the numbers]
+[Include Master Lonn's quotes if memorable]
+
+---
+
+## The Numbers
+
+| Metric               | Start     | End       | Change   | Notes          |
+| -------------------- | --------- | --------- | -------- | -------------- |
+| **Best Lap**         | XX:XX.XXX | XX:XX.XXX | ±X.XXXs  | [Context]      |
+| **Consistency (σ)**  | X.XXs     | X.XXs     | ±X.XXs   | [Context]      |
+| **Gap to Target PB** | X.XXXs    | X.XXXs    | ±X.XXXs  | [PB reference] |
+| **Focus Area**       | [Area]    | [Status]  | [Change] | [Result]       |
+
+**Week Stats:**
+
+- **Sessions**: X (Y practice, Z races)
+- **Total Laps**: XXX
+- **Victories**: X (if applicable)
+- **Breakthrough**: [One key technical/mental breakthrough]
+
+---
+
+## Session Log
+
+| Date                                             | Time | Type | Best Lap | σ   | Result | Key Takeaway |
+| :----------------------------------------------- | :--- | :--- | :------- | :-- | :----- | :----------- |
+| [Links to session files with one-line summaries] |
+
+---
+
+## Breakthroughs 🎯
+
+[List major breakthroughs with brief context]
+
+- **[Breakthrough 1]**: [What happened, why it mattered]
+- **[Breakthrough 2]**: [What happened, why it mattered]
+
+---
+
+## Challenges 🚧
+
+[List ongoing challenges or setbacks]
+
+- **[Challenge 1]**: [What's blocking progress]
+- **[Challenge 2]**: [Strategy to overcome]
+
+---
+
+## What We Learned
+
+[3-5 key insights from the week]
+
+**Technical:**
+
+- [Driving/setup insight]
+
+**Mental:**
+
+- [Psychology/mindset insight]
+
+**Strategic:**
+
+- [Approach/coaching insight]
+
+---
+
+## Next Week Preview
+
+**Track**: [Next track name]  
+**Challenge**: [What's different/new]  
+**Goal**: [Primary objective]  
+**Strategy**: [Approach based on this week's learnings]
+
+---
+
+_Week XX Complete: [Motivational closing line in Little Padawan voice]_
+```
+
+### 4. Output
+
+After generating the README:
+
+1. Report any anomalies found during consistency check
+2. Ask if user wants to fix anomalies before finalizing
+3. Confirm README has been created
+4. Suggest updating `learning_memory.json` with week summary
+
+---
+
+## Workflow B: Update Season Summary
+
+Updates the main README.md as a **racing magazine feature story** - with emotion, atmosphere, struggle, and heart.
+
+### Start with the overview of the season so far and include the image of Master Lonn.
 
 <div style="text-align: center;">
   <img src="./assets/lonn-yoda.png" alt="Master Lonn" style="width: 70%; max-width: 480px;">
@@ -15,20 +196,19 @@ Updates the main README.md as a **racing magazine feature story** - with emotion
 
 ---
 
-## The Season Stats (for example)
+### The Season Stats (for example)
 
 | Metric              | [Week 01 (Jefferson)](./weeks/week01/README.md) | [Week 02 (Rudskogen)](./weeks/week02/README.md) | [Week 03 (Winton)](./weeks/week03/README.md) |
-| :------------------ | :------------------ | :------------------ | :--------------- |
-| **Best Lap**        | 50.768s             | 1:28.508            | **1:25.710**     |
-| **PB Improvement**  | -0.67s              | -1.78s              | **-1.125s**      |
-| **Consistency (σ)** | 0.40s               | 0.86s               | **0.16s**        |
-| **Victories**       | 1                   | 0                   | **2**            |
-| **Mood**            | Hopeful             | Determined          | **Dangerous**    |
+| :------------------ | :---------------------------------------------- | :---------------------------------------------- | :------------------------------------------- |
+| **Best Lap**        | 50.768s                                         | 1:28.508                                        | **1:25.710**                                 |
+| **PB Improvement**  | -0.67s                                          | -1.78s                                          | **-1.125s**                                  |
+| **Consistency (σ)** | 0.40s                                           | 0.86s                                           | **0.16s**                                    |
+| **Victories**       | 1                                               | 0                                               | **2**                                        |
+| **Mood**            | Hopeful                                         | Determined                                      | **Dangerous**                                |
 
 Read the standings report for more details: [Week 02 Standings Report](./weeks/week02/standings-report.md)
 
-
-## The Mission
+### The Mission
 
 Write Master Lonn's season like you're a **NOVELIST who covers racing** - not a data analyst adding flavor.
 
@@ -40,9 +220,9 @@ Write Master Lonn's season like you're a **NOVELIST who covers racing** - not a 
 
 ---
 
-## Write With EMOTION and ATMOSPHERE
+### Write With EMOTION and ATMOSPHERE
 
-### Paint the Scene
+#### Paint the Scene
 
 Don't just report. Make us SEE it and FEEL it:
 
@@ -50,7 +230,7 @@ Don't just report. Make us SEE it and FEEL it:
 
 **✅ GOOD**: "There's a specific kind of doubt that comes with returning to a track after six months away. Master Lonn felt it the moment Rudskogen's downhill came rushing at him—faster than he remembered, meaner than his muscle memory wanted to admit."
 
-### Show the Internal Struggle
+#### Show the Internal Struggle
 
 What's happening in his HEAD and HEART?
 
@@ -59,7 +239,7 @@ What's happening in his HEAD and HEART?
 - The realization: "Wait. My body remembers this. I just need to let it."
 - The confidence: "I'm not just back. I'm BETTER."
 
-### Personify EVERYTHING
+#### Personify EVERYTHING
 
 Make the elements come alive as characters:
 
@@ -69,7 +249,7 @@ Make the elements come alive as characters:
 - **His Mind**: "The mental demons from Jefferson whispered: what if you spin again? What if the speed isn't there anymore?"
 - **Little Wan**: "Watching from the pit wall, analyzing every tenth, the brilliant apprentice who could read data like poetry."
 
-### Use Lap Times as PUNCTUATION
+#### Use Lap Times as PUNCTUATION
 
 Numbers punctuate drama, they don't CREATE it:
 
@@ -77,7 +257,7 @@ Numbers punctuate drama, they don't CREATE it:
 
 **✅ GOOD**: "The timer stopped. He looked at the screen, then looked again. 1:28.572. Not close to July's ghost. Faster. Four tenths faster. He'd beaten six months of rust and his old self in one lap."
 
-### Build to MOMENTS
+#### Build to MOMENTS
 
 Let the story breathe. Build tension. Deliver payoff.
 
@@ -91,9 +271,9 @@ When the timer blinked 1:29.691, he already knew. The rust was gone."
 
 ---
 
-## Character Moments
+### Character Moments
 
-### Master Lonn
+#### Master Lonn
 
 Show WHO he is through action and reaction:
 
@@ -102,7 +282,7 @@ Show WHO he is through action and reaction:
 - His quotes (use them to reveal character, not just report facts)
 - His growth (show the evolution, don't list it)
 
-### Little Wan
+#### Little Wan
 
 The brilliant apprentice on the pit wall:
 
@@ -111,7 +291,7 @@ The brilliant apprentice on the pit wall:
 - The sassy coaching, the "I told you so" moments
 - The genuine celebration when breakthroughs happen
 
-### The Opponents
+#### The Opponents
 
 Even if they're AI:
 
@@ -119,7 +299,7 @@ Even if they're AI:
 - "The field that crashed while he stayed calm"
 - "July's ghost lap, haunting the data"
 
-### The Track
+#### The Track
 
 Make it a CHARACTER:
 
@@ -129,13 +309,13 @@ Make it a CHARACTER:
 
 ---
 
-## Structure (Flexible, Flows Like a Story)
+### Structure (Flexible, Flows Like a Story)
 
-### Opening Hook (~2-3 lines)
+#### Opening Hook (~2-3 lines)
 
 Start with a feeling, a moment, a question.
 
-### The Journey (Current Week: ~150 lines)
+#### The Journey (Current Week: ~150 lines)
 
 Write it as ONE continuous story:
 
@@ -147,7 +327,7 @@ Write it as ONE continuous story:
 - Build to the climax (breakthrough or victory)
 - End with what it means and what's next
 
-### Previous Chapters (~50-80 lines per week)
+#### Previous Chapters (~50-80 lines per week)
 
 Compress to flowing narratives:
 
@@ -156,7 +336,7 @@ Compress to flowing narratives:
 - The key moment that changed everything
 - What it meant
 
-### The Stats (~60 lines)
+#### The Stats (~60 lines)
 
 Quick-scan highlights BUT written with flavor:
 
@@ -165,9 +345,9 @@ Quick-scan highlights BUT written with flavor:
 
 ---
 
-## The Sacred Rules
+### The Sacred Rules
 
-### ✅ ALWAYS DO
+#### ✅ ALWAYS DO
 
 1. **Show feelings**: "His hands knew the answer six months ago. Now they had to relearn it."
 2. **Paint scenes**: "The timer blinked. He stared. 1:28.572."
@@ -178,7 +358,7 @@ Quick-scan highlights BUT written with flavor:
 7. **Character through action**: Show who he is by what he does
 8. **Atmosphere**: Cold track, empty morning, grip coming back
 
-### ❌ NEVER DO
+#### ❌ NEVER DO
 
 1. **Don't list**: "Day 1: X. Day 2: Y."
 2. **Don't table-dump**: "Results: [metrics]"
@@ -191,7 +371,7 @@ Quick-scan highlights BUT written with flavor:
 
 ---
 
-## The Feeling Test
+### The Feeling Test
 
 Before publishing, ask:
 
@@ -205,9 +385,9 @@ If any answer is "no" → rewrite with MORE emotion, LESS data.
 
 ---
 
-## Example: Clinical vs Emotional
+### Example: Clinical vs Emotional
 
-### ❌ CLINICAL (Data with transitions)
+#### ❌ CLINICAL (Data with transitions)
 
 ```markdown
 Master Lonn returned to Rudskogen after 6 months. His first lap was 1:30.290,
@@ -221,7 +401,7 @@ On Day 5, he tested the limits and achieved 1:28.572, beating his previous
 PB by 0.397s.
 ```
 
-### ✅ EMOTIONAL (Story with sparse data)
+#### ✅ EMOTIONAL (Story with sparse data)
 
 ```markdown
 There's a doubt that comes with six months away. Rudskogen's downhill came at
@@ -243,7 +423,7 @@ The timer stopped. 1:28.572. He'd beaten July's ghost.
 
 ---
 
-## Length Targets
+### Length Targets
 
 - **Total**: 250-350 lines (story, not report)
 - **Current Week**: 120-150 lines (ONE flowing narrative)

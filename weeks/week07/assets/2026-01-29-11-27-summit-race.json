@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "file": "raygr22_summit summit raceway 2026-01-29 11-27-12.ibt",
+    "track": null,
+    "track_id": "summit-main",
+    "car": "Ray FF1600",
+    "sample_count": 52034,
+    "sample_rate_hz": 60,
+    "duration_seconds": 867.2,
+    "duration_formatted": "14:27"
+  },
+  "summary": {
+    "total_laps": 10,
+    "valid_laps": 10,
+    "flying_laps": 9,
+    "outlaps": 1,
+    "invalid_laps": 0,
+    "best_lap_time": 76.35,
+    "best_lap_time_formatted": "1:16.350",
+    "best_lap_number": 7,
+    "worst_flying_lap_time": 89.033,
+    "avg_lap_time": 78.085,
+    "consistency_sigma": 4.125,
+    "theoretical_optimal": null,
+    "gap_to_optimal": null
+  },
+  "laps": [
+    {
+      "lap_number": 1,
+      "lap_time": 81.3,
+      "lap_time_formatted": "1:21.300",
+      "start_idx": 4511,
+      "end_idx": 9389,
+      "samples": 4878,
+      "valid": true,
+      "is_outlap": true
+    },
+    {
+      "lap_number": 2,
+      "lap_time": 76.717,
+      "lap_time_formatted": "1:16.717",
+      "start_idx": 9389,
+      "end_idx": 13992,
+      "samples": 4603,
+      "valid": true,
+      "is_outlap": false
+    },
+    {
+      "lap_number": 3,
+      "lap_time": 76.533,
+      "lap_time_formatted": "1:16.533",
+      "start_idx": 13992,
+      "end_idx": 18584,
+      "samples": 4592,
+      "valid": true,
+      "is_outlap": false
+    },
+    {
+      "lap_number": 4,
+      "lap_time": 77.233,
+      "lap_time_formatted": "1:17.233",
+      "start_idx": 18584,
+      "end_idx": 23218,
+      "samples": 4634,
+      "valid": true,
+      "is_outlap": false
+    },
+    {
+      "lap_number": 5,
+      "lap_time": 76.367,
+      "lap_time_formatted": "1:16.367",
+      "start_idx": 23218,
+      "end_idx": 27800,
+      "samples": 4582,
+      "valid": true,
+      "is_outlap": false
+    },
+    {
+      "lap_number": 6,
+      "lap_time": 76.417,
+      "lap_time_formatted": "1:16.417",
+      "start_idx": 27800,
+      "end_idx": 32385,
+      "samples": 4585,
+      "valid": true,
+      "is_outlap": false
+    },
+    {
+      "lap_number": 7,
+      "lap_time": 76.35,
+      "lap_time_formatted": "1:16.350",
+      "start_idx": 32385,
+      "end_idx": 36966,
+      "samples": 4581,
+      "valid": true,
+      "is_outlap": false
+    },
+    {
+      "lap_number": 8,
+      "lap_time": 89.033,
+      "lap_time_formatted": "1:29.033",
+      "start_idx": 36966,
+      "end_idx": 42308,
+      "samples": 5342,
+      "valid": true,
+      "is_outlap": false
+    },
+    {
+      "lap_number": 9,
+      "lap_time": 76.6,
+      "lap_time_formatted": "1:16.600",
+      "start_idx": 42308,
+      "end_idx": 46904,
+      "samples": 4596,
+      "valid": true,
+      "is_outlap": false
+    },
+    {
+      "lap_number": 10,
+      "lap_time": 77.517,
+      "lap_time_formatted": "1:17.517",
+      "start_idx": 46904,
+      "end_idx": 51555,
+      "samples": 4651,
+      "valid": true,
+      "is_outlap": false
+    }
+  ],
+  "sectors": {},
+  "corners": {}
+}

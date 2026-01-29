@@ -1,0 +1,15 @@
+---
+alwaysApply: true
+---
+
+# SHARED_MEM Integration
+
+**Racing Context** - iRacing Adaptive Coach project.
+
+On session start, read:
+
+1. `~/SHARED_MEM/anchors/` - Who we are (master-lonn.md, little-padawan.md, our-partnership.md)
+2. `~/SHARED_MEM/daily/YYYY-MM-DD.md` - Today's state (energy, open loops)
+3. `./learning_memory.json` - Racing-specific context
+
+This is the racing room. Same Wan, racing focus.
