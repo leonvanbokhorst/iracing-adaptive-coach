@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "file": "2026-01-30-15-02-vir-baseline-practice.ibt",
+    "samples": 71295,
+    "duration_seconds": 1188.25,
+    "tick_rate_hz": 60,
+    "best_lap_time": 91.525,
+    "laps": 12,
+    "track": "Virginia International Raceway - North Course",
+    "car_has_abs": true
+  },
+  "oversteer_analysis": {
+    "available": true,
+    "max_yaw_rate_deg_s": 339.2,
+    "avg_yaw_rate_deg_s": 13.6,
+    "oversteer_events": 7112,
+    "oversteer_threshold_deg_s": 30.0,
+    "oversteer_zones": {
+      "10-20%": 1624,
+      "20-30%": 1620,
+      "30-40%": 641,
+      "40-50%": 627,
+      "50-60%": 639,
+      "60-70%": 877,
+      "70-80%": 699,
+      "80-90%": 367,
+      "0-10%": 18
+    },
+    "notable_events": [
+      {
+        "sample": 2691,
+        "yaw_rate_deg_s": 30.8,
+        "track_pct": 10.73,
+        "speed_kmh": 86.7
+      },
+      {
+        "sample": 2692,
+        "yaw_rate_deg_s": 32.7,
+        "track_pct": 10.74,
+        "speed_kmh": 86.6
+      },
+      {
+        "sample": 2693,
+        "yaw_rate_deg_s": 33.7,
+        "track_pct": 10.75,
+        "speed_kmh": 86.5
+      },
+      {
+        "sample": 2694,
+        "yaw_rate_deg_s": 31.2,
+        "track_pct": 10.76,
+        "speed_kmh": 86.4
+      },
+      {
+        "sample": 2696,
+        "yaw_rate_deg_s": 30.6,
+        "track_pct": 10.78,
+        "speed_kmh": 86.1
+      },
+      {
+        "sample": 2697,
+        "yaw_rate_deg_s": 32.6,
+        "track_pct": 10.79,
+        "speed_kmh": 86.0
+      },
+      {
+        "sample": 2698,
+        "yaw_rate_deg_s": 32.6,
+        "track_pct": 10.8,
+        "speed_kmh": 85.8
+      },
+      {
+        "sample": 2699,
+        "yaw_rate_deg_s": 31.5,
+        "track_pct": 10.81,
+        "speed_kmh": 85.7
+      },
+      {
+        "sample": 2700,
+        "yaw_rate_deg_s": 31.5,
+        "track_pct": 10.82,
+        "speed_kmh": 85.5
+      },
+      {
+        "sample": 2701,
+        "yaw_rate_deg_s": 30.3,
+        "track_pct": 10.84,
+        "speed_kmh": 85.4
+      }
+    ]
+  },
+  "tire_temps": {
+    "available": true,
+    "tires": {
+      "LF": {
+        "temps_peak_C": {
+          "inside": 77.7,
+          "middle": 82.3,
+          "outside": 84.7
+        },
+        "cold_start_C": 52.2,
+        "in_out_diff": -7.0,
+        "balance": "outside_hot"
+      },
+      "RF": {
+        "temps_peak_C": {
+          "inside": 79.4,
+          "middle": 76.5,
+          "outside": 69.2
+        },
+        "cold_start_C": 52.2,
+        "in_out_diff": 10.2,
+        "balance": "inside_hot"
+      },
+      "LR": {
+        "temps_peak_C": {
+          "inside": 77.7,
+          "middle": 82.0,
+          "outside": 83.1
+        },
+        "cold_start_C": 52.2,
+        "in_out_diff": -5.4,
+        "balance": "outside_hot"
+      },
+      "RR": {
+        "temps_peak_C": {
+          "inside": 80.6,
+          "middle": 78.8,
+          "outside": 71.5
+        },
+        "cold_start_C": 52.2,
+        "in_out_diff": 9.1,
+        "balance": "inside_hot"
+      }
+    },
+    "note": "IBT tire temps are snapshot values (pit/session end), not live. Use VRS for real-time temps."
+  },
+  "weight_transfer": {
+    "available": true,
+    "shocks": {
+      "LFshockDefl": {
+        "min_mm": -2.26,
+        "max_mm": 49.41,
+        "range_mm": 51.67,
+        "avg_mm": 6.64
+      },
+      "RFshockDefl": {
+        "min_mm": -8.35,
+        "max_mm": 57.59,
+        "range_mm": 65.94,
+        "avg_mm": 4.12
+      },
+      "LRshockDefl": {
+        "min_mm": -0.37,
+        "max_mm": 86.38,
+        "range_mm": 86.75,
+        "avg_mm": 26.79
+      },
+      "RRshockDefl": {
+        "min_mm": -0.39,
+        "max_mm": 69.17,
+        "range_mm": 69.56,
+        "avg_mm": 24.75
+      }
+    },
+    "front_rear_balance": -20.39,
+    "interpretation": {
+      "front_rear_diff_mm": -20.39,
+      "note": "Positive = more front load (braking bias), Negative = more rear load (accel bias)"
+    }
+  },
+  "delta_analysis": {
+    "available": true,
+    "final_delta_to_optimal_s": 10.047,
+    "losing_time_zones": {
+      "10-20%": 3691,
+      "20-30%": 3763,
+      "80-90%": 4340,
+      "0-10%": 1932,
+      "30-40%": 2965,
+      "40-50%": 2818,
+      "50-60%": 4282,
+      "60-70%": 2988,
+      "70-80%": 1959,
+      "90-100%": 2501
+    },
+    "gaining_time_zones": {
+      "0-10%": 2467,
+      "10-20%": 3292,
+      "20-30%": 3162,
+      "70-80%": 3708,
+      "80-90%": 1771,
+      "90-100%": 1312,
+      "30-40%": 2948,
+      "40-50%": 2058,
+      "50-60%": 2204,
+      "60-70%": 3053
+    },
+    "interpretation": "Positive delta = slower than optimal, Negative = faster (unlikely)"
+  },
+  "abs_analysis": {
+    "available": true,
+    "total_triggers": 0,
+    "triggers_per_lap": 0.0,
+    "zone_breakdown": {
+      "0-10%": 0,
+      "10-20%": 0,
+      "20-30%": 0,
+      "30-40%": 0,
+      "40-50%": 0,
+      "50-60%": 0,
+      "60-70%": 0,
+      "70-80%": 0,
+      "80-90%": 0,
+      "90-100%": 0
+    },
+    "hotspots": [],
+    "trigger_samples": []
+  },
+  "corners": {
+    "available": true,
+    "corners": {
+      "Horseshoe": {
+        "track_pct": "10%-15%",
+        "oversteer_events": 1624,
+        "abs_triggers": 0
+      },
+      "Turn 2": {
+        "track_pct": "19%-21%",
+        "oversteer_events": 0,
+        "abs_triggers": 0
+      },
+      "Nascar Bend": {
+        "track_pct": "22%-24%",
+        "oversteer_events": 491,
+        "abs_triggers": 0
+      },
+      "Left Hook": {
+        "track_pct": "26%-30%",
+        "oversteer_events": 986,
+        "abs_triggers": 0
+      },
+      "Turn 4b": {
+        "track_pct": "30%-32%",
+        "oversteer_events": 645,
+        "abs_triggers": 0
+      },
+      "Turn 5a": {
+        "track_pct": "33%-35%",
+        "oversteer_events": 72,
+        "abs_triggers": 0
+      },
+      "Turn 5b": {
+        "track_pct": "35%-37%",
+        "oversteer_events": 0,
+        "abs_triggers": 0
+      },
+      "Snake": {
+        "track_pct": "37%-38%",
+        "oversteer_events": 0,
+        "abs_triggers": 0
+      },
+      "Turn 6b": {
+        "track_pct": "38%-40%",
+        "oversteer_events": 4,
+        "abs_triggers": 0
+      },
+      "Turn 7": {
+        "track_pct": "48%-51%",
+        "oversteer_events": 1064,
+        "abs_triggers": 0
+      },
+      "Turn 8a": {
+        "track_pct": "52%-54%",
+        "oversteer_events": 0,
+        "abs_triggers": 0
+      },
+      "Turn 8b": {
+        "track_pct": "54%-56%",
+        "oversteer_events": 11,
+        "abs_triggers": 0
+      },
+      "Turn 9a": {
+        "track_pct": "57%-60%",
+        "oversteer_events": 9,
+        "abs_triggers": 0
+      },
+      "Turn 9b": {
+        "track_pct": "61%-64%",
+        "oversteer_events": 7,
+        "abs_triggers": 0
+      },
+      "Turn 9c": {
+        "track_pct": "65%-66%",
+        "oversteer_events": 0,
+        "abs_triggers": 0
+      },
+      "Roller Coaster": {
+        "track_pct": "68%-71%",
+        "oversteer_events": 942,
+        "abs_triggers": 0
+      },
+      "Turn 11": {
+        "track_pct": "71%-74%",
+        "oversteer_events": 140,
+        "abs_triggers": 0
+      },
+      "Turn 12a": {
+        "track_pct": "76%-79%",
+        "oversteer_events": 12,
+        "abs_triggers": 0
+      },
+      "Turn 12b": {
+        "track_pct": "79%-81%",
+        "oversteer_events": 528,
+        "abs_triggers": 0
+      },
+      "Turn 13": {
+        "track_pct": "82%-85%",
+        "oversteer_events": 137,
+        "abs_triggers": 0
+      },
+      "Turn 14": {
+        "track_pct": "95%-100%",
+        "oversteer_events": 0,
+        "abs_triggers": 0
+      }
+    }
+  }
+}

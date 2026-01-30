@@ -8,13 +8,34 @@ opened: 1957
 type: "road course"
 ---
 
-# VIR North Course – Greatest Hits Loop
+# VIR North Course – The Dancing Circuit
 
 When VIR was resurrected in 2000, it didn't just bring back the legendary Full Course; it came back as a modular playground. The 2.25-mile North Course is basically a "best of VIR" mixtape, stitching together the Horseshoe, the Snake, the Climbing Section, Roller Coaster and Hog Pen into one condensed lap.
 
 It shares the front section with the Full Course (Horseshoe through Snake), then takes a connector up the hill instead of going through South Bend/Oak Tree/Back Straight, rejoining at Roller Coaster.
 
 On paper, North is just a trimmed Full Course. In the car it's intense: medium-speed complexes, big elevation swings (over 100 feet from lowest to highest), blind crests and no real "relax" sectors. It's one of those layouts where, if you're not slightly ahead of the car mentally, the track will put you there physically.
+
+> _"It's flowy, it's a dancing circuit."_ — Master Lonn, 2026
+
+---
+
+## Track Map
+
+<a href="images/vir-north-map.png"><img src="images/vir-north-map.png" alt="VIR North Course Map" width="70%"></a>
+
+---
+
+## Sector Definitions (iRacing)
+
+| Sector | Approx Time | Corners | Key Challenge |
+|--------|-------------|---------|---------------|
+| **S1** | ~24.7s (27%) | T1 Horseshoe → T2 → T3 NASCAR Bend | Trail braking T1, sacrifice T4 |
+| **S2** | ~19.5s (21%) | T4-T6 Link → Snake → T7 Uphill | T4 sacrifice, compression timing |
+| **S3** | ~28.2s (31%) | T8-T9 → T10-T11 Climbing → Roller Coaster | Biggest variance zone, blind crests |
+| **S4** | ~19.3s (21%) | T12-T13 Hog Pen → T14 → Finish | Rotation lift, compression throttle |
+
+> **Note:** S3 is the longest and highest-variance sector. The climbing section (T8-T11) and Roller Coaster approach are where lap time is made or lost.
 
 ---
 
@@ -304,7 +325,46 @@ Source: Expert coach lap guide
 
 ---
 
+---
+
+## Personal Notes
+
+> _First impressions and learnings. Worth revisiting next time I'm here._
+
+### Week 08 – January 2026 (Season 1)
+
+**First Discovery:** Full Course memory (80 laps, 2 years ago) transfers powerfully. 15/21 corners DIALED on first session (σ < 0.1s).
+
+**The Feel:** Slippery surface, blind crests, bumps everywhere. Requires smoothness and anticipation. "It's flowy, it's a dancing circuit."
+
+**VRS Gap Analysis (vs EXPERT):** 
+- **Total gap:** ~3s
+- **Biggest losses:** T2-3 (-0.546s), T1 (-0.357s), S6 (-0.277s)
+- **T7-9 only -0.158s** — uphill section better than expected
+
+**The Nemesis Corner:** T8a (Uphill Chicane) — σ 0.546s. This is the ONLY corner without Full Course equivalent.
+
+**Tire Temps Revelation:**
+- LF/LR outside hot = scrubbing in right-handers (track is left-biased)
+- RF/RR inside hot = aggressive turn-in to lefts
+- Pattern: overdriving entry on lefts, scrubbing exit on rights
+
+**T7 Oversteer Pattern:** 1,064 oversteer events. EXPERT says stop trail braking in compression — data confirms brake release too slow.
+
+**The Breakthrough (pending):** Need to commit harder to T1-T3. 0.9s sitting there waiting.
+
+**Stats:** Baseline PB **1:31.517** (Lap 9), 10 flying laps, crashed Lap 10, immediate recovery.
+
+### Overtaking (TBD)
+
+_To be discovered in race conditions._
+
+> _"I love it!"_ — Master Lonn, after spinning out
+
+---
+
 ## References
 
 - [Virginia International Raceway — Wikipedia](https://en.wikipedia.org/wiki/Virginia_International_Raceway)
 - [Virginia International Raceway — iRacing.com](https://www.iracing.com/tracks/virginia-international-raceway/)
+- [FormulaRookies VIR Guide](https://formularookies.com/tracks/vir/) _(if available)_

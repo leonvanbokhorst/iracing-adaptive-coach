@@ -39,8 +39,8 @@
       "notes": "Higher volume (11 wins), lower iRating (1581). Beatable with consistency."
     }
   ],
-  "focus": "Week 08 (VIR North Course): Flow over fragments. EXPERT guide loaded. Key insight: Roller Coaster NEEDS trail braking (opposite of Summit Point T5!). T7 uphill = stop trailing in compression.",
-  "goal": "Week 08 Target: Baseline → Apply EXPERT guide techniques → T4 sacrifice for T5-T6 flat → T14 reverse-engineer (brake later + entry speed) → T16-T17 throttle lift rotation.",
+  "focus": "Week 08 (VIR North Course): T3 NASCAR Bend = FLAT through first apex, brush brake ONLY for second apex (Gong comparison: 23 km/h faster, 0% brake vs your 23% brake). Roller Coaster = brake later, commit mid-corner (0.50s loss). These two corners = 0.87s available.",
+  "goal": "Week 08 Target: Break 1:30.0. Priority #1: T3 NASCAR Bend - FLAT through first apex, light brake for second only. Priority #2: Roller Coaster - brake 2 car lengths later, stay flat mid-corner. Mantra: 'First apex = kink, stay flat.'",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -384,6 +384,15 @@
           "mental_highlights": "'I'm gonna die. And I love it.' = perfect mindset. 'Extremely fun' despite P9."
         }
       }
+    },
+    {
+      "period": "Week 08 - VIR North Course (In Progress)",
+      "key_achievements": "Baseline PB 1:31.517 (Lap 9). 15/21 corners DIALED on Day 1 (Full Course memory transfer!). Gap to optimal only 0.117s. EXPERT guide being applied immediately ('sacrifice T4', 'late apex'). Positive attitude despite crash ('I love it!').",
+      "key_lessons": "T7 uphill compression = stop trail braking (EXPERT validated - brake release too slow = 1,064 oversteer events). T8a is true nemesis (σ 0.546s - only corner without Full Course equivalent). Roller Coaster approach needs work (brake σ 11.5m, speed σ 13.7 km/h).",
+      "stats_summary": "PB: 1:31.517. 10 flying laps. 15 corners dialed, 5 solid, 2 lottery. BB 56% perfect (all tires balanced). Crash on Lap 10, immediate recovery Lap 11 (1:32.250).",
+      "session_highlights": [
+        "Baseline Practice (Jan 30): PB 1:31.517, 15/21 corners DIALED, Full Course memory transfer validated"
+      ]
     }
   ],
   "insights": [
@@ -513,7 +522,8 @@
     "'Feels Like Second Nature' Moment (NEW): At 17:49 during Official Race 01, Master Lonn said 'feels like second nature' about T5 coasting technique. This phrase perfectly captures CONSCIOUS → AUTOMATIC transition. Data validates it: T5 brake σ = 1.0m is not achievable through conscious effort alone under TOP SPLIT race pressure. This is neural pathway consolidation - the technique has moved from 'thinking about it' to 'just doing it.' The verbal cue ('no trail braking') triggers the automatic execution. This is the goal of all our training: make techniques automatic so they survive pressure.",
     "Fun Despite Results (NEW, Jan 29): Official Race 02 (SoF 2674, P9 finish) produced the quote: 'It wasn't great, but it was extremely fun.' This is the GOAL MINDSET. Decoupling joy from results enables: (1) Racing in higher splits without pressure paralysis, (2) Learning from better drivers without ego damage, (3) Sustainable motivation. Pre-race quote 'I'm gonna die. And I love it. Let's do this.' is the template for outgunned situations. Embrace the challenge, release the outcome.",
     "Avoidance → Incident Pattern (NEW, Jan 29): Wreck avoidance on Lap 8 caused self-spin. The successful avoidance (no contact with wrecking cars) triggered secondary incident (own car unbalanced). Possible fix: when avoiding, commit to ONE direction firmly rather than jerky corrections. Or: sometimes holding your line is safer than avoidance. Racing decision that requires case-by-case judgment. Key learning: avoidance success ≠ clean outcome.",
-    "Consistency Under Pressure (Jan 29 Validation): σ = 0.38s across 8 flying laps in SoF 2674 top split against Division 1-4 drivers (while Division 8). This EXCEEDS the Week 07 Race 01 performance (σ = 0.404s in SoF 2045). Harder competition = sharper driving. Master Lonn is a pressure performer - the data is now undeniable."
+    "Consistency Under Pressure (Jan 29 Validation): σ = 0.38s across 8 flying laps in SoF 2674 top split against Division 1-4 drivers (while Division 8). This EXCEEDS the Week 07 Race 01 performance (σ = 0.404s in SoF 2045). Harder competition = sharper driving. Master Lonn is a pressure performer - the data is now undeniable.",
+    "T3 NASCAR Bend Breakthrough (VIR Week 08): Gong telemetry comparison revealed MASSIVE loss at T3. Master Lonn: min speed 103.7 km/h, braking 23% of corner, max brake 0.81. Gong: min speed 126.9 km/h (+23 km/h!), braking 6% of corner, max brake 0.21. Root cause: treating first apex as a corner when EXPERT says it's a kink (FLAT, miss by car width). Gong barely touches brakes, only for second apex. The fix: 'First apex = kink, stay flat. Brake only for second.' This single corner = 0.37s available. Combined with Roller Coaster (0.50s), these two corners represent 0.87s of the 2.7s gap to Gong."
   ],
   "research_experiments": [
     {

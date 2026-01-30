@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "file": "raygr22_virginia 2022 north 2026-01-30 15-02-38.ibt",
+    "track": "Virginia International Raceway - North Course",
+    "track_id": "virginia-2022-north",
+    "sample_rate_hz": 60,
+    "total_samples": 71295,
+    "duration_seconds": 1188.2,
+    "laps_found": 12
+  },
+  "steering": {
+    "available": true,
+    "avg_jerk_rad_s2": 13.19,
+    "max_jerk_rad_s2": 256.25,
+    "jerk_sigma": 15.81,
+    "avg_velocity_rad_s": 0.62,
+    "max_velocity_rad_s": 9.22,
+    "max_steering_angle_rad": 2.736,
+    "per_corner": {
+      "Horseshoe": {
+        "avg_jerk": 13.32,
+        "max_jerk": 146.43
+      },
+      "Turn 2": {
+        "avg_jerk": 11.92,
+        "max_jerk": 109.82
+      },
+      "Nascar Bend": {
+        "avg_jerk": 14.51,
+        "max_jerk": 140.15
+      },
+      "Left Hook": {
+        "avg_jerk": 14.56,
+        "max_jerk": 170.48
+      },
+      "Turn 4b": {
+        "avg_jerk": 20.86,
+        "max_jerk": 219.64
+      },
+      "Turn 5a": {
+        "avg_jerk": 19.05,
+        "max_jerk": 230.1
+      },
+      "Turn 5b": {
+        "avg_jerk": 19.36,
+        "max_jerk": 195.59
+      },
+      "Snake": {
+        "avg_jerk": 18.66,
+        "max_jerk": 105.64
+      },
+      "Turn 6b": {
+        "avg_jerk": 31.54,
+        "max_jerk": 256.25
+      },
+      "Turn 7": {
+        "avg_jerk": 18.35,
+        "max_jerk": 224.87
+      },
+      "Turn 8a": {
+        "avg_jerk": 14.13,
+        "max_jerk": 128.65
+      },
+      "Turn 8b": {
+        "avg_jerk": 21.47,
+        "max_jerk": 236.38
+      },
+      "Turn 9a": {
+        "avg_jerk": 18.58,
+        "max_jerk": 106.68
+      },
+      "Turn 9b": {
+        "avg_jerk": 18.12,
+        "max_jerk": 168.39
+      },
+      "Turn 9c": {
+        "avg_jerk": 21.33,
+        "max_jerk": 162.12
+      },
+      "Roller Coaster": {
+        "avg_jerk": 17.17,
+        "max_jerk": 183.03
+      },
+      "Turn 11": {
+        "avg_jerk": 13.9,
+        "max_jerk": 103.54
+      },
+      "Turn 12a": {
+        "avg_jerk": 15.59,
+        "max_jerk": 122.37
+      },
+      "Turn 12b": {
+        "avg_jerk": 16.18,
+        "max_jerk": 166.31
+      },
+      "Turn 13": {
+        "avg_jerk": 9.64,
+        "max_jerk": 185.12
+      },
+      "Turn 14": {
+        "avg_jerk": 5.55,
+        "max_jerk": 82.63
+      }
+    }
+  },
+  "throttle": {
+    "available": true,
+    "avg_jerk_pct_s2": 449.6,
+    "max_jerk_pct_s2": 52968.7,
+    "avg_application_rate_pct_s": 89.5,
+    "avg_lift_rate_pct_s": 111.9,
+    "max_application_rate_pct_s": 837.1,
+    "max_throttle_pct": 100.0,
+    "avg_throttle_pct": 67.7,
+    "full_throttle_usage_pct": 55.9,
+    "per_corner_exit": {
+      "Horseshoe": {
+        "avg_application_rate": 51.3,
+        "max_application_rate": 126.6
+      },
+      "Turn 2": {
+        "avg_application_rate": 45.3,
+        "max_application_rate": 116.0
+      },
+      "Nascar Bend": {
+        "avg_application_rate": 149.0,
+        "max_application_rate": 596.8
+      },
+      "Left Hook": {
+        "avg_application_rate": 92.0,
+        "max_application_rate": 284.7
+      },
+      "Turn 4b": {
+        "avg_application_rate": 100.5,
+        "max_application_rate": 394.3
+      },
+      "Turn 5a": {
+        "avg_application_rate": 115.8,
+        "max_application_rate": 301.6
+      },
+      "Turn 5b": {
+        "avg_application_rate": 57.3,
+        "max_application_rate": 130.8
+      },
+      "Turn 7": {
+        "avg_application_rate": 108.7,
+        "max_application_rate": 407.0
+      },
+      "Turn 8a": {
+        "avg_application_rate": 86.6,
+        "max_application_rate": 269.9
+      },
+      "Turn 9a": {
+        "avg_application_rate": 117.7,
+        "max_application_rate": 624.2
+      },
+      "Turn 9b": {
+        "avg_application_rate": 39.7,
+        "max_application_rate": 120.2
+      },
+      "Turn 9c": {
+        "avg_application_rate": 99.7,
+        "max_application_rate": 231.9
+      },
+      "Roller Coaster": {
+        "avg_application_rate": 65.8,
+        "max_application_rate": 238.3
+      },
+      "Turn 11": {
+        "avg_application_rate": 95.1,
+        "max_application_rate": 177.1
+      },
+      "Turn 12b": {
+        "avg_application_rate": 124.9,
+        "max_application_rate": 491.3
+      },
+      "Turn 14": {
+        "avg_application_rate": 189.4,
+        "max_application_rate": 414.6
+      }
+    }
+  },
+  "brake": {
+    "available": true,
+    "avg_jerk_pct_s2": 197.6,
+    "max_jerk_pct_s2": 98782.3,
+    "avg_application_rate_pct_s": 82.4,
+    "avg_release_rate_pct_s": 65.7,
+    "max_application_rate_pct_s": 916.2,
+    "max_brake_pct": 100.0,
+    "avg_brake_pct_when_braking": 58.9,
+    "per_corner_entry": {
+      "Horseshoe": {
+        "avg_application_rate": 108.1,
+        "avg_release_rate": 93.8
+      },
+      "Turn 2": {
+        "avg_application_rate": 105.7,
+        "avg_release_rate": 77.4
+      },
+      "Nascar Bend": {
+        "avg_application_rate": 103.9,
+        "avg_release_rate": 86.1
+      },
+      "Left Hook": {
+        "avg_application_rate": 112.1,
+        "avg_release_rate": 91.6
+      },
+      "Turn 4b": {
+        "avg_application_rate": 122.2,
+        "avg_release_rate": 93.1
+      },
+      "Turn 5a": {
+        "avg_application_rate": 118.5,
+        "avg_release_rate": 92.9
+      },
+      "Turn 5b": {
+        "avg_application_rate": 118.5,
+        "avg_release_rate": 92.9
+      },
+      "Snake": {
+        "avg_application_rate": 120.8,
+        "avg_release_rate": 87.9
+      },
+      "Turn 6b": {
+        "avg_application_rate": 125.9,
+        "avg_release_rate": 94.2
+      },
+      "Turn 7": {
+        "avg_application_rate": 145.8,
+        "avg_release_rate": 42.9
+      },
+      "Turn 8a": {
+        "avg_application_rate": 132.3,
+        "avg_release_rate": 68.6
+      },
+      "Turn 8b": {
+        "avg_application_rate": 132.3,
+        "avg_release_rate": 68.6
+      },
+      "Turn 9a": {
+        "avg_application_rate": 132.3,
+        "avg_release_rate": 68.6
+      },
+      "Turn 9b": {
+        "avg_application_rate": 132.3,
+        "avg_release_rate": 68.6
+      },
+      "Turn 9c": {
+        "avg_application_rate": 57.1,
+        "avg_release_rate": 100.3
+      },
+      "Roller Coaster": {
+        "avg_application_rate": 113.2,
+        "avg_release_rate": 75.5
+      },
+      "Turn 11": {
+        "avg_application_rate": 91.1,
+        "avg_release_rate": 88.6
+      },
+      "Turn 12a": {
+        "avg_application_rate": 91.1,
+        "avg_release_rate": 88.6
+      },
+      "Turn 12b": {
+        "avg_application_rate": 84.0,
+        "avg_release_rate": 76.8
+      },
+      "Turn 13": {
+        "avg_application_rate": 59.8,
+        "avg_release_rate": 77.2
+      },
+      "Turn 14": {
+        "avg_application_rate": 72.2,
+        "avg_release_rate": 63.2
+      }
+    }
+  }
+}

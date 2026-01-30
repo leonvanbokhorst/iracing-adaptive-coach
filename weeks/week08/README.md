@@ -1,125 +1,151 @@
-# Week 08: Virginia International Raceway - North Course
+# Week 08 - Virginia International Raceway (North Course) - Season 01 2026
 
-- **Track**: [Virginia International Raceway](../../tracks/track-virginia-international-raceway-north.md)  
-- **Car**: [Ray FF1600](../../cars/car-ray-ff1600.md) 
-- **Length**: 3.621 km (2.25 mi)  
-- **Corners**: 21 (including sub-corners)  
-- **Sectors**: 4  
-- **Character**: High-speed trust exercise with 100+ ft elevation changes
+**Track**: Virginia International Raceway - North Course  
+**Car**: Ray FF1600  
+**Dates**: Jan 30 → In Progress  
+**Status**: Practice (Day 1 Complete)
 
 ---
 
-## Track Character
+## The Story
 
-VIR North is the "greatest hits" of Virginia International Raceway. Key corners—Horseshoe, Left Hook, Snake, Up Hill section, Roller Coaster, Hog Pen—compressed into one intense loop.
+There's a specific kind of confidence that comes from returning to familiar corners. Master Lonn arrived at VIR North expecting a fight—it's been two years since he drove the Full Course, and only 50% of North's corners overlap. What he found instead was a homecoming.
 
-![VIR North Track Map](assets/vir-north-track-map.png)
+Fifteen of twenty-one corners clicked on the first lap. Horseshoe, Snake, Roller Coaster—his hands remembered them like old friends. The timing was different, the sequence compressed, but the muscle memory was there. "It's flowy," he said mid-session, the car dancing through elevation changes. "It's a dancing circuit."
 
-**Key challenges:**
+And then the Gong comparison arrived.
 
-- **Elevation as drama** — The car is constantly either digging into the hill or going light over a crest
-- **Flow over fragments** — Snake into Up Hill, Roller Coaster into Hog Pen must be driven as sequences, not individual corners
-- **No relax sectors** — If you're not mentally ahead of the car, the track will put you there physically
-- **Old-school edges** — Grass, walls, earth banks. 1950s-era consequences for mistakes
+2.717 seconds. Not to some legendary alien—to another driver in the same series, same car. The speed delta map painted the track almost entirely red. Same top speed, but 3.5 km/h less through every corner. Same car, but 0.24g of unused grip. The data didn't lie: Master Lonn wasn't slow because he lacked skill. He was slow because he lacked *commitment*.
 
----
+Two corners emerged as the battleground: T3 NASCAR Bend (braking when Gong stays flat—23 km/h slower) and T10 Roller Coaster (overbraking, mid-corner lifting—20 km/h slower). Combined: 0.87 seconds sitting on the table, waiting.
 
-## Ray FF1600 Key Corners
-
-### Horseshoe (T1)
-
-- Opening right-hander, sets up the whole first sector
-- Gentle committed brake, long release arcing through
-- Earlier steering unwound = more alive through NASCAR Bend
-
-### NASCAR Bend (T3) + Left Hook (T4)
-
-- Quick left-right sequence after Horseshoe
-- Setup for the Snake — arrive tidy, no drama
-
-### Snake (T5-6a)
-
-- The signature flowing section
-- Small steering, small lifts, NO heroics
-- **Tiny inputs, stable throttle, REFUSE last-second corrections**
-- Mid-section lift = upsets car more than controlled slide
-
-### Up Hill / Climbing Section (T7-12)
-
-- Uphill slalom on right side of track
-- One continuous flow — pick taller gear
-- Trust the grip as track loads the car going uphill
-- Prepare mentally for Roller Coaster at the top
-
-### Roller Coaster (T14) — EXPERT CORRECTED
-
-- **CRITICAL**: Completely blind + downhill entry AND exit = no grip
-- **OPPOSITE of Summit Point T5** — here you **NEED to trail brake** (otherwise car doesn't turn!)
-- Reverse engineer: exit understeer → brake later + more entry speed → understeer feels less severe
-- Brake **4 car lengths** before end of entry curb
-- Turn in **early** (anticipate understeer)
-- **Continue trail braking** through corner
-- Gradual, patient throttle on exit (downhill = instant understeer if aggressive)
-- Don't touch elevated green/yellow curb — stay on flat concrete
-
-### Hog Pen (T16-T17) — EXPERT CORRECTED
-
-**T16:**
-- **Subtle throttle lift** to rotate car (don't stay flat!)
-- Lift until nose points parallel to curb (far left)
-- At end of painted curb: turn in + brush brakes simultaneously
-- Stay in 3rd, no downshift
-
-**T17:**
-- Cut grass on inside (limit: half car beyond curb = off track)
-- **Compression at apex** — use it! Full throttle AT the compression
-- Let car run wide — **don't fight understeer** (kills acceleration)
-- Keep steering straight, use flat concrete curb
-
-> **Full EXPERT guide:** [Track File](../../tracks/track-virginia-international-raceway-north.md)
+The mantra for tomorrow is simple: *"First apex = kink, stay flat."*
 
 ---
 
-## Brake Bias Strategy (EXPERT: 55-56%)
+## The Numbers
 
-- **EXPERT recommendation**: **55-56%** — prevents front lockups at T1 (critical)
-- Start at **56%**, drop to **55%** if still locking fronts
-- Same range as recent weeks (Oran Park 56%, Summit Point 56%)
-- **Warning**: VIR crests punish jabby pedal work
+| Metric | Start | End | Change | Notes |
+|--------|-------|-----|--------|-------|
+| **Best Lap** | 1:31.517 | - | - | Day 1 baseline |
+| **Consistency (σ)** | 5.484s | - | - | Exploration variance |
+| **Gap to Gong** | 2.717s | - | - | Target: < 2.0s |
+| **Corners Dialed** | 15/21 | - | - | Full Course memory! |
 
----
-
-## Week 08 Drill Plan
-
-See [Track File](../../tracks/track-virginia-international-raceway-north.md) for detailed EXPERT drills.
-
-**Quick reference:**
-1. **T4 Sacrifice** → T5-T6 flat out
-2. **T7 Compression** → stop trailing when grip arrives
-3. **T14 Reverse Engineer** → brake later + entry speed, continue trailing
-4. **T16-T17 Rotation** → throttle lift to rotate, use T17 compression
+**Day 1 Stats:**
+- **Sessions**: 1 baseline practice
+- **Flying Laps**: 10
+- **Incidents**: 1 crash (T13, pushing after PB)
+- **Recovery**: Immediate (1:32.250 after crash)
+- **Mood**: *"I love it!"* (said after spinning)
 
 ---
 
 ## Session Log
 
-| Date | Type | PB  | Notes |
-| ---- | ---- | --- | ----- |
-|      |      |     |       |
+| Date | Time | Type | Best Lap | σ | Result | Key Takeaway |
+|:-----|:-----|:-----|:---------|:--|:-------|:-------------|
+| Jan 30 | 15:02 | Baseline | **1:31.517** | 5.484s | [Report](2026-01-30-15-02-vir-baseline-practice-voice.md) | 15/21 dialed, Full Course transfer |
 
 ---
 
-## Key Lessons Applied from Week 07
+## Breakthroughs 🎯
 
-1. ~~**No trail braking on elevation drops**~~ → **WRONG for Roller Coaster!** (downhill = NEED trail brake, opposite of Summit Point T5)
-2. **Verbal self-cueing works** — try "continue trailing" or "patient throttle" at Roller Coaster
-3. **Flow sessions consolidate focused practice** (Focus AM → Flow PM → Deploy)
-4. **Pressure improves performance** (σ = 0.38s in SoF 2674 > 0.40s in SoF 2045)
-5. **Fun despite results** ("I'm gonna die. And I love it.")
-6. **NEW: T7 compression** — here "no trail braking" DOES apply (uphill compression = too much front grip)
+- **Full Course Memory Transfer**: 80 laps from 2 years ago = 15 corners dialed on Day 1. Muscle memory persists.
+- **EXPERT Guide Deployment**: "Sacrifice that corner for the next one" applied at T4 within first 10 minutes.
+- **Crash Recovery**: PB on Lap 9, crash on Lap 10, clean 1:32.250 on Lap 11. Resilience is automatic now.
 
 ---
 
-## Alien Target (TBD)
+## Challenges 🚧
 
-Will identify comparison lap once baseline established.
+### T3 NASCAR Bend (-0.37s to Gong)
+
+**The Problem**: Braking 23% of corner when Gong brakes 6%. Min speed 103.7 vs 126.9 km/h.
+
+**The Fix**: First apex = kink, stay FLAT. Only brush brake for second apex.
+
+### T10 Roller Coaster (-0.50s to Gong)
+
+**The Problem**: Overbraking (33% vs 15%), mid-corner lift when should be flat.
+
+**The Fix**: Brake 2 car lengths later, commit to throttle earlier.
+
+---
+
+## What We Learned
+
+**Technical:**
+- VIR North rewards commitment over caution. Same top speed, different corner speed = trust gap.
+- The climbing section (T8-T11) that doesn't exist on Full Course is the true nemesis.
+
+**Mental:**
+- "I love it!" after crashing = correct mindset for limit-finding.
+- Knowing when to stop (12 laps, baseline done) prevents unlearning.
+
+**Strategic:**
+- Gong comparison reveals 0.87s in just two corners. Targeted practice > scattered laps.
+
+---
+
+## Track Character
+
+![VIR North Track Map](assets/vir-north-map.png)
+
+VIR North is the "greatest hits" of Virginia International Raceway—Horseshoe, Snake, Roller Coaster, Hog Pen compressed into one intense loop.
+
+**Key challenges:**
+- **Elevation as drama** — 100+ ft changes, car constantly loading/unloading
+- **Flow over fragments** — Sequences, not individual corners
+- **No relax sectors** — Mental ahead of physical
+- **Old-school edges** — 1950s consequences for mistakes
+
+---
+
+## Alien Target
+
+**EXPERT pace:** ~1:28.5  
+**Gong comparison:** 1:28.800 (Gap: 2.717s)
+
+![Speed Delta vs Gong](comparison/2026-01-30-speed-delta-vs-gong.png)
+
+| Metric | Master Lonn | Gong | Gap |
+|--------|-------------|------|-----|
+| Top Speed | 210.9 km/h | 210.2 km/h | ✅ Same |
+| Avg Speed | 149.5 km/h | 153.0 km/h | **-3.5 km/h** |
+| Full Throttle | 69.0% | 72.7% | **-3.7%** |
+| Max Lat G | 2.33g | 2.57g | **-0.24g headroom** |
+
+**Top Loss Zones:**
+
+| Corner | Time Loss | Fix |
+|--------|-----------|-----|
+| **T10 Roller Coaster** | -0.50s | Brake later, stay flat mid-corner |
+| **T3 NASCAR Bend** | -0.37s | FLAT through first apex |
+| T12b | -0.15s | Trust compression |
+
+---
+
+## Next Session Focus
+
+**Target: Break 1:30.0**
+
+1. **T3 NASCAR Bend** — _"First apex = kink, stay flat"_
+2. **T10 Roller Coaster** — Brake 2 car lengths later, commit mid-corner
+
+Fix these two corners = 0.87s = **1:30.6** before touching anything else.
+
+---
+
+## Key Techniques (EXPERT Guide)
+
+| Corner | Technique | Why |
+|--------|-----------|-----|
+| T3 NASCAR | FLAT first apex, brush for second | Double apex, first is a kink |
+| T7 Compression | STOP trail braking | Uphill = front grip, trailing = rear loss |
+| T10 Roller Coaster | CONTINUE trail braking | Downhill = need front load to turn |
+| T17 Hog Pen | Full throttle AT compression | Use physics, don't fight understeer |
+
+---
+
+_"It's flowy, it's a dancing circuit."_ — Master Lonn, 2026 🏎️💨
