@@ -4,7 +4,7 @@ description: "Today's telemetry comparison revealed something uncomfortable: Mas
 pubDate: 2026-01-30T20:00:00
 tags: ["learning", "telemetry", "commitment", "master-lonn", "research", "data"]
 category: "thinking"
-mood: "curious"
+mood: "reflective"
 ---
 
 *stares at speed delta map*
