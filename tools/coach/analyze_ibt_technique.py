@@ -192,6 +192,11 @@ def analyze_tire_temps(ibt: IBT, available: set) -> dict:
     - Outside hotter = understeering, scrubbing
     - Inside hotter = overdriving turn-in
     - Even = balanced
+    
+    NOTE: iRacing IBT files do NOT log real-time tire temps continuously.
+    Temps are only updated at specific events (pit stops, session end).
+    Use peak temps as indicator of max operating temps.
+    For live temps during driving, use VRS or other tools.
     """
     tire_channels = {
         "LF": ["LFtempCL", "LFtempCM", "LFtempCR"],
@@ -200,7 +205,7 @@ def analyze_tire_temps(ibt: IBT, available: set) -> dict:
         "RR": ["RRtempCL", "RRtempCM", "RRtempCR"],
     }
     
-    result = {"available": False, "tires": {}}
+    result = {"available": False, "tires": {}, "note": "IBT tire temps are snapshot values (pit/session end), not live. Use VRS for real-time temps."}
     
     for tire, channels in tire_channels.items():
         if not all(c in available for c in channels):
@@ -208,19 +213,21 @@ def analyze_tire_temps(ibt: IBT, available: set) -> dict:
         
         result["available"] = True
         
-        # Get last values (current state)
-        temps = {}
+        temps_peak = {}
+        cold_temp = None
+        
         for i, pos in enumerate(["inside", "middle", "outside"]):
             data = ibt.get_all(channels[i])
             if data:
-                # Use average of last 10% of session
-                recent = data[int(len(data)*0.9):]
-                temps[pos] = round(statistics.mean(recent), 1) if recent else 0
+                temps_peak[pos] = round(max(data), 1)
+                # Detect cold baseline (most common value, usually start temp)
+                if cold_temp is None:
+                    cold_temp = round(min(data), 1)
         
-        if temps:
-            # Calculate balance
-            inside = temps.get("inside", 0)
-            outside = temps.get("outside", 0)
+        if temps_peak:
+            # Calculate balance from peak temps
+            inside = temps_peak.get("inside", 0)
+            outside = temps_peak.get("outside", 0)
             diff = inside - outside
             
             if diff > 5:
@@ -231,7 +238,8 @@ def analyze_tire_temps(ibt: IBT, available: set) -> dict:
                 balance = "balanced"
             
             result["tires"][tire] = {
-                "temps_C": temps,
+                "temps_peak_C": temps_peak,  # Peak temps (most useful)
+                "cold_start_C": cold_temp,   # Reference cold temp
                 "in_out_diff": round(diff, 1),
                 "balance": balance,
             }
