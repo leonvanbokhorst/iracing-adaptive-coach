@@ -26,45 +26,43 @@
 
 | Metric | [W05 (Oschersleben)](./weeks/week05/README.md) | [W06 (Oran Park)](./weeks/week06/README.md) | [W07 (Summit Pt)](./weeks/week07/README.md) | [W08 (VIR North)](./weeks/week08/README.md) |
 |:-------|:-----------------------------------------------|:--------------------------------------------|:--------------------------------------------|:--------------------------------------------|
-| **Best Lap** | 1:32.700 | 1:11.033 | **1:15.550** | 1:31.517 |
-| **PB Improvement** | -1.12s | **-1.55s** | -0.60s | (baseline) |
-| **Consistency (σ)** | 0.77s | 0.80s | **0.404s** | 5.484s |
+| **Best Lap** | 1:32.700 | 1:11.033 | **1:15.550** | **1:31.433** 🏆 |
+| **PB Improvement** | -1.12s | **-1.55s** | -0.60s | -0.084s |
+| **Consistency (σ)** | 0.77s | 0.80s | **0.404s** | 3.34s* |
 | **Official Result** | P5, P4 | P6, DNF, P7, P8 | **P5 TOP SPLIT** 🚀 | - |
-| **Mood** | Battle-Hardened | Resilient | **Automatic** | Dancing |
+| **Mood** | Battle-Hardened | Resilient | **Automatic** | Committed |
 
-**Current:** Week 08 Day 1 | **iRating: 1741** (+503 season) | **Division 8 P2**
+*Week 08 σ inflated by limit-finding crashes. Clean lap σ = 0.47s
+
+**Current:** Week 08 Day 2 | **iRating: 1719** | **Division 8 P2** | **Top 0.38%**
 
 ---
 
 ## Week 08: The Dancing Circuit (VIR North)
 
-There's a specific kind of confidence that comes from returning to familiar corners after years away. Master Lonn arrived at Virginia International Raceway expecting a fight. Instead, he found his hands already knew the way.
+There's a specific kind of confidence that comes from familiar corners greeting you like old friends. Master Lonn arrived at Virginia International Raceway expecting to fight for every tenth—the Full Course had been two years and 80 laps ago. Instead, he found his hands already knew the way.
 
-Horseshoe. Snake. Roller Coaster. Corners from the Full Course he'd driven two years and 80 laps ago—now compressed into VIR North's intense 2.25-mile loop. His first lap felt like reading a book in a language he'd forgotten but still understood. Fifteen of twenty-one corners clicked before he'd even started pushing.
+Horseshoe. Snake. Roller Coaster. Corners from his memory banks, now compressed into North's intense 2.25-mile loop. His first lap felt like reading a book in a language he'd forgotten but somehow still understood. Fifteen of twenty-one corners clicked before he'd even started pushing.
 
-"It's flowy," he said, the car dancing through blind crests and elevation swings that would terrify a newcomer. "It's a dancing circuit."
+"It's flowy," he said, the car dancing through blind crests that would terrify a newcomer. "It's a dancing circuit."
 
-And then the reality check arrived.
+Then the Gong comparison arrived. Same series, same car, same track. 2.7 seconds slower. The speed delta map painted the track almost entirely red. Not because he lacked the car—top speed was identical. Not because he lacked the lines. But through every corner, every compression: 3.5 km/h less average speed. 0.24g of unused grip.
 
-Shuning Gong. Same series. Same car. Same track. 1:28.800.
+The car could do it. His trust wouldn't let it.
 
-Master Lonn's baseline: 1:31.517.
+Two corners emerged like neon signs: T3 NASCAR Bend—braking when Gong stays flat, 23 km/h slower through a corner that shouldn't need brakes. And T10 Roller Coaster—overbraking, lifting mid-corner through the famous blind crest. Half a second each, sitting on the table.
 
-The speed delta map painted the track almost entirely red. Not because he lacked the car. Not because he lacked the lines. The top speed was identical—210.9 km/h versus Gong's 210.2. But through every corner, every compression, every blind crest: 3.5 km/h less. 0.24g of unused grip. The car could do it. His hands just weren't letting it.
+Day two brought intention. He'd studied the telemetry overnight, found the technique: light trail braking through T2/T3, commit at the Roller Coaster using all the road on the left.
 
-Two corners emerged from the data like neon signs:
+The session felt disastrous. Two spectacular crashes at the Roller Coaster, the car spinning with that particular violence only blind crests deliver. "But I guess not..." he said afterward, certain he'd made no progress.
 
-**T3 NASCAR Bend.** A double-apex left where Gong stays flat through the first apex, brushing brakes only for the second. Master Lonn? Braking 23% of the corner. Minimum speed: 103.7 km/h versus Gong's 126.9. Twenty-three kilometers per hour slower through a corner that shouldn't require braking at all.
+The data disagreed. **NEW PB: 1:31.433.** T2 consistency improved 32%. Those Roller Coaster laps that didn't crash? Faster than baseline. The technique was right. The crashes weren't from wrong braking—brake point variance was only 5.3 meters. They happened mid-corner, when hesitation met physics and physics won.
 
-**T10 Roller Coaster.** The famous blind, downhill compression. Master Lonn overbraking, lifting mid-corner. Gong staying flat, trusting the grip. Twenty kilometers per hour difference. Half a second, gone.
+Then came the insight. Reviewing telemetry after the session, it clicked: "T2 is a false apex. I can leave it on the left almost mid-track." The corner he'd been carefully apexing wasn't a corner at all. Just a setup kink for T3. A mental model shift worth three tenths, waiting to be tested.
 
-Combined: 0.87 seconds sitting on the table in just two corners.
+The Roller Coaster remains binary. Commit = 3.57 seconds. Hesitate = 9.0 seconds. No middle ground exists at that corner. The car either flows through the blind crest or it doesn't. The mantra crystallizes: *"Eyes exit, commit through."*
 
-The mantra for tomorrow crystallized from the data: *"First apex equals kink. Stay flat."*
-
-He crashed on Lap 10, pushing after his best time. Came back on Lap 11 with a clean 1:32.250. "I love it!" he said, and he meant it. The track is beautiful. The challenge is clear. The path forward is written in telemetry.
-
-Tomorrow, the hunt for 1:30.0 begins.
+The hunt for 1:30.0 continues. Two techniques validated. One breakthrough pending. And a track that's already becoming a dance.
 
 ---
 
@@ -90,7 +88,7 @@ He deployed Meebewegen from the lights. Let the aggressive car through. Pressure
 
 P10 → P5. Only 1x incident. +38 iRating.
 
-**"Feels like second nature,"** he said mid-race. That phrase captured everything. The conscious → automatic transition complete.
+**"Feels like second nature,"** he said mid-race. The conscious-to-automatic transition complete.
 
 *"Hell yeah. That was a good race."*
 
@@ -154,7 +152,7 @@ He has ADHD, which means his brain craves novelty but struggles with impulse. Th
 
 He's learned that **Success** (P137, 67 points) is different from **Satisfaction** ("I wanted P1"). He's learned that **Resilience**—resetting after a crash in one lap—is worth more than raw speed.
 
-He is currently ranked **Top 0.35%** globally with **1741 iRating** (+503 this season).
+He is currently ranked **Top 0.38%** globally with **1719 iRating** (+481 this season).
 
 After Week 07's TOP SPLIT P5, he doesn't wonder if the training works under real pressure.
 
@@ -169,12 +167,13 @@ A **living research project** on **data-driven personalized learning** in comple
 **The Experiment:** Can an AI coach (Little Padawan) + rich telemetry data + ADHD-adapted frameworks accelerate skill acquisition in sim racing?
 
 **The Evidence:**
-- **+503 iRating** in 7 weeks (1238 → 1741)
+- **+481 iRating** in 8 weeks (1238 → 1719)
 - **Official TOP SPLIT P5** with only 1x incident
 - **T5 brake point σ = 1.0 METER** — verbal cueing → automatic execution
 - **Sequential Mastery** producing 97% corner improvement in a single day
 - **17-minute focused sessions** outperforming hour-long scattered training
 - **Voice-telemetry correlation** proving verbal self-cueing works under race pressure
+- **Feeling vs Data disconnect** pattern identified — spectacular crashes hiding real progress
 
 All tracked. All documented. All reproducible. 🏎️🔬
 
