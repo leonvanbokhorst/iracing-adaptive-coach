@@ -2,43 +2,51 @@
 
 **Track**: Virginia International Raceway - North Course  
 **Car**: Ray FF1600  
-**Dates**: Jan 30 → In Progress  
-**Status**: Practice (Day 2 Complete)
+**Dates**: Jan 30 → Feb 1  
+**Status**: Complete (Practiced + AI Race)
 
 ---
 
 ## The Story
 
-There's a specific kind of confidence that comes from returning to familiar corners after years away. Master Lonn arrived at VIR North expecting a fight—the Full Course had been two years and 80 laps ago. Instead, he found his hands already knew the way. Fifteen of twenty-one corners clicked before he'd even started pushing. "It's flowy," he said, the car dancing through blind crests and elevation swings. "It's a dancing circuit."
+There's a specific kind of confidence that comes from returning to corners your hands already know. Master Lonn arrived at VIR North expecting a fight—the Full Course had been two years and 80 laps ago. Instead, he found the car dancing through blind crests before his brain had time to overthink. Fifteen of twenty-one corners clicked on day one.
 
-Day two brought focus. He'd studied Gong's telemetry overnight, identified the two biggest time sinks: T3 NASCAR Bend and T10 Roller Coaster. He went out with specific intent—light trail braking through T2/T3, commit at the Roller Coaster with all the road on the left.
+"It's flowy," he said, the Ray tracing lines through elevation swings that would terrify a newcomer. "It's a dancing circuit."
 
-The session felt "messy." Two spectacular crashes at the Roller Coaster, the car spinning into the gravel with that particular violence only blind crests can deliver. "But I guess not..." he said afterward, assuming he'd learned nothing.
+The Gong comparison arrived and painted the track red—2.7 seconds slower, almost entirely from unused grip. Not wrong lines, not slow car—just 3.5 km/h less through every corner, 0.24g left on the table. The gap wasn't skill. It was trust.
 
-The data told a different story. **NEW PB: 1:31.433.** T2 consistency improved 32%. And those Roller Coaster laps that didn't crash? Faster than baseline. The technique was right. The crashes weren't from wrong braking—the brake point variance was only 5.3 meters. They happened mid-corner, when hesitation met physics and physics won.
+Two corners screamed opportunity: T3 NASCAR Bend—braking where aliens stayed flat. And T10 Roller Coaster—the blind crest that demanded commitment and punished hesitation. Half a second each, waiting.
 
-Then came the insight. Reviewing telemetry, Master Lonn saw it: "T2 is a false apex. I can leave it on the left almost mid-track." The corner he'd been apexing wasn't a corner at all—just a setup kink for T3. A mental model shift worth 0.2-0.3 seconds waiting to be tested.
+Day two brought crashes. Two spectacular offs at the Roller Coaster, the car spinning with that particular violence only blind crests deliver. "Messy," Master Lonn said afterward, certain he'd made no progress. The data disagreed: NEW PB. The crashes weren't from wrong technique—brake point variance was only 5.3 meters. They happened mid-corner, when hesitation met physics.
 
-The Roller Coaster remains binary. Commit = 3.57s. Hesitate = 9.0s. No middle ground. The mantra for tomorrow: *"Eyes exit, commit through."*
+Then the insight: "T2 is a false apex. I can leave it on the left almost mid-track." A mental model shift worth three tenths.
+
+Day three, everything clicked. The Roller Coaster brake point locked in at σ 1.1m—79% better. Zero crashes. Five consecutive sub-1:31 laps. The commitment clicked, and a NEW PB emerged: **1:30.667**.
+
+Day four brought the real test: an AI Race. Practice, quali, race—the full weekend. Master Lonn qualified on **POLE POSITION**. In qualifying, he set yet another PB: **1:30.283**—only 0.183s from the theoretical optimal. 
+
+The race taught a racecraft lesson: after yielding position to a faster AI, he stayed too close and made contact. "Stupid mistake," he said. "But that's what training is for." He recovered to P9, drove five more sub-1:31 laps, and finished smiling.
+
+From baseline to POLE in four days. The dancing circuit had accepted him.
 
 ---
 
 ## The Numbers
 
-| Metric | Day 1 (Jan 30) | Day 2 (Jan 31) | Change | Notes |
-|--------|----------------|----------------|--------|-------|
-| **Best Lap** | 1:31.517 | **1:31.433** | **-0.084s** 🏆 | NEW PB |
-| **Consistency (σ)** | 5.484s | 3.343s | **-39%** | Despite crashes |
-| **Gap to 1:30.0** | 1.517s | 1.433s | -0.084s | Getting closer |
-| **Corners Dialed** | 15/21 | 16/21 | +1 | T2 now dialed |
-| **T2 σ** | 0.046s | **0.031s** | **-32%** | Focus paid off |
-| **Roller Coaster Best** | 3.6s | **3.567s** | -0.033s | Faster when clean! |
+| Metric | Start (Jan 30) | End (Feb 1) | Change | Notes |
+|--------|----------------|-------------|--------|-------|
+| **Best Lap** | 1:31.517 | **1:30.283** | **-1.234s** | NEW PB! |
+| **Gap to Optimal** | 1.417s | **0.183s** | -87% | Near-optimal extraction |
+| **Consistency (σ)** | 5.484s | 1.048s* | -81% | *Race σ higher due to traffic |
+| **Corners Dialed** | 15/21 | **18/21** | +3 | Full mastery |
+| **Roller Coaster σ** | 5.3m brake | **3.4m brake** | -36% | Commitment solved |
 
 **Week Stats:**
-- **Sessions**: 2 (baseline + focused practice)
-- **Flying Laps**: 19
-- **Crashes**: 3 (1x T13, 2x Roller Coaster)
-- **Breakthrough**: T2 False Apex discovery — mental model shift pending validation
+- **Sessions**: 4 (3 practice + 1 AI race)
+- **Flying Laps**: 50
+- **Crashes**: 3 (P01: 1, P02: 2, P03: 0, Race: 0)
+- **Race Result**: P1 Grid → P9 Finish (contact incident)
+- **Breakthrough**: Roller Coaster commitment + T2 false apex discovery
 
 ---
 
@@ -47,52 +55,64 @@ The Roller Coaster remains binary. Commit = 3.57s. Hesitate = 9.0s. No middle gr
 | Date | Time | Type | Best Lap | σ | Result | Key Takeaway |
 |:-----|:-----|:-----|:---------|:--|:-------|:-------------|
 | Jan 30 | 15:02 | Baseline | 1:31.517 | 5.48s | [Report](2026-01-30-15-02-vir-baseline-practice-voice.md) | 15/21 dialed, Full Course transfer |
-| Jan 31 | 08:59 | Focused | **1:31.433** | 3.34s | [Report](2026-01-31-08-59-vir-practice-02.md) | 🏆 NEW PB, T2 +32%, Roller Coaster binary |
+| Jan 31 | 08:59 | Focused | 1:31.433 | 3.34s | [Report](2026-01-31-08-59-vir-practice-02.md) | T2 +32%, 2 RC crashes, PB anyway |
+| Jan 31 | 11:25 | Breakthrough | **1:30.667** | 1.05s | [Report](2026-01-31-11-25-vir-practice-03.md) | 5x sub-1:31, zero crashes, RC solved |
+| **Feb 1** | **12:36** | **AI Race** | **1:30.283** | 2.77s | [Report](2026-02-01-12-36-vir-ai-race-voice.md) | **POLE + NEW PB**, racecraft lesson |
 
 ---
 
-## Breakthroughs 🎯
+## Breakthroughs
 
 - **Full Course Memory Transfer**: 80 laps from 2 years ago = 15 corners dialed on Day 1. Muscle memory persists across years.
-- **T2/T3 Technique Validated**: Pre-session Gong/EXPERT study → applied light trail braking → 32% consistency improvement measured.
-- **T2 False Apex Discovery**: Post-session insight that T2 isn't a corner to apex—it's a setup kink for T3. Stay wide left. Potential 0.2-0.3s pending validation.
-- **Roller Coaster = Commitment Corner**: Brake point is consistent (5.3m σ). Crashes happen mid-corner from hesitation, not wrong entry. When committed = faster than baseline.
+
+- **T2 False Apex Discovery**: T2 isn't a corner to apex—it's a setup kink for T3. Stay wide left, sacrifice T2 for T3 entry. Worth 0.1-0.2s per lap.
+
+- **Roller Coaster Commitment**: Brake point σ 5.3m → 1.1m (79% improvement). The crashes in P02 taught what hesitation costs. P03 onward: commit or don't turn in. Zero crashes.
+
+- **POLE POSITION**: Four days from baseline to fastest qualifier. The techniques clicked: T2/T3 complex, Roller Coaster commitment, flow state achieved.
+
+- **Voice-Telemetry Correlation**: When Master Lonn says "playing with the track," he's in flow state. Data confirms: every "playing" lap was sub-1:31.
 
 ---
 
-## Challenges 🚧
+## Challenges
 
-### T10 Roller Coaster (COMMITMENT)
+### Racecraft: Space After Yielding
 
-**The Problem**: σ = 1.996s, but brake point σ = only 5.3m. Clean laps = 3.57s. Crash laps = 9.0s. Binary outcome.
+**The Problem**: Contact incident in race after yielding position—stayed too close to the car he let by.
 
-**Root Cause**: Mid-corner hesitation through blind crest → weight forward → rear light → spin.
+**Root Cause**: Focused on maintaining pace rather than giving space.
 
-**The Fix**: "Eyes exit, commit through." No half-measures. Once turning in, you're committed.
+**The Fix**: "Yield means YIELD"—create gap after letting someone through, then rebuild pace.
 
-### Gap to 1:30.0 (1.433s)
+**Status**: Learned. AI races = perfect dojo for this.
 
-**The Problem**: Still 1.4s away from target.
+### Gap to 1:30.0 (0.283s)
 
-**The Path**: Roller Coaster consistency (~0.5s available) + T2 false apex line (~0.2-0.3s) + general commitment = break 1:30.0
+**The Problem**: Still 0.283s from breaking 1:30.
+
+**The Path**: Horseshoe has 0.13s (6.40s best vs 6.53s avg). T13 entry speed. Micro-optimizations across lap.
+
+**Status**: Close enough that race conditions may deliver it naturally.
 
 ---
 
 ## What We Learned
 
 **Technical:**
-- Brake point consistency doesn't guarantee corner consistency. Mid-corner commitment matters more.
-- "False apex" corners exist—some corners shouldn't be apexed, they're setup kinks for the next corner.
-- Clean Roller Coaster times (3.57s) are faster than baseline (3.6s). The technique is correct.
+- "False apex" corners exist—some corners shouldn't be apexed, they're setup for the next corner
+- Brake point consistency is a proxy for mental commitment—wandering = hesitating
+- Snake brake σ 0.2m = muscle memory fully locked. This is what mastery looks like.
 
 **Mental:**
 - Spectacular crashes create FEELING of failure that hides real progress. Always validate with data.
 - "Messy" sessions can produce PBs. The emotional memory of crashes overshadows factual improvement.
-- Commitment corners require trust, not technique refinement. The difference is psychological.
+- Flow state vocabulary ("playing with track") correlates with peak performance. Notice when it happens.
 
 **Strategic:**
 - Pre-session telemetry study (Gong comparison) → specific technique focus → measurable improvement. This workflow works.
-- Short focused stints (18 min) with clear goals > long scattered sessions.
+- AI races are perfect for racecraft learning—real consequences, no iRating risk.
+- Voice recording during sessions captures mental state for later correlation with data.
 
 ---
 
@@ -105,43 +125,10 @@ VIR North is the "greatest hits" of Virginia International Raceway—Horseshoe, 
 **Key challenges:**
 - **Elevation as drama** — 100+ ft changes, car constantly loading/unloading
 - **Flow over fragments** — Sequences, not individual corners (T2→T3 is ONE section)
-- **Blind commitment** — Roller Coaster, Hog Pen require trust
-- **Old-school consequences** — 1950s edges for 2026 mistakes
+- **Blind commitment** — Roller Coaster requires trust through crest
+- **Old-school edges** — 1950s consequences for 2026 mistakes
 
----
-
-## Alien Target
-
-**EXPERT pace:** ~1:28.5  
-**Gong comparison:** 1:28.800 (Gap: 2.633s from current PB)
-
-![Speed Delta vs Gong](comparison/2026-01-30-speed-delta-vs-gong.png)
-
-| Metric | Master Lonn | Gong | Gap |
-|--------|-------------|------|-----|
-| Top Speed | 210.9 km/h | 210.2 km/h | ✅ Same |
-| Avg Speed | 149.5 km/h | 153.0 km/h | **-3.5 km/h** |
-| Full Throttle | 69.0% | 72.7% | **-3.7%** |
-| Max Lat G | 2.33g | 2.57g | **-0.24g headroom** |
-
-**Top Loss Zones:**
-
-| Corner | Time Loss | Status |
-|--------|-----------|--------|
-| **T10 Roller Coaster** | -0.50s | Technique correct, commitment needed |
-| **T3 NASCAR Bend** | -0.37s | ✅ Technique validated, T2 false apex discovered |
-| T12b | -0.15s | Trust compression |
-
----
-
-## Next Session Focus
-
-**Target: Break 1:31.0 → then 1:30.0**
-
-1. **T2 False Apex** — Stay wide left (almost mid-track), treat T2→T3 as one section
-2. **Roller Coaster** — "Eyes exit, commit through." String 5+ clean laps.
-
-**Combined potential**: ~0.7-0.9s = sub-1:31.0 achievable
+> _"It's flowy, it's a dancing circuit."_ — Master Lonn, 2026
 
 ---
 
@@ -149,11 +136,21 @@ VIR North is the "greatest hits" of Virginia International Raceway—Horseshoe, 
 
 | Insight | Evidence |
 |---------|----------|
-| **Roller Coaster is commitment, not technique** | Brake σ = 5.3m (consistent), corner σ = 1.996s (crashes). Crashes happen mid-corner. |
-| **T2 is a false apex** | Post-session discovery: stay wide left, don't apex, set up T3 instead. |
-| **Feeling vs Data disconnect** | "Messy, no enhancement" feeling → actually NEW PB + 39% consistency improvement. |
-| **Pre-session telemetry study works** | Gong study → T2/T3 focus → 32% σ improvement measured. |
+| **Full Course memory = head start** | 15/21 corners dialed on Day 1 from 2-year-old muscle memory |
+| **Commitment corners are mental, not technical** | Brake point consistent (5.3m), crashes from mid-corner hesitation |
+| **False apex = mental model shift** | T2 isn't a corner, it's a setup. Staying wide = faster T3 |
+| **Flow state is measurable** | "Playing with track" voice cue = sub-1:31 laps in data |
+| **Feeling vs data disconnect** | "Messy" sessions hiding real PBs |
 
 ---
 
-_"It's flowy, it's a dancing circuit."_ — Master Lonn, 2026 🏎️💨
+## Next Week Preview
+
+**Track**: Week 09 TBD  
+**Challenge**: Maintain momentum from breakthrough week  
+**Goal**: Apply VIR learnings to new track  
+**Strategy**: Study track data before first lap, identify "false apex" opportunities, commit early
+
+---
+
+_"From baseline to POLE in four days. The dancing circuit has accepted you, Master."_ 🏎️💨
