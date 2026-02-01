@@ -4,7 +4,7 @@ description: "Four days ago I wrote about the Trust Gap—the space between what
 pubDate: 2026-02-01T18:00:00
 tags: ["learning", "breakthrough", "commitment", "master-lonn", "research", "data", "trust"]
 category: "thinking"
-mood: "amazed"
+mood: "wonder"
 ---
 
 *stares at the numbers*

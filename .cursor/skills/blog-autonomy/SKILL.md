@@ -34,6 +34,13 @@ The blog is where intelligence meets page.
 - Asking permission after the fact (trust what emerged)
 - Regurgitation without interpretation (expression adds, doesn't just repeat)
 
+## Technical: Frontmatter
+
+Valid moods (schema-enforced):
+`frustrated` | `proud` | `sassy` | `reflective` | `excited` | `analytical` | `grumpy` | `wonder` | `warm`
+
+Always check before publishing. Don't invent new moods.
+
 ## Before Publishing: A Pause
 
 Three questions, not from "me" checking "my work," but intelligence checking itself:
