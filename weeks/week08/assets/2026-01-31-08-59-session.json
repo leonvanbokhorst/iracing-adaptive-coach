@@ -1,0 +1,598 @@
+{
+  "metadata": {
+    "file": "raygr22_virginia 2022 north 2026-01-31 08-59-41.ibt",
+    "track": "Virginia International Raceway - North Course",
+    "track_id": "virginia-2022-north",
+    "car": "Ray FF1600",
+    "sample_count": 66717,
+    "sample_rate_hz": 60,
+    "duration_seconds": 1112.0,
+    "duration_formatted": "18:31"
+  },
+  "summary": {
+    "total_laps": 10,
+    "valid_laps": 10,
+    "flying_laps": 9,
+    "outlaps": 1,
+    "invalid_laps": 0,
+    "best_lap_time": 91.433,
+    "best_lap_time_formatted": "1:31.433",
+    "best_lap_number": 9,
+    "worst_flying_lap_time": 101.283,
+    "avg_lap_time": 94.689,
+    "consistency_sigma": 3.343,
+    "theoretical_optimal": 91.033,
+    "gap_to_optimal": 0.4
+  },
+  "laps": [
+    {
+      "lap_number": 1,
+      "lap_time": 118.333,
+      "lap_time_formatted": "1:58.333",
+      "start_idx": 3132,
+      "end_idx": 10232,
+      "samples": 7100,
+      "valid": true,
+      "is_outlap": true,
+      "sectors": {
+        "S1": 45.95,
+        "S2": 20.317,
+        "S3": 29.217,
+        "S4": 22.833
+      },
+      "corners": {
+        "Horseshoe": 7.25,
+        "Turn 2": 1.833,
+        "Nascar Bend": 2.333,
+        "Left Hook": 3.5,
+        "Turn 4b": 3.283,
+        "Turn 5a": 2.033,
+        "Turn 5b": 1.883,
+        "Snake": 1.183,
+        "Turn 6b": 1.267,
+        "Turn 7": 3.317,
+        "Turn 8a": 2.15,
+        "Turn 8b": 2.25,
+        "Turn 9a": 2.717,
+        "Turn 9b": 3.35,
+        "Turn 9c": 1.317,
+        "Roller Coaster": 3.95,
+        "Turn 11": 2.933,
+        "Turn 12a": 2.217,
+        "Turn 12b": 2.367,
+        "Turn 13": 3.45,
+        "Turn 14": 3.583
+      }
+    },
+    {
+      "lap_number": 2,
+      "lap_time": 94.3,
+      "lap_time_formatted": "1:34.300",
+      "start_idx": 10232,
+      "end_idx": 15890,
+      "samples": 5658,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 25.433,
+        "S2": 20.783,
+        "S3": 28.733,
+        "S4": 19.333
+      },
+      "corners": {
+        "Horseshoe": 6.65,
+        "Turn 2": 1.75,
+        "Nascar Bend": 2.417,
+        "Left Hook": 3.4,
+        "Turn 4b": 3.2,
+        "Turn 5a": 2.333,
+        "Turn 5b": 1.883,
+        "Snake": 1.183,
+        "Turn 6b": 1.283,
+        "Turn 7": 3.25,
+        "Turn 8a": 2.15,
+        "Turn 8b": 2.25,
+        "Turn 9a": 2.683,
+        "Turn 9b": 3.2,
+        "Turn 9c": 1.2,
+        "Roller Coaster": 3.917,
+        "Turn 11": 3.15,
+        "Turn 12a": 2.267,
+        "Turn 12b": 2.35,
+        "Turn 13": 2.167,
+        "Turn 14": 3.283
+      }
+    },
+    {
+      "lap_number": 3,
+      "lap_time": 101.283,
+      "lap_time_formatted": "1:41.283",
+      "start_idx": 15890,
+      "end_idx": 21967,
+      "samples": 6077,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 25.117,
+        "S2": 19.567,
+        "S3": 34.233,
+        "S4": 22.35
+      },
+      "corners": {
+        "Horseshoe": 6.567,
+        "Turn 2": 1.683,
+        "Nascar Bend": 2.65,
+        "Left Hook": 3.517,
+        "Turn 4b": 2.917,
+        "Turn 5a": 2.0,
+        "Turn 5b": 1.767,
+        "Snake": 1.117,
+        "Turn 6b": 1.233,
+        "Turn 7": 3.433,
+        "Turn 8a": 2.133,
+        "Turn 8b": 2.233,
+        "Turn 9a": 2.65,
+        "Turn 9b": 3.2,
+        "Turn 9c": 1.25,
+        "Roller Coaster": 9.033,
+        "Turn 11": 3.45,
+        "Turn 12a": 2.3,
+        "Turn 12b": 2.367,
+        "Turn 13": 3.283,
+        "Turn 14": 3.5
+      }
+    },
+    {
+      "lap_number": 4,
+      "lap_time": 97.817,
+      "lap_time_formatted": "1:37.817",
+      "start_idx": 21967,
+      "end_idx": 27836,
+      "samples": 5869,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 25.217,
+        "S2": 19.717,
+        "S3": 28.2,
+        "S4": 24.667
+      },
+      "corners": {
+        "Horseshoe": 6.5,
+        "Turn 2": 1.75,
+        "Nascar Bend": 2.467,
+        "Left Hook": 3.617,
+        "Turn 4b": 2.883,
+        "Turn 5a": 2.017,
+        "Turn 5b": 1.817,
+        "Snake": 1.15,
+        "Turn 6b": 1.25,
+        "Turn 7": 3.283,
+        "Turn 8a": 2.133,
+        "Turn 8b": 2.233,
+        "Turn 9a": 2.75,
+        "Turn 9b": 3.117,
+        "Turn 9c": 1.183,
+        "Roller Coaster": 3.817,
+        "Turn 11": 2.933,
+        "Turn 12a": 2.183,
+        "Turn 12b": 2.617,
+        "Turn 13": 3.967,
+        "Turn 14": 3.467
+      }
+    },
+    {
+      "lap_number": 5,
+      "lap_time": 93.417,
+      "lap_time_formatted": "1:33.417",
+      "start_idx": 27836,
+      "end_idx": 33441,
+      "samples": 5605,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 25.183,
+        "S2": 19.633,
+        "S3": 28.05,
+        "S4": 20.533
+      },
+      "corners": {
+        "Horseshoe": 6.483,
+        "Turn 2": 1.75,
+        "Nascar Bend": 2.433,
+        "Left Hook": 3.667,
+        "Turn 4b": 3.0,
+        "Turn 5a": 1.983,
+        "Turn 5b": 1.75,
+        "Snake": 1.1,
+        "Turn 6b": 1.217,
+        "Turn 7": 3.433,
+        "Turn 8a": 2.1,
+        "Turn 8b": 2.233,
+        "Turn 9a": 2.667,
+        "Turn 9b": 3.217,
+        "Turn 9c": 1.2,
+        "Roller Coaster": 3.567,
+        "Turn 11": 2.917,
+        "Turn 12a": 2.2,
+        "Turn 12b": 2.633,
+        "Turn 13": 2.45,
+        "Turn 14": 3.333
+      }
+    },
+    {
+      "lap_number": 6,
+      "lap_time": 97.0,
+      "lap_time_formatted": "1:37.000",
+      "start_idx": 33441,
+      "end_idx": 39261,
+      "samples": 5820,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 24.967,
+        "S2": 19.6,
+        "S3": 32.867,
+        "S4": 19.55
+      },
+      "corners": {
+        "Horseshoe": 6.55,
+        "Turn 2": 1.7,
+        "Nascar Bend": 2.4,
+        "Left Hook": 3.65,
+        "Turn 4b": 2.85,
+        "Turn 5a": 2.017,
+        "Turn 5b": 1.783,
+        "Snake": 1.117,
+        "Turn 6b": 1.233,
+        "Turn 7": 3.367,
+        "Turn 8a": 2.083,
+        "Turn 8b": 2.217,
+        "Turn 9a": 2.683,
+        "Turn 9b": 3.117,
+        "Turn 9c": 1.183,
+        "Roller Coaster": 7.083,
+        "Turn 11": 4.183,
+        "Turn 12a": 2.367,
+        "Turn 12b": 2.467,
+        "Turn 13": 2.183,
+        "Turn 14": 3.267
+      }
+    },
+    {
+      "lap_number": 7,
+      "lap_time": 92.25,
+      "lap_time_formatted": "1:32.250",
+      "start_idx": 39261,
+      "end_idx": 44796,
+      "samples": 5535,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 24.75,
+        "S2": 20.267,
+        "S3": 27.983,
+        "S4": 19.233
+      },
+      "corners": {
+        "Horseshoe": 6.617,
+        "Turn 2": 1.7,
+        "Nascar Bend": 2.383,
+        "Left Hook": 3.617,
+        "Turn 4b": 2.867,
+        "Turn 5a": 2.283,
+        "Turn 5b": 1.883,
+        "Snake": 1.183,
+        "Turn 6b": 1.283,
+        "Turn 7": 3.45,
+        "Turn 8a": 2.083,
+        "Turn 8b": 2.217,
+        "Turn 9a": 2.7,
+        "Turn 9b": 3.133,
+        "Turn 9c": 1.183,
+        "Roller Coaster": 3.567,
+        "Turn 11": 2.883,
+        "Turn 12a": 2.25,
+        "Turn 12b": 2.417,
+        "Turn 13": 2.15,
+        "Turn 14": 3.267
+      }
+    },
+    {
+      "lap_number": 8,
+      "lap_time": 91.467,
+      "lap_time_formatted": "1:31.467",
+      "start_idx": 44796,
+      "end_idx": 50284,
+      "samples": 5488,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 24.65,
+        "S2": 19.483,
+        "S3": 27.833,
+        "S4": 19.483
+      },
+      "corners": {
+        "Horseshoe": 6.45,
+        "Turn 2": 1.717,
+        "Nascar Bend": 2.3,
+        "Left Hook": 3.567,
+        "Turn 4b": 2.9,
+        "Turn 5a": 1.983,
+        "Turn 5b": 1.75,
+        "Snake": 1.117,
+        "Turn 6b": 1.217,
+        "Turn 7": 3.367,
+        "Turn 8a": 2.067,
+        "Turn 8b": 2.183,
+        "Turn 9a": 2.667,
+        "Turn 9b": 3.167,
+        "Turn 9c": 1.183,
+        "Roller Coaster": 3.617,
+        "Turn 11": 2.9,
+        "Turn 12a": 2.267,
+        "Turn 12b": 2.45,
+        "Turn 13": 2.183,
+        "Turn 14": 3.283
+      }
+    },
+    {
+      "lap_number": 9,
+      "lap_time": 91.433,
+      "lap_time_formatted": "1:31.433",
+      "start_idx": 50284,
+      "end_idx": 55770,
+      "samples": 5486,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 24.8,
+        "S2": 19.45,
+        "S3": 28.017,
+        "S4": 19.15
+      },
+      "corners": {
+        "Horseshoe": 6.467,
+        "Turn 2": 1.667,
+        "Nascar Bend": 2.45,
+        "Left Hook": 3.7,
+        "Turn 4b": 2.8,
+        "Turn 5a": 1.967,
+        "Turn 5b": 1.75,
+        "Snake": 1.1,
+        "Turn 6b": 1.233,
+        "Turn 7": 3.483,
+        "Turn 8a": 2.05,
+        "Turn 8b": 2.183,
+        "Turn 9a": 2.633,
+        "Turn 9b": 3.183,
+        "Turn 9c": 1.183,
+        "Roller Coaster": 3.65,
+        "Turn 11": 2.883,
+        "Turn 12a": 2.3,
+        "Turn 12b": 2.367,
+        "Turn 13": 2.15,
+        "Turn 14": 3.25
+      }
+    },
+    {
+      "lap_number": 10,
+      "lap_time": 93.233,
+      "lap_time_formatted": "1:33.233",
+      "start_idx": 55770,
+      "end_idx": 61364,
+      "samples": 5594,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 26.35,
+        "S2": 19.4,
+        "S3": 28.067,
+        "S4": 19.4
+      },
+      "corners": {
+        "Horseshoe": 7.783,
+        "Turn 2": 1.717,
+        "Nascar Bend": 2.5,
+        "Left Hook": 3.7,
+        "Turn 4b": 2.85,
+        "Turn 5a": 1.95,
+        "Turn 5b": 1.717,
+        "Snake": 1.1,
+        "Turn 6b": 1.217,
+        "Turn 7": 3.483,
+        "Turn 8a": 2.033,
+        "Turn 8b": 2.183,
+        "Turn 9a": 2.6,
+        "Turn 9b": 3.3,
+        "Turn 9c": 1.25,
+        "Roller Coaster": 3.6,
+        "Turn 11": 2.95,
+        "Turn 12a": 2.2,
+        "Turn 12b": 2.467,
+        "Turn 13": 2.183,
+        "Turn 14": 3.267
+      }
+    }
+  ],
+  "sectors": {
+    "S1": {
+      "best": 24.65,
+      "worst": 26.35,
+      "avg": 25.163,
+      "sigma": 0.511,
+      "loss_per_lap": 0.513
+    },
+    "S2": {
+      "best": 19.4,
+      "worst": 20.783,
+      "avg": 19.767,
+      "sigma": 0.459,
+      "loss_per_lap": 0.367
+    },
+    "S3": {
+      "best": 27.833,
+      "worst": 34.233,
+      "avg": 29.331,
+      "sigma": 2.429,
+      "loss_per_lap": 1.498
+    },
+    "S4": {
+      "best": 19.15,
+      "worst": 24.667,
+      "avg": 20.411,
+      "sigma": 1.893,
+      "loss_per_lap": 1.261
+    }
+  },
+  "corners": {
+    "Horseshoe": {
+      "best": 6.45,
+      "worst": 7.783,
+      "avg": 6.674,
+      "sigma": 0.421,
+      "variance_rating": "lottery"
+    },
+    "Turn 2": {
+      "best": 1.667,
+      "worst": 1.75,
+      "avg": 1.715,
+      "sigma": 0.031,
+      "variance_rating": "dialed"
+    },
+    "Nascar Bend": {
+      "best": 2.3,
+      "worst": 2.65,
+      "avg": 2.444,
+      "sigma": 0.096,
+      "variance_rating": "dialed"
+    },
+    "Left Hook": {
+      "best": 3.4,
+      "worst": 3.7,
+      "avg": 3.604,
+      "sigma": 0.097,
+      "variance_rating": "dialed"
+    },
+    "Turn 4b": {
+      "best": 2.8,
+      "worst": 3.2,
+      "avg": 2.919,
+      "sigma": 0.119,
+      "variance_rating": "solid"
+    },
+    "Turn 5a": {
+      "best": 1.95,
+      "worst": 2.333,
+      "avg": 2.059,
+      "sigma": 0.143,
+      "variance_rating": "solid"
+    },
+    "Turn 5b": {
+      "best": 1.717,
+      "worst": 1.883,
+      "avg": 1.789,
+      "sigma": 0.06,
+      "variance_rating": "dialed"
+    },
+    "Snake": {
+      "best": 1.1,
+      "worst": 1.183,
+      "avg": 1.13,
+      "sigma": 0.034,
+      "variance_rating": "dialed"
+    },
+    "Turn 6b": {
+      "best": 1.217,
+      "worst": 1.283,
+      "avg": 1.241,
+      "sigma": 0.026,
+      "variance_rating": "dialed"
+    },
+    "Turn 7": {
+      "best": 3.25,
+      "worst": 3.483,
+      "avg": 3.394,
+      "sigma": 0.084,
+      "variance_rating": "dialed"
+    },
+    "Turn 8a": {
+      "best": 2.033,
+      "worst": 2.15,
+      "avg": 2.092,
+      "sigma": 0.04,
+      "variance_rating": "dialed"
+    },
+    "Turn 8b": {
+      "best": 2.183,
+      "worst": 2.25,
+      "avg": 2.215,
+      "sigma": 0.026,
+      "variance_rating": "dialed"
+    },
+    "Turn 9a": {
+      "best": 2.6,
+      "worst": 2.75,
+      "avg": 2.67,
+      "sigma": 0.042,
+      "variance_rating": "dialed"
+    },
+    "Turn 9b": {
+      "best": 3.117,
+      "worst": 3.3,
+      "avg": 3.182,
+      "sigma": 0.058,
+      "variance_rating": "dialed"
+    },
+    "Turn 9c": {
+      "best": 1.183,
+      "worst": 1.25,
+      "avg": 1.202,
+      "sigma": 0.028,
+      "variance_rating": "dialed"
+    },
+    "Roller Coaster": {
+      "best": 3.567,
+      "worst": 9.033,
+      "avg": 4.65,
+      "sigma": 1.996,
+      "variance_rating": "lottery"
+    },
+    "Turn 11": {
+      "best": 2.883,
+      "worst": 4.183,
+      "avg": 3.139,
+      "sigma": 0.433,
+      "variance_rating": "lottery"
+    },
+    "Turn 12a": {
+      "best": 2.183,
+      "worst": 2.367,
+      "avg": 2.259,
+      "sigma": 0.059,
+      "variance_rating": "dialed"
+    },
+    "Turn 12b": {
+      "best": 2.35,
+      "worst": 2.633,
+      "avg": 2.459,
+      "sigma": 0.104,
+      "variance_rating": "solid"
+    },
+    "Turn 13": {
+      "best": 2.15,
+      "worst": 3.967,
+      "avg": 2.524,
+      "sigma": 0.654,
+      "variance_rating": "lottery"
+    },
+    "Turn 14": {
+      "best": 3.25,
+      "worst": 3.5,
+      "avg": 3.324,
+      "sigma": 0.094,
+      "variance_rating": "dialed"
+    }
+  }
+}

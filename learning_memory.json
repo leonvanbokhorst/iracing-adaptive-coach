@@ -39,8 +39,8 @@
       "notes": "Higher volume (11 wins), lower iRating (1581). Beatable with consistency."
     }
   ],
-  "focus": "Week 08 (VIR North Course): T3 NASCAR Bend = FLAT through first apex, brush brake ONLY for second apex (Gong comparison: 23 km/h faster, 0% brake vs your 23% brake). Roller Coaster = brake later, commit mid-corner (0.50s loss). These two corners = 0.87s available.",
-  "goal": "Week 08 Target: Break 1:30.0. Priority #1: T3 NASCAR Bend - FLAT through first apex, light brake for second only. Priority #2: Roller Coaster - brake 2 car lengths later, stay flat mid-corner. Mantra: 'First apex = kink, stay flat.'",
+  "focus": "Week 08 (VIR North Course): POLE POSITION AI RACE! NEW PB 1:30.283 (-0.384s). Gap to optimal = 0.183s. Roller Coaster DIALED (σ 0.082s). Snake brake σ = 0.2m (MACHINE-LIKE). 18/21 corners dialed. 5 sub-1:31 laps in race/quali. Racecraft lesson: give space after yielding position. Flow state confirmed - 'playing with track' = sub-1:31 laps.",
+  "goal": "Week 08 Complete: PB 1:30.283 achieved. POLE POSITION in AI race. Roller Coaster SOLVED (brake σ 3.4m, corner σ 0.082s). Next focus: Clean race (zero contact), 8+ consecutive sub-1:31 in practice, attack Horseshoe (6.40s best vs 6.53s avg = 0.13s hiding).",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -387,11 +387,12 @@
     },
     {
       "period": "Week 08 - VIR North Course (In Progress)",
-      "key_achievements": "Baseline PB 1:31.517 (Lap 9). 15/21 corners DIALED on Day 1 (Full Course memory transfer!). Gap to optimal only 0.117s. EXPERT guide being applied immediately ('sacrifice T4', 'late apex'). Positive attitude despite crash ('I love it!').",
-      "key_lessons": "T7 uphill compression = stop trail braking (EXPERT validated - brake release too slow = 1,064 oversteer events). T8a is true nemesis (σ 0.546s - only corner without Full Course equivalent). Roller Coaster approach needs work (brake σ 11.5m, speed σ 13.7 km/h).",
-      "stats_summary": "PB: 1:31.517. 10 flying laps. 15 corners dialed, 5 solid, 2 lottery. BB 56% perfect (all tires balanced). Crash on Lap 10, immediate recovery Lap 11 (1:32.250).",
+      "key_achievements": "NEW PB 1:31.433 (Practice 02). 16/21 corners DIALED. T2/T3 NASCAR Bend technique validated (32% σ improvement). Roller Coaster clean times FASTER than baseline (3.567s vs 3.6s). Consistency improved 39% despite two crashes.",
+      "key_lessons": "T2/T3 technique study (Gong/EXPERT telemetry) → measurable improvement. Roller Coaster is COMMITMENT corner, not technique corner - brake point σ only 5.3m (consistent), crashes happen mid-corner from hesitation. Clean Roller Coaster = 3.57-3.65s, crash = 7-9s. Binary outcome. 'Eyes exit, commit through' mantra needed.",
+      "stats_summary": "PB: 1:31.433 (-0.084s). 9 flying laps. 16 corners dialed, 5 lottery (crash-related). Two Roller Coaster crashes (L3: 9.0s, L6: 7.1s) but clean laps faster than baseline.",
       "session_highlights": [
-        "Baseline Practice (Jan 30): PB 1:31.517, 15/21 corners DIALED, Full Course memory transfer validated"
+        "Baseline Practice (Jan 30): PB 1:31.517, 15/21 corners DIALED, Full Course memory transfer validated",
+        "Practice 02 (Jan 31): NEW PB 1:31.433, T2/T3 DIALED (32% better σ), Roller Coaster commitment binary (clean=fast, hesitate=crash)"
       ]
     }
   ],
@@ -523,7 +524,10 @@
     "Fun Despite Results (NEW, Jan 29): Official Race 02 (SoF 2674, P9 finish) produced the quote: 'It wasn't great, but it was extremely fun.' This is the GOAL MINDSET. Decoupling joy from results enables: (1) Racing in higher splits without pressure paralysis, (2) Learning from better drivers without ego damage, (3) Sustainable motivation. Pre-race quote 'I'm gonna die. And I love it. Let's do this.' is the template for outgunned situations. Embrace the challenge, release the outcome.",
     "Avoidance → Incident Pattern (NEW, Jan 29): Wreck avoidance on Lap 8 caused self-spin. The successful avoidance (no contact with wrecking cars) triggered secondary incident (own car unbalanced). Possible fix: when avoiding, commit to ONE direction firmly rather than jerky corrections. Or: sometimes holding your line is safer than avoidance. Racing decision that requires case-by-case judgment. Key learning: avoidance success ≠ clean outcome.",
     "Consistency Under Pressure (Jan 29 Validation): σ = 0.38s across 8 flying laps in SoF 2674 top split against Division 1-4 drivers (while Division 8). This EXCEEDS the Week 07 Race 01 performance (σ = 0.404s in SoF 2045). Harder competition = sharper driving. Master Lonn is a pressure performer - the data is now undeniable.",
-    "T3 NASCAR Bend Breakthrough (VIR Week 08): Gong telemetry comparison revealed MASSIVE loss at T3. Master Lonn: min speed 103.7 km/h, braking 23% of corner, max brake 0.81. Gong: min speed 126.9 km/h (+23 km/h!), braking 6% of corner, max brake 0.21. Root cause: treating first apex as a corner when EXPERT says it's a kink (FLAT, miss by car width). Gong barely touches brakes, only for second apex. The fix: 'First apex = kink, stay flat. Brake only for second.' This single corner = 0.37s available. Combined with Roller Coaster (0.50s), these two corners represent 0.87s of the 2.7s gap to Gong."
+    "T3 NASCAR Bend Breakthrough (VIR Week 08): Gong telemetry comparison revealed MASSIVE loss at T3. Master Lonn: min speed 103.7 km/h, braking 23% of corner, max brake 0.81. Gong: min speed 126.9 km/h (+23 km/h!), braking 6% of corner, max brake 0.21. Root cause: treating first apex as a corner when EXPERT says it's a kink (FLAT, miss by car width). Gong barely touches brakes, only for second apex. The fix: 'First apex = kink, stay flat. Brake only for second.' This single corner = 0.37s available. Combined with Roller Coaster (0.50s), these two corners represent 0.87s of the 2.7s gap to Gong.",
+    "Roller Coaster Commitment Principle (VIR Week 08 Practice 02): Brake point σ = 5.3m (CONSISTENT), but corner time σ = 1.996s (LOTTERY). This proves: you're braking in the right spot, the crashes happen MID-CORNER from hesitation. Clean laps = 3.57-3.65s (faster than baseline!), crash laps = 7-9s. No middle ground. This is a COMMITMENT corner, not a technique corner. When you commit through the blind crest → fast. When you second-guess mid-corner → weight shifts forward, rear goes light, spin. The fix: 'Eyes exit, commit through.' This validates a general principle: some corners require TRUST, not technique refinement. Once entry is correct, the only variable is commitment level.",
+    "Feeling vs Data Disconnect (NEW): Master Lonn assessed Practice 02 as 'messy, no enhancement 🫣💥'. Data showed: NEW PB (1:31.433), 39% consistency improvement, T2 σ improved 32%, clean Roller Coaster laps faster than baseline. The spectacular crashes created a FEELING of failure that hid real progress. Lesson: always validate feelings with data. Spectacular failures can coexist with genuine improvement. This is especially important for ADHD brain where emotional memory is stronger than factual memory.",
+    "T2 False Apex Discovery (VIR Week 08): Post-session insight: T2 is NOT a corner to apex - it's a SETUP KINK for T3. Stay wide left (almost mid-track) through T2 instead of apexing. This creates: (1) more speed through T2 (no tight apex slowdown), (2) better entry angle to T3 NASCAR Bend, (3) wider arc through T3 = faster exit. The T2→T3 complex should be treated as ONE flowing section, not two separate corners. Potential gain: 0.2-0.3s from line optimization. To be validated in next session."
   ],
   "research_experiments": [
     {
