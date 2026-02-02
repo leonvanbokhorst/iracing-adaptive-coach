@@ -13,21 +13,26 @@
     "irating_change": 481,
     "license_class": "B",
     "division_current": 8,
-    "division_rank": "P2 Division 8",
-    "dutch_rank": "P2 (Div 8)",
+    "division_rank": "P2 Division 8 / P6 Dutch / P131 Overall",
+    "dutch_rank": "P6 of 672 Dutch",
     "series": "Formula 1600 Rookie Series",
-    "position_current": 130,
-    "total_drivers": 33817,
-    "position_percentile": "Top 0.38%",
-    "week07_stats": {
-      "starts": 16,
+    "position_current": 131,
+    "total_drivers": 37508,
+    "position_percentile": "Top 0.35%",
+    "week07_standings": {
+      "starts": 17,
       "wins": 2,
-      "win_rate": "13%",
+      "win_rate": "12%",
       "top5s": 11,
-      "top5_rate": "69%",
-      "incidents": 43,
+      "top5_rate": "65%",
+      "incidents": 44,
+      "incidents_per_race": 2.59,
       "points": 540,
-      "note": "vs leader: 617 pts from 91 starts - cleanest driver in top 17"
+      "avg_finish": 5.0,
+      "avg_start": 5.0,
+      "irating_percentile": "90.5%",
+      "points_percentile": "99.7%",
+      "note": "Recovered +16 iR after Week 06 dip. Racing cleaner than Div 1 avg (2.59 vs 3.80)"
     }
   },
   "rivals": [
