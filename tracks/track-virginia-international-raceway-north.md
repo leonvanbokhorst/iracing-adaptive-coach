@@ -20,9 +20,13 @@ On paper, North is just a trimmed Full Course. In the car it's intense: medium-s
 
 ---
 
+[![VIR North Course race by Midfield Racing](https://img.youtube.com/vi/nLC2OeDBvag/0.jpg)](https://youtu.be/nLC2OeDBvag?si=qyQ83fH0zafFvH9c)
+
+---
+
 ## Track Map
 
-<a href="images/vir-north-map.png"><img src="images/vir-north-map.png" alt="VIR North Course Map" width="70%"></a>
+<a href="images/vir-north-map.png"><img src="images/vir-north-map.png" alt="VIR North Course Map" width="90%"></a>
 
 ---
 
