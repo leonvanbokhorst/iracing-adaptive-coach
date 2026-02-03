@@ -148,10 +148,11 @@ _\*excluding incident lap_
 
 ## Next Week Preview
 
-**Track**: TBD (Week 08)  
-**Challenge**: New track, fresh start  
-**Goal**: Apply Week 07 methodology (focused practice → flow → race deployment)  
-**Strategy**: Sequential Mastery + verbal cueing + Meebewegen mindset
+**Track**: Virginia International Raceway - North Course (Week 08)  
+**Challenge**: Technical track, 21 corners, Roller Coaster complex  
+**Current PB**: 1:30.283 (AI race pole position)  
+**Goal**: Sub-1:30 in officials, clean race execution  
+**Strategy**: Roller Coaster DIALED (σ 0.082s), Snake brake σ = 0.2m — deploy Week 07 methodology
 
 ---
 
