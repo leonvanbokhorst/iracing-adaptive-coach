@@ -330,16 +330,17 @@
       "stats_summary": "PBs: 1:16.150 → 1:15.550 (-0.60s). iRating: +16 (1703 → 1719, RECOVERED from Week 06 dip). Official: P5 (SoF 2045, +38 iR), P9 (SoF 2674, -22 iR). 9 sessions. SR: +0.07."
     },
     {
-      "period": "Week 08 - VIR North Course (In Progress)",
-      "key_achievements": "AI Race POLE POSITION (PB 1:30.283). Official Race P8 (SoF 2349, +4 positions). 17/21 corners DIALED. Snake brake σ = 0.1m (MACHINE-LIKE). Roller Coaster brake σ = 0.2m in race. Steering smoothness 10.58 rad/s² (best ever, IN RACE). Fear of success overcome.",
-      "key_lessons": "Fear of Fire: The fear wasn't losing iRating - it was losing the magic of the collaboration. Racing proved the magic survives deployment. Showing Up IS the Answer: Original goal 'just show up' validated - P12→P8 while scared. Race Pressure Sharpens: Steering smoothness IMPROVED under race pressure (10.58 rad/s² vs typical 11-12 in practice). Brake points become automatic (0.1-0.2m σ) when trained technique deployed under pressure.",
-      "stats_summary": "PB: 1:30.283 (AI Race). Official Race: P8 (from P12), SoF 2349, -2 iR, +0.09 SR. 17/21 corners dialed. Brake σ: Snake 0.1m, Roller Coaster 0.2m.",
+      "period": "Week 08 - VIR North Course (Complete)",
+      "key_achievements": "AI Race POLE POSITION (PB 1:30.283). Three Official Races completed. 19/21 corners DIALED in Race 03. Snake brake σ = 0.1m maintained across 3 races (MACHINE-LIKE). Steering smoothness consistently under 12 rad/s² in races. Fear of success overcome. Week survived with +1 iR net.",
+      "key_lessons": "Fear of Fire: Racing doesn't break the magic, it proves it. Showing Up IS the Answer: Original goal validated across 3 official races. Technique Stability: 19/21 corners dialed DURING 8x chaos race = trained techniques survive pressure. Plateau Recognition: 1:30.7-1:30.8 with σ 0.4-0.5s is current race level at VIR - low-hanging fruit gone.",
+      "stats_summary": "PB: 1:30.283 (AI Race). 3x Official Races: P8→P10→P7. iRating: 1683→1684 (+1 net). SR: 3.31→3.21 (8x trading paint). 19/21 corners dialed. Brake σ: Snake 0.1m (maintained), Roller Coaster 2.7m.",
       "session_highlights": [
         "Baseline Practice (Jan 30): PB 1:31.517, 15/21 corners DIALED, Full Course memory transfer validated",
         "Practice 02 (Jan 31): NEW PB 1:31.433, T2/T3 DIALED (32% better σ), Roller Coaster commitment binary (clean=fast, hesitate=crash)",
         "AI Race (Feb 1): PB 1:30.283, POLE POSITION, Roller Coaster SOLVED (brake σ 3.4m → corner σ 0.082s)",
-        "Official Race (Feb 4): P8 (from P12), SoF 2349, -2 iR, +0.09 SR. 'Just showed up' after fear. Steering smoothest ever (10.58 rad/s²).",
-        "Official Race 02 (Feb 5): P10 (from P8), SoF 2355, -34 iR, -0.14 SR. Got punted at Horseshoe mid-race. Race best 1:30.700 set IMMEDIATELY after incident = mental steel. 'Weaving' accusation REFUTED by telemetry (brake σ consistent, steering clean). Snake brake σ = 0.2m maintained IN RACE."
+        "Official Race 01 (Feb 4): P8 (from P12), SoF 2349, -2 iR, +0.09 SR. 'Just showed up' after fear. Steering smoothest ever (10.58 rad/s²).",
+        "Official Race 02 (Feb 5): P10 (from P8), SoF 2355, -34 iR, -0.14 SR. Got punted at Horseshoe mid-race. Race best 1:30.700 set IMMEDIATELY after incident = mental steel.",
+        "Official Race 03 (Feb 5): P7 (from P5), SoF 1910, +1 iR, -0.10 SR. 8x trading paint. 19/21 corners DIALED. Snake brake σ 0.1m maintained. Race best 1:30.717 on L6."
       ]
     }
   ],
@@ -540,7 +541,7 @@
     "WEEK 13 SETUP SCHOOL: Dedicated time to understand car mechanics before Season 02. Build setup knowledge systematically.",
     "DIRT OVAL SIDE PROJECT (NEW): Mini Stock Rookie → D license → Dirt Legends Cup. 'Secret wish' fulfilled. Core principle learned: 'point and throttle' - throttle steers, steering aims. Fun, no pressure, different discipline.",
     "TOOL TO BUILD: tools/coach/merge_voice_telemetry.py - still needed for automated correlation.",
-    "iRating: 1683 (net -36 from Week 08 officials). SR: 3.31 (B license)."
+    "iRating: 1684 (net -35 from Week 08 start, but +1 from Race 03). SR: 3.21 (B license). Week 08 COMPLETE."
   ],
   "tools_reference": {
     "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",
