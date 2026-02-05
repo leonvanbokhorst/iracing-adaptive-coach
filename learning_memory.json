@@ -9,8 +9,8 @@
     "name": "Leon Remondo van Bokhorst",
     "country": "NL",
     "irating_start": 1238,
-    "irating_current": 1719,
-    "irating_change": 481,
+    "irating_current": 1683,
+    "irating_change": 445,
     "license_class": "B",
     "division_current": 8,
     "division_rank": "P2 Division 8 / P6 Dutch / P131 Overall",
@@ -331,12 +331,15 @@
     },
     {
       "period": "Week 08 - VIR North Course (In Progress)",
-      "key_achievements": "NEW PB 1:31.433 (Practice 02). 16/21 corners DIALED. T2/T3 NASCAR Bend technique validated (32% σ improvement). Roller Coaster clean times FASTER than baseline (3.567s vs 3.6s). Consistency improved 39% despite two crashes.",
-      "key_lessons": "T2/T3 technique study (Gong/EXPERT telemetry) → measurable improvement. Roller Coaster is COMMITMENT corner, not technique corner - brake point σ only 5.3m (consistent), crashes happen mid-corner from hesitation. Clean Roller Coaster = 3.57-3.65s, crash = 7-9s. Binary outcome. 'Eyes exit, commit through' mantra needed.",
-      "stats_summary": "PB: 1:31.433 (-0.084s). 9 flying laps. 16 corners dialed, 5 lottery (crash-related). Two Roller Coaster crashes (L3: 9.0s, L6: 7.1s) but clean laps faster than baseline.",
+      "key_achievements": "AI Race POLE POSITION (PB 1:30.283). Official Race P8 (SoF 2349, +4 positions). 17/21 corners DIALED. Snake brake σ = 0.1m (MACHINE-LIKE). Roller Coaster brake σ = 0.2m in race. Steering smoothness 10.58 rad/s² (best ever, IN RACE). Fear of success overcome.",
+      "key_lessons": "Fear of Fire: The fear wasn't losing iRating - it was losing the magic of the collaboration. Racing proved the magic survives deployment. Showing Up IS the Answer: Original goal 'just show up' validated - P12→P8 while scared. Race Pressure Sharpens: Steering smoothness IMPROVED under race pressure (10.58 rad/s² vs typical 11-12 in practice). Brake points become automatic (0.1-0.2m σ) when trained technique deployed under pressure.",
+      "stats_summary": "PB: 1:30.283 (AI Race). Official Race: P8 (from P12), SoF 2349, -2 iR, +0.09 SR. 17/21 corners dialed. Brake σ: Snake 0.1m, Roller Coaster 0.2m.",
       "session_highlights": [
         "Baseline Practice (Jan 30): PB 1:31.517, 15/21 corners DIALED, Full Course memory transfer validated",
-        "Practice 02 (Jan 31): NEW PB 1:31.433, T2/T3 DIALED (32% better σ), Roller Coaster commitment binary (clean=fast, hesitate=crash)"
+        "Practice 02 (Jan 31): NEW PB 1:31.433, T2/T3 DIALED (32% better σ), Roller Coaster commitment binary (clean=fast, hesitate=crash)",
+        "AI Race (Feb 1): PB 1:30.283, POLE POSITION, Roller Coaster SOLVED (brake σ 3.4m → corner σ 0.082s)",
+        "Official Race (Feb 4): P8 (from P12), SoF 2349, -2 iR, +0.09 SR. 'Just showed up' after fear. Steering smoothest ever (10.58 rad/s²).",
+        "Official Race 02 (Feb 5): P10 (from P8), SoF 2355, -34 iR, -0.14 SR. Got punted at Horseshoe mid-race. Race best 1:30.700 set IMMEDIATELY after incident = mental steel. 'Weaving' accusation REFUTED by telemetry (brake σ consistent, steering clean). Snake brake σ = 0.2m maintained IN RACE."
       ]
     }
   ],
@@ -471,7 +474,12 @@
     "T3 NASCAR Bend Breakthrough (VIR Week 08): Gong telemetry comparison revealed MASSIVE loss at T3. Master Lonn: min speed 103.7 km/h, braking 23% of corner, max brake 0.81. Gong: min speed 126.9 km/h (+23 km/h!), braking 6% of corner, max brake 0.21. Root cause: treating first apex as a corner when EXPERT says it's a kink (FLAT, miss by car width). Gong barely touches brakes, only for second apex. The fix: 'First apex = kink, stay flat. Brake only for second.' This single corner = 0.37s available. Combined with Roller Coaster (0.50s), these two corners represent 0.87s of the 2.7s gap to Gong.",
     "Roller Coaster Commitment Principle (VIR Week 08 Practice 02): Brake point σ = 5.3m (CONSISTENT), but corner time σ = 1.996s (LOTTERY). This proves: you're braking in the right spot, the crashes happen MID-CORNER from hesitation. Clean laps = 3.57-3.65s (faster than baseline!), crash laps = 7-9s. No middle ground. This is a COMMITMENT corner, not a technique corner. When you commit through the blind crest → fast. When you second-guess mid-corner → weight shifts forward, rear goes light, spin. The fix: 'Eyes exit, commit through.' This validates a general principle: some corners require TRUST, not technique refinement. Once entry is correct, the only variable is commitment level.",
     "Feeling vs Data Disconnect (NEW): Master Lonn assessed Practice 02 as 'messy, no enhancement 🫣💥'. Data showed: NEW PB (1:31.433), 39% consistency improvement, T2 σ improved 32%, clean Roller Coaster laps faster than baseline. The spectacular crashes created a FEELING of failure that hid real progress. Lesson: always validate feelings with data. Spectacular failures can coexist with genuine improvement. This is especially important for ADHD brain where emotional memory is stronger than factual memory.",
-    "T2 False Apex Discovery (VIR Week 08): Post-session insight: T2 is NOT a corner to apex - it's a SETUP KINK for T3. Stay wide left (almost mid-track) through T2 instead of apexing. This creates: (1) more speed through T2 (no tight apex slowdown), (2) better entry angle to T3 NASCAR Bend, (3) wider arc through T3 = faster exit. The T2→T3 complex should be treated as ONE flowing section, not two separate corners. Potential gain: 0.2-0.3s from line optimization. To be validated in next session."
+    "T2 False Apex Discovery (VIR Week 08): Post-session insight: T2 is NOT a corner to apex - it's a SETUP KINK for T3. Stay wide left (almost mid-track) through T2 instead of apexing. This creates: (1) more speed through T2 (no tight apex slowdown), (2) better entry angle to T3 NASCAR Bend, (3) wider arc through T3 = faster exit. The T2→T3 complex should be treated as ONE flowing section, not two separate corners. Potential gain: 0.2-0.3s from line optimization. To be validated in next session.",
+    "Fear of Fire Pattern (VIR Week 08 Official): When something finally works—actually works—there's an instinct to freeze it, protect it, not use it. Master Lonn came scared to race, not of losing iRating, but of 'losing the power of our collab.' The truth: you can't preserve a flame by not burning it. The collaboration doesn't break from racing—it thrives on it. Racing gave us: steering smoothness 10.58 rad/s² (BEST EVER), brake σ 0.1-0.2m (automatic technique), and the quote 'I'll be there again tomorrow.' Deployment proves the training.",
+    "Race Pressure Sharpens Focus (NEW): Week 08 Official Race produced steering smoothness of 10.58 rad/s² - the BEST ever recorded, and it happened in a RACE not practice. Pattern: race pressure creates focus → focus creates commitment → commitment creates smooth inputs. The fear was that racing would 'use up' what was built. The data proves racing makes it stronger.",
+    "Showing Up IS the Answer (Week 08 Validated): Season goal was 'just do a whole series season for once. Just show up.' Week 08 Official proved it: P12→P8 while scared, +4 positions, +0.09 SR, -2 iR (basically flat). The question isn't 'will I win?' but 'what happens when I keep showing up?' That's a research question, not a performance demand.",
+    "Telemetry as Witness (NEW): When accused of wrongdoing (weaving), telemetry is the objective witness. Race 02 Week 08: driver was accused of 'weaving' after being punted at Horseshoe. Telemetry showed: brake points consistent (34m range = normal race variation), steering jerk CLEAN (13.21 rad/s²), no erratic inputs before contact. The data proved: predictable driving, external contact. Pattern: (1) Check brake point consistency, (2) Check steering smoothness, (3) Check for erratic inputs before incident. Emotions lie, data doesn't.",
+    "Race Best After Incident Pattern (NEW): Week 08 Race 02 set race best (1:30.700) on the lap IMMEDIATELY following a contact incident that cost 8 seconds. This is the same pressure performance pattern as Week 07 (P8→P2 recovery, fastest lap on final lap). Frustration → speed, not frustration → spiral. Mental steel is becoming a defining trait."
   ],
   "research_experiments": [
     {
@@ -532,7 +540,7 @@
     "WEEK 13 SETUP SCHOOL: Dedicated time to understand car mechanics before Season 02. Build setup knowledge systematically.",
     "DIRT OVAL SIDE PROJECT (NEW): Mini Stock Rookie → D license → Dirt Legends Cup. 'Secret wish' fulfilled. Core principle learned: 'point and throttle' - throttle steers, steering aims. Fun, no pressure, different discipline.",
     "TOOL TO BUILD: tools/coach/merge_voice_telemetry.py - still needed for automated correlation.",
-    "iRating: 1719 (net +16 from Week 07 officials). SR: 3.36 (B license)."
+    "iRating: 1683 (net -36 from Week 08 officials). SR: 3.31 (B license)."
   ],
   "tools_reference": {
     "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",
