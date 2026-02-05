@@ -1,9 +1,14 @@
 # Week 08 - Virginia International Raceway (North Course) - Season 01 2026
 
-**Track**: Virginia International Raceway - North Course  
-**Car**: Ray FF1600  
-**Dates**: Jan 30 → Feb 1  
-**Status**: Complete (Practiced + AI Race)
+**Track**: [Virginia International Raceway - North Course](../../tracks/track-virginia-international-raceway-north.md)  
+**Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
+**Dates**: Jan 30 → Feb 5  
+**Status**: Complete (3 Practice + 1 AI Race + 3 Official Races)
+
+**Week Results**:
+- **iRating**: 1719 → 1684 (-35)
+- **SR**: 3.40 → 3.21 (-0.19)
+- **Championship Points**: 50 (best of 3 officials)
 
 ---
 
@@ -42,11 +47,12 @@ From baseline to POLE in four days. The dancing circuit had accepted him.
 | **Roller Coaster σ** | 5.3m brake | **3.4m brake** | -36% | Commitment solved |
 
 **Week Stats:**
-- **Sessions**: 4 (3 practice + 1 AI race)
-- **Flying Laps**: 50
-- **Crashes**: 3 (P01: 1, P02: 2, P03: 0, Race: 0)
-- **Race Result**: P1 Grid → P9 Finish (contact incident)
+- **Sessions**: 7 (3 practice + 1 AI race + 3 official races)
+- **Flying Laps**: 80+
+- **Crashes**: 3 (P01: 1, P02: 2, P03: 0, AI Race: 0, Officials: 0)
+- **Official Results**: P8, P10, P7 (iRating: -35, SR: -0.19)
 - **Breakthrough**: Roller Coaster commitment + T2 false apex discovery
+- **Standings**: Week 08 data pending
 
 ---
 
@@ -57,7 +63,10 @@ From baseline to POLE in four days. The dancing circuit had accepted him.
 | Jan 30 | 15:02 | Baseline | 1:31.517 | 5.48s | [Report](2026-01-30-15-02-vir-baseline-practice-voice.md) | 15/21 dialed, Full Course transfer |
 | Jan 31 | 08:59 | Focused | 1:31.433 | 3.34s | [Report](2026-01-31-08-59-vir-practice-02.md) | T2 +32%, 2 RC crashes, PB anyway |
 | Jan 31 | 11:25 | Breakthrough | **1:30.667** | 1.05s | [Report](2026-01-31-11-25-vir-practice-03.md) | 5x sub-1:31, zero crashes, RC solved |
-| **Feb 1** | **12:36** | **AI Race** | **1:30.283** | 2.77s | [Report](2026-02-01-12-36-vir-ai-race-voice.md) | **POLE + NEW PB**, racecraft lesson |
+| Feb 1 | 12:36 | AI Race | **1:30.283** | 2.77s | [Report](2026-02-01-12-36-vir-ai-race-voice.md) | POLE + NEW PB, racecraft lesson |
+| **Feb 4** | **17:27** | **Official 01** | 1:30.798 | 0.57s | [Report](2026-02-04-17-27-vir-official-race-01.md) | P12→P8, SoF 2349, 18/21 dialed |
+| **Feb 5** | **10:27** | **Official 02** | 1:30.731 | 0.42s | [Report](2026-02-05-10-27-vir-official-race-02.md) | P8→P10, punted at Horseshoe, flow disrupted |
+| **Feb 5** | **12:27** | **Official 03** | 1:30.729 | 0.49s | [Report](2026-02-05-12-27-vir-official-race-03.md) | P5→P7, 8x trading paint, 19/21 dialed |
 
 ---
 
@@ -146,10 +155,10 @@ VIR North is the "greatest hits" of Virginia International Raceway—Horseshoe, 
 
 ## Next Week Preview
 
-**Track**: Week 09 TBD  
-**Challenge**: Maintain momentum from breakthrough week  
-**Goal**: Apply VIR learnings to new track  
-**Strategy**: Study track data before first lap, identify "false apex" opportunities, commit early
+**Track**: Circuit de Lédenon (Feb 10 → Feb 16)  
+**Challenge**: Technical French circuit with elevation changes  
+**Goal**: Apply VIR learnings, maintain consistency gains  
+**Strategy**: Study track data before first lap, identify commitment corners early
 
 ---
 

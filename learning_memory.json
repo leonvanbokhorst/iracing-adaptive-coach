@@ -1,8 +1,8 @@
 {
   "season": "01 2026",
   "original_goal": "Just do a whole series season for once. Just show up.",
-  "current_week": "8 (Virginia International Raceway - North Course)",
-  "current_track": "Virginia International Raceway - North Course",
+  "current_week": "9 (Circuit de Lédenon)",
+  "current_track": "Circuit de Lédenon",
   "current_car": "Ray FF1600",
   "driver_info": {
     "custid": 981717,
@@ -44,8 +44,8 @@
       "notes": "Higher volume (11 wins), lower iRating (1581). Beatable with consistency."
     }
   ],
-  "focus": "Week 08 (VIR North Course): POLE POSITION AI RACE! NEW PB 1:30.283 (-0.384s). Gap to optimal = 0.183s. Roller Coaster DIALED (σ 0.082s). Snake brake σ = 0.2m (MACHINE-LIKE). 18/21 corners dialed. 5 sub-1:31 laps in race/quali. Racecraft lesson: give space after yielding position. Flow state confirmed - 'playing with track' = sub-1:31 laps.",
-  "goal": "Week 08 Complete: PB 1:30.283 achieved. POLE POSITION in AI race. Roller Coaster SOLVED (brake σ 3.4m, corner σ 0.082s). Next focus: Clean race (zero contact), 8+ consecutive sub-1:31 in practice, attack Horseshoe (6.40s best vs 6.53s avg = 0.13s hiding).",
+  "focus": "Week 09 (Circuit de Lédenon): French technical track with elevation changes. Anti-clockwise, 13 corners, blind crests, off-camber entries. Apply VIR lessons: commitment over crests, sequence thinking (not isolated corners), brake point consistency as commitment proxy. Initial focus: map terrain features Day 1, commit to 'one sequence' approach Day 2.",
+  "goal": "Week 09: Apply VIR Roller Coaster commitment lessons to Lédenon's blind crests. Target corners as sequences (3-4 big shapes) not isolated events. Maintain consistency gains. Recover iRating after Week 08 dip (-35). Deploy trust-over-crests methodology from Week 08.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",
@@ -536,12 +536,13 @@
     }
   ],
   "next_steps": [
-    "WEEK 07 OFFICIAL RACES: Start Tuesday Jan 28. All techniques validated 3x. Gap to Gong: 0.819s. READY.",
-    "SEASON 02 PLANS (NEW): FF1600 Trophy with OPEN SETUP (not fixed). Goal: learn car mechanics and setup with Little Wan. New tracks = growth opportunity.",
+    "WEEK 09 (Circuit de Lédenon): Feb 10-16. Day 1: Map the rollercoaster (name terrain features). Day 2: Sequence thinking (corners as one arc). Apply VIR commitment lessons to blind crests.",
+    "WEEK 09 FOCUS AREAS: (1) Trust references before crests, (2) String corners into 3-4 big shapes, (3) Maintain throttle over blind sections (partial throttle = weight on rear).",
+    "SEASON 02 PLANS: FF1600 Trophy with OPEN SETUP (not fixed). Goal: learn car mechanics and setup with Little Wan. New tracks = growth opportunity.",
     "WEEK 13 SETUP SCHOOL: Dedicated time to understand car mechanics before Season 02. Build setup knowledge systematically.",
-    "DIRT OVAL SIDE PROJECT (NEW): Mini Stock Rookie → D license → Dirt Legends Cup. 'Secret wish' fulfilled. Core principle learned: 'point and throttle' - throttle steers, steering aims. Fun, no pressure, different discipline.",
+    "DIRT OVAL SIDE PROJECT: Mini Stock Rookie → D license → Dirt Legends Cup. 'Point and throttle' principle. Fun, no pressure.",
     "TOOL TO BUILD: tools/coach/merge_voice_telemetry.py - still needed for automated correlation.",
-    "iRating: 1684 (net -35 from Week 08 start, but +1 from Race 03). SR: 3.21 (B license). Week 08 COMPLETE."
+    "CURRENT STATS: iRating 1684, SR 3.21 (B license). Week 08 COMPLETE (-35 iR, -0.19 SR). Championship position to be updated when Week 08 standings available."
   ],
   "tools_reference": {
     "_usage_note": "CHECK HERE FIRST before writing inline scripts. These tools exist for a reason.",

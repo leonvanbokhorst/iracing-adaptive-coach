@@ -1,7 +1,7 @@
 # Week 06 - Oran Park Raceway GP - Season 2026
 
-**Track**: Oran Park Raceway - GP  
-**Car**: Ray FF1600  
+**Track**: [Oran Park Raceway - GP](../../tracks/track-oran-park-raceway-grand-prix.md)  
+**Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
 **Dates**: 2026-01-15 → 2026-01-20  
 **Status**: Complete
 

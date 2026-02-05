@@ -1,7 +1,7 @@
 # Week 01 - Summit Point Jefferson - Season 01 2026
 
-**Track**: Summit Point - Jefferson Circuit  
-**Car**: Ray FF1600  
+**Track**: [Summit Point - Jefferson Circuit](../../tracks/track-summit-point-jefferson-circuit.md)  
+**Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
 **Dates**: December 11 → December 17, 2025  
 **Status**: ✅ Complete
 

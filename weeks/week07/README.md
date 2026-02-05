@@ -1,7 +1,7 @@
 # Week 07 - Summit Point Main Circuit - Season 01 2026
 
-**Track**: Summit Point Raceway - Main Circuit (3.2km)  
-**Car**: Ray FF1600  
+**Track**: [Summit Point Raceway - Main Circuit](../../tracks/track-summit-point-main-circuit.md) (3.2km)  
+**Car**: [Ray FF1600](../../cars/car-ray-ff1600.md)  
 **Dates**: 2026-01-20 → 2026-01-29  
 **Status**: Complete (Week Closed)
 
