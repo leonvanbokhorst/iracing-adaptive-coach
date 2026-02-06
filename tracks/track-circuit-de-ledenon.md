@@ -16,6 +16,21 @@ On paper, 3.151 km doesn’t sound intimidating.<sup><a href="https://www.iracin
 
 This is a track that divides drivers. The first few sessions can feel claustrophobic and chaotic. Once you learn to look _past_ the next crest and trust the car over the blind rises, it turns into one of those circuits that makes you grin and swear in the same breath.
 
+![Circuit de Lédenon Track Map](track-circuit-de-ledenon-map.png)
+
+| # | Corner | Type | # | Corner | Type |
+|---|--------|------|---|--------|------|
+| T1 | Triple Gauche (entry) | Left | T9 | Le Cavalet | Right |
+| T2 | Triple Gauche (mid) | Left | T10 | _(flat blind right)_ | Flat |
+| T3 | Triple Gauche (exit) | Left | T11 | La servie | Left |
+| T4 | _(flat kink)_ | Flat | T12 | _(after La servie)_ | Right |
+| T5 | Virage du Pont | Left | T13 | _(braking while turning)_ | Left |
+| T6 | La Carrierasse | Left | T14 | La cuvette | Right |
+| T7 | La Courmelle | Right | T15 | _(final kink)_ | Flat |
+| T8 | Virage du Camion | Right | | | |
+
+![Official iRacing/VRS Map](track-circuit-de-ledenon-official-map.png)
+
 [![Race at Circuit de Lédenon by MidfieldRacing219](https://img.youtube.com/vi/xxPamgvv7pg/0.jpg)](https://www.youtube.com/watch?v=xxPamgvv7pg)
 
 ---
@@ -52,7 +67,7 @@ The Ray feels almost purpose-built for this place: light, honest, and completely
 
 ## Corner-by-Corner Technique (Ray FF1600)
 
-### Triple Gauche (T1–T3)
+### T1–T3: Triple Gauche
 
 **The setup:** Open WIDE beyond the white line on entry. Turn in just before the elevated Marshall's post on the right.
 
@@ -62,11 +77,11 @@ The Ray feels almost purpose-built for this place: light, honest, and completely
 
 **T3 exit:** Brief throttle after second apex to get wide, then turn in LATE, apex LATE. Get to full throttle before the apex. Use all the curb and the concrete inside — it's rarely wheelspin if setup is right.
 
-### T4
+### T4 _(flat kink)_
 
 Flat out. Scrub front tires as little as possible. Straight line.
 
-### La Carrierasse (T5) — Downhill Braking
+### T5: Virage du Pont — Downhill Braking
 
 **Brake reference:** Two car lengths past the kink in the white line.
 
@@ -76,7 +91,7 @@ Flat out. Scrub front tires as little as possible. Straight line.
 
 **Exit:** Aggressive throttle — compression helps. Stay on the pavement up to the white line. Going wider adds distance and loses the banking.
 
-### La Courmelle (T6)
+### T6: La Carrierasse
 
 **The approach:** Exaggerate late turn-in, late apex. Brake 4–5 car lengths past the small kink in white line. Use track width beyond white line on entry.
 
@@ -84,11 +99,11 @@ Flat out. Scrub front tires as little as possible. Straight line.
 
 **Track limit:** Outer edge of exit curb.
 
-### T7
+### T7: La Courmelle
 
 Flat out. Use curb and concrete.
 
-### Virage du Camion (T8) — High Speed Right
+### T8: Virage du Camion — High Speed Right
 
 **The commitment:** Use all track width on entry. Stay flat out DEEP into the entry — release throttle well after turning in.
 
@@ -96,7 +111,7 @@ Flat out. Use curb and concrete.
 
 **Apex:** Use all curbing plus the pavement inside the painted curb. Full throttle a bit beyond apex. Don't push too wide or you'll pick up off-track.
 
-### La cuvette (T9) — THE Compression Corner ⚠️
+### T9: Le Cavalet — Compression Corner #1 ⚠️
 
 **This corner bites if you don't understand the compression.**
 
@@ -111,15 +126,15 @@ The MASSIVE compression at the apex is both gift and danger. If you're still hea
 
 **Target:** 100% throttle RIGHT at the heart of the compression. DON'T touch the inside curb (it messes with the compression grip). Track out to exit curb but not beyond — wider isn't faster.
 
-### La servie (T10) — Flat Out Commitment
+### T10 _(flat blind right)_
 
-**The surprise:** This corner is FLAT OUT. No braking, no lift.
+Flat out. No braking, no lift.
 
 **Turn-in reference:** A couple car lengths before the tire barrier starts (apex is blind).
 
 **Execution:** Mount the apex curb aggressively. Run wide all the way to the braking point for T11.
 
-### Le Cavalet (T11) — Brake Late or Lose Time
+### T11: La servie — Brake Late or Lose Time
 
 **The approach:** Brake VERY LATE — right on the verge of outbraking yourself. This is the only way to get a competitive exit.
 
@@ -131,11 +146,11 @@ The MASSIVE compression at the apex is both gift and danger. If you're still hea
 
 **Throttle:** Start applying before apex, full throttle about a car length after.
 
-### T12
+### T12 _(after La servie)_
 
 Flat out. Cut the apex significantly.
 
-### T13 — Braking While Turning
+### T13 _(braking while turning)_
 
 **Brake reference:** Start of the gravel trap on the outside.
 
@@ -143,9 +158,9 @@ Flat out. Cut the apex significantly.
 
 **Line:** Cut the T13 apex aggressively. Use all the curb and green paint.
 
-### T14 — Final Corner (Compression Danger v2) ⚠️
+### T14: La cuvette — Compression Corner #2 ⚠️
 
-**Same compression danger as La cuvette, but MORE exaggerated.**
+**Same compression danger as Le Cavalet (T9), but MORE exaggerated.**
 
 The compression here is even more aggressive. Front hits compression first → sudden front grip, no rear grip → guaranteed rear loss if still trailing brakes.
 
@@ -153,7 +168,7 @@ The compression here is even more aggressive. Front hits compression first → s
 
 **Apex:** DON'T touch inside curbing. Full throttle just past apex. Track limit is outer edge of exit curb.
 
-### T15
+### T15 _(final kink)_
 
 Tight trajectory to cut distance. Long run to the line.
 
