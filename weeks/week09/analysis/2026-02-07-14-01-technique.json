@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "file": "raygr22_ledenon 2026-02-07 14-01-32.ibt",
+    "samples": 54985,
+    "duration_seconds": 916.42,
+    "tick_rate_hz": 60,
+    "best_lap_time": 87.591,
+    "laps": 10,
+    "track": "Circuit de Ledenon",
+    "car_has_abs": false
+  },
+  "oversteer_analysis": {
+    "available": true,
+    "max_yaw_rate_deg_s": 126.9,
+    "avg_yaw_rate_deg_s": 16.0,
+    "oversteer_events": 9122,
+    "oversteer_threshold_deg_s": 30.0,
+    "oversteer_zones": {
+      "10-20%": 550,
+      "20-30%": 1942,
+      "30-40%": 1691,
+      "50-60%": 1487,
+      "60-70%": 927,
+      "70-80%": 1461,
+      "80-90%": 1029,
+      "0-10%": 17,
+      "40-50%": 18
+    },
+    "notable_events": [
+      {
+        "sample": 1432,
+        "yaw_rate_deg_s": 34.7,
+        "track_pct": 11.18,
+        "speed_kmh": 126.1
+      },
+      {
+        "sample": 1433,
+        "yaw_rate_deg_s": 34.3,
+        "track_pct": 11.2,
+        "speed_kmh": 126.0
+      },
+      {
+        "sample": 1434,
+        "yaw_rate_deg_s": 31.2,
+        "track_pct": 11.22,
+        "speed_kmh": 125.9
+      },
+      {
+        "sample": 1693,
+        "yaw_rate_deg_s": 31.4,
+        "track_pct": 15.74,
+        "speed_kmh": 104.8
+      },
+      {
+        "sample": 1694,
+        "yaw_rate_deg_s": 32.0,
+        "track_pct": 15.76,
+        "speed_kmh": 104.6
+      },
+      {
+        "sample": 1695,
+        "yaw_rate_deg_s": 30.7,
+        "track_pct": 15.77,
+        "speed_kmh": 104.5
+      },
+      {
+        "sample": 1724,
+        "yaw_rate_deg_s": 30.6,
+        "track_pct": 16.23,
+        "speed_kmh": 100.2
+      },
+      {
+        "sample": 1727,
+        "yaw_rate_deg_s": 32.0,
+        "track_pct": 16.28,
+        "speed_kmh": 99.7
+      },
+      {
+        "sample": 1728,
+        "yaw_rate_deg_s": 31.2,
+        "track_pct": 16.29,
+        "speed_kmh": 99.5
+      },
+      {
+        "sample": 1729,
+        "yaw_rate_deg_s": 30.1,
+        "track_pct": 16.31,
+        "speed_kmh": 99.4
+      }
+    ]
+  },
+  "tire_temps": {
+    "available": true,
+    "tires": {
+      "LF": {
+        "temps_peak_C": {
+          "inside": 66.2,
+          "middle": 75.4,
+          "outside": 77.7
+        },
+        "cold_start_C": 52.2,
+        "in_out_diff": -11.5,
+        "balance": "outside_hot"
+      },
+      "RF": {
+        "temps_peak_C": {
+          "inside": 83.1,
+          "middle": 81.1,
+          "outside": 75.9
+        },
+        "cold_start_C": 52.2,
+        "in_out_diff": 7.2,
+        "balance": "inside_hot"
+      },
+      "LR": {
+        "temps_peak_C": {
+          "inside": 67.2,
+          "middle": 74.9,
+          "outside": 76.4
+        },
+        "cold_start_C": 52.2,
+        "in_out_diff": -9.2,
+        "balance": "outside_hot"
+      },
+      "RR": {
+        "temps_peak_C": {
+          "inside": 81.9,
+          "middle": 80.8,
+          "outside": 76.3
+        },
+        "cold_start_C": 52.2,
+        "in_out_diff": 5.6,
+        "balance": "inside_hot"
+      }
+    },
+    "note": "IBT tire temps are snapshot values (pit/session end), not live. Use VRS for real-time temps."
+  },
+  "weight_transfer": {
+    "available": true,
+    "shocks": {
+      "LFshockDefl": {
+        "min_mm": -1.06,
+        "max_mm": 50.12,
+        "range_mm": 51.17,
+        "avg_mm": 4.62
+      },
+      "RFshockDefl": {
+        "min_mm": -0.97,
+        "max_mm": 50.72,
+        "range_mm": 51.69,
+        "avg_mm": 6.83
+      },
+      "LRshockDefl": {
+        "min_mm": 1.96,
+        "max_mm": 71.22,
+        "range_mm": 69.26,
+        "avg_mm": 24.25
+      },
+      "RRshockDefl": {
+        "min_mm": 6.07,
+        "max_mm": 67.92,
+        "range_mm": 61.85,
+        "avg_mm": 26.55
+      }
+    },
+    "front_rear_balance": -19.67,
+    "interpretation": {
+      "front_rear_diff_mm": -19.67,
+      "note": "Positive = more front load (braking bias), Negative = more rear load (accel bias)"
+    }
+  },
+  "delta_analysis": {
+    "available": true,
+    "final_delta_to_optimal_s": 4.588,
+    "losing_time_zones": {
+      "30-40%": 2526,
+      "40-50%": 2764,
+      "50-60%": 2642,
+      "60-70%": 2308,
+      "70-80%": 3047,
+      "80-90%": 3427,
+      "90-100%": 1558,
+      "0-10%": 1805,
+      "10-20%": 2947,
+      "20-30%": 2251
+    },
+    "gaining_time_zones": {
+      "30-40%": 3043,
+      "40-50%": 1474,
+      "50-60%": 2818,
+      "60-70%": 2930,
+      "70-80%": 2384,
+      "80-90%": 2264,
+      "90-100%": 1859,
+      "0-10%": 1435,
+      "10-20%": 2038,
+      "20-30%": 2321
+    },
+    "interpretation": "Positive delta = slower than optimal, Negative = faster (unlikely)"
+  },
+  "abs_analysis": {
+    "available": false,
+    "reason": "Car does not have ABS"
+  },
+  "corners": {
+    "available": true,
+    "corners": {
+      "Triple Gauche": {
+        "track_pct": "5%-19%",
+        "oversteer_events": 558
+      },
+      "Virage du Pont": {
+        "track_pct": "23%-30%",
+        "oversteer_events": 1942
+      },
+      "La Carrierasse": {
+        "track_pct": "35%-40%",
+        "oversteer_events": 1691
+      },
+      "La Courmelle": {
+        "track_pct": "40%-47%",
+        "oversteer_events": 0
+      },
+      "Virage du Camion": {
+        "track_pct": "48%-53%",
+        "oversteer_events": 156
+      },
+      "Le Cavalet": {
+        "track_pct": "53%-60%",
+        "oversteer_events": 1349
+      },
+      "La servie": {
+        "track_pct": "68%-75%",
+        "oversteer_events": 2140
+      },
+      "La cuvette": {
+        "track_pct": "83%-88%",
+        "oversteer_events": 1028
+      }
+    }
+  }
+}

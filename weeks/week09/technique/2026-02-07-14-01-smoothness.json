@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "file": "raygr22_ledenon 2026-02-07 14-01-32.ibt",
+    "track": "Circuit de Ledenon",
+    "track_id": "ledenon",
+    "sample_rate_hz": 60,
+    "total_samples": 54985,
+    "duration_seconds": 916.4,
+    "laps_found": 10
+  },
+  "steering": {
+    "available": true,
+    "avg_jerk_rad_s2": 13.35,
+    "max_jerk_rad_s2": 264.61,
+    "jerk_sigma": 16.31,
+    "avg_velocity_rad_s": 0.63,
+    "max_velocity_rad_s": 11.78,
+    "max_steering_angle_rad": 3.363,
+    "per_corner": {
+      "Triple Gauche": {
+        "avg_jerk": 15.87,
+        "max_jerk": 173.62
+      },
+      "Virage du Pont": {
+        "avg_jerk": 14.69,
+        "max_jerk": 192.45
+      },
+      "La Carrierasse": {
+        "avg_jerk": 11.59,
+        "max_jerk": 172.57
+      },
+      "La Courmelle": {
+        "avg_jerk": 12.92,
+        "max_jerk": 148.52
+      },
+      "Virage du Camion": {
+        "avg_jerk": 26.81,
+        "max_jerk": 186.18
+      },
+      "Le Cavalet": {
+        "avg_jerk": 13.15,
+        "max_jerk": 135.97
+      },
+      "La servie": {
+        "avg_jerk": 13.05,
+        "max_jerk": 264.61
+      },
+      "La cuvette": {
+        "avg_jerk": 13.12,
+        "max_jerk": 115.05
+      }
+    }
+  },
+  "throttle": {
+    "available": true,
+    "avg_jerk_pct_s2": 374.3,
+    "max_jerk_pct_s2": 60276.6,
+    "avg_application_rate_pct_s": 106.4,
+    "avg_lift_rate_pct_s": 147.0,
+    "max_application_rate_pct_s": 641.1,
+    "max_throttle_pct": 100.0,
+    "avg_throttle_pct": 63.4,
+    "full_throttle_usage_pct": 55.6,
+    "per_corner_exit": {
+      "Triple Gauche": {
+        "avg_application_rate": 111.7,
+        "max_application_rate": 514.6
+      },
+      "Virage du Pont": {
+        "avg_application_rate": 72.9,
+        "max_application_rate": 407.0
+      },
+      "La Carrierasse": {
+        "avg_application_rate": 121.9,
+        "max_application_rate": 478.7
+      },
+      "Virage du Camion": {
+        "avg_application_rate": 136.3,
+        "max_application_rate": 617.9
+      },
+      "Le Cavalet": {
+        "avg_application_rate": 84.6,
+        "max_application_rate": 434.5
+      },
+      "La servie": {
+        "avg_application_rate": 71.2,
+        "max_application_rate": 288.9
+      },
+      "La cuvette": {
+        "avg_application_rate": 200.2,
+        "max_application_rate": 630.5
+      }
+    }
+  },
+  "brake": {
+    "available": true,
+    "avg_jerk_pct_s2": 212.1,
+    "max_jerk_pct_s2": 360000.1,
+    "avg_application_rate_pct_s": 70.8,
+    "avg_release_rate_pct_s": 65.6,
+    "max_application_rate_pct_s": 4214.7,
+    "max_brake_pct": 100.0,
+    "avg_brake_pct_when_braking": 47.2,
+    "per_corner_entry": {
+      "Triple Gauche": {
+        "avg_application_rate": null,
+        "avg_release_rate": 6000.0
+      },
+      "Virage du Pont": {
+        "avg_application_rate": 36.0,
+        "avg_release_rate": 183.4
+      },
+      "La Carrierasse": {
+        "avg_application_rate": 130.6,
+        "avg_release_rate": 81.5
+      },
+      "La Courmelle": {
+        "avg_application_rate": 121.8,
+        "avg_release_rate": 83.4
+      },
+      "Virage du Camion": {
+        "avg_application_rate": 138.0,
+        "avg_release_rate": 87.6
+      },
+      "Le Cavalet": {
+        "avg_application_rate": 68.3,
+        "avg_release_rate": 30.3
+      },
+      "La servie": {
+        "avg_application_rate": 112.4,
+        "avg_release_rate": 84.6
+      },
+      "La cuvette": {
+        "avg_application_rate": 61.0,
+        "avg_release_rate": 68.1
+      }
+    }
+  }
+}

@@ -44,8 +44,8 @@
       "notes": "Higher volume (11 wins), lower iRating (1581). Beatable with consistency."
     }
   ],
-  "focus": "Week 09 (Circuit de Lédenon): Baseline PB 1:30.350. La cuvette = primary focus (σ 0.497s, blind compression corner = VIR Roller Coaster v2). Triple Gauche = secondary (σ 0.463s, multi-apex). 5/8 corners already solid/dialed (62.5%). S2 is the 'flow zone' (σ 0.409s). Next: La cuvette σ < 0.25s, find consistent brake marker.",
-  "goal": "Week 09: Apply VIR Roller Coaster commitment lessons to Lédenon's blind crests. Target corners as sequences (3-4 big shapes) not isolated events. Maintain consistency gains. Recover iRating after Week 08 dip (-35). Deploy trust-over-crests methodology from Week 08.",
+  "focus": "Week 09 (Circuit de Lédenon): PB 1:27.600 (was 1:30.350). La cuvette SOLVED (σ 0.497→0.157, trust-over-crests validated). New primary: T7 La servie brake point consistency (σ 36.9m). T1 Triple Gauche multi-apex rhythm = secondary. 6/8 corners solid/dialed. Theoretical optimal 1:27.516 (gap: 0.084s). Next: La servie brake marker, raise floor to consistent 1:27s.",
+  "goal": "Week 09: Lock in T7 La servie brake point (σ < 15m, target ~65% brake pressure). T1 Triple Gauche rhythm over speed. Put together 5-lap runs below 1:28.0 avg. Recover iRating in races. Maintain La cuvette gains. SETUP: Try BB 53-54% next session (was 57% in P02 = understeer everywhere, LF outside-hot 77.7°C vs inside 66.2°C confirms front push). Free time likely sitting in brake bias.",
   "learning_style": {
     "adhd_adaptations": [
       "Conversational tone",

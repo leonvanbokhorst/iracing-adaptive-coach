@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "file": "raygr22_ledenon 2026-02-07 14-01-32.ibt",
+    "track": "Circuit de Ledenon",
+    "track_id": "ledenon",
+    "car": "Ray FF1600",
+    "sample_count": 54985,
+    "sample_rate_hz": 60,
+    "duration_seconds": 916.4,
+    "duration_formatted": "15:16"
+  },
+  "summary": {
+    "total_laps": 9,
+    "valid_laps": 9,
+    "flying_laps": 8,
+    "outlaps": 1,
+    "invalid_laps": 0,
+    "best_lap_time": 87.6,
+    "best_lap_time_formatted": "1:27.600",
+    "best_lap_number": 9,
+    "worst_flying_lap_time": 100.083,
+    "avg_lap_time": 90.585,
+    "consistency_sigma": 4.537,
+    "theoretical_optimal": 87.516,
+    "gap_to_optimal": 0.084
+  },
+  "laps": [
+    {
+      "lap_number": 1,
+      "lap_time": 99.3,
+      "lap_time_formatted": "1:39.300",
+      "start_idx": 480,
+      "end_idx": 6437,
+      "samples": 5957,
+      "valid": true,
+      "is_outlap": true,
+      "sectors": {
+        "S1": 38.4,
+        "S2": 26.0,
+        "S3": 34.883
+      },
+      "corners": {
+        "Triple Gauche": 14.883,
+        "Virage du Pont": 8.167,
+        "La Carrierasse": 6.1,
+        "La Courmelle": 5.583,
+        "Virage du Camion": 3.283,
+        "Le Cavalet": 6.683,
+        "La servie": 8.767,
+        "La cuvette": 6.1
+      }
+    },
+    {
+      "lap_number": 2,
+      "lap_time": 100.083,
+      "lap_time_formatted": "1:40.083",
+      "start_idx": 6437,
+      "end_idx": 12443,
+      "samples": 6006,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 39.067,
+        "S2": 26.55,
+        "S3": 34.45
+      },
+      "corners": {
+        "Triple Gauche": 21.967,
+        "Virage du Pont": 7.5,
+        "La Carrierasse": 6.167,
+        "La Courmelle": 5.65,
+        "Virage du Camion": 3.317,
+        "Le Cavalet": 7.0,
+        "La servie": 8.5,
+        "La cuvette": 6.033
+      }
+    },
+    {
+      "lap_number": 3,
+      "lap_time": 88.683,
+      "lap_time_formatted": "1:28.683",
+      "start_idx": 12443,
+      "end_idx": 17763,
+      "samples": 5320,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 28.85,
+        "S2": 26.0,
+        "S3": 33.817
+      },
+      "corners": {
+        "Triple Gauche": 11.983,
+        "Virage du Pont": 7.45,
+        "La Carrierasse": 6.133,
+        "La Courmelle": 5.567,
+        "Virage du Camion": 3.3,
+        "Le Cavalet": 6.667,
+        "La servie": 8.35,
+        "La cuvette": 5.7
+      }
+    },
+    {
+      "lap_number": 4,
+      "lap_time": 95.017,
+      "lap_time_formatted": "1:35.017",
+      "start_idx": 17763,
+      "end_idx": 23464,
+      "samples": 5701,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 28.9,
+        "S2": 30.833,
+        "S3": 35.267
+      },
+      "corners": {
+        "Triple Gauche": 11.883,
+        "Virage du Pont": 7.383,
+        "La Carrierasse": 10.6,
+        "La Courmelle": 6.017,
+        "Virage du Camion": 3.217,
+        "Le Cavalet": 6.633,
+        "La servie": 8.65,
+        "La cuvette": 5.817
+      }
+    },
+    {
+      "lap_number": 5,
+      "lap_time": 89.183,
+      "lap_time_formatted": "1:29.183",
+      "start_idx": 23464,
+      "end_idx": 28815,
+      "samples": 5351,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 29.033,
+        "S2": 25.8,
+        "S3": 34.333
+      },
+      "corners": {
+        "Triple Gauche": 12.033,
+        "Virage du Pont": 7.35,
+        "La Carrierasse": 6.017,
+        "La Courmelle": 5.583,
+        "Virage du Camion": 3.233,
+        "Le Cavalet": 6.6,
+        "La servie": 8.417,
+        "La cuvette": 6.017
+      }
+    },
+    {
+      "lap_number": 6,
+      "lap_time": 88.467,
+      "lap_time_formatted": "1:28.467",
+      "start_idx": 28815,
+      "end_idx": 34123,
+      "samples": 5308,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 28.617,
+        "S2": 25.8,
+        "S3": 34.033
+      },
+      "corners": {
+        "Triple Gauche": 11.9,
+        "Virage du Pont": 7.317,
+        "La Carrierasse": 5.933,
+        "La Courmelle": 5.65,
+        "Virage du Camion": 3.233,
+        "Le Cavalet": 6.6,
+        "La servie": 8.517,
+        "La cuvette": 5.8
+      }
+    },
+    {
+      "lap_number": 7,
+      "lap_time": 87.883,
+      "lap_time_formatted": "1:27.883",
+      "start_idx": 34123,
+      "end_idx": 39396,
+      "samples": 5273,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 28.583,
+        "S2": 25.533,
+        "S3": 33.75
+      },
+      "corners": {
+        "Triple Gauche": 11.85,
+        "Virage du Pont": 7.383,
+        "La Carrierasse": 5.983,
+        "La Courmelle": 5.6,
+        "Virage du Camion": 3.217,
+        "Le Cavalet": 6.4,
+        "La servie": 8.333,
+        "La cuvette": 5.667
+      }
+    },
+    {
+      "lap_number": 8,
+      "lap_time": 87.767,
+      "lap_time_formatted": "1:27.767",
+      "start_idx": 39396,
+      "end_idx": 44662,
+      "samples": 5266,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 28.467,
+        "S2": 25.7,
+        "S3": 33.583
+      },
+      "corners": {
+        "Triple Gauche": 11.783,
+        "Virage du Pont": 7.267,
+        "La Carrierasse": 5.933,
+        "La Courmelle": 5.583,
+        "Virage du Camion": 3.2,
+        "Le Cavalet": 6.65,
+        "La servie": 8.383,
+        "La cuvette": 5.6
+      }
+    },
+    {
+      "lap_number": 9,
+      "lap_time": 87.6,
+      "lap_time_formatted": "1:27.600",
+      "start_idx": 44662,
+      "end_idx": 49918,
+      "samples": 5256,
+      "valid": true,
+      "is_outlap": false,
+      "sectors": {
+        "S1": 28.4,
+        "S2": 25.55,
+        "S3": 33.633
+      },
+      "corners": {
+        "Triple Gauche": 11.75,
+        "Virage du Pont": 7.3,
+        "La Carrierasse": 5.95,
+        "La Courmelle": 5.583,
+        "Virage du Camion": 3.25,
+        "Le Cavalet": 6.45,
+        "La servie": 8.3,
+        "La cuvette": 5.75
+      }
+    }
+  ],
+  "sectors": {
+    "S1": {
+      "best": 28.4,
+      "worst": 39.067,
+      "avg": 29.99,
+      "sigma": 3.674,
+      "loss_per_lap": 1.59
+    },
+    "S2": {
+      "best": 25.533,
+      "worst": 30.833,
+      "avg": 26.471,
+      "sigma": 1.792,
+      "loss_per_lap": 0.938
+    },
+    "S3": {
+      "best": 33.583,
+      "worst": 35.267,
+      "avg": 34.108,
+      "sigma": 0.564,
+      "loss_per_lap": 0.525
+    }
+  },
+  "corners": {
+    "Triple Gauche": {
+      "best": 11.75,
+      "worst": 21.967,
+      "avg": 13.144,
+      "sigma": 3.566,
+      "variance_rating": "lottery"
+    },
+    "Virage du Pont": {
+      "best": 7.267,
+      "worst": 7.5,
+      "avg": 7.369,
+      "sigma": 0.078,
+      "variance_rating": "dialed"
+    },
+    "La Carrierasse": {
+      "best": 5.933,
+      "worst": 10.6,
+      "avg": 6.59,
+      "sigma": 1.623,
+      "variance_rating": "lottery"
+    },
+    "La Courmelle": {
+      "best": 5.567,
+      "worst": 6.017,
+      "avg": 5.654,
+      "sigma": 0.15,
+      "variance_rating": "solid"
+    },
+    "Virage du Camion": {
+      "best": 3.2,
+      "worst": 3.317,
+      "avg": 3.246,
+      "sigma": 0.042,
+      "variance_rating": "dialed"
+    },
+    "Le Cavalet": {
+      "best": 6.4,
+      "worst": 7.0,
+      "avg": 6.625,
+      "sigma": 0.18,
+      "variance_rating": "solid"
+    },
+    "La servie": {
+      "best": 8.3,
+      "worst": 8.65,
+      "avg": 8.431,
+      "sigma": 0.117,
+      "variance_rating": "solid"
+    },
+    "La cuvette": {
+      "best": 5.6,
+      "worst": 6.033,
+      "avg": 5.798,
+      "sigma": 0.157,
+      "variance_rating": "solid"
+    }
+  }
+}
